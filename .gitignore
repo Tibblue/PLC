@@ -1,0 +1,5 @@
+# PLC ignores
+**/node_modules/
+**/mongoData/
+**/\.antlr/
+
