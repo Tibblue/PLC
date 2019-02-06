@@ -1,0 +1,2 @@
+O/ART judoca/N luso/ADJ André_Santos/NENT está/V de/PREP baixa/N ./.
+O/ART carro/N do/PREP+ART André_Santos/NENT foi/V para/PREP o/ART mecânico/N ./.

@@ -1,0 +1,52 @@
+<!doctype html>
+    <head>
+        <title>Periodic Words</title>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename = 'style.css') }}">
+    </head>
+<body>
+    <div class="wrapper">
+        <h1>Periodic Words</h1>
+    </div>
+    <br>
+    <br>
+    {% for (pal,line) in lines %} 
+    <div class="wrapper_a">
+        {% if not line %}
+        <h3 align="left" >{{ pal }}</h3> 
+        <hr>
+        <br>
+        <div class="box">
+            <div class="center">
+                <h2>No match found</h2>
+            </div>
+        </div>
+        {% else: %}
+        <div class="border d-table w-100">
+            <h3 align="left">{{ pal }}</h3> 
+            <div class="d-table-cell tar">
+                <form action="{{ url_for('download_img') }}" method="post">
+                    <button  name="downloadBtn" type="submit" class="btn" value="{{ (pal,line) }}">
+                            <i class="fa fa-download"></i> Download
+                    </button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <br>
+
+        {% for (word, elem) in line %}
+        <a href="https://pt.wikipedia.org/wiki/{{ elem }}">
+            <img src="{{ word }}" />
+        </a>
+
+        {% endfor %}
+        {% endif %}
+        <br>
+        <br>
+    </div>
+    <br>
+   {% endfor %}
+</body>

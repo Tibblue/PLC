@@ -1,0 +1,142 @@
+body {
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('/uploads/result.png');
+    background-repeat: repeat;
+    background-size: 700px;
+    font-family: 'Open Sans';
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Lobster';
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: black;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    padding: 20px 50px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 17px 15px 25px -3px rgba(0,0,0,0.26);
+    -moz-box-shadow: 17px 15px 25px -3px rgba(0,0,0,0.26);
+    box-shadow: 17px 15px 25px -3px rgba(0,0,0,0.26);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.wrapper_a {
+    padding: 4px 50px;
+    background-color: white;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    -webkit-box-shadow: 17px 15px 25px -3px rgba(0,0,0,0.26);
+    -moz-box-shadow: 17px 15px 25px -3px rgba(0,0,0,0.26);
+    box-shadow: 17px 15px 25px -3px rgba(0,0,0,0.26);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.filePlace {
+    width: 25vw;
+    height: 5vh;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    opacity: 1;
+    border: 1px solid black;
+}
+            
+.fileP {
+    width: 23vw;
+    background-color: white;
+    color: black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+            
+.sButton {
+    background-color: green;
+    color: white;
+    border: 0;
+    width: 3vw;
+    height: 5vh;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.box {
+    margin: 0 auto;
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.btn {
+    background-color: #1E90FF;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.d-table {
+    display: table !important;
+}
+
+.d-table-cell {
+    display:table-cell !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.tar {
+    text-align: right !important;
+}

@@ -1,0 +1,170 @@
+================ match ===============
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+	"query": {
+		"match": { 
+			"Titulo":"Negócios Ampliam"
+		}
+	},
+	"highlight": { 
+		"pre_tags":["<strong>"], 
+		"post_tags": ["</strong>"],
+ 		"fields": {
+			"Titulo": {}
+		}
+	} 
+}'
+
+================ match_phrase ===============
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+	"query": {
+		"match_phrase": { 
+			"Titulo":"Negócios Ampliam"
+		}
+	},
+	"highlight": { 
+		"pre_tags":["<strong>"], 
+		"post_tags": ["</strong>"],
+ 		"fields": {
+			"Titulo": {}
+		}
+	} 
+}'
+================ match_phrase_prefix ===============
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+	"query": {
+		"match_phrase_prefix": { 
+			"Titulo":"Negócios Amp"
+		}
+	},
+	"highlight": { 
+ 		"fields": {
+			"Titulo": {}
+		}
+	} 
+}'
+
+================ multi_match =============
+
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+	"query": {
+		"multi_match": {
+			"query" : "Negócios Ampliam",
+			"fields" : ["Titulo", "Antetitulo"]
+		}
+	},
+	"highlight": { 
+ 		"fields": {
+			"Titulo": {},
+			"Antetitulo": {}
+		}
+	} 
+}'
+
+============== common_terms ============ 
+"low_freq_operator": "and" #isto faz que com que tenham de estar as duas palavras "Negócios" e "Ampliam"
+
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+ 	"query": {
+        "common" : {
+            "Titulo" : {
+                "query": "Negócios Ampliam",
+                "cutoff_frequency": 0.001, 
+                "low_freq_operator": "and"
+            }
+        }
+    },
+	"highlight": { 
+ 		"fields": {
+			"Titulo": {},
+		}
+	} 
+}'
+
+
+============== query_string ============ 
+
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+ 	"query": {
+ 	    "query_string" : {
+             "query": "Negócios AND Ampliam",
+              "fields": ["Titulo", "Antetitulo"]
+        }
+    },
+	"highlight": { 
+ 		"fields": {
+			"Titulo": {},
+			"Antetitulo": {}
+		}
+	} 
+}'
+
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+ 	"query": {
+ 	    "query_string" : {
+             "query": "Negócios OR Ampliam",
+              "fields": ["Titulo", "Antetitulo"]
+        }
+    },
+	"highlight": { 
+ 		"fields": {
+			"Titulo": {},
+			"Antetitulo": {}
+		}
+	} 
+}'
+
+
+#A mostrar os wildcards
+# tbm aceita regular expressions
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+ 	"query": {
+ 	    "query_string" : {
+             "query": "Neg?cios AND Amp*",
+              "fields": ["Titulo", "Antetitulo"]
+        }
+    },
+	"highlight": { 
+ 		"fields": {
+			"Titulo": {},
+			"Antetitulo": {}
+		}
+	} 
+}'
+
+
+
+============== simple_query_string ============ 
+#neste exemplo tem que ter Negócios mas nao pode ter Ampliam
+
++ signifies AND operation
+| signifies OR operation
+- negates a single token
+" wraps a number of tokens to signify a phrase for searching
+* at the end of a term signifies a prefix query
+( and ) signify precedence
+~N after a word signifies edit distance (fuzziness)
+~N after a phrase signifies slop amount 
+
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+ 	"query": {
+ 	    "simple_query_string" : {
+             "query": "Negócios -Ampliam",
+              "fields": ["Titulo", "Antetitulo"]
+        }
+    },
+	"highlight": { 
+ 		"fields": {
+			"Titulo": {},
+			"Antetitulo": {}
+		}
+	} 
+}'
