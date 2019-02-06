@@ -1,0 +1,39 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+                h3 Registo de Tese
+            form.w3-container(action="/", method="GET")
+                input.w3-button.w3-dark-gray.w3-hover-blue(type="submit", value="Página Inicial")
+            .w3-container
+                form.w3-container(action="/processaForm", method="POST")
+                    label.w3-text-black
+                        b Nome
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="nome")
+                    label.w3-text-black
+                        b Numero / ID
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="id")
+                    label.w3-text-black
+                        b Curso
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="curso")
+                    label.w3-text-black
+                        b Instituição
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="instituicao")
+                    label.w3-text-black
+                        b Titulo
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="titulo")
+                    label.w3-text-black
+                        b Data
+                    input.w3-input.w3-border.w3-light-grey(type="date", name="data")
+                    label.w3-text-black
+                        b Tipo
+                    .w3-container
+                        input.w3-radio(type="radio", name="tipo", value="Mestrado" checked)#mest
+                        label(for="mest") Mestrado
+                    .w3-container
+                        input.w3-radio(type="radio", name="tipo", value="Douturamento")#dout
+                        label(for="dout") Douturamento
+                    input.w3-button.w3-dark-gray.w3-hover-blue(type="submit", value="Enviar")
+            footer.w3-container.w3-blue
+                address Gerado por KIKO

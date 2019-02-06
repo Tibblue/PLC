@@ -1,0 +1,22 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-grey
+                h3 Arqueossitios do NW Portugues
+            .w3-container
+                table.w3-table.w3-bordered
+                    tr
+                        th Concelho
+                        th Lista de arqueossitios
+                    each c in ind.arqsits.concelho
+                        tr
+                            td= c.designacao
+                            td
+                                ul
+                                    each a in c.arqsits.arqelem
+                                        li
+                                            a(href='http://localhost:5000/arqelem/'+a.id)= a.designacao
+            footer.w3-container.w3-light-grey
+                address Gerado por ArqSitsApp by KKKK        

@@ -1,0 +1,371 @@
+
+        {
+        "_id": "m119",
+        
+            "pasta": "RoquePortugues",
+        
+  
+        "titulo": "Roque em Português",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Luís Cardoso",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "RoquePortugues-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "RoquePortugues-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "RoquePortugues-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "RoquePortugues-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "RoquePortugues-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "RoquePortugues-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "RoquePortugues-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "RoquePortugues-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "RoquePortugues-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "RoquePortugues-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "RoquePortugues-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,  
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "RoquePortugues-fagote2.pdf"
+        , "voz": "II"
+        }}
+        , 
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "RoquePortugues-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "RoquePortugues-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "RoquePortugues-flautim.pdf"
+        
+        }}
+        ,  
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "RoquePortugues-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "RoquePortugues-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "RoquePortugues-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "RoquePortugues-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "RoquePortugues-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "RoquePortugues-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "RoquePortugues-percussao4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "RoquePortugues-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "RoquePortugues-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "RoquePortugues-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "RoquePortugues-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "RoquePortugues-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "RoquePortugues-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone1-fa-sib.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone2-fa-sib.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone3-fa-sib.pdf"
+        , "voz": "III", "clave": "Fá", "afinacao": "Sib"
+        }}
+        , 
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone1-sol-sib.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone2-sol-sib.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "RoquePortugues-trombone3-sol-sib.pdf"
+        , "voz": "III", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "RoquePortugues-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "RoquePortugues-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "RoquePortugues-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "RoquePortugues-trompa1-mib.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "RoquePortugues-trompa2-mib.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "RoquePortugues-trompa3-mib.pdf"
+        , "voz": "III", "afinacao": "Mib"
+        }}
+        ,    
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "RoquePortugues-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "RoquePortugues-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "RoquePortugues-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "RoquePortugues-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "RoquePortugues-tuba-sol-mib.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "RoquePortugues-tuba-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "RoquePortugues-tuba-fa-mib.pdf"
+        , "clave": "Fá", "afinacao": "Mib"
+        }}
+        
+  ]
+    
+}
+    

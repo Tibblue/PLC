@@ -1,0 +1,329 @@
+
+        {
+        "_id": "m83",
+        
+            "pasta": "Inferno",
+        
+      
+        "titulo": "O Inferno",
+    
+      
+        "subtitulo": "A Divina Comédia - poema sinfónico",
+    
+      
+        "compositor": "C. San Fiorenzo",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "Inferno-caixa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "Inferno-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Inferno-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Inferno-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Inferno-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Inferno-clarinete3a.pdf"
+        , "voz": "IIIa"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Inferno-clarinete3b.pdf"
+        , "voz": "IIIb"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Inferno-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Inferno-eufonio1-fa-sib.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Inferno-eufonio1-sol-sib.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Inferno-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Inferno-eufonio2-fa-sib.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Inferno-eufonio2-sol-sib.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Inferno-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Inferno-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Inferno-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Inferno-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "Inferno-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "Inferno-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Inferno-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Inferno-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Inferno-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Inferno-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Inferno-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Inferno-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Inferno-saxA1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Inferno-saxA1comp.pdf"
+        , "voz": "I (completa)"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Inferno-saxA1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Inferno-saxA2comp.pdf"
+        , "voz": "II (completa)"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Inferno-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "Inferno-saxS.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Inferno-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "Inferno-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Inferno-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Inferno-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Inferno-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Inferno-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Inferno-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Inferno-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Inferno-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Inferno-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Inferno-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Inferno-tuba.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Inferno-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+      ]
+    
+   }
+    

@@ -1,0 +1,203 @@
+
+        {
+        "_id": "m47",
+        
+            "pasta": "BailarNespereira",
+        
+      
+        "titulo": "Bailar em Nespereira",
+    
+      
+        "tipo": "Rapsódia",
+    
+      
+        "compositor": "Valdemar Sequeira",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "BailarNespereira-maestro.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "BailarNespereira-bombo-pratos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "BailarNespereira-bombo-pratos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "BailarNespereira-caixa.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "BailarNespereira-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "BailarNespereira-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "BailarNespereira-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "BailarNespereira-contrabaixo.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "BailarNespereira-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "BailarNespereira-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+        
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "BailarNespereira-flauta.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "BailarNespereira-oboe.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "BailarNespereira-requinta.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "BailarNespereira-saxB.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "BailarNespereira-saxS.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "BailarNespereira-saxT.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "BailarNespereira-timpanos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "BailarNespereira-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "BailarNespereira-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "BailarNespereira-trompa1-mib.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "BailarNespereira-trompa2-mib.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "BailarNespereira-trompa3-mib.pdf"
+        , "voz": "III", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "BailarNespereira-trompete1.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "BailarNespereira-trompete2.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "BailarNespereira-trompete3.pdf"
+        , "voz": "III", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "BailarNespereira-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

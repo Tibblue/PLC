@@ -1,0 +1,205 @@
+
+            {"id": "m5",
+             "titulo": "Holiday in Rio",
+             "tipo": "Marcha de Concerto/Pasodoble"
+            
+                , "compositor": "W. Scneider - Argenbuhl"
+            
+                , "arranjo": "S. MacMillan"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "Bombo",
+                    
+                    "path": "HolidayRio-bombo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete Baixo",
+                    
+                    "path": "HolidayRio-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "Ia",
+                    
+                    "path": "HolidayRio-clarinete1-A.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "Ib",
+                    
+                    "path": "HolidayRio-clarinete1-B.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "HolidayRio-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "HolidayRio-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Congas",
+                    
+                    "path": "HolidayRio-congas.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                    "path": "HolidayRio-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                    "path": "HolidayRio-flauta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Pandeireta",
+                    
+                    "path": "HolidayRio-pandeireta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "I",
+                    
+                    "path": "HolidayRio-percussao1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "II",
+                    
+                    "path": "HolidayRio-percussao2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                    "path": "HolidayRio-saxA.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "HolidayRio-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                    "path": "HolidayRio-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "HolidayRio-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "HolidayRio-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "HolidayRio-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "HolidayRio-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "HolidayRio-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "HolidayRio-trompa3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "HolidayRio-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "HolidayRio-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "HolidayRio-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "IV",
+                    
+                    "path": "HolidayRio-trompete4.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "HolidayRio-tuba-sol.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

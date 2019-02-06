@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="manifestoObra.xsd">
+    <meta>
+        <utilizador>USER123</utilizador>
+    </meta>
+    <json>
+        <titulo>TITULO</titulo>
+        <tipo>TIPO</tipo>
+        <compositor>COMPOSITOR</compositor>
+        <arranjo></arranjo>
+        <instrumentos>
+            <nome>MAESTRO</nome>
+            <partitura>
+                <path>CMistico-maestro.pdf</path>
+                <voz>VOZ</voz>
+                <clave>CLAVE</clave>
+                <afinacao>AFINACAO</afinacao>
+            </partitura>
+        </instrumentos>
+        <instrumentos>
+            <nome>SAX</nome>
+            <partitura>
+                <path>PDF2.pdf</path>
+            </partitura>
+        </instrumentos>
+    </json>
+    <files>
+        <path>instrumentos/CMistico-maestro.pdf</path>
+        <path>instrumentos/PDF2.pdf</path>
+    </files>
+</manifesto>

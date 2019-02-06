@@ -1,0 +1,225 @@
+
+            {"id": "m3",
+             "titulo": "1989",
+             "tipo": "Marcha de Desfile"
+            
+                , "compositor": "A. Morais"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "All",
+                    
+                    "path": "1989-all.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Bombo",
+                    
+                    "path": "1989-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Pratos",
+                    
+                    "path": "1989-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete Baixo",
+                    
+                    "path": "1989-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "1989-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "1989-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "1989-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Dó",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "1989-eufonio-fa-do.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "1989-eufonio-sol.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                    "path": "1989-flauta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Lira",
+                    
+                    "path": "1989-lira.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Maestro",
+                    
+                    "path": "1989-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Requinta",
+                    
+                    "path": "1989-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "1989-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "1989-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "1989-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Soprano",
+                    
+                    "path": "1989-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                    "path": "1989-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tarola",
+                    
+                    "path": "1989-tarola.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "1989-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "1989-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "1989-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "1989-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "1989-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "1989-trompa3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "1989-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "1989-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "1989-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "1989-tuba-sol.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

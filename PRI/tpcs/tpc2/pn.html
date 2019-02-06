@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<link rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+		<meta name="author" content="Tomás Ferreira" />
+		<link rel="stylesheet" href="/stylesheets/bootstrap-theme.min.css" />
+		<link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
+		<link href="/stylesheets/dashboard.css" rel="stylesheet" />
+		<link href="/stylesheets/theme.css" rel="stylesheet" />
+		<link href="/stylesheets/signin.css" rel="stylesheet" />
+		<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" />
+		<link rel="icon"
+			href="https://cdn1.iconfinder.com/data/icons/dotted-charts/512/links_diagram-128.png" />
+		<title>M51-CLAV - Dados de classe</title>
+	</head>
+	<body data-spy="scroll" data-target=".scrollspy" style="padding-bottom:0px">
+		<div class="topbarfixoverlap">
+			<nav
+				class="navbar navbar-inverse navbar-default navbar-static-top nav-top-custom-style customnav">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<!--button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')span.sr-only Toggle navigation
+span.icon-bar
+span.icon-bar
+span.icon-bar-->
+						<!--button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#users', aria-expanded='false', aria-controls='users')span.sr-only Toggle authentication
+span.glyphicon.glyphicon-user(style="color white")-->
+						<a class="navbar-brand" href="/" data-toggle="tooltip"
+							data-placement="bottom" title="Voltar à página inicial">
+							<span class="glyphicon glyphicon-home"
+								style="color: white; padding-right:10px"> </span>CLAV</a>
+					</div>
+					<!--collapsable on mobile, fixed in desktop-->
+					<div class="navbar-collapse collapse" id="navbartop">
+						<ul class="nav navbar-nav navbar-left">
+							<li v-for="(linha,index) in linhas" style="linha.style">
+								<a href="linha.consultar">{{linha.valor}}</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown"
+									role="button" aria-expanded="false">Login <span class="caret"
+									> </span>
+								</a>
+								<form class="dropdown-menu" role="menu" action="/auth/login"
+									method="post">
+									<input class="form-control" id="email" name="username"
+										type="text" placeholder="Email" required="" />
+									<input class="form-control" id="password" name="password"
+										type="password" placeholder="Password" required="" />
+									<input type="hidden" value="location" name="location" />
+									<button class="btn btn-block" type="submit">Login</button>
+								</form>
+							</li>
+							<!--lia(href='/users/registar') Registar
+-->
+						</ul>
+					</div>
+					<!--collapsable, only appears on mobile		-->
+					<div class="collapse" id="navbar"> </div>
+				</div>
+			</nav>
+		</div>
+		<div class="row">
+			<div class="container-fluid">
+				<div class="row">
+					<!--does not appear on mobile-->
+					<div class="col-sm-3 col-md-2 sidebar"
+						style="padding-bottom:60px; position:fixed; height:100%; top:0px; padding-top:71px; z-index:-1">
+						<div style="position:relative">
+							<div id="sidebar-tabela-classes">
+								<custom-table-waterfall class="sidebar-nav-table" v-if="ready"
+									filter-on="true" sidebar="true" complete-rows="tableData"
+									n-edits="nEdits" row-clicked="rowClicked($event)"></custom-table-waterfall>
+								<h4>A carregar...</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main"
+						style="position:absolute;padding-top:0; padding-bottom:70px; left:0px">
+						<h3> </h3>
+						<div class="panel panel-default panel-custom" id="classe-form">
+							<div class="panel-heading">
+								<h3 class="page-header">
+									<div>{{ clas.Code }} - {{ clas.Title }} </div>
+								</h3>
+							</div>
+							<div class="panel-body">
+								<div class="form-group">
+									<table class="consulta" v-if="pageReady"
+										style="border-color: white; border-style:solid; margin-bottom:20px">
+										<tr>
+											<td style="width: 10%">
+												<div class="info-label">Estado: </div>
+											</td>
+											<td style="width:80%" valign="center">{{
+												clas.Status=="A" ? "Ativo" : (clas.Status=="H" ?
+												"Harmonização" : "Inativo") }} </td>
+										</tr>
+										<tr v-if="clas.Level&gt;1">
+											<td style="width: 10%">
+												<div class="info-label">Classe Pai: </div>
+											</td>
+											<td style="width:80%">
+												<a href="'/classes/consultar/'+clas.Parent.id">{{
+												clas.Parent.code }}</a> - {{ clas.Parent.title
+												}}</td>
+										</tr>
+										<tr v-if="clas.Level&lt;4 &amp;&amp; clas.Children">
+											<td style="width: 10%">
+												<div class="info-label">Descendência: </div>
+											</td>
+											<td style="width:80%">
+												<ul style="padding-left:20px">
+												<li v-for="child in clas.Children">
+												<a href="'/classes/consultar/c'+child.Code">{{
+												child.Code }}</a> - {{ child.Title }}</li>
+												</ul>
+											</td>
+										</tr>
+										<tr>
+											<td style="width: 10%">
+												<div class="info-label">Código: </div>
+											</td>
+											<td style="width:80%">{{ clas.Code }} </td>
+										</tr>
+										<tr>
+											<td style="width: 10%">
+												<div class="info-label">Título: </div>
+											</td>
+											<td style="width:80%">{{ clas.Title }} </td>
+										</tr>
+									</table>
+									<accordion class="info-classe">
+										<panel header="Descritivo da Classe">
+											<table class="consulta" v-if="pageReady"
+												style="border-color: white; border-style:solid">
+												<tr>
+												<td style="width: 10%">
+												<div class="info-label">Descrição: </div>
+												</td>
+												<td style="width:80%">{{ clas.Desc }} </td>
+												</tr>
+												<tr>
+												<td style="width: 10%">
+												<div class="info-label">Nota(s) de
+												Aplicação:</div>
+												</td>
+												<td style="width:80%">
+												<ul style="padding-left:20px" v-if="appNotesReady">
+												<li v-for="note in clas.AppNotes"
+												>{{note.Nota}}</li>
+												</ul>
+												</td>
+												</tr>
+												<tr>
+												<td style="width: 10%">
+												<div class="info-label">Exemplo(s) de Nota(s) de
+												Aplicação:</div>
+												</td>
+												<td style="width:80%">
+												<ul style="padding-left:20px"
+												v-if="exAppNotesReady">
+												<li v-for="note in clas.ExAppNotes"
+												>{{note.Exemplo}}</li>
+												</ul>
+												</td>
+												</tr>
+												<tr>
+												<td style="width: 10%">
+												<div class="info-label">Nota(s) de Exclusão:</div>
+												</td>
+												<td style="width:80%">
+												<ul style="padding-left:20px" v-if="delNotesReady">
+												<li v-for="note in clas.DelNotes">
+												<span v-html="note.Nota"> </span>
+												</li>
+												</ul>
+												</td>
+												</tr>
+												<tr v-if="clas.Level&gt;=3">
+												<td style="width: 10%">
+												<div class="info-label">Termos de Índice:</div>
+												</td>
+												<td style="width:80%">
+												<ul style="padding-left:20px">
+												<li v-for="index in clas.Indexes">{{ index.Termo
+												}}</li>
+												</ul>
+												</td>
+												</tr>
+											</table>
+										</panel>
+										<panel header="Contexto de Avaliação"
+											v-if="clas.Level&gt;=3">
+											<table class="consulta" v-if="pageReady"
+												style="border-color: white; border-style:solid; width:100%">
+												<tr>
+												<td colspan="2">
+												<table class="noborder">
+												<td style="width: 50%">
+												<table>
+												<td style="width: 10%">
+												<div class="info-label">Tipo de Processo: </div>
+												</td>
+												<td style="width:80%">{{ clas.ProcType }} </td>
+												</table>
+												</td>
+												<td style="width: 50%">
+												<table>
+												<td style="width: 10%">
+												<div class="info-label">Processo Transversal:
+												</div>
+												</td>
+												<td style="width:80%">{{ clas.ProcTrans=="S" ?
+												"Sim" : "Não" }} </td>
+												</table>
+												</td>
+												</table>
+												</td>
+												</tr>
+												<tr>
+												<td style="width: 10%">
+												<div class="info-label">Donos:</div>
+												</td>
+												<td style="width:80%">
+												<ul v-if="ownersReady" style="padding-left:20px">
+												<li v-for="o in clas.Owners">
+												<a
+												href="o.id.startsWith('tip') ? '/tipologias/consultar/'+o.id : '/entidades/consultar/'+o.id"
+												>{{ o.Sigla }}</a> - {{ o.Designacao }}</li>
+												</ul>
+												</td>
+												</tr>
+												<tr v-if="clas.ProcTrans=='S'">
+												<td style="width: 10%">
+												<div class="info-label">Tipo de intervenção do(s)
+												Participante(s):</div>
+												</td>
+												<td style="width:80%">
+												<ul v-if="relProcsReady" style="padding-left:20px">
+												<li v-for="key in Object.keys(clas.Participants)"
+												v-if="clas.Participants[key].length&gt;0">
+												<b>{{participationsDic[key]}}:</b>
+												<ul>
+												<li v-for="p in clas.Participants[key]">
+												<a
+												href="p.id.startsWith('tip') ? '/tipologias/consultar/'+p.id : '/entidades/consultar/'+p.id"
+												>{{ p.Sigla }}</a> - {{ p.Designacao }}</li>
+												</ul>
+												</li>
+												</ul>
+												</td>
+												</tr>
+												<tr>
+												<td style="width: 10%">
+												<div class="info-label">Processo(s)
+												Relacionado(s):</div>
+												</td>
+												<td style="width:80%">
+												<ul v-if="relProcsReady" style="padding-left:20px">
+												<li v-for="key in Object.keys(clas.RelProcs)"
+												v-if="clas.RelProcs[key].length&gt;0">
+												<b>É {{ key }}</b>
+												<ul>
+												<li v-for="c in clas.RelProcs[key]">
+												<a href="'/classes/consultar/'+c.id">{{ c.Code
+												}}</a> - {{ c.Title }}</li>
+												</ul>
+												</li>
+												</ul>
+												</td>
+												</tr>
+												<tr>
+												<td style="width: 10%">
+												<div class="info-label">Legislação:</div>
+												</td>
+												<td style="width:80%">
+												<ul v-if="legsReady" style="padding-left:20px">
+												<li v-for="l in clas.Legs">{{ l.Tipo }} - <a
+												href="'/legislacao/consultar/'+l.id">{{ l.Número
+												}} </a>- {{ l.Titulo }}</li>
+												</ul>
+												</td>
+												</tr>
+											</table>
+										</panel>
+										<panel header="Decisões de Avaliação"
+											v-if="(clas.Level==3)&amp;&amp;(clas.Children)"
+											>Consultar as decisões de avaliação nas classes
+												descendentes:<ul style="padding-left:20px">
+												<li v-for="child in clas.Children">
+												<a href="'/classes/consultar/c'+child.Code">{{
+												child.Code }}</a> - {{ child.Title }}</li>
+											</ul>
+										</panel>
+										<panel header="Decisões de Avaliação"
+											v-else-if="clas.Level&gt;=3">
+											<table class="consulta noborder" v-if="pageReady"
+												style="border-color: white; border-style:solid">
+												<tr v-if="clas.PCA.valores.length">
+												<td>
+												<div class="info-label" style="text-align:center"
+												>Prazo de Conservação Administrativa</div>
+												</td>
+												</tr>
+												<tr v-if="clas.PCA.valores.length">
+												<td>
+												<table class="noborder">
+												<tr>
+												<td width="125px">
+												<div class="info-label">Prazo:</div>
+												</td>
+												<td style="width:150px">{{
+												clas.PCA.valores.join(', ') }}</td>
+												<td style="padding-left:10px" width="170px">
+												<div class="info-label">Forma de Contagem:</div>
+												</td>
+												<td>{{ clas.PCA.contagemnormalizada }}</td>
+												</tr>
+												<tr
+												v-if="clas.PCA.contagemnormalizada=='Conforme disposição legal'">
+												<td>
+												<div class="info-label">Sub-forma de
+												Contagem:</div>
+												</td>
+												<td colspan="5">{{ clas.PCA.subContagem }}</td>
+												</tr>
+												<tr>
+												<td>
+												<div class="info-label">Justificação:</div>
+												</td>
+												<td colspan="5">
+												<table
+												v-for="(criterio,index) in clas.PCA.criterios">
+												<tr>
+												<td>
+												<b>{{ criterio.tipo }}</b>
+												</td>
+												</tr>
+												<tr>
+												<td>
+												<p v-html="criterio.nota"> </p>
+												</td>
+												</tr>
+												</table>
+												</td>
+												</tr>
+												</table>
+												</td>
+												</tr>
+												<tr v-if="clas.DF.valores.length">
+												<td>
+												<div class="info-label" style="text-align:center">
+												Destino Final</div>
+												</td>
+												</tr>
+												<tr v-if="clas.DF.valores.length">
+												<td>
+												<table class="noborder">
+												<tr>
+												<td width="120px">
+												<div class="info-label">Destino:</div>
+												</td>
+												<td colspan="4">{{ clas.DF.valores.join(', ') }}
+												</td>
+												</tr>
+												<tr>
+												<td>
+												<div class="info-label">Justificação:</div>
+												</td>
+												<td colspan="5">
+												<table
+												v-for="(criterio,index) in clas.DF.criterios">
+												<tr>
+												<td>
+												<b>{{ criterio.tipo }}</b>
+												</td>
+												</tr>
+												<tr>
+												<td>
+												<p v-html="criterio.nota"> </p>
+												</td>
+												</tr>
+												</table>
+												</td>
+												</tr>
+												</table>
+												</td>
+												</tr>
+											</table>
+										</panel>
+										<panel header="Notas" v-if="clas.Notas"> </panel>
+									</accordion>
+								</div>
+								<spinner ref="spinner" size="lg" text="Por favor aguarde..."
+								></spinner>
+							</div>
+						</div>
+					</div>
+					<div id="message">
+						<modal title="Atenção!" value="modalMsgShow" closed="modalMsgShow=false">
+							<div class="modal-body" slot="modal-body">
+								<center>{{modalMsg}}</center>
+							</div>
+							<div class="modal-footer" slot="modal-footer">
+								<button click="modalMsgShow=false">Ok</button>
+							</div>
+						</modal>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<table>
+				<tr>
+					<td width="30%">
+						<a href="http://dglab.gov.pt/" target="_blank">DGLAB - Direção-Geral do
+							Livro, dos Arquivos e das Bibliotecas</a>
+					</td>
+					<!--tda(href="#") + Informações-->
+					<!--tda(href="#") Perguntas Frequentes-->
+					<td>
+						<a href="mailto:clav@dglab.gov.pt" data-toggle="tooltip"
+							data-placement="top" title="clav@dglab.gov.pt">Contactos</a>
+					</td>
+					<!--tda(href="#") Mapa do Site
+
+-->
+				</tr>
+			</table>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+</script>
+		<script src="/javascripts/base/vue.min.js">
+</script>
+		<script src="/javascripts/base/vue-resource.js">
+</script>
+		<script src="/javascripts/base/vue-select.js">
+</script>
+		<script src="/javascripts/base/vue-strap.js">
+</script>
+		<script src="/javascripts/base/axios.min.js">
+</script>
+		<script src="/javascripts/base/lodash.min.js">
+</script>
+		<script src="/javascripts/components.vue">
+</script>
+		<script src="/javascripts/layout.vue">
+</script>
+		<script>
+	$(document).ready($(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	}))
+</script>
+		<script src="/javascripts/classes/consulta.vue">
+</script>
+		<script src="/javascripts/classes/consulta-sidebar.vue">
+</script>
+	</body>
+</html>

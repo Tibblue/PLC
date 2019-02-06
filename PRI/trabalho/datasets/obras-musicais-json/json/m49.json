@@ -1,0 +1,302 @@
+
+        {
+        "_id": "m49",
+        
+      
+        "titulo": "Tannhauser Ouverture",
+    
+      
+        "tipo": "Abertura/Concerto",
+    
+      
+        "compositor": "Richard Wagner",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "Tannhauser-contrabaixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Tannhauser-eufonio1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Tannhauser-eufonio2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Tannhauser-eufonio2.pdf"
+        , "voz": "II", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "Tannhauser-bombo-pratos-ferrinhos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "Tannhauser-caixa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "Tannhauser-bateria.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "Tannhauser-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "Tannhauser-bombo-pratos-ferrinhos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Ferrinhos",
+         "partitura": {
+            "path": "Tannhauser-bombo-pratos-ferrinhos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Tannhauser-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Tannhauser-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Tannhauser-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "Tannhauser-cornetim-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+         
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "Tannhauser-cornetim1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "Tannhauser-cornetim2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "Tannhauser-cornetim2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Tannhauser-clarinete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Tannhauser-clarinete.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Tannhauser-clarinete1a.pdf"
+        , "voz": "Ia"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Tannhauser-clarinete1b.pdf"
+        , "voz": "Ib"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Tannhauser-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Tannhauser-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "Tannhauser-saxS.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Tannhauser-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Tannhauser-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Tannhauser-saxA.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Tannhauser-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Tannhauser-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Tannhauser-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Tannhauser-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Tannhauser-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Tannhauser-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Tannhauser-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Tannhauser-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Tannhauser-eufonio.pdf"
+        , "voz": "V.antiga"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Tannhauser-tuba.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Tannhauser-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Tannhauser-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pandeireta",
+         "partitura": {
+            "path": "Tannhauser-pandeireta.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

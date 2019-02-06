@@ -1,0 +1,17 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Upload de um ficheiro
+            .w3-container
+                form.w3-container(action="/processaForm", method="POST", enctype="multipart/form-data")
+                    label.w3-text-teal
+                        b Ficheiro
+                    input.w3-input.w3-border.w3-light-grey(type="file", name="ficheiro")
+                    label.w3-text-teal
+                        b Descrição
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="numero")
+                    input.w3-btn.w3-blue-grey(type="submit", value="Enviar")
+            footer.w3-container.w3-teal
+                address Gerado por KIKO

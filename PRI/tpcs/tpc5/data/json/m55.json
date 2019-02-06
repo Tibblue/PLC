@@ -1,0 +1,234 @@
+
+        {
+        "_id": "m55",
+        
+            "pasta": "LaTuba",
+        
+      
+        "titulo": "La Tuba Bregosa",
+    
+      
+        "subtitulo": "Pequena Fantasia para Tuba e Banda",
+    
+      
+        "tipo": "Ligeiro/Fantasia",
+    
+      
+        "compositor": "J. Molina",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "LaTuba-bombo-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "LaTuba-bombo-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "LaTuba-caixa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaTuba-clarinete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaTuba-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaTuba-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaTuba-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LaTuba-eufonio.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Ferrinhos",
+         "partitura": {
+            "path": "LaTuba-ferrinhos-pandeireta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pandeireta",
+         "partitura": {
+            "path": "LaTuba-ferrinhos-pandeireta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LaTuba-flauta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "LaTuba-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "LaTuba-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "LaTuba-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "LaTuba-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "LaTuba-requinta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LaTuba-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LaTuba-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "LaTuba-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "LaTuba-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "LaTuba-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "LaTuba-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaTuba-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaTuba-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaTuba-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaTuba-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaTuba-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaTuba-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaTuba-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LaTuba-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

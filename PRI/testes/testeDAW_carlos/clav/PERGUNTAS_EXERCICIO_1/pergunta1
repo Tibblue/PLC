@@ -1,0 +1,116 @@
+Pergunta 1:
+
+Existem 44 processos da classe 200:
+
+  {
+        "codigo": "200.10.001",
+        "titulo": "Definição e acompanhamento de posições nacionais no âmbito das relações bilaterais e multilaterais entre países",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.001"
+    },
+    {
+        "codigo": "200.10.100",
+        "titulo": "Reivindicação do cumprimento de instrumentos ratificados por Portugal",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.100"
+    },
+    {
+        "codigo": "200.10.200",
+        "titulo": "Preparação e negociação de atos legislativos vinculativos da União Europeia",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.200"
+    },
+    {
+        "codigo": "200.10.201",
+        "titulo": "Preparação e negociação de atos legislativos não vinculativos da União Europeia",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.201"
+    },
+    {
+        "codigo": "200.10.300",
+        "titulo": "Ações de controlo da aplicação do Direito da União Europeia",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.300"
+    },
+    {
+        "codigo": "200.10.400",
+        "titulo": "Definição conjunta das opções estratégicas da União Europeia",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.400"
+    },
+    {
+        "codigo": "200.10.501",
+        "titulo": "Definição e coordenação das políticas setoriais pelos Estados Membros da União Europeia",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.501"
+    },
+    {
+        "codigo": "200.10.600",
+        "titulo": "Preparação e implementação de políticas e atos da União Europeia",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.600"
+    },
+    {
+        "codigo": "200.10.700",
+        "titulo": "Preparação e negociação do Quadro Plurianual e dos instrumentos financeiros da União Europeia",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.700"
+    },
+    {
+        "codigo": "200.10.800",
+        "titulo": "Celebração de acordos e outros atos internacionais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.800"
+    },
+    {
+        "codigo": "200.10.002",
+        "titulo": "Representação e participação em organizações internacionais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.002"
+    },
+    {
+        "codigo": "200.20.001",
+        "titulo": "Acompanhamento da situação internacional",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.20.001"
+    },
+    {
+        "codigo": "200.20.002",
+        "titulo": "Organização de missões internacionais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.20.002"
+    },
+    {
+        "codigo": "200.20.500",
+        "titulo": "Organização de visitas de Estado ou equiparadas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.20.500"
+    },
+    {
+        "codigo": "200.20.501",
+        "titulo": "Concessão de imunidades, dispensas e privilégios",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.20.501"
+    },
+    {
+        "codigo": "200.20.502",
+        "titulo": "Acreditação de agentes diplomáticos",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.20.502"
+    },
+    {
+        "codigo": "200.30.300",
+        "titulo": "Aprovação de projetos da sociedade civil",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.300"
+    },
+    {
+        "codigo": "200.30.301",
+        "titulo": "Conceção de programas de cooperação e de ajuda pública ao desenvolvimento",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.301"
+    },
+    {
+        "codigo": "200.30.302",
+        "titulo": "Execução de projetos de cooperação e de ajuda pública ao desenvolvimento",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.302"
+    },
+    {
+        "codigo": "200.30.303",
+        "titulo": "Acompanhamento e avaliação da execução de projetos de cooperação e de ajuda pública ao desenvolvimento",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.303"
+    },
+    {
+        "codigo": "200.30.600",
+        "titulo": "Apoio à internacionalização e à promoção do país",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.600"
+    },
+    {
+        "codigo": "200.30.001",
+        "titulo": "Coordenação e execução de ações de ajuda humanitária e de emergência",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.001"
+    }
+
+

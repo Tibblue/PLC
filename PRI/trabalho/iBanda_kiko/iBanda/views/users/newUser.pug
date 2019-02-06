@@ -1,0 +1,17 @@
+.w3-container
+  .w3-display-container
+    span.w3-button.w3-blue(onclick="document.getElementById('newUserForm').style.display='block'") Abrir Novo User
+    span.w3-button.w3-blue(onclick="document.getElementById('newUserForm').style.display='none'") Fechar Novo User
+    span#status= status
+  form.w3-container(id="newUserForm" method="POST" action="/users")
+    center
+      h3.w3-text-indigo
+        b Adicionar Novo User
+    h3.w3-text-indigo Nome
+    input.w3-input.w3-border.w3-light-grey(type="text" name="name" placeholder="Name (optional)")
+    h3.w3-text-indigo Email
+    input.w3-input.w3-border.w3-light-grey(type="text" name="email" placeholder="email" required)
+    h3.w3-text-indigo Password
+    input.w3-input.w3-border.w3-light-grey(type="password" name="password" placeholder="password" required)
+    br
+    button.w3-button.w3-blue-grey(id="createUser" type="submit") Criar User

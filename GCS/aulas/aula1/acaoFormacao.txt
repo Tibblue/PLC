@@ -1,0 +1,14 @@
+FORMACAO:
+GCS - 'gramaticas na comprrensao de SW'
+
+TEMA: 'um texto para descrever'
+TIPO: PRATICO
+RECURSOS: 'Recurso1 = .....'
+DURACAO: 2h
+HORARIO: 2f -- 9:30
+CUSTO: 10
+FORMADOR: 'João', 'Rua da Universidade', 'cc22248', bacharel
+
+ALUNO: 'Pedro', 'Rua da Torre',  'e222225';
+ALUNO: 'Cristiana', 'Rua da Maré',  'pg887225';
+ALUNO: 'Ana', 'Rua de Cima',  'al8822225'.

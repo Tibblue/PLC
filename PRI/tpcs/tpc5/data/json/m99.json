@@ -1,0 +1,234 @@
+
+        {
+        "_id": "m99",
+        
+            "pasta": "SelecQuintaBill",
+        
+  
+        "titulo": "Selecção Quinta do Bill",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Quinta do Bill",
+    
+  
+        "arranjo": "Luís Cardoso",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "SelecQuintaBill-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "SelecQuintaBill-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "SelecQuintaBill-bateria.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "SelecQuintaBill-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "SelecQuintaBill-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "SelecQuintaBill-clarinete2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "SelecQuintaBill-clarinete2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "SelecQuintaBill-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "SelecQuintaBill-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "SelecQuintaBill-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "SelecQuintaBill-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "SelecQuintaBill-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "SelecQuintaBill-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "SelecQuintaBill-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "SelecQuintaBill-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "SelecQuintaBill-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "SelecQuintaBill-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "SelecQuintaBill-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "SelecQuintaBill-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "SelecQuintaBill-trombone1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "SelecQuintaBill-trombone1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "SelecQuintaBill-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "SelecQuintaBill-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "SelecQuintaBill-trompa2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "SelecQuintaBill-trompa2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "SelecQuintaBill-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "SelecQuintaBill-trompete2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "SelecQuintaBill-trompete2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "SelecQuintaBill-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "SelecQuintaBill-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+  ]
+    
+}
+    

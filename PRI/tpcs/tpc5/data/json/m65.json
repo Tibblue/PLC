@@ -1,0 +1,286 @@
+
+        {
+        "_id": "m65",
+        
+            "pasta": "LatinPop",
+        
+      
+        "titulo": "Latin Pop Special",
+    
+      
+        "subtitulo": "Bailamos - Livin' La Vida Loca",
+    
+      
+        "tipo": "Ligeiro/Fantasia",
+    
+      
+        "compositor": "M. Taylor, D. Child, P. Barry, R. Rosa",
+    
+      
+        "arranjo": "Masato Myokoin",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Baixo Elétrico",
+         "partitura": {
+            "path": "LatinPop-baixo-eletrico.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "LatinPop-bateria.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Alto",
+         "partitura": {
+            "path": "LatinPop-clarinete-alto.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "LatinPop-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LatinPop-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LatinPop-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LatinPop-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Congas",
+         "partitura": {
+            "path": "LatinPop-congas.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LatinPop-eufonio.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "LatinPop-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LatinPop-flauta1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LatinPop-flauta1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "LatinPop-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Guitarra Elétrica",
+         "partitura": {
+            "path": "LatinPop-guitarra-eletrica.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "LatinPop-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "LatinPop-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pandeireta",
+         "partitura": {
+            "path": "LatinPop-pandeireta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "LatinPop-percussao.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "LatinPop-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LatinPop-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LatinPop-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "LatinPop-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "LatinPop-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "LatinPop-timpanos-castanholas.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Castanholas",
+         "partitura": {
+            "path": "LatinPop-timpanos-castanholas.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "LatinPop-trombone-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LatinPop-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LatinPop-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LatinPop-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LatinPop-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LatinPop-trompa3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LatinPop-trompa3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LatinPop-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LatinPop-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LatinPop-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LatinPop-tuba.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Xilofone",
+         "partitura": {
+            "path": "LatinPop-xilofone.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

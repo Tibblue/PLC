@@ -1,0 +1,285 @@
+
+            {"id": "m51",
+             "titulo": "Crucifixus",
+             "tipo": "Marcha de Procissão"
+            
+                , "compositor": "José Alberto Pina"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "Tuba",
+                    
+                    "path": "Crucifixus-tuba.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Bombo",
+                    
+                    "path": "Crucifixus-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Pratos",
+                    
+                    "path": "Crucifixus-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Caixa",
+                    
+                    "path": "Crucifixus-caixa.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete Baixo",
+                    
+                    "path": "Crucifixus-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Crucifixus-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Contrabaixo",
+                    
+                    "path": "Crucifixus-contrabaixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-eufonio1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-eufonio1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-fagote1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-flauta1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-fagote1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-flauta1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flautim",
+                    
+                    "path": "Crucifixus-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fliscorne",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-fliscorne1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fliscorne",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-fliscorne1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Maestro",
+                    
+                    "path": "Crucifixus-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-oboe1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-oboe1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Requinta",
+                    
+                    "path": "Crucifixus-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-saxA1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-saxA1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                    "path": "Crucifixus-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tímpanos",
+                    
+                    "path": "Crucifixus-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-trombone1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-trombone1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "Crucifixus-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-trompa1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-trompa1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "Crucifixus-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "Crucifixus-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Crucifixus-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Crucifixus-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Crucifixus-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Xilofone",
+                    
+                    "path": "Crucifixus-xilofone.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

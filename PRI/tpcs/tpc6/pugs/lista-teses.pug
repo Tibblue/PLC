@@ -1,0 +1,31 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+                h3 Lista Teses
+            form.w3-container(action="/", method="GET")
+                input.w3-button.w3-dark-gray.w3-hover-blue(type="submit", value="Página Inicial")
+            .w3-container
+                table.w3-table-all
+                    tr
+                        th Nome
+                        th Número
+                        th Curso
+                        th Instituição
+                        th Titulo
+                        th Data
+                        th Tipo
+                    each tese in lista
+                        tr
+                            td= tese.nome
+                            td= tese.id
+                            td= tese.curso
+                            td= tese.instituicao
+                            td= tese.titulo
+                            td= tese.data
+                            td= tese.tipo
+            form.w3-container(action="/", method="GET")
+                input.w3-button.w3-dark-gray.w3-hover-blue(type="submit", value="Página Inicial")
+            footer.w3-container.w3-blue
+                address Gerado por KIKO

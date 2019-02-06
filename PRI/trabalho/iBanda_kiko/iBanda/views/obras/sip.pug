@@ -1,0 +1,16 @@
+extends ../layout
+
+block header
+  header.w3-container.w3-indigo
+    center
+      h1 SIP
+
+block body
+  .w3-container
+    h3 Inserir ficheiro SIP zip
+    h3#status= status
+    form.w3-form(id="sendSIP" method="POST" action="/pacotes/sip" enctype="multipart/form-data")
+      h3.w3-text-indigo SIP File (select one ZIP file)
+      input.w3-input.w3-border.w3-light-grey(type="file" name="file" accept="application/x-compressed,application/x-zip-compressed,application/zip,multipart/x-zip,.zip")
+      br
+      button.w3-button.w3-blue-grey(id="sendSIP" type="submit") Send SIP

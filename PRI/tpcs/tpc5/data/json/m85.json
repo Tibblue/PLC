@@ -1,0 +1,220 @@
+
+        {
+        "_id": "m85",
+        
+            "pasta": "UnaNocheGranada",
+        
+      
+        "titulo": "Una Noche en Granada",
+    
+      
+        "subtitulo": "Poema Lírico",
+    
+      
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+      
+        "compositor": "Emilio Cebrián Ruiz",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "UnaNocheGranada-bombo-pratos.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "UnaNocheGranada-bombo-pratos.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "UnaNocheGranada-caixa.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "UnaNocheGranada-clarinete-principal.PDF"
+        , "voz": "Principal"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "UnaNocheGranada-clarinete1.PDF"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "UnaNocheGranada-clarinete2.PDF"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "UnaNocheGranada-clarinete3.PDF"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "UnaNocheGranada-eufonio1.PDF"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "UnaNocheGranada-eufonio2.PDF"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "UnaNocheGranada-flauta-flautim.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "UnaNocheGranada-fliscorne1.PDF"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "UnaNocheGranada-fliscorne2.PDF"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "UnaNocheGranada-maestro.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "UnaNocheGranada-oboe.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "UnaNocheGranada-requinta.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "UnaNocheGranada-saxA1.PDF"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "UnaNocheGranada-saxA2.PDF"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "UnaNocheGranada-saxB.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "UnaNocheGranada-saxT.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Timpanos",
+         "partitura": {
+            "path": "UnaNocheGranada-timpanos.PDF"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "UnaNocheGranada-trombone1.PDF"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "UnaNocheGranada-trombone2.PDF"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "UnaNocheGranada-trombone3.PDF"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "UnaNocheGranada-trompa1-mib.PDF"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "UnaNocheGranada-trompa2-mib.PDF"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "UnaNocheGranada-trompete1.PDF"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "UnaNocheGranada-trompete2.PDF"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "UnaNocheGranada-tuba.PDF"
+        
+        }}
+        
+      ]
+    
+   }
+    

@@ -1,0 +1,128 @@
+body {
+    /* background-color: rgb(17, 90, 153); */
+    height:100%;
+    padding:0px;
+    border:-5px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black; 
+    overflow: auto;
+}
+
+.titulo1 {
+    background-color: rgb(79, 167, 243);
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-align: center;
+    /* width: 100vw; */
+    /* top: 0; */
+    padding: 10px 0px;
+}
+.titulo2 {
+    font-size: 36px;
+    padding: 32px 0px 8px 0px;
+}
+
+.menuButton {
+    list-style:none;
+    text-align:right;
+    position: sticky;
+    top: 0px;
+}
+
+
+/* Navbar horizontal */
+.nav{
+    background-color: aliceblue;
+    width: auto;
+    padding: 0px 10px;
+    list-style:none;
+    text-align:right;
+    float: center;
+    position: sticky;
+    top: 0px;
+}
+.nav li {
+    display: inline-block; /* Lista horizontal */
+}
+/* Change List Items e Links (ancoras) */
+.nav li a {
+    background-color: aliceblue;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
+/* Change the link color on hover */
+.nav li a:hover {
+    background-color: #555;
+    color: white;
+    text-align: left;
+}
+
+
+
+/* The side navigation menu */
+.sidebar {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    list-style: none;
+    background-color: rgb(27, 27, 27);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /* padding-top: 40px; */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+.sidebar li {
+    list-style: none;
+    padding: 4px 0px;
+}
+/* Sidebar Titles */
+.sidebar li span {
+    font-size: 48px;
+    color: rgb(79, 167, 243);
+    padding: 16px 24px 16px 24px;
+}
+/* Sidebar links */
+.sidebar li a {
+    font-size: 24px;
+    color: #919191;
+    padding: 8px 8px 8px 40px;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidebar li a:hover {
+    /* color: #f1f1f1; */
+    color: rgb(128, 177, 219);
+}
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 48px;
+    margin-left: 50px;
+}
+
+
+/* Bloco principal da pagina */
+.main {
+    transition: margin-left .5s;
+    padding: 0% 8%;
+}
+/* Wraper da página */
+.wrapper {
+    height:auto;    
+    width:80%;
+    margin:auto;
+}
+

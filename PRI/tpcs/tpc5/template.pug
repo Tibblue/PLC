@@ -1,0 +1,46 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-grey
+                h1= arqObj.titulo
+            .w3-container
+                table.w3-table.w3-all
+                    tr
+                        if arqObj.subtitulo
+                            th Subtitulo
+                            td
+                                p= arqObj.subtitulo
+                    tr
+                        th Tipo
+                        td
+                            p= arqObj.tipo
+                    tr
+                        th Compositor
+                        td
+                            p= arqObj.compositor
+                header.w3-container.w3-light-grey
+                    h3 Partituras disponiveis
+                table.w3-table.w3-all
+                    tr
+                        th Instrumento
+                        th Afinação
+                        th Voz
+                        th Clave
+                        th Doc
+                    each a in arqObj.instrumentos
+                        tr
+                            td= a.nome
+                            td= a.partitura.afinacao
+                            td= a.partitura.voz
+                            td= a.partitura.clave
+                            td= a.partitura.path
+            footer.w3-container.w3-light-grey
+                p
+                    a(href='http://localhost:5000/index')
+                        | Voltar a Página Principal
+                address Gerado por AMD_App by KKKK 
+
+
+

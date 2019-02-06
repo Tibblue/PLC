@@ -1,0 +1,245 @@
+
+            {"id": "m46",
+             "titulo": "Santana",
+             "tipo": "Ligeiro/Fantasia"
+            
+                , "compositor": "Santana"
+            
+                , "arranjo": "Giancarlo Gazzani"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "All",
+                    
+                    "path": "Santana-all.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Maestro",
+                    
+                    "path": "Santana-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flautim",
+                    
+                    "path": "Santana-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                    "path": "Santana-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Santana-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "Santana-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-trompaF1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-trompaF2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                    "path": "Santana-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-flauta2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                    "path": "Santana-fagote.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "Solo",
+                    
+                    "path": "Santana-clarinete1-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-clarinete1-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Santana-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-saxT1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-saxT2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "Santana-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                    "path": "Santana-tuba.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-tuba1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-tuba1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Bateria",
+                    
+                    "path": "Santana-bateria.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "I",
+                    
+                    "path": "Santana-percussao1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "II",
+                    
+                    "path": "Santana-percussao2.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

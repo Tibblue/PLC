@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT agenda (entrada|grupo)+ >
+<!ELEMENT entrada (nome,email?,telefone) >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT telefone (#PCDATA) >
+<!ATTLIST entrada
+            ident ID #REQUIRED
+            tipo CDATA #REQUIRED>
+
+<!ELEMENT grupo (entrada|grupo|ref)+ >
+
+<!ELEMENT ref EMPTY >
+
+<!ATTLIST grupo
+            ident ID #REQUIRED>
+
+<!ATTLIST ref
+            apontado IDREF #REQUIRED>
+
+
+

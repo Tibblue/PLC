@@ -1,0 +1,248 @@
+
+        {
+        "_id": "m111",
+        
+            "pasta": "TresOceanos",
+        
+  
+        "titulo": "Três Oceanos",
+    
+  
+        "subtitulo": "Homenagem a Genuíno Madruga",
+    
+  
+        "tipo": "Abertura/Concerto",
+    
+  
+        "compositor": "Antero Ávila",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "TresOceanos-bombo.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "TresOceanos-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Alto",
+         "partitura": {
+            "path": "TresOceanos-clarinete-alto.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "TresOceanos-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TresOceanos-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TresOceanos-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TresOceanos-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TresOceanos-eufonio-sol.pdf"
+        , "clave": "Sol"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "TresOceanos-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "TresOceanos-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "TresOceanos-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "TresOceanos-lira.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "TresOceanos-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "TresOceanos-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "TresOceanos-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "TresOceanos-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "TresOceanos-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "TresOceanos-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "TresOceanos-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TresOceanos-trombone1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TresOceanos-trombone1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TresOceanos-trombone3-4.pdf"
+        , "voz": "III"
+        }}
+        , 
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TresOceanos-trombone3-4.pdf"
+        , "voz": "IV"
+        }}
+        , 
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TresOceanos-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TresOceanos-trompa2-4.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TresOceanos-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TresOceanos-trompa2-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TresOceanos-trompete1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TresOceanos-trompete1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TresOceanos-trompete3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TresOceanos-trompete3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TresOceanos-tuba-sol.pdf"
+        , "clave": "Sol"
+        }}
+        
+  ]
+    
+}
+    

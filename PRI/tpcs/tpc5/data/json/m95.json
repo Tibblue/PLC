@@ -1,0 +1,286 @@
+
+        {
+        "_id": "m95",
+        
+            "pasta": "ElAngelBlanco",
+        
+  
+        "titulo": "El Angel Blanco",
+    
+  
+        "subtitulo": "Marcha finalista en el I Concurso Nacional de Marchas de procesión Ciudad de Toledo 2012",
+    
+  
+        "tipo": "Marcha de Procissão",
+    
+  
+        "compositor": "Oscar Navarro",
+    
+  
+    
+  
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "ElAngelBlanco-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "ElAngelBlanco-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "ElAngelBlanco-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElAngelBlanco-clarinete-mib.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElAngelBlanco-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElAngelBlanco-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElAngelBlanco-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "ElAngelBlanco-eufonio1-fa.pdf"
+        , "voz": "I", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "ElAngelBlanco-eufonio2-fa.pdf"
+        , "voz": "II", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "ElAngelBlanco-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "ElAngelBlanco-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "ElAngelBlanco-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "ElAngelBlanco-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "ElAngelBlanco-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "ElAngelBlanco-fliscorne1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "ElAngelBlanco-fliscorne1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "ElAngelBlanco-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "ElAngelBlanco-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "ElAngelBlanco-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "ElAngelBlanco-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "ElAngelBlanco-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "ElAngelBlanco-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "ElAngelBlanco-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "ElAngelBlanco-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "ElAngelBlanco-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElAngelBlanco-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElAngelBlanco-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElAngelBlanco-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElAngelBlanco-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElAngelBlanco-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElAngelBlanco-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElAngelBlanco-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElAngelBlanco-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElAngelBlanco-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElAngelBlanco-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "ElAngelBlanco-tuba1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "ElAngelBlanco-tuba1-2.pdf"
+        , "voz": "II"
+        }}
+        
+  ]
+    
+}
+    

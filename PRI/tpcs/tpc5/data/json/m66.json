@@ -1,0 +1,308 @@
+
+        {
+        "_id": "m66",
+        
+            "pasta": "LaStoria",
+        
+      
+        "titulo": "La Storia",
+    
+      
+        "tipo": "Abertura/Concerto",
+    
+      
+        "compositor": "Jacob de Haan",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "LaStoria-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaStoria-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaStoria-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaStoria-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Corneta",
+         "partitura": {
+            "path": "LaStoria-corneta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LaStoria-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LaStoria-eufonio-fa.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LaStoria-eufonio-sol.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "LaStoria-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "LaStoria-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LaStoria-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LaStoria-flauta2-flautim.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "LaStoria-flauta2-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "LaStoria-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "LaStoria-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "LaStoria-fliscorne3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "LaStoria-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "LaStoria-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "LaStoria-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "LaStoria-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "LaStoria-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "LaStoria-requinta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LaStoria-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LaStoria-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "LaStoria-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "LaStoria-saxS.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "LaStoria-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "LaStoria-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaStoria-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaStoria-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaStoria-trombone3-baixo.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "LaStoria-trombone3-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaStoria-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaStoria-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaStoria-trompa3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaStoria-trompa3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaStoria-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaStoria-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaStoria-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LaStoria-tuba.pdf"
+        , "clave": "Sol"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LaStoria-tuba-fa.pdf"
+        , "clave": "Fá"
+        }}
+        
+      ]
+    
+   }
+    

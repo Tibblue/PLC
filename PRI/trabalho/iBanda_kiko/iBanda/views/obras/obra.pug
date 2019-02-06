@@ -1,0 +1,55 @@
+extends ../layout
+
+block header
+  header.w3-container.w3-indigo
+    center
+      h1 Obra
+
+block body
+  .w3-container
+    center
+      a.w3-button.w3-blue(href= url+"obras/export/" + obra._id) Exportar Obra (TODO)
+  .w3-container
+    h3
+      b Titulo:
+      | #{obra.titulo}
+    h4
+      b Tipo:
+      | #{obra.tipo}
+    h4
+      if obra.compositor
+        h4
+          b Compositor:
+          = obra.compositor
+    h4
+      if obra.arranjo
+        h4
+          b Arranjo:
+          = obra.arranjo
+    h4
+      b Instrumentos
+    table.w3-table-all#instrumentos
+      th.w3-indigo Nome
+      th.w3-indigo Voz
+      th.w3-indigo Clave
+      th.w3-indigo Afinação
+      th.w3-indigo Path
+      th.w3-indigo
+      th.w3-indigo
+      //- th.w3-indigo HYPERLINK
+      //- th.w3-indigo DOWNLOAD
+      each instrumento in obra.instrumentos
+        tr
+          td= instrumento.nome
+          td= instrumento.partitura.voz
+          td= instrumento.partitura.clave
+          td= instrumento.partitura.afinacao
+          td= instrumento.partitura.path
+          td
+            a(href=url+"obras/"+obra._id+"/pdf/"+instrumento.partitura.path)
+              img(alt="HYPERLINK" src="/images/hyperlink.png" width="32")
+          td
+            a(href=url+"obras/"+obra._id+"/download/pdf/"+instrumento.partitura.path)
+              img(alt="DOWNLOAD" src="/images/download.png" width="32")
+    center
+      a.w3-button.w3-blue-grey(href="#") Voltar ao topo

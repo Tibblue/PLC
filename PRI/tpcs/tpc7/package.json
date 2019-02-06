@@ -1,0 +1,19 @@
+{
+  "name": "tpc7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-tpc7.js",
+  "scripts": {
+    "test": "node server-tpc7.js",
+    "dev": "nodemon server-tpc7.js"
+  },
+  "author": "Kiko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "jsonfile": "^5.0.0",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  }
+}

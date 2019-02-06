@@ -1,0 +1,191 @@
+
+            {"id": "m72",
+             "titulo": "S. João de Braga",
+             "tipo": "Marcha de Desfile"
+            
+                , "compositor": "Popular"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "Bombo",
+                    
+                    "path": "SJoao-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Pratos",
+                    
+                    "path": "SJoao-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Caixa",
+                    
+                    "path": "SJoao-caixa.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "SJoao-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "SJoao-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "SJoao-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "I",
+                    
+                    "path": "SJoao-eufonio1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "II",
+                    
+                    "path": "SJoao-eufonio2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                    "path": "SJoao-flauta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fliscorne",
+                    
+                    "path": "SJoao-fliscorne1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "SJoao-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "SJoao-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                        "voz": "Original",
+                    
+                    "path": "SJoao-saxB-dig.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "SJoao-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Soprano",
+                    
+                    "path": "SJoao-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "I",
+                    
+                    "path": "SJoao-saxT1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "II",
+                    
+                    "path": "SJoao-saxT2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "SJoao-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "SJoao-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "SJoao-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "SJoao-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "SJoao-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "SJoao-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "SJoao-trompete2.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

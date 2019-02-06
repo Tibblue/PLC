@@ -1,0 +1,234 @@
+
+        {
+        "_id": "m90",
+        
+            "pasta": "ColdplayOnStage",
+        
+    
+        "titulo": "Coldplay on Stage",
+    
+    
+        "subtitulo": "Clocks - Lost! - Viva La Vida",
+    
+    
+        "compositor": "Jon Buckland, Will Champion, Chris Martin",
+    
+    
+        "arranjo": "Michael Brown",
+    
+    
+        "instrumentos": [
+      
+        {"nome": "All",
+         "partitura": {
+            "path": "ColdplayOnStage-All.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Baixo Elétrico",
+         "partitura": {
+            "path": "ColdplayOnStage-baixo-eletrico.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete Alto",
+         "partitura": {
+            "path": "ColdplayOnStage-clarinete-alto.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "ColdplayOnStage-clarinete-baixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ColdplayOnStage-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ColdplayOnStage-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ColdplayOnStage-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "ColdplayOnStage-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "ColdplayOnStage-eufonio-sol-do.pdf"
+        , "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "ColdplayOnStage-fagote.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "ColdplayOnStage-flauta.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "ColdplayOnStage-flautim.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "ColdplayOnStage-maestro.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "ColdplayOnStage-oboe.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "ColdplayOnStage-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "ColdplayOnStage-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "ColdplayOnStage-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "ColdplayOnStage-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "ColdplayOnStage-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "ColdplayOnStage-saxB.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "ColdplayOnStage-saxT.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "ColdplayOnStage-timpanos.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ColdplayOnStage-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ColdplayOnStage-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ColdplayOnStage-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ColdplayOnStage-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ColdplayOnStage-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ColdplayOnStage-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ColdplayOnStage-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "ColdplayOnStage-tuba.pdf"
+        
+        }}
+        
+    ]
+    
+  }
+    

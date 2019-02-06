@@ -1,0 +1,224 @@
+
+        {
+        "_id": "m117",
+        
+            "pasta": "ElBarbanha",
+        
+  
+        "titulo": "El Barbanha",
+    
+  
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+  
+        "compositor": "Acácio Aires Moreira da Silva",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "ElBarbanha-bombo-pratos.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "ElBarbanha-bombo-pratos.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "ElBarbanha-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "ElBarbanha-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElBarbanha-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElBarbanha-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElBarbanha-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "ElBarbanha-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "ElBarbanha-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "ElBarbanha-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "ElBarbanha-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "ElBarbanha-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "ElBarbanha-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "ElBarbanha-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "ElBarbanha-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "ElBarbanha-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "ElBarbanha-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "ElBarbanha-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElBarbanha-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElBarbanha-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElBarbanha-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElBarbanha-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElBarbanha-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElBarbanha-trompa1-mib.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElBarbanha-trompa2-mib.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElBarbanha-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElBarbanha-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElBarbanha-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "ElBarbanha-tuba.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+  ]
+    
+}
+    

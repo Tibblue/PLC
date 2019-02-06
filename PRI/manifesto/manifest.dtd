@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT manifesto (meta,equipe,resumo,resultados) >
+<!ELEMENT meta (id,título,subtítulo?,dinício,dfim,supervisor) >
+<!ELEMENT id (#PCDATA) >
+<!ELEMENT título (#PCDATA) >
+<!ELEMENT subtítulo (#PCDATA) >
+<!ELEMENT dinício (#PCDATA) >
+<!ELEMENT dfim (#PCDATA) >
+
+<!ELEMENT supervisor (nome,email,website?) >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT website (#PCDATA) >
+
+<!ELEMENT equipe (elemento+) >
+<!ELEMENT elemento (id,nome,email,website?,foto?) >
+<!ELEMENT foto EMPTY >
+<!ATTLIST foto
+            path CDATA #REQUIRED>
+
+<!ELEMENT resumo (para+) >
+<!ELEMENT para (#PCDATA|b|i)* >
+
+<!ELEMENT b (#PCDATA|i)* >
+<!ELEMENT i (#PCDATA|b)* >
+
+<!ELEMENT resultados (resultado+) >
+<!ELEMENT resultado (#PCDATA) >
+<!ATTLIST resultado
+            path CDATA #IMPLIED>
+            

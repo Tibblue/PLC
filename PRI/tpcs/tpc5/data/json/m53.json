@@ -1,0 +1,356 @@
+
+        {
+        "_id": "m53",
+        
+            "pasta": "FantasmaOpera",
+        
+      
+        "titulo": "Fantasma da Ópera",
+    
+      
+        "tipo": "Abertura/Concerto",
+    
+      
+        "compositor": "Andrew Lloyd Webber",
+    
+      
+        "arranjo": "Johan de Meij",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "Baixo Elétrico",
+         "partitura": {
+            "path": "FantasmaOpera-baixo-eletrico.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FantasmaOpera-clarinete.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FantasmaOpera-clarinete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+         
+        {"nome": "Clarinete Alto",
+         "partitura": {
+            "path": "FantasmaOpera-clarinete-alto.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "FantasmaOpera-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FantasmaOpera-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FantasmaOpera-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FantasmaOpera-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Corne Inglês",
+         "partitura": {
+            "path": "FantasmaOpera-corne-ingles.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "FantasmaOpera-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "FantasmaOpera-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "FantasmaOpera-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FantasmaOpera-flauta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FantasmaOpera-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FantasmaOpera-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "FantasmaOpera-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Harpa",
+         "partitura": {
+            "path": "FantasmaOpera-harpa-piano.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Piano",
+         "partitura": {
+            "path": "FantasmaOpera-harpa-piano.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "FantasmaOpera-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "FantasmaOpera-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "FantasmaOpera-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "FantasmaOpera-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "FantasmaOpera-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "FantasmaOpera-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "FantasmaOpera-requinta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FantasmaOpera-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FantasmaOpera-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "FantasmaOpera-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "FantasmaOpera-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "FantasmaOpera-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FantasmaOpera-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FantasmaOpera-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FantasmaOpera-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FantasmaOpera-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FantasmaOpera-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FantasmaOpera-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FantasmaOpera-trompa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FantasmaOpera-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FantasmaOpera-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FantasmaOpera-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FantasmaOpera-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FantasmaOpera-tuba.pdf"
+        , "clave": "Fá"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FantasmaOpera-tuba-sol.pdf"
+        , "clave": "Sol"
+        }}
+        ,
+         
+        {"nome": "Marimba",
+         "partitura": {
+            "path": "FantasmaOpera-marimba-sinos-vibrafone-xilofone.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sinos",
+         "partitura": {
+            "path": "FantasmaOpera-marimba-sinos-vibrafone-xilofone.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Vibrafone",
+         "partitura": {
+            "path": "FantasmaOpera-marimba-sinos-vibrafone-xilofone.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Xilofone",
+         "partitura": {
+            "path": "FantasmaOpera-marimba-sinos-vibrafone-xilofone.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

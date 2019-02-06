@@ -1,0 +1,262 @@
+
+        {
+        "_id": "m79",
+        
+            "pasta": "PiratasCaraibas",
+        
+      
+        "titulo": "Piratas das Caraíbas: Suite Sinfónica",
+    
+      
+        "tipo": "Ligeiro/Fantasia",
+    
+      
+        "compositor": "Hans Zimmer",
+    
+      
+        "arranjo": "Erik Rozendom",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "PiratasCaraibas-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PiratasCaraibas-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PiratasCaraibas-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PiratasCaraibas-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PiratasCaraibas-eufonio1-2-sol-do.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PiratasCaraibas-eufonio1-2-sol-do.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "PiratasCaraibas-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "PiratasCaraibas-flauta1-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "PiratasCaraibas-flauta1-flautim.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "PiratasCaraibas-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "PiratasCaraibas-oboe1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "PiratasCaraibas-oboe1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "PiratasCaraibas-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "PiratasCaraibas-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "PiratasCaraibas-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "PiratasCaraibas-percussao4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "PiratasCaraibas-percussao5.pdf"
+        , "voz": "V"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "PiratasCaraibas-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "PiratasCaraibas-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "PiratasCaraibas-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "PiratasCaraibas-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PiratasCaraibas-trombone1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PiratasCaraibas-trombone1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PiratasCaraibas-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PiratasCaraibas-trompa1-3.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PiratasCaraibas-trompa1-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PiratasCaraibas-trompa2-4.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PiratasCaraibas-trompa2-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PiratasCaraibas-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PiratasCaraibas-trompete2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PiratasCaraibas-trompete2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PiratasCaraibas-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PiratasCaraibas-tuba.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "PiratasCaraibas-maestro.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

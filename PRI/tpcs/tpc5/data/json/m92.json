@@ -1,0 +1,287 @@
+
+        {
+        "_id": "m92",
+        
+            "pasta": "GoddessOfFire",
+        
+  
+        "titulo": "Goddess Of Fire",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Steven Reineke",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "GoddessOfFire-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Contrabaixo",
+         "partitura": {
+            "path": "GoddessOfFire-clarinete-contrabaixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "GoddessOfFire-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "GoddessOfFire-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "GoddessOfFire-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "GoddessOfFire-contrabaixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "GoddessOfFire-eufonio-fa.pdf"
+        , "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "GoddessOfFire-eufonio-sol.pdf"
+        , "clave": "Sol"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "GoddessOfFire-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "GoddessOfFire-flauta1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "GoddessOfFire-flauta1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "GoddessOfFire-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "GoddessOfFire-lira-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "GoddessOfFire-lira-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "GoddessOfFire-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "GoddessOfFire-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "GoddessOfFire-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "GoddessOfFire-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "GoddessOfFire-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "GoddessOfFire-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "GoddessOfFire-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "GoddessOfFire-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "GoddessOfFire-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "GoddessOfFire-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "GoddessOfFire-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "GoddessOfFire-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "GoddessOfFire-trombone1-sol-sib.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "GoddessOfFire-trombone2-sol-sib.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "GoddessOfFire-trombone3-sol-sib.pdf"
+        , "voz": "III", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GoddessOfFire-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GoddessOfFire-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GoddessOfFire-trompa-mib1-2.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GoddessOfFire-trompa-mib1-2.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "GoddessOfFire-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "GoddessOfFire-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "GoddessOfFire-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "GoddessOfFire-tuba.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "GoddessOfFire-tuba.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        
+  ]
+    
+}
+    

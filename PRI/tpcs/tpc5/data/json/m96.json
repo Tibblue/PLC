@@ -1,0 +1,461 @@
+
+        {
+        "_id": "m96",
+        
+            "pasta": "Innuendo",
+        
+  
+        "titulo": "Innuendo",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Queen",
+    
+  
+        "arranjo": "Jorge Salgueiro",
+    
+  
+    
+  
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "Innuendo-bombo-ferrinhos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Ferrinhos",
+         "partitura": {
+            "path": "Innuendo-bombo-ferrinhos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "Innuendo-bombo-ferrinhos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "Innuendo-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Castanholas",
+         "partitura": {
+            "path": "Innuendo-castanholas.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "Innuendo-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Innuendo-clarinete1-solo.pdf"
+        , "voz": "SoloI"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Innuendo-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Innuendo-clarinete2-solo.pdf"
+        , "voz": "SoloII"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Innuendo-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Innuendo-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Innuendo-clarinete4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "Innuendo-contrabaixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Corne Inglês",
+         "partitura": {
+            "path": "Innuendo-corne-ingles.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "Innuendo-cornetim1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "Innuendo-cornetim2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Innuendo-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Innuendo-eufonio-fa.pdf"
+        , "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Innuendo-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Innuendo-eufonio-sol.pdf"
+        , "clave": "Sol"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Innuendo-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Innuendo-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Innuendo-fagote3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Innuendo-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Innuendo-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Innuendo-flauta3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "Innuendo-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "Innuendo-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "Innuendo-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Harpa",
+         "partitura": {
+            "path": "Innuendo-harpa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "Innuendo-lira.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Innuendo-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Innuendo-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Innuendo-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Pandeireta",
+         "partitura": {
+            "path": "Innuendo-pandeireta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Innuendo-percussao.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "Innuendo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "Innuendo-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Innuendo-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Innuendo-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Innuendo-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Innuendo-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Innuendo-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "Innuendo-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "Innuendo-trombone-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Innuendo-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Innuendo-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Innuendo-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Innuendo-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Innuendo-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Innuendo-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Innuendo-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Innuendo-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Innuendo-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Innuendo-trompete4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Innuendo-tuba.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Innuendo-tuba-do.pdf"
+        , "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Innuendo-tuba-mib.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Viola",
+         "partitura": {
+            "path": "LedZeppelin-viola.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Violino",
+         "partitura": {
+            "path": "LedZeppelin-violino1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Violino",
+         "partitura": {
+            "path": "LedZeppelin-violino2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Violoncelo",
+         "partitura": {
+            "path": "LedZeppelin-violoncelo.pdf"
+        
+        }}
+        
+  ]
+    
+}
+    

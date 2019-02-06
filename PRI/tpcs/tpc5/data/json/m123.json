@@ -1,0 +1,318 @@
+
+        {
+        "_id": "m123",
+        
+            "pasta": "LaForzaDelDestino",
+        
+  
+        "titulo": "La Forza Del Destino",
+    
+  
+        "tipo": "Abertura/Concerto",
+    
+  
+        "compositor": "Guiseppe Verdi",
+    
+  
+        "arranjo": "Franco Cesarini",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "LaForzaDelDestino-bombo-caixa-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "LaForzaDelDestino-bombo-caixa-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "LaForzaDelDestino-bombo-caixa-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "LaForzaDelDestino-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaForzaDelDestino-clarinete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaForzaDelDestino-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaForzaDelDestino-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LaForzaDelDestino-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        , 
+    
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "LaForzaDelDestino-cornetim1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "LaForzaDelDestino-cornetim1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LaForzaDelDestino-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LaForzaDelDestino-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LaForzaDelDestino-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "LaForzaDelDestino-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LaForzaDelDestino-flauta1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LaForzaDelDestino-flauta1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "LaForzaDelDestino-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Harpa",
+         "partitura": {
+            "path": "LaForzaDelDestino-harpa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "LaForzaDelDestino-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "LaForzaDelDestino-oboe1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "LaForzaDelDestino-oboe1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LaForzaDelDestino-saxA1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LaForzaDelDestino-saxA1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "LaForzaDelDestino-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "LaForzaDelDestino-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "LaForzaDelDestino-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaForzaDelDestino-trombone1-2-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaForzaDelDestino-trombone1-2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaForzaDelDestino-trombone3-fa-do.pdf"
+        , "voz": "III", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaForzaDelDestino-trombone1-2-sol-sib.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        , 
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaForzaDelDestino-trombone1-2-sol-sib.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LaForzaDelDestino-trombone3-sol-sib.pdf"
+        , "voz": "III", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaForzaDelDestino-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaForzaDelDestino-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaForzaDelDestino-trompa3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LaForzaDelDestino-trompa3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaForzaDelDestino-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaForzaDelDestino-trompete2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LaForzaDelDestino-trompete2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LaForzaDelDestino-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LaForzaDelDestino-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LaForzaDelDestino-tuba-sol-mib.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        
+  ]
+    
+}
+    

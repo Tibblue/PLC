@@ -1,0 +1,23 @@
+alinea 2 : 4 subprocessos na descendência de 750.10
+
+
+ {
+        "codigo": "750.10.001.01",
+        "titulo": "Seleção e seriação para ingresso no ensino ou formação: seleção",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.001.01"
+    },
+    {
+        "codigo": "750.10.001.02",
+        "titulo": "Seleção e seriação para ingresso no ensino ou formação: seriação",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.001.02"
+    },
+    {
+        "codigo": "750.10.600.01",
+        "titulo": "Controlo de assiduidade de alunos ou formandos: cursos financiados",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.600.01"
+    },
+    {
+        "codigo": "750.10.600.02",
+        "titulo": "Controlo de assiduidade de alunos ou formandos: cursos não financiados",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.600.02"
+    },

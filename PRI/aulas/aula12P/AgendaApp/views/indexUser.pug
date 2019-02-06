@@ -1,0 +1,12 @@
+extends layout
+block content
+  .w3-container
+    h1.w3-blue Lista de Users
+    table.w3-table-all
+      tr
+        th Username
+        th Password
+      each u in users
+        tr
+          td= u.username
+          td= u.password

@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  .w3-container
+      .w3-card-4
+      input(type="hidden" value=nome id="escondido")
+      header.w3-container.w3-teal
+        h1 Documento #{nome}
+      table.w3-table-all
+        each cod in codigo
+            tr
+                th Titulo
+                td= cod.titulo
+            tr
+                th Descricão
+                td= cod.desc
+            if cod.tituloPai
+                tr
+                    th Titulo Pai
+                    td= cod.tituloPai
+            if cod.status
+                tr
+                    th Status
+                    td= cod.status
+            if cod.codigoPai
+                tr
+                    th Codigo Pai
+                    td= cod.codigoPai
+            if cod.pt
+                tr
+                    th PT
+                    td= cod.pt
+            if cod.procTrans
+                tr
+                    th procTrans
+                    td= cod.procTrans
+            if cod.procTipo
+                tr
+                    th procTipo
+                    td= cod.procTipo
+      br
+      input.w3-btn.w3-blue-grey(type='button' id="botao" value='Voltar para a classe!' style="width: 100%;") 
+      br
+      br
+      input.w3-btn.w3-blue-grey( style="width: 100%;" type='submit' id="botao2" value='Voltar para página inicial!' onclick="window.location='/';")
+      br

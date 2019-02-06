@@ -1,0 +1,162 @@
+
+        {
+        "_id": "m36",
+        
+      
+        "titulo": "Hispânico",
+    
+      
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+      
+        "compositor": "Nuno Osório",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Hispanico-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Hispanico-saxT1.pdf"
+        , "voz": "I", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Hispanico-saxT2.pdf"
+        , "voz": "II", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Hispanico-trompa1.pdf"
+        , "voz": "I", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Hispanico-trompa2.pdf"
+        , "voz": "II", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Hispanico-trompa3.pdf"
+        , "voz": "III", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Hispanico-trompa4.pdf"
+        , "voz": "IV", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Hispanico-trompete1.pdf"
+        , "voz": "I", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "Hispanico-clarinete-baixo.pdf"
+        , "voz": "nd", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Hispanico-clarinete1.pdf"
+        , "voz": "I", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Hispanico-clarinete2.pdf"
+        , "voz": "II", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Hispanico-clarinete3.pdf"
+        , "voz": "III", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Hispanico-fagote.pdf"
+        , "voz": "nd", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Hispanico-flauta1.pdf"
+        , "voz": "I", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Hispanico-flauta2.pdf"
+        , "voz": "II", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "Hispanico-flautim.pdf"
+        , "voz": "nd", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Hispanico-oboe1.pdf"
+        , "voz": "I", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Hispanico-oboe2.pdf"
+        , "voz": "II", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Hispanico-saxA1.pdf"
+        , "voz": "I", "clave": "nd", "afinacao": "nd"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Hispanico-saxA2.pdf"
+        , "voz": "II", "clave": "nd", "afinacao": "nd"
+        }}
+        
+      ]
+    
+   }
+    

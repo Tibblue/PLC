@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle clav@0.0.0~prestart: clav@0.0.0
+6 silly lifecycle clav@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle clav@0.0.0~start: clav@0.0.0
+8 verbose lifecycle clav@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle clav@0.0.0~start: PATH: /usr/share/npm/bin/node-gyp-bin:/mnt/c/Users/raulv/OneDrive/Ambiente de Trabalho/Engenharia Informática/PLC/PRI/raul/exame_PRI/clav/node_modules/.bin:/home/mrboas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files/MongoDB/Server/4.0/bin:/mnt/c/Users/raulv/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/raulv/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/MongoDB/Server/4.0/bin:/mnt/c/Users/raulv/AppData/Local/GitHubDesktop/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+10 verbose lifecycle clav@0.0.0~start: CWD: /mnt/c/Users/raulv/OneDrive/Ambiente de Trabalho/Engenharia Informática/PLC/PRI/raul/exame_PRI/clav
+11 silly lifecycle clav@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
+12 silly lifecycle clav@0.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle clav@0.0.0~start: Failed to exec start script
+14 verbose stack Error: clav@0.0.0 start: `node ./bin/www`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at EventEmitter.emit (events.js:214:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at ChildProcess.emit (events.js:214:7)
+14 verbose stack     at maybeClose (internal/child_process.js:925:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+15 verbose pkgid clav@0.0.0
+16 verbose cwd /mnt/c/Users/raulv/OneDrive/Ambiente de Trabalho/Engenharia Informática/PLC/PRI/raul/exame_PRI/clav
+17 error Linux 4.4.0-17134-Microsoft
+18 error argv "/usr/bin/node" "/usr/bin/npm" "start"
+19 error node v8.10.0
+20 error npm  v3.5.2
+21 error code ELIFECYCLE
+22 error clav@0.0.0 start: `node ./bin/www`
+22 error Exit status 1
+23 error Failed at the clav@0.0.0 start script 'node ./bin/www'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the clav package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node ./bin/www
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs clav
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls clav
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

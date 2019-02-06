@@ -1,0 +1,104 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-indigo
+        h3 Classe #{classe.codigo}
+      .w3-container
+        header.w3-container.w3-indigo
+          h4 Informação Base
+        table.w3-table-all
+          tr
+            th
+              p Código
+            td
+              p= classe.codigo
+          if(classe.tituloPai)
+            tr
+              th
+                p Titulo Pai
+              td
+                p=classe.tituloPai
+          if(classe.pt)
+            tr
+              th
+                p PT
+              td
+                p=classe.pt
+          if(classe.procTipo)
+            tr
+              th
+                p ProcTipo
+              td
+                p=classe.procTipo
+          tr
+            th
+              p Titulo
+            td
+              p=classe.titulo
+          if(classe.pai)
+            tr
+              th
+                p Pai
+              td
+                p=classe.pai
+          if(classe.codigoPai)
+            tr
+              th
+                p Codigo Pai
+              td
+                p=classe.codigoPai
+          if(classe.procTrans)
+            tr
+              th
+                p ProcTrans
+              td
+                p=classe.procTrans
+          tr
+            th
+              p Status
+            td
+              p= classe.status
+          tr
+            th
+              p Descrição
+            td
+              p= classe.desc
+        if(desc.length >0)
+          header.w3-container.w3-indigo
+            h4 Descendentes da classe #{classe.codigo}
+          table.w3-table-all
+            th Código
+            th Titulo
+            th ID
+              each d in desc
+                tr
+                  td
+                    a(href="/classe/"+d.codigo)= d.codigo
+                  td
+                    a= d.titulo
+                  td
+                    a=d.id
+        else
+          header.w3-container.w3-indigo
+            h4  Donos do processo da classe #{classe.codigo}
+          table.w3-table-all.w3
+              th ID
+              th Sigla
+              th Designação
+              each dn in donos
+                tr
+                  td
+                    p= dn.id
+                  td
+                    p= dn.sigla
+                  td
+                    p= dn.designacao
+      if(classe.codigoPai)
+        a.w3-button.w3-teal(id="adicionar" href="http://localhost:4008/classe/" + classe.codigoPai) Classe Anterior
+      br
+      a.w3-button.w3-teal(id="adicionar" href="http://localhost:4008/") Voltar Pag Inicial
+      footer.w3-container.w3-indigo
+        address Raul Vilas Boas a79617
+

@@ -1,0 +1,283 @@
+
+        {
+        "_id": "m70",
+        
+            "pasta": "Hosanna",
+        
+      
+        "titulo": "Hosanna in excelsis",
+    
+      
+        "tipo": "Marcha de Procissão",
+    
+      
+        "compositor": "Oscar Navarro",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "Hosanna-bombo-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "Hosanna-bombo-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "Hosanna-caixa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "Hosanna-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Hosanna-clarinete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Hosanna-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Hosanna-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Hosanna-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Hosanna-eufonio1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Hosanna-eufonio2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Hosanna-fagote1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Hosanna-fagote1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Hosanna-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Hosanna-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "Hosanna-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "Hosanna-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Hosanna-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Hosanna-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Hosanna-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "Hosanna-requinta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Hosanna-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Hosanna-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Hosanna-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "Hosanna-saxS.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Hosanna-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Hosanna-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "Hosanna-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Hosanna-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Hosanna-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Hosanna-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Hosanna-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Hosanna-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Hosanna-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Hosanna-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Hosanna-tuba1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Hosanna-tuba1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Hosanna-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+      ]
+    
+   }
+    

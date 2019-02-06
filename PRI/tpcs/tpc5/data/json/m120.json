@@ -1,0 +1,285 @@
+
+        {
+        "_id": "m120",
+        
+            "pasta": "MusicaIPoble",
+        
+  
+        "titulo": "Música i Poble",
+    
+  
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+  
+        "compositor": "Ferrer Ferran",
+    
+  
+    
+      
+        Pasodoblecompuesto para conmemorarel número 100 de la revista "Música i Poble" que edita la 
+        Federación de Sociedades Musicales de la Comunidad Valenciana.
+      
+        Un pasodoble típico valenciano con una evolución armónica, lo convierte en una obra colorista 
+        y original que, con la cadencia de la trompeta,le da una personalidad de carácter español,
+        pudiéndose así interpretar tanto en concierto como en los típicos pasacalles de nuestra tierra 
+        valenciana.
+    
+  
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "MusicaIPoble-bombo-pratos.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "MusicaIPoble-bombo-pratos.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "MusicaIPoble-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "MusicaIPoble-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MusicaIPoble-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MusicaIPoble-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MusicaIPoble-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "MusicaIPoble-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "MusicaIPoble-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "MusicaIPoble-fagote1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "MusicaIPoble-fagote1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "MusicaIPoble-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "MusicaIPoble-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "MusicaIPoble-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "MusicaIPoble-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "MusicaIPoble-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "MusicaIPoble-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "MusicaIPoble-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "MusicaIPoble-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "MusicaIPoble-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "MusicaIPoble-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "MusicaIPoble-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "MusicaIPoble-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "MusicaIPoble-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "MusicaIPoble-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "MusicaIPoble-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "MusicaIPoble-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "MusicaIPoble-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MusicaIPoble-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MusicaIPoble-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MusicaIPoble-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MusicaIPoble-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "MusicaIPoble-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "MusicaIPoble-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "MusicaIPoble-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "MusicaIPoble-tuba.pdf"
+        
+        }}
+        
+  ]
+    
+}
+    

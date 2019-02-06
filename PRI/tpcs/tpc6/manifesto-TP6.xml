@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/C:/Users/KIKO/Desktop/GIT/EngenhariaInformatica/PLC/PRI/manifesto/manifest.dtd">
+<manifesto>
+    <meta>
+        <id>PRI_18/19_TPC6</id>
+        <título>Website de registo de Teses</título>
+        <subtítulo>Registo e listagem de teses</subtítulo>
+        <dinício>Outubro de 2018</dinício>
+        <dfim>Outubro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>a78416</id>
+            <nome>Francisco José Moreira Oliveira</nome>
+            <email>a78416@alunos.uminho.pt</email>
+            <website>https://github.com/Tibblue</website>
+            <foto path="https://i.imgur.com/0HAVOHz.jpg"/>
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>Este <b><i>trabalho</i></b> pretendia criar um website que permitisse registo,
+                comfirmação do mesmo e listagem de teses.</para>
+        <para>Para tal usamos um servidor em NodeJS, que respondia ao cliente com a página 
+                pedida. Para tal este utiliza o ficheiro <i>teses.json</i> como base de dados.</para>
+        <para>Usa tambem várias <i>.pug</i> que são responsaveis pela formatação das páginas web.</para>
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/Tibblue/PRI/tree/master/tpc6">GitHub Repo TPC6</resultado>
+        <resultado path="manifesto-TP6.xml">XML do manifesto</resultado>
+        <resultado path="manifesto-TP6.html">HTML do manifesto (ficheiro atual)</resultado>
+        <resultado path="manifesto.xsl">XSL do manifesto</resultado>
+        <resultado path="pugs/">Pasta com os .pug responsaveis pela formatação das páginas</resultado>
+        <resultado path="server.js">Servidor em NodeJS</resultado>
+        <resultado path="teses.json">Ficheiro JSON que armazena a lista de teses</resultado>
+    </resultados>
+</manifesto>

@@ -1,0 +1,24 @@
+extends layout
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-indigo
+        h3 MyUpload (nodeJS)
+      .w3-container
+        form.w3-container(id="myUploadForm")
+          label.w3-text-indigo
+            b Ficheiro
+          input.w3-input.w3-border.w3-light-grey(id="ficheiro", type="file", name="ficheiro")
+          label.w3-text-indigo
+            b Descrição
+          input.w3-input.w3-border.w3-light-grey(id="descricao", type="text", name="descricao")
+          button.w3-button.w3-blue-grey(id="adicionar") Adicionar ficheiro
+      header.w3-container.w3-indigo
+        h3 Lista de ficheiros
+      .w3-container
+        input.w3-button.w3-blue-grey(type="button", value="Hide List")#hide
+        input.w3-button.w3-blue-grey(type="button", value="Show List")#show
+      .w3-container
+        table.w3-table-all(id="files")
+      footer.w3-container.w3-indigo
+        address Gerado por KIKO

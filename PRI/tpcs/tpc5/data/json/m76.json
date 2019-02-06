@@ -1,0 +1,175 @@
+
+        {
+        "_id": "m76",
+        
+            "pasta": "BeiraMar",
+        
+      
+        "titulo": "Beira Mar",
+    
+      
+        "tipo": "Marcha de Desfile",
+    
+      
+        "compositor": "Afonso Alves",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "BeiraMar-clarinete1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "BeiraMar-clarinete1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "BeiraMar-clarinete3-saxS.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "BeiraMar-clarinete3-saxS.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "BeiraMar-eufonio-fa.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "BeiraMar-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "BeiraMar-flauta-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "BeiraMar-flauta-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "BeiraMar-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "BeiraMar-percussao.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "BeiraMar-saxA-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "BeiraMar-saxA-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "BeiraMar-saxB-trompete1.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "BeiraMar-saxB-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "BeiraMar-trompete2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "BeiraMar-trompete2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "BeiraMar-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "BeiraMar-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "BeiraMar-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "BeiraMar-trompa-mib-fa.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "BeiraMar-trompa-mib-fa.pdf"
+        , "afinacao": "Fá"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "BeiraMar-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

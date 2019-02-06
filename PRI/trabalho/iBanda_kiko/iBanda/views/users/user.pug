@@ -1,0 +1,41 @@
+extends ../layout
+
+block scripts
+  script(src='/javascripts/user.js')
+
+block header
+  header.w3-container.w3-indigo
+    center
+      h1 User Page
+
+block body
+  .w3-container
+    center
+      h3.w3-text-red= status
+  .w3-container
+    center
+      h3.w3-text-indigo
+        b User
+      h3#name
+        b Name:
+        |  #{user.name}
+      div(style="display: none")#email= user.email
+      h3
+        b Email:
+        |  #{user.email}
+    //- h5
+    //-   b Password:
+    //-   = user.password
+
+  .w3-container
+    center
+      h3.w3-text-indigo
+        b Alterar Password
+      input.w3-input.w3-border.w3-light-grey#newPassword(type="password" name="password" placeholder="new password" style='width:60%')
+      br
+      button.w3-button.w3-blue-grey#put ALTERAR
+  .w3-container
+    center
+      h3.w3-text-indigo
+        b Apagar User
+      a.w3-button.w3-red#delete APAGAR

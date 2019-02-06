@@ -1,0 +1,19 @@
+----- INFO -----
+
+email: jcr@di.uminho.pt
+
+subject: PRI2018::A79617::TP(numero do trabalho de casa)
+subject: PRI2018::A78416::TP(numero TPC)
+
+--- SOFTWARE ---
+oxygen XML editor
+visual code
+NodeJS
+	-node
+	-npm
+MongoDB
+
+--- Survival Notes ---
+
+pasta node_modules tem imensos ficheiros e packages!
+cuidado...

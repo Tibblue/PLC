@@ -1,0 +1,8 @@
+BC:
+( Quando , pagar , [ propinas ] ; ' Até dia 23 de julho .' )
+( Onde , inscrever , [ época , especial ] ; ' No portal académico. ' )
+( Onde , inscrever , [ época ] ; ' qwerty ' )
+
+QUESTOES:
+Quando se pagam as propinas ?
+onDe nos devemos inScreVer para a fogueira ?

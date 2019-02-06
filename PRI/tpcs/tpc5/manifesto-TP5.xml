@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/C:/Users/KIKO/Desktop/GIT/EngenhariaInformatica/PLC/PRI/manifesto/manifest.dtd">
+<manifesto>
+    <meta>
+        <id>PRI_18/19_TPC5</id>
+        <título>Arquivo Musica Digital</título>
+        <subtítulo>Website e Servidor</subtítulo>
+        <dinício>Outubro de 2018</dinício>
+        <dfim>Outubro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>a78416</id>
+            <nome>Francisco José Moreira Oliveira</nome>
+            <email>a78416@alunos.uminho.pt</email>
+            <website>https://github.com/Tibblue</website>
+            <foto path="https://i.imgur.com/0HAVOHz.jpg"/>
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>Este <b><i>trabalho</i></b> contém um servidor em NodeJS que recebe pedidos 
+                e devolve o ficheiro em causa caso exista.</para> 
+        <para>A pasta estilo contem os CSS, a pasta data contem o index.json e todas as 
+                páginas individuais</para>
+        <para>Finalmente temos ficheiros PUG que são responsaveis por ajudar na formatação
+                das páginas HTML</para>
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/Tibblue/PRI/tree/master/tpc5">GitHub Repo TPC5</resultado>
+        <resultado path="manifesto-tp5.xml">XML do manifesto</resultado>
+        <resultado path="manifesto-tp5.html">HTML do manifesto</resultado>
+        <resultado path="manifesto.xsl">XSL do manifesto</resultado>
+        <resultado path="data/">Pasta com o website</resultado>
+        <resultado path="data/index.json">Index da página</resultado>
+        <resultado path="server.js">Servidor em NodeJS</resultado>
+        <resultado path="index.awk">GAWK utilizado para gerar o index.json</resultado>
+    </resultados>
+</manifesto>

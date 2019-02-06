@@ -1,0 +1,15 @@
+extends layout
+block content
+  .w3-container
+    h1.w3-blue Evento: #{evento._id}
+    table.w3-table-all
+        tr
+            th Data
+            td= evento.data
+        tr
+            th Tipo
+            td= evento.tipo
+        tr
+            th Informação
+            td
+                pre= evento

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xsd:element name="manifesto">
+    <xsd:complexType><xsd:sequence>
+
+      <xsd:element name="meta">
+        <xsd:complexType>
+          <xsd:all>
+            <xsd:element name="utilizador" type="xsd:string"/>
+          </xsd:all>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="json">
+        <xsd:complexType><xsd:sequence>
+          <xsd:element name="titulo" type="xsd:string"/>
+          <xsd:element name="tipo" type="xsd:string"/>
+          <xsd:element name="compositor" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="arranjo" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="instrumentos" maxOccurs="unbounded">
+            <xsd:complexType><xsd:all>
+              <xsd:element name="nome" type="xsd:string"/>
+              <xsd:element name="partitura">
+                <xsd:complexType><xsd:all>
+                  <xsd:element name="path" type="xsd:string"/>
+                  <xsd:element name="voz" type="xsd:string" minOccurs="0"/>
+                  <xsd:element name="clave" type="xsd:string" minOccurs="0"/>
+                  <xsd:element name="afinacao" type="xsd:string" minOccurs="0"/>
+                </xsd:all></xsd:complexType>
+              </xsd:element>
+            </xsd:all></xsd:complexType>
+          </xsd:element>
+        </xsd:sequence></xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="files">
+        <xsd:complexType><xsd:sequence>
+          <xsd:element name="path" type="xsd:string" maxOccurs="unbounded"/>
+        </xsd:sequence></xsd:complexType>
+      </xsd:element>
+
+    </xsd:sequence></xsd:complexType>
+  </xsd:element>
+</xsd:schema>

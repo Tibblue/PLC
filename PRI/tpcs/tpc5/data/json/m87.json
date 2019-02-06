@@ -1,0 +1,315 @@
+
+        {
+        "_id": "m87",
+        
+            "pasta": "MartaAgustin",
+        
+    
+        "titulo": "Marta Agustín",
+    
+    
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+    
+        "compositor": "Pere Sanz Alcover",
+    
+    
+        "instrumentos": [
+      
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "MartaAgustin-clarinete-baixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MartaAgustin-clarinete-mib.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MartaAgustin-clarinete-principal.pdf"
+        , "voz": "Principal"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MartaAgustin-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MartaAgustin-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "MartaAgustin-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "MartaAgustin-contrabaixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "MartaAgustin-eufonio1-fa-do.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "MartaAgustin-eufonio2-fa-do.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "MartaAgustin-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "MartaAgustin-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "MartaAgustin-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "MartaAgustin-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "MartaAgustin-flautim.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "MartaAgustin-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "MartaAgustin-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Lira",
+         "partitura": {
+            "path": "MartaAgustin-lira.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "MartaAgustin-maestro.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "MartaAgustin-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "MartaAgustin-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "MartaAgustin-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "MartaAgustin-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "MartaAgustin-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "MartaAgustin-percussao4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "MartaAgustin-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "MartaAgustin-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "MartaAgustin-saxB.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Sax Baixo",
+         "partitura": {
+            "path": "MartaAgustin-saxBaixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "MartaAgustin-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "MartaAgustin-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "MartaAgustin-maestro.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "MartaAgustin-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "MartaAgustin-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "MartaAgustin-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MartaAgustin-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MartaAgustin-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MartaAgustin-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "MartaAgustin-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "MartaAgustin-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "MartaAgustin-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "MartaAgustin-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "MartaAgustin-tuba.pdf"
+        
+        }}
+        
+    ]
+    
+  }
+    

@@ -1,0 +1,33 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+                h3 Tese Recebida
+            form.w3-container(action="/", method="GET")
+                input.w3-button.w3-dark-gray.w3-hover-blue(type="submit", value="Página Inicial")
+            .w3-container
+                table.w3-table-all
+                    tr
+                        th Nome
+                        td= tese.nome
+                    tr
+                        th Número / ID
+                        td= tese.id
+                    tr
+                        th Curso
+                        td= tese.curso
+                    tr
+                        th Instituição
+                        td= tese.instituicao
+                    tr
+                        th Titulo
+                        td= tese.titulo
+                    tr
+                        th Data
+                        td= tese.data
+                    tr
+                        th Tipo
+                        td= tese.tipo
+            footer.w3-container.w3-blue
+                address Gerado por KIKO

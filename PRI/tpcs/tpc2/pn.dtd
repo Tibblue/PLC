@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT html (head,body) >
+<!ATTLIST html
+    lang CDATA #REQUIRED>
+    
+<!ELEMENT head (meta|link|title)*>
+
+<!ELEMENT meta EMPTY >
+<!ATTLIST meta
+    charset CDATA #IMPLIED
+    http-equiv CDATA #IMPLIED
+    content CDATA #IMPLIED
+    name CDATA #IMPLIED>
+    
+<!ELEMENT link EMPTY >
+<!ATTLIST link
+    href CDATA #REQUIRED
+    rel CDATA #REQUIRED
+    type CDATA #IMPLIED>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT body (div|script)*>
+<!ATTLIST body
+    data-spy CDATA #IMPLIED
+    data-target CDATA #IMPLIED
+    style CDATA #IMPLIED>
+
+<!ELEMENT div (#PCDATA|a|table|tr|td|div|ul|nav|custom-table-waterfall|h4|h3|accordion|button|center|spinner|modal)* >
+<!ATTLIST div
+    slot CDATA #IMPLIED
+    class CDATA #IMPLIED
+    id CDATA #IMPLIED
+    style CDATA #IMPLIED>
+    
+<!ELEMENT script (#PCDATA) >
+<!ATTLIST script
+    src CDATA #IMPLIED>
+
+<!ELEMENT nav (#PCDATA|div)* >
+<!ATTLIST nav
+    class CDATA #REQUIRED>
+
+<!ELEMENT a (#PCDATA|span)* >
+<!ATTLIST a
+    target CDATA #IMPLIED
+    href CDATA #IMPLIED
+    data-toggle CDATA #IMPLIED
+    data-placement CDATA #IMPLIED
+    title CDATA #IMPLIED
+    class CDATA #IMPLIED
+    role CDATA #IMPLIED
+    aria-expanded CDATA #IMPLIED>
+
+<!ELEMENT span (#PCDATA) >
+<!ATTLIST span
+    class CDATA #IMPLIED
+    v-html CDATA #IMPLIED
+    style CDATA #IMPLIED>
+
+<!ELEMENT ul (#PCDATA|li)* >
+<!ATTLIST ul
+    class CDATA #IMPLIED
+    style CDATA #IMPLIED
+    v-if CDATA #IMPLIED>
+    
+<!ELEMENT li (#PCDATA|a|form|span|b|ul)* >
+<!ATTLIST li
+    v-if CDATA #IMPLIED
+    v-for CDATA #IMPLIED
+    style CDATA #IMPLIED
+    class CDATA #IMPLIED>
+
+<!ELEMENT form (input|button)* >
+<!ATTLIST form
+    action CDATA #IMPLIED
+    role CDATA #IMPLIED
+    class CDATA #IMPLIED
+    method CDATA #IMPLIED
+    value CDATA #IMPLIED>
+
+<!ELEMENT input EMPTY >
+<!ATTLIST input
+    id CDATA #IMPLIED
+    name CDATA #IMPLIED
+    class CDATA #IMPLIED
+    type CDATA #IMPLIED
+    placeholder CDATA #IMPLIED
+    required CDATA #IMPLIED
+    value CDATA #IMPLIED>
+
+<!ELEMENT button (#PCDATA) >
+<!ATTLIST button
+    click CDATA #IMPLIED
+    class CDATA #IMPLIED
+    type CDATA #IMPLIED>
+
+<!ELEMENT h3 (#PCDATA|div)* >
+<!ATTLIST h3
+    class CDATA #IMPLIED>
+
+<!ELEMENT h4 (#PCDATA)>
+
+<!ELEMENT td (#PCDATA|div|ul|a|p|b|table)* >
+<!ATTLIST td
+    width CDATA #IMPLIED
+    colspan CDATA #IMPLIED
+    style CDATA #IMPLIED
+    valign CDATA #IMPLIED>
+
+<!ELEMENT tr (#PCDATA|td)* >
+<!ATTLIST tr
+    v-if CDATA #IMPLIED>
+
+<!ELEMENT table (#PCDATA|tr|td)* >
+<!ATTLIST table
+    v-for CDATA #IMPLIED
+    style CDATA #IMPLIED
+    class CDATA #IMPLIED
+    v-if CDATA #IMPLIED>
+
+<!ELEMENT b (#PCDATA)>
+
+<!ELEMENT panel (#PCDATA|table|ul)* >
+<!ATTLIST panel
+    v-else-if CDATA #IMPLIED
+    header CDATA #IMPLIED
+    v-if CDATA #IMPLIED>
+
+<!ELEMENT center (#PCDATA) >
+
+<!ELEMENT modal (div)* >
+<!ATTLIST modal
+    title CDATA #IMPLIED
+    value CDATA #IMPLIED
+    closed CDATA #IMPLIED>
+
+<!ELEMENT spinner EMPTY >
+<!ATTLIST spinner
+    ref CDATA #IMPLIED
+    size CDATA #IMPLIED
+    text CDATA #IMPLIED>
+
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p
+    v-html CDATA #IMPLIED>
+
+<!ELEMENT accordion (#PCDATA|panel)* >
+<!ATTLIST accordion
+    class CDATA #IMPLIED>
+
+<!ELEMENT custom-table-waterfall (#PCDATA) >
+<!ATTLIST custom-table-waterfall
+    class CDATA #IMPLIED
+    v-if CDATA #IMPLIED
+    filter-on CDATA #IMPLIED
+    sidebar CDATA #IMPLIED
+    complete-rows CDATA #IMPLIED
+    n-edits CDATA #IMPLIED
+    row-clicked CDATA #IMPLIED>

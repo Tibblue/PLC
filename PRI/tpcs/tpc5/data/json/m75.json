@@ -1,0 +1,66 @@
+
+        {
+        "_id": "m75",
+        
+            "pasta": "GuilhermeTell",
+        
+      
+        "titulo": "Guilherme Tell",
+    
+      
+        "subtitulo": "Abertura de Ópera",
+    
+      
+        "compositor": "Gioachino Rossini",
+    
+      
+        "editado": "A. Madureira",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GuilhermeTell-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GuilhermeTell-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GuilhermeTell-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GuilhermeTell-trompa1.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GuilhermeTell-trompa2.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "GuilhermeTell-trompa3.pdf"
+        , "voz": "III", "afinacao": "Mib"
+        }}
+        
+      ]
+    
+   }
+    

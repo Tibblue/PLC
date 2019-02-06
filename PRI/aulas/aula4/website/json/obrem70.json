@@ -1,0 +1,283 @@
+
+            {"id": "m70",
+             "titulo": "Hosanna in excelsis",
+             "tipo": "Marcha de Procissão"
+            
+                , "compositor": "Oscar Navarro"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "Bombo",
+                    
+                    "path": "Hosanna-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Pratos",
+                    
+                    "path": "Hosanna-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Caixa",
+                    
+                    "path": "Hosanna-caixa.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete Baixo",
+                    
+                    "path": "Hosanna-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "Solo",
+                    
+                    "path": "Hosanna-clarinete-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Hosanna-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-eufonio1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-eufonio2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-fagote1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-fagote1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-flauta2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fliscorne",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-fliscorne1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fliscorne",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-fliscorne2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Maestro",
+                    
+                    "path": "Hosanna-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-oboe1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-oboe2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Requinta",
+                    
+                    "path": "Hosanna-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "Hosanna-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Soprano",
+                    
+                    "path": "Hosanna-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-saxT1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-saxT2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tímpanos",
+                    
+                    "path": "Hosanna-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "Hosanna-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "voz": "I",
+                    
+                    "path": "Hosanna-tuba1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "voz": "II",
+                    
+                    "path": "Hosanna-tuba1-2.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

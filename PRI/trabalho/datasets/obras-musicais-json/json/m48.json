@@ -1,0 +1,207 @@
+
+        {
+        "_id": "m48",
+        
+      
+        "titulo": "Transfiguração",
+    
+      
+        "tipo": "Marcha de Procissão",
+    
+      
+        "compositor": "António Almeida da Silva",
+    
+      
+        "arranjo": "Amílcar Morais",
+    
+      
+         
+      
+      
+        "instrumentos": [
+        
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "Transfig-bombo.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "Transfig-caixa.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "Transfig-contrabaixo.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Transfig-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Transfig-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Transfig-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Transfig-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Transfig-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Transfig-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+        
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Transfig-flauta.pdf"
+        
+        }}
+        ,        
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Transfig-maestro.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Transfig-percussao.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "Transfig-requinta.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Transfig-saxA.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Transfig-saxB.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "Transfig-saxS.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Transfig-saxT.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Transfig-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Transfig-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Transfig-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Transfig-trompa.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Transfig-trompa-mib.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Transfig-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Transfig-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Transfig-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Transfig-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

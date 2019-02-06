@@ -1,0 +1,231 @@
+
+            {"id": "m33",
+             "titulo": "Paquito Chocolatero",
+             "tipo": "Marcha de Desfile"
+            
+                , "compositor": "Gustavo Pascual Falcó"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "All",
+                    
+                    "path": "Paquito-all.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Bombo",
+                    
+                    "path": "Paquito-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Pratos",
+                    
+                    "path": "Paquito-bombo-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Caixa",
+                    
+                    "path": "Paquito-caixa.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "Solo",
+                    
+                    "path": "Paquito-clarinete-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Paquito-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-eufonio1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-eufonio2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                    "path": "Paquito-flauta-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                    "path": "Paquito-flauta-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flautim",
+                    
+                    "path": "Paquito-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fliscorne",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-fliscorne1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fliscorne",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-fliscorne2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Maestro",
+                    
+                    "path": "Paquito-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Requinta",
+                    
+                    "path": "Paquito-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "Paquito-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-saxT1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-saxT2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "Paquito-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Paquito-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Paquito-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                    "path": "Paquito-tuba.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

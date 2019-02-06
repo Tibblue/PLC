@@ -1,0 +1,311 @@
+
+        {
+        "_id": "m93",
+        
+            "pasta": "PortuguesCantado",
+        
+  
+        "titulo": "Português Cantado",
+    
+  
+        "subtitulo": "Rapsódia Nº3",
+    
+  
+        "tipo": "Rapsódia",
+    
+  
+        "compositor": "Carlos Marques",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "PortuguesCantado-bateria.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "PortuguesCantado-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PortuguesCantado-clarinete-mib.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PortuguesCantado-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PortuguesCantado-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PortuguesCantado-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "PortuguesCantado-contrabaixo-mib.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PortuguesCantado-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PortuguesCantado-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PortuguesCantado-eufonio-sol-do.pdf"
+        , "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PortuguesCantado-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "PortuguesCantado-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "PortuguesCantado-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "PortuguesCantado-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "PortuguesCantado-lira-sinos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sinos",
+         "partitura": {
+            "path": "PortuguesCantado-lira-sinos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "PortuguesCantado-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "PortuguesCantado-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "PortuguesCantado-percussao.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "PortuguesCantado-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "PortuguesCantado-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "PortuguesCantado-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "PortuguesCantado-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "PortuguesCantado-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PortuguesCantado-trombone1-fa.pdf"
+        , "voz": "I", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PortuguesCantado-trombone1-sol.pdf"
+        , "voz": "I", "clave": "Sol"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PortuguesCantado-trombone2-3-fa.pdf"
+        , "voz": "II", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PortuguesCantado-trombone2-3-fa.pdf"
+        , "voz": "III", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PortuguesCantado-trombone2-3-sol.pdf"
+        , "voz": "II", "clave": "Sol"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PortuguesCantado-trombone2-3-sol.pdf"
+        , "voz": "III", "clave": "Sol"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PortuguesCantado-trompa1-mib.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PortuguesCantado-trompa2-mib.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PortuguesCantado-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PortuguesCantado-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PortuguesCantado-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PortuguesCantado-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PortuguesCantado-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PortuguesCantado-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PortuguesCantado-tuba-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PortuguesCantado-tuba-sol-do.pdf"
+        , "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PortuguesCantado-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+  ]
+    
+}
+    

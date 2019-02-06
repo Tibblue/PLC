@@ -1,0 +1,5 @@
+Base Conhecimento:
+( Quem ; foi ; rei , primeiro ; "D. Afonso Henriques" ; 100 )
+
+Questoes:
+Q: Quem foi o primeiro rei  ?

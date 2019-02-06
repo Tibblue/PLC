@@ -1,0 +1,238 @@
+
+        {
+        "_id": "m98",
+        
+            "pasta": "FiestaLasTrompetas",
+        
+  
+        "titulo": "Fiesta de las Trompetas",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Leroy Anderson",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "FiestaLasTrompetas-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "FiestaLasTrompetas-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "FiestaLasTrompetas-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-clarinete-principal.pdf"
+        , "voz": "Principal"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FiestaLasTrompetas-eufonio-fa.pdf"
+        , "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FiestaLasTrompetas-flauta-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "FiestaLasTrompetas-flauta-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "FiestaLasTrompetas-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "FiestaLasTrompetas-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "FiestaLasTrompetas-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "FiestaLasTrompetas-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "FiestaLasTrompetas-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FiestaLasTrompetas-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FiestaLasTrompetas-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "FiestaLasTrompetas-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "FiestaLasTrompetas-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompa1-3.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompa1-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompa2-4.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompa2-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompete.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompete1-solo.pdf"
+        , "voz": "Solo_I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompete2-solo.pdf"
+        , "voz": "Solo_II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FiestaLasTrompetas-trompete3-solo.pdf"
+        , "voz": "Solo_III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FiestaLasTrompetas-tuba.pdf"
+        
+        }}
+        
+  ]
+    
+}
+    

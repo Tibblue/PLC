@@ -1,0 +1,4 @@
+nao esquecer de iniciar o servidor da BD de sessoes
+
+autenticacao/usersbd> npm run json:server
+autenticacao> npm start

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/C:/Users/KIKO/Desktop/GIT/EngenhariaInformatica/PLC/PRI/manifesto/manifest.dtd">
+<manifesto>
+    <meta>
+        <id>PRI_18/19_TPC2</id>
+        <título>Especificação de um DTD para um Processo de Negócio e Geração do manifesto.html</título>
+        <subtítulo></subtítulo>
+        <dinício>Setembro de 2018</dinício>
+        <dfim>Setembro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>a78416</id>
+            <nome>Francisco José Moreira Oliveira</nome>
+            <email>a78416@alunos.uminho.pt</email>
+            <website></website>
+            <foto path="https://i.imgur.com/0HAVOHz.jpg"/>
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>Este <b><i>trabalho</i></b> contém um DTD capaz de verificar que a estrutura
+                de uma página CLAV está a ser seguida corretamente, mantendo a informação 
+                <b>consistente e partilhável</b> entre várias pessoas.</para>
+        <para>Este <b>trabalho</b> contém também um ficheiro <b>XML, um XSLT e o HTML</b> gerado apartir de ambos.
+                Utilizando a facilidade de processamento de um XML e as capacidades do XSLT,
+                geramos um HTML que facilmente mostra a informação pretendida</para>
+        <para><i>Extra:</i></para>
+        <para>O XSL criado verifica se uma tag opcional <b>não tem conteúdo</b>, e caso se verifique, a tag é ignorada e não apresentada.
+                Isto evita casos em que a tag esteja presente no XML, 
+                mas vazia e o DTD não tem motivos para dar erro, pois a tag era opcional.</para>
+    </resumo>
+    <resultados>
+        <resultado path="pn.dtd">DTD para o processo de negócio</resultado>
+        <resultado path="manifesto-tp2.xml">XML do manifesto</resultado>
+        <resultado path="manifesto.xsl">XSL de comversão do XML para HTML</resultado>
+        <resultado path="manifesto-tp2.html">HTML resultado</resultado>
+    </resultados>
+</manifesto>

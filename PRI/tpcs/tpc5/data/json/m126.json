@@ -1,0 +1,322 @@
+
+        {
+        "_id": "m126",
+        
+            "pasta": "TheSpiritOfChristmas",
+        
+  
+        "titulo": "The Spirit Of Christmas",
+    
+  
+        "tipo": "Obras Natalícias",
+    
+  
+        "compositor": "Jacob de Haan",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        , 
+    
+        {"nome": "Cornetim",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-cornetim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Coro",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-coro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-eufonio-fa.pdf"
+        , "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-lira.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone1-fa.pdf"
+        , "voz": "I", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone1-fa-sib.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone1-sol-sib.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone2-fa-sib.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone-sol-sib.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone3-sol-sib.pdf"
+        , "voz": "III", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone3-fa-sib.pdf"
+        , "voz": "III", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trombone3.pdf"
+        , "voz": "III", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trompa1-mib.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trompa2-mib.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-tuba-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-tuba-sol-mib.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-tuba-fa-mib.pdf"
+        , "clave": "Fá", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TheSpiritOfChristmas-tuba.pdf"
+        , "clave": "Fá"
+        }}
+        
+  ]
+    
+}
+    

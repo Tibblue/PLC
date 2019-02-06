@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-indigo
+        h3 Clav
+      .w3-container
+        table.w3-table-all
+          tr
+            th Código
+            th Titulo
+            th ID
+          each c in clavs
+            tr
+              td
+                a(href="/classe/"+c.codigo)= c.codigo
+              td
+                p= c.titulo
+              td
+                p= c.id
+      footer.w3-container.w3-indigo
+        address Raul Vilas Boas a79617

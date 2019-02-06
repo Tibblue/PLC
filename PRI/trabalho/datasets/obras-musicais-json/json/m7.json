@@ -1,0 +1,253 @@
+
+        {
+        "_id": "m7",
+        
+      
+        "titulo": "Avé Maria",
+    
+      
+        "tipo": "Marcha de Procissão",
+    
+      
+        "compositor": "Alberto Madureira",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "AveMaria-bombo-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "AveMaria-bombo-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "AveMaria-caixa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AveMaria-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AveMaria-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AveMaria-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "AveMaria-contrabaixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AveMaria-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AveMaria-eufonio-fa.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AveMaria-eufonio-sol-do.pdf"
+        , "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AveMaria-eufonio-sol.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "AveMaria-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "AveMaria-flauta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "AveMaria-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "AveMaria-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "AveMaria-requinta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "AveMaria-saxA.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "AveMaria-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "AveMaria-saxS.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "AveMaria-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AveMaria-trombone1-fa.pdf"
+        , "voz": "I", "clave": "Fá"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AveMaria-trombone1-sol.pdf"
+        , "voz": "I", "clave": "Sol"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AveMaria-trombone2-fa.pdf"
+        , "voz": "II", "clave": "Fá"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AveMaria-trombone2-sol.pdf"
+        , "voz": "II", "clave": "Sol"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AveMaria-trombone3-fa.pdf"
+        , "voz": "III", "clave": "Fá"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AveMaria-trombone3-sol.pdf"
+        , "voz": "III", "clave": "Sol"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AveMaria-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AveMaria-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AveMaria-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AveMaria-trompete1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AveMaria-trompete1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AveMaria-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "AveMaria-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

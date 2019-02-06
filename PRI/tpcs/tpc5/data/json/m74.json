@@ -1,0 +1,206 @@
+
+        {
+        "_id": "m74",
+        
+            "pasta": "JuizoFinal",
+        
+      
+        "titulo": "Juízo Final",
+    
+      
+        "subtitulo": "Il Giudizio Universale - poema sinfónico",
+    
+      
+        "compositor": "Camillo de Nardis",
+    
+      
+        "arranjo": "Franco Cesarini",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "JuizoFinal-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "JuizoFinal-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "JuizoFinal-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "JuizoFinal-eufonio.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "JuizoFinal-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "JuizoFinal-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "JuizoFinal-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "JuizoFinal-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "JuizoFinal-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "JuizoFinal-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "JuizoFinal-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "JuizoFinal-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "JuizoFinal-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "JuizoFinal-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "JuizoFinal-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "JuizoFinal-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "JuizoFinal-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "JuizoFinal-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "JuizoFinal-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "JuizoFinal-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "JuizoFinal-trompa3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "JuizoFinal-trompa3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "JuizoFinal-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "JuizoFinal-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "JuizoFinal-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "JuizoFinal-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

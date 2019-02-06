@@ -1,0 +1,36 @@
+﻿
+FORMACAO:
+GCS - 'gramaticas na compreensao de SW'
+
+TEMA: 'um texto para descrever'
+TIPO: PRATICO
+RECURSOS: 'Recurso1 = .....'
+DURACAO: 2h
+HORARIO: 2f -- 9:30
+CUSTO: 10
+FORMADOR: 'João', 'Rua da Universidade', 'cc22248', bacharel
+
+ALUNO: 'Pedro', 'Rua da Torre',  'e222225';
+ALUNO: 'Cristiana', 'Rua da Maré',  'pg887225';
+ALUNO: 'Ana', 'Rua de Cima',  'al8822225'.
+
+
+FORMACAO:
+PLC - "Processamento de Linguagens e compiladores'
+
+TEMA: "Um compilador é...'
+TIPO: TEORICO
+TOPICOS: 'Topico 1 = ..... '
+BIBLIOGRAFIA:
+    TITULO: 'COMPILADORES'
+    OBRA: 'antLr'
+    TITULO: 'Sintaxe antlr'
+    OBRA: 'As  sintaxes'
+DURACAO: 3h
+HORARIO: sab -- 15:30
+CUSTO: 25
+FORMADOR: 'Ricardo', 'Rua da Outeiro', 'cc33248', mestre
+
+ALUNO: 'Tiago', 'Rua da Torre',  'e222225';
+ALUNO: 'Joana', 'Rua da Maré',  'pg887225';
+ALUNO: 'Ana', 'Rua de Cima',  'al8822225'.

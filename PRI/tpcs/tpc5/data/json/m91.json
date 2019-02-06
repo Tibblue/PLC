@@ -1,0 +1,259 @@
+
+        {
+        "_id": "m91",
+        
+            "pasta": "TheMagicOfChristmas",
+        
+      
+        "titulo": "The Magic Of Christmas",
+    
+      
+        "tipo": "Obras Natalícias",
+    
+      
+        "arranjo": "Jan van Kraeydonck",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "TheMagicOfChristmas-bateria.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TheMagicOfChristmas-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TheMagicOfChristmas-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TheMagicOfChristmas-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheMagicOfChristmas-eufonio1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheMagicOfChristmas-eufonio2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheMagicOfChristmas-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheMagicOfChristmas-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TheMagicOfChristmas-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "TheMagicOfChristmas-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "TheMagicOfChristmas-flauta1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "TheMagicOfChristmas-flauta1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Lira",
+         "partitura": {
+            "path": "TheMagicOfChristmas-lira.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "TheMagicOfChristmas-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "TheMagicOfChristmas-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "TheMagicOfChristmas-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "TheMagicOfChristmas-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "TheMagicOfChristmas-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "TheMagicOfChristmas-saxS.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "TheMagicOfChristmas-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sinos",
+         "partitura": {
+            "path": "TheMagicOfChristmas-sinos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "TheMagicOfChristmas-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trombone1-fa-do.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trombone2-fa-do.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trombone3-fa-do.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trombone1-fa-sib.pdf"
+        , "voz": "I", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trombone2-fa-sib.pdf"
+        , "voz": "II", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trombone3-fa-sib.pdf"
+        , "voz": "III", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TheMagicOfChristmas-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TheMagicOfChristmas-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

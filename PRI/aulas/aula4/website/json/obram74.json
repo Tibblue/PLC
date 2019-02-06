@@ -1,0 +1,165 @@
+
+            {"id": "m74",
+             "titulo": "Juízo Final",
+             "tipo": ""
+            
+                , "compositor": "Camillo de Nardis"
+            
+                , "arranjo": "Franco Cesarini"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "JuizoFinal-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "JuizoFinal-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "JuizoFinal-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                    "path": "JuizoFinal-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "JuizoFinal-fagote2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "JuizoFinal-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "JuizoFinal-flauta2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "I",
+                    
+                    "path": "JuizoFinal-percussao1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "II",
+                    
+                    "path": "JuizoFinal-percussao2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "JuizoFinal-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "JuizoFinal-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                    "path": "JuizoFinal-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tímpanos",
+                    
+                    "path": "JuizoFinal-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "JuizoFinal-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "JuizoFinal-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "JuizoFinal-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "JuizoFinal-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "JuizoFinal-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "JuizoFinal-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                    "path": "JuizoFinal-tuba.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

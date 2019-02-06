@@ -1,0 +1,290 @@
+
+        {
+        "_id": "m110",
+        
+            "pasta": "AngelBlanco",
+        
+  
+        "titulo": "El Angel Blanco",
+    
+  
+        "subtitulo": "Finalista en el I Concurso Nacional de Marchas de Procesión Ciudad de Toledo 2012",
+    
+  
+        "tipo": "Marcha de Procissão",
+    
+  
+        "compositor": "Óscar Navarro",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "AngelBlanco-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "AngelBlanco-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "AngelBlanco-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "AngelBlanco-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AngelBlanco-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AngelBlanco-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AngelBlanco-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AngelBlanco-eufonio1-fa.pdf"
+        , "voz": "I", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AngelBlanco-eufonio2-fa.pdf"
+        , "voz": "II", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "AngelBlanco-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "AngelBlanco-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "AngelBlanco-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "AngelBlanco-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "AngelBlanco-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "AngelBlanco-fliscorne1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "AngelBlanco-fliscorne1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "AngelBlanco-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "AngelBlanco-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "AngelBlanco-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "AngelBlanco-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "AngelBlanco-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "AngelBlanco-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "AngelBlanco-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "AngelBlanco-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "AngelBlanco-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "AngelBlanco-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AngelBlanco-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AngelBlanco-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AngelBlanco-trombone3.pdf"
+        , "voz": "III"
+        }}
+        , 
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AngelBlanco-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AngelBlanco-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AngelBlanco-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AngelBlanco-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AngelBlanco-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AngelBlanco-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AngelBlanco-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "AngelBlanco-tuba1-2-fa.pdf"
+        , "voz": "I", "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "AngelBlanco-tuba1-2-fa.pdf"
+        , "voz": "II", "clave": "Fá"
+        }}
+        
+  ]
+    
+}
+    

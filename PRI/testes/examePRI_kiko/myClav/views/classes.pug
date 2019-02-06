@@ -1,0 +1,86 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-indigo
+        center
+          h3 Classe #{classe.codigo}
+      .w3-container
+        a.w3-button.w3-blue(href="http://localhost:3000") Voltar a Homepage
+        br
+        if(classe.codigoPai)
+          a.w3-button.w3-blue(id="adicionar" href="http://localhost:3000/" + classe.codigoPai) Classe Pai (#{classe.codigoPai})
+      .w3-container
+        header.w3-container.w3-indigo
+          h4 Informação da Classe
+        table.w3-table-all
+          tr
+            th Código
+            td= classe.codigo
+          if(classe.tituloPai)
+            tr
+              th Titulo Pai
+              td= classe.tituloPai
+          if(classe.pt)
+            tr
+              th PT
+              td= classe.pt
+          if(classe.procTipo)
+            tr
+              th ProcTipo
+              td= classe.procTipo
+          tr
+            th Titulo
+            td= classe.titulo
+          if(classe.pai)
+            tr
+              th Pai
+              td= classe.pai
+          if(classe.codigoPai)
+            tr
+              th Codigo Pai
+              td= classe.codigoPai
+          if(classe.procTrans)
+            tr
+              th ProcTrans
+              td= classe.procTrans
+          tr
+            th Status
+            td= classe.status
+          tr
+            th Descrição
+            td= classe.desc
+        if(desc[0])
+          header.w3-container.w3-indigo
+            h4 Descendentes
+          table.w3-table-all
+            th Código
+            th Titulo
+            th ID
+              each d in desc
+                tr
+                  td
+                    a(href="/"+d.codigo)= d.codigo
+                  td
+                    a= d.titulo
+                  td
+                    a=d.id
+        if(donos[0])
+          header.w3-container.w3-indigo
+            h4 Dono
+          table.w3-table-all
+            //- th Tipo
+            th ID
+            th Sigla
+            th Designação
+              each dono in donos
+                tr
+                  //- td= dono.tipo
+                  td
+                    a(href=dono.id)= dono.id
+                  td= dono.sigla
+                  td= dono.designacao
+      footer.w3-container.w3-indigo
+        address Exame PRI
+

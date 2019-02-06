@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arqelem>
+   <id> Cruzeiro do Pilar</id>
+   <desc> Miliário</desc>
+   <lugar> Lugar de Pilar </lugar>
+   <freguesia> Fiscal </freguesia>
+   <concelho> Amares </concelho>
+   <acesso> O  miliário está no lugar de Pilar, entre S. Miguel de Fiscal e S. Martinho de Carrazedo, servindo como
+			base de um cruzeiro.</acesso>
+   <quadro/>
+   <descarq> Miliário epigrafado, encimado por uma cruz. Altura: 166; diâmetro: 29; letras: 8. [IMP]P(eratori).
+			CAE[S(ari).M(arco)] / AVR(elio). CA[RO] / P(io) F(elici) I(nvicto) [AVG(usto)] / P(ontifici) M(aximo)... Ao Imperador César Marco Aurélio
+			Caro, Pio, Feliz, Invicto, Augusto, Pontífex Máximo...</descarq>
+</arqelem>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/C:/Users/KIKO/Desktop/GIT/EngenhariaInformatica/PLC/PRI/manifesto/manifest.dtd">
+<manifesto>
+    <meta>
+        <id>PRI_18/19_TPC8</id>
+        <título>Website de upload de Ficheiros</título>
+        <subtítulo>Upload e acesso a ficheiros (Express-Generator)</subtítulo>
+        <dinício>Novembro de 2018</dinício>
+        <dfim>Novembro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www4.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>a78416</id>
+            <nome>Francisco José Moreira Oliveira</nome>
+            <email>a78416@alunos.uminho.pt</email>
+            <website>https://github.com/Tibblue</website>
+            <foto path="https://i.imgur.com/0HAVOHz.jpg"/>
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>Este <b><i>trabalho</i></b> pretendia criar um website que permitisse o
+                upload de ficheiros por um utilizador, e que os mesmo fossem depois 
+                acessiveis ao mesmo.</para>
+        <para>Para tal usamos um servidor em NodeJS, que respondia ao cliente com 
+                a página contendo o formulário para upload do ficheiro e tambem uma
+                listagem dos ficheiros já esistentes.
+                O ficheiros <i>ficheiros.json</i> serve como base de dados.</para>
+        <para>Usa-mos o <i>Express-Generator</i> para gerar uma pasta base e cria-mos 
+                um script em JavaScript que permitia a utilização de 
+                2 botões na página para esconder/visualizar a lista de ficheiros.</para>
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/Tibblue/PRI/tree/master/tpc8">GitHub Repo TPC8</resultado>
+        <resultado path="manifesto-TP8.xml">XML do manifesto</resultado>
+        <resultado path="manifesto-TP8.html">HTML do manifesto (ficheiro atual)</resultado>
+        <resultado path="manifesto.xsl">XSL do manifesto</resultado>
+        <resultado path="myUpload/public/stylesheets/">Pasta com as Stylesheets (w3.css)</resultado>
+        <resultado path="myUpload/public/javascripts/">Pasta com os Scripts (myUpload.js)</resultado>
+        <resultado path="myUpload/views/">Pasta com as Views (ficheiros .pug) responsáveis pela formatação das páginas</resultado>
+        <resultado path="myUpload/public/uploaded/">Pasta com os Ficheiros carregados pelo utilizador</resultado>
+        <resultado path="myUpload/public/ficheiros.json">Ficheiro JSON que armazena a lista de ficheiros carregados</resultado>
+        <resultado path="myUpload/bin/www">Servidor em NodeJS</resultado>
+        <resultado path="myUpload/routes/index.js">Código relevante</resultado>
+    </resultados>
+</manifesto>

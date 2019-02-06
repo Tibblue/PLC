@@ -1,0 +1,14 @@
+Base Conhecimento:
+( Quem ; ser ; primeiro , rei ; "D. Afonso Henriques" ; 100 )
+( Quem ; ser ; primeiro , rei ; "D. Afonso Henriques" ; 100 )
+( Quando ; ser ; descoberto , Brasil ; "1500" ; 100 )
+( Qual ; ser ; segunda , maior , cidade ; "Vila Nova de Gaia" ; 100 )
+( Qual ; ser ; serra , mais , alta ; "Serra da Estrela" ; 100 )
+( Quem ; ganhar ; primeira , futebol , 2014/2015 ; "Benfica" ; 100 )
+
+Questoes:
+Q: Quem foi o primeiro  rei de Portugal?
+Q: Quando foi é descoberto o Brasil?
+Q: Qual é a serra alta de Portugal?
+Q: Qual é a segunda maior cidade de Portugal?
+Q: Quem ganhou a primeira liga de futebol de 2014/2015 ?

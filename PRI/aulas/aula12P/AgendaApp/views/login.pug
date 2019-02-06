@@ -1,0 +1,11 @@
+extends layout
+block content
+  .w3-container
+    header.w3-indigo.w3-container
+      h3 Login
+    .w3-container
+      form.w3-container(method="POST" action="/users/login")
+        input.w3-input(type="text" name="username" placeholder="Username")
+        input.w3-input(type="text" name="password" placeholder="Password")
+        input.w3-btn.w3-indigo(type="submit" value="LOGIN")
+        

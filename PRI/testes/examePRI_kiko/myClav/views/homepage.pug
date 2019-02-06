@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-indigo
+        center
+          h1 Clav
+      .w3-container
+        center
+          h3 Classificação e Avaliação da Informação Pública
+          h4 informação de contexto
+      br
+      .w3-container
+        table.w3-table-all
+          tr
+            th.w3-indigo Código
+            th.w3-indigo Titulo
+            th.w3-indigo ID
+          each clav in clavs
+            tr
+              td
+                h4
+                  a(href="/"+clav.codigo)= clav.codigo
+              td
+                p= clav.titulo
+              td
+                p
+                  a(href=clav.id)= clav.id
+      footer.w3-container.w3-indigo
+        address Exame PRI por Francisco

@@ -1,0 +1,242 @@
+
+        {
+        "_id": "m23",
+        
+      
+        "titulo": "Fate of the Gods",
+    
+      
+        "tipo": "Abertura/Concerto",
+    
+      
+        "compositor": "Steven Reineke",
+    
+      
+        "arranjo": "Paulo Martins",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "FateGods-bombo-caixa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "FateGods-bombo-caixa.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "FateGods-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FateGods-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FateGods-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FateGods-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FateGods-eufonio-fa-do.pdf FateGods-eufonio-sol.pdf"
+        , "clave": "Fá Sol", "afinacao": "Dó Sib"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "FateGods-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FateGods-flauta1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FateGods-flauta1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "FateGods-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "FateGods-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "FateGods-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "FateGods-percussao-aux.pdf"
+        , "voz": "Aux"
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "FateGods-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FateGods-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FateGods-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "FateGods-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "FateGods-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sinos",
+         "partitura": {
+            "path": "FateGods-sinos-xilofone.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Xilofone",
+         "partitura": {
+            "path": "FateGods-sinos-xilofone.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "FateGods-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FateGods-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FateGods-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FateGods-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FateGods-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FateGods-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FateGods-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FateGods-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FateGods-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FateGods-trompete1.pdf FateGods-trompete1.pdf"
+        , "clave": "Fá Sol", "afinacao": "Dó Sib"
+        }}
+        
+      ]
+    
+   }
+    

@@ -1,0 +1,155 @@
+
+            {"id": "m2",
+             "titulo": "Armindo Alves",
+             "tipo": "Marcha de Desfile"
+            
+                , "compositor": "Ilídio Costa"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "ArmindoAlves-saxB.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Soprano",
+                    
+                    "path": "ArmindoAlves-saxS.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                    "path": "ArmindoAlves-saxA.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                    "path": "ArmindoAlves-saxT.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                    "path": "ArmindoAlves-flauta.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "ArmindoAlves-clarinete1.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "ArmindoAlves-clarinete2.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "ArmindoAlves-clarinete3.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "ArmindoAlves-trompete1.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "ArmindoAlves-trompete2.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "ArmindoAlves-trompete3.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                    "path": "ArmindoAlves-trompa.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "ArmindoAlves-trombone1.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "ArmindoAlves-trombone2.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "ArmindoAlves-trombone3.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                    "path": "ArmindoAlves-eufonio.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "voz": "I",
+                    
+                    "path": "ArmindoAlves-tuba1.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "voz": "II",
+                    
+                    "path": "ArmindoAlves-tuba2.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Caixa",
+                    
+                    "path": "ArmindoAlves-caixa.tif"
+                    }
+                    ,
+                    {
+                    "designaçao": "Bombo",
+                    
+                    "path": "ArmindoAlves-bombo.tif"
+                    }
+                    
+                ]
+            
+            }
+        

@@ -1,0 +1,262 @@
+
+<!-- saved from url=(0080)http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <title>Arquivo de Fichas Práticas do JCR</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="./Arquivo de Fichas Práticas do JCR_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   <style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style></head>
+   <body style="padding-top:50px;">
+      <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+         <div class="container">
+            <div class="navbar-header">
+               <a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/index.php" class="navbar-brand">Arquivo Fichas Práticas</a>
+               <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                  <span class="icon-bar">
+                  <span class="icon-bar">
+                  <span class="icon-bar">
+               </span></span></span></button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/index-fichas.html">Fichas</a>
+                  </li>
+                  <li>
+                     <a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/index-fichas-categ.html">Fichas/Tema</a>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/logs.html">Registo de Alterações</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-5 col-md-5">
+               <img class="img-responsive" src="./Arquivo de Fichas Práticas do JCR_files/fichas.jpeg">
+            </div>
+            <div class="col-sm-7 col-md-7">
+               <h2>Ficha dweb2019-e1</h2>
+               <h3>Avaliação: Desenvolvimento de Aplicações Web</h3>
+            </div>
+         </div>
+         <div class="panel panel-default">
+            <div class="panel-body">
+               <a name="ind-ex">
+               <p class="lead">Desenvolvimento de Aplicações Web (MIEI)</p>
+               <p>
+                  </p><p>O objectivo principal desta ficha é testar os conhecimentos obtidos durante as aulas no desenvolvimento de 
+        aplicações Web e outras tarefas afins.</p>
+                  <p>Os resultados finais deverão ser enviados ao docente da seguinte forma:</p><ul>
+                        <li>Enviar por email para: jcr@di.uminho.pt</li>
+                        <li>Colocar no subject/assunto: DWEB2018::Teste::Axxxxx</li>
+                        <li>Em que Axxxxx corresponde ao número do aluno;</li>
+                        <li>Enviar um ZIP com a resolução. Esse ZIP deverá conter um PR (project record/manifesto) que descreve o que se fez e lista os ficheiros
+        que constituem a solução (à semelhança dos trabalhos de casa);</li>
+                        <li>Para os exercícios em que recorrer a mais do que um servidor, por exemplo, servidor node e servidor Mongo, explique como 
+        se pode colocar a funcionar a sua App;</li>
+                        <li>No fim, confirme com o docente que tudo foi enviado e recebido como deve ser.</li>
+                     </ul>
+                  <p></p>
+               <p></p>
+               <div class="container">
+                  <table>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <h3>Recursos:</h3>
+                           </td>
+                           <td>
+                        </td></tr>
+                        <tr>
+                           <td>
+                           </td><td>
+                              <div class="para"> Recursos disponíveis para a realização da ficha:</div>
+                              <br>
+                              <ul>
+                                 <li>
+                                    <a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/datasets/compositores.xml">Lista de compositores musicais recolhidos da DBPedia.</a>
+                                 </li>
+                              </ul>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <h3>
+                Exercícios:
+              </h3>
+                           </td>
+                           <td>
+                        </td></tr>
+                        <tr>
+                           <td>
+                           </td><td>
+                              <ol>
+                                 <a name="ind-ex">
+                                 </a><li><a name="ind-ex">
+                                    </a><a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e1.html#e1">Compositores Musicais</a>
+                                 </li>
+                                 <a name="ind-ex">
+                                 </a><li><a name="ind-ex">
+                                    </a><a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e1.html#e2">CLAV: Classificação e Avaliação da Informação Pública</a>
+                                 </li>
+                              </ol>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <hr>
+               </a><div class="panel panel-default"><a name="ind-ex">
+                  </a><div class="panel-footer"><a name="ind-ex">
+                     <p>Generated by xfichas app by jcr::2015-02-24</p>
+                     </a><p><a name="ind-ex">[</a><a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/">Voltar ao índice de fichas</a>]</p>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <a name="e1">
+                     <h3 class="panel-title">Exercício Nº 1:
+            Compositores Musicais</h3>
+                  </a></div><a name="e1">
+                  <div class="panel-body">
+                     <p>Hoje em dia, existem muitos datasets disponíveis na Internet que podemos recolher e usar para construir aplicações de
+        valor acrescentado. Nos recursos disponíveis em cima, encontras um desses datasets em XML.</p>
+                     <p>Neste exercício, terás de:</p>
+                     <ol class="a">
+                        <li>Converter o dataset para um formato adequado, ou usá-lo como está (há vários conversores online de XML para JSON e 
+          outros formatos), e colocá-lo no sistema que usarás para assegurar a sua persistência: ficheiro, MongoDB, json-server, etc;</li>
+                        <li>Criar um servidor nodejs que dê suporte à seguinte API de dados (note que não é necessário qualquer interface web):<ul>
+                              <li>GET /api/compositores  - Devolve a lista de compositores com os seguintes campos: id, nome, data-nascimento (se esta existir);</li>
+                              <li>GET /api/compositores/:id  - Devolve a informação completa de um compositor;</li>
+                              <li>GET /api/compositores?periodo=XXXXX - Devolve a lista de compositores que tenham o campo período com o valor "XXXXX";</li>
+                              <li>GET /api/compositores?data=AAAA-MM-DD&amp;periodo=XXXXX - Devolve a lista de compositores que tenham o campo período com o valor "XXXXX"
+              e cuja data de nascimento seja superior à data indicada no fitro data.</li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </div>
+                  </a><div class="panel-footer"><a name="e1"> [</a><a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e1.html#ind-ex">Voltar ao Índice de exercícios</a>] </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <a name="e2">
+                     <h3 class="panel-title">Exercício Nº 2:
+            CLAV: Classificação e Avaliação da Informação Pública</h3>
+                  </a></div><a name="e2">
+                  </a><div class="panel-body"><a name="e2">
+                     <p>A CLAV é uma plataforma em desenvolvimento no DI/UM em parceria e sob encomenda da Direção Geral do Livro, Arquivos e Bibliotecas
+        (DGLAB) que visa a classificação e a avaliação de toda a documentação circulante na administração pública portuguesa.</p>
+                     <p>Uma das faces visíveis do projeto é o catálogo dos processos da administração pública portuguesa, designado por Lista Consolidada.</p>
+                     </a><p><a name="e2">Já se encontra disponível para consulta online: <b>
+                           </b></a><b><a href="http://clav-test.di.uminho.pt/">site de teste</a>
+                        </b>.</p>
+                     <p>É sobre este catálogo que irás desenvolver este exercício.</p>
+                     <p>A API de dados disponível contem entre outras as seguintes possibilidades:</p><ul>
+                           <li>GET  http://clav-test.di.uminho.pt/api/classes - Devolve uma estratura hierárquica em JSON com a informação base de todas as 
+          classes/processos da Lista Consolidada. Note que, os processos correspondem a classes de nível 3 e 4, os níveis 1 e 2 existem para arrumar
+          a case e facilitar o acesso aos processo;</li>
+                           <li>GET http://clav-test.di.uminho.pt/api/classes/nivel/3 - Devolve uma lista em JSON com a informação base de todos os processos;</li>
+                           <li>GET http://clav-test.di.uminho.pt/api/classes/nivel/1 - Devolve uma lista em JSON dos primeiros níveis;</li>
+                           <li>GET http://clav-test.di.uminho.pt/api/classes/nivel/2 - Devolve uma lista em JSON dos segundos níveis;</li>
+                           <li>GET http://clav-test.di.uminho.pt/api/classes/lista - Devolve uma lista em JSON de todas as classes (linearização da árvore inicial);</li>
+                           <li>GET http://clav-test.di.uminho.pt/api/classes/c100.10.001 - Devolve em JSON a informação base da classe com código: c100.10.001;</li>
+                           <li>GET http://clav-test.di.uminho.pt/api/classes/c100.20/descendencia - Devolve uma lista em JSON das classes filhas da classe passada no pedido,
+            neste caso, C100.20;</li>
+                        </ul>
+                     <p></p>
+                     <p>Desenvolve então as seguintes alíneas:</p>
+                     <ol class="a">
+                        <li>Testa a API de dados com o Postman e dá resposta às seguintes questões:<ul>
+                              <li>Quantos processos (nível 3) e quais são (obtem uma lista em JSON; podes concatenar sublistas invocando várias queries), 
+              existem na descendência da classe 200?</li>
+                              <li>Quantos subprocessos existem? (classes de nível 4)</li>
+                              <li>Quantos processos (classes de nível 3) se encontram subdivididos em níveis 4?</li>
+                           </ul>
+                        </li>
+                     </ol>
+                     <p>Depois deste <b>"aquecimento"</b>, desenvolve uma aplicação em nodejs que permita navegar nesta estrutura de classes.
+ :</p>
+                     <ol class="a">
+                        <li>Na página inicial, para além de um título e outra informação de contexto, deverá aparecer a lista de classes de nível 1;</li>
+                        <li>Todos os campos de informação com códigos de classes devem ser transformados em links que realizam pedidos à tua aplicação 
+          de nova página;</li>
+                        <li>Na página de cada classe, deve ser mostrada a informação base da classe e uma lista dos seus descendentes caso existam;</li>
+                        <li>Em todas as páginas deverá haver um link para voltar à página inicial;</li>
+                        <li>Usa a tua imaginação e criatividade...</li>
+                     </ol>
+                  </div>
+                  <div class="panel-footer"> [<a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e1.html#ind-ex">Voltar ao Índice de exercícios</a>] </div>
+               </div>
+            </div>
+            <div class="panel-footer"> 
+            Generated by rep-fichas-site app by jcr::
+            2019-01-15Z - 
+            27 fichas / 
+            68 exercícios 
+        </div>
+         </div>
+      </div>
+   
+
+</body></html>

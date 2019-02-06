@@ -1,0 +1,295 @@
+
+        {
+        "_id": "m26",
+        
+      
+        "titulo": "Cycles and Myths",
+    
+      
+        "tipo": "Abertura/Concerto",
+    
+      
+        "compositor": "Nuno Osório",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "All",
+         "partitura": {
+            "path": "CyclesMyths-all.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "CyclesMyths-bateria.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "CyclesMyths-bombo.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "CyclesMyths-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "CyclesMyths-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "CyclesMyths-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Corne Inglês",
+         "partitura": {
+            "path": "CyclesMyths-corne-ingles.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "CyclesMyths-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "CyclesMyths-eufonio1-fa-sib.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "CyclesMyths-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "CyclesMyths-eufonio2-fa-sib.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+        
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "CyclesMyths-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "CyclesMyths-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "CyclesMyths-flauta.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "CyclesMyths-flautim.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "CyclesMyths-fliscorne.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Lira",
+         "partitura": {
+            "path": "CyclesMyths-lira.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "CyclesMyths-maestro.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "CyclesMyths-oboe.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "CyclesMyths-percussao.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "CyclesMyths-requinta.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "CyclesMyths-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "CyclesMyths-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "CyclesMyths-saxB.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "CyclesMyths-saxT.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sinos",
+         "partitura": {
+            "path": "CyclesMyths-sinos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "CyclesMyths-timpanos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "CyclesMyths-trombone-baixo.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "CyclesMyths-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "CyclesMyths-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "CyclesMyths-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "CyclesMyths-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "CyclesMyths-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "CyclesMyths-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "CyclesMyths-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "CyclesMyths-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "CyclesMyths-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "CyclesMyths-tuba-sol-mib.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "CyclesMyths-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+      ]
+    
+   }
+    

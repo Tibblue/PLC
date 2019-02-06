@@ -1,0 +1,213 @@
+
+            {"id": "m60",
+             "titulo": "Poeta e Aldeão",
+             "tipo": "Abertura/Concerto"
+            
+                , "compositor": "Franz Von Suppé"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "Bateria",
+                    
+                    "path": "PoetaAldeao-bateria.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete Baixo",
+                    
+                    "path": "PoetaAldeao-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "Solo",
+                    
+                    "path": "PoetaAldeao-clarinete-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "PoetaAldeao-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "PoetaAldeao-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "PoetaAldeao-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Corneta",
+                    
+                        "voz": "I",
+                    
+                    "path": "PoetaAldeao-corneta1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Corneta",
+                    
+                        "voz": "II",
+                    
+                    "path": "PoetaAldeao-corneta2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                    "path": "PoetaAldeao-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "I",
+                    
+                    "path": "PoetaAldeao-fagote1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "PoetaAldeao-fagote2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                    "path": "PoetaAldeao-flauta.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flautim",
+                    
+                    "path": "PoetaAldeao-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Maestro",
+                    
+                    "path": "PoetaAldeao-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                    "path": "PoetaAldeao-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                    "path": "PoetaAldeao-saxA.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "PoetaAldeao-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                    "path": "PoetaAldeao-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone Baixo",
+                    
+                    "path": "PoetaAldeao-trombone-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "PoetaAldeao-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "PoetaAldeao-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "PoetaAldeao-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "PoetaAldeao-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "PoetaAldeao-trompa3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "PoetaAldeao-trompa4.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "PoetaAldeao-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "PoetaAldeao-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                    "path": "PoetaAldeao-tuba.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

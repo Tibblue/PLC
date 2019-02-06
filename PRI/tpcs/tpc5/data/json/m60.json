@@ -1,0 +1,220 @@
+
+        {
+        "_id": "m60",
+        
+            "pasta": "PoetaAldeao",
+        
+      
+        "titulo": "Poeta e Aldeão",
+    
+      
+        "subtitulo": ""Poet and Peasant"",
+    
+      
+        "tipo": "Abertura/Concerto",
+    
+      
+        "compositor": "Franz Von Suppé",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "PoetaAldeao-bateria.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "PoetaAldeao-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PoetaAldeao-clarinete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PoetaAldeao-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PoetaAldeao-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PoetaAldeao-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Corneta",
+         "partitura": {
+            "path": "PoetaAldeao-corneta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Corneta",
+         "partitura": {
+            "path": "PoetaAldeao-corneta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PoetaAldeao-eufonio.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "PoetaAldeao-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "PoetaAldeao-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "PoetaAldeao-flauta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "PoetaAldeao-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "PoetaAldeao-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "PoetaAldeao-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "PoetaAldeao-saxA.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "PoetaAldeao-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "PoetaAldeao-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "PoetaAldeao-trombone-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PoetaAldeao-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PoetaAldeao-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PoetaAldeao-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PoetaAldeao-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PoetaAldeao-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PoetaAldeao-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PoetaAldeao-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PoetaAldeao-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PoetaAldeao-tuba.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

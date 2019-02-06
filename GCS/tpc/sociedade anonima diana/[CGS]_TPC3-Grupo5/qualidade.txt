@@ -1,0 +1,24 @@
+Qualidade da Linguagem:
+
+A linguagem construída é clara sendo as palavras reservadas bastante expressivas. É também completa uma vez que, permite descrever todos os aspetos da sociedade anónima que nos foram indicados.
+
+É também uma linguagem coerente na medida que segue um padrão na escrita, o que a torna fácil de ler. Manifesta assim unicidade uma vez que, presidente é descrito por 'socio' tal como os restantes e gerente é também descrito por 'funcionario'.
+
+Por fim, aspetos que não se verificam nesta linguagem por não serem aplicáveis são a escalabilidade, modularidade e a fiabilidade.
+
+
+Qualidade da GIC:
+
+Os identificadores dos símbolos Terminais e Não-terminais são longos, designando explicitamente os conceitos que pretendem representar tornando a GIC fácil de compreender, de derivar e de manter. Contudo, isto poderá levar a mais tempo durante a fase de geração do processador.
+
+Existem várias produções unitárias, o que melhora a compreensão e a manutenção da GIC prejudicando em contrapartida o desempenho, ou seja, maior tempo de processo de derivação. 
+
+Uma outra abordagem que resolveria as desvantagens dos dois pontos anteriormente mencionados seria gerar uma segunda GIC que respeita a mesma linguagem mas que não possui produções unitárias e os identificadores são menores em comprimento.
+
+Em termos de lados direitos, existem na GIC duas produções (sociedade e funcionário) com um lado direito um pouco longo, sendo o resto de forma geral com uma extensão pequena não dificultando assim a compreensão e a manutenção.
+
+O ANTLR não usa recursividade para descrever listas de elementos, portanto não há a necessidade de analisar o impacto da mesma na GIC.
+
+Em relação à modularidade, esta não existe, visto a GIC ser apresentada em apenas um ficheiro, e como a mesma não é muito extensa, tal não se justifica.
+
+Por fim, não existe uma grande complexidade sintática visto que a maior parte dos símbolos só é usado em 1 ou 2 produções (exceto socio e TEXTO) e como tal não tem grande impacto nas outras caracteristicas.

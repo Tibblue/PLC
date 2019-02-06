@@ -1,0 +1,38 @@
+extends layout
+block content
+  .w3-container
+    h1.w3-blue Agenda de eventos
+    table.w3-table-all
+      tr
+        th Data
+        th Horário
+        th Tipo
+        th Designação
+        th Local
+        th Informações
+      each e in eventos
+        tr
+          td
+            a(href='/eventos/' + e._id)= e.data
+
+          if e.horario
+            td= e.horario
+          else
+            td ----
+
+          td= e.tipo
+
+          if e.designacao
+            td= e.designacao
+          else
+            td ----
+
+          if e.local
+            td= e.local
+          else
+            td ----
+
+          if e.informacoes
+            td= e.informacoes
+          else
+            td ----

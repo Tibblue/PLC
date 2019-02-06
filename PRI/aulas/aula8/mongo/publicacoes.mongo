@@ -1,0 +1,27 @@
+// Ficha16 Ex3
+
+// 1
+// mongoimport.exe -d publicacoes-jcr -c publicacoes --file jcrpubs.json
+
+// 2
+db.publicacoes.count()
+
+// 3
+db.publicacoes.find({},{title:true})
+
+// 4
+db.publicacoes.find({type:"inproceedings"},{title:true,type:true}).count()
+
+// 5
+db.publicacoes.find({authors:"Pedro Rangel Henriques"}).count()
+
+// 6
+db.publicacoes.find({authors:"Pedro Rangel Henriques",year:"1998"},{title:true})
+
+// 7
+db.publicacoes.find({authors:"José Carlos Ramalho"}).count()
+
+
+// magia
+db.publicacoes.aggregate([{$unwind:"$authors"}, {$match: {authors:"Pedro Rangel Henriques"}}, {$count:"numPubs"}])
+

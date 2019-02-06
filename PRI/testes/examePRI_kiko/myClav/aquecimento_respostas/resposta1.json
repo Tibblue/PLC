@@ -1,0 +1,42 @@
+[
+    {
+        "codigo": "700.10.001",
+        "titulo": "Referenciação de utentes para consultas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.001"
+    },
+    {
+        "codigo": "700.10.002",
+        "titulo": "Referenciação de utentes para a rede de cuidados continuados integrados",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.002"
+    },
+    {
+        "codigo": "700.10.003",
+        "titulo": "Referenciação de utentes para cirurgias",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.003"
+    },
+    {
+        "codigo": "700.10.004",
+        "titulo": "Registo de utilizadores de unidades de saúde",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.004"
+    },
+    {
+        "codigo": "700.10.005",
+        "titulo": "Referenciação de utilizadores expostos a agentes biológicos perigosos",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.005"
+    },
+    {
+        "codigo": "700.10.006",
+        "titulo": "Registo clínico de utentes",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.006"
+    },
+    {
+        "codigo": "700.10.500",
+        "titulo": "Registo de utilizadores em unidades de saúde animal",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.500"
+    },
+    {
+        "codigo": "700.10.501",
+        "titulo": "Referenciação de animais para consultas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c700.10.501"
+    }
+]

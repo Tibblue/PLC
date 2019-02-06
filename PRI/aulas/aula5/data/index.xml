@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arqsits>
+   <concelho>
+      <designacao> Amares </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e179</id>
+            <designacao> Bouro (Santa Maria) </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1442</id>
+            <designacao> Caldelas </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e221</id>
+            <designacao> Castro da Torre; Castelo do Castro; Torre do Castro</designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e272</id>
+            <designacao> Castro de Caldelas; Monte das Caldas; Outeiro de S. Sebastião</designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2</id>
+            <designacao> Castro do Caires </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e111</id>
+            <designacao> Chã do Castro; Castro da Joubreia </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1548</id>
+            <designacao> Cruzeiro do Pilar</designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e59</id>
+            <designacao> Lago </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2262</id>
+            <designacao> Paranhos (S. Lourenço de); Monte de Santa Cruz </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2993</id>
+            <designacao> Quinta de Rios de Cima </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1595</id>
+            <designacao> Ribeira da Pala; Dornelas; Paredes Secas </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1635</id>
+            <designacao> S. Miguel-o-Anjo </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1688</id>
+            <designacao> Vilela </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1781</id>
+            <designacao>Monte da Santinha / Monte de Nossa Senhora da Paz </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e319</id>
+            <designacao>Monte de Sequeiros </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Arcos de Valdevez </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e3224</id>
+            <designacao> Cabreiro </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3095</id>
+            <designacao> Capela de Nossa Senhora da Conceição ou da Praça </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2895</id>
+            <designacao> Castro de Álvora </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3282</id>
+            <designacao> Ermelo </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3400</id>
+            <designacao> Giela </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3433</id>
+            <designacao> Miranda </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3484</id>
+            <designacao> Monte Redondo </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3532</id>
+            <designacao> Sabadim </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3859</id>
+            <designacao> Santa Cruz ou dos Arcos </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3595</id>
+            <designacao> Santar </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3643</id>
+            <designacao> Távora </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3795</id>
+            <designacao> Vilela </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3148</id>
+            <designacao> Ázere </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Barcelos </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e411</id>
+            <designacao> Castro de Airó/ Castelo de Bastuço </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e471</id>
+            <designacao> Monte de Lousado </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e364</id>
+            <designacao> Queijeiros </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1865</id>
+            <designacao> S. Bento de Balugães </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e521</id>
+            <designacao>Monte da Saia; Cidade da citânia; Monte de Fralães </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Braga </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e641</id>
+            <designacao> Alto da Cividade; Braga </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1952</id>
+            <designacao> Alto do Crasto; Crasto de Espinho </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1992</id>
+            <designacao> Castro da Sola; Bouça da Oura </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e680</id>
+            <designacao> Castro das Caldas </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e792</id>
+            <designacao> Castro de Santa Lucrécia de Algeriz; Santa Catarina</designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2038</id>
+            <designacao> Granjinhos, Braga</designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1739</id>
+            <designacao> Lugar da Igreja; Panóias </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e743</id>
+            <designacao> Monte Castro; Castro Máximo</designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1916</id>
+            <designacao> Monte de Cabanas </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e840</id>
+            <designacao>Eiras Velhas </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Chaves </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e2834</id>
+            <designacao> Granjinha </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3028</id>
+            <designacao> S. Caetano (Santuário de) </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Esposende </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e2073</id>
+            <designacao> Monte da Cimbre </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2117</id>
+            <designacao> Portelagem; Casa da Moura </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2167</id>
+            <designacao> Serra </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Fafe </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e2522</id>
+            <designacao> Chã do Fojo; Lage Branca </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2595</id>
+            <designacao> Monte das Antas </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2558</id>
+            <designacao> Monte de Fornos </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2759</id>
+            <designacao> Monte de Riba; Bouça do Senhor </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2719</id>
+            <designacao> Monte de Santa Marinha </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2486</id>
+            <designacao> Outeiro das Corças </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2799</id>
+            <designacao> Pedra Sentada </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2639</id>
+            <designacao> Penedos Pintos </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2426</id>
+            <designacao> Penedos Pintos; Laje Branca </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2457</id>
+            <designacao> Ponte de Vizela </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2675</id>
+            <designacao> Poços Salgueiros </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2355</id>
+            <designacao> Santo Ovídio </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Melgaço </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e4296</id>
+            <designacao> Chaviães </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4359</id>
+            <designacao> Fiães </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4438</id>
+            <designacao> Lamas de Mouro </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4494</id>
+            <designacao> Lamas de Mouro </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4557</id>
+            <designacao> Melgaço </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4680</id>
+            <designacao> Orada </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4852</id>
+            <designacao> Paderne </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4089</id>
+            <designacao> Ponte Nova ou da Cava da Velha </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4008</id>
+            <designacao> Ponte de Assureira ou Ponte da Capela </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3952</id>
+            <designacao> Ponte de Dorna </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4132</id>
+            <designacao> Ponte de Varziela </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4244</id>
+            <designacao> Ponte do Rodeiro </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4633</id>
+            <designacao> S. Julião </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4809</id>
+            <designacao> S. Paio </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e3901</id>
+            <designacao>Castelo de Castro Laboreiro </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Montalegre </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e5801</id>
+            <designacao> Alto das Madanelas </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5302</id>
+            <designacao> Capela da Senhora das Neves </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4980</id>
+            <designacao> Cervos </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5023</id>
+            <designacao> Chã (S. Vicente) </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5698</id>
+            <designacao> Igreja Velha de Salto </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5399</id>
+            <designacao> Juriz </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5129</id>
+            <designacao> Misarela </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5180</id>
+            <designacao> Montalegre </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5753</id>
+            <designacao> Paredes </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6054</id>
+            <designacao> Ponte Velha </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5347</id>
+            <designacao> Portelo </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5248</id>
+            <designacao> Santo Adrião </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5840</id>
+            <designacao> Senhora da Natividade; Senhora de Galegos </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5890</id>
+            <designacao> Sezelhe </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5935</id>
+            <designacao> Tourém </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6001</id>
+            <designacao> Viade de Baixo </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e4931</id>
+            <designacao> Vila; Ponte Velha </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5438</id>
+            <designacao>Santa Maria das Júnias</designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e5087</id>
+            <designacao>Santo Amaro </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Ponte da Barca </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e6101</id>
+            <designacao> Bravães </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6263</id>
+            <designacao> Crasto </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6326</id>
+            <designacao> Lindoso </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6403</id>
+            <designacao> Lindoso </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6574</id>
+            <designacao> Nóbrega </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6471</id>
+            <designacao> Parada </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6528</id>
+            <designacao> Ponte da Vila </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6619</id>
+            <designacao> Vade S. Tomé </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e6672</id>
+            <designacao> Vila Nova de Muía </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Póvoa de Lanhoso </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e893</id>
+            <designacao> Monte da Senhora do Pilar; Castro de Lanhoso </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2214</id>
+            <designacao> Monte do Castro </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e961</id>
+            <designacao> Santa Iria </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Santo Tirso </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e2937</id>
+            <designacao> Monte do Padrão; Monte Córdova </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Terras de Bouro </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e6753</id>
+            <designacao> Bouro </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1506</id>
+            <designacao> Santa Cruz </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao> Vila Verde </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e1112</id>
+            <designacao> Castelhão </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1297</id>
+            <designacao> Castro de Escariz; Santo Isidoro; Santos Ilus </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1252</id>
+            <designacao> Castro de Santa Engrácia </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1053</id>
+            <designacao> Castro do Barbudo; Monte do Castelo; Monte de Brito </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1202</id>
+            <designacao> Lugar de Coto; Póvoa; Lugar do Reduto </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1157</id>
+            <designacao> Lugar de Gaião </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1823</id>
+            <designacao> Necrópole Megalítica do Maciço do Borrelho </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1397</id>
+            <designacao> Outeirinho </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1007</id>
+            <designacao> S. Sebastião </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e1355</id>
+            <designacao> Santa Helena; Santa Cruz </designacao>
+         </arqelem>
+         <arqelem>
+            <id>d1e2297</id>
+            <designacao>A Mamoa nº10 do Chão da Cheira; Maciço do Borrelho </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao>Barcelos </designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e588</id>
+            <designacao> Castro de Faria; Monte de Faria </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+   <concelho>
+      <designacao>Melgaço</designacao>
+      <arqsits>
+         <arqelem>
+            <id>d1e4190</id>
+            <designacao> Ponte das Cainheiras </designacao>
+         </arqelem>
+      </arqsits>
+   </concelho>
+</arqsits>

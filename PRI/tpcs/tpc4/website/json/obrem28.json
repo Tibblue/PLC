@@ -1,0 +1,383 @@
+
+            {"id": "m28",
+             "titulo": "Abba Mia",
+             "tipo": "Ligeiro/Fantasia"
+            
+                , "compositor": "ABBA"
+            
+                , "arranjo": "Luís Cardoso"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designaçao": "All",
+                    
+                    "path": "AbbaMia-all.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete Baixo",
+                    
+                    "path": "AbbaMia-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "AbbaMia-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Contrabaixo",
+                    
+                        "afinaçao": "Mib",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "AbbaMia-contrabaixo-fa-mib.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Contrabaixo",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "AbbaMia-contrabaixo-fa-sib.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Contrabaixo",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "AbbaMia-contrabaixo-sol-sib.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Dó",
+                    
+                        "voz": "I",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "AbbaMia-eufonio1-fa-do.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "voz": "I",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "AbbaMia-eufonio1-fa.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "voz": "I",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "AbbaMia-eufonio1-sol.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Dó",
+                    
+                        "voz": "II",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "AbbaMia-eufonio2-fa-do.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "voz": "I",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "AbbaMia-eufonio2-fa.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Eufónio",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "voz": "II",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "AbbaMia-eufonio2-sol.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-fagote1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-fagote2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-flauta2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Flautim",
+                    
+                    "path": "AbbaMia-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Maestro",
+                    
+                    "path": "AbbaMia-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-oboe1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Oboé",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-oboe2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-percussao1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-percussao2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "III",
+                    
+                    "path": "AbbaMia-percussao3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Percussão",
+                    
+                        "voz": "IV",
+                    
+                    "path": "AbbaMia-percussao4.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Requinta",
+                    
+                    "path": "AbbaMia-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Barítono",
+                    
+                    "path": "AbbaMia-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Soprano",
+                    
+                    "path": "AbbaMia-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Sax Tenor",
+                    
+                    "path": "AbbaMia-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tímpanos",
+                    
+                    "path": "AbbaMia-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "AbbaMia-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "AbbaMia-trompa3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "AbbaMia-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "AbbaMia-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "AbbaMia-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "afinaçao": "Dó",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "AbbaMia-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designaçao": "Tuba",
+                    
+                        "afinaçao": "Sib",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "AbbaMia-trompete1.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

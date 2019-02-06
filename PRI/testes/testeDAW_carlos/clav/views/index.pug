@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .w3-container
+      .w3-card-4
+      header.w3-container.w3-teal
+        h1 Lista de Albuns
+      table.w3-table-all
+        tr
+          th Código
+          th Titulo
+          th Id
+        each e in classes
+          tr
+            td
+              a(href="/classe/"+e.codigo)= e.codigo
+            td
+              a(href="/codigo/"+e.codigo)= e.titulo
+            td
+              a(href=e.id)= e.id
+      footer.w3-container.w3-teal
+         adress Gerado por PubsApp

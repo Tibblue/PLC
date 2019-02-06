@@ -1,0 +1,315 @@
+
+        {
+        "_id": "m80",
+        
+            "pasta": "Lusitanidades",
+        
+      
+        "titulo": "Lusitanidades",
+    
+      
+        "tipo": "Rapsódia",
+    
+      
+        "compositor": "Carlos Marques",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Clarinete Alto",
+         "partitura": {
+            "path": "Lusitanidades-clarinete-alto.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "Lusitanidades-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Lusitanidades-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Lusitanidades-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Lusitanidades-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "Lusitanidades-contrabaixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Corne Inglês",
+         "partitura": {
+            "path": "Lusitanidades-corne-ingles.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Lusitanidades-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Lusitanidades-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Lusitanidades-eufonio-sol-do.pdf"
+        , "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Lusitanidades-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Lusitanidades-fagote1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Lusitanidades-fagote1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Lusitanidades-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Lusitanidades-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "Lusitanidades-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Lira",
+         "partitura": {
+            "path": "Lusitanidades-lira.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Lusitanidades-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Lusitanidades-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Lusitanidades-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Lusitanidades-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Piano",
+         "partitura": {
+            "path": "Lusitanidades-piano.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "Lusitanidades-requinta-mib.pdf"
+        , "afinacao": "Mib"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Lusitanidades-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Lusitanidades-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Lusitanidades-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Lusitanidades-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "Lusitanidades-trombone-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Lusitanidades-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Lusitanidades-trombone2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Lusitanidades-trombone2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Lusitanidades-trompa1-3.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Lusitanidades-trompa1-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Lusitanidades-trompa2-4.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Lusitanidades-trompa2-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Lusitanidades-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Lusitanidades-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Lusitanidades-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Lusitanidades-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Lusitanidades-tuba-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Lusitanidades-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Violoncelo",
+         "partitura": {
+            "path": "Lusitanidades-violoncelo.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

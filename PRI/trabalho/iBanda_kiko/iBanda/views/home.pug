@@ -1,0 +1,19 @@
+extends layout
+
+//- block scripts
+    script(src='/javascripts/require.js')
+    script(src='/javascripts/antlr.js')
+
+block header
+  header.w3-container.w3-indigo
+    center
+      h1 HomePage
+        img(src="images/music-eightnote-32-108529.png" alt="Logo" height="32")
+
+block body
+  include noticias/includes/listaNoticias
+  //- .w3-container
+    h3.w3-text-indigo INPUT
+    input.w3-input.w3-border.w3-light-grey#input(type="text" name="input")
+    textarea#output(style="width:100%")
+    button.w3-button.w3-blue-grey#parse PARSE

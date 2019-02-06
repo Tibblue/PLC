@@ -1,0 +1,25 @@
+extends ../layout
+
+block scripts
+  script(src='/javascripts/user.js')
+
+block header
+  header.w3-container.w3-indigo
+    center
+      h1 Lista de Users
+
+block body
+  include newUser
+  .w3-container
+    h3#status= status
+  .w3-container
+    table.w3-table-all#users
+      th.w3-indigo Users
+      each user in lista
+        tr
+          div(style="display: none")#email= user.email
+          td
+            a(href=url+"users/"+user.email)= user.email
+              if user.name
+                |  :: #{user.name}
+            //- p= user.password

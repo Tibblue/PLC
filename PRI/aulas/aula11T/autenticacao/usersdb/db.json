@@ -1,0 +1,7 @@
+{
+    "users": [
+        {"id": "A23452", "email": "A23452@alunos.uminho.pt", "password": "a1"},
+        {"id": "A89490", "email": "A89490@alunos.uminho.pt", "password": "a2"},
+        {"id": "A65322", "email": "A65322@alunos.uminho.pt", "password": "a3"}
+    ]
+}

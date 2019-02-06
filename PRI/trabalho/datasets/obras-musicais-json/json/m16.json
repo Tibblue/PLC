@@ -1,0 +1,418 @@
+
+        {
+        "_id": "m16",
+        
+  
+        "titulo": "Homenagem ao Dr Manuel Vaz",
+    
+  
+        "tipo": "Marcha de Desfile",
+    
+  
+        "compositor": "Alexandre da Fonseca",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "HomenagemMVaz-saxB.jpg"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "HomenagemMVaz-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "HomenagemMVaz-bombo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "HomenagemMVaz-bombo-pratos_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "HomenagemMVaz-bombo-pratos_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "HomenagemMVaz-caixa_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "HomenagemMVaz-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "HomenagemMVaz-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "HomenagemMVaz-clarinete1_marcha.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "HomenagemMVaz-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "HomenagemMVaz-clarinete2_marcha.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "HomenagemMVaz-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "HomenagemMVaz-clarinete3_marcha.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio1_marcha.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio1-fa-do_marcha.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio1-fa-sib_marcha.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio1-sol-do_marcha.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio2_marcha.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio2-fa-do_marcha.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio2-fa-sib_marcha.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "HomenagemMVaz-eufonio2-sol-do_marcha.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "HomenagemMVaz-flauta_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "HomenagemMVaz-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "HomenagemMVaz-lira.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "HomenagemMVaz-oboe_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "HomenagemMVaz-requinta_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "HomenagemMVaz-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "HomenagemMVaz-saxA_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "HomenagemMVaz-saxB_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "HomenagemMVaz-saxS_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "HomenagemMVaz-saxT_marcha.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "HomenagemMVaz-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone1-fa-do_marcha.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone1-sol-do_marcha.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone2-fa-do_marcha.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone2-sol-do_marcha.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone3-fa-do_marcha.pdf"
+        , "voz": "III", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone3-sol-do_marcha.pdf"
+        , "voz": "III", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone3-fa-sib_marcha.pdf"
+        , "voz": "III", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "HomenagemMVaz-trombone3-sol-sib_marcha.pdf"
+        , "voz": "III", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "HomenagemMVaz-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "HomenagemMVaz-trompa1_marcha.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "HomenagemMVaz-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "HomenagemMVaz-trompa2_marcha.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "HomenagemMVaz-trompa2-mib_marcha.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "HomenagemMVaz-trompa3_marcha.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "HomenagemMVaz-trompa3-mib_marcha.pdf"
+        , "voz": "III", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "HomenagemMVaz-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "HomenagemMVaz-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "HomenagemMVaz-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "HomenagemMVaz-tuba.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "HomenagemMVaz-tuba-fa-sib_marcha.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "HomenagemMVaz-tuba-fa-sib_marcha.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+  ]
+    
+}
+    

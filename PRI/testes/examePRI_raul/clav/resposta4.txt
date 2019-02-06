@@ -1,0 +1,25 @@
+alinea 4
+ http://clav-test.di.uminho.pt/api/classes/c750.10.002/dono
+
+3 donos de 750.10.002 que estão apresentados em baixo
+
+[
+    {
+        "tipo": "http://jcr.di.uminho.pt/m51-clav#Entidade",
+        "sigla": "Grupo_IP",
+        "designacao": "Grupo Infraestruturas de Portugal",
+        "id": "http://jcr.di.uminho.pt/m51-clav#ent_Grupo_IP"
+    },
+    {
+        "tipo": "http://jcr.di.uminho.pt/m51-clav#TipologiaEntidade",
+        "sigla": "AP",
+        "designacao": "Administração Pública",
+        "id": "http://jcr.di.uminho.pt/m51-clav#tip_AP"
+    },
+    {
+        "tipo": "http://jcr.di.uminho.pt/m51-clav#TipologiaEntidade",
+        "sigla": "ES",
+        "designacao": "Estabelecimentos de ensino (EstE + IES)",
+        "id": "http://jcr.di.uminho.pt/m51-clav#tip_ES"
+    }
+]

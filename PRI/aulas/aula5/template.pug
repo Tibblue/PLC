@@ -1,0 +1,52 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-grey
+                h1= arq.arqelem.id
+            .w3-container
+                table.w3-table.w3-all
+                    tr
+                        th Descrição
+                        td
+                            if arq.arqelem.desc
+                                p= arq.arqelem.desc
+                    tr
+                        th Lugar
+                        td
+                            if arq.arqelem.lugar
+                                p= arq.arqelem.lugar
+                    tr
+                        th Freguesia
+                        td
+                            if arq.arqelem.freguesia
+                                p= arq.arqelem.freguesia
+                    tr
+                        th Concelho
+                        td
+                            if arq.arqelem.concelho
+                                p= arq.arqelem.concelho
+                    tr
+                        th Acesso
+                        td
+                            if arq.arqelem.acesso
+                                p= arq.arqelem.acesso
+                    tr
+                        th Quadro
+                        td
+                            if arq.arqelem.quadro
+                                p= arq.arqelem.quadro
+                    tr
+                        th Descrição Arqueologica
+                        td
+                            if arq.arqelem.descaqr
+                                p= arq.arqelem.descaqr
+            footer.w3-container.w3-light-grey
+                p
+                    a(href='http://localhost:5000/index')
+                        | Voltar a Página Principal
+                address Gerado por ArqSitsApp by KKKK 
+
+
+

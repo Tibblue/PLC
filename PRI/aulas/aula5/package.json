@@ -1,0 +1,15 @@
+{
+  "name": "aula5",
+  "version": "1.0.0",
+  "description": "Serve o dataset dos arqueositios em XML",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Francisco Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.3",
+    "xml2json": "^0.11.2"
+  }
+}

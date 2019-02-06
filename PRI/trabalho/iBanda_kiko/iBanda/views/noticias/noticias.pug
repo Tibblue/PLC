@@ -1,0 +1,14 @@
+extends ../layout
+
+block scripts
+  script(src='/javascripts/noticias.js')
+
+block header
+  header.w3-container.w3-indigo
+    center
+      h1 Noticias
+
+block body
+  include includes/newNoticia
+  br
+  include includes/listaNoticias

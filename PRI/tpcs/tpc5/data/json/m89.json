@@ -1,0 +1,321 @@
+
+        {
+        "_id": "m89",
+        
+            "pasta": "Libertadores",
+        
+    
+        "titulo": "Libertadores",
+    
+    
+        "desc": "
+      Obra encargada por la Sociedad Filarmónica Alteanense para la Sección Primera de la 39 Edición
+        del Certamen Internacional de Bandas de Música Villa de Altea 2010.
+    ",
+    
+    
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+    
+        "compositor": "Oscar Navarro",
+    
+    
+        "instrumentos": [
+      
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "Libertadores-clarinete-baixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Libertadores-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Libertadores-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Libertadores-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "Libertadores-contrabaixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Libertadores-eufonio1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Libertadores-eufonio2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Libertadores-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Libertadores-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Libertadores-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Libertadores-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "Libertadores-flautim.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Harpa",
+         "partitura": {
+            "path": "Libertadores-harpa.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Libertadores-maestro.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Libertadores-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Libertadores-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Libertadores-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Libertadores-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Libertadores-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Libertadores-percussao4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "Libertadores-percussao5.pdf"
+        , "voz": "V"
+        }}
+        ,
+      
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "Libertadores-requinta.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Libertadores-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Libertadores-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Libertadores-saxB.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Libertadores-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Libertadores-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "Libertadores-timpanos.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "Libertadores-trombone-baixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Libertadores-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Libertadores-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Libertadores-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Libertadores-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Libertadores-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Libertadores-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Libertadores-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Libertadores-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Libertadores-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Libertadores-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Libertadores-tuba1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Libertadores-tuba1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Violoncelo",
+         "partitura": {
+            "path": "Libertadores-violoncelo.pdf"
+        
+        }}
+        
+    ]
+    
+  }
+    

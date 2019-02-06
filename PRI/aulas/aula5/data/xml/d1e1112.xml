@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arqelem>
+   <id> Castelhão </id>
+   <desc> Povoado fortificado</desc>
+   <lugar> Castelhão</lugar>
+   <freguesia> Barbudo </freguesia>
+   <concelho> Vila Verde </concelho>
+   <acesso>O acesso a este povoado pode fazer-se a partir do lugar de Barbudo.</acesso>
+   <quadro>O povoado ocupa um pequeno outeiro, localizado na base da vertente SE do Monte do Barbudo. Apesar da sua baixa altitude domina uma
+			extensa área do vale.</quadro>
+   <descarq>O monte possui boas defesas naturais asseguradas pelo escarpado das suas vertentes. Nos lados oeste e noroeste conservam-se ainda
+			vestígios de fossos, bem como restos de fortificações que asseguravam a defesa desses sectores do povoado. Na superfície do cabeço
+			encontram-se fragmentos de cerâmica e algumas pedras trabalhadas, que deixam adivinhar a existência de construções nas plataformas. No
+			entanto, não se observam quaisquer alinhamentos coerentes.</descarq>
+</arqelem>

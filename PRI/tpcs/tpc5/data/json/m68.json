@@ -1,0 +1,335 @@
+
+        {
+        "_id": "m68",
+        
+            "pasta": "Macarena",
+        
+      
+        "titulo": "Macarena",
+    
+      
+        "tipo": "Ligeiro/Fantasia",
+    
+      
+        "compositor": "Bernardino Bautista Monteverde",
+    
+      
+        "arranjo": "Naohiro Iwai",
+    
+      
+         
+      
+      
+        "instrumentos": [
+         
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "Macarena-bateria.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Bongo",
+         "partitura": {
+            "path": "Macarena-bongo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Cabaça",
+         "partitura": {
+            "path": "Macarena-cabaca-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "Macarena-cabaca-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Alto",
+         "partitura": {
+            "path": "Macarena-clarinete-alto.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "Macarena-clarinete-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Macarena-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Macarena-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "Macarena-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Congas",
+         "partitura": {
+            "path": "Macarena-congas.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Macarena-eufonio1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "Macarena-eufonio1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "Macarena-fagote.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Macarena-flauta1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "Macarena-flauta1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "Macarena-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Guiro",
+         "partitura": {
+            "path": "Macarena-guiro-pandeireta-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pandeireta",
+         "partitura": {
+            "path": "Macarena-guiro-pandeireta-pratos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "Macarena-guiro-pandeireta-pratos.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "Macarena-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "Macarena-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "Macarena-requinta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Macarena-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "Macarena-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "Macarena-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "Macarena-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "Macarena-timpanos-badalo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Badalo",
+         "partitura": {
+            "path": "Macarena-timpanos-badalo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "Macarena-trombone-baixo.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Macarena-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "Macarena-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Macarena-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Macarena-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Macarena-trompa3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "Macarena-trompa3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Macarena-trompete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Macarena-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Macarena-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "Macarena-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Macarena-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Macarena-tuba-fa-fa.pdf"
+        , "clave": "Fá", "afinacao": "Fá"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Macarena-tuba-sol-mib.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "Macarena-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+         
+        {"nome": "Xilofone",
+         "partitura": {
+            "path": "Macarena-xilofone.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

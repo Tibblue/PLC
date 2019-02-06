@@ -1,0 +1,342 @@
+
+        {
+        "_id": "m116",
+        
+            "pasta": "FranciscoMagalhaes",
+        
+  
+        "titulo": "Francisco Magalhães",
+    
+  
+        "subtitulo": "Scorpions Medley for Wind Band",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Scorpions",
+    
+  
+        "arranjo": "Luís Cardoso",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "FranciscoMagalhaes-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "FranciscoMagalhaes-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "FranciscoMagalhaes-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FranciscoMagalhaes-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FranciscoMagalhaes-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        , 
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "FranciscoMagalhaes-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FranciscoMagalhaes-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FranciscoMagalhaes-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FranciscoMagalhaes-eufonio1-fa-sib.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FranciscoMagalhaes-eufonio2-fa-sib.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FranciscoMagalhaes-eufonio1-sol-sib.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "FranciscoMagalhaes-eufonio2-sol-sib.pdf"
+        , "voz": "II", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "FranciscoMagalhaes-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "FranciscoMagalhaes-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FranciscoMagalhaes-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "FranciscoMagalhaes-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "FranciscoMagalhaes-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "FranciscoMagalhaes-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "FranciscoMagalhaes-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "FranciscoMagalhaes-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "FranciscoMagalhaes-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "FranciscoMagalhaes-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FranciscoMagalhaes-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "FranciscoMagalhaes-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "FranciscoMagalhaes-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "FranciscoMagalhaes-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "FranciscoMagalhaes-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "FranciscoMagalhaes-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompa1-mib.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompa2-mib.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompa3-mib.pdf"
+        , "voz": "III", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "FranciscoMagalhaes-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FranciscoMagalhaes-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FranciscoMagalhaes-tuba-sol-mib.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FranciscoMagalhaes-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "FranciscoMagalhaes-tuba-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Xilofone",
+         "partitura": {
+            "path": "FranciscoMagalhaes-xilofone.pdf"
+        
+        }}
+        
+  ]
+    
+}
+    

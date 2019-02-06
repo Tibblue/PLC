@@ -1,0 +1,38 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3 MYTWITTER
+      form.w3-container(action='/pub' method='POST' id="form2" )
+        label
+          b Texto
+        textarea.w3-input.w3-border.w3-light-grey(type='text',name='texto')
+        label
+          b Autor
+        input.w3-input.w3-border.w3-light-grey(type='text',name='autor')
+        label
+          b Hash
+        input.w3-input.w3-border.w3-light-grey(type='text',name='hash')
+        input.w3-btn.w3-blue-grey(type='submit' value='Enviar' id="enviar")
+
+      footer.w3-container.w3-teal
+        b Form de submissão tweet
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3 Publicações
+      each pub in pubs
+        .w3-container
+          b #{pub.autor} :: 
+          b #{pub.hash}
+          br
+          p= pub.texto
+          input.w3-btn.w3-blue-grey(type='button' id=pub._id value='Gostos(' + pub.gostos + ')' name=pub.gostos)
+          hr
+      .w3-container(id="pubs")
+
+
+
+
+

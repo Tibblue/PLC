@@ -1,0 +1,11 @@
+extends layout
+block content
+  .w3-container
+    header.w3-indigo.w3-container
+      h3 Novo User
+    .w3-container
+      form.w3-container(method="POST" action="/users")
+        input.w3-input(type="text" name="username" placeholder="New Username")
+        input.w3-input(type="text" name="password" placeholder="New Password")
+        input.w3-btn.w3-indigo(type="submit" value="Criar User")
+        

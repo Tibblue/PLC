@@ -1,0 +1,17 @@
+extends ../layout
+
+block header
+  header.w3-container.w3-indigo
+    center
+      h1 Lista de Obras
+
+block body
+  .w3-container
+    table.w3-table-all#instrumentos
+      th.w3-indigo Titulo
+      th.w3-indigo Tipo
+      each obra in lista
+        tr
+          td
+            a(href=url+"obras/"+obra._id)= obra.titulo
+          td= obra.tipo

@@ -1,0 +1,34 @@
+// mongoimport.exe -d pubs -c pubs --file jcrpubs.json
+
+// q1 - quantos registos na colecao
+// db.pubs.count()
+
+// q2 - projecao sobre: id, title, year
+db.pubs.find({},{id:true,title:true,year:true})
+
+// q3 - selecao em que um dos co-autores é ALMEIDA
+// db.pubs.find({authors: /Almeida/},{id:true,title:true,year:true,_id:false})
+
+// q4 - quantos registos ha por ano (year)
+db.pubs.aggregate({$group: {_id: '$year', num: {$sum: 1}}})
+
+
+// q5 - inserir novo registo
+db.pubs.insert({id: "teste.aula9", authors:["jcr","aluno1","aluno2"], desc:"texto" })
+
+// q6 - alteracao a um registo
+db.pubs.update({id: "teste.aula9"}, {desc:"outro texto", novo:32 })
+
+// q7 - 
+
+
+
+
+// extras
+// db.pubs.find({},{year:true}).sort({year:-1})
+// db.pubs.find({authors: /Almeida/},{id:true,title:true,year:true,_id:false}).sort({year:-1})
+db.pubs.aggregate({$group: {_id: '$year', num: {$sum: 1}}})
+db.pubs.aggregate([{$group: {_id: '$year', num: {$sum: 1}}}, {$sort: {num: -1}}])
+db.pubs.aggregate([{$group: {_id: '$year', num: {$sum: 1}}}, {$sort: {num: -1}}, {$limit: 3}])
+
+

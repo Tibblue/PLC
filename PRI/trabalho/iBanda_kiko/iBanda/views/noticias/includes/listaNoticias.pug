@@ -1,0 +1,26 @@
+.w3-container
+  center
+    h3.w3-text-indigo
+      b Noticias
+  table.w3-table-all(style="width:100%")
+    each noticia in lista
+      tr
+        td
+          center
+            h3
+              b= noticia.title
+            h4= noticia.date
+            p= noticia.content
+
+            table
+              th.w3-indigo Autores
+              th.w3-indigo Tópicos
+              tr
+                td
+                  center
+                    each author in noticia.authors
+                      p= author
+                td
+                  center
+                    each topic in noticia.topics
+                      p= topic

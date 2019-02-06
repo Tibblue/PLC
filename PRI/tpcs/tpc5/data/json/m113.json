@@ -1,0 +1,251 @@
+
+        {
+        "_id": "m113",
+        
+            "pasta": "TributeHarryJames",
+        
+  
+        "titulo": "A Tribute To Harry James",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Eric Coates/Alberto Pestalozza",
+    
+  
+        "arranjo": "Naohiro Iwai",
+    
+  
+    
+  
+  
+        "instrumentos": [
+    
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "TributeHarryJames-bateria.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Clarinete Alto",
+         "partitura": {
+            "path": "TributeHarryJames-clarinete-alto.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "TributeHarryJames-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TributeHarryJames-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "TributeHarryJames-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        , 
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "TributeHarryJames-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "TributeHarryJames-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "TributeHarryJames-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "TributeHarryJames-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "TributeHarryJames-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "TributeHarryJames-lira.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "TributeHarryJames-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "TributeHarryJames-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "TributeHarryJames-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "TributeHarryJames-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "TributeHarryJames-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "TributeHarryJames-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "TributeHarryJames-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "TributeHarryJames-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "TributeHarryJames-trombone-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TributeHarryJames-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "TributeHarryJames-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TributeHarryJames-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TributeHarryJames-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TributeHarryJames-trompa3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "TributeHarryJames-trompa3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TributeHarryJames-trompete-solo.pdf"
+        , "voz": "Solo"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TributeHarryJames-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TributeHarryJames-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "TributeHarryJames-trompete4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "TributeHarryJames-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Vibrafone",
+         "partitura": {
+            "path": "TributeHarryJames-vibrafone.pdf"
+        
+        }}
+        
+  ]
+    
+}
+    

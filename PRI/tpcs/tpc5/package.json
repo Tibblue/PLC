@@ -1,0 +1,15 @@
+{
+  "name": "tpc5",
+  "version": "1.0.0",
+  "description": "TPC5-AMD",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "index": "gawk -f index.awk data/json/*.json"
+  },
+  "author": "KIKO",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}

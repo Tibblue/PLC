@@ -1,0 +1,241 @@
+
+        {
+        "_id": "m104",
+        
+            "pasta": "PelaLeiPelaGrei",
+        
+  
+        "titulo": "Pela Lei e Pela Grei",
+    
+  
+        "subtitulo": "Marcha Militar (Hino da Guarda Nacional Republicana)",
+    
+  
+        "tipo": "Marcha de Desfile",
+    
+  
+        "compositor": "Raul Cardoso",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-bombo-pratos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,    
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-eufonio-fa.pdf"
+        , "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-eufonio-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Lira",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-lira.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trombone3.pdf"
+        , "voz": "III"
+        }}
+        , 
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trompa1-3.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trompa1-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trompa2-4.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trompa2-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-tuba.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PelaLeiPelaGrei-tuba-mib.pdf"
+        , "clave": "Sol", "afinacao": "Mib"
+        }}
+        
+  ]
+    
+}
+    

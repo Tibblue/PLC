@@ -1,0 +1,266 @@
+
+        {
+        "_id": "m112",
+        
+            "pasta": "LeMelreBlanc",
+        
+      
+        "titulo": "Le Melre Blanc",
+    
+      
+        "tipo": "Ligeiro/Fantasia",
+    
+      
+        "compositor": "Eugène Damaré",
+    
+      
+        "arranjo": "Geert Flik",
+    
+      
+        "instrumentos": [
+        
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "LeMelreBlanc-bombo-pratos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "LeMelreBlanc-bombo-pratos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "LeMelreBlanc-caixa.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "LeMelreBlanc-clarinete-baixo.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LeMelreBlanc-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LeMelreBlanc-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "LeMelreBlanc-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LeMelreBlanc-eufonio-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+        
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "LeMelreBlanc-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+        
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "LeMelreBlanc-fagote.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "LeMelreBlanc-flauta.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "LeMelreBlanc-flautim.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Lira",
+         "partitura": {
+            "path": "LeMelreBlanc-lira-timpanos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "LeMelreBlanc-lira-timpanos.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "LeMelreBlanc-maestro.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "LeMelreBlanc-oboe.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "LeMelreBlanc-saxA.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "LeMelreBlanc-saxB.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "LeMelreBlanc-saxS.pdf"
+        
+        }}
+        ,
+        
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "LeMelreBlanc-saxT.pdf"
+        
+        }}
+        ,
+        
+        
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LeMelreBlanc-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LeMelreBlanc-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "LeMelreBlanc-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LeMelreBlanc-trompa1-mib.pdf"
+        , "voz": "I", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LeMelreBlanc-trompa2-mib.pdf"
+        , "voz": "II", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LeMelreBlanc-trompa3-mib.pdf"
+        , "voz": "III", "afinacao": "Mib"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LeMelreBlanc-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LeMelreBlanc-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+        
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "LeMelreBlanc-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+        
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LeMelreBlanc-trompete1.pdf"
+        , "voz": "I"
+        }}
+        , 
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LeMelreBlanc-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,  
+        
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "LeMelreBlanc-trompete3.pdf"
+        , "voz": "III"
+        }}
+        , 
+        
+        
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LeMelreBlanc-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        , 
+        
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "LeMelreBlanc-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+                 
+      ]
+    
+   }
+    

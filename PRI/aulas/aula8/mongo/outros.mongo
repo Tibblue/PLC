@@ -1,0 +1,6 @@
+// querys aleatorias
+db.atletas.aggregate([{$group:{_id:"$equipa", atletas:{$sum:1}}}])
+
+db.atletas.aggregate([{$group:{_id:"$equipa", num_atletas:{$push:"$nome"}}}])
+
+db.atletas.aggregate({$group:{_id:"$equipa", count:{$sum:1}}}, {$sort:{count:-1}}, {$limit:9})

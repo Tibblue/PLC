@@ -1,0 +1,178 @@
+
+        {
+        "_id": "m125",
+        
+            "pasta": "VaPensiero",
+        
+  
+        "titulo": "Va Pensiero",
+    
+  
+        "tipo": "Obras Natalícias",
+    
+  
+        "compositor": "Giuseppe Verdi",
+    
+  
+        "arranjo": "Jorge Dinis",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "VaPensiero-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "VaPensiero-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "VaPensiero-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        , 
+    
+        {"nome": "Coro",
+         "partitura": {
+            "path": "VaPensiero-coro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "VaPensiero-eufonio.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "VaPensiero-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "VaPensiero-maestro.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "VaPensiero-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "VaPensiero-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "VaPensiero-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "VaPensiero-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "VaPensiero-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "VaPensiero-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "VaPensiero-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "VaPensiero-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "VaPensiero-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "VaPensiero-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "VaPensiero-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "VaPensiero-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "VaPensiero-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "VaPensiero-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "VaPensiero-tuba.pdf"
+        
+        }}
+        
+  ]
+    
+}
+    

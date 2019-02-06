@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arqelem>
+   <id> Lago </id>
+   <desc> Povoado fortificado</desc>
+   <lugar> Lago </lugar>
+   <freguesia> Lago </freguesia>
+   <concelho> Amares </concelho>
+   <acesso>O acesso a este povoado faz-se a partir do lugar de Lago, por caminho carreteiro, que contorna os lados Oeste e Sul do monte.</acesso>
+   <quadro>O povoado do Lago assenta num pequeno cabeço de baixa altitude, sobranceiro ao rio. Possui boas defesas naturais e destaca-se bem na
+			superfície suavemente ondulada da plataforma fluvial.</quadro>
+   <descarq>O povoado possui uma única plataforma poligonal irregular, circundada, pelo menos no lado Oeste, por uma muralha de pedra, à qual se
+			associa um fosso, escavado na base da vertente.</descarq>
+</arqelem>

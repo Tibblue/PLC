@@ -1,0 +1,10 @@
+SA: 
+NOME: 'Associacao'
+LOCALIZACAO: 'algures'
+RAMO: agricultura - 'descricao'
+SOCIO: 'Jose' , 66 ;
+SOCIO: 'Maria' , 34 ;
+Assembleia Geral: 'assunto' : aprovado
+Administrador: 'Antonio'
+FUNCIONARIO: 'Paulo' , Gerente , g1 , 11-11-1111 , 11-11-1111 , 123456789;
+FUNCIONARIO: 'Marco' , Armazem , a71 , 02-02-2020 , 02-02-2020 , 987654321;

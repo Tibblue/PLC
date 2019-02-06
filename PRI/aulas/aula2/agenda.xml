@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "file:/C:/Users/KIKO/Desktop/GIT/EngenhariaInformatica/PLC/PRI/aula2/agenda.dtd">
+<agenda>
+    <entrada ident="e1" tipo="pessoa">
+        <nome>Pedro Henriques</nome>
+        <email>prh@di.uminho.pt</email>
+        <telefone>253 605555</telefone>
+    </entrada>
+    <entrada ident="e2" tipo="pessoa">
+        <nome>José Carlos Ramalho</nome>
+        <email>jcr@di.uminho.pt</email>
+        <telefone>253 604444</telefone>
+    </entrada>
+    <grupo ident="gepl">
+        <ref apontado="e1"/>
+        <ref apontado="e2"/>
+        <entrada ident="e3" tipo="pessoa">
+            <nome>Mário Martins</nome>
+            <email>fmm@di.uminho.pt</email>
+            <telefone>253 408878</telefone>
+        </entrada>
+    </grupo>
+</agenda>

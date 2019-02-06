@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PRI 18/19 - Canetas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="canetas.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+<body>
+    <div class="titulo1" id="topo"><b>Canetas</b></div>
+
+    <div id="myMenuButton" class="menuButton">
+        <a onclick="openSideBar()" href="#">
+            <img style="height:64px;" alt="menu" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png">
+        </a>
+    </div>
+    
+    <div id="mySideBar" class="sidebar">
+        <ul style="padding: 0">
+            <li><a href="#" class="closebtn" onclick="closeSideBar()" href="#">&times;</a></li>
+            <li><span>Indice</span></li>
+            <li><a href="#c1">Capitulo 1</a></li>
+            <li><a href="#c2">Capitulo 2</a></li>
+            <li><a href="#c3">Capitulo 3</a></li>
+            <li><a href="#topo">Voltar ao Topo</a></li>
+            <li><span>Links</span></li>
+            <li><a href="https://pt.bicworld.com/sobre-nos/bic-portugal">BIC Portugal</a></li>
+            <li><a href="https://www.google.pt/search?q=canetas&oq=canetas&aqs=chrome..69i57j69i60j0l4.1140j0j7&sourceid=chrome&ie=UTF-8">Google search "canetas"</a></li>
+        </ul>
+    </div>
+
+    <div id="main" class="main">
+        
+        <p>A caneta é um instrumento utilizado para a escrita utilizando tinta. A sua versão mais atual foi criada pelo revisor tipográfico húngaro László Bíró, em 1932.</p>
+
+        <div>
+            <div class="titulo2" id="c1">Capitulo 1</div>
+            <img align="right" src="https://staples.vteximg.com.br/arquivos/ids/195001-1000-1000/CTAXXCRAZ.jpg?v=635236844902200000" alt="llama" style="height: 128px;">
+            <p>Há imensos tipos de canetas modernas, mais talvez a mais icócina é a caneta azul BIC.
+                Existem no entanto canetas de gel, marcadores, entre outras.
+            </p>
+            <div class="titulo2" id="c2">Capitulo 2</div>
+            <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Dip_Pen.jpg" alt="llama" style="height: 128px;">
+            <p>Históricamente antes das atuais canetas, por muito tempo se utilizaram penas ou pedaços de madeira molhados em tinta,
+                e já mais recentemente pinceis ou as originais canetas que deixavam tinta escorrer lentamente para a sua ponta,
+                frequentemente vistas em filmes.
+            </p>
+            <div class="titulo2" id="c3">Capitulo 3</div>
+            <p>Canetas.</p>
+            
+        </div>
+        
+        <div style="text-align: center"><a href="#topo">Voltar ao topo</a></div>
+    </div>
+
+    <script>
+        function openSideBar() {
+            document.getElementById("mySideBar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("topo").style.marginLeft = "250px";
+        }
+        function closeSideBar() {
+            document.getElementById("mySideBar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("topo").style.marginLeft = "0px";
+        }
+    </script>
+
+</body>
+</html>

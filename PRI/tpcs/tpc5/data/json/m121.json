@@ -1,0 +1,269 @@
+
+        {
+        "_id": "m121",
+        
+            "pasta": "PaisagemRibatejana",
+        
+  
+        "titulo": "Paisagem Ribatejana",
+    
+  
+        "subtitulo": "5ª Fantasia Popular",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Duarte Ferreira (Pestana)",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "PaisagemRibatejana-bombo-pratos.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "PaisagemRibatejana-bombo-pratos.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "PaisagemRibatejana-caixa.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "PaisagemRibatejana-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PaisagemRibatejana-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PaisagemRibatejana-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "PaisagemRibatejana-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        , 
+    
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "PaisagemRibatejana-contrabaixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PaisagemRibatejana-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PaisagemRibatejana-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PaisagemRibatejana-eufonio1-fa-sib.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PaisagemRibatejana-eufonio1-sol-do.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "PaisagemRibatejana-eufonio1-sol-sib.pdf"
+        , "voz": "I", "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "PaisagemRibatejana-fagote.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "PaisagemRibatejana-flauta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "PaisagemRibatejana-flautim.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "PaisagemRibatejana-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "PaisagemRibatejana-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "PaisagemRibatejana-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "PaisagemRibatejana-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "PaisagemRibatejana-saxA.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Soprano",
+         "partitura": {
+            "path": "PaisagemRibatejana-saxS.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "PaisagemRibatejana-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "PaisagemRibatejana-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "PaisagemRibatejana-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PaisagemRibatejana-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PaisagemRibatejana-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "PaisagemRibatejana-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PaisagemRibatejana-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "PaisagemRibatejana-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PaisagemRibatejana-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "PaisagemRibatejana-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PaisagemRibatejana-tuba-fa-do.pdf"
+        , "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PaisagemRibatejana-tuba-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "PaisagemRibatejana-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+  ]
+    
+}
+    

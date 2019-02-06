@@ -1,0 +1,112 @@
+// Generated from agenda.g4 by ANTLR 4.5.1
+// jshint ignore: start
+var antlr4 = require('antlr4/index');
+
+
+var serializedATN = ["\u0003\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd",
+    "\u0002\rn\b\u0001\u0004\u0002\t\u0002\u0004\u0003\t\u0003\u0004\u0004",
+    "\t\u0004\u0004\u0005\t\u0005\u0004\u0006\t\u0006\u0004\u0007\t\u0007",
+    "\u0004\b\t\b\u0004\t\t\t\u0004\n\t\n\u0004\u000b\t\u000b\u0004\f\t\f",
+    "\u0004\r\t\r\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0002",
+    "\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0003\u0003\u0003\u0003\u0004",
+    "\u0003\u0004\u0003\u0004\u0003\u0004\u0003\u0004\u0003\u0004\u0003\u0004",
+    "\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005",
+    "\u0003\u0006\u0003\u0006\u0003\u0006\u0003\u0006\u0003\u0006\u0003\u0006",
+    "\u0003\u0006\u0003\u0007\u0003\u0007\u0003\u0007\u0003\u0007\u0003\u0007",
+    "\u0003\u0007\u0003\u0007\u0003\u0007\u0003\b\u0003\b\u0003\b\u0003\b",
+    "\u0003\b\u0003\b\u0003\t\u0003\t\u0007\tJ\n\t\f\t\u000e\tM\u000b\t\u0003",
+    "\t\u0003\t\u0003\n\u0003\n\u0003\u000b\u0003\u000b\u0003\u000b\u0003",
+    "\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003",
+    "\u000b\u0003\u000b\u0003\f\u0003\f\u0003\f\u0003\f\u0003\f\u0003\f\u0003",
+    "\r\u0005\re\n\r\u0003\r\u0003\r\u0006\ri\n\r\r\r\u000e\rj\u0003\r\u0003",
+    "\r\u0002\u0002\u000e\u0003\u0003\u0005\u0004\u0007\u0005\t\u0006\u000b",
+    "\u0007\r\b\u000f\t\u0011\n\u0013\u0002\u0015\u000b\u0017\f\u0019\r\u0003",
+    "\u0002\u0005\u0004\u0002$$))\u0003\u00022;\u0004\u0002\u000b\u000b\"",
+    "\"p\u0002\u0003\u0003\u0002\u0002\u0002\u0002\u0005\u0003\u0002\u0002",
+    "\u0002\u0002\u0007\u0003\u0002\u0002\u0002\u0002\t\u0003\u0002\u0002",
+    "\u0002\u0002\u000b\u0003\u0002\u0002\u0002\u0002\r\u0003\u0002\u0002",
+    "\u0002\u0002\u000f\u0003\u0002\u0002\u0002\u0002\u0011\u0003\u0002\u0002",
+    "\u0002\u0002\u0015\u0003\u0002\u0002\u0002\u0002\u0017\u0003\u0002\u0002",
+    "\u0002\u0002\u0019\u0003\u0002\u0002\u0002\u0003\u001b\u0003\u0002\u0002",
+    "\u0002\u0005#\u0003\u0002\u0002\u0002\u0007%\u0003\u0002\u0002\u0002",
+    "\t,\u0003\u0002\u0002\u0002\u000b2\u0003\u0002\u0002\u0002\r9\u0003",
+    "\u0002\u0002\u0002\u000fA\u0003\u0002\u0002\u0002\u0011G\u0003\u0002",
+    "\u0002\u0002\u0013P\u0003\u0002\u0002\u0002\u0015R\u0003\u0002\u0002",
+    "\u0002\u0017]\u0003\u0002\u0002\u0002\u0019h\u0003\u0002\u0002\u0002",
+    "\u001b\u001c\u0007C\u0002\u0002\u001c\u001d\u0007I\u0002\u0002\u001d",
+    "\u001e\u0007G\u0002\u0002\u001e\u001f\u0007P\u0002\u0002\u001f \u0007",
+    "F\u0002\u0002 !\u0007C\u0002\u0002!\"\u0007<\u0002\u0002\"\u0004\u0003",
+    "\u0002\u0002\u0002#$\u0007=\u0002\u0002$\u0006\u0003\u0002\u0002\u0002",
+    "%&\u0007V\u0002\u0002&\'\u0007K\u0002\u0002\'(\u0007V\u0002\u0002()",
+    "\u0007N\u0002\u0002)*\u0007G\u0002\u0002*+\u0007<\u0002\u0002+\b\u0003",
+    "\u0002\u0002\u0002,-\u0007F\u0002\u0002-.\u0007G\u0002\u0002./\u0007",
+    "U\u0002\u0002/0\u0007E\u0002\u000201\u0007<\u0002\u00021\n\u0003\u0002",
+    "\u0002\u000223\u0007N\u0002\u000234\u0007Q\u0002\u000245\u0007E\u0002",
+    "\u000256\u0007C\u0002\u000267\u0007N\u0002\u000278\u0007<\u0002\u0002",
+    "8\f\u0003\u0002\u0002\u00029:\u0007D\u0002\u0002:;\u0007G\u0002\u0002",
+    ";<\u0007I\u0002\u0002<=\u0007K\u0002\u0002=>\u0007P\u0002\u0002>?\u0007",
+    "U\u0002\u0002?@\u0007<\u0002\u0002@\u000e\u0003\u0002\u0002\u0002AB",
+    "\u0007G\u0002\u0002BC\u0007P\u0002\u0002CD\u0007F\u0002\u0002DE\u0007",
+    "U\u0002\u0002EF\u0007<\u0002\u0002F\u0010\u0003\u0002\u0002\u0002GK",
+    "\t\u0002\u0002\u0002HJ\n\u0002\u0002\u0002IH\u0003\u0002\u0002\u0002",
+    "JM\u0003\u0002\u0002\u0002KI\u0003\u0002\u0002\u0002KL\u0003\u0002\u0002",
+    "\u0002LN\u0003\u0002\u0002\u0002MK\u0003\u0002\u0002\u0002NO\t\u0002",
+    "\u0002\u0002O\u0012\u0003\u0002\u0002\u0002PQ\t\u0003\u0002\u0002Q\u0014",
+    "\u0003\u0002\u0002\u0002RS\u0005\u0013\n\u0002ST\u0005\u0013\n\u0002",
+    "TU\u0005\u0013\n\u0002UV\u0005\u0013\n\u0002VW\u0007/\u0002\u0002WX",
+    "\u0005\u0013\n\u0002XY\u0005\u0013\n\u0002YZ\u0007/\u0002\u0002Z[\u0005",
+    "\u0013\n\u0002[\\\u0005\u0013\n\u0002\\\u0016\u0003\u0002\u0002\u0002",
+    "]^\u0005\u0013\n\u0002^_\u0005\u0013\n\u0002_`\u0007<\u0002\u0002`a",
+    "\u0005\u0013\n\u0002ab\u0005\u0013\n\u0002b\u0018\u0003\u0002\u0002",
+    "\u0002ce\u0007\u000f\u0002\u0002dc\u0003\u0002\u0002\u0002de\u0003\u0002",
+    "\u0002\u0002ef\u0003\u0002\u0002\u0002fi\u0007\f\u0002\u0002gi\t\u0004",
+    "\u0002\u0002hd\u0003\u0002\u0002\u0002hg\u0003\u0002\u0002\u0002ij\u0003",
+    "\u0002\u0002\u0002jh\u0003\u0002\u0002\u0002jk\u0003\u0002\u0002\u0002",
+    "kl\u0003\u0002\u0002\u0002lm\b\r\u0002\u0002m\u001a\u0003\u0002\u0002",
+    "\u0002\u0007\u0002Kdhj\u0003\b\u0002\u0002"].join("");
+
+
+var atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+
+var decisionsToDFA = atn.decisionToState.map( function(ds, index) { return new antlr4.dfa.DFA(ds, index); });
+
+function agendaLexer(input) {
+	antlr4.Lexer.call(this, input);
+    this._interp = new antlr4.atn.LexerATNSimulator(this, atn, decisionsToDFA, new antlr4.PredictionContextCache());
+    return this;
+}
+
+agendaLexer.prototype = Object.create(antlr4.Lexer.prototype);
+agendaLexer.prototype.constructor = agendaLexer;
+
+agendaLexer.EOF = antlr4.Token.EOF;
+agendaLexer.T__0 = 1;
+agendaLexer.T__1 = 2;
+agendaLexer.T__2 = 3;
+agendaLexer.T__3 = 4;
+agendaLexer.T__4 = 5;
+agendaLexer.T__5 = 6;
+agendaLexer.T__6 = 7;
+agendaLexer.TEXT = 8;
+agendaLexer.DATE = 9;
+agendaLexer.HOUR = 10;
+agendaLexer.Separator = 11;
+
+
+agendaLexer.modeNames = [ "DEFAULT_MODE" ];
+
+agendaLexer.literalNames = [ null, "'AGENDA:'", "';'", "'TITLE:'", "'DESC:'", 
+                             "'LOCAL:'", "'BEGINS:'", "'ENDS:'" ];
+
+agendaLexer.symbolicNames = [ null, null, null, null, null, null, null, 
+                              null, "TEXT", "DATE", "HOUR", "Separator" ];
+
+agendaLexer.ruleNames = [ "T__0", "T__1", "T__2", "T__3", "T__4", "T__5", 
+                          "T__6", "TEXT", "DIGIT", "DATE", "HOUR", "Separator" ];
+
+agendaLexer.grammarFileName = "agenda.g4";
+
+
+
+exports.agendaLexer = agendaLexer;
+

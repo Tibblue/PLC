@@ -1,0 +1,294 @@
+
+        {
+        "_id": "m86",
+        
+            "pasta": "AndresContrabandista",
+        
+    
+        "titulo": "Andres Contrabandista",
+    
+    
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+    
+        "compositor": "Oscar Navarro",
+    
+    
+        "instrumentos": [
+      
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "AndresContrabandista-bombo-pandeireta-pratos.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Pandeireta",
+         "partitura": {
+            "path": "AndresContrabandista-bombo-pandeireta-pratos.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Pratos",
+         "partitura": {
+            "path": "AndresContrabandista-bombo-pandeireta-pratos.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Caixa",
+         "partitura": {
+            "path": "AndresContrabandista-caixa.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "AndresContrabandista-clarinete-baixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AndresContrabandista-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AndresContrabandista-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "AndresContrabandista-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AndresContrabandista-eufonio1-fa-do.pdf"
+        , "voz": "I", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "AndresContrabandista-eufonio2-fa-do.pdf"
+        , "voz": "II", "clave": "Fá", "afinacao": "Dó"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "AndresContrabandista-fagote1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "AndresContrabandista-fagote2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "AndresContrabandista-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "AndresContrabandista-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "AndresContrabandista-flautim.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "AndresContrabandista-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "AndresContrabandista-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "AndresContrabandista-maestro.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "AndresContrabandista-oboe1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "AndresContrabandista-oboe2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "AndresContrabandista-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "AndresContrabandista-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "AndresContrabandista-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "AndresContrabandista-saxB.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "AndresContrabandista-saxT1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "AndresContrabandista-saxT2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Timpanos",
+         "partitura": {
+            "path": "AndresContrabandista-timpanos.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AndresContrabandista-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AndresContrabandista-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "AndresContrabandista-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AndresContrabandista-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AndresContrabandista-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AndresContrabandista-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "AndresContrabandista-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AndresContrabandista-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AndresContrabandista-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "AndresContrabandista-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "AndresContrabandista-tuba1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "AndresContrabandista-tuba1-2.pdf"
+        , "voz": "II"
+        }}
+        
+    ]
+    
+  }
+    

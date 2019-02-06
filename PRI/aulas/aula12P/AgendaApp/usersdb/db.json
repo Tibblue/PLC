@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "id": "A1", "password": "$2a$10$e07ei06NDEOVFF4iNpiMEOtuYcyWvvlxIVOGcUyji28/UVkgrVV8e" },
+    { "id": "A2", "password": "$2a$10$EWtJwOAuEBGRQH9dw/ByNub/V/zZPdj0lwL/B/LVXYBWaAGbHJ5nK" },
+    { "id": "A3", "password": "$2a$10$VNxjHdxZjHKlFMzGmjJCxO6IablwiRXtEfubRm/O5VkRP8kbG3ewS" },
+    { "id": "A4", "password": "a4" }
+  ]
+}

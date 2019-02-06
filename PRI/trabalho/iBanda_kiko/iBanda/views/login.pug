@@ -1,0 +1,19 @@
+extends layout
+
+//- block scripts
+//-   script(src='/javascripts/users.js')
+
+block body
+  .w3-container
+    h3#status= status
+    h2 Login
+    form.w3-container(id="loginForm" method="POST" action="/login/login")
+      h3.w3-text-indigo
+        b Email
+      input.w3-input.w3-border.w3-light-grey(type="text", name="email")
+      h3.w3-text-indigo
+        b Password
+      input.w3-input.w3-border.w3-light-grey(type="password", name="password")
+      br
+      button.w3-button.w3-blue-grey(id="login" type="submit") Login
+  //- include ./users/newUser

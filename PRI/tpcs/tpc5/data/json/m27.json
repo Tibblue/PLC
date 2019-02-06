@@ -1,0 +1,231 @@
+
+        {
+        "_id": "m27",
+        
+            "pasta": "CancoesTrad",
+        
+      
+        "titulo": "Canções da Tradição",
+    
+      
+        "tipo": "Rapsódia",
+    
+      
+        "compositor": "Luís Cardoso",
+    
+      
+        "instrumentos": [
+         
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "CancoesTrad-maestro.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "CancoesTrad-oboe.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "CancoesTrad-flautim.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "CancoesTrad-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "CancoesTrad-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "CancoesTrad-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "CancoesTrad-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "CancoesTrad-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "CancoesTrad-trompaF1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "CancoesTrad-trompaF2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "CancoesTrad-trompaF3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "CancoesTrad-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "CancoesTrad-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "CancoesTrad-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "CancoesTrad-eufonio.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "CancoesTrad-tuba.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "CancoesTrad-saxB.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "CancoesTrad-saxT.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "CancoesTrad-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "CancoesTrad-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "CancoesTrad-clari1.pdf"
+        , "voz": "I"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "CancoesTrad-clari2.pdf"
+        , "voz": "II"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "CancoesTrad-clari3.pdf"
+        , "voz": "III"
+        }}
+        ,
+         
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "CancoesTrad-clari4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+         
+        {"nome": "Ferrinhos",
+         "partitura": {
+            "path": "CancoesTrad-ferrinhos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Pandeireta",
+         "partitura": {
+            "path": "CancoesTrad-pandeireta.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "CancoesTrad-timpanos.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "CancoesTrad-percussao.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "CancoesTrad-bateria.pdf"
+        
+        }}
+        ,
+         
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "CancoesTrad-bombo.pdf"
+        
+        }}
+        
+      ]
+    
+   }
+    

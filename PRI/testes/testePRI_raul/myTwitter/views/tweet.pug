@@ -1,0 +1,43 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3 MyTwitter
+      .w3-container
+        form(id="myTwitterForm" method="POST" action="http://localhost:4008")
+          fieldset
+            legend Novo Entrada
+            table.w3-table-all-style
+              tr
+                td
+                  h4  Texto:
+                td
+                  textarea.w3-input.w3-border.w3-light-grey(name ="texto" rows="1" cols="30" required)
+              tr
+                td
+                  h4 Autor:
+                td
+                  input.w3-input.w3-border.w3-light-grey(type="text" name="autor" required)
+              tr
+                td
+                  h4 Hash:
+                td
+                  input.w3-input.w3-border.w3-light-grey(type="text" name="hash" required)
+            button.w3-button.w3-round-large.w3-teal(id="adicionar" type="submit") Adicionar
+        fieldset
+          legend Discusao
+          table.w3-table-all
+            each tweet in tweets
+              tr
+                td
+                  h4
+                    b #{tweet.autor} &nbsp
+                    | :: #{tweet.hash}
+                  p= tweet.texto
+                  button.w3-button.w3-round-large.w3-teal.BATATAS(id=tweet._id name="gosto") Gosto (#{tweet.gosto})
+      footer.w3-container.w3-teal
+        address Gerado por AjaxApp
+
+    //-

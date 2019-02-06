@@ -1,0 +1,67 @@
+SA:
+
+NOME: 'Vendas de Braga'
+
+LOCALIZACAO: 'Rua das Margaridas 4789-023 Braga'
+
+NEGÓCIO:
+ramo: Comércio
+descrição:'Feira da ladra.'
+
+CAPITAL: 123432€
+
+DECISÕES APROVADAS EM AG:
+'Produzir peras.' ;
+'Dar prendas de natal para os funcionários.'
+
+PRESIDENTE:
+'Fernando Barbosa' , 55%
+
+SÓCIOS MAIORITARIOS:
+'Maria Clotilde' , 13% ;
+'Gorete Quintas' , 23%  ;
+'Duarte Pereira' , 39%
+
+SOCIOS:
+'Donaldo Trump' , 13% ;
+'Obama Sementes' , 23% ;
+'Helena Barbosa' , 39%
+
+ADMINISTRADOR:
+'João Manuel Joaquim'
+
+ESTRATÉGIAS DE NEGÓCIO:
+'Make Évora great again' ;
+'Build a wall' ;
+'Ban stairs and scalade equipment'
+
+GERENTE:
+id: F4657
+nome: 'Francisco Menezes'
+cargo: gerente
+data de nascimento: 05-12-1978
+data de serviço: 12-01-2002
+contacto: 234765234
+
+FUNCIONARIOS:
+id: F5467
+nome: 'Manuel Menezes'
+cargo: producao
+data de nascimento: 03-10-1918
+data de serviço: 12-01-2012
+contacto: 234987111 ;
+
+id: F1243
+nome: 'Maria Tiago'
+cargo: escritorio
+data de nascimento: 04-11-1989
+data de serviço: 12-01-2006
+contacto: 253000234 ;
+
+id: F6789
+nome: 'Manuel Sofia'
+cargo: armazem
+data de nascimento: 06-02-1945
+data de serviço: 12-01-2012
+contacto: 2340991234
+

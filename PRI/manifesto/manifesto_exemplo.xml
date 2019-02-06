@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/C:/Users/KIKO/Desktop/GIT/EngenhariaInformatica/PLC/PRI/manifest.dtd">
+<manifesto>
+    <meta>
+        <id></id>
+        <título>Especificação de um DTD para um Processo de Negócio</título>
+        <subtítulo></subtítulo>
+        <dinício></dinício>
+        <dfim></dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>https://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id></id>
+            <nome></nome>
+            <email></email>
+            <website></website>
+            <foto path=""/>
+        </elemento>
+    </equipe>
+    <resumo>
+        <para></para>
+    </resumo>
+    <resultados>
+        <resultado path="pn.dtd">DTD para o processo de negócio.</resultado>
+    </resultados>
+</manifesto>

@@ -1,0 +1,11 @@
+pergunta 1
+=> 8
+
+pergunta 2
+=> 4
+
+pergunta 3
+=> 2
+
+pergunta 4
+=> 3

@@ -1,0 +1,17 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-ficheiro.js",
+  "scripts": {
+    "test": "node server-ficheiro.js"
+  },
+  "author": "kiko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  }
+}

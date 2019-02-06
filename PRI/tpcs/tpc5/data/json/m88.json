@@ -1,0 +1,285 @@
+
+        {
+        "_id": "m88",
+        
+            "pasta": "EnriqueLopez",
+        
+    
+        "titulo": "Enrique López",
+    
+    
+        "tipo": "Marcha de Concerto/Pasodoble",
+    
+  
+        "desc": "
+    Enrique López, pasodobre encargado e adicado á Unión Musical Ponte Ledesma para conmemorar o seu “XXV Aniversario”. En especial mención a Enrique López
+      Pérez “Enrique de Conde”, que nos deixou recentemente de forma prematura.
+    En este pasodobre de concerto colorista conviven diferentes estéticas e pretensións sonoras 
+      variopintas. Pasando brevemente de sonoridades sinfónicas ata tratamentos harmónicos legados do jazz. 
+      Fusiona as raíces do típico pasodobre español cos cimentos da música popular galega, podendo escoitar 
+      motivos de muiñeira e alborada no espallamento global da obra.
+    Rómpese coa estrutura estándar do pasodobre, obtendo como resultado final un pasodobre temático de 
+      6 minutos de duración.
+  ",
+    
+    
+        "compositor": "Antón Alcalde Rodriguez",
+    
+    
+        "instrumentos": [
+      
+        {"nome": "All",
+         "partitura": {
+            "path": "EnriqueLopez-all.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "EnriqueLopez-clarinete-baixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "EnriqueLopez-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "EnriqueLopez-clarinete2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "EnriqueLopez-clarinete2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Contrabaixo",
+         "partitura": {
+            "path": "EnriqueLopez-contrabaixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "EnriqueLopez-eufonio.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "EnriqueLopez-eufonio-fa-sib.pdf"
+        , "clave": "Fá", "afinacao": "Sib"
+        }}
+        ,
+      
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "EnriqueLopez-eufonio-fa-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "EnriqueLopez-fagote1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "EnriqueLopez-fagote1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "EnriqueLopez-flauta1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "EnriqueLopez-flautim.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Maestro",
+         "partitura": {
+            "path": "EnriqueLopez-maestro.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "EnriqueLopez-oboe1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "EnriqueLopez-percussao-aux.pdf"
+        , "voz": "Auxiliar"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "EnriqueLopez-percussao1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "EnriqueLopez-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "EnriqueLopez-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "EnriqueLopez-saxA1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "EnriqueLopez-saxA1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "EnriqueLopez-saxB.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "EnriqueLopez-saxT.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "EnriqueLopez-timpanos.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Trombone Baixo",
+         "partitura": {
+            "path": "EnriqueLopez-trombone-baixo.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "EnriqueLopez-trombone1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "EnriqueLopez-trombone1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "EnriqueLopez-trompa1-2.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "EnriqueLopez-trompa1-2.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "EnriqueLopez-trompa3-4.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "EnriqueLopez-trompa3-4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "EnriqueLopez-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "EnriqueLopez-trompete2-3.pdf"
+        , "voz": "II"
+        }}
+        ,
+      
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "EnriqueLopez-trompete2-3.pdf"
+        , "voz": "III"
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "EnriqueLopez-tuba.pdf"
+        
+        }}
+        ,
+      
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "EnriqueLopez-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+    ]
+    
+  }
+    

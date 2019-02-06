@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  header.w3-container.w3-indigo
+    center
+      h1 Clav
+  .w3-container
+    center
+      a.w3-button.w3-blue(href="http://localhost:6001") Voltar a página inicial
+  .w3-container
+    center
+      h3 Classificação e Avaliação da Informação Pública
+      h4 INFORMAÇÃO DE CONTEXTO
+  .w3-container
+    table.w3-table-all
+      th.w3-indigo Codigo
+      th.w3-indigo Titulo
+      th.w3-indigo ID
+      each elem in lista
+        tr
+          td
+            h4
+              a(href="http://localhost:6001/c"+elem.codigo+"/descendencia") #{elem.codigo}
+          td
+            h4
+              a(href="http://localhost:6001/c"+elem.codigo) #{elem.titulo}
+          td
+            p
+              a(href="http://localhost:6001/c"+elem.codigo) #{elem.id}

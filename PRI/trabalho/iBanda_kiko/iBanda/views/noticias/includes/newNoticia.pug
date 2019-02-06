@@ -1,0 +1,34 @@
+//- append scripts
+//-   script(src='/javascripts/noticias.js')
+
+.w3-container
+  .w3-display-container
+    span.w3-button.w3-blue(onclick="document.getElementById('newNoticiaForm').style.display='block'") Abrir Nova Noticia
+    span.w3-button.w3-blue(onclick="document.getElementById('newNoticiaForm').style.display='none'") Fechar Nova Noticia
+    span#status= status
+  form.w3-display-container(id="newNoticiaForm" method="POST" action="/noticias")
+    center
+      h3.w3-text-indigo
+        b Adicionar Nova Noticia
+    h3.w3-text-indigo Titulo
+    input.w3-input.w3-border.w3-light-grey(type="text" name="title" placeholder="Titulo" required)
+    h3.w3-text-indigo Data
+    input.w3-input.w3-border.w3-light-grey(type="date" name="date" required)
+    h3.w3-text-indigo Conteudo
+    textarea(style="width:100%" name="content" rows="3" required)
+    table(width="100%")
+      tr
+        td(width="50%")
+          center
+            h3.w3-text-indigo Autores
+            fieldset(id="authorsZone")
+              //- input.w3-input.w3-border.w3-light-grey(type="text" name="authors" placeholder="Autor")
+            input.w3-btn.w3-blue-grey(id="addAuthor" type="button" value="Add Author")
+        td(width="50%")
+          center
+            h3.w3-text-indigo Tópicos
+            fieldset(id="topicsZone")
+              //- input.w3-input.w3-border.w3-light-grey(type="text" name="topics" placeholder="Tópico")
+            input.w3-btn.w3-blue-grey(id="addTopic" type="button" value="Add Topic")
+    br
+    button.w3-button.w3-blue-grey(type="submit" id="createArticle") Criar Noticia

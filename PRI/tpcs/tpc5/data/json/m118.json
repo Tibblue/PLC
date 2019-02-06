@@ -1,0 +1,262 @@
+
+        {
+        "_id": "m118",
+        
+            "pasta": "ElCaminoReal",
+        
+  
+        "titulo": "El Camino Real",
+    
+  
+        "subtitulo": "A Latin Fantasy",
+    
+  
+        "tipo": "Ligeiro/Fantasia",
+    
+  
+        "compositor": "Alfred Reed",
+    
+  
+        "instrumentos": [
+    
+        {"nome": "Bateria",
+         "partitura": {
+            "path": "ElCaminoReal-bateria-bombo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Bombo",
+         "partitura": {
+            "path": "ElCaminoReal-bateria-bombo.pdf"
+        
+        }}
+        , 
+    
+        {"nome": "Clarinete Baixo",
+         "partitura": {
+            "path": "ElCaminoReal-clarinete-baixo.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElCaminoReal-clarinete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElCaminoReal-clarinete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Clarinete",
+         "partitura": {
+            "path": "ElCaminoReal-clarinete3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Eufónio",
+         "partitura": {
+            "path": "ElCaminoReal-eufonio-fa.pdf"
+        , "clave": "Fá"
+        }}
+        ,
+    
+        {"nome": "Fagote",
+         "partitura": {
+            "path": "ElCaminoReal-fagote.pdf"
+        
+        }}
+        ,    
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "ElCaminoReal-flauta1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Flauta",
+         "partitura": {
+            "path": "ElCaminoReal-flauta2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Flautim",
+         "partitura": {
+            "path": "ElCaminoReal-flautim.pdf"
+        
+        }}
+        ,  
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "ElCaminoReal-fliscorne1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Fliscorne",
+         "partitura": {
+            "path": "ElCaminoReal-fliscorne2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Oboé",
+         "partitura": {
+            "path": "ElCaminoReal-oboe.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "ElCaminoReal-percussao2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "ElCaminoReal-percussao3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Percussão",
+         "partitura": {
+            "path": "ElCaminoReal-percussao4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Requinta",
+         "partitura": {
+            "path": "ElCaminoReal-requinta.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "ElCaminoReal-saxA1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Sax Alto",
+         "partitura": {
+            "path": "ElCaminoReal-saxA2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Sax Barítono",
+         "partitura": {
+            "path": "ElCaminoReal-saxB.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Sax Tenor",
+         "partitura": {
+            "path": "ElCaminoReal-saxT.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Tímpanos",
+         "partitura": {
+            "path": "ElCaminoReal-timpanos.pdf"
+        
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElCaminoReal-trombone1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElCaminoReal-trombone2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trombone",
+         "partitura": {
+            "path": "ElCaminoReal-trombone3.pdf"
+        , "voz": "III"
+        }}
+        ,  
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElCaminoReal-trompa1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElCaminoReal-trompa2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElCaminoReal-trompa3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Trompa",
+         "partitura": {
+            "path": "ElCaminoReal-trompa4.pdf"
+        , "voz": "IV"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElCaminoReal-trompete1.pdf"
+        , "voz": "I"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElCaminoReal-trompete2.pdf"
+        , "voz": "II"
+        }}
+        ,
+    
+        {"nome": "Trompete",
+         "partitura": {
+            "path": "ElCaminoReal-trompete3.pdf"
+        , "voz": "III"
+        }}
+        ,
+    
+        {"nome": "Tuba",
+         "partitura": {
+            "path": "ElCaminoReal-tuba-sol-sib.pdf"
+        , "clave": "Sol", "afinacao": "Sib"
+        }}
+        
+  ]
+    
+}
+    
