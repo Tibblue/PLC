@@ -15,5 +15,5 @@ output = subprocess.check_output(["head","-n","50",file])
 # output = subprocess.subprocess_output(["tail","-n","11"])
 
 # aceder ao output
-
-print(output.decode("utf-8"))
+# há 2 splits, string e exp regulares
+print("\n".join(output.decode("utf-8").split("\n")[-11:]))

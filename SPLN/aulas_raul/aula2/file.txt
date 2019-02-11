@@ -37,8 +37,8 @@ w
 eq
 we
 
-carvalho
-batatas
+um
+dois
 arvalho
 batatas
 arvalho
@@ -46,5 +46,5 @@ batatas
 arvalho
 batatasarvalho
 batatasarvalho
-batatas
-arvalho
+nove
+dez
