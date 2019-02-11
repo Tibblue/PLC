@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix h: <http://www.di.uminho.pt/~jcr/prc2019#> .
+
+h:Curso a rdfs:Class .
+
+h:Estudante
+    a rdfs:Class ;
+    rdfs:subClassOf h:Pessoa .
+
+h:Parceiro
+    a rdf:Property ;
+    rdfs:domain h:Estudante ;
+    rdfs:range h:Estudante .
+
+h:Pessoa
+    a rdfs:Class .
+
+h:Professor
+    a rdfs:Class ;
+    rdfs:subClassOf h:Pessoa .
+
+h:designacao
+    a rdf:Property ;
+    rdfs:domain h:Curso ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:nacionalidade
+    a rdf:Property ;
+    rdfs:domain h:Pessoa .
+
+h:eLecionado
+    a rdf:Property ;
+    rdfs:domain h:Curso ;
+    rdfs:range h:Professor .
+
+h:horario
+    a rdf:Property ;
+    rdfs:domain h:Curso .
+
+h:idade
+    a rdf:Property ;
+    rdfs:domain h:Pessoa ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+
+h:linguaEstrangeira
+    a rdf:Property ;
+    rdfs:domain h:Pessoa .
+
+h:linguaMaterna
+    a rdf:Property ;
+    rdfs:domain h:Pessoa .
+
+h:local
+    a rdf:Property ;
+    rdfs:domain h:Pessoa .
+
+h:nome
+    a rdf:Property ;
+    rdfs:domain h:Pessoa ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+h:temEstudante
+    a rdf:Property ;
+    rdfs:domain h:Curso ;
+    rdfs:range h:Estudante .
+
+<http://www.w3.org/2001/XMLSchema#integer>
+    a rdfs:Datatype .
+
+<http://www.w3.org/2001/XMLSchema#string>
+    a rdfs:Datatype .
+
+# ------------------------------------------------------------
+
+h:eduardo a h:Estudante;
+    h:nome "Eduardo";
+    h:local "Porto" ;
+    h:nacionalidade "Portuguesa";
+    h:linguaMaterna "Português";
+    h:linguaEstrangeira "Espanhol", "Inglês" ,"Alemão";
+    h:idade "21" ;
+    h:parceiro h:hanna.
+
+h:ana a h:Estudante;
+    h:nome "Ana";
+    h:nacionalidade "Portuguesa";
+    h:linguaMaterna "Português";
+    h:linguaEstrangeira "Alemão".
+
+
+h:carlos a h:Estudante;
+    h:nome "carlos";
+    h:linguaMaterna "Português";
+    h:nacionalidade "Portuguesa";
+    h:linguaEstrangeira "Alemão".
+
+
+h:curso_Alemão a h:Curso;
+    h:designacao "Curso de Alemão";
+    h:eLecionado h:helmut;
+    h:horario "Sexta-feira" ;
+    h:temEstudante h:eduardo , h:ana , h:carlos.
+
+h:helmut a h:Professor;
+    h:nome "Helmut Ratz".
+
+h:hanna a h:Estudante;
+    h:nome "Hanna";
+    h:nacionalidade "Alemã";
+    h:linguaMaterna "Alemão";
+    h:parceiro h:eduardo.
+
+ h:curso_Biotecnologia a h:Curso;
+    h:designacao "Curso de Biotecnologia";
+    h:temEstudante h:ana.
+
+# rapper -c -i turtle (nomeficheiro)
