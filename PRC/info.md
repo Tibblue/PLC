@@ -10,7 +10,8 @@
 * [GraphDB](https://www.ontotext.com/company/news/ontotexts-graphdb-8-8-0-enriches-the-knowledge-graph-experience/)
     * [Guide](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html)
 * [Protégé](https://protege.stanford.edu/)
-* rapper (?)
+* [rapper](http://librdf.org/raptor/rapper.html) - acho que é isto
+* turtle (?)
 
 
 ### Conhecimentos
