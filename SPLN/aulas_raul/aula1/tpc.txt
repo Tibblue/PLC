@@ -1,6 +1,6 @@
 tpc:
 
-implementar um função que recebe o nome do ficheiro, imprime as 10 palavras mais
+implementar uma função que recebe o nome do ficheiro, imprime as 10 palavras mais
 frequentes e o numero de occorrencias
 
 - usar a função de limpeza de aula
