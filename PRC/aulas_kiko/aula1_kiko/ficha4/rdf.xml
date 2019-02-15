@@ -21,6 +21,7 @@ xml:base="http://www.di.uminho.pt/~jcr/XML/sw2015">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     </rdf:Description>
 
+
     <rdf:Property rdf:ID="nome">
     <rdfs:domain rdf:resource="#Pessoa"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -66,6 +67,7 @@ xml:base="http://www.di.uminho.pt/~jcr/XML/sw2015">
     <rdf:Property rdf:ID="horario">
     <rdfs:domain rdf:resource="#Curso"/>
     </rdf:Property>
+
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>

@@ -78,7 +78,7 @@ h:eduardo a h:Estudante;
     h:local "Porto";
     h:nacionalidade "Portuguesa";
     h:linguaMaterna "Português";
-    h:linguaEstrangeira "Espanhol", "inglês", "Alemãp";
+    h:linguaEstrangeira "Espanhol", "inglês", "Alemão";
     h:idade "21";
     h:parceiro h:hanna .
 
