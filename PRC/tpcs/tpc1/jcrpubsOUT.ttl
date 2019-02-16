@@ -1,0 +1,70 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix html: <http://www.w3.org/1999/xhtml> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix jcr: <http://www.di.uminho.pt/~jcr/prc2019#> .
+
+<file:///mnt/c/Users/KIKO/Desktop/GIT/PLC/PRC/tpcs/tpc1/jcrpubsOUT.rdf#IGI2013>
+    jcr:author-ref "jcr", "rf" ;
+    jcr:editor "Ricardo Queirós" ;
+    jcr:editor-ref "albie", "jcr" ;
+    jcr:title "Innovations in XML Applications and Metadata Management: Advancing Technologies" ;
+    a rdfs:Class .
+
+<file:///mnt/c/Users/KIKO/Desktop/GIT/PLC/PRC/tpcs/tpc1/jcrpubsOUT.rdf#RLH06>
+    jcr:author-ref "grl", "jcr", "prh" ;
+    jcr:editor "Jack Park", "Lutz Maicher" ;
+    jcr:title "Lecture Notes in Computer Science" ;
+    a rdfs:Class .
+
+<file:///mnt/c/Users/KIKO/Desktop/GIT/PLC/PRC/tpcs/tpc1/jcrpubsOUT.rdf#Ram99b>
+    jcr:author-ref "jcr" ;
+    jcr:title "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação" ;
+    a rdfs:Class .
+
+<http://www.di.uminho.pt/~jcr/prc2019>
+    jcr:inbook <file:///mnt/c/Users/KIKO/Desktop/GIT/PLC/PRC/tpcs/tpc1/jcrpubsOUT.rdf#IGI2013>, <file:///mnt/c/Users/KIKO/Desktop/GIT/PLC/PRC/tpcs/tpc1/jcrpubsOUT.rdf#RLH06>, <file:///mnt/c/Users/KIKO/Desktop/GIT/PLC/PRC/tpcs/tpc1/jcrpubsOUT.rdf#Ram99b> .
+
+jcr:Article
+    a rdfs:Class .
+
+jcr:Book
+    a rdfs:Class .
+
+jcr:Inbook
+    a rdfs:Class .
+
+jcr:Inproceedings
+    a rdfs:Class .
+
+jcr:Masterthesis
+    a rdfs:Class .
+
+jcr:Misc
+    a rdfs:Class .
+
+jcr:Phdthesis
+    a rdfs:Class .
+
+jcr:Proceedings
+    a rdfs:Class .
+
+jcr:author-ref
+    a rdf:Property ;
+    rdfs:domain jcr:Inbook ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+jcr:editor
+    a rdf:Property ;
+    rdfs:domain jcr:Inbook ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+jcr:editor-ref
+    a rdf:Property ;
+    rdfs:domain jcr:Inbook ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+jcr:title
+    a rdf:Property ;
+    rdfs:domain jcr:Inbook ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:h="http://www.di.uminho.pt/~jcr/prc2019#"
+  xmlns:base="http://www.di.uminho.pt/~jcr/prc2019#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Curso"/>
+  <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Estudante">
+    <rdfs:subClassOf rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+  </rdfs:Class>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Parceiro">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Estudante"/>
+    <rdfs:range rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Estudante"/>
+  </rdf:Property>
+  <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+  <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Professor">
+    <rdfs:subClassOf rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+  </rdfs:Class>
+  <h:Estudante rdf:about="http://www.di.uminho.pt/~jcr/prc2019#ana">
+    <h:linguaEstrangeira>Alemão</h:linguaEstrangeira>
+    <h:linguaMaterna>Português</h:linguaMaterna>
+    <h:nacionalidade>Portuguesa</h:nacionalidade>
+    <h:nome>Ana</h:nome>
+  </h:Estudante>
+  <h:Estudante rdf:about="http://www.di.uminho.pt/~jcr/prc2019#carlos">
+    <h:linguaEstrangeira>Alemão</h:linguaEstrangeira>
+    <h:linguaMaterna>Português</h:linguaMaterna>
+    <h:nacionalidade>Portuguesa</h:nacionalidade>
+    <h:nome>Carlos</h:nome>
+  </h:Estudante>
+  <h:Curso rdf:about="http://www.di.uminho.pt/~jcr/prc2019#curso_Alemão">
+    <h:designacao>Curso Alemão</h:designacao>
+    <h:eLecionado rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#helmut"/>
+    <h:horario>Sexta-feira</h:horario>
+    <h:temEstudante rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#ana"/>
+    <h:temEstudante rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#carlos"/>
+    <h:temEstudante rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#eduardo"/>
+  </h:Curso>
+  <h:Curso rdf:about="http://www.di.uminho.pt/~jcr/prc2019#curso_Biotecnologia">
+    <h:designacao>Curso de Biotecnologia</h:designacao>
+    <h:temEstudante rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#hanna"/>
+  </h:Curso>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#designacao">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Curso"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#eLecionado">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Curso"/>
+    <rdfs:range rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Professor"/>
+  </rdf:Property>
+  <h:Estudante rdf:about="http://www.di.uminho.pt/~jcr/prc2019#eduardo">
+    <h:idade>21</h:idade>
+    <h:linguaEstrangeira>Alemãp</h:linguaEstrangeira>
+    <h:linguaEstrangeira>Espanhol</h:linguaEstrangeira>
+    <h:linguaEstrangeira>inglês</h:linguaEstrangeira>
+    <h:linguaMaterna>Português</h:linguaMaterna>
+    <h:local>Porto</h:local>
+    <h:nacionalidade>Portuguesa</h:nacionalidade>
+    <h:nome>Eduardo</h:nome>
+    <h:parceiro rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#hanna"/>
+  </h:Estudante>
+  <h:Estudante rdf:about="http://www.di.uminho.pt/~jcr/prc2019#hanna">
+    <h:linguaEstrangeira>Português</h:linguaEstrangeira>
+    <h:linguaMaterna>Alemão</h:linguaMaterna>
+    <h:nacionalidade>Alemã</h:nacionalidade>
+    <h:nome>Hanna</h:nome>
+    <h:parceiro rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#eduardo"/>
+  </h:Estudante>
+  <h:Professor rdf:about="http://www.di.uminho.pt/~jcr/prc2019#helmut">
+    <h:nome>Helmut Ratz</h:nome>
+  </h:Professor>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#horario">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Curso"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#idade">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#linguaEstrangeira">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#linguaMaterna">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#local">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#nacionalidade">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#nome">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Pessoa"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#temEstudante">
+    <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Curso"/>
+    <rdfs:range rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Estudante"/>
+  </rdf:Property>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:RDF>

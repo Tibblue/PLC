@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bibliography xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bibtex.xsd">
+<bibliography xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	
 	<inbook id="IGI2013">
 		<author-ref authorid="rf"/>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/spec/"
+         xmlns:jcr="http://www.di.uminho.pt/~jcr/prc2019#">
+   <rdf:Description rdf:about="http://www.example.com/xml">
+    
+      <jcr:hasCritic>
+         <rdf:Description rdf:about="http://www.example.com/critic/Joe">
+            <foaf:name>Joe</foaf:name>
+            <foaf:homepage>
+               <rdf:Description rdf:about="http://www.example1.com">
+                  <rdfs:label>contact1</rdfs:label>
+               </rdf:Description>
+            </foaf:homepage>
+         </rdf:Description>
+      </jcr:hasCritic>
+      <jcr:hasCritic>
+         <rdf:Description rdf:about="http://www.example.com/critic/Anna">
+            <foaf:name>Anna</foaf:name>
+            <foaf:homepage>
+               <rdf:Description rdf:about="http://www.example2.com">
+                  <rdfs:label>contact2</rdfs:label>
+               </rdf:Description>
+            </foaf:homepage>
+         </rdf:Description>
+      </jcr:hasCritic>
+   </rdf:Description>
+</rdf:RDF>

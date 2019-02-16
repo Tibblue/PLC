@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:jcr="http://www.di.uminho.pt/~jcr/prc2019#"
+         xmlns:base="http://www.di.uminho.pt/~jcr/prc2019#">
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Book"/>
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Inbook"/>
+   <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#author-ref">
+      <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Inbook"/>
+      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   </rdf:Property>
+   <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#editor-ref">
+      <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Inbook"/>
+      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   </rdf:Property>
+   <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#editor">
+      <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Inbook"/>
+      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   </rdf:Property>
+   <rdf:Property rdf:about="http://www.di.uminho.pt/~jcr/prc2019#title">
+      <rdfs:domain rdf:resource="http://www.di.uminho.pt/~jcr/prc2019#Inbook"/>
+      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   </rdf:Property>
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Proceedings"/>
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Inproceedings"/>
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Article"/>
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Misc"/>
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Phdthesis"/>
+   <rdfs:Class rdf:about="http://www.di.uminho.pt/~jcr/prc2019#Masterthesis"/>
+   <rdf:Description rdf:about="http://www.di.uminho.pt/~jcr/prc2019">
+      <jcr:inbook>
+         <rdfs:Class rdf:ID="IGI2013">
+            <jcr:author-ref>rf</jcr:author-ref>
+            <jcr:author-ref>jcr</jcr:author-ref>
+            <jcr:editor-ref>jcr</jcr:editor-ref>
+            <jcr:editor-ref>albie</jcr:editor-ref>
+            <jcr:editor>Ricardo Queirós</jcr:editor>
+            <jcr:title>Innovations in XML Applications and Metadata Management: Advancing Technologies</jcr:title>
+         </rdfs:Class>
+      </jcr:inbook>
+      <jcr:inbook>
+         <rdfs:Class rdf:ID="Ram99b">
+            <jcr:author-ref>jcr</jcr:author-ref>
+            <jcr:title>EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação</jcr:title>
+         </rdfs:Class>
+      </jcr:inbook>
+      <jcr:inbook>
+         <rdfs:Class rdf:ID="RLH06">
+            <jcr:author-ref>jcr</jcr:author-ref>
+            <jcr:author-ref>grl</jcr:author-ref>
+            <jcr:author-ref>prh</jcr:author-ref>
+            <jcr:editor>Lutz Maicher</jcr:editor>
+            <jcr:editor>Jack Park</jcr:editor>
+            <jcr:title>Lecture Notes in Computer Science</jcr:title>
+         </rdfs:Class>
+      </jcr:inbook>
+   </rdf:Description>
+</rdf:RDF>

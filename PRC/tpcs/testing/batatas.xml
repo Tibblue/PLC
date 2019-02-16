@@ -1,0 +1,13 @@
+<xml>
+    <?xml-stylesheet type="text/xsl" href="qu.xsl"?>
+    <person>
+        <name>Joe</name>
+        <website url="www.example1.com">contact1</website>
+        <vote>20</vote>
+    </person>
+    <person>
+        <name>Anna</name>
+        <website url="www.example2.com">contact2</website>
+        <vote>80</vote>
+    </person>
+</xml>
