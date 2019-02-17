@@ -6,13 +6,19 @@
 * 20% TPCs
 * 10% JCR (avaliação pessoal)
 
+## Website do J.C.Ramalho
+* [Root](http://www4.di.uminho.pt/~jcr/)
+* [Index Fichas](http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/index-fichas.html)
+* [Aulas](http://www4.di.uminho.pt/~jcr/AULAS)
+    * [Didac](http://www4.di.uminho.pt/~jcr/AULAS/didac/)
+* [XML](http://www4.di.uminho.pt/~jcr/XML/)
+
 ## Ferramentas
 * [GraphDB](https://www.ontotext.com/company/news/ontotexts-graphdb-8-8-0-enriches-the-knowledge-graph-experience/)
     * [Guide](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html)
 * [Protégé](https://protege.stanford.edu/)
 * [rapper](http://librdf.org/raptor/rapper.html) - info
     * [install](https://www.howtoinstall.co/en/ubuntu/trusty/raptor-utils)
-* [turtle]() - (?)
 
 
 ### Conhecimentos
@@ -27,3 +33,8 @@
 
 ### Links uteis
 * [DBpedia](https://wiki.dbpedia.org/) - Base de Dados de Info
+* Converter XML em RDF
+    * [XSLT](https://www.w3.org/community/rax/wiki/XML_to_RDF_Transformation_processes_using_XSLT)
+        * [Exemplo](https://stackoverflow.com/questions/25959107/convert-xml-file-to-rdf-xml-using-xslt)
+    * [Tripliser](http://daverog.github.io/tripliser/)
+    * [EasyRDF](http://www.easyrdf.org/converter) - Easy mas meh
