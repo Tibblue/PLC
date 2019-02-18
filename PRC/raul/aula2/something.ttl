@@ -1,0 +1,13 @@
+@prefix pub: <http://prc2019di.uminho.pt#>
+
+pub:cisti2017   rdf:type         pub:Inproceedings ;
+                pub:title        "RODA-in ..."
+                pub:temAutor     pub:jcr, pub:ap, pub:nf, pub:lf ;
+                pub:bookTitle   "12th Iberian conf...";
+                pub:address     "ISCTE,Lisboa...";
+                pub:year        "2017";
+                pub:month       "06.24";
+                pub:doi         "http://..." .
+
+pub:jcr         rdf:type        pub:Author;
+                pub:name        "Jose Carlos..."
