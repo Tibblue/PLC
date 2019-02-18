@@ -1,0 +1,25 @@
+@prefix pub: <http://www.di.uminho.pt/~jcr/prc2019#> .
+
+
+
+pub:temAutor rdf:type rdfs:Property;
+    rdfs:domain pub:Pub;
+    rdfs:range pub:Person.
+
+
+
+##########################################
+
+pub:cisti2017 rdf:type pub:Inproceedings;
+    pub:title "RODA-in: A generic tool...";
+    pub:temAutor pub:jcr,pub:ap,pub:mf,pub:lf;
+    pub:booktitle "12th Iberian Conference...";
+    pub:address "ISCTE,Lisboa...";
+    pub:year "2017";
+    pub:month "06.24";
+    pub:doi "http://hdl.handle.net/1822/46093".
+
+
+pub:jcr rdf:type pub:Author;
+    pub:name "José Carlos Ramalho".
+
