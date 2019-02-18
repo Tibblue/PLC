@@ -3,6 +3,11 @@ from collections import Counter
 import re
 import unidecode
 
+# Função que recebe uma string e imprime número de ocorrência das 10 palavras
+# mais frequentes na string
+
+
+# FEITO NA AULA
 def ocorrencias(file):
     text = open(file).read()
     text = clean_text(text)
@@ -13,14 +18,11 @@ def ocorrencias(file):
 def ocorrencias2(file):
     ocur = {}
     for line in open(file).readlines():
-        line = unicode.unicode(line)
-        for word in re.findall(r'\w+', line.lower()):
+        line = unidecode.unidecode(line)
+        for word in re.findall(r'\w+(?:-\w+)*', line.lower()):
             ocur[word] = ocur.get(word, 0)+1
+    return list(reversed(sorted(ocur.items(), key = lambda elem: elem[1])))[0:10]
 
-    text = clean_text(text)
-    words = text.split()
-    ocur = Counter(words).most_common(10)
-    print(ocur)
 
 def clean_text(text):
     text = text.lower()
@@ -31,11 +33,11 @@ def clean_text(text):
     text = re.sub(r"- ", " ", text)
     return
 
-ocorrencias('sda_irmandade.txt')
+# ocorrencias('sda_irmandade.txt') # erro no split
+print(ocorrencias2('sda_irmandade.txt'))
 
-# Função que recebe uma string e imprime número de ocorrência das 10 palavras
-# mais frequentes na string
 
+# BY ME
 def getWords(input):
     texto = input.lower()
     texto = re.sub(r"(\W+)",r" ", texto) #troca todos os NAO palavras por espaço
