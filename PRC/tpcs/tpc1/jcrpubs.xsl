@@ -64,6 +64,7 @@
                 
                 
                 <jcr:title>
+<!--                    <xsl:value-of select="name(.)"/>-->
                     <xsl:value-of select="title"/>
                 </jcr:title>
             </rdfs:Class>
