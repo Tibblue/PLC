@@ -1,0 +1,31 @@
+comandos:
+cat pubs.ttl out.ttl > bdpubs.ttl
+rapper -c -i turtle bdpubs.ttl
+
+SPARQL Query & Update
+
+prefix owl <http://www.w3.org/2002/07/owl#>
+
+// mostrar as classes
+select ?classe where {
+    ?classe a owl:Class .
+}
+
+// mostrar todas a propriedas mas dá com repeticao
+select ?prop where {
+    ?cs ?prop ?o .
+}
+
+// mostrar todas a propriedas sem repeticao
+select distinct ?prop where {
+    ?cs ?prop ?o .
+}
+
+// saber os autores e artigos - resultado aparecer o nome do autor e o titulo do artigo
+
+select ?nAutor ?tpub where {
+    ?pub a :Article.
+    ?pub :hasAuthor ?aut.
+    ?aut :name ?nAutor.
+    ?pub :title ?tpub
+}
