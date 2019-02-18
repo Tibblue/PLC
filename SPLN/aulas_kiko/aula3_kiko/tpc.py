@@ -31,9 +31,11 @@ def clean_text(text):
     # text = re.sub(r"[ú]",r"u",text)
     text = re.sub(r"(\w+)([,.!?])",r"\1",text)
     text = re.sub(r"- ", " ", text)
-    return
+    return text
 
-# ocorrencias('sda_irmandade.txt') # erro no split
+print("OCORRENCIAS")
+ocorrencias('sda_irmandade.txt') # erro no split
+print("OCORRENCIAS 2")
 print(ocorrencias2('sda_irmandade.txt'))
 
 

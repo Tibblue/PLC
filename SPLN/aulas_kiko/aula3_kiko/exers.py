@@ -1,31 +1,34 @@
 #!/usr/bin/python3
 import re
 
-# Define REG. EXP. to match strings that:
+# Define Regular Expression (REG EXP) to match strings that:
+
+teste = "t a T sd - . as"
 
 # 1. Have a 't'
-teste = "t a T sd - . as"
 re.search(r"t",teste)
 
 # 2. have a 't ou 'T'
 re.search(r"t|T",teste)
 re.search(r"[tT]",teste)
-re.search(r"t",teste,re.I) # Perform case-insensitive matching.
+re.search(r"t",teste,re.I) # Case-insensitive matching
 
 # 3. have a letter
 re.search(r"[a-z]",teste)
 re.search(r"(?!=[0-9])\w",teste)
 
+
 # 4. have a digit
 re.search(r"[0-9]",teste)
-
 
 # 5. have a decimal number
 re.search(r"\d+(?:\.\d+)?",teste)
 
+
 # 6. have length >3 chars
 re.search(r".{4,}",teste)
 re.search(r".{....+}",teste)
+
 
 # 7. have an 'M' but not an 'm'
 re.search(r"M" r"^[^m]+$",teste)
