@@ -1,7 +1,6 @@
 import math
 
 dictu =  {
-    0: 'zero',
     1: 'um',
     2: 'dois',
     3: 'três',
@@ -60,35 +59,22 @@ def convert_triple(inteiro):
     # para os casos com 111,153,251 ...
     elif cent > 0:
         string.append(str(dictc.get(cent)) + " e")
-        # para os casos com 11,12,13 ...
-        if resto < 20 and resto >= 10:
-            string.append(dicte.get(resto))
+    # elif resto != 0 and cent != 0:
+    # para os casos com 11,12,13 ...
+    if resto < 20 and resto >= 10:
+        string.append(dicte.get(resto))
+    else:
+        dezena = math.floor(resto/10)
+        unidade = resto % 10
+        # para o caso com 09
+        if dezena == 0 and unidade > 0:
+            string.append(dictu.get(unidade))
+        # para o caso com 20
+        elif dezena > 0 and unidade == 0:
+            string.append(dictd.get(dezena))
+        # para o caso com 29
         else:
-            dezena = math.floor(resto/10)
-            unidade = resto % 10
-            # para o caso com 09
-            if dezena == 0 and unidade > 0:
-                string.append(dictu.get(unidade))
-            # para o caso com 20
-            elif dezena > 0 and unidade == 0:
-                string.append(dictd.get(dezena))
-            # para o caso com 29
-            else:
-                string.append( str(dictd.get(dezena)) + " e " + str(dictu.get(unidade)) )
-
-
-    # # para o restos dos casos 44,55,96 ...
-    # else:
-    #     inteiro = round(resto / 10)
-    #     resto = resto % 10
-    #     if inteiro > 0:
-    #         string.append(dictd.get(inteiro))
-    #     if resto > 0:
-    #         if inteiro > 0:
-    #             string.append("e " + dictu.get(resto))
-    #         else:
-    #             string.append(dictu.get(resto))
-
+            string.append( str(dictd.get(dezena)) + " e " + str(dictu.get(unidade)) )
     return ((' ').join(string))
 
 def converter(numero):
@@ -100,10 +86,15 @@ def converter(numero):
         if i==0:
             numero_str.append(convert_triple(inteiro))
         elif i==1:
-            numero_str.append(convert_triple(inteiro) + " mil e")
+            if inteiro != 0:
+                numero_str.append(convert_triple(inteiro) + " mil e")
         elif i==2:
-            numero_str.append(convert_triple(inteiro) + " milhões")
+            if inteiro > 1:
+                numero_str.append(convert_triple(inteiro) + " milhões")
+            else:
+                numero_str.append(convert_triple(inteiro) + " milhão")
+
     numero_str = ' '.join(numero_str)
     print(numero_str)
 
-converter('457 729')
+converter('1 000 000')
