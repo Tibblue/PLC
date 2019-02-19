@@ -49,9 +49,11 @@ Mostrar todas a propriedas sem repeticao
 
 Saber os autores e artigos - resultado aparecer o nome do autor e o titulo do artigo
 
-    select ?nAutor ?tpub where {
-        ?pub a :Article.
-        ?pub :hasAuthor ?aut.
-        ?aut :name ?nAutor.
-        ?pub :title ?tpub
-    }
+```
+select ?nAutor ?tpub where {
+    ?pub a :Article.
+    ?pub :hasAuthor ?aut.
+    ?aut :name ?nAutor.
+    ?pub :title ?tpub
+}
+```
