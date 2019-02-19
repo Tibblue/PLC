@@ -89,6 +89,15 @@ def convert_triple(inteiro):
                 string.append( str(dictd.get(dezena)) + " e " + str(dictu.get(unidade)) )
     return ((' ').join(string))
 
+def checkElement(inteiro,numero_str):
+    cent = math.floor(inteiro / 100)
+    resto = inteiro % 100
+    if(inteiro < 100 and inteiro > 0 or (cent >=1 and cent <=9 and resto == 0)):
+        numero_str.append("e " + convert_triple(inteiro))
+    else:
+        numero_str.append(convert_triple(inteiro))
+
+
 def converter(numero):
     numero_str = []
     lst = numero.split(' ')
@@ -101,14 +110,14 @@ def converter(numero):
                 numero_str.append('zero')
             # para o restos dos numeros na 1ª casa
             else:
-                numero_str.append(convert_triple(inteiro))
+                checkElement(inteiro,numero_str)
         elif i==1:
             # caso especial de '1 000' em que é apenas mil
             if inteiro == 1:
                 numero_str.append("mil ")
             # para os outros casos
             elif inteiro > 1:
-                numero_str.append(convert_triple(inteiro) + " mil e")
+                numero_str.append(convert_triple(inteiro) + " mil")
             # caso seja tenha '000' não faz nada
         elif i==2:
             # casos normais
@@ -120,14 +129,21 @@ def converter(numero):
         elif i==3:
             numero_str.append(convert_triple(inteiro) + " mil milhões")
 
-    numero_str = ' ; '.join(numero_str)
+    numero_str = ' '.join(numero_str)
     print(numero_str)
 
-# converter('10')
+# pensar neste caso
+# converter('0 000')
+
+#  converter('3 244')
 
 def teste():
+    for i in range(1,100):
+        # s= []
+        # s.append( str(i) + ' ' + '000')
 
-    for i in range(0,1000):
-        converter(str(i))
+        s = ' '.join([str(i),'000'])
+        # print(s)
+        converter(s)
 
-teste()
+# teste()
