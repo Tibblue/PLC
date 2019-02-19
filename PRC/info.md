@@ -1,12 +1,16 @@
 # PRC
 
 ## Metodo de avaliação
+<img height=100p style="float:right" src="http://www.stickpng.com/assets/images/586295ba3796e30ac4468739.png">
+
 * 40% Projeto
 * 30% Teste
 * 20% TPCs
 * 10% JCR (avaliação pessoal)
 
 ## Website do J.C.Ramalho
+<img height=100p style="float:right" src="http://www4.di.uminho.pt/~jcr/images/jcr-keep.jpg">
+
 * [Root](http://www4.di.uminho.pt/~jcr/)
 * [Index Fichas](http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/index-fichas.html)
 * [Aulas](http://www4.di.uminho.pt/~jcr/AULAS)
@@ -38,3 +42,8 @@
     * [XSLT](https://www.w3.org/community/rax/wiki/XML_to_RDF_Transformation_processes_using_XSLT)
         * [Exemplo](https://stackoverflow.com/questions/25959107/convert-xml-file-to-rdf-xml-using-xslt)
     * [EasyRDF](http://www.easyrdf.org/converter) - Easy mas meh
+
+
+#### PICS XD
+![hi](http://www.stickpng.com/assets/images/586295ba3796e30ac4468739.png)
+![hi](https://media3.giphy.com/media/L3nWlmgyqCeU8/giphy.gif)
