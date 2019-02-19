@@ -25,13 +25,14 @@ dictd = {
 }
 
 dicte = {
+    10: 'dez',
     11: 'onze',
     12: 'doze',
     13: 'treze',
     14: 'quatorze',
     15: 'quinze',
-    16: 'dezesseis',
-    17: 'dezessete',
+    16: 'dezasseis',
+    17: 'dezassete',
     18: 'dezoito',
     19: 'dezenove',
 }
@@ -48,7 +49,10 @@ dictc =  {
     9: 'novecentos',
 }
 
-
+# cent -> representa a casa das centenas do triplo
+# resto -> resto da divisão do triplo
+# dezena -> representa a casa das dezenas do triplo
+# unidade -> representa a casa das unidades do triplo
 def convert_triple(inteiro):
     string = []
     resto = inteiro % 100
@@ -60,12 +64,15 @@ def convert_triple(inteiro):
         else:
             string.append(dictc.get(cent))
     # para os casos com 111,153,251 ...
-    elif cent > 0:
-        string.append(str(dictc.get(cent)) + " e")
+    # elif cent > 0:
+    #     string.append(str(dictc.get(cent)) + " e")
     elif resto == 0 and cent == 0:
         pass
     else:
-        # para os casos com 11,12,13 ...
+        # para escrever o trezentos em '342' caso seja apenas '42' não faz
+        if cent > 0:
+            string.append(str(dictc.get(cent)) + " e")
+        # para os casos especiais com 11,12,13 ...
         if resto < 20 and resto >= 10:
             string.append(dicte.get(resto))
         else:
@@ -110,8 +117,17 @@ def converter(numero):
             # caso especial de '1 000 000' em que é apenas 'um milhão'
             elif inteiro==1:
                 numero_str.append(convert_triple(inteiro) + " milhão")
+        elif i==3:
+            numero_str.append(convert_triple(inteiro) + " mil milhões")
 
-    numero_str = ' '.join(numero_str)
+    numero_str = ' ; '.join(numero_str)
     print(numero_str)
 
-converter('1 000 000')
+# converter('10')
+
+def teste():
+
+    for i in range(0,1000):
+        converter(str(i))
+
+teste()
