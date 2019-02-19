@@ -27,7 +27,8 @@
 * [RDF Schema](https://en.wikipedia.org/wiki/RDF_Schema)
 * [OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language)
 * Query language
-    * [SPARKL](https://en.wikipedia.org/wiki/SPARQL)
+    * [SPARQL](https://en.wikipedia.org/wiki/SPARQL)
+        * [Exemplos Práticos](https://www.w3.org/2009/Talks/0615-qbe/)
     * [SevQL]()
     * [Cypher](https://en.wikipedia.org/wiki/Cypher_Query_Language)
 
@@ -36,5 +37,4 @@
 * Converter XML em RDF
     * [XSLT](https://www.w3.org/community/rax/wiki/XML_to_RDF_Transformation_processes_using_XSLT)
         * [Exemplo](https://stackoverflow.com/questions/25959107/convert-xml-file-to-rdf-xml-using-xslt)
-    * [Tripliser](http://daverog.github.io/tripliser/)
     * [EasyRDF](http://www.easyrdf.org/converter) - Easy mas meh
