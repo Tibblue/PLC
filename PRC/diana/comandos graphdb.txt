@@ -1,0 +1,32 @@
+graphdb -> setup ->repositorys -> create new -> pubsjcr
+seleciona o repo no canto superior direito 
+
+importar a base de dados:
+- import -> rdf -> upload from rdf files (bdpubds.ttl) -> import
+
+
+Explore -> graphs overview -> default graph
+
+visual graph -> damos um id (source?) e pomos no easy graph
+
+sparql:
+	select * where {
+		?s ?p ?o .
+	} limit 100
+
+	select ?classe where {
+		?classe a owl:Classe .
+	}
+
+	select distinct ?prop where {
+		?s ?prop ?o
+	}
+
+	select ?nautor ?tpub where {
+		?pub a :Article.
+		?pub :hasAuthor ?aut.
+		?aut :name ?nautor.
+		?pub :title ?tpub.
+	}
+
+run -> resultados aparecem em baixo
