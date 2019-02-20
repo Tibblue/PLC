@@ -1,0 +1,6 @@
+
+comandos usados para testar o resultado do tpc1
+
+cat pubs.ttl out.ttl > bdpubs.ttl
+
+rapper -c -i turtle bdpubs.ttl
