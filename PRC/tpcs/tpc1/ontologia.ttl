@@ -42,12 +42,33 @@
 :booktitle rdf:type owl:DatatypeProperty .
 
 
+###  http://prc.di.uminho.pt/2019/pubs#chapter
+:chapter rdf:type owl:DatatypeProperty .
+
+
 ###  http://prc.di.uminho.pt/2019/pubs#doi
 :doi rdf:type owl:DatatypeProperty .
 
 
+###  http://prc.di.uminho.pt/2019/pubs#howpublished
+:howpublished rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#isbn
+:isbn rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#issn
+:issn rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#journal
+:journal rdf:type owl:DatatypeProperty .
+
+
 ###  http://prc.di.uminho.pt/2019/pubs#month
-:month rdf:type owl:DatatypeProperty .
+:month rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Pub .
 
 
 ###  http://prc.di.uminho.pt/2019/pubs#name
@@ -56,13 +77,34 @@
       rdfs:range xsd:string .
 
 
+###  http://prc.di.uminho.pt/2019/pubs#pages
+:pages rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#publisher
+:publisher rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#school
+:school rdf:type owl:DatatypeProperty .
+
+
 ###  http://prc.di.uminho.pt/2019/pubs#title
 :title rdf:type owl:DatatypeProperty ;
        rdfs:domain :Pub .
 
 
+###  http://prc.di.uminho.pt/2019/pubs#uri
+:uri rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#volume
+:volume rdf:type owl:DatatypeProperty .
+
+
 ###  http://prc.di.uminho.pt/2019/pubs#year
-:year rdf:type owl:DatatypeProperty .
+:year rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Pub .
 
 
 #################################################################
