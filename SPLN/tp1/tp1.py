@@ -64,8 +64,6 @@ def convert_triple(inteiro):
         else:
             string.append(dictc.get(cent))
     # para os casos com 111,153,251 ...
-    # elif cent > 0:
-    #     string.append(str(dictc.get(cent)) + " e")
     elif resto == 0 and cent == 0:
         pass
     else:
@@ -89,6 +87,9 @@ def convert_triple(inteiro):
                 string.append( str(dictd.get(dezena)) + " e " + str(dictu.get(unidade)) )
     return ((' ').join(string))
 
+# trata da situação quando entre os triplos contém um 'e' ou não
+# ex: 1 001 -> mil e um (tem um 'e' entre os triplos)
+# ex: 1 123 -> mil cento e vinte e três (não tem 'e' entre os triplos)
 def checkElement(inteiro,numero_str):
     cent = math.floor(inteiro / 100)
     resto = inteiro % 100
@@ -114,7 +115,7 @@ def converter(numero):
         elif i==1:
             # caso especial de '1 000' em que é apenas mil
             if inteiro == 1:
-                numero_str.append("mil ")
+                numero_str.append("mil")
             # para os outros casos
             elif inteiro > 1:
                 numero_str.append(convert_triple(inteiro) + " mil")
@@ -129,19 +130,21 @@ def converter(numero):
         elif i==3:
             numero_str.append(convert_triple(inteiro) + " mil milhões")
 
-    numero_str = ' '.join(numero_str)
+    numero_str = ' '.join(numero_str).capitalize()
+
+    print(numero)
     print(numero_str)
 
 # pensar neste caso
-# converter('0 000')
+# converter('000')
 
-#  converter('3 244')
+converter('3 244')
+converter('123 001 123')
 
 def teste():
     for i in range(1,100):
         # s= []
         # s.append( str(i) + ' ' + '000')
-
         s = ' '.join([str(i),'000'])
         # print(s)
         converter(s)
