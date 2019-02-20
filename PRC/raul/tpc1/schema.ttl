@@ -1,0 +1,196 @@
+@prefix : <http://prc.di.uminho.pt/2019/pubs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://prc.di.uminho.pt/2019/pubs> .
+
+<http://prc.di.uminho.pt/2019/pubs> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/pubs#hasAutor
+:hasAutor rdf:type owl:ObjectProperty ;
+          owl:inverseOf :hasPub ;
+          rdfs:domain :Pub ;
+          rdfs:range :Author .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#hasEditor
+:hasEditor rdf:type owl:ObjectProperty ;
+           owl:inverseOf :hasPub ;
+           rdfs:domain :Pub ;
+           rdfs:range :Editor .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#hasPub
+:hasPub rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/pubs#address
+:address rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#booktitle
+:booktitle rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#chapter
+:chapter rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#doi
+:doi rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#howpublished
+:howpublished rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#isbn
+:isbn rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#issn
+:issn rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#journal
+:journal rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#month
+:month rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Person ;
+      rdfs:range xsd:string .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#pages
+:pages rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#publisher
+:publisher rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#school
+:school rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#uri
+:uri rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#volume
+:volume rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#year
+:year rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/pubs#Article
+:Article rdf:type owl:Class ;
+         rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Author
+:Author rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Book
+:Book rdf:type owl:Class ;
+      rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Editor
+:Editor rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Inbook
+:Inbook rdf:type owl:Class ;
+        rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Inproceedings
+:Inproceedings rdf:type owl:Class ;
+               rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#MasterThesis
+:MasterThesis rdf:type owl:Class ;
+              rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Misc
+:Misc rdf:type owl:Class ;
+      rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Person
+:Person rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#PhdThesis
+:PhdThesis rdf:type owl:Class ;
+           rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Procedings
+:Procedings rdf:type owl:Class ;
+            rdfs:subClassOf :Pub .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#Pub
+:Pub rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/pubs#cisti2017
+:cisti2017 rdf:type owl:NamedIndividual ,
+                    :Inproceedings ;
+           :hasAutor :jcr ,
+                     :mf ;
+           :address "ISCTE, Lisboa ..." ;
+           :title "RODA-in: ...." .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#jcr
+:jcr rdf:type owl:NamedIndividual ,
+              :Person ;
+     :name "Jose Carlos Ramalho" .
+
+
+###  http://prc.di.uminho.pt/2019/pubs#mf
+:mf rdf:type owl:NamedIndividual ,
+             :Person ;
+    :hasAutor :jcr ;
+    :name "Miguel Fernandes" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

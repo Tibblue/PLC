@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bibliography xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bibtex.xsd">
-	
+<bibliography xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
 	<inbook id="IGI2013">
 		<author-ref authorid="rf"/>
 		<author-ref authorid="jcr"/>
 		<editor-ref authorid="jcr"/>
-		<editor-ref authorid="albie"/>	
+		<editor-ref authorid="albie"/>
 		<editor id="rq">Ricardo Queirós</editor>
 		<title>Innovations in XML Applications and Metadata Management: Advancing Technologies</title>
 		<chapter>New Dimension in Relational Database Preservation: Using Ontologies</chapter>
@@ -15,7 +15,7 @@
 		<month>06</month>
 		<doi>10.4018/978-1-4666-2669-0.ch009</doi>
 	</inbook>
-	
+
 	<inproceedings id="archiving2013">
 		<title>	Guidelines for legacy repository migration</title>
 		<author-ref authorid="mf"/>
@@ -27,7 +27,7 @@
 		<month>04.02-05</month>
 		<doi>http://hdl.handle.net/1822/23978</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="guimaramus2012">
 		<title>	MuseCode: à procura da linearidade na música tonal</title>
 		<author-ref authorid="jcr"/>
@@ -37,7 +37,7 @@
 		<month>03.23</month>
 		<doi>http://hdl.handle.net/1822/21660</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="bad2012">
 		<title>Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE</title>
 		<author-ref authorid="jcr"/>
@@ -49,7 +49,7 @@
 		<month>10.20</month>
 		<doi>http://hdl.handle.net/1822/21611</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="icadl2012">
 		<title>Design and architecture of a novel preservation watch system</title>
 		<author-ref authorid="lf"/>
@@ -64,7 +64,7 @@
 		<month>11.12</month>
 		<doi>http://hdl.handle.net/1822/21447</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="ipres2012">
 		<title>Preservation watch : what to monitor and how</title>
 		<author id="cb">Christoph Becker</author>
@@ -79,7 +79,7 @@
 		<month>11.01</month>
 		<doi>http://hdl.handle.net/1822/20666</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FR11e">
 		<title>New dimension in relational database preservation: raising the abstraction level</title>
 		<author-ref authorid="rf"/>
@@ -90,7 +90,7 @@
 		<year>2011</year>
 		<doi>http://hdl.handle.net/1822/15859</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FR11d">
 		<title>Relational Databases Conceptual Preservation</title>
 		<author-ref authorid="rf"/>
@@ -101,7 +101,7 @@
 		<year>2011</year>
 		<doi>http://hdl.handle.net/1822/16019</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FR11c">
 		<title>Using Ontologies to Abstract Relational Databases Conceptual Model</title>
 		<author-ref authorid="rf"/>
@@ -112,7 +112,7 @@
 		<year>2011</year>
 		<doi>http://hdl.handle.net/1822/16113</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FR11b">
 		<title>Preservation of Relational Databases</title>
 		<author-ref authorid="rf"/>
@@ -123,7 +123,7 @@
 		<year>2011</year>
 		<doi>http://hdl.handle.net/1822/13704</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FR11">
 		<title>Using Ontologies in Database Preservation</title>
 		<author-ref authorid="rf"/>
@@ -134,7 +134,7 @@
 		<year>2011</year>
 		<doi>http://hdl.handle.net/1822/13703</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FR10">
 		<title>Significant Properties in the Preservation of Relational Databases</title>
 		<author-ref authorid="rf"/>
@@ -144,9 +144,9 @@
 		<month>09.06</month>
 		<year>2010</year>
 		<isbn>978-3-642-15463-8</isbn>
-		<doi>http://hdl.handle.net/1822/13702</doi>		
+		<doi>http://hdl.handle.net/1822/13702</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="RQR10">
 		<title>Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa</title>
 		<author id="mjc">Maria Jesus Colmenero Ruiz</author>
@@ -159,7 +159,7 @@
 		<isbn>978-972-9067-39-6</isbn>
 		<doi>http://hdl.handle.net/1822/11081</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FFR10">
 		<title>DigitArq e o novo módulo de interoperabilidade OAI-PMH</title>
 		<author-ref authorid="mf"/>
@@ -171,7 +171,7 @@
 		<year>2010</year>
 		<doi>http://hdl.handle.net/1822/10532</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="FR09">
 		<author id="rf">Ricardo Freitas</author>
 		<author-ref authorid="jcr"/>
@@ -183,7 +183,7 @@
 		<isbn>978-972-9348-18-1</isbn>
 		<doi>http://hdl.handle.net/1822/9740</doi>
 	</inproceedings>
-	
+
 	<article id="GARH09">
 		<title>Topic maps constraint languages : understanding and comparing</title>
 		<author-ref authorid="grl"/>
@@ -198,7 +198,7 @@
 			http://hdl.handle.net/1822/9741
 		</doi>
 	</article>
-	
+
 	<inproceedings id="LRHGT08">
 		<author-ref authorid="grl"/>
 		<author-ref authorid="jcr"/>
@@ -212,7 +212,7 @@
 		<address>Lisboa, Portugal</address>
 		<doi>http://hdl.handle.net/1822/8236</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="BKRFBR08">
 		<author-ref authorid="cb"/>
 		<author id="mk">Michael Kraxner</author>
@@ -227,7 +227,7 @@
 		<address>Aarhus, Danmark</address>
 		<doi>http://hdl.handle.net/1822/8239</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="RFFCBC08">
 		<author-ref authorid="jcr"/>
 		<author-ref authorid="mf"/>
@@ -242,7 +242,7 @@
 		<address>London, England</address>
 		<doi>http://hdl.handle.net/1822/8226</doi>
 	</inproceedings>
-	
+
 	<proceedings id="RLA08">
 		<title>XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas</title>
 		<year>2008</year>
@@ -254,7 +254,7 @@
 		<doi>http://hdl.handle.net/1822/7708</doi>
 		<isbn>978-972-99166-5-6</isbn>
 	</proceedings>
-	
+
 	<inproceedings id="LMMVRH08-XATA">
 		<author-ref authorid="grl"/>
 		<author id="mm">Mirkos Martins</author>
@@ -268,7 +268,7 @@
 		<address>Évora - Portugal</address>
 		<month>02.14</month>
 	</inproceedings>
-	
+
 	<inproceedings id="FRF-XATA">
 		<author id="lmf">Luis Miguel Ferros</author>
 		<author-ref authorid="jcr"/>
@@ -280,7 +280,7 @@
 		<month>02.14</month>
 		<doi>http://hdl.handle.net/1822/7821</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="LGRH07-CLEI">
 		<author-ref authorid="grl"/>
 		<author id="jg">Jonas Gassen</author>
@@ -292,7 +292,7 @@
 		<address>San José - Costa Rica</address>
 		<doi>http://hdl.handle.net/1822/7354</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="LATRH07-CLEI">
 		<author-ref authorid="grl"/>
 		<author-ref authorid="rpa"/>
@@ -305,7 +305,7 @@
 		<address>San José - Costa Rica</address>
 		<doi>http://hdl.handle.net/1822/7364</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="LARH07-EPIA">
 		<author-ref authorid="grl"/>
 		<author-ref authorid="rpa"/>
@@ -317,7 +317,7 @@
 		<address>Guimarães - Portugal</address>
 		<doi>http://hdl.handle.net/1822/7368</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="LMMFRH07-TMRA">
 		<author-ref authorid="grl"/>
 		<author id="htm">H. T. Machado</author>
@@ -331,7 +331,7 @@
 		<address>Leipzig - Germany</address>
 		<doi>http://hdl.handle.net/1822/7399</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="LRH06-SBSI06">
 		<author-ref authorid="grl"/>
 		<author-ref authorid="jcr"/>
@@ -342,7 +342,7 @@
 		<address>Curitiba, Paraná - Brasil</address>
 		<doi>http://hdl.handle.net/1822/7359</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="LRH07-SEMINFO">
 		<author-ref authorid="grl"/>
 		<author-ref authorid="jcr"/>
@@ -352,7 +352,7 @@
 		<year>2007</year>
 		<address>Torres, RS - Brasil</address>
 	</inproceedings>
-	
+
 <inproceedings id="RFFC07-EML">
 	<author-ref authorid="jcr"/>
 	<author-ref authorid="mf"/>
@@ -365,7 +365,7 @@
 	<month>08</month>
 	<doi>http://hdl.handle.net/1822/7120</doi>
 </inproceedings>
-	
+
 <inproceedings id="RLH07-EML">
 	<author-ref authorid="grl"/>
 	<author-ref authorid="rpa"/>
@@ -378,7 +378,7 @@
 		<month>08</month>
 	<doi>http://hdl.handle.net/1822/7330</doi>
 </inproceedings>
-	
+
 <inproceedings id="LPRH07-XATA">
 		<author-ref authorid="grl"/>
 		<author id="rpa">Renato Preigschadt de Azevedo</author>
@@ -391,7 +391,7 @@
 		<month>02.14</month>
 		<doi>http://hdl.handle.net/1822/6482</doi>
 </inproceedings>
-	
+
 <inproceedings id="LPRH07-TM">
 		<author-ref authorid="grl"/>
 		<author-ref authorid="rpa"/>
@@ -404,7 +404,7 @@
 		<month>03.21</month>
 	<doi>http://hdl.handle.net/1822/6474</doi>
 </inproceedings>
-	
+
 	<article id="FBR07-IJDL">
 		<title>An intelligent decision support system for digital preservation</title>
 		<author-ref authorid="mf"/>
@@ -419,7 +419,7 @@
 			http://hdl.handle.net/1822/6648
 		</doi>
 	</article>
-	
+
 	<misc id="RFCFBC06">
 		<author-ref authorid="jcr"/>
 		<author-ref authorid="mf"/>
@@ -433,7 +433,7 @@
 		<year>2006</year>
 		<doi>http://hdl.handle.net/1822/6420</doi>
 	</misc>
-	
+
 	<inproceedings id="FCRBCF07">
 		<title>RODA : Repositório de Objectos Digitais Autênticos</title>
 		<author-ref authorid="mf"/>
@@ -498,7 +498,7 @@
 		<year>2007</year>
 		<doi>http://hdl.handle.net/1822/6195</doi>
 	</misc>
-	
+
 	<proceedings id="RLS06">
 		<title>XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas</title>
 		<year>2006</year>
@@ -1064,7 +1064,7 @@
 	<inproceedings id="RTFR04">
 		<author-ref authorid="jcr"/>
 		<author id="pt">Pedro Taveira</author>
-		<author-ref authorid="rf"/>		
+		<author-ref authorid="rf"/>
 		<author id="vr">Vasco Rocha</author>
 		<title>Gerador de Web Services para cadeias de transformações de documentos XML</title>
 		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2004)</booktitle>
@@ -1315,7 +1315,7 @@ Informática (CLEI2004)</booktitle>
 			<ppt url="http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2005/RLH05-EML-slides.pdf"/>
 		</deliverables>
 	</inproceedings>
-	
+
 	<inbook id="RLH06">
 		<author-ref authorid="jcr"></author-ref>
 		<author-ref authorid="grl"/>
@@ -1332,7 +1332,7 @@ Informática (CLEI2004)</booktitle>
 		<isbn>3-540-32527-1</isbn>
 		<doi>10.1007/11676904_2</doi>
 	</inbook>
-	
+
 	<inproceedings id="RLH05b">
 		<author-ref authorid="jcr"/>
 		<author-ref authorid="grl"/>
@@ -1389,7 +1389,7 @@ Metamorphosis</title>
 			<pdf url="http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2005/LRH05-CLEI.pdf"/>
 		</deliverables>
 	</inproceedings>
-	
+
 	<inproceedings id="FBR06-XATA">
 		<author-ref authorid="mf"/>
 		<author-ref authorid="aab"/>
@@ -1402,7 +1402,7 @@ Metamorphosis</title>
 		<isbn>972-99166-2-4</isbn>
 		<doi>http://hdl.handle.net/1822/4457</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="RD06-XATA">
 		<author-ref authorid="jcr"/>
 		<author id="migaldo">Luis Miguel Alves Domingues</author>
@@ -1414,7 +1414,7 @@ Metamorphosis</title>
 		<isbn>972-99166-2-4</isbn>
 		<doi>http://hdl.handle.net/1822/4576</doi>
 	</inproceedings>
-	
+
 	<inproceedings id="LRH06-XATA">
 		<author-ref authorid="grl"/>
 		<author-ref authorid="jcr"/>
