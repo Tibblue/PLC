@@ -1,9 +1,9 @@
 # Comandos
 
-Concatenar o ficheiro com o schema (`pubs.ttl`) com o ficheiro de conhecimento (`out.ttl`), enviando o resultado para `bdpubs.ttl`
+Concatenar o ficheiro com o schema (`ontologia2.ttl`) com o ficheiro de conhecimento (`dataset.ttl`), enviando o resultado para `out.ttl`
 
-    $cat pubs.ttl out.ttl > bdpubs.ttl
-    $rapper -c -i turtle bdpubs.ttl
+    $cat ontologia2.ttl dataset.ttl > out.ttl
+    $rapper -c -i turtle out.ttl
 
 
 # SPARQL Query & Update
