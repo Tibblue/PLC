@@ -11,7 +11,8 @@
         <xsl:apply-templates select="/*/*/*/element"/>
     </xsl:template>
 
-    <xsl:template match="root/*">
+<!-- Primeira travessia - geral -->
+    <xsl:template match="root/element">
         <xsl:variable name="idNobel">
             <xsl:value-of select="category"/><xsl:value-of select="year"/>
         </xsl:variable>
@@ -24,6 +25,7 @@
     </xsl:for-each>
     </xsl:template>
 
+<!-- Segunda travessia - gerar Laureates -->
     <xsl:template match="element">
 :l<xsl:value-of select="id"/> rdf:type owl:NameIndividual , :Laureates;
     :firstname "<xsl:value-of select="firstname"/>" ;
@@ -32,6 +34,6 @@
     :id "<xsl:value-of select="id"/>" ;
     :share "<xsl:value-of select="share"/>" .
     </xsl:template>
-
+    
 
 </xsl:stylesheet>
