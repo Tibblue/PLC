@@ -1,0 +1,5655 @@
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2018
+:physics2018 rdf:type owl:NamedIndividual , :Nobel ;
+    :overallMotivation "“for groundbreaking inventions in the field of laser physics”" ;
+    :category "physics" ;
+    :year 2018 .
+
+    :physics2018 :hasLaureate :960 .
+    :physics2018 :hasLaureate :961 .
+    :physics2018 :hasLaureate :962 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2018
+:chemistry2018 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2018 .
+
+    :chemistry2018 :hasLaureate :963 .
+    :chemistry2018 :hasLaureate :964 .
+    :chemistry2018 :hasLaureate :965 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2018
+:medicine2018 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2018 .
+
+    :medicine2018 :hasLaureate :958 .
+    :medicine2018 :hasLaureate :959 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2018
+:peace2018 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2018 .
+
+    :peace2018 :hasLaureate :966 .
+    :peace2018 :hasLaureate :967 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2018
+:economics2018 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2018 .
+
+    :economics2018 :hasLaureate :968 .
+    :economics2018 :hasLaureate :969 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2017
+:physics2017 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2017 .
+
+    :physics2017 :hasLaureate :941 .
+    :physics2017 :hasLaureate :942 .
+    :physics2017 :hasLaureate :943 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2017
+:chemistry2017 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2017 .
+
+    :chemistry2017 :hasLaureate :944 .
+    :chemistry2017 :hasLaureate :945 .
+    :chemistry2017 :hasLaureate :946 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2017
+:medicine2017 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2017 .
+
+    :medicine2017 :hasLaureate :938 .
+    :medicine2017 :hasLaureate :939 .
+    :medicine2017 :hasLaureate :940 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2017
+:literature2017 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2017 .
+
+    :literature2017 :hasLaureate :947 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2017
+:peace2017 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2017 .
+
+    :peace2017 :hasLaureate :948 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2017
+:economics2017 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2017 .
+
+    :economics2017 :hasLaureate :949 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2016
+:physics2016 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2016 .
+
+    :physics2016 :hasLaureate :928 .
+    :physics2016 :hasLaureate :929 .
+    :physics2016 :hasLaureate :930 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2016
+:chemistry2016 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2016 .
+
+    :chemistry2016 :hasLaureate :931 .
+    :chemistry2016 :hasLaureate :932 .
+    :chemistry2016 :hasLaureate :933 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2016
+:medicine2016 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2016 .
+
+    :medicine2016 :hasLaureate :927 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2016
+:literature2016 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2016 .
+
+    :literature2016 :hasLaureate :937 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2016
+:peace2016 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2016 .
+
+    :peace2016 :hasLaureate :934 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2016
+:economics2016 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2016 .
+
+    :economics2016 :hasLaureate :935 .
+    :economics2016 :hasLaureate :936 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2015
+:physics2015 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2015 .
+
+    :physics2015 :hasLaureate :919 .
+    :physics2015 :hasLaureate :920 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2015
+:chemistry2015 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2015 .
+
+    :chemistry2015 :hasLaureate :921 .
+    :chemistry2015 :hasLaureate :922 .
+    :chemistry2015 :hasLaureate :923 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2015
+:medicine2015 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2015 .
+
+    :medicine2015 :hasLaureate :916 .
+    :medicine2015 :hasLaureate :917 .
+    :medicine2015 :hasLaureate :918 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2015
+:literature2015 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2015 .
+
+    :literature2015 :hasLaureate :924 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2015
+:peace2015 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2015 .
+
+    :peace2015 :hasLaureate :925 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2015
+:economics2015 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2015 .
+
+    :economics2015 :hasLaureate :926 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2014
+:physics2014 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2014 .
+
+    :physics2014 :hasLaureate :906 .
+    :physics2014 :hasLaureate :907 .
+    :physics2014 :hasLaureate :908 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2014
+:chemistry2014 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2014 .
+
+    :chemistry2014 :hasLaureate :909 .
+    :chemistry2014 :hasLaureate :910 .
+    :chemistry2014 :hasLaureate :911 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2014
+:medicine2014 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2014 .
+
+    :medicine2014 :hasLaureate :903 .
+    :medicine2014 :hasLaureate :904 .
+    :medicine2014 :hasLaureate :905 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2014
+:literature2014 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2014 .
+
+    :literature2014 :hasLaureate :912 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2014
+:peace2014 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2014 .
+
+    :peace2014 :hasLaureate :913 .
+    :peace2014 :hasLaureate :914 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2014
+:economics2014 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2014 .
+
+    :economics2014 :hasLaureate :915 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2013
+:physics2013 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2013 .
+
+    :physics2013 :hasLaureate :887 .
+    :physics2013 :hasLaureate :888 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2013
+:chemistry2013 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2013 .
+
+    :chemistry2013 :hasLaureate :889 .
+    :chemistry2013 :hasLaureate :890 .
+    :chemistry2013 :hasLaureate :891 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2013
+:medicine2013 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2013 .
+
+    :medicine2013 :hasLaureate :884 .
+    :medicine2013 :hasLaureate :885 .
+    :medicine2013 :hasLaureate :886 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2013
+:literature2013 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2013 .
+
+    :literature2013 :hasLaureate :892 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2013
+:peace2013 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2013 .
+
+    :peace2013 :hasLaureate :893 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2013
+:economics2013 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2013 .
+
+    :economics2013 :hasLaureate :894 .
+    :economics2013 :hasLaureate :895 .
+    :economics2013 :hasLaureate :896 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2012
+:physics2012 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2012 .
+
+    :physics2012 :hasLaureate :876 .
+    :physics2012 :hasLaureate :877 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2012
+:chemistry2012 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2012 .
+
+    :chemistry2012 :hasLaureate :878 .
+    :chemistry2012 :hasLaureate :879 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2012
+:medicine2012 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2012 .
+
+    :medicine2012 :hasLaureate :874 .
+    :medicine2012 :hasLaureate :875 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2012
+:literature2012 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2012 .
+
+    :literature2012 :hasLaureate :880 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2012
+:peace2012 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2012 .
+
+    :peace2012 :hasLaureate :881 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2012
+:economics2012 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2012 .
+
+    :economics2012 :hasLaureate :882 .
+    :economics2012 :hasLaureate :883 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2011
+:physics2011 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2011 .
+
+    :physics2011 :hasLaureate :864 .
+    :physics2011 :hasLaureate :865 .
+    :physics2011 :hasLaureate :866 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2011
+:chemistry2011 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2011 .
+
+    :chemistry2011 :hasLaureate :867 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2011
+:medicine2011 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2011 .
+
+    :medicine2011 :hasLaureate :861 .
+    :medicine2011 :hasLaureate :862 .
+    :medicine2011 :hasLaureate :863 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2011
+:literature2011 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2011 .
+
+    :literature2011 :hasLaureate :868 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2011
+:peace2011 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2011 .
+
+    :peace2011 :hasLaureate :869 .
+    :peace2011 :hasLaureate :870 .
+    :peace2011 :hasLaureate :871 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2011
+:economics2011 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2011 .
+
+    :economics2011 :hasLaureate :872 .
+    :economics2011 :hasLaureate :873 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2010
+:physics2010 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2010 .
+
+    :physics2010 :hasLaureate :849 .
+    :physics2010 :hasLaureate :850 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2010
+:chemistry2010 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2010 .
+
+    :chemistry2010 :hasLaureate :851 .
+    :chemistry2010 :hasLaureate :852 .
+    :chemistry2010 :hasLaureate :853 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2010
+:medicine2010 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2010 .
+
+    :medicine2010 :hasLaureate :848 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2010
+:literature2010 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2010 .
+
+    :literature2010 :hasLaureate :854 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2010
+:peace2010 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2010 .
+
+    :peace2010 :hasLaureate :855 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2010
+:economics2010 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2010 .
+
+    :economics2010 :hasLaureate :856 .
+    :economics2010 :hasLaureate :857 .
+    :economics2010 :hasLaureate :858 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2009
+:physics2009 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2009 .
+
+    :physics2009 :hasLaureate :838 .
+    :physics2009 :hasLaureate :839 .
+    :physics2009 :hasLaureate :840 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2009
+:chemistry2009 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2009 .
+
+    :chemistry2009 :hasLaureate :841 .
+    :chemistry2009 :hasLaureate :842 .
+    :chemistry2009 :hasLaureate :843 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2009
+:medicine2009 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2009 .
+
+    :medicine2009 :hasLaureate :835 .
+    :medicine2009 :hasLaureate :836 .
+    :medicine2009 :hasLaureate :837 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2009
+:literature2009 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2009 .
+
+    :literature2009 :hasLaureate :844 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2009
+:peace2009 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2009 .
+
+    :peace2009 :hasLaureate :845 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2009
+:economics2009 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2009 .
+
+    :economics2009 :hasLaureate :846 .
+    :economics2009 :hasLaureate :847 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2008
+:physics2008 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2008 .
+
+    :physics2008 :hasLaureate :826 .
+    :physics2008 :hasLaureate :827 .
+    :physics2008 :hasLaureate :828 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2008
+:chemistry2008 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2008 .
+
+    :chemistry2008 :hasLaureate :829 .
+    :chemistry2008 :hasLaureate :830 .
+    :chemistry2008 :hasLaureate :831 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2008
+:medicine2008 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2008 .
+
+    :medicine2008 :hasLaureate :823 .
+    :medicine2008 :hasLaureate :824 .
+    :medicine2008 :hasLaureate :825 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2008
+:literature2008 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2008 .
+
+    :literature2008 :hasLaureate :832 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2008
+:peace2008 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2008 .
+
+    :peace2008 :hasLaureate :833 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2008
+:economics2008 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2008 .
+
+    :economics2008 :hasLaureate :834 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2007
+:physics2007 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2007 .
+
+    :physics2007 :hasLaureate :814 .
+    :physics2007 :hasLaureate :815 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2007
+:chemistry2007 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2007 .
+
+    :chemistry2007 :hasLaureate :816 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2007
+:medicine2007 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2007 .
+
+    :medicine2007 :hasLaureate :811 .
+    :medicine2007 :hasLaureate :812 .
+    :medicine2007 :hasLaureate :813 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2007
+:literature2007 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2007 .
+
+    :literature2007 :hasLaureate :817 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2007
+:peace2007 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2007 .
+
+    :peace2007 :hasLaureate :818 .
+    :peace2007 :hasLaureate :819 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2007
+:economics2007 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2007 .
+
+    :economics2007 :hasLaureate :820 .
+    :economics2007 :hasLaureate :821 .
+    :economics2007 :hasLaureate :822 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2006
+:physics2006 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2006 .
+
+    :physics2006 :hasLaureate :804 .
+    :physics2006 :hasLaureate :805 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2006
+:chemistry2006 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2006 .
+
+    :chemistry2006 :hasLaureate :806 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2006
+:medicine2006 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2006 .
+
+    :medicine2006 :hasLaureate :802 .
+    :medicine2006 :hasLaureate :803 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2006
+:literature2006 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2006 .
+
+    :literature2006 :hasLaureate :808 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2006
+:peace2006 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2006 .
+
+    :peace2006 :hasLaureate :809 .
+    :peace2006 :hasLaureate :810 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2006
+:economics2006 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2006 .
+
+    :economics2006 :hasLaureate :807 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2005
+:physics2005 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2005 .
+
+    :physics2005 :hasLaureate :791 .
+    :physics2005 :hasLaureate :792 .
+    :physics2005 :hasLaureate :793 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2005
+:chemistry2005 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2005 .
+
+    :chemistry2005 :hasLaureate :794 .
+    :chemistry2005 :hasLaureate :795 .
+    :chemistry2005 :hasLaureate :796 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2005
+:medicine2005 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2005 .
+
+    :medicine2005 :hasLaureate :789 .
+    :medicine2005 :hasLaureate :790 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2005
+:literature2005 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2005 .
+
+    :literature2005 :hasLaureate :801 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2005
+:peace2005 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2005 .
+
+    :peace2005 :hasLaureate :797 .
+    :peace2005 :hasLaureate :798 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2005
+:economics2005 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2005 .
+
+    :economics2005 :hasLaureate :799 .
+    :economics2005 :hasLaureate :800 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2004
+:physics2004 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2004 .
+
+    :physics2004 :hasLaureate :776 .
+    :physics2004 :hasLaureate :777 .
+    :physics2004 :hasLaureate :778 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2004
+:chemistry2004 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2004 .
+
+    :chemistry2004 :hasLaureate :779 .
+    :chemistry2004 :hasLaureate :780 .
+    :chemistry2004 :hasLaureate :781 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2004
+:medicine2004 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2004 .
+
+    :medicine2004 :hasLaureate :774 .
+    :medicine2004 :hasLaureate :775 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2004
+:literature2004 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2004 .
+
+    :literature2004 :hasLaureate :782 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2004
+:peace2004 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2004 .
+
+    :peace2004 :hasLaureate :783 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2004
+:economics2004 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2004 .
+
+    :economics2004 :hasLaureate :786 .
+    :economics2004 :hasLaureate :787 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2003
+:physics2003 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2003 .
+
+    :physics2003 :hasLaureate :766 .
+    :physics2003 :hasLaureate :767 .
+    :physics2003 :hasLaureate :768 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2003
+:chemistry2003 rdf:type owl:NamedIndividual , :Nobel ;
+    :overallMotivation ""for discoveries concerning channels in cell membranes"" ;
+    :category "chemistry" ;
+    :year 2003 .
+
+    :chemistry2003 :hasLaureate :769 .
+    :chemistry2003 :hasLaureate :770 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2003
+:medicine2003 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2003 .
+
+    :medicine2003 :hasLaureate :764 .
+    :medicine2003 :hasLaureate :765 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2003
+:literature2003 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2003 .
+
+    :literature2003 :hasLaureate :763 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2003
+:peace2003 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2003 .
+
+    :peace2003 :hasLaureate :773 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2003
+:economics2003 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2003 .
+
+    :economics2003 :hasLaureate :771 .
+    :economics2003 :hasLaureate :772 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2002
+:physics2002 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2002 .
+
+    :physics2002 :hasLaureate :753 .
+    :physics2002 :hasLaureate :754 .
+    :physics2002 :hasLaureate :755 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2002
+:chemistry2002 rdf:type owl:NamedIndividual , :Nobel ;
+    :overallMotivation ""for the development of methods for identification and structure analyses of biological macromolecules"" ;
+    :category "chemistry" ;
+    :year 2002 .
+
+    :chemistry2002 :hasLaureate :756 .
+    :chemistry2002 :hasLaureate :757 .
+    :chemistry2002 :hasLaureate :758 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2002
+:medicine2002 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2002 .
+
+    :medicine2002 :hasLaureate :750 .
+    :medicine2002 :hasLaureate :751 .
+    :medicine2002 :hasLaureate :752 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2002
+:literature2002 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2002 .
+
+    :literature2002 :hasLaureate :761 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2002
+:peace2002 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2002 .
+
+    :peace2002 :hasLaureate :762 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2002
+:economics2002 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2002 .
+
+    :economics2002 :hasLaureate :759 .
+    :economics2002 :hasLaureate :760 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2001
+:physics2001 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 2001 .
+
+    :physics2001 :hasLaureate :738 .
+    :physics2001 :hasLaureate :739 .
+    :physics2001 :hasLaureate :740 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2001
+:chemistry2001 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2001 .
+
+    :chemistry2001 :hasLaureate :741 .
+    :chemistry2001 :hasLaureate :742 .
+    :chemistry2001 :hasLaureate :743 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2001
+:medicine2001 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2001 .
+
+    :medicine2001 :hasLaureate :735 .
+    :medicine2001 :hasLaureate :736 .
+    :medicine2001 :hasLaureate :737 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2001
+:literature2001 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2001 .
+
+    :literature2001 :hasLaureate :747 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2001
+:peace2001 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2001 .
+
+    :peace2001 :hasLaureate :748 .
+    :peace2001 :hasLaureate :749 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2001
+:economics2001 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2001 .
+
+    :economics2001 :hasLaureate :744 .
+    :economics2001 :hasLaureate :745 .
+    :economics2001 :hasLaureate :746 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics2000
+:physics2000 rdf:type owl:NamedIndividual , :Nobel ;
+    :overallMotivation ""for basic work on information and communication technology"" ;
+    :category "physics" ;
+    :year 2000 .
+
+    :physics2000 :hasLaureate :726 .
+    :physics2000 :hasLaureate :727 .
+    :physics2000 :hasLaureate :728 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry2000
+:chemistry2000 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 2000 .
+
+    :chemistry2000 :hasLaureate :729 .
+    :chemistry2000 :hasLaureate :730 .
+    :chemistry2000 :hasLaureate :731 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine2000
+:medicine2000 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 2000 .
+
+    :medicine2000 :hasLaureate :722 .
+    :medicine2000 :hasLaureate :723 .
+    :medicine2000 :hasLaureate :724 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature2000
+:literature2000 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 2000 .
+
+    :literature2000 :hasLaureate :734 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace2000
+:peace2000 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 2000 .
+
+    :peace2000 :hasLaureate :725 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics2000
+:economics2000 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 2000 .
+
+    :economics2000 :hasLaureate :732 .
+    :economics2000 :hasLaureate :733 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1999
+:physics1999 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1999 .
+
+    :physics1999 :hasLaureate :158 .
+    :physics1999 :hasLaureate :159 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1999
+:chemistry1999 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1999 .
+
+    :chemistry1999 :hasLaureate :292 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1999
+:medicine1999 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1999 .
+
+    :medicine1999 :hasLaureate :461 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1999
+:literature1999 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1999 .
+
+    :literature1999 :hasLaureate :676 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1999
+:peace1999 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1999 .
+
+    :peace1999 :hasLaureate :568 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1999
+:economics1999 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1999 .
+
+    :economics1999 :hasLaureate :720 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1998
+:physics1998 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1998 .
+
+    :physics1998 :hasLaureate :155 .
+    :physics1998 :hasLaureate :156 .
+    :physics1998 :hasLaureate :157 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1998
+:chemistry1998 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1998 .
+
+    :chemistry1998 :hasLaureate :290 .
+    :chemistry1998 :hasLaureate :291 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1998
+:medicine1998 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1998 .
+
+    :medicine1998 :hasLaureate :458 .
+    :medicine1998 :hasLaureate :459 .
+    :medicine1998 :hasLaureate :460 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1998
+:literature1998 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1998 .
+
+    :literature1998 :hasLaureate :675 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1998
+:peace1998 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1998 .
+
+    :peace1998 :hasLaureate :566 .
+    :peace1998 :hasLaureate :567 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1998
+:economics1998 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1998 .
+
+    :economics1998 :hasLaureate :719 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1997
+:physics1997 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1997 .
+
+    :physics1997 :hasLaureate :152 .
+    :physics1997 :hasLaureate :153 .
+    :physics1997 :hasLaureate :154 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1997
+:chemistry1997 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1997 .
+
+    :chemistry1997 :hasLaureate :287 .
+    :chemistry1997 :hasLaureate :288 .
+    :chemistry1997 :hasLaureate :289 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1997
+:medicine1997 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1997 .
+
+    :medicine1997 :hasLaureate :457 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1997
+:literature1997 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1997 .
+
+    :literature1997 :hasLaureate :674 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1997
+:peace1997 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1997 .
+
+    :peace1997 :hasLaureate :564 .
+    :peace1997 :hasLaureate :565 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1997
+:economics1997 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1997 .
+
+    :economics1997 :hasLaureate :717 .
+    :economics1997 :hasLaureate :718 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1996
+:physics1996 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1996 .
+
+    :physics1996 :hasLaureate :149 .
+    :physics1996 :hasLaureate :150 .
+    :physics1996 :hasLaureate :151 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1996
+:chemistry1996 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1996 .
+
+    :chemistry1996 :hasLaureate :284 .
+    :chemistry1996 :hasLaureate :285 .
+    :chemistry1996 :hasLaureate :286 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1996
+:medicine1996 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1996 .
+
+    :medicine1996 :hasLaureate :455 .
+    :medicine1996 :hasLaureate :456 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1996
+:literature1996 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1996 .
+
+    :literature1996 :hasLaureate :673 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1996
+:peace1996 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1996 .
+
+    :peace1996 :hasLaureate :562 .
+    :peace1996 :hasLaureate :563 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1996
+:economics1996 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1996 .
+
+    :economics1996 :hasLaureate :715 .
+    :economics1996 :hasLaureate :716 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1995
+:physics1995 rdf:type owl:NamedIndividual , :Nobel ;
+    :overallMotivation ""for pioneering experimental contributions to lepton physics"" ;
+    :category "physics" ;
+    :year 1995 .
+
+    :physics1995 :hasLaureate :147 .
+    :physics1995 :hasLaureate :148 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1995
+:chemistry1995 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1995 .
+
+    :chemistry1995 :hasLaureate :281 .
+    :chemistry1995 :hasLaureate :282 .
+    :chemistry1995 :hasLaureate :283 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1995
+:medicine1995 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1995 .
+
+    :medicine1995 :hasLaureate :452 .
+    :medicine1995 :hasLaureate :453 .
+    :medicine1995 :hasLaureate :454 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1995
+:literature1995 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1995 .
+
+    :literature1995 :hasLaureate :672 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1995
+:peace1995 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1995 .
+
+    :peace1995 :hasLaureate :560 .
+    :peace1995 :hasLaureate :561 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1995
+:economics1995 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1995 .
+
+    :economics1995 :hasLaureate :714 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1994
+:physics1994 rdf:type owl:NamedIndividual , :Nobel ;
+    :overallMotivation ""for pioneering contributions to the development of neutron scattering techniques for studies of condensed matter"" ;
+    :category "physics" ;
+    :year 1994 .
+
+    :physics1994 :hasLaureate :145 .
+    :physics1994 :hasLaureate :146 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1994
+:chemistry1994 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1994 .
+
+    :chemistry1994 :hasLaureate :280 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1994
+:medicine1994 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1994 .
+
+    :medicine1994 :hasLaureate :450 .
+    :medicine1994 :hasLaureate :451 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1994
+:literature1994 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1994 .
+
+    :literature1994 :hasLaureate :671 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1994
+:peace1994 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1994 .
+
+    :peace1994 :hasLaureate :557 .
+    :peace1994 :hasLaureate :558 .
+    :peace1994 :hasLaureate :559 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1994
+:economics1994 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1994 .
+
+    :economics1994 :hasLaureate :711 .
+    :economics1994 :hasLaureate :712 .
+    :economics1994 :hasLaureate :713 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1993
+:physics1993 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1993 .
+
+    :physics1993 :hasLaureate :143 .
+    :physics1993 :hasLaureate :144 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1993
+:chemistry1993 rdf:type owl:NamedIndividual , :Nobel ;
+    :overallMotivation ""for contributions to the developments of methods within DNA-based chemistry"" ;
+    :category "chemistry" ;
+    :year 1993 .
+
+    :chemistry1993 :hasLaureate :278 .
+    :chemistry1993 :hasLaureate :279 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1993
+:medicine1993 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1993 .
+
+    :medicine1993 :hasLaureate :448 .
+    :medicine1993 :hasLaureate :449 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1993
+:literature1993 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1993 .
+
+    :literature1993 :hasLaureate :670 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1993
+:peace1993 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1993 .
+
+    :peace1993 :hasLaureate :555 .
+    :peace1993 :hasLaureate :556 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1993
+:economics1993 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1993 .
+
+    :economics1993 :hasLaureate :709 .
+    :economics1993 :hasLaureate :710 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1992
+:physics1992 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1992 .
+
+    :physics1992 :hasLaureate :142 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1992
+:chemistry1992 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1992 .
+
+    :chemistry1992 :hasLaureate :277 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1992
+:medicine1992 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1992 .
+
+    :medicine1992 :hasLaureate :446 .
+    :medicine1992 :hasLaureate :447 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1992
+:literature1992 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1992 .
+
+    :literature1992 :hasLaureate :669 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1992
+:peace1992 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1992 .
+
+    :peace1992 :hasLaureate :554 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1992
+:economics1992 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1992 .
+
+    :economics1992 :hasLaureate :708 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1991
+:physics1991 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1991 .
+
+    :physics1991 :hasLaureate :141 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1991
+:chemistry1991 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1991 .
+
+    :chemistry1991 :hasLaureate :276 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1991
+:medicine1991 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1991 .
+
+    :medicine1991 :hasLaureate :444 .
+    :medicine1991 :hasLaureate :445 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1991
+:literature1991 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1991 .
+
+    :literature1991 :hasLaureate :668 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1991
+:peace1991 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1991 .
+
+    :peace1991 :hasLaureate :553 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1991
+:economics1991 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1991 .
+
+    :economics1991 :hasLaureate :707 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1990
+:physics1990 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1990 .
+
+    :physics1990 :hasLaureate :138 .
+    :physics1990 :hasLaureate :139 .
+    :physics1990 :hasLaureate :140 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1990
+:chemistry1990 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1990 .
+
+    :chemistry1990 :hasLaureate :275 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1990
+:medicine1990 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1990 .
+
+    :medicine1990 :hasLaureate :442 .
+    :medicine1990 :hasLaureate :443 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1990
+:literature1990 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1990 .
+
+    :literature1990 :hasLaureate :667 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1990
+:peace1990 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1990 .
+
+    :peace1990 :hasLaureate :552 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1990
+:economics1990 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1990 .
+
+    :economics1990 :hasLaureate :704 .
+    :economics1990 :hasLaureate :705 .
+    :economics1990 :hasLaureate :706 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1989
+:physics1989 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1989 .
+
+    :physics1989 :hasLaureate :135 .
+    :physics1989 :hasLaureate :136 .
+    :physics1989 :hasLaureate :137 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1989
+:chemistry1989 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1989 .
+
+    :chemistry1989 :hasLaureate :273 .
+    :chemistry1989 :hasLaureate :274 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1989
+:medicine1989 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1989 .
+
+    :medicine1989 :hasLaureate :440 .
+    :medicine1989 :hasLaureate :441 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1989
+:literature1989 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1989 .
+
+    :literature1989 :hasLaureate :666 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1989
+:peace1989 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1989 .
+
+    :peace1989 :hasLaureate :551 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1989
+:economics1989 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1989 .
+
+    :economics1989 :hasLaureate :703 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1988
+:physics1988 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1988 .
+
+    :physics1988 :hasLaureate :132 .
+    :physics1988 :hasLaureate :133 .
+    :physics1988 :hasLaureate :134 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1988
+:chemistry1988 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1988 .
+
+    :chemistry1988 :hasLaureate :270 .
+    :chemistry1988 :hasLaureate :271 .
+    :chemistry1988 :hasLaureate :272 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1988
+:medicine1988 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1988 .
+
+    :medicine1988 :hasLaureate :437 .
+    :medicine1988 :hasLaureate :438 .
+    :medicine1988 :hasLaureate :439 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1988
+:literature1988 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1988 .
+
+    :literature1988 :hasLaureate :665 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1988
+:peace1988 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1988 .
+
+    :peace1988 :hasLaureate :550 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1988
+:economics1988 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1988 .
+
+    :economics1988 :hasLaureate :702 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1987
+:physics1987 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1987 .
+
+    :physics1987 :hasLaureate :130 .
+    :physics1987 :hasLaureate :131 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1987
+:chemistry1987 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1987 .
+
+    :chemistry1987 :hasLaureate :267 .
+    :chemistry1987 :hasLaureate :268 .
+    :chemistry1987 :hasLaureate :269 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1987
+:medicine1987 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1987 .
+
+    :medicine1987 :hasLaureate :436 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1987
+:literature1987 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1987 .
+
+    :literature1987 :hasLaureate :664 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1987
+:peace1987 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1987 .
+
+    :peace1987 :hasLaureate :549 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1987
+:economics1987 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1987 .
+
+    :economics1987 :hasLaureate :701 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1986
+:physics1986 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1986 .
+
+    :physics1986 :hasLaureate :127 .
+    :physics1986 :hasLaureate :128 .
+    :physics1986 :hasLaureate :129 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1986
+:chemistry1986 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1986 .
+
+    :chemistry1986 :hasLaureate :264 .
+    :chemistry1986 :hasLaureate :265 .
+    :chemistry1986 :hasLaureate :266 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1986
+:medicine1986 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1986 .
+
+    :medicine1986 :hasLaureate :434 .
+    :medicine1986 :hasLaureate :435 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1986
+:literature1986 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1986 .
+
+    :literature1986 :hasLaureate :663 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1986
+:peace1986 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1986 .
+
+    :peace1986 :hasLaureate :548 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1986
+:economics1986 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1986 .
+
+    :economics1986 :hasLaureate :700 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1985
+:physics1985 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1985 .
+
+    :physics1985 :hasLaureate :126 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1985
+:chemistry1985 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1985 .
+
+    :chemistry1985 :hasLaureate :262 .
+    :chemistry1985 :hasLaureate :263 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1985
+:medicine1985 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1985 .
+
+    :medicine1985 :hasLaureate :432 .
+    :medicine1985 :hasLaureate :433 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1985
+:literature1985 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1985 .
+
+    :literature1985 :hasLaureate :662 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1985
+:peace1985 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1985 .
+
+    :peace1985 :hasLaureate :547 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1985
+:economics1985 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1985 .
+
+    :economics1985 :hasLaureate :699 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1984
+:physics1984 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1984 .
+
+    :physics1984 :hasLaureate :124 .
+    :physics1984 :hasLaureate :125 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1984
+:chemistry1984 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1984 .
+
+    :chemistry1984 :hasLaureate :261 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1984
+:medicine1984 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1984 .
+
+    :medicine1984 :hasLaureate :429 .
+    :medicine1984 :hasLaureate :430 .
+    :medicine1984 :hasLaureate :431 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1984
+:literature1984 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1984 .
+
+    :literature1984 :hasLaureate :661 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1984
+:peace1984 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1984 .
+
+    :peace1984 :hasLaureate :546 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1984
+:economics1984 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1984 .
+
+    :economics1984 :hasLaureate :698 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1983
+:physics1983 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1983 .
+
+    :physics1983 :hasLaureate :122 .
+    :physics1983 :hasLaureate :123 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1983
+:chemistry1983 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1983 .
+
+    :chemistry1983 :hasLaureate :260 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1983
+:medicine1983 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1983 .
+
+    :medicine1983 :hasLaureate :428 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1983
+:literature1983 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1983 .
+
+    :literature1983 :hasLaureate :660 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1983
+:peace1983 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1983 .
+
+    :peace1983 :hasLaureate :545 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1983
+:economics1983 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1983 .
+
+    :economics1983 :hasLaureate :697 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1982
+:physics1982 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1982 .
+
+    :physics1982 :hasLaureate :121 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1982
+:chemistry1982 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1982 .
+
+    :chemistry1982 :hasLaureate :259 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1982
+:medicine1982 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1982 .
+
+    :medicine1982 :hasLaureate :425 .
+    :medicine1982 :hasLaureate :426 .
+    :medicine1982 :hasLaureate :427 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1982
+:literature1982 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1982 .
+
+    :literature1982 :hasLaureate :659 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1982
+:peace1982 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1982 .
+
+    :peace1982 :hasLaureate :543 .
+    :peace1982 :hasLaureate :544 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1982
+:economics1982 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1982 .
+
+    :economics1982 :hasLaureate :696 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1981
+:physics1981 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1981 .
+
+    :physics1981 :hasLaureate :118 .
+    :physics1981 :hasLaureate :119 .
+    :physics1981 :hasLaureate :120 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1981
+:chemistry1981 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1981 .
+
+    :chemistry1981 :hasLaureate :257 .
+    :chemistry1981 :hasLaureate :258 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1981
+:medicine1981 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1981 .
+
+    :medicine1981 :hasLaureate :422 .
+    :medicine1981 :hasLaureate :423 .
+    :medicine1981 :hasLaureate :424 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1981
+:literature1981 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1981 .
+
+    :literature1981 :hasLaureate :658 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1981
+:peace1981 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1981 .
+
+    :peace1981 :hasLaureate :515 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1981
+:economics1981 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1981 .
+
+    :economics1981 :hasLaureate :695 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1980
+:physics1980 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1980 .
+
+    :physics1980 :hasLaureate :116 .
+    :physics1980 :hasLaureate :117 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1980
+:chemistry1980 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1980 .
+
+    :chemistry1980 :hasLaureate :254 .
+    :chemistry1980 :hasLaureate :255 .
+    :chemistry1980 :hasLaureate :222 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1980
+:medicine1980 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1980 .
+
+    :medicine1980 :hasLaureate :419 .
+    :medicine1980 :hasLaureate :420 .
+    :medicine1980 :hasLaureate :421 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1980
+:literature1980 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1980 .
+
+    :literature1980 :hasLaureate :657 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1980
+:peace1980 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1980 .
+
+    :peace1980 :hasLaureate :541 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1980
+:economics1980 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1980 .
+
+    :economics1980 :hasLaureate :694 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1979
+:physics1979 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1979 .
+
+    :physics1979 :hasLaureate :113 .
+    :physics1979 :hasLaureate :114 .
+    :physics1979 :hasLaureate :115 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1979
+:chemistry1979 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1979 .
+
+    :chemistry1979 :hasLaureate :252 .
+    :chemistry1979 :hasLaureate :253 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1979
+:medicine1979 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1979 .
+
+    :medicine1979 :hasLaureate :417 .
+    :medicine1979 :hasLaureate :418 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1979
+:literature1979 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1979 .
+
+    :literature1979 :hasLaureate :655 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1979
+:peace1979 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1979 .
+
+    :peace1979 :hasLaureate :540 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1979
+:economics1979 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1979 .
+
+    :economics1979 :hasLaureate :692 .
+    :economics1979 :hasLaureate :693 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1978
+:physics1978 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1978 .
+
+    :physics1978 :hasLaureate :110 .
+    :physics1978 :hasLaureate :111 .
+    :physics1978 :hasLaureate :112 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1978
+:chemistry1978 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1978 .
+
+    :chemistry1978 :hasLaureate :251 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1978
+:medicine1978 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1978 .
+
+    :medicine1978 :hasLaureate :414 .
+    :medicine1978 :hasLaureate :415 .
+    :medicine1978 :hasLaureate :416 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1978
+:literature1978 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1978 .
+
+    :literature1978 :hasLaureate :654 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1978
+:peace1978 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1978 .
+
+    :peace1978 :hasLaureate :538 .
+    :peace1978 :hasLaureate :539 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1978
+:economics1978 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1978 .
+
+    :economics1978 :hasLaureate :691 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1977
+:physics1977 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1977 .
+
+    :physics1977 :hasLaureate :107 .
+    :physics1977 :hasLaureate :108 .
+    :physics1977 :hasLaureate :109 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1977
+:chemistry1977 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1977 .
+
+    :chemistry1977 :hasLaureate :250 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1977
+:medicine1977 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1977 .
+
+    :medicine1977 :hasLaureate :411 .
+    :medicine1977 :hasLaureate :412 .
+    :medicine1977 :hasLaureate :413 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1977
+:literature1977 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1977 .
+
+    :literature1977 :hasLaureate :653 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1977
+:peace1977 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1977 .
+
+    :peace1977 :hasLaureate :537 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1977
+:economics1977 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1977 .
+
+    :economics1977 :hasLaureate :689 .
+    :economics1977 :hasLaureate :690 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1976
+:physics1976 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1976 .
+
+    :physics1976 :hasLaureate :105 .
+    :physics1976 :hasLaureate :106 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1976
+:chemistry1976 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1976 .
+
+    :chemistry1976 :hasLaureate :249 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1976
+:medicine1976 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1976 .
+
+    :medicine1976 :hasLaureate :409 .
+    :medicine1976 :hasLaureate :410 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1976
+:literature1976 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1976 .
+
+    :literature1976 :hasLaureate :652 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1976
+:peace1976 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1976 .
+
+    :peace1976 :hasLaureate :535 .
+    :peace1976 :hasLaureate :536 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1976
+:economics1976 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1976 .
+
+    :economics1976 :hasLaureate :688 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1975
+:physics1975 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1975 .
+
+    :physics1975 :hasLaureate :102 .
+    :physics1975 :hasLaureate :103 .
+    :physics1975 :hasLaureate :104 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1975
+:chemistry1975 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1975 .
+
+    :chemistry1975 :hasLaureate :247 .
+    :chemistry1975 :hasLaureate :248 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1975
+:medicine1975 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1975 .
+
+    :medicine1975 :hasLaureate :406 .
+    :medicine1975 :hasLaureate :407 .
+    :medicine1975 :hasLaureate :408 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1975
+:literature1975 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1975 .
+
+    :literature1975 :hasLaureate :651 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1975
+:peace1975 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1975 .
+
+    :peace1975 :hasLaureate :534 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1975
+:economics1975 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1975 .
+
+    :economics1975 :hasLaureate :686 .
+    :economics1975 :hasLaureate :687 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1974
+:physics1974 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1974 .
+
+    :physics1974 :hasLaureate :100 .
+    :physics1974 :hasLaureate :101 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1974
+:chemistry1974 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1974 .
+
+    :chemistry1974 :hasLaureate :246 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1974
+:medicine1974 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1974 .
+
+    :medicine1974 :hasLaureate :403 .
+    :medicine1974 :hasLaureate :404 .
+    :medicine1974 :hasLaureate :405 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1974
+:literature1974 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1974 .
+
+    :literature1974 :hasLaureate :649 .
+    :literature1974 :hasLaureate :650 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1974
+:peace1974 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1974 .
+
+    :peace1974 :hasLaureate :532 .
+    :peace1974 :hasLaureate :533 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1974
+:economics1974 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1974 .
+
+    :economics1974 :hasLaureate :684 .
+    :economics1974 :hasLaureate :685 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1973
+:physics1973 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1973 .
+
+    :physics1973 :hasLaureate :97 .
+    :physics1973 :hasLaureate :98 .
+    :physics1973 :hasLaureate :99 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1973
+:chemistry1973 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1973 .
+
+    :chemistry1973 :hasLaureate :244 .
+    :chemistry1973 :hasLaureate :245 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1973
+:medicine1973 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1973 .
+
+    :medicine1973 :hasLaureate :400 .
+    :medicine1973 :hasLaureate :401 .
+    :medicine1973 :hasLaureate :402 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1973
+:literature1973 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1973 .
+
+    :literature1973 :hasLaureate :648 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1973
+:peace1973 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1973 .
+
+    :peace1973 :hasLaureate :530 .
+    :peace1973 :hasLaureate :531 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1973
+:economics1973 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1973 .
+
+    :economics1973 :hasLaureate :683 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1972
+:physics1972 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1972 .
+
+    :physics1972 :hasLaureate :66 .
+    :physics1972 :hasLaureate :95 .
+    :physics1972 :hasLaureate :96 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1972
+:chemistry1972 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1972 .
+
+    :chemistry1972 :hasLaureate :241 .
+    :chemistry1972 :hasLaureate :242 .
+    :chemistry1972 :hasLaureate :243 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1972
+:medicine1972 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1972 .
+
+    :medicine1972 :hasLaureate :398 .
+    :medicine1972 :hasLaureate :399 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1972
+:literature1972 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1972 .
+
+    :literature1972 :hasLaureate :647 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1972
+:economics1972 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1972 .
+
+    :economics1972 :hasLaureate :681 .
+    :economics1972 :hasLaureate :682 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1971
+:physics1971 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1971 .
+
+    :physics1971 :hasLaureate :93 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1971
+:chemistry1971 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1971 .
+
+    :chemistry1971 :hasLaureate :240 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1971
+:medicine1971 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1971 .
+
+    :medicine1971 :hasLaureate :397 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1971
+:literature1971 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1971 .
+
+    :literature1971 :hasLaureate :645 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1971
+:peace1971 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1971 .
+
+    :peace1971 :hasLaureate :529 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1971
+:economics1971 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1971 .
+
+    :economics1971 :hasLaureate :680 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1970
+:physics1970 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1970 .
+
+    :physics1970 :hasLaureate :91 .
+    :physics1970 :hasLaureate :92 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1970
+:chemistry1970 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1970 .
+
+    :chemistry1970 :hasLaureate :239 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1970
+:medicine1970 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1970 .
+
+    :medicine1970 :hasLaureate :394 .
+    :medicine1970 :hasLaureate :395 .
+    :medicine1970 :hasLaureate :396 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1970
+:literature1970 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1970 .
+
+    :literature1970 :hasLaureate :644 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1970
+:peace1970 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1970 .
+
+    :peace1970 :hasLaureate :528 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1970
+:economics1970 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1970 .
+
+    :economics1970 :hasLaureate :679 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1969
+:physics1969 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1969 .
+
+    :physics1969 :hasLaureate :90 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1969
+:chemistry1969 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1969 .
+
+    :chemistry1969 :hasLaureate :237 .
+    :chemistry1969 :hasLaureate :238 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1969
+:medicine1969 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1969 .
+
+    :medicine1969 :hasLaureate :391 .
+    :medicine1969 :hasLaureate :392 .
+    :medicine1969 :hasLaureate :393 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1969
+:literature1969 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1969 .
+
+    :literature1969 :hasLaureate :643 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1969
+:peace1969 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1969 .
+
+    :peace1969 :hasLaureate :527 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#economics1969
+:economics1969 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "economics" ;
+    :year 1969 .
+
+    :economics1969 :hasLaureate :677 .
+    :economics1969 :hasLaureate :678 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1968
+:physics1968 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1968 .
+
+    :physics1968 :hasLaureate :89 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1968
+:chemistry1968 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1968 .
+
+    :chemistry1968 :hasLaureate :236 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1968
+:medicine1968 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1968 .
+
+    :medicine1968 :hasLaureate :388 .
+    :medicine1968 :hasLaureate :389 .
+    :medicine1968 :hasLaureate :390 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1968
+:literature1968 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1968 .
+
+    :literature1968 :hasLaureate :642 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1968
+:peace1968 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1968 .
+
+    :peace1968 :hasLaureate :526 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1967
+:physics1967 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1967 .
+
+    :physics1967 :hasLaureate :88 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1967
+:chemistry1967 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1967 .
+
+    :chemistry1967 :hasLaureate :233 .
+    :chemistry1967 :hasLaureate :234 .
+    :chemistry1967 :hasLaureate :235 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1967
+:medicine1967 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1967 .
+
+    :medicine1967 :hasLaureate :385 .
+    :medicine1967 :hasLaureate :386 .
+    :medicine1967 :hasLaureate :387 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1967
+:literature1967 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1967 .
+
+    :literature1967 :hasLaureate :641 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1966
+:physics1966 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1966 .
+
+    :physics1966 :hasLaureate :87 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1966
+:chemistry1966 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1966 .
+
+    :chemistry1966 :hasLaureate :232 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1966
+:medicine1966 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1966 .
+
+    :medicine1966 :hasLaureate :383 .
+    :medicine1966 :hasLaureate :384 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1966
+:literature1966 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1966 .
+
+    :literature1966 :hasLaureate :639 .
+    :literature1966 :hasLaureate :640 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1965
+:physics1965 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1965 .
+
+    :physics1965 :hasLaureate :84 .
+    :physics1965 :hasLaureate :85 .
+    :physics1965 :hasLaureate :86 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1965
+:chemistry1965 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1965 .
+
+    :chemistry1965 :hasLaureate :231 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1965
+:medicine1965 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1965 .
+
+    :medicine1965 :hasLaureate :380 .
+    :medicine1965 :hasLaureate :381 .
+    :medicine1965 :hasLaureate :382 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1965
+:literature1965 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1965 .
+
+    :literature1965 :hasLaureate :638 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1965
+:peace1965 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1965 .
+
+    :peace1965 :hasLaureate :525 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1964
+:physics1964 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1964 .
+
+    :physics1964 :hasLaureate :81 .
+    :physics1964 :hasLaureate :82 .
+    :physics1964 :hasLaureate :83 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1964
+:chemistry1964 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1964 .
+
+    :chemistry1964 :hasLaureate :230 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1964
+:medicine1964 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1964 .
+
+    :medicine1964 :hasLaureate :378 .
+    :medicine1964 :hasLaureate :379 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1964
+:literature1964 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1964 .
+
+    :literature1964 :hasLaureate :637 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1964
+:peace1964 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1964 .
+
+    :peace1964 :hasLaureate :524 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1963
+:physics1963 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1963 .
+
+    :physics1963 :hasLaureate :78 .
+    :physics1963 :hasLaureate :79 .
+    :physics1963 :hasLaureate :80 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1963
+:chemistry1963 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1963 .
+
+    :chemistry1963 :hasLaureate :228 .
+    :chemistry1963 :hasLaureate :229 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1963
+:medicine1963 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1963 .
+
+    :medicine1963 :hasLaureate :375 .
+    :medicine1963 :hasLaureate :376 .
+    :medicine1963 :hasLaureate :377 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1963
+:literature1963 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1963 .
+
+    :literature1963 :hasLaureate :635 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1963
+:peace1963 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1963 .
+
+    :peace1963 :hasLaureate :482 .
+    :peace1963 :hasLaureate :523 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1962
+:physics1962 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1962 .
+
+    :physics1962 :hasLaureate :77 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1962
+:chemistry1962 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1962 .
+
+    :chemistry1962 :hasLaureate :226 .
+    :chemistry1962 :hasLaureate :227 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1962
+:medicine1962 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1962 .
+
+    :medicine1962 :hasLaureate :372 .
+    :medicine1962 :hasLaureate :373 .
+    :medicine1962 :hasLaureate :374 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1962
+:literature1962 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1962 .
+
+    :literature1962 :hasLaureate :634 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1962
+:peace1962 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1962 .
+
+    :peace1962 :hasLaureate :217 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1961
+:physics1961 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1961 .
+
+    :physics1961 :hasLaureate :75 .
+    :physics1961 :hasLaureate :76 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1961
+:chemistry1961 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1961 .
+
+    :chemistry1961 :hasLaureate :225 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1961
+:medicine1961 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1961 .
+
+    :medicine1961 :hasLaureate :371 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1961
+:literature1961 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1961 .
+
+    :literature1961 :hasLaureate :633 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1961
+:peace1961 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1961 .
+
+    :peace1961 :hasLaureate :520 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1960
+:physics1960 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1960 .
+
+    :physics1960 :hasLaureate :74 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1960
+:chemistry1960 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1960 .
+
+    :chemistry1960 :hasLaureate :224 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1960
+:medicine1960 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1960 .
+
+    :medicine1960 :hasLaureate :369 .
+    :medicine1960 :hasLaureate :370 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1960
+:literature1960 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1960 .
+
+    :literature1960 :hasLaureate :631 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1960
+:peace1960 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1960 .
+
+    :peace1960 :hasLaureate :519 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1959
+:physics1959 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1959 .
+
+    :physics1959 :hasLaureate :72 .
+    :physics1959 :hasLaureate :73 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1959
+:chemistry1959 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1959 .
+
+    :chemistry1959 :hasLaureate :223 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1959
+:medicine1959 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1959 .
+
+    :medicine1959 :hasLaureate :367 .
+    :medicine1959 :hasLaureate :368 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1959
+:literature1959 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1959 .
+
+    :literature1959 :hasLaureate :630 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1959
+:peace1959 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1959 .
+
+    :peace1959 :hasLaureate :518 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1958
+:physics1958 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1958 .
+
+    :physics1958 :hasLaureate :70 .
+    :physics1958 :hasLaureate :721 .
+    :physics1958 :hasLaureate :71 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1958
+:chemistry1958 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1958 .
+
+    :chemistry1958 :hasLaureate :222 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1958
+:medicine1958 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1958 .
+
+    :medicine1958 :hasLaureate :364 .
+    :medicine1958 :hasLaureate :365 .
+    :medicine1958 :hasLaureate :366 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1958
+:literature1958 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1958 .
+
+    :literature1958 :hasLaureate :629 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1958
+:peace1958 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1958 .
+
+    :peace1958 :hasLaureate :517 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1957
+:physics1957 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1957 .
+
+    :physics1957 :hasLaureate :68 .
+    :physics1957 :hasLaureate :69 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1957
+:chemistry1957 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1957 .
+
+    :chemistry1957 :hasLaureate :221 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1957
+:medicine1957 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1957 .
+
+    :medicine1957 :hasLaureate :363 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1957
+:literature1957 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1957 .
+
+    :literature1957 :hasLaureate :628 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1957
+:peace1957 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1957 .
+
+    :peace1957 :hasLaureate :516 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1956
+:physics1956 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1956 .
+
+    :physics1956 :hasLaureate :65 .
+    :physics1956 :hasLaureate :66 .
+    :physics1956 :hasLaureate :67 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1956
+:chemistry1956 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1956 .
+
+    :chemistry1956 :hasLaureate :219 .
+    :chemistry1956 :hasLaureate :220 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1956
+:medicine1956 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1956 .
+
+    :medicine1956 :hasLaureate :360 .
+    :medicine1956 :hasLaureate :361 .
+    :medicine1956 :hasLaureate :362 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1956
+:literature1956 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1956 .
+
+    :literature1956 :hasLaureate :627 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1955
+:physics1955 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1955 .
+
+    :physics1955 :hasLaureate :63 .
+    :physics1955 :hasLaureate :64 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1955
+:chemistry1955 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1955 .
+
+    :chemistry1955 :hasLaureate :218 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1955
+:medicine1955 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1955 .
+
+    :medicine1955 :hasLaureate :359 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1955
+:literature1955 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1955 .
+
+    :literature1955 :hasLaureate :626 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1954
+:physics1954 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1954 .
+
+    :physics1954 :hasLaureate :61 .
+    :physics1954 :hasLaureate :62 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1954
+:chemistry1954 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1954 .
+
+    :chemistry1954 :hasLaureate :217 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1954
+:medicine1954 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1954 .
+
+    :medicine1954 :hasLaureate :356 .
+    :medicine1954 :hasLaureate :357 .
+    :medicine1954 :hasLaureate :358 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1954
+:literature1954 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1954 .
+
+    :literature1954 :hasLaureate :625 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1954
+:peace1954 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1954 .
+
+    :peace1954 :hasLaureate :515 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1953
+:physics1953 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1953 .
+
+    :physics1953 :hasLaureate :60 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1953
+:chemistry1953 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1953 .
+
+    :chemistry1953 :hasLaureate :216 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1953
+:medicine1953 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1953 .
+
+    :medicine1953 :hasLaureate :354 .
+    :medicine1953 :hasLaureate :355 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1953
+:literature1953 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1953 .
+
+    :literature1953 :hasLaureate :624 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1953
+:peace1953 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1953 .
+
+    :peace1953 :hasLaureate :514 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1952
+:physics1952 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1952 .
+
+    :physics1952 :hasLaureate :58 .
+    :physics1952 :hasLaureate :59 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1952
+:chemistry1952 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1952 .
+
+    :chemistry1952 :hasLaureate :214 .
+    :chemistry1952 :hasLaureate :215 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1952
+:medicine1952 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1952 .
+
+    :medicine1952 :hasLaureate :353 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1952
+:literature1952 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1952 .
+
+    :literature1952 :hasLaureate :623 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1952
+:peace1952 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1952 .
+
+    :peace1952 :hasLaureate :513 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1951
+:physics1951 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1951 .
+
+    :physics1951 :hasLaureate :56 .
+    :physics1951 :hasLaureate :57 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1951
+:chemistry1951 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1951 .
+
+    :chemistry1951 :hasLaureate :212 .
+    :chemistry1951 :hasLaureate :213 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1951
+:medicine1951 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1951 .
+
+    :medicine1951 :hasLaureate :352 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1951
+:literature1951 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1951 .
+
+    :literature1951 :hasLaureate :622 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1951
+:peace1951 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1951 .
+
+    :peace1951 :hasLaureate :512 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1950
+:physics1950 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1950 .
+
+    :physics1950 :hasLaureate :55 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1950
+:chemistry1950 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1950 .
+
+    :chemistry1950 :hasLaureate :210 .
+    :chemistry1950 :hasLaureate :211 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1950
+:medicine1950 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1950 .
+
+    :medicine1950 :hasLaureate :349 .
+    :medicine1950 :hasLaureate :350 .
+    :medicine1950 :hasLaureate :351 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1950
+:literature1950 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1950 .
+
+    :literature1950 :hasLaureate :621 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1950
+:peace1950 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1950 .
+
+    :peace1950 :hasLaureate :511 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1949
+:physics1949 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1949 .
+
+    :physics1949 :hasLaureate :54 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1949
+:chemistry1949 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1949 .
+
+    :chemistry1949 :hasLaureate :209 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1949
+:medicine1949 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1949 .
+
+    :medicine1949 :hasLaureate :347 .
+    :medicine1949 :hasLaureate :348 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1949
+:literature1949 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1949 .
+
+    :literature1949 :hasLaureate :620 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1949
+:peace1949 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1949 .
+
+    :peace1949 :hasLaureate :510 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1948
+:physics1948 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1948 .
+
+    :physics1948 :hasLaureate :53 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1948
+:chemistry1948 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1948 .
+
+    :chemistry1948 :hasLaureate :208 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1948
+:medicine1948 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1948 .
+
+    :medicine1948 :hasLaureate :346 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1948
+:literature1948 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1948 .
+
+    :literature1948 :hasLaureate :619 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1947
+:physics1947 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1947 .
+
+    :physics1947 :hasLaureate :52 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1947
+:chemistry1947 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1947 .
+
+    :chemistry1947 :hasLaureate :207 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1947
+:medicine1947 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1947 .
+
+    :medicine1947 :hasLaureate :343 .
+    :medicine1947 :hasLaureate :344 .
+    :medicine1947 :hasLaureate :345 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1947
+:literature1947 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1947 .
+
+    :literature1947 :hasLaureate :618 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1947
+:peace1947 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1947 .
+
+    :peace1947 :hasLaureate :508 .
+    :peace1947 :hasLaureate :509 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1946
+:physics1946 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1946 .
+
+    :physics1946 :hasLaureate :51 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1946
+:chemistry1946 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1946 .
+
+    :chemistry1946 :hasLaureate :204 .
+    :chemistry1946 :hasLaureate :205 .
+    :chemistry1946 :hasLaureate :206 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1946
+:medicine1946 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1946 .
+
+    :medicine1946 :hasLaureate :342 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1946
+:literature1946 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1946 .
+
+    :literature1946 :hasLaureate :617 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1946
+:peace1946 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1946 .
+
+    :peace1946 :hasLaureate :506 .
+    :peace1946 :hasLaureate :507 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1945
+:physics1945 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1945 .
+
+    :physics1945 :hasLaureate :50 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1945
+:chemistry1945 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1945 .
+
+    :chemistry1945 :hasLaureate :203 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1945
+:medicine1945 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1945 .
+
+    :medicine1945 :hasLaureate :339 .
+    :medicine1945 :hasLaureate :340 .
+    :medicine1945 :hasLaureate :341 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1945
+:literature1945 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1945 .
+
+    :literature1945 :hasLaureate :615 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1945
+:peace1945 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1945 .
+
+    :peace1945 :hasLaureate :505 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1944
+:physics1944 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1944 .
+
+    :physics1944 :hasLaureate :49 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1944
+:chemistry1944 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1944 .
+
+    :chemistry1944 :hasLaureate :202 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1944
+:medicine1944 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1944 .
+
+    :medicine1944 :hasLaureate :337 .
+    :medicine1944 :hasLaureate :338 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1944
+:literature1944 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1944 .
+
+    :literature1944 :hasLaureate :614 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1944
+:peace1944 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1944 .
+
+    :peace1944 :hasLaureate :482 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1943
+:physics1943 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1943 .
+
+    :physics1943 :hasLaureate :48 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1943
+:chemistry1943 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1943 .
+
+    :chemistry1943 :hasLaureate :201 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1943
+:medicine1943 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1943 .
+
+    :medicine1943 :hasLaureate :335 .
+    :medicine1943 :hasLaureate :336 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1939
+:physics1939 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1939 .
+
+    :physics1939 :hasLaureate :47 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1939
+:chemistry1939 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1939 .
+
+    :chemistry1939 :hasLaureate :199 .
+    :chemistry1939 :hasLaureate :200 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1939
+:medicine1939 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1939 .
+
+    :medicine1939 :hasLaureate :334 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1939
+:literature1939 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1939 .
+
+    :literature1939 :hasLaureate :613 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1938
+:physics1938 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1938 .
+
+    :physics1938 :hasLaureate :46 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1938
+:chemistry1938 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1938 .
+
+    :chemistry1938 :hasLaureate :198 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1938
+:medicine1938 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1938 .
+
+    :medicine1938 :hasLaureate :333 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1938
+:literature1938 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1938 .
+
+    :literature1938 :hasLaureate :610 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1938
+:peace1938 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1938 .
+
+    :peace1938 :hasLaureate :503 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1937
+:physics1937 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1937 .
+
+    :physics1937 :hasLaureate :44 .
+    :physics1937 :hasLaureate :45 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1937
+:chemistry1937 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1937 .
+
+    :chemistry1937 :hasLaureate :196 .
+    :chemistry1937 :hasLaureate :197 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1937
+:medicine1937 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1937 .
+
+    :medicine1937 :hasLaureate :332 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1937
+:literature1937 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1937 .
+
+    :literature1937 :hasLaureate :609 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1937
+:peace1937 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1937 .
+
+    :peace1937 :hasLaureate :502 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1936
+:physics1936 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1936 .
+
+    :physics1936 :hasLaureate :42 .
+    :physics1936 :hasLaureate :43 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1936
+:chemistry1936 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1936 .
+
+    :chemistry1936 :hasLaureate :195 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1936
+:medicine1936 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1936 .
+
+    :medicine1936 :hasLaureate :330 .
+    :medicine1936 :hasLaureate :331 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1936
+:literature1936 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1936 .
+
+    :literature1936 :hasLaureate :608 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1936
+:peace1936 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1936 .
+
+    :peace1936 :hasLaureate :501 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1935
+:physics1935 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1935 .
+
+    :physics1935 :hasLaureate :41 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1935
+:chemistry1935 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1935 .
+
+    :chemistry1935 :hasLaureate :193 .
+    :chemistry1935 :hasLaureate :194 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1935
+:medicine1935 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1935 .
+
+    :medicine1935 :hasLaureate :329 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1935
+:peace1935 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1935 .
+
+    :peace1935 :hasLaureate :500 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1934
+:chemistry1934 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1934 .
+
+    :chemistry1934 :hasLaureate :192 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1934
+:medicine1934 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1934 .
+
+    :medicine1934 :hasLaureate :326 .
+    :medicine1934 :hasLaureate :327 .
+    :medicine1934 :hasLaureate :328 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1934
+:literature1934 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1934 .
+
+    :literature1934 :hasLaureate :607 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1934
+:peace1934 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1934 .
+
+    :peace1934 :hasLaureate :499 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1933
+:physics1933 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1933 .
+
+    :physics1933 :hasLaureate :39 .
+    :physics1933 :hasLaureate :40 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1933
+:medicine1933 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1933 .
+
+    :medicine1933 :hasLaureate :325 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1933
+:literature1933 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1933 .
+
+    :literature1933 :hasLaureate :606 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1933
+:peace1933 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1933 .
+
+    :peace1933 :hasLaureate :498 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1932
+:physics1932 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1932 .
+
+    :physics1932 :hasLaureate :38 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1932
+:chemistry1932 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1932 .
+
+    :chemistry1932 :hasLaureate :191 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1932
+:medicine1932 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1932 .
+
+    :medicine1932 :hasLaureate :323 .
+    :medicine1932 :hasLaureate :324 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1932
+:literature1932 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1932 .
+
+    :literature1932 :hasLaureate :605 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1931
+:chemistry1931 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1931 .
+
+    :chemistry1931 :hasLaureate :189 .
+    :chemistry1931 :hasLaureate :190 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1931
+:medicine1931 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1931 .
+
+    :medicine1931 :hasLaureate :322 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1931
+:literature1931 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1931 .
+
+    :literature1931 :hasLaureate :604 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1931
+:peace1931 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1931 .
+
+    :peace1931 :hasLaureate :496 .
+    :peace1931 :hasLaureate :497 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1930
+:physics1930 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1930 .
+
+    :physics1930 :hasLaureate :37 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1930
+:chemistry1930 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1930 .
+
+    :chemistry1930 :hasLaureate :188 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1930
+:medicine1930 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1930 .
+
+    :medicine1930 :hasLaureate :321 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1930
+:literature1930 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1930 .
+
+    :literature1930 :hasLaureate :603 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1930
+:peace1930 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1930 .
+
+    :peace1930 :hasLaureate :495 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1929
+:physics1929 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1929 .
+
+    :physics1929 :hasLaureate :36 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1929
+:chemistry1929 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1929 .
+
+    :chemistry1929 :hasLaureate :186 .
+    :chemistry1929 :hasLaureate :187 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1929
+:medicine1929 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1929 .
+
+    :medicine1929 :hasLaureate :319 .
+    :medicine1929 :hasLaureate :320 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1929
+:literature1929 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1929 .
+
+    :literature1929 :hasLaureate :602 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1929
+:peace1929 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1929 .
+
+    :peace1929 :hasLaureate :494 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1928
+:physics1928 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1928 .
+
+    :physics1928 :hasLaureate :35 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1928
+:chemistry1928 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1928 .
+
+    :chemistry1928 :hasLaureate :185 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1928
+:medicine1928 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1928 .
+
+    :medicine1928 :hasLaureate :318 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1928
+:literature1928 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1928 .
+
+    :literature1928 :hasLaureate :601 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1927
+:physics1927 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1927 .
+
+    :physics1927 :hasLaureate :33 .
+    :physics1927 :hasLaureate :34 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1927
+:chemistry1927 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1927 .
+
+    :chemistry1927 :hasLaureate :184 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1927
+:medicine1927 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1927 .
+
+    :medicine1927 :hasLaureate :317 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1927
+:literature1927 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1927 .
+
+    :literature1927 :hasLaureate :600 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1927
+:peace1927 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1927 .
+
+    :peace1927 :hasLaureate :492 .
+    :peace1927 :hasLaureate :493 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1926
+:physics1926 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1926 .
+
+    :physics1926 :hasLaureate :32 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1926
+:chemistry1926 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1926 .
+
+    :chemistry1926 :hasLaureate :183 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1926
+:medicine1926 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1926 .
+
+    :medicine1926 :hasLaureate :316 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1926
+:literature1926 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1926 .
+
+    :literature1926 :hasLaureate :597 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1926
+:peace1926 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1926 .
+
+    :peace1926 :hasLaureate :490 .
+    :peace1926 :hasLaureate :491 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1925
+:physics1925 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1925 .
+
+    :physics1925 :hasLaureate :30 .
+    :physics1925 :hasLaureate :31 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1925
+:chemistry1925 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1925 .
+
+    :chemistry1925 :hasLaureate :182 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1925
+:literature1925 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1925 .
+
+    :literature1925 :hasLaureate :596 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1925
+:peace1925 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1925 .
+
+    :peace1925 :hasLaureate :488 .
+    :peace1925 :hasLaureate :489 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1924
+:physics1924 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1924 .
+
+    :physics1924 :hasLaureate :29 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1924
+:medicine1924 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1924 .
+
+    :medicine1924 :hasLaureate :315 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1924
+:literature1924 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1924 .
+
+    :literature1924 :hasLaureate :594 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1923
+:physics1923 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1923 .
+
+    :physics1923 :hasLaureate :28 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1923
+:chemistry1923 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1923 .
+
+    :chemistry1923 :hasLaureate :181 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1923
+:medicine1923 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1923 .
+
+    :medicine1923 :hasLaureate :313 .
+    :medicine1923 :hasLaureate :314 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1923
+:literature1923 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1923 .
+
+    :literature1923 :hasLaureate :593 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1922
+:physics1922 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1922 .
+
+    :physics1922 :hasLaureate :27 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1922
+:chemistry1922 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1922 .
+
+    :chemistry1922 :hasLaureate :180 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1922
+:medicine1922 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1922 .
+
+    :medicine1922 :hasLaureate :311 .
+    :medicine1922 :hasLaureate :312 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1922
+:literature1922 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1922 .
+
+    :literature1922 :hasLaureate :592 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1922
+:peace1922 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1922 .
+
+    :peace1922 :hasLaureate :487 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1921
+:physics1921 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1921 .
+
+    :physics1921 :hasLaureate :26 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1921
+:chemistry1921 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1921 .
+
+    :chemistry1921 :hasLaureate :179 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1921
+:literature1921 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1921 .
+
+    :literature1921 :hasLaureate :590 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1921
+:peace1921 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1921 .
+
+    :peace1921 :hasLaureate :485 .
+    :peace1921 :hasLaureate :486 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1920
+:physics1920 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1920 .
+
+    :physics1920 :hasLaureate :25 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1920
+:chemistry1920 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1920 .
+
+    :chemistry1920 :hasLaureate :178 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1920
+:medicine1920 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1920 .
+
+    :medicine1920 :hasLaureate :310 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1920
+:literature1920 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1920 .
+
+    :literature1920 :hasLaureate :589 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1920
+:peace1920 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1920 .
+
+    :peace1920 :hasLaureate :484 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1919
+:physics1919 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1919 .
+
+    :physics1919 :hasLaureate :24 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1919
+:medicine1919 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1919 .
+
+    :medicine1919 :hasLaureate :309 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1919
+:literature1919 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1919 .
+
+    :literature1919 :hasLaureate :588 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1919
+:peace1919 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1919 .
+
+    :peace1919 :hasLaureate :483 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1918
+:physics1918 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1918 .
+
+    :physics1918 :hasLaureate :23 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1918
+:chemistry1918 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1918 .
+
+    :chemistry1918 :hasLaureate :177 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1917
+:physics1917 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1917 .
+
+    :physics1917 :hasLaureate :22 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1917
+:literature1917 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1917 .
+
+    :literature1917 :hasLaureate :586 .
+    :literature1917 :hasLaureate :587 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1917
+:peace1917 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1917 .
+
+    :peace1917 :hasLaureate :482 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1916
+:literature1916 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1916 .
+
+    :literature1916 :hasLaureate :585 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1915
+:physics1915 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1915 .
+
+    :physics1915 :hasLaureate :20 .
+    :physics1915 :hasLaureate :21 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1915
+:chemistry1915 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1915 .
+
+    :chemistry1915 :hasLaureate :176 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1915
+:literature1915 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1915 .
+
+    :literature1915 :hasLaureate :584 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1914
+:physics1914 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1914 .
+
+    :physics1914 :hasLaureate :19 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1914
+:chemistry1914 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1914 .
+
+    :chemistry1914 :hasLaureate :175 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1914
+:medicine1914 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1914 .
+
+    :medicine1914 :hasLaureate :308 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1913
+:physics1913 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1913 .
+
+    :physics1913 :hasLaureate :18 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1913
+:chemistry1913 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1913 .
+
+    :chemistry1913 :hasLaureate :174 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1913
+:medicine1913 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1913 .
+
+    :medicine1913 :hasLaureate :307 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1913
+:literature1913 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1913 .
+
+    :literature1913 :hasLaureate :583 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1913
+:peace1913 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1913 .
+
+    :peace1913 :hasLaureate :481 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1912
+:physics1912 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1912 .
+
+    :physics1912 :hasLaureate :17 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1912
+:chemistry1912 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1912 .
+
+    :chemistry1912 :hasLaureate :172 .
+    :chemistry1912 :hasLaureate :173 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1912
+:medicine1912 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1912 .
+
+    :medicine1912 :hasLaureate :306 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1912
+:literature1912 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1912 .
+
+    :literature1912 :hasLaureate :582 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1912
+:peace1912 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1912 .
+
+    :peace1912 :hasLaureate :480 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1911
+:physics1911 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1911 .
+
+    :physics1911 :hasLaureate :16 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1911
+:chemistry1911 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1911 .
+
+    :chemistry1911 :hasLaureate :6 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1911
+:medicine1911 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1911 .
+
+    :medicine1911 :hasLaureate :305 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1911
+:literature1911 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1911 .
+
+    :literature1911 :hasLaureate :581 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1911
+:peace1911 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1911 .
+
+    :peace1911 :hasLaureate :478 .
+    :peace1911 :hasLaureate :479 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1910
+:physics1910 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1910 .
+
+    :physics1910 :hasLaureate :15 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1910
+:chemistry1910 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1910 .
+
+    :chemistry1910 :hasLaureate :169 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1910
+:medicine1910 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1910 .
+
+    :medicine1910 :hasLaureate :304 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1910
+:literature1910 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1910 .
+
+    :literature1910 :hasLaureate :580 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1910
+:peace1910 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1910 .
+
+    :peace1910 :hasLaureate :477 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1909
+:physics1909 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1909 .
+
+    :physics1909 :hasLaureate :13 .
+    :physics1909 :hasLaureate :14 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1909
+:chemistry1909 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1909 .
+
+    :chemistry1909 :hasLaureate :168 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1909
+:medicine1909 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1909 .
+
+    :medicine1909 :hasLaureate :303 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1909
+:literature1909 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1909 .
+
+    :literature1909 :hasLaureate :579 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1909
+:peace1909 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1909 .
+
+    :peace1909 :hasLaureate :475 .
+    :peace1909 :hasLaureate :476 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1908
+:physics1908 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1908 .
+
+    :physics1908 :hasLaureate :12 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1908
+:chemistry1908 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1908 .
+
+    :chemistry1908 :hasLaureate :167 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1908
+:medicine1908 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1908 .
+
+    :medicine1908 :hasLaureate :301 .
+    :medicine1908 :hasLaureate :302 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1908
+:literature1908 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1908 .
+
+    :literature1908 :hasLaureate :578 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1908
+:peace1908 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1908 .
+
+    :peace1908 :hasLaureate :473 .
+    :peace1908 :hasLaureate :474 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1907
+:physics1907 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1907 .
+
+    :physics1907 :hasLaureate :11 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1907
+:chemistry1907 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1907 .
+
+    :chemistry1907 :hasLaureate :166 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1907
+:medicine1907 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1907 .
+
+    :medicine1907 :hasLaureate :300 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1907
+:literature1907 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1907 .
+
+    :literature1907 :hasLaureate :577 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1907
+:peace1907 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1907 .
+
+    :peace1907 :hasLaureate :471 .
+    :peace1907 :hasLaureate :472 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1906
+:physics1906 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1906 .
+
+    :physics1906 :hasLaureate :10 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1906
+:chemistry1906 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1906 .
+
+    :chemistry1906 :hasLaureate :165 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1906
+:medicine1906 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1906 .
+
+    :medicine1906 :hasLaureate :298 .
+    :medicine1906 :hasLaureate :299 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1906
+:literature1906 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1906 .
+
+    :literature1906 :hasLaureate :576 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1906
+:peace1906 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1906 .
+
+    :peace1906 :hasLaureate :470 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1905
+:physics1905 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1905 .
+
+    :physics1905 :hasLaureate :9 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1905
+:chemistry1905 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1905 .
+
+    :chemistry1905 :hasLaureate :164 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1905
+:medicine1905 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1905 .
+
+    :medicine1905 :hasLaureate :297 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1905
+:literature1905 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1905 .
+
+    :literature1905 :hasLaureate :575 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1905
+:peace1905 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1905 .
+
+    :peace1905 :hasLaureate :468 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1904
+:physics1904 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1904 .
+
+    :physics1904 :hasLaureate :8 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1904
+:chemistry1904 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1904 .
+
+    :chemistry1904 :hasLaureate :163 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1904
+:medicine1904 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1904 .
+
+    :medicine1904 :hasLaureate :296 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1904
+:literature1904 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1904 .
+
+    :literature1904 :hasLaureate :573 .
+    :literature1904 :hasLaureate :574 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1904
+:peace1904 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1904 .
+
+    :peace1904 :hasLaureate :467 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1903
+:physics1903 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1903 .
+
+    :physics1903 :hasLaureate :4 .
+    :physics1903 :hasLaureate :5 .
+    :physics1903 :hasLaureate :6 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1903
+:chemistry1903 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1903 .
+
+    :chemistry1903 :hasLaureate :162 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1903
+:medicine1903 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1903 .
+
+    :medicine1903 :hasLaureate :295 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1903
+:literature1903 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1903 .
+
+    :literature1903 :hasLaureate :572 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1903
+:peace1903 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1903 .
+
+    :peace1903 :hasLaureate :466 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1902
+:physics1902 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1902 .
+
+    :physics1902 :hasLaureate :2 .
+    :physics1902 :hasLaureate :3 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1902
+:chemistry1902 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1902 .
+
+    :chemistry1902 :hasLaureate :161 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1902
+:medicine1902 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1902 .
+
+    :medicine1902 :hasLaureate :294 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1902
+:literature1902 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1902 .
+
+    :literature1902 :hasLaureate :571 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1902
+:peace1902 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1902 .
+
+    :peace1902 :hasLaureate :464 .
+    :peace1902 :hasLaureate :465 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#physics1901
+:physics1901 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "physics" ;
+    :year 1901 .
+
+    :physics1901 :hasLaureate :1 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#chemistry1901
+:chemistry1901 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "chemistry" ;
+    :year 1901 .
+
+    :chemistry1901 :hasLaureate :160 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#medicine1901
+:medicine1901 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "medicine" ;
+    :year 1901 .
+
+    :medicine1901 :hasLaureate :293 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#literature1901
+:literature1901 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "literature" ;
+    :year 1901 .
+
+    :literature1901 :hasLaureate :569 .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#peace1901
+:peace1901 rdf:type owl:NamedIndividual , :Nobel ;
+
+    :category "peace" ;
+    :year 1901 .
+
+    :peace1901 :hasLaureate :462 .
+    :peace1901 :hasLaureate :463 .
