@@ -4,9 +4,9 @@
 <table width="100%">
    <tr>
       <td width="66%">
-         <p style="font-size:24px"><b>Chave: </b>PRI_18/19_TPC1
+         <p style="font-size:24px"><b>Chave: </b>PRI_18/19_TPC2
          </p>
-         <p style="font-size:24px"><b>Título: </b>Conversão de um XML para RDF
+         <p style="font-size:24px"><b>Título: </b>Conversão de um JSON para RDF
          </p>
          <p style="font-size:20px"><b>Subtítulo: </b>
          </p>
@@ -40,13 +40,19 @@
 
 <p style="font-size:24px"><b>Resumo</b></p>
 
-<p>Este tpc pretendia converter um dataset de XML para RDF.
-   Para tal começei por definir a ontologia por detrás do dataset, usando o Protégé.
-   Depois usei XSL para converter o dataset de XML para Turtle.
+<p>Este tpc pretendia converter um dataset de JSON para RDF.
+   Para isso procurei um conversor online de JSON para XML.
+</p>
+
+<p>Tendo o XML passei a definir a ontologia por detrás do dataset, usando o Protégé.
+   Depois usei XSL para converter o dataset em XML para Turtle.
 </p>
 
 <p>Tendo a ontologia e o dataset em Turtle, juntei ambos para concluir a
    transformação em RDF.
+</p>
+
+<p>Finalmente importei o ficheiro final obtido no GraphDB, com sucesso.
 </p>
 
 
@@ -54,11 +60,13 @@
 <p style="font-size:24px"><b>Resultados</b></p>
 <ul>
 
-   <li><a href="https://github.com/Tibblue/PRC/tree/master/tpc1">GitHub Repo TPC1</a></li>
+   <li><a href="https://github.com/Tibblue/PRC/tree/master/tpc2">GitHub Repo TPC2</a></li>
 
-   <li><a href="manifesto-TP1.html">HTML do manifesto (ficheiro atual)</a></li>
+   <li><a href="manifesto-TP2.html">HTML do manifesto (ficheiro atual)</a></li>
 
-   <li><a href="jcrpubs.xml">XML source</a></li>
+   <li><a href="prize.json">JSON source</a></li>
+
+   <li><a href="prize.xml">XML convertido online</a></li>
 
    <li><a href="ontologia.ttl">Ontologia definida no Protégé</a></li>
 
@@ -66,6 +74,6 @@
 
    <li><a href="dataset.ttl">Turtle resultante de aplicar o XSL, ao XML</a></li>
 
-   <li><a href="jcrpubs.ttl">Turtle final</a></li>
+   <li><a href="jcrpubs.ttl">Turtle final, importado para o GraphDB</a></li>
 
 </ul>
