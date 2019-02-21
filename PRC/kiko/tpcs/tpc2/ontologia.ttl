@@ -77,12 +77,42 @@
 #    Classes
 #################################################################
 
+###  http://prc.di.uminho.pt/2019/tpc2#Chemistry
+:Chemistry rdf:type owl:Class ;
+           rdfs:subClassOf :Nobel .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#Economics
+:Economics rdf:type owl:Class ;
+           rdfs:subClassOf :Nobel .
+
+
 ###  http://prc.di.uminho.pt/2019/tpc2#Laureates
 :Laureates rdf:type owl:Class .
 
 
+###  http://prc.di.uminho.pt/2019/tpc2#Literature
+:Literature rdf:type owl:Class ;
+            rdfs:subClassOf :Nobel .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#Medicine
+:Medicine rdf:type owl:Class ;
+          rdfs:subClassOf :Nobel .
+
+
 ###  http://prc.di.uminho.pt/2019/tpc2#Nobel
 :Nobel rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#Peace
+:Peace rdf:type owl:Class ;
+       rdfs:subClassOf :Nobel .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#Physics
+:Physics rdf:type owl:Class ;
+         rdfs:subClassOf :Nobel .
 
 
 #################################################################
