@@ -19,8 +19,19 @@
              rdfs:range :Laureates .
 
 
+###  http://prc.di.uminho.pt/2019/tpc2#hasNobel
+:hasNobel rdf:type owl:ObjectProperty ;
+          owl:inverseOf :inYear .
+
+
 ###  http://prc.di.uminho.pt/2019/tpc2#inNobel
 :inNobel rdf:type owl:ObjectProperty .
+
+
+###  http://prc.di.uminho.pt/2019/tpc2#inYear
+:inYear rdf:type owl:ObjectProperty ;
+        rdfs:domain :Nobel ;
+        rdfs:range :Year .
 
 
 #################################################################
@@ -148,6 +159,7 @@
                       :Nobel ;
              :hasLaureate :Arthur_Ashkin ,
                           :Gerard_Mourou ;
+             :inYear <http://prc.di.uminho.pt/2019/tpc2#2018> ;
              :category "physics" ;
              :overallMotivation "“for groundbreaking inventions in the field of laser physics”" ;
              :year 2018 .

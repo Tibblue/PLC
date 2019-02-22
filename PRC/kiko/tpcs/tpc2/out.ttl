@@ -3,6 +3,7 @@
 :physics2018 rdf:type owl:NamedIndividual , :Physics ;
     :overallMotivation "for groundbreaking inventions in the field of laser physics" ;
     :category "physics" ;
+    :inYear :y2018 ;
     :year 2018 .
     :physics2018 :hasLaureate :l960 .
     :physics2018 :hasLaureate :l961 .
@@ -12,6 +13,7 @@
 :chemistry2018 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2018 ;
     :year 2018 .
     :chemistry2018 :hasLaureate :l963 .
     :chemistry2018 :hasLaureate :l964 .
@@ -21,6 +23,7 @@
 :medicine2018 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2018 ;
     :year 2018 .
     :medicine2018 :hasLaureate :l958 .
     :medicine2018 :hasLaureate :l959 .
@@ -29,6 +32,7 @@
 :peace2018 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2018 ;
     :year 2018 .
     :peace2018 :hasLaureate :l966 .
     :peace2018 :hasLaureate :l967 .
@@ -37,6 +41,7 @@
 :economics2018 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2018 ;
     :year 2018 .
     :economics2018 :hasLaureate :l968 .
     :economics2018 :hasLaureate :l969 .
@@ -45,6 +50,7 @@
 :physics2017 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2017 ;
     :year 2017 .
     :physics2017 :hasLaureate :l941 .
     :physics2017 :hasLaureate :l942 .
@@ -54,6 +60,7 @@
 :chemistry2017 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2017 ;
     :year 2017 .
     :chemistry2017 :hasLaureate :l944 .
     :chemistry2017 :hasLaureate :l945 .
@@ -63,6 +70,7 @@
 :medicine2017 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2017 ;
     :year 2017 .
     :medicine2017 :hasLaureate :l938 .
     :medicine2017 :hasLaureate :l939 .
@@ -72,6 +80,7 @@
 :literature2017 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2017 ;
     :year 2017 .
     :literature2017 :hasLaureate :l947 .
     
@@ -79,6 +88,7 @@
 :peace2017 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2017 ;
     :year 2017 .
     :peace2017 :hasLaureate :l948 .
     
@@ -86,6 +96,7 @@
 :economics2017 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2017 ;
     :year 2017 .
     :economics2017 :hasLaureate :l949 .
     
@@ -93,6 +104,7 @@
 :physics2016 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2016 ;
     :year 2016 .
     :physics2016 :hasLaureate :l928 .
     :physics2016 :hasLaureate :l929 .
@@ -102,6 +114,7 @@
 :chemistry2016 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2016 ;
     :year 2016 .
     :chemistry2016 :hasLaureate :l931 .
     :chemistry2016 :hasLaureate :l932 .
@@ -111,6 +124,7 @@
 :medicine2016 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2016 ;
     :year 2016 .
     :medicine2016 :hasLaureate :l927 .
     
@@ -118,6 +132,7 @@
 :literature2016 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2016 ;
     :year 2016 .
     :literature2016 :hasLaureate :l937 .
     
@@ -125,6 +140,7 @@
 :peace2016 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2016 ;
     :year 2016 .
     :peace2016 :hasLaureate :l934 .
     
@@ -132,6 +148,7 @@
 :economics2016 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2016 ;
     :year 2016 .
     :economics2016 :hasLaureate :l935 .
     :economics2016 :hasLaureate :l936 .
@@ -140,6 +157,7 @@
 :physics2015 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2015 ;
     :year 2015 .
     :physics2015 :hasLaureate :l919 .
     :physics2015 :hasLaureate :l920 .
@@ -148,6 +166,7 @@
 :chemistry2015 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2015 ;
     :year 2015 .
     :chemistry2015 :hasLaureate :l921 .
     :chemistry2015 :hasLaureate :l922 .
@@ -157,6 +176,7 @@
 :medicine2015 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2015 ;
     :year 2015 .
     :medicine2015 :hasLaureate :l916 .
     :medicine2015 :hasLaureate :l917 .
@@ -166,6 +186,7 @@
 :literature2015 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2015 ;
     :year 2015 .
     :literature2015 :hasLaureate :l924 .
     
@@ -173,6 +194,7 @@
 :peace2015 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2015 ;
     :year 2015 .
     :peace2015 :hasLaureate :l925 .
     
@@ -180,6 +202,7 @@
 :economics2015 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2015 ;
     :year 2015 .
     :economics2015 :hasLaureate :l926 .
     
@@ -187,6 +210,7 @@
 :physics2014 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2014 ;
     :year 2014 .
     :physics2014 :hasLaureate :l906 .
     :physics2014 :hasLaureate :l907 .
@@ -196,6 +220,7 @@
 :chemistry2014 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2014 ;
     :year 2014 .
     :chemistry2014 :hasLaureate :l909 .
     :chemistry2014 :hasLaureate :l910 .
@@ -205,6 +230,7 @@
 :medicine2014 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2014 ;
     :year 2014 .
     :medicine2014 :hasLaureate :l903 .
     :medicine2014 :hasLaureate :l904 .
@@ -214,6 +240,7 @@
 :literature2014 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2014 ;
     :year 2014 .
     :literature2014 :hasLaureate :l912 .
     
@@ -221,6 +248,7 @@
 :peace2014 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2014 ;
     :year 2014 .
     :peace2014 :hasLaureate :l913 .
     :peace2014 :hasLaureate :l914 .
@@ -229,6 +257,7 @@
 :economics2014 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2014 ;
     :year 2014 .
     :economics2014 :hasLaureate :l915 .
     
@@ -236,6 +265,7 @@
 :physics2013 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2013 ;
     :year 2013 .
     :physics2013 :hasLaureate :l887 .
     :physics2013 :hasLaureate :l888 .
@@ -244,6 +274,7 @@
 :chemistry2013 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2013 ;
     :year 2013 .
     :chemistry2013 :hasLaureate :l889 .
     :chemistry2013 :hasLaureate :l890 .
@@ -253,6 +284,7 @@
 :medicine2013 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2013 ;
     :year 2013 .
     :medicine2013 :hasLaureate :l884 .
     :medicine2013 :hasLaureate :l885 .
@@ -262,6 +294,7 @@
 :literature2013 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2013 ;
     :year 2013 .
     :literature2013 :hasLaureate :l892 .
     
@@ -269,6 +302,7 @@
 :peace2013 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2013 ;
     :year 2013 .
     :peace2013 :hasLaureate :l893 .
     
@@ -276,6 +310,7 @@
 :economics2013 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2013 ;
     :year 2013 .
     :economics2013 :hasLaureate :l894 .
     :economics2013 :hasLaureate :l895 .
@@ -285,6 +320,7 @@
 :physics2012 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2012 ;
     :year 2012 .
     :physics2012 :hasLaureate :l876 .
     :physics2012 :hasLaureate :l877 .
@@ -293,6 +329,7 @@
 :chemistry2012 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2012 ;
     :year 2012 .
     :chemistry2012 :hasLaureate :l878 .
     :chemistry2012 :hasLaureate :l879 .
@@ -301,6 +338,7 @@
 :medicine2012 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2012 ;
     :year 2012 .
     :medicine2012 :hasLaureate :l874 .
     :medicine2012 :hasLaureate :l875 .
@@ -309,6 +347,7 @@
 :literature2012 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2012 ;
     :year 2012 .
     :literature2012 :hasLaureate :l880 .
     
@@ -316,6 +355,7 @@
 :peace2012 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2012 ;
     :year 2012 .
     :peace2012 :hasLaureate :l881 .
     
@@ -323,6 +363,7 @@
 :economics2012 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2012 ;
     :year 2012 .
     :economics2012 :hasLaureate :l882 .
     :economics2012 :hasLaureate :l883 .
@@ -331,6 +372,7 @@
 :physics2011 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2011 ;
     :year 2011 .
     :physics2011 :hasLaureate :l864 .
     :physics2011 :hasLaureate :l865 .
@@ -340,6 +382,7 @@
 :chemistry2011 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2011 ;
     :year 2011 .
     :chemistry2011 :hasLaureate :l867 .
     
@@ -347,6 +390,7 @@
 :medicine2011 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2011 ;
     :year 2011 .
     :medicine2011 :hasLaureate :l861 .
     :medicine2011 :hasLaureate :l862 .
@@ -356,6 +400,7 @@
 :literature2011 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2011 ;
     :year 2011 .
     :literature2011 :hasLaureate :l868 .
     
@@ -363,6 +408,7 @@
 :peace2011 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2011 ;
     :year 2011 .
     :peace2011 :hasLaureate :l869 .
     :peace2011 :hasLaureate :l870 .
@@ -372,6 +418,7 @@
 :economics2011 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2011 ;
     :year 2011 .
     :economics2011 :hasLaureate :l872 .
     :economics2011 :hasLaureate :l873 .
@@ -380,6 +427,7 @@
 :physics2010 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2010 ;
     :year 2010 .
     :physics2010 :hasLaureate :l849 .
     :physics2010 :hasLaureate :l850 .
@@ -388,6 +436,7 @@
 :chemistry2010 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2010 ;
     :year 2010 .
     :chemistry2010 :hasLaureate :l851 .
     :chemistry2010 :hasLaureate :l852 .
@@ -397,6 +446,7 @@
 :medicine2010 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2010 ;
     :year 2010 .
     :medicine2010 :hasLaureate :l848 .
     
@@ -404,6 +454,7 @@
 :literature2010 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2010 ;
     :year 2010 .
     :literature2010 :hasLaureate :l854 .
     
@@ -411,6 +462,7 @@
 :peace2010 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2010 ;
     :year 2010 .
     :peace2010 :hasLaureate :l855 .
     
@@ -418,6 +470,7 @@
 :economics2010 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2010 ;
     :year 2010 .
     :economics2010 :hasLaureate :l856 .
     :economics2010 :hasLaureate :l857 .
@@ -427,6 +480,7 @@
 :physics2009 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2009 ;
     :year 2009 .
     :physics2009 :hasLaureate :l838 .
     :physics2009 :hasLaureate :l839 .
@@ -436,6 +490,7 @@
 :chemistry2009 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2009 ;
     :year 2009 .
     :chemistry2009 :hasLaureate :l841 .
     :chemistry2009 :hasLaureate :l842 .
@@ -445,6 +500,7 @@
 :medicine2009 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2009 ;
     :year 2009 .
     :medicine2009 :hasLaureate :l835 .
     :medicine2009 :hasLaureate :l836 .
@@ -454,6 +510,7 @@
 :literature2009 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2009 ;
     :year 2009 .
     :literature2009 :hasLaureate :l844 .
     
@@ -461,6 +518,7 @@
 :peace2009 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2009 ;
     :year 2009 .
     :peace2009 :hasLaureate :l845 .
     
@@ -468,6 +526,7 @@
 :economics2009 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2009 ;
     :year 2009 .
     :economics2009 :hasLaureate :l846 .
     :economics2009 :hasLaureate :l847 .
@@ -476,6 +535,7 @@
 :physics2008 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2008 ;
     :year 2008 .
     :physics2008 :hasLaureate :l826 .
     :physics2008 :hasLaureate :l827 .
@@ -485,6 +545,7 @@
 :chemistry2008 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2008 ;
     :year 2008 .
     :chemistry2008 :hasLaureate :l829 .
     :chemistry2008 :hasLaureate :l830 .
@@ -494,6 +555,7 @@
 :medicine2008 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2008 ;
     :year 2008 .
     :medicine2008 :hasLaureate :l823 .
     :medicine2008 :hasLaureate :l824 .
@@ -503,6 +565,7 @@
 :literature2008 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2008 ;
     :year 2008 .
     :literature2008 :hasLaureate :l832 .
     
@@ -510,6 +573,7 @@
 :peace2008 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2008 ;
     :year 2008 .
     :peace2008 :hasLaureate :l833 .
     
@@ -517,6 +581,7 @@
 :economics2008 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2008 ;
     :year 2008 .
     :economics2008 :hasLaureate :l834 .
     
@@ -524,6 +589,7 @@
 :physics2007 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2007 ;
     :year 2007 .
     :physics2007 :hasLaureate :l814 .
     :physics2007 :hasLaureate :l815 .
@@ -532,6 +598,7 @@
 :chemistry2007 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2007 ;
     :year 2007 .
     :chemistry2007 :hasLaureate :l816 .
     
@@ -539,6 +606,7 @@
 :medicine2007 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2007 ;
     :year 2007 .
     :medicine2007 :hasLaureate :l811 .
     :medicine2007 :hasLaureate :l812 .
@@ -548,6 +616,7 @@
 :literature2007 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2007 ;
     :year 2007 .
     :literature2007 :hasLaureate :l817 .
     
@@ -555,6 +624,7 @@
 :peace2007 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2007 ;
     :year 2007 .
     :peace2007 :hasLaureate :l818 .
     :peace2007 :hasLaureate :l819 .
@@ -563,6 +633,7 @@
 :economics2007 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2007 ;
     :year 2007 .
     :economics2007 :hasLaureate :l820 .
     :economics2007 :hasLaureate :l821 .
@@ -572,6 +643,7 @@
 :physics2006 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2006 ;
     :year 2006 .
     :physics2006 :hasLaureate :l804 .
     :physics2006 :hasLaureate :l805 .
@@ -580,6 +652,7 @@
 :chemistry2006 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2006 ;
     :year 2006 .
     :chemistry2006 :hasLaureate :l806 .
     
@@ -587,6 +660,7 @@
 :medicine2006 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2006 ;
     :year 2006 .
     :medicine2006 :hasLaureate :l802 .
     :medicine2006 :hasLaureate :l803 .
@@ -595,6 +669,7 @@
 :literature2006 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2006 ;
     :year 2006 .
     :literature2006 :hasLaureate :l808 .
     
@@ -602,6 +677,7 @@
 :peace2006 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2006 ;
     :year 2006 .
     :peace2006 :hasLaureate :l809 .
     :peace2006 :hasLaureate :l810 .
@@ -610,6 +686,7 @@
 :economics2006 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2006 ;
     :year 2006 .
     :economics2006 :hasLaureate :l807 .
     
@@ -617,6 +694,7 @@
 :physics2005 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2005 ;
     :year 2005 .
     :physics2005 :hasLaureate :l791 .
     :physics2005 :hasLaureate :l792 .
@@ -626,6 +704,7 @@
 :chemistry2005 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2005 ;
     :year 2005 .
     :chemistry2005 :hasLaureate :l794 .
     :chemistry2005 :hasLaureate :l795 .
@@ -635,6 +714,7 @@
 :medicine2005 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2005 ;
     :year 2005 .
     :medicine2005 :hasLaureate :l789 .
     :medicine2005 :hasLaureate :l790 .
@@ -643,6 +723,7 @@
 :literature2005 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2005 ;
     :year 2005 .
     :literature2005 :hasLaureate :l801 .
     
@@ -650,6 +731,7 @@
 :peace2005 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2005 ;
     :year 2005 .
     :peace2005 :hasLaureate :l797 .
     :peace2005 :hasLaureate :l798 .
@@ -658,6 +740,7 @@
 :economics2005 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2005 ;
     :year 2005 .
     :economics2005 :hasLaureate :l799 .
     :economics2005 :hasLaureate :l800 .
@@ -666,6 +749,7 @@
 :physics2004 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2004 ;
     :year 2004 .
     :physics2004 :hasLaureate :l776 .
     :physics2004 :hasLaureate :l777 .
@@ -675,6 +759,7 @@
 :chemistry2004 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2004 ;
     :year 2004 .
     :chemistry2004 :hasLaureate :l779 .
     :chemistry2004 :hasLaureate :l780 .
@@ -684,6 +769,7 @@
 :medicine2004 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2004 ;
     :year 2004 .
     :medicine2004 :hasLaureate :l774 .
     :medicine2004 :hasLaureate :l775 .
@@ -692,6 +778,7 @@
 :literature2004 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2004 ;
     :year 2004 .
     :literature2004 :hasLaureate :l782 .
     
@@ -699,6 +786,7 @@
 :peace2004 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2004 ;
     :year 2004 .
     :peace2004 :hasLaureate :l783 .
     
@@ -706,6 +794,7 @@
 :economics2004 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2004 ;
     :year 2004 .
     :economics2004 :hasLaureate :l786 .
     :economics2004 :hasLaureate :l787 .
@@ -714,6 +803,7 @@
 :physics2003 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2003 ;
     :year 2003 .
     :physics2003 :hasLaureate :l766 .
     :physics2003 :hasLaureate :l767 .
@@ -723,6 +813,7 @@
 :chemistry2003 rdf:type owl:NamedIndividual , :Chemistry ;
     :overallMotivation "for discoveries concerning channels in cell membranes" ;
     :category "chemistry" ;
+    :inYear :y2003 ;
     :year 2003 .
     :chemistry2003 :hasLaureate :l769 .
     :chemistry2003 :hasLaureate :l770 .
@@ -731,6 +822,7 @@
 :medicine2003 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2003 ;
     :year 2003 .
     :medicine2003 :hasLaureate :l764 .
     :medicine2003 :hasLaureate :l765 .
@@ -739,6 +831,7 @@
 :literature2003 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2003 ;
     :year 2003 .
     :literature2003 :hasLaureate :l763 .
     
@@ -746,6 +839,7 @@
 :peace2003 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2003 ;
     :year 2003 .
     :peace2003 :hasLaureate :l773 .
     
@@ -753,6 +847,7 @@
 :economics2003 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2003 ;
     :year 2003 .
     :economics2003 :hasLaureate :l771 .
     :economics2003 :hasLaureate :l772 .
@@ -761,6 +856,7 @@
 :physics2002 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2002 ;
     :year 2002 .
     :physics2002 :hasLaureate :l753 .
     :physics2002 :hasLaureate :l754 .
@@ -770,6 +866,7 @@
 :chemistry2002 rdf:type owl:NamedIndividual , :Chemistry ;
     :overallMotivation "for the development of methods for identification and structure analyses of biological macromolecules" ;
     :category "chemistry" ;
+    :inYear :y2002 ;
     :year 2002 .
     :chemistry2002 :hasLaureate :l756 .
     :chemistry2002 :hasLaureate :l757 .
@@ -779,6 +876,7 @@
 :medicine2002 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2002 ;
     :year 2002 .
     :medicine2002 :hasLaureate :l750 .
     :medicine2002 :hasLaureate :l751 .
@@ -788,6 +886,7 @@
 :literature2002 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2002 ;
     :year 2002 .
     :literature2002 :hasLaureate :l761 .
     
@@ -795,6 +894,7 @@
 :peace2002 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2002 ;
     :year 2002 .
     :peace2002 :hasLaureate :l762 .
     
@@ -802,6 +902,7 @@
 :economics2002 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2002 ;
     :year 2002 .
     :economics2002 :hasLaureate :l759 .
     :economics2002 :hasLaureate :l760 .
@@ -810,6 +911,7 @@
 :physics2001 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y2001 ;
     :year 2001 .
     :physics2001 :hasLaureate :l738 .
     :physics2001 :hasLaureate :l739 .
@@ -819,6 +921,7 @@
 :chemistry2001 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2001 ;
     :year 2001 .
     :chemistry2001 :hasLaureate :l741 .
     :chemistry2001 :hasLaureate :l742 .
@@ -828,6 +931,7 @@
 :medicine2001 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2001 ;
     :year 2001 .
     :medicine2001 :hasLaureate :l735 .
     :medicine2001 :hasLaureate :l736 .
@@ -837,6 +941,7 @@
 :literature2001 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2001 ;
     :year 2001 .
     :literature2001 :hasLaureate :l747 .
     
@@ -844,6 +949,7 @@
 :peace2001 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2001 ;
     :year 2001 .
     :peace2001 :hasLaureate :l748 .
     :peace2001 :hasLaureate :l749 .
@@ -852,6 +958,7 @@
 :economics2001 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2001 ;
     :year 2001 .
     :economics2001 :hasLaureate :l744 .
     :economics2001 :hasLaureate :l745 .
@@ -861,6 +968,7 @@
 :physics2000 rdf:type owl:NamedIndividual , :Physics ;
     :overallMotivation "for basic work on information and communication technology" ;
     :category "physics" ;
+    :inYear :y2000 ;
     :year 2000 .
     :physics2000 :hasLaureate :l726 .
     :physics2000 :hasLaureate :l727 .
@@ -870,6 +978,7 @@
 :chemistry2000 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y2000 ;
     :year 2000 .
     :chemistry2000 :hasLaureate :l729 .
     :chemistry2000 :hasLaureate :l730 .
@@ -879,6 +988,7 @@
 :medicine2000 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y2000 ;
     :year 2000 .
     :medicine2000 :hasLaureate :l722 .
     :medicine2000 :hasLaureate :l723 .
@@ -888,6 +998,7 @@
 :literature2000 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y2000 ;
     :year 2000 .
     :literature2000 :hasLaureate :l734 .
     
@@ -895,6 +1006,7 @@
 :peace2000 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y2000 ;
     :year 2000 .
     :peace2000 :hasLaureate :l725 .
     
@@ -902,6 +1014,7 @@
 :economics2000 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y2000 ;
     :year 2000 .
     :economics2000 :hasLaureate :l732 .
     :economics2000 :hasLaureate :l733 .
@@ -910,6 +1023,7 @@
 :physics1999 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1999 ;
     :year 1999 .
     :physics1999 :hasLaureate :l158 .
     :physics1999 :hasLaureate :l159 .
@@ -918,6 +1032,7 @@
 :chemistry1999 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1999 ;
     :year 1999 .
     :chemistry1999 :hasLaureate :l292 .
     
@@ -925,6 +1040,7 @@
 :medicine1999 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1999 ;
     :year 1999 .
     :medicine1999 :hasLaureate :l461 .
     
@@ -932,6 +1048,7 @@
 :literature1999 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1999 ;
     :year 1999 .
     :literature1999 :hasLaureate :l676 .
     
@@ -939,6 +1056,7 @@
 :peace1999 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1999 ;
     :year 1999 .
     :peace1999 :hasLaureate :l568 .
     
@@ -946,6 +1064,7 @@
 :economics1999 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1999 ;
     :year 1999 .
     :economics1999 :hasLaureate :l720 .
     
@@ -953,6 +1072,7 @@
 :physics1998 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1998 ;
     :year 1998 .
     :physics1998 :hasLaureate :l155 .
     :physics1998 :hasLaureate :l156 .
@@ -962,6 +1082,7 @@
 :chemistry1998 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1998 ;
     :year 1998 .
     :chemistry1998 :hasLaureate :l290 .
     :chemistry1998 :hasLaureate :l291 .
@@ -970,6 +1091,7 @@
 :medicine1998 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1998 ;
     :year 1998 .
     :medicine1998 :hasLaureate :l458 .
     :medicine1998 :hasLaureate :l459 .
@@ -979,6 +1101,7 @@
 :literature1998 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1998 ;
     :year 1998 .
     :literature1998 :hasLaureate :l675 .
     
@@ -986,6 +1109,7 @@
 :peace1998 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1998 ;
     :year 1998 .
     :peace1998 :hasLaureate :l566 .
     :peace1998 :hasLaureate :l567 .
@@ -994,6 +1118,7 @@
 :economics1998 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1998 ;
     :year 1998 .
     :economics1998 :hasLaureate :l719 .
     
@@ -1001,6 +1126,7 @@
 :physics1997 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1997 ;
     :year 1997 .
     :physics1997 :hasLaureate :l152 .
     :physics1997 :hasLaureate :l153 .
@@ -1010,6 +1136,7 @@
 :chemistry1997 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1997 ;
     :year 1997 .
     :chemistry1997 :hasLaureate :l287 .
     :chemistry1997 :hasLaureate :l288 .
@@ -1019,6 +1146,7 @@
 :medicine1997 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1997 ;
     :year 1997 .
     :medicine1997 :hasLaureate :l457 .
     
@@ -1026,6 +1154,7 @@
 :literature1997 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1997 ;
     :year 1997 .
     :literature1997 :hasLaureate :l674 .
     
@@ -1033,6 +1162,7 @@
 :peace1997 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1997 ;
     :year 1997 .
     :peace1997 :hasLaureate :l564 .
     :peace1997 :hasLaureate :l565 .
@@ -1041,6 +1171,7 @@
 :economics1997 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1997 ;
     :year 1997 .
     :economics1997 :hasLaureate :l717 .
     :economics1997 :hasLaureate :l718 .
@@ -1049,6 +1180,7 @@
 :physics1996 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1996 ;
     :year 1996 .
     :physics1996 :hasLaureate :l149 .
     :physics1996 :hasLaureate :l150 .
@@ -1058,6 +1190,7 @@
 :chemistry1996 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1996 ;
     :year 1996 .
     :chemistry1996 :hasLaureate :l284 .
     :chemistry1996 :hasLaureate :l285 .
@@ -1067,6 +1200,7 @@
 :medicine1996 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1996 ;
     :year 1996 .
     :medicine1996 :hasLaureate :l455 .
     :medicine1996 :hasLaureate :l456 .
@@ -1075,6 +1209,7 @@
 :literature1996 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1996 ;
     :year 1996 .
     :literature1996 :hasLaureate :l673 .
     
@@ -1082,6 +1217,7 @@
 :peace1996 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1996 ;
     :year 1996 .
     :peace1996 :hasLaureate :l562 .
     :peace1996 :hasLaureate :l563 .
@@ -1090,6 +1226,7 @@
 :economics1996 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1996 ;
     :year 1996 .
     :economics1996 :hasLaureate :l715 .
     :economics1996 :hasLaureate :l716 .
@@ -1098,6 +1235,7 @@
 :physics1995 rdf:type owl:NamedIndividual , :Physics ;
     :overallMotivation "for pioneering experimental contributions to lepton physics" ;
     :category "physics" ;
+    :inYear :y1995 ;
     :year 1995 .
     :physics1995 :hasLaureate :l147 .
     :physics1995 :hasLaureate :l148 .
@@ -1106,6 +1244,7 @@
 :chemistry1995 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1995 ;
     :year 1995 .
     :chemistry1995 :hasLaureate :l281 .
     :chemistry1995 :hasLaureate :l282 .
@@ -1115,6 +1254,7 @@
 :medicine1995 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1995 ;
     :year 1995 .
     :medicine1995 :hasLaureate :l452 .
     :medicine1995 :hasLaureate :l453 .
@@ -1124,6 +1264,7 @@
 :literature1995 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1995 ;
     :year 1995 .
     :literature1995 :hasLaureate :l672 .
     
@@ -1131,6 +1272,7 @@
 :peace1995 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1995 ;
     :year 1995 .
     :peace1995 :hasLaureate :l560 .
     :peace1995 :hasLaureate :l561 .
@@ -1139,6 +1281,7 @@
 :economics1995 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1995 ;
     :year 1995 .
     :economics1995 :hasLaureate :l714 .
     
@@ -1146,6 +1289,7 @@
 :physics1994 rdf:type owl:NamedIndividual , :Physics ;
     :overallMotivation "for pioneering contributions to the development of neutron scattering techniques for studies of condensed matter" ;
     :category "physics" ;
+    :inYear :y1994 ;
     :year 1994 .
     :physics1994 :hasLaureate :l145 .
     :physics1994 :hasLaureate :l146 .
@@ -1154,6 +1298,7 @@
 :chemistry1994 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1994 ;
     :year 1994 .
     :chemistry1994 :hasLaureate :l280 .
     
@@ -1161,6 +1306,7 @@
 :medicine1994 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1994 ;
     :year 1994 .
     :medicine1994 :hasLaureate :l450 .
     :medicine1994 :hasLaureate :l451 .
@@ -1169,6 +1315,7 @@
 :literature1994 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1994 ;
     :year 1994 .
     :literature1994 :hasLaureate :l671 .
     
@@ -1176,6 +1323,7 @@
 :peace1994 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1994 ;
     :year 1994 .
     :peace1994 :hasLaureate :l557 .
     :peace1994 :hasLaureate :l558 .
@@ -1185,6 +1333,7 @@
 :economics1994 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1994 ;
     :year 1994 .
     :economics1994 :hasLaureate :l711 .
     :economics1994 :hasLaureate :l712 .
@@ -1194,6 +1343,7 @@
 :physics1993 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1993 ;
     :year 1993 .
     :physics1993 :hasLaureate :l143 .
     :physics1993 :hasLaureate :l144 .
@@ -1202,6 +1352,7 @@
 :chemistry1993 rdf:type owl:NamedIndividual , :Chemistry ;
     :overallMotivation "for contributions to the developments of methods within DNA-based chemistry" ;
     :category "chemistry" ;
+    :inYear :y1993 ;
     :year 1993 .
     :chemistry1993 :hasLaureate :l278 .
     :chemistry1993 :hasLaureate :l279 .
@@ -1210,6 +1361,7 @@
 :medicine1993 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1993 ;
     :year 1993 .
     :medicine1993 :hasLaureate :l448 .
     :medicine1993 :hasLaureate :l449 .
@@ -1218,6 +1370,7 @@
 :literature1993 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1993 ;
     :year 1993 .
     :literature1993 :hasLaureate :l670 .
     
@@ -1225,6 +1378,7 @@
 :peace1993 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1993 ;
     :year 1993 .
     :peace1993 :hasLaureate :l555 .
     :peace1993 :hasLaureate :l556 .
@@ -1233,6 +1387,7 @@
 :economics1993 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1993 ;
     :year 1993 .
     :economics1993 :hasLaureate :l709 .
     :economics1993 :hasLaureate :l710 .
@@ -1241,6 +1396,7 @@
 :physics1992 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1992 ;
     :year 1992 .
     :physics1992 :hasLaureate :l142 .
     
@@ -1248,6 +1404,7 @@
 :chemistry1992 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1992 ;
     :year 1992 .
     :chemistry1992 :hasLaureate :l277 .
     
@@ -1255,6 +1412,7 @@
 :medicine1992 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1992 ;
     :year 1992 .
     :medicine1992 :hasLaureate :l446 .
     :medicine1992 :hasLaureate :l447 .
@@ -1263,6 +1421,7 @@
 :literature1992 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1992 ;
     :year 1992 .
     :literature1992 :hasLaureate :l669 .
     
@@ -1270,6 +1429,7 @@
 :peace1992 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1992 ;
     :year 1992 .
     :peace1992 :hasLaureate :l554 .
     
@@ -1277,6 +1437,7 @@
 :economics1992 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1992 ;
     :year 1992 .
     :economics1992 :hasLaureate :l708 .
     
@@ -1284,6 +1445,7 @@
 :physics1991 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1991 ;
     :year 1991 .
     :physics1991 :hasLaureate :l141 .
     
@@ -1291,6 +1453,7 @@
 :chemistry1991 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1991 ;
     :year 1991 .
     :chemistry1991 :hasLaureate :l276 .
     
@@ -1298,6 +1461,7 @@
 :medicine1991 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1991 ;
     :year 1991 .
     :medicine1991 :hasLaureate :l444 .
     :medicine1991 :hasLaureate :l445 .
@@ -1306,6 +1470,7 @@
 :literature1991 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1991 ;
     :year 1991 .
     :literature1991 :hasLaureate :l668 .
     
@@ -1313,6 +1478,7 @@
 :peace1991 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1991 ;
     :year 1991 .
     :peace1991 :hasLaureate :l553 .
     
@@ -1320,6 +1486,7 @@
 :economics1991 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1991 ;
     :year 1991 .
     :economics1991 :hasLaureate :l707 .
     
@@ -1327,6 +1494,7 @@
 :physics1990 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1990 ;
     :year 1990 .
     :physics1990 :hasLaureate :l138 .
     :physics1990 :hasLaureate :l139 .
@@ -1336,6 +1504,7 @@
 :chemistry1990 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1990 ;
     :year 1990 .
     :chemistry1990 :hasLaureate :l275 .
     
@@ -1343,6 +1512,7 @@
 :medicine1990 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1990 ;
     :year 1990 .
     :medicine1990 :hasLaureate :l442 .
     :medicine1990 :hasLaureate :l443 .
@@ -1351,6 +1521,7 @@
 :literature1990 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1990 ;
     :year 1990 .
     :literature1990 :hasLaureate :l667 .
     
@@ -1358,6 +1529,7 @@
 :peace1990 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1990 ;
     :year 1990 .
     :peace1990 :hasLaureate :l552 .
     
@@ -1365,6 +1537,7 @@
 :economics1990 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1990 ;
     :year 1990 .
     :economics1990 :hasLaureate :l704 .
     :economics1990 :hasLaureate :l705 .
@@ -1374,6 +1547,7 @@
 :physics1989 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1989 ;
     :year 1989 .
     :physics1989 :hasLaureate :l135 .
     :physics1989 :hasLaureate :l136 .
@@ -1383,6 +1557,7 @@
 :chemistry1989 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1989 ;
     :year 1989 .
     :chemistry1989 :hasLaureate :l273 .
     :chemistry1989 :hasLaureate :l274 .
@@ -1391,6 +1566,7 @@
 :medicine1989 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1989 ;
     :year 1989 .
     :medicine1989 :hasLaureate :l440 .
     :medicine1989 :hasLaureate :l441 .
@@ -1399,6 +1575,7 @@
 :literature1989 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1989 ;
     :year 1989 .
     :literature1989 :hasLaureate :l666 .
     
@@ -1406,6 +1583,7 @@
 :peace1989 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1989 ;
     :year 1989 .
     :peace1989 :hasLaureate :l551 .
     
@@ -1413,6 +1591,7 @@
 :economics1989 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1989 ;
     :year 1989 .
     :economics1989 :hasLaureate :l703 .
     
@@ -1420,6 +1599,7 @@
 :physics1988 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1988 ;
     :year 1988 .
     :physics1988 :hasLaureate :l132 .
     :physics1988 :hasLaureate :l133 .
@@ -1429,6 +1609,7 @@
 :chemistry1988 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1988 ;
     :year 1988 .
     :chemistry1988 :hasLaureate :l270 .
     :chemistry1988 :hasLaureate :l271 .
@@ -1438,6 +1619,7 @@
 :medicine1988 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1988 ;
     :year 1988 .
     :medicine1988 :hasLaureate :l437 .
     :medicine1988 :hasLaureate :l438 .
@@ -1447,6 +1629,7 @@
 :literature1988 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1988 ;
     :year 1988 .
     :literature1988 :hasLaureate :l665 .
     
@@ -1454,6 +1637,7 @@
 :peace1988 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1988 ;
     :year 1988 .
     :peace1988 :hasLaureate :l550 .
     
@@ -1461,6 +1645,7 @@
 :economics1988 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1988 ;
     :year 1988 .
     :economics1988 :hasLaureate :l702 .
     
@@ -1468,6 +1653,7 @@
 :physics1987 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1987 ;
     :year 1987 .
     :physics1987 :hasLaureate :l130 .
     :physics1987 :hasLaureate :l131 .
@@ -1476,6 +1662,7 @@
 :chemistry1987 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1987 ;
     :year 1987 .
     :chemistry1987 :hasLaureate :l267 .
     :chemistry1987 :hasLaureate :l268 .
@@ -1485,6 +1672,7 @@
 :medicine1987 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1987 ;
     :year 1987 .
     :medicine1987 :hasLaureate :l436 .
     
@@ -1492,6 +1680,7 @@
 :literature1987 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1987 ;
     :year 1987 .
     :literature1987 :hasLaureate :l664 .
     
@@ -1499,6 +1688,7 @@
 :peace1987 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1987 ;
     :year 1987 .
     :peace1987 :hasLaureate :l549 .
     
@@ -1506,6 +1696,7 @@
 :economics1987 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1987 ;
     :year 1987 .
     :economics1987 :hasLaureate :l701 .
     
@@ -1513,6 +1704,7 @@
 :physics1986 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1986 ;
     :year 1986 .
     :physics1986 :hasLaureate :l127 .
     :physics1986 :hasLaureate :l128 .
@@ -1522,6 +1714,7 @@
 :chemistry1986 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1986 ;
     :year 1986 .
     :chemistry1986 :hasLaureate :l264 .
     :chemistry1986 :hasLaureate :l265 .
@@ -1531,6 +1724,7 @@
 :medicine1986 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1986 ;
     :year 1986 .
     :medicine1986 :hasLaureate :l434 .
     :medicine1986 :hasLaureate :l435 .
@@ -1539,6 +1733,7 @@
 :literature1986 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1986 ;
     :year 1986 .
     :literature1986 :hasLaureate :l663 .
     
@@ -1546,6 +1741,7 @@
 :peace1986 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1986 ;
     :year 1986 .
     :peace1986 :hasLaureate :l548 .
     
@@ -1553,6 +1749,7 @@
 :economics1986 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1986 ;
     :year 1986 .
     :economics1986 :hasLaureate :l700 .
     
@@ -1560,6 +1757,7 @@
 :physics1985 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1985 ;
     :year 1985 .
     :physics1985 :hasLaureate :l126 .
     
@@ -1567,6 +1765,7 @@
 :chemistry1985 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1985 ;
     :year 1985 .
     :chemistry1985 :hasLaureate :l262 .
     :chemistry1985 :hasLaureate :l263 .
@@ -1575,6 +1774,7 @@
 :medicine1985 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1985 ;
     :year 1985 .
     :medicine1985 :hasLaureate :l432 .
     :medicine1985 :hasLaureate :l433 .
@@ -1583,6 +1783,7 @@
 :literature1985 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1985 ;
     :year 1985 .
     :literature1985 :hasLaureate :l662 .
     
@@ -1590,6 +1791,7 @@
 :peace1985 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1985 ;
     :year 1985 .
     :peace1985 :hasLaureate :l547 .
     
@@ -1597,6 +1799,7 @@
 :economics1985 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1985 ;
     :year 1985 .
     :economics1985 :hasLaureate :l699 .
     
@@ -1604,6 +1807,7 @@
 :physics1984 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1984 ;
     :year 1984 .
     :physics1984 :hasLaureate :l124 .
     :physics1984 :hasLaureate :l125 .
@@ -1612,6 +1816,7 @@
 :chemistry1984 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1984 ;
     :year 1984 .
     :chemistry1984 :hasLaureate :l261 .
     
@@ -1619,6 +1824,7 @@
 :medicine1984 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1984 ;
     :year 1984 .
     :medicine1984 :hasLaureate :l429 .
     :medicine1984 :hasLaureate :l430 .
@@ -1628,6 +1834,7 @@
 :literature1984 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1984 ;
     :year 1984 .
     :literature1984 :hasLaureate :l661 .
     
@@ -1635,6 +1842,7 @@
 :peace1984 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1984 ;
     :year 1984 .
     :peace1984 :hasLaureate :l546 .
     
@@ -1642,6 +1850,7 @@
 :economics1984 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1984 ;
     :year 1984 .
     :economics1984 :hasLaureate :l698 .
     
@@ -1649,6 +1858,7 @@
 :physics1983 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1983 ;
     :year 1983 .
     :physics1983 :hasLaureate :l122 .
     :physics1983 :hasLaureate :l123 .
@@ -1657,6 +1867,7 @@
 :chemistry1983 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1983 ;
     :year 1983 .
     :chemistry1983 :hasLaureate :l260 .
     
@@ -1664,6 +1875,7 @@
 :medicine1983 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1983 ;
     :year 1983 .
     :medicine1983 :hasLaureate :l428 .
     
@@ -1671,6 +1883,7 @@
 :literature1983 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1983 ;
     :year 1983 .
     :literature1983 :hasLaureate :l660 .
     
@@ -1678,6 +1891,7 @@
 :peace1983 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1983 ;
     :year 1983 .
     :peace1983 :hasLaureate :l545 .
     
@@ -1685,6 +1899,7 @@
 :economics1983 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1983 ;
     :year 1983 .
     :economics1983 :hasLaureate :l697 .
     
@@ -1692,6 +1907,7 @@
 :physics1982 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1982 ;
     :year 1982 .
     :physics1982 :hasLaureate :l121 .
     
@@ -1699,6 +1915,7 @@
 :chemistry1982 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1982 ;
     :year 1982 .
     :chemistry1982 :hasLaureate :l259 .
     
@@ -1706,6 +1923,7 @@
 :medicine1982 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1982 ;
     :year 1982 .
     :medicine1982 :hasLaureate :l425 .
     :medicine1982 :hasLaureate :l426 .
@@ -1715,6 +1933,7 @@
 :literature1982 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1982 ;
     :year 1982 .
     :literature1982 :hasLaureate :l659 .
     
@@ -1722,6 +1941,7 @@
 :peace1982 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1982 ;
     :year 1982 .
     :peace1982 :hasLaureate :l543 .
     :peace1982 :hasLaureate :l544 .
@@ -1730,6 +1950,7 @@
 :economics1982 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1982 ;
     :year 1982 .
     :economics1982 :hasLaureate :l696 .
     
@@ -1737,6 +1958,7 @@
 :physics1981 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1981 ;
     :year 1981 .
     :physics1981 :hasLaureate :l118 .
     :physics1981 :hasLaureate :l119 .
@@ -1746,6 +1968,7 @@
 :chemistry1981 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1981 ;
     :year 1981 .
     :chemistry1981 :hasLaureate :l257 .
     :chemistry1981 :hasLaureate :l258 .
@@ -1754,6 +1977,7 @@
 :medicine1981 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1981 ;
     :year 1981 .
     :medicine1981 :hasLaureate :l422 .
     :medicine1981 :hasLaureate :l423 .
@@ -1763,6 +1987,7 @@
 :literature1981 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1981 ;
     :year 1981 .
     :literature1981 :hasLaureate :l658 .
     
@@ -1770,6 +1995,7 @@
 :peace1981 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1981 ;
     :year 1981 .
     :peace1981 :hasLaureate :l515 .
     
@@ -1777,6 +2003,7 @@
 :economics1981 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1981 ;
     :year 1981 .
     :economics1981 :hasLaureate :l695 .
     
@@ -1784,6 +2011,7 @@
 :physics1980 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1980 ;
     :year 1980 .
     :physics1980 :hasLaureate :l116 .
     :physics1980 :hasLaureate :l117 .
@@ -1792,6 +2020,7 @@
 :chemistry1980 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1980 ;
     :year 1980 .
     :chemistry1980 :hasLaureate :l254 .
     :chemistry1980 :hasLaureate :l255 .
@@ -1801,6 +2030,7 @@
 :medicine1980 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1980 ;
     :year 1980 .
     :medicine1980 :hasLaureate :l419 .
     :medicine1980 :hasLaureate :l420 .
@@ -1810,6 +2040,7 @@
 :literature1980 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1980 ;
     :year 1980 .
     :literature1980 :hasLaureate :l657 .
     
@@ -1817,6 +2048,7 @@
 :peace1980 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1980 ;
     :year 1980 .
     :peace1980 :hasLaureate :l541 .
     
@@ -1824,6 +2056,7 @@
 :economics1980 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1980 ;
     :year 1980 .
     :economics1980 :hasLaureate :l694 .
     
@@ -1831,6 +2064,7 @@
 :physics1979 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1979 ;
     :year 1979 .
     :physics1979 :hasLaureate :l113 .
     :physics1979 :hasLaureate :l114 .
@@ -1840,6 +2074,7 @@
 :chemistry1979 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1979 ;
     :year 1979 .
     :chemistry1979 :hasLaureate :l252 .
     :chemistry1979 :hasLaureate :l253 .
@@ -1848,6 +2083,7 @@
 :medicine1979 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1979 ;
     :year 1979 .
     :medicine1979 :hasLaureate :l417 .
     :medicine1979 :hasLaureate :l418 .
@@ -1856,6 +2092,7 @@
 :literature1979 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1979 ;
     :year 1979 .
     :literature1979 :hasLaureate :l655 .
     
@@ -1863,6 +2100,7 @@
 :peace1979 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1979 ;
     :year 1979 .
     :peace1979 :hasLaureate :l540 .
     
@@ -1870,6 +2108,7 @@
 :economics1979 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1979 ;
     :year 1979 .
     :economics1979 :hasLaureate :l692 .
     :economics1979 :hasLaureate :l693 .
@@ -1878,6 +2117,7 @@
 :physics1978 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1978 ;
     :year 1978 .
     :physics1978 :hasLaureate :l110 .
     :physics1978 :hasLaureate :l111 .
@@ -1887,6 +2127,7 @@
 :chemistry1978 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1978 ;
     :year 1978 .
     :chemistry1978 :hasLaureate :l251 .
     
@@ -1894,6 +2135,7 @@
 :medicine1978 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1978 ;
     :year 1978 .
     :medicine1978 :hasLaureate :l414 .
     :medicine1978 :hasLaureate :l415 .
@@ -1903,6 +2145,7 @@
 :literature1978 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1978 ;
     :year 1978 .
     :literature1978 :hasLaureate :l654 .
     
@@ -1910,6 +2153,7 @@
 :peace1978 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1978 ;
     :year 1978 .
     :peace1978 :hasLaureate :l538 .
     :peace1978 :hasLaureate :l539 .
@@ -1918,6 +2162,7 @@
 :economics1978 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1978 ;
     :year 1978 .
     :economics1978 :hasLaureate :l691 .
     
@@ -1925,6 +2170,7 @@
 :physics1977 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1977 ;
     :year 1977 .
     :physics1977 :hasLaureate :l107 .
     :physics1977 :hasLaureate :l108 .
@@ -1934,6 +2180,7 @@
 :chemistry1977 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1977 ;
     :year 1977 .
     :chemistry1977 :hasLaureate :l250 .
     
@@ -1941,6 +2188,7 @@
 :medicine1977 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1977 ;
     :year 1977 .
     :medicine1977 :hasLaureate :l411 .
     :medicine1977 :hasLaureate :l412 .
@@ -1950,6 +2198,7 @@
 :literature1977 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1977 ;
     :year 1977 .
     :literature1977 :hasLaureate :l653 .
     
@@ -1957,6 +2206,7 @@
 :peace1977 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1977 ;
     :year 1977 .
     :peace1977 :hasLaureate :l537 .
     
@@ -1964,6 +2214,7 @@
 :economics1977 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1977 ;
     :year 1977 .
     :economics1977 :hasLaureate :l689 .
     :economics1977 :hasLaureate :l690 .
@@ -1972,6 +2223,7 @@
 :physics1976 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1976 ;
     :year 1976 .
     :physics1976 :hasLaureate :l105 .
     :physics1976 :hasLaureate :l106 .
@@ -1980,6 +2232,7 @@
 :chemistry1976 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1976 ;
     :year 1976 .
     :chemistry1976 :hasLaureate :l249 .
     
@@ -1987,6 +2240,7 @@
 :medicine1976 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1976 ;
     :year 1976 .
     :medicine1976 :hasLaureate :l409 .
     :medicine1976 :hasLaureate :l410 .
@@ -1995,6 +2249,7 @@
 :literature1976 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1976 ;
     :year 1976 .
     :literature1976 :hasLaureate :l652 .
     
@@ -2002,6 +2257,7 @@
 :peace1976 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1976 ;
     :year 1976 .
     :peace1976 :hasLaureate :l535 .
     :peace1976 :hasLaureate :l536 .
@@ -2010,6 +2266,7 @@
 :economics1976 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1976 ;
     :year 1976 .
     :economics1976 :hasLaureate :l688 .
     
@@ -2017,6 +2274,7 @@
 :physics1975 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1975 ;
     :year 1975 .
     :physics1975 :hasLaureate :l102 .
     :physics1975 :hasLaureate :l103 .
@@ -2026,6 +2284,7 @@
 :chemistry1975 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1975 ;
     :year 1975 .
     :chemistry1975 :hasLaureate :l247 .
     :chemistry1975 :hasLaureate :l248 .
@@ -2034,6 +2293,7 @@
 :medicine1975 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1975 ;
     :year 1975 .
     :medicine1975 :hasLaureate :l406 .
     :medicine1975 :hasLaureate :l407 .
@@ -2043,6 +2303,7 @@
 :literature1975 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1975 ;
     :year 1975 .
     :literature1975 :hasLaureate :l651 .
     
@@ -2050,6 +2311,7 @@
 :peace1975 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1975 ;
     :year 1975 .
     :peace1975 :hasLaureate :l534 .
     
@@ -2057,6 +2319,7 @@
 :economics1975 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1975 ;
     :year 1975 .
     :economics1975 :hasLaureate :l686 .
     :economics1975 :hasLaureate :l687 .
@@ -2065,6 +2328,7 @@
 :physics1974 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1974 ;
     :year 1974 .
     :physics1974 :hasLaureate :l100 .
     :physics1974 :hasLaureate :l101 .
@@ -2073,6 +2337,7 @@
 :chemistry1974 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1974 ;
     :year 1974 .
     :chemistry1974 :hasLaureate :l246 .
     
@@ -2080,6 +2345,7 @@
 :medicine1974 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1974 ;
     :year 1974 .
     :medicine1974 :hasLaureate :l403 .
     :medicine1974 :hasLaureate :l404 .
@@ -2089,6 +2355,7 @@
 :literature1974 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1974 ;
     :year 1974 .
     :literature1974 :hasLaureate :l649 .
     :literature1974 :hasLaureate :l650 .
@@ -2097,6 +2364,7 @@
 :peace1974 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1974 ;
     :year 1974 .
     :peace1974 :hasLaureate :l532 .
     :peace1974 :hasLaureate :l533 .
@@ -2105,6 +2373,7 @@
 :economics1974 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1974 ;
     :year 1974 .
     :economics1974 :hasLaureate :l684 .
     :economics1974 :hasLaureate :l685 .
@@ -2113,6 +2382,7 @@
 :physics1973 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1973 ;
     :year 1973 .
     :physics1973 :hasLaureate :l97 .
     :physics1973 :hasLaureate :l98 .
@@ -2122,6 +2392,7 @@
 :chemistry1973 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1973 ;
     :year 1973 .
     :chemistry1973 :hasLaureate :l244 .
     :chemistry1973 :hasLaureate :l245 .
@@ -2130,6 +2401,7 @@
 :medicine1973 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1973 ;
     :year 1973 .
     :medicine1973 :hasLaureate :l400 .
     :medicine1973 :hasLaureate :l401 .
@@ -2139,6 +2411,7 @@
 :literature1973 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1973 ;
     :year 1973 .
     :literature1973 :hasLaureate :l648 .
     
@@ -2146,6 +2419,7 @@
 :peace1973 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1973 ;
     :year 1973 .
     :peace1973 :hasLaureate :l530 .
     :peace1973 :hasLaureate :l531 .
@@ -2154,6 +2428,7 @@
 :economics1973 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1973 ;
     :year 1973 .
     :economics1973 :hasLaureate :l683 .
     
@@ -2161,6 +2436,7 @@
 :physics1972 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1972 ;
     :year 1972 .
     :physics1972 :hasLaureate :l66 .
     :physics1972 :hasLaureate :l95 .
@@ -2170,6 +2446,7 @@
 :chemistry1972 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1972 ;
     :year 1972 .
     :chemistry1972 :hasLaureate :l241 .
     :chemistry1972 :hasLaureate :l242 .
@@ -2179,6 +2456,7 @@
 :medicine1972 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1972 ;
     :year 1972 .
     :medicine1972 :hasLaureate :l398 .
     :medicine1972 :hasLaureate :l399 .
@@ -2187,6 +2465,7 @@
 :literature1972 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1972 ;
     :year 1972 .
     :literature1972 :hasLaureate :l647 .
     
@@ -2194,6 +2473,7 @@
 :economics1972 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1972 ;
     :year 1972 .
     :economics1972 :hasLaureate :l681 .
     :economics1972 :hasLaureate :l682 .
@@ -2202,6 +2482,7 @@
 :physics1971 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1971 ;
     :year 1971 .
     :physics1971 :hasLaureate :l93 .
     
@@ -2209,6 +2490,7 @@
 :chemistry1971 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1971 ;
     :year 1971 .
     :chemistry1971 :hasLaureate :l240 .
     
@@ -2216,6 +2498,7 @@
 :medicine1971 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1971 ;
     :year 1971 .
     :medicine1971 :hasLaureate :l397 .
     
@@ -2223,6 +2506,7 @@
 :literature1971 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1971 ;
     :year 1971 .
     :literature1971 :hasLaureate :l645 .
     
@@ -2230,6 +2514,7 @@
 :peace1971 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1971 ;
     :year 1971 .
     :peace1971 :hasLaureate :l529 .
     
@@ -2237,6 +2522,7 @@
 :economics1971 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1971 ;
     :year 1971 .
     :economics1971 :hasLaureate :l680 .
     
@@ -2244,6 +2530,7 @@
 :physics1970 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1970 ;
     :year 1970 .
     :physics1970 :hasLaureate :l91 .
     :physics1970 :hasLaureate :l92 .
@@ -2252,6 +2539,7 @@
 :chemistry1970 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1970 ;
     :year 1970 .
     :chemistry1970 :hasLaureate :l239 .
     
@@ -2259,6 +2547,7 @@
 :medicine1970 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1970 ;
     :year 1970 .
     :medicine1970 :hasLaureate :l394 .
     :medicine1970 :hasLaureate :l395 .
@@ -2268,6 +2557,7 @@
 :literature1970 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1970 ;
     :year 1970 .
     :literature1970 :hasLaureate :l644 .
     
@@ -2275,6 +2565,7 @@
 :peace1970 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1970 ;
     :year 1970 .
     :peace1970 :hasLaureate :l528 .
     
@@ -2282,6 +2573,7 @@
 :economics1970 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1970 ;
     :year 1970 .
     :economics1970 :hasLaureate :l679 .
     
@@ -2289,6 +2581,7 @@
 :physics1969 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1969 ;
     :year 1969 .
     :physics1969 :hasLaureate :l90 .
     
@@ -2296,6 +2589,7 @@
 :chemistry1969 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1969 ;
     :year 1969 .
     :chemistry1969 :hasLaureate :l237 .
     :chemistry1969 :hasLaureate :l238 .
@@ -2304,6 +2598,7 @@
 :medicine1969 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1969 ;
     :year 1969 .
     :medicine1969 :hasLaureate :l391 .
     :medicine1969 :hasLaureate :l392 .
@@ -2313,6 +2608,7 @@
 :literature1969 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1969 ;
     :year 1969 .
     :literature1969 :hasLaureate :l643 .
     
@@ -2320,6 +2616,7 @@
 :peace1969 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1969 ;
     :year 1969 .
     :peace1969 :hasLaureate :l527 .
     
@@ -2327,6 +2624,7 @@
 :economics1969 rdf:type owl:NamedIndividual , :Economics ;
     
     :category "economics" ;
+    :inYear :y1969 ;
     :year 1969 .
     :economics1969 :hasLaureate :l677 .
     :economics1969 :hasLaureate :l678 .
@@ -2335,6 +2633,7 @@
 :physics1968 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1968 ;
     :year 1968 .
     :physics1968 :hasLaureate :l89 .
     
@@ -2342,6 +2641,7 @@
 :chemistry1968 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1968 ;
     :year 1968 .
     :chemistry1968 :hasLaureate :l236 .
     
@@ -2349,6 +2649,7 @@
 :medicine1968 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1968 ;
     :year 1968 .
     :medicine1968 :hasLaureate :l388 .
     :medicine1968 :hasLaureate :l389 .
@@ -2358,6 +2659,7 @@
 :literature1968 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1968 ;
     :year 1968 .
     :literature1968 :hasLaureate :l642 .
     
@@ -2365,6 +2667,7 @@
 :peace1968 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1968 ;
     :year 1968 .
     :peace1968 :hasLaureate :l526 .
     
@@ -2372,6 +2675,7 @@
 :physics1967 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1967 ;
     :year 1967 .
     :physics1967 :hasLaureate :l88 .
     
@@ -2379,6 +2683,7 @@
 :chemistry1967 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1967 ;
     :year 1967 .
     :chemistry1967 :hasLaureate :l233 .
     :chemistry1967 :hasLaureate :l234 .
@@ -2388,6 +2693,7 @@
 :medicine1967 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1967 ;
     :year 1967 .
     :medicine1967 :hasLaureate :l385 .
     :medicine1967 :hasLaureate :l386 .
@@ -2397,6 +2703,7 @@
 :literature1967 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1967 ;
     :year 1967 .
     :literature1967 :hasLaureate :l641 .
     
@@ -2404,6 +2711,7 @@
 :physics1966 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1966 ;
     :year 1966 .
     :physics1966 :hasLaureate :l87 .
     
@@ -2411,6 +2719,7 @@
 :chemistry1966 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1966 ;
     :year 1966 .
     :chemistry1966 :hasLaureate :l232 .
     
@@ -2418,6 +2727,7 @@
 :medicine1966 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1966 ;
     :year 1966 .
     :medicine1966 :hasLaureate :l383 .
     :medicine1966 :hasLaureate :l384 .
@@ -2426,6 +2736,7 @@
 :literature1966 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1966 ;
     :year 1966 .
     :literature1966 :hasLaureate :l639 .
     :literature1966 :hasLaureate :l640 .
@@ -2434,6 +2745,7 @@
 :physics1965 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1965 ;
     :year 1965 .
     :physics1965 :hasLaureate :l84 .
     :physics1965 :hasLaureate :l85 .
@@ -2443,6 +2755,7 @@
 :chemistry1965 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1965 ;
     :year 1965 .
     :chemistry1965 :hasLaureate :l231 .
     
@@ -2450,6 +2763,7 @@
 :medicine1965 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1965 ;
     :year 1965 .
     :medicine1965 :hasLaureate :l380 .
     :medicine1965 :hasLaureate :l381 .
@@ -2459,6 +2773,7 @@
 :literature1965 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1965 ;
     :year 1965 .
     :literature1965 :hasLaureate :l638 .
     
@@ -2466,6 +2781,7 @@
 :peace1965 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1965 ;
     :year 1965 .
     :peace1965 :hasLaureate :l525 .
     
@@ -2473,6 +2789,7 @@
 :physics1964 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1964 ;
     :year 1964 .
     :physics1964 :hasLaureate :l81 .
     :physics1964 :hasLaureate :l82 .
@@ -2482,6 +2799,7 @@
 :chemistry1964 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1964 ;
     :year 1964 .
     :chemistry1964 :hasLaureate :l230 .
     
@@ -2489,6 +2807,7 @@
 :medicine1964 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1964 ;
     :year 1964 .
     :medicine1964 :hasLaureate :l378 .
     :medicine1964 :hasLaureate :l379 .
@@ -2497,6 +2816,7 @@
 :literature1964 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1964 ;
     :year 1964 .
     :literature1964 :hasLaureate :l637 .
     
@@ -2504,6 +2824,7 @@
 :peace1964 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1964 ;
     :year 1964 .
     :peace1964 :hasLaureate :l524 .
     
@@ -2511,6 +2832,7 @@
 :physics1963 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1963 ;
     :year 1963 .
     :physics1963 :hasLaureate :l78 .
     :physics1963 :hasLaureate :l79 .
@@ -2520,6 +2842,7 @@
 :chemistry1963 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1963 ;
     :year 1963 .
     :chemistry1963 :hasLaureate :l228 .
     :chemistry1963 :hasLaureate :l229 .
@@ -2528,6 +2851,7 @@
 :medicine1963 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1963 ;
     :year 1963 .
     :medicine1963 :hasLaureate :l375 .
     :medicine1963 :hasLaureate :l376 .
@@ -2537,6 +2861,7 @@
 :literature1963 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1963 ;
     :year 1963 .
     :literature1963 :hasLaureate :l635 .
     
@@ -2544,6 +2869,7 @@
 :peace1963 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1963 ;
     :year 1963 .
     :peace1963 :hasLaureate :l482 .
     :peace1963 :hasLaureate :l523 .
@@ -2552,6 +2878,7 @@
 :physics1962 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1962 ;
     :year 1962 .
     :physics1962 :hasLaureate :l77 .
     
@@ -2559,6 +2886,7 @@
 :chemistry1962 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1962 ;
     :year 1962 .
     :chemistry1962 :hasLaureate :l226 .
     :chemistry1962 :hasLaureate :l227 .
@@ -2567,6 +2895,7 @@
 :medicine1962 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1962 ;
     :year 1962 .
     :medicine1962 :hasLaureate :l372 .
     :medicine1962 :hasLaureate :l373 .
@@ -2576,6 +2905,7 @@
 :literature1962 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1962 ;
     :year 1962 .
     :literature1962 :hasLaureate :l634 .
     
@@ -2583,6 +2913,7 @@
 :peace1962 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1962 ;
     :year 1962 .
     :peace1962 :hasLaureate :l217 .
     
@@ -2590,6 +2921,7 @@
 :physics1961 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1961 ;
     :year 1961 .
     :physics1961 :hasLaureate :l75 .
     :physics1961 :hasLaureate :l76 .
@@ -2598,6 +2930,7 @@
 :chemistry1961 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1961 ;
     :year 1961 .
     :chemistry1961 :hasLaureate :l225 .
     
@@ -2605,6 +2938,7 @@
 :medicine1961 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1961 ;
     :year 1961 .
     :medicine1961 :hasLaureate :l371 .
     
@@ -2612,6 +2946,7 @@
 :literature1961 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1961 ;
     :year 1961 .
     :literature1961 :hasLaureate :l633 .
     
@@ -2619,6 +2954,7 @@
 :peace1961 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1961 ;
     :year 1961 .
     :peace1961 :hasLaureate :l520 .
     
@@ -2626,6 +2962,7 @@
 :physics1960 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1960 ;
     :year 1960 .
     :physics1960 :hasLaureate :l74 .
     
@@ -2633,6 +2970,7 @@
 :chemistry1960 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1960 ;
     :year 1960 .
     :chemistry1960 :hasLaureate :l224 .
     
@@ -2640,6 +2978,7 @@
 :medicine1960 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1960 ;
     :year 1960 .
     :medicine1960 :hasLaureate :l369 .
     :medicine1960 :hasLaureate :l370 .
@@ -2648,6 +2987,7 @@
 :literature1960 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1960 ;
     :year 1960 .
     :literature1960 :hasLaureate :l631 .
     
@@ -2655,6 +2995,7 @@
 :peace1960 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1960 ;
     :year 1960 .
     :peace1960 :hasLaureate :l519 .
     
@@ -2662,6 +3003,7 @@
 :physics1959 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1959 ;
     :year 1959 .
     :physics1959 :hasLaureate :l72 .
     :physics1959 :hasLaureate :l73 .
@@ -2670,6 +3012,7 @@
 :chemistry1959 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1959 ;
     :year 1959 .
     :chemistry1959 :hasLaureate :l223 .
     
@@ -2677,6 +3020,7 @@
 :medicine1959 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1959 ;
     :year 1959 .
     :medicine1959 :hasLaureate :l367 .
     :medicine1959 :hasLaureate :l368 .
@@ -2685,6 +3029,7 @@
 :literature1959 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1959 ;
     :year 1959 .
     :literature1959 :hasLaureate :l630 .
     
@@ -2692,6 +3037,7 @@
 :peace1959 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1959 ;
     :year 1959 .
     :peace1959 :hasLaureate :l518 .
     
@@ -2699,6 +3045,7 @@
 :physics1958 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1958 ;
     :year 1958 .
     :physics1958 :hasLaureate :l70 .
     :physics1958 :hasLaureate :l721 .
@@ -2708,6 +3055,7 @@
 :chemistry1958 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1958 ;
     :year 1958 .
     :chemistry1958 :hasLaureate :l222 .
     
@@ -2715,6 +3063,7 @@
 :medicine1958 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1958 ;
     :year 1958 .
     :medicine1958 :hasLaureate :l364 .
     :medicine1958 :hasLaureate :l365 .
@@ -2724,6 +3073,7 @@
 :literature1958 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1958 ;
     :year 1958 .
     :literature1958 :hasLaureate :l629 .
     
@@ -2731,6 +3081,7 @@
 :peace1958 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1958 ;
     :year 1958 .
     :peace1958 :hasLaureate :l517 .
     
@@ -2738,6 +3089,7 @@
 :physics1957 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1957 ;
     :year 1957 .
     :physics1957 :hasLaureate :l68 .
     :physics1957 :hasLaureate :l69 .
@@ -2746,6 +3098,7 @@
 :chemistry1957 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1957 ;
     :year 1957 .
     :chemistry1957 :hasLaureate :l221 .
     
@@ -2753,6 +3106,7 @@
 :medicine1957 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1957 ;
     :year 1957 .
     :medicine1957 :hasLaureate :l363 .
     
@@ -2760,6 +3114,7 @@
 :literature1957 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1957 ;
     :year 1957 .
     :literature1957 :hasLaureate :l628 .
     
@@ -2767,6 +3122,7 @@
 :peace1957 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1957 ;
     :year 1957 .
     :peace1957 :hasLaureate :l516 .
     
@@ -2774,6 +3130,7 @@
 :physics1956 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1956 ;
     :year 1956 .
     :physics1956 :hasLaureate :l65 .
     :physics1956 :hasLaureate :l66 .
@@ -2783,6 +3140,7 @@
 :chemistry1956 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1956 ;
     :year 1956 .
     :chemistry1956 :hasLaureate :l219 .
     :chemistry1956 :hasLaureate :l220 .
@@ -2791,6 +3149,7 @@
 :medicine1956 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1956 ;
     :year 1956 .
     :medicine1956 :hasLaureate :l360 .
     :medicine1956 :hasLaureate :l361 .
@@ -2800,6 +3159,7 @@
 :literature1956 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1956 ;
     :year 1956 .
     :literature1956 :hasLaureate :l627 .
     
@@ -2807,6 +3167,7 @@
 :physics1955 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1955 ;
     :year 1955 .
     :physics1955 :hasLaureate :l63 .
     :physics1955 :hasLaureate :l64 .
@@ -2815,6 +3176,7 @@
 :chemistry1955 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1955 ;
     :year 1955 .
     :chemistry1955 :hasLaureate :l218 .
     
@@ -2822,6 +3184,7 @@
 :medicine1955 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1955 ;
     :year 1955 .
     :medicine1955 :hasLaureate :l359 .
     
@@ -2829,6 +3192,7 @@
 :literature1955 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1955 ;
     :year 1955 .
     :literature1955 :hasLaureate :l626 .
     
@@ -2836,6 +3200,7 @@
 :physics1954 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1954 ;
     :year 1954 .
     :physics1954 :hasLaureate :l61 .
     :physics1954 :hasLaureate :l62 .
@@ -2844,6 +3209,7 @@
 :chemistry1954 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1954 ;
     :year 1954 .
     :chemistry1954 :hasLaureate :l217 .
     
@@ -2851,6 +3217,7 @@
 :medicine1954 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1954 ;
     :year 1954 .
     :medicine1954 :hasLaureate :l356 .
     :medicine1954 :hasLaureate :l357 .
@@ -2860,6 +3227,7 @@
 :literature1954 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1954 ;
     :year 1954 .
     :literature1954 :hasLaureate :l625 .
     
@@ -2867,6 +3235,7 @@
 :peace1954 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1954 ;
     :year 1954 .
     :peace1954 :hasLaureate :l515 .
     
@@ -2874,6 +3243,7 @@
 :physics1953 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1953 ;
     :year 1953 .
     :physics1953 :hasLaureate :l60 .
     
@@ -2881,6 +3251,7 @@
 :chemistry1953 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1953 ;
     :year 1953 .
     :chemistry1953 :hasLaureate :l216 .
     
@@ -2888,6 +3259,7 @@
 :medicine1953 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1953 ;
     :year 1953 .
     :medicine1953 :hasLaureate :l354 .
     :medicine1953 :hasLaureate :l355 .
@@ -2896,6 +3268,7 @@
 :literature1953 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1953 ;
     :year 1953 .
     :literature1953 :hasLaureate :l624 .
     
@@ -2903,6 +3276,7 @@
 :peace1953 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1953 ;
     :year 1953 .
     :peace1953 :hasLaureate :l514 .
     
@@ -2910,6 +3284,7 @@
 :physics1952 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1952 ;
     :year 1952 .
     :physics1952 :hasLaureate :l58 .
     :physics1952 :hasLaureate :l59 .
@@ -2918,6 +3293,7 @@
 :chemistry1952 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1952 ;
     :year 1952 .
     :chemistry1952 :hasLaureate :l214 .
     :chemistry1952 :hasLaureate :l215 .
@@ -2926,6 +3302,7 @@
 :medicine1952 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1952 ;
     :year 1952 .
     :medicine1952 :hasLaureate :l353 .
     
@@ -2933,6 +3310,7 @@
 :literature1952 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1952 ;
     :year 1952 .
     :literature1952 :hasLaureate :l623 .
     
@@ -2940,6 +3318,7 @@
 :peace1952 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1952 ;
     :year 1952 .
     :peace1952 :hasLaureate :l513 .
     
@@ -2947,6 +3326,7 @@
 :physics1951 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1951 ;
     :year 1951 .
     :physics1951 :hasLaureate :l56 .
     :physics1951 :hasLaureate :l57 .
@@ -2955,6 +3335,7 @@
 :chemistry1951 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1951 ;
     :year 1951 .
     :chemistry1951 :hasLaureate :l212 .
     :chemistry1951 :hasLaureate :l213 .
@@ -2963,6 +3344,7 @@
 :medicine1951 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1951 ;
     :year 1951 .
     :medicine1951 :hasLaureate :l352 .
     
@@ -2970,6 +3352,7 @@
 :literature1951 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1951 ;
     :year 1951 .
     :literature1951 :hasLaureate :l622 .
     
@@ -2977,6 +3360,7 @@
 :peace1951 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1951 ;
     :year 1951 .
     :peace1951 :hasLaureate :l512 .
     
@@ -2984,6 +3368,7 @@
 :physics1950 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1950 ;
     :year 1950 .
     :physics1950 :hasLaureate :l55 .
     
@@ -2991,6 +3376,7 @@
 :chemistry1950 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1950 ;
     :year 1950 .
     :chemistry1950 :hasLaureate :l210 .
     :chemistry1950 :hasLaureate :l211 .
@@ -2999,6 +3385,7 @@
 :medicine1950 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1950 ;
     :year 1950 .
     :medicine1950 :hasLaureate :l349 .
     :medicine1950 :hasLaureate :l350 .
@@ -3008,6 +3395,7 @@
 :literature1950 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1950 ;
     :year 1950 .
     :literature1950 :hasLaureate :l621 .
     
@@ -3015,6 +3403,7 @@
 :peace1950 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1950 ;
     :year 1950 .
     :peace1950 :hasLaureate :l511 .
     
@@ -3022,6 +3411,7 @@
 :physics1949 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1949 ;
     :year 1949 .
     :physics1949 :hasLaureate :l54 .
     
@@ -3029,6 +3419,7 @@
 :chemistry1949 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1949 ;
     :year 1949 .
     :chemistry1949 :hasLaureate :l209 .
     
@@ -3036,6 +3427,7 @@
 :medicine1949 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1949 ;
     :year 1949 .
     :medicine1949 :hasLaureate :l347 .
     :medicine1949 :hasLaureate :l348 .
@@ -3044,6 +3436,7 @@
 :literature1949 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1949 ;
     :year 1949 .
     :literature1949 :hasLaureate :l620 .
     
@@ -3051,6 +3444,7 @@
 :peace1949 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1949 ;
     :year 1949 .
     :peace1949 :hasLaureate :l510 .
     
@@ -3058,6 +3452,7 @@
 :physics1948 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1948 ;
     :year 1948 .
     :physics1948 :hasLaureate :l53 .
     
@@ -3065,6 +3460,7 @@
 :chemistry1948 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1948 ;
     :year 1948 .
     :chemistry1948 :hasLaureate :l208 .
     
@@ -3072,6 +3468,7 @@
 :medicine1948 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1948 ;
     :year 1948 .
     :medicine1948 :hasLaureate :l346 .
     
@@ -3079,6 +3476,7 @@
 :literature1948 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1948 ;
     :year 1948 .
     :literature1948 :hasLaureate :l619 .
     
@@ -3086,6 +3484,7 @@
 :physics1947 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1947 ;
     :year 1947 .
     :physics1947 :hasLaureate :l52 .
     
@@ -3093,6 +3492,7 @@
 :chemistry1947 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1947 ;
     :year 1947 .
     :chemistry1947 :hasLaureate :l207 .
     
@@ -3100,6 +3500,7 @@
 :medicine1947 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1947 ;
     :year 1947 .
     :medicine1947 :hasLaureate :l343 .
     :medicine1947 :hasLaureate :l344 .
@@ -3109,6 +3510,7 @@
 :literature1947 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1947 ;
     :year 1947 .
     :literature1947 :hasLaureate :l618 .
     
@@ -3116,6 +3518,7 @@
 :peace1947 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1947 ;
     :year 1947 .
     :peace1947 :hasLaureate :l508 .
     :peace1947 :hasLaureate :l509 .
@@ -3124,6 +3527,7 @@
 :physics1946 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1946 ;
     :year 1946 .
     :physics1946 :hasLaureate :l51 .
     
@@ -3131,6 +3535,7 @@
 :chemistry1946 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1946 ;
     :year 1946 .
     :chemistry1946 :hasLaureate :l204 .
     :chemistry1946 :hasLaureate :l205 .
@@ -3140,6 +3545,7 @@
 :medicine1946 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1946 ;
     :year 1946 .
     :medicine1946 :hasLaureate :l342 .
     
@@ -3147,6 +3553,7 @@
 :literature1946 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1946 ;
     :year 1946 .
     :literature1946 :hasLaureate :l617 .
     
@@ -3154,6 +3561,7 @@
 :peace1946 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1946 ;
     :year 1946 .
     :peace1946 :hasLaureate :l506 .
     :peace1946 :hasLaureate :l507 .
@@ -3162,6 +3570,7 @@
 :physics1945 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1945 ;
     :year 1945 .
     :physics1945 :hasLaureate :l50 .
     
@@ -3169,6 +3578,7 @@
 :chemistry1945 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1945 ;
     :year 1945 .
     :chemistry1945 :hasLaureate :l203 .
     
@@ -3176,6 +3586,7 @@
 :medicine1945 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1945 ;
     :year 1945 .
     :medicine1945 :hasLaureate :l339 .
     :medicine1945 :hasLaureate :l340 .
@@ -3185,6 +3596,7 @@
 :literature1945 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1945 ;
     :year 1945 .
     :literature1945 :hasLaureate :l615 .
     
@@ -3192,6 +3604,7 @@
 :peace1945 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1945 ;
     :year 1945 .
     :peace1945 :hasLaureate :l505 .
     
@@ -3199,6 +3612,7 @@
 :physics1944 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1944 ;
     :year 1944 .
     :physics1944 :hasLaureate :l49 .
     
@@ -3206,6 +3620,7 @@
 :chemistry1944 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1944 ;
     :year 1944 .
     :chemistry1944 :hasLaureate :l202 .
     
@@ -3213,6 +3628,7 @@
 :medicine1944 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1944 ;
     :year 1944 .
     :medicine1944 :hasLaureate :l337 .
     :medicine1944 :hasLaureate :l338 .
@@ -3221,6 +3637,7 @@
 :literature1944 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1944 ;
     :year 1944 .
     :literature1944 :hasLaureate :l614 .
     
@@ -3228,6 +3645,7 @@
 :peace1944 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1944 ;
     :year 1944 .
     :peace1944 :hasLaureate :l482 .
     
@@ -3235,6 +3653,7 @@
 :physics1943 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1943 ;
     :year 1943 .
     :physics1943 :hasLaureate :l48 .
     
@@ -3242,6 +3661,7 @@
 :chemistry1943 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1943 ;
     :year 1943 .
     :chemistry1943 :hasLaureate :l201 .
     
@@ -3249,6 +3669,7 @@
 :medicine1943 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1943 ;
     :year 1943 .
     :medicine1943 :hasLaureate :l335 .
     :medicine1943 :hasLaureate :l336 .
@@ -3257,6 +3678,7 @@
 :physics1939 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1939 ;
     :year 1939 .
     :physics1939 :hasLaureate :l47 .
     
@@ -3264,6 +3686,7 @@
 :chemistry1939 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1939 ;
     :year 1939 .
     :chemistry1939 :hasLaureate :l199 .
     :chemistry1939 :hasLaureate :l200 .
@@ -3272,6 +3695,7 @@
 :medicine1939 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1939 ;
     :year 1939 .
     :medicine1939 :hasLaureate :l334 .
     
@@ -3279,6 +3703,7 @@
 :literature1939 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1939 ;
     :year 1939 .
     :literature1939 :hasLaureate :l613 .
     
@@ -3286,6 +3711,7 @@
 :physics1938 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1938 ;
     :year 1938 .
     :physics1938 :hasLaureate :l46 .
     
@@ -3293,6 +3719,7 @@
 :chemistry1938 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1938 ;
     :year 1938 .
     :chemistry1938 :hasLaureate :l198 .
     
@@ -3300,6 +3727,7 @@
 :medicine1938 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1938 ;
     :year 1938 .
     :medicine1938 :hasLaureate :l333 .
     
@@ -3307,6 +3735,7 @@
 :literature1938 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1938 ;
     :year 1938 .
     :literature1938 :hasLaureate :l610 .
     
@@ -3314,6 +3743,7 @@
 :peace1938 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1938 ;
     :year 1938 .
     :peace1938 :hasLaureate :l503 .
     
@@ -3321,6 +3751,7 @@
 :physics1937 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1937 ;
     :year 1937 .
     :physics1937 :hasLaureate :l44 .
     :physics1937 :hasLaureate :l45 .
@@ -3329,6 +3760,7 @@
 :chemistry1937 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1937 ;
     :year 1937 .
     :chemistry1937 :hasLaureate :l196 .
     :chemistry1937 :hasLaureate :l197 .
@@ -3337,6 +3769,7 @@
 :medicine1937 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1937 ;
     :year 1937 .
     :medicine1937 :hasLaureate :l332 .
     
@@ -3344,6 +3777,7 @@
 :literature1937 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1937 ;
     :year 1937 .
     :literature1937 :hasLaureate :l609 .
     
@@ -3351,6 +3785,7 @@
 :peace1937 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1937 ;
     :year 1937 .
     :peace1937 :hasLaureate :l502 .
     
@@ -3358,6 +3793,7 @@
 :physics1936 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1936 ;
     :year 1936 .
     :physics1936 :hasLaureate :l42 .
     :physics1936 :hasLaureate :l43 .
@@ -3366,6 +3802,7 @@
 :chemistry1936 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1936 ;
     :year 1936 .
     :chemistry1936 :hasLaureate :l195 .
     
@@ -3373,6 +3810,7 @@
 :medicine1936 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1936 ;
     :year 1936 .
     :medicine1936 :hasLaureate :l330 .
     :medicine1936 :hasLaureate :l331 .
@@ -3381,6 +3819,7 @@
 :literature1936 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1936 ;
     :year 1936 .
     :literature1936 :hasLaureate :l608 .
     
@@ -3388,6 +3827,7 @@
 :peace1936 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1936 ;
     :year 1936 .
     :peace1936 :hasLaureate :l501 .
     
@@ -3395,6 +3835,7 @@
 :physics1935 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1935 ;
     :year 1935 .
     :physics1935 :hasLaureate :l41 .
     
@@ -3402,6 +3843,7 @@
 :chemistry1935 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1935 ;
     :year 1935 .
     :chemistry1935 :hasLaureate :l193 .
     :chemistry1935 :hasLaureate :l194 .
@@ -3410,6 +3852,7 @@
 :medicine1935 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1935 ;
     :year 1935 .
     :medicine1935 :hasLaureate :l329 .
     
@@ -3417,6 +3860,7 @@
 :peace1935 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1935 ;
     :year 1935 .
     :peace1935 :hasLaureate :l500 .
     
@@ -3424,6 +3868,7 @@
 :chemistry1934 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1934 ;
     :year 1934 .
     :chemistry1934 :hasLaureate :l192 .
     
@@ -3431,6 +3876,7 @@
 :medicine1934 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1934 ;
     :year 1934 .
     :medicine1934 :hasLaureate :l326 .
     :medicine1934 :hasLaureate :l327 .
@@ -3440,6 +3886,7 @@
 :literature1934 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1934 ;
     :year 1934 .
     :literature1934 :hasLaureate :l607 .
     
@@ -3447,6 +3894,7 @@
 :peace1934 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1934 ;
     :year 1934 .
     :peace1934 :hasLaureate :l499 .
     
@@ -3454,6 +3902,7 @@
 :physics1933 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1933 ;
     :year 1933 .
     :physics1933 :hasLaureate :l39 .
     :physics1933 :hasLaureate :l40 .
@@ -3462,6 +3911,7 @@
 :medicine1933 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1933 ;
     :year 1933 .
     :medicine1933 :hasLaureate :l325 .
     
@@ -3469,6 +3919,7 @@
 :literature1933 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1933 ;
     :year 1933 .
     :literature1933 :hasLaureate :l606 .
     
@@ -3476,6 +3927,7 @@
 :peace1933 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1933 ;
     :year 1933 .
     :peace1933 :hasLaureate :l498 .
     
@@ -3483,6 +3935,7 @@
 :physics1932 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1932 ;
     :year 1932 .
     :physics1932 :hasLaureate :l38 .
     
@@ -3490,6 +3943,7 @@
 :chemistry1932 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1932 ;
     :year 1932 .
     :chemistry1932 :hasLaureate :l191 .
     
@@ -3497,6 +3951,7 @@
 :medicine1932 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1932 ;
     :year 1932 .
     :medicine1932 :hasLaureate :l323 .
     :medicine1932 :hasLaureate :l324 .
@@ -3505,6 +3960,7 @@
 :literature1932 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1932 ;
     :year 1932 .
     :literature1932 :hasLaureate :l605 .
     
@@ -3512,6 +3968,7 @@
 :chemistry1931 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1931 ;
     :year 1931 .
     :chemistry1931 :hasLaureate :l189 .
     :chemistry1931 :hasLaureate :l190 .
@@ -3520,6 +3977,7 @@
 :medicine1931 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1931 ;
     :year 1931 .
     :medicine1931 :hasLaureate :l322 .
     
@@ -3527,6 +3985,7 @@
 :literature1931 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1931 ;
     :year 1931 .
     :literature1931 :hasLaureate :l604 .
     
@@ -3534,6 +3993,7 @@
 :peace1931 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1931 ;
     :year 1931 .
     :peace1931 :hasLaureate :l496 .
     :peace1931 :hasLaureate :l497 .
@@ -3542,6 +4002,7 @@
 :physics1930 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1930 ;
     :year 1930 .
     :physics1930 :hasLaureate :l37 .
     
@@ -3549,6 +4010,7 @@
 :chemistry1930 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1930 ;
     :year 1930 .
     :chemistry1930 :hasLaureate :l188 .
     
@@ -3556,6 +4018,7 @@
 :medicine1930 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1930 ;
     :year 1930 .
     :medicine1930 :hasLaureate :l321 .
     
@@ -3563,6 +4026,7 @@
 :literature1930 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1930 ;
     :year 1930 .
     :literature1930 :hasLaureate :l603 .
     
@@ -3570,6 +4034,7 @@
 :peace1930 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1930 ;
     :year 1930 .
     :peace1930 :hasLaureate :l495 .
     
@@ -3577,6 +4042,7 @@
 :physics1929 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1929 ;
     :year 1929 .
     :physics1929 :hasLaureate :l36 .
     
@@ -3584,6 +4050,7 @@
 :chemistry1929 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1929 ;
     :year 1929 .
     :chemistry1929 :hasLaureate :l186 .
     :chemistry1929 :hasLaureate :l187 .
@@ -3592,6 +4059,7 @@
 :medicine1929 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1929 ;
     :year 1929 .
     :medicine1929 :hasLaureate :l319 .
     :medicine1929 :hasLaureate :l320 .
@@ -3600,6 +4068,7 @@
 :literature1929 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1929 ;
     :year 1929 .
     :literature1929 :hasLaureate :l602 .
     
@@ -3607,6 +4076,7 @@
 :peace1929 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1929 ;
     :year 1929 .
     :peace1929 :hasLaureate :l494 .
     
@@ -3614,6 +4084,7 @@
 :physics1928 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1928 ;
     :year 1928 .
     :physics1928 :hasLaureate :l35 .
     
@@ -3621,6 +4092,7 @@
 :chemistry1928 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1928 ;
     :year 1928 .
     :chemistry1928 :hasLaureate :l185 .
     
@@ -3628,6 +4100,7 @@
 :medicine1928 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1928 ;
     :year 1928 .
     :medicine1928 :hasLaureate :l318 .
     
@@ -3635,6 +4108,7 @@
 :literature1928 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1928 ;
     :year 1928 .
     :literature1928 :hasLaureate :l601 .
     
@@ -3642,6 +4116,7 @@
 :physics1927 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1927 ;
     :year 1927 .
     :physics1927 :hasLaureate :l33 .
     :physics1927 :hasLaureate :l34 .
@@ -3650,6 +4125,7 @@
 :chemistry1927 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1927 ;
     :year 1927 .
     :chemistry1927 :hasLaureate :l184 .
     
@@ -3657,6 +4133,7 @@
 :medicine1927 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1927 ;
     :year 1927 .
     :medicine1927 :hasLaureate :l317 .
     
@@ -3664,6 +4141,7 @@
 :literature1927 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1927 ;
     :year 1927 .
     :literature1927 :hasLaureate :l600 .
     
@@ -3671,6 +4149,7 @@
 :peace1927 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1927 ;
     :year 1927 .
     :peace1927 :hasLaureate :l492 .
     :peace1927 :hasLaureate :l493 .
@@ -3679,6 +4158,7 @@
 :physics1926 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1926 ;
     :year 1926 .
     :physics1926 :hasLaureate :l32 .
     
@@ -3686,6 +4166,7 @@
 :chemistry1926 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1926 ;
     :year 1926 .
     :chemistry1926 :hasLaureate :l183 .
     
@@ -3693,6 +4174,7 @@
 :medicine1926 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1926 ;
     :year 1926 .
     :medicine1926 :hasLaureate :l316 .
     
@@ -3700,6 +4182,7 @@
 :literature1926 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1926 ;
     :year 1926 .
     :literature1926 :hasLaureate :l597 .
     
@@ -3707,6 +4190,7 @@
 :peace1926 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1926 ;
     :year 1926 .
     :peace1926 :hasLaureate :l490 .
     :peace1926 :hasLaureate :l491 .
@@ -3715,6 +4199,7 @@
 :physics1925 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1925 ;
     :year 1925 .
     :physics1925 :hasLaureate :l30 .
     :physics1925 :hasLaureate :l31 .
@@ -3723,6 +4208,7 @@
 :chemistry1925 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1925 ;
     :year 1925 .
     :chemistry1925 :hasLaureate :l182 .
     
@@ -3730,6 +4216,7 @@
 :literature1925 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1925 ;
     :year 1925 .
     :literature1925 :hasLaureate :l596 .
     
@@ -3737,6 +4224,7 @@
 :peace1925 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1925 ;
     :year 1925 .
     :peace1925 :hasLaureate :l488 .
     :peace1925 :hasLaureate :l489 .
@@ -3745,6 +4233,7 @@
 :physics1924 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1924 ;
     :year 1924 .
     :physics1924 :hasLaureate :l29 .
     
@@ -3752,6 +4241,7 @@
 :medicine1924 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1924 ;
     :year 1924 .
     :medicine1924 :hasLaureate :l315 .
     
@@ -3759,6 +4249,7 @@
 :literature1924 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1924 ;
     :year 1924 .
     :literature1924 :hasLaureate :l594 .
     
@@ -3766,6 +4257,7 @@
 :physics1923 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1923 ;
     :year 1923 .
     :physics1923 :hasLaureate :l28 .
     
@@ -3773,6 +4265,7 @@
 :chemistry1923 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1923 ;
     :year 1923 .
     :chemistry1923 :hasLaureate :l181 .
     
@@ -3780,6 +4273,7 @@
 :medicine1923 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1923 ;
     :year 1923 .
     :medicine1923 :hasLaureate :l313 .
     :medicine1923 :hasLaureate :l314 .
@@ -3788,6 +4282,7 @@
 :literature1923 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1923 ;
     :year 1923 .
     :literature1923 :hasLaureate :l593 .
     
@@ -3795,6 +4290,7 @@
 :physics1922 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1922 ;
     :year 1922 .
     :physics1922 :hasLaureate :l27 .
     
@@ -3802,6 +4298,7 @@
 :chemistry1922 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1922 ;
     :year 1922 .
     :chemistry1922 :hasLaureate :l180 .
     
@@ -3809,6 +4306,7 @@
 :medicine1922 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1922 ;
     :year 1922 .
     :medicine1922 :hasLaureate :l311 .
     :medicine1922 :hasLaureate :l312 .
@@ -3817,6 +4315,7 @@
 :literature1922 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1922 ;
     :year 1922 .
     :literature1922 :hasLaureate :l592 .
     
@@ -3824,6 +4323,7 @@
 :peace1922 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1922 ;
     :year 1922 .
     :peace1922 :hasLaureate :l487 .
     
@@ -3831,6 +4331,7 @@
 :physics1921 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1921 ;
     :year 1921 .
     :physics1921 :hasLaureate :l26 .
     
@@ -3838,6 +4339,7 @@
 :chemistry1921 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1921 ;
     :year 1921 .
     :chemistry1921 :hasLaureate :l179 .
     
@@ -3845,6 +4347,7 @@
 :literature1921 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1921 ;
     :year 1921 .
     :literature1921 :hasLaureate :l590 .
     
@@ -3852,6 +4355,7 @@
 :peace1921 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1921 ;
     :year 1921 .
     :peace1921 :hasLaureate :l485 .
     :peace1921 :hasLaureate :l486 .
@@ -3860,6 +4364,7 @@
 :physics1920 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1920 ;
     :year 1920 .
     :physics1920 :hasLaureate :l25 .
     
@@ -3867,6 +4372,7 @@
 :chemistry1920 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1920 ;
     :year 1920 .
     :chemistry1920 :hasLaureate :l178 .
     
@@ -3874,6 +4380,7 @@
 :medicine1920 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1920 ;
     :year 1920 .
     :medicine1920 :hasLaureate :l310 .
     
@@ -3881,6 +4388,7 @@
 :literature1920 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1920 ;
     :year 1920 .
     :literature1920 :hasLaureate :l589 .
     
@@ -3888,6 +4396,7 @@
 :peace1920 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1920 ;
     :year 1920 .
     :peace1920 :hasLaureate :l484 .
     
@@ -3895,6 +4404,7 @@
 :physics1919 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1919 ;
     :year 1919 .
     :physics1919 :hasLaureate :l24 .
     
@@ -3902,6 +4412,7 @@
 :medicine1919 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1919 ;
     :year 1919 .
     :medicine1919 :hasLaureate :l309 .
     
@@ -3909,6 +4420,7 @@
 :literature1919 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1919 ;
     :year 1919 .
     :literature1919 :hasLaureate :l588 .
     
@@ -3916,6 +4428,7 @@
 :peace1919 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1919 ;
     :year 1919 .
     :peace1919 :hasLaureate :l483 .
     
@@ -3923,6 +4436,7 @@
 :physics1918 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1918 ;
     :year 1918 .
     :physics1918 :hasLaureate :l23 .
     
@@ -3930,6 +4444,7 @@
 :chemistry1918 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1918 ;
     :year 1918 .
     :chemistry1918 :hasLaureate :l177 .
     
@@ -3937,6 +4452,7 @@
 :physics1917 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1917 ;
     :year 1917 .
     :physics1917 :hasLaureate :l22 .
     
@@ -3944,6 +4460,7 @@
 :literature1917 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1917 ;
     :year 1917 .
     :literature1917 :hasLaureate :l586 .
     :literature1917 :hasLaureate :l587 .
@@ -3952,6 +4469,7 @@
 :peace1917 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1917 ;
     :year 1917 .
     :peace1917 :hasLaureate :l482 .
     
@@ -3959,6 +4477,7 @@
 :literature1916 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1916 ;
     :year 1916 .
     :literature1916 :hasLaureate :l585 .
     
@@ -3966,6 +4485,7 @@
 :physics1915 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1915 ;
     :year 1915 .
     :physics1915 :hasLaureate :l20 .
     :physics1915 :hasLaureate :l21 .
@@ -3974,6 +4494,7 @@
 :chemistry1915 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1915 ;
     :year 1915 .
     :chemistry1915 :hasLaureate :l176 .
     
@@ -3981,6 +4502,7 @@
 :literature1915 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1915 ;
     :year 1915 .
     :literature1915 :hasLaureate :l584 .
     
@@ -3988,6 +4510,7 @@
 :physics1914 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1914 ;
     :year 1914 .
     :physics1914 :hasLaureate :l19 .
     
@@ -3995,6 +4518,7 @@
 :chemistry1914 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1914 ;
     :year 1914 .
     :chemistry1914 :hasLaureate :l175 .
     
@@ -4002,6 +4526,7 @@
 :medicine1914 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1914 ;
     :year 1914 .
     :medicine1914 :hasLaureate :l308 .
     
@@ -4009,6 +4534,7 @@
 :physics1913 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1913 ;
     :year 1913 .
     :physics1913 :hasLaureate :l18 .
     
@@ -4016,6 +4542,7 @@
 :chemistry1913 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1913 ;
     :year 1913 .
     :chemistry1913 :hasLaureate :l174 .
     
@@ -4023,6 +4550,7 @@
 :medicine1913 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1913 ;
     :year 1913 .
     :medicine1913 :hasLaureate :l307 .
     
@@ -4030,6 +4558,7 @@
 :literature1913 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1913 ;
     :year 1913 .
     :literature1913 :hasLaureate :l583 .
     
@@ -4037,6 +4566,7 @@
 :peace1913 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1913 ;
     :year 1913 .
     :peace1913 :hasLaureate :l481 .
     
@@ -4044,6 +4574,7 @@
 :physics1912 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1912 ;
     :year 1912 .
     :physics1912 :hasLaureate :l17 .
     
@@ -4051,6 +4582,7 @@
 :chemistry1912 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1912 ;
     :year 1912 .
     :chemistry1912 :hasLaureate :l172 .
     :chemistry1912 :hasLaureate :l173 .
@@ -4059,6 +4591,7 @@
 :medicine1912 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1912 ;
     :year 1912 .
     :medicine1912 :hasLaureate :l306 .
     
@@ -4066,6 +4599,7 @@
 :literature1912 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1912 ;
     :year 1912 .
     :literature1912 :hasLaureate :l582 .
     
@@ -4073,6 +4607,7 @@
 :peace1912 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1912 ;
     :year 1912 .
     :peace1912 :hasLaureate :l480 .
     
@@ -4080,6 +4615,7 @@
 :physics1911 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1911 ;
     :year 1911 .
     :physics1911 :hasLaureate :l16 .
     
@@ -4087,6 +4623,7 @@
 :chemistry1911 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1911 ;
     :year 1911 .
     :chemistry1911 :hasLaureate :l6 .
     
@@ -4094,6 +4631,7 @@
 :medicine1911 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1911 ;
     :year 1911 .
     :medicine1911 :hasLaureate :l305 .
     
@@ -4101,6 +4639,7 @@
 :literature1911 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1911 ;
     :year 1911 .
     :literature1911 :hasLaureate :l581 .
     
@@ -4108,6 +4647,7 @@
 :peace1911 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1911 ;
     :year 1911 .
     :peace1911 :hasLaureate :l478 .
     :peace1911 :hasLaureate :l479 .
@@ -4116,6 +4656,7 @@
 :physics1910 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1910 ;
     :year 1910 .
     :physics1910 :hasLaureate :l15 .
     
@@ -4123,6 +4664,7 @@
 :chemistry1910 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1910 ;
     :year 1910 .
     :chemistry1910 :hasLaureate :l169 .
     
@@ -4130,6 +4672,7 @@
 :medicine1910 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1910 ;
     :year 1910 .
     :medicine1910 :hasLaureate :l304 .
     
@@ -4137,6 +4680,7 @@
 :literature1910 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1910 ;
     :year 1910 .
     :literature1910 :hasLaureate :l580 .
     
@@ -4144,6 +4688,7 @@
 :peace1910 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1910 ;
     :year 1910 .
     :peace1910 :hasLaureate :l477 .
     
@@ -4151,6 +4696,7 @@
 :physics1909 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1909 ;
     :year 1909 .
     :physics1909 :hasLaureate :l13 .
     :physics1909 :hasLaureate :l14 .
@@ -4159,6 +4705,7 @@
 :chemistry1909 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1909 ;
     :year 1909 .
     :chemistry1909 :hasLaureate :l168 .
     
@@ -4166,6 +4713,7 @@
 :medicine1909 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1909 ;
     :year 1909 .
     :medicine1909 :hasLaureate :l303 .
     
@@ -4173,6 +4721,7 @@
 :literature1909 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1909 ;
     :year 1909 .
     :literature1909 :hasLaureate :l579 .
     
@@ -4180,6 +4729,7 @@
 :peace1909 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1909 ;
     :year 1909 .
     :peace1909 :hasLaureate :l475 .
     :peace1909 :hasLaureate :l476 .
@@ -4188,6 +4738,7 @@
 :physics1908 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1908 ;
     :year 1908 .
     :physics1908 :hasLaureate :l12 .
     
@@ -4195,6 +4746,7 @@
 :chemistry1908 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1908 ;
     :year 1908 .
     :chemistry1908 :hasLaureate :l167 .
     
@@ -4202,6 +4754,7 @@
 :medicine1908 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1908 ;
     :year 1908 .
     :medicine1908 :hasLaureate :l301 .
     :medicine1908 :hasLaureate :l302 .
@@ -4210,6 +4763,7 @@
 :literature1908 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1908 ;
     :year 1908 .
     :literature1908 :hasLaureate :l578 .
     
@@ -4217,6 +4771,7 @@
 :peace1908 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1908 ;
     :year 1908 .
     :peace1908 :hasLaureate :l473 .
     :peace1908 :hasLaureate :l474 .
@@ -4225,6 +4780,7 @@
 :physics1907 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1907 ;
     :year 1907 .
     :physics1907 :hasLaureate :l11 .
     
@@ -4232,6 +4788,7 @@
 :chemistry1907 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1907 ;
     :year 1907 .
     :chemistry1907 :hasLaureate :l166 .
     
@@ -4239,6 +4796,7 @@
 :medicine1907 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1907 ;
     :year 1907 .
     :medicine1907 :hasLaureate :l300 .
     
@@ -4246,6 +4804,7 @@
 :literature1907 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1907 ;
     :year 1907 .
     :literature1907 :hasLaureate :l577 .
     
@@ -4253,6 +4812,7 @@
 :peace1907 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1907 ;
     :year 1907 .
     :peace1907 :hasLaureate :l471 .
     :peace1907 :hasLaureate :l472 .
@@ -4261,6 +4821,7 @@
 :physics1906 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1906 ;
     :year 1906 .
     :physics1906 :hasLaureate :l10 .
     
@@ -4268,6 +4829,7 @@
 :chemistry1906 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1906 ;
     :year 1906 .
     :chemistry1906 :hasLaureate :l165 .
     
@@ -4275,6 +4837,7 @@
 :medicine1906 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1906 ;
     :year 1906 .
     :medicine1906 :hasLaureate :l298 .
     :medicine1906 :hasLaureate :l299 .
@@ -4283,6 +4846,7 @@
 :literature1906 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1906 ;
     :year 1906 .
     :literature1906 :hasLaureate :l576 .
     
@@ -4290,6 +4854,7 @@
 :peace1906 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1906 ;
     :year 1906 .
     :peace1906 :hasLaureate :l470 .
     
@@ -4297,6 +4862,7 @@
 :physics1905 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1905 ;
     :year 1905 .
     :physics1905 :hasLaureate :l9 .
     
@@ -4304,6 +4870,7 @@
 :chemistry1905 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1905 ;
     :year 1905 .
     :chemistry1905 :hasLaureate :l164 .
     
@@ -4311,6 +4878,7 @@
 :medicine1905 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1905 ;
     :year 1905 .
     :medicine1905 :hasLaureate :l297 .
     
@@ -4318,6 +4886,7 @@
 :literature1905 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1905 ;
     :year 1905 .
     :literature1905 :hasLaureate :l575 .
     
@@ -4325,6 +4894,7 @@
 :peace1905 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1905 ;
     :year 1905 .
     :peace1905 :hasLaureate :l468 .
     
@@ -4332,6 +4902,7 @@
 :physics1904 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1904 ;
     :year 1904 .
     :physics1904 :hasLaureate :l8 .
     
@@ -4339,6 +4910,7 @@
 :chemistry1904 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1904 ;
     :year 1904 .
     :chemistry1904 :hasLaureate :l163 .
     
@@ -4346,6 +4918,7 @@
 :medicine1904 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1904 ;
     :year 1904 .
     :medicine1904 :hasLaureate :l296 .
     
@@ -4353,6 +4926,7 @@
 :literature1904 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1904 ;
     :year 1904 .
     :literature1904 :hasLaureate :l573 .
     :literature1904 :hasLaureate :l574 .
@@ -4361,6 +4935,7 @@
 :peace1904 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1904 ;
     :year 1904 .
     :peace1904 :hasLaureate :l467 .
     
@@ -4368,6 +4943,7 @@
 :physics1903 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1903 ;
     :year 1903 .
     :physics1903 :hasLaureate :l4 .
     :physics1903 :hasLaureate :l5 .
@@ -4377,6 +4953,7 @@
 :chemistry1903 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1903 ;
     :year 1903 .
     :chemistry1903 :hasLaureate :l162 .
     
@@ -4384,6 +4961,7 @@
 :medicine1903 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1903 ;
     :year 1903 .
     :medicine1903 :hasLaureate :l295 .
     
@@ -4391,6 +4969,7 @@
 :literature1903 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1903 ;
     :year 1903 .
     :literature1903 :hasLaureate :l572 .
     
@@ -4398,6 +4977,7 @@
 :peace1903 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1903 ;
     :year 1903 .
     :peace1903 :hasLaureate :l466 .
     
@@ -4405,6 +4985,7 @@
 :physics1902 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1902 ;
     :year 1902 .
     :physics1902 :hasLaureate :l2 .
     :physics1902 :hasLaureate :l3 .
@@ -4413,6 +4994,7 @@
 :chemistry1902 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1902 ;
     :year 1902 .
     :chemistry1902 :hasLaureate :l161 .
     
@@ -4420,6 +5002,7 @@
 :medicine1902 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1902 ;
     :year 1902 .
     :medicine1902 :hasLaureate :l294 .
     
@@ -4427,6 +5010,7 @@
 :literature1902 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1902 ;
     :year 1902 .
     :literature1902 :hasLaureate :l571 .
     
@@ -4434,6 +5018,7 @@
 :peace1902 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1902 ;
     :year 1902 .
     :peace1902 :hasLaureate :l464 .
     :peace1902 :hasLaureate :l465 .
@@ -4442,6 +5027,7 @@
 :physics1901 rdf:type owl:NamedIndividual , :Physics ;
     
     :category "physics" ;
+    :inYear :y1901 ;
     :year 1901 .
     :physics1901 :hasLaureate :l1 .
     
@@ -4449,6 +5035,7 @@
 :chemistry1901 rdf:type owl:NamedIndividual , :Chemistry ;
     
     :category "chemistry" ;
+    :inYear :y1901 ;
     :year 1901 .
     :chemistry1901 :hasLaureate :l160 .
     
@@ -4456,6 +5043,7 @@
 :medicine1901 rdf:type owl:NamedIndividual , :Medicine ;
     
     :category "medicine" ;
+    :inYear :y1901 ;
     :year 1901 .
     :medicine1901 :hasLaureate :l293 .
     
@@ -4463,6 +5051,7 @@
 :literature1901 rdf:type owl:NamedIndividual , :Literature ;
     
     :category "literature" ;
+    :inYear :y1901 ;
     :year 1901 .
     :literature1901 :hasLaureate :l569 .
     
@@ -4470,6 +5059,7 @@
 :peace1901 rdf:type owl:NamedIndividual , :Peace ;
     
     :category "peace" ;
+    :inYear :y1901 ;
     :year 1901 .
     :peace1901 :hasLaureate :l462 .
     :peace1901 :hasLaureate :l463 .
@@ -11954,238 +12544,238 @@
     :id "463" ;
     :share "2" .
       
-
 ####################
 #       YEAR       #
 ####################
 
-    ###  http://prc.di.uminho.pt/2019/tpc2#2018
-    :2018 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2017
-    :2017 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2016
-    :2016 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2015
-    :2015 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2014
-    :2014 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2013
-    :2013 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2012
-    :2012 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2011
-    :2011 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2010
-    :2010 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2009
-    :2009 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2008
-    :2008 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2007
-    :2007 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2006
-    :2006 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2005
-    :2005 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2004
-    :2004 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2003
-    :2003 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2002
-    :2002 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2001
-    :2001 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#2000
-    :2000 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1999
-    :1999 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1998
-    :1998 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1997
-    :1997 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1996
-    :1996 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1995
-    :1995 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1994
-    :1994 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1993
-    :1993 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1992
-    :1992 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1991
-    :1991 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1990
-    :1990 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1989
-    :1989 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1988
-    :1988 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1987
-    :1987 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1986
-    :1986 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1985
-    :1985 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1984
-    :1984 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1983
-    :1983 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1982
-    :1982 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1981
-    :1981 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1980
-    :1980 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1979
-    :1979 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1978
-    :1978 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1977
-    :1977 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1976
-    :1976 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1975
-    :1975 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1974
-    :1974 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1973
-    :1973 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1972
-    :1972 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1971
-    :1971 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1970
-    :1970 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1969
-    :1969 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1968
-    :1968 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1967
-    :1967 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1966
-    :1966 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1965
-    :1965 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1964
-    :1964 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1963
-    :1963 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1962
-    :1962 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1961
-    :1961 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1960
-    :1960 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1959
-    :1959 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1958
-    :1958 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1957
-    :1957 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1956
-    :1956 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1955
-    :1955 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1954
-    :1954 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1953
-    :1953 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1952
-    :1952 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1951
-    :1951 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1950
-    :1950 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1949
-    :1949 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1948
-    :1948 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1947
-    :1947 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1946
-    :1946 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1945
-    :1945 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1944
-    :1944 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1943
-    :1943 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1939
-    :1939 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1938
-    :1938 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1937
-    :1937 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1936
-    :1936 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1935
-    :1935 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1934
-    :1934 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1933
-    :1933 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1932
-    :1932 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1931
-    :1931 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1930
-    :1930 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1929
-    :1929 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1928
-    :1928 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1927
-    :1927 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1926
-    :1926 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1925
-    :1925 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1924
-    :1924 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1923
-    :1923 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1922
-    :1922 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1921
-    :1921 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1920
-    :1920 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1919
-    :1919 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1918
-    :1918 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1917
-    :1917 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1916
-    :1916 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1915
-    :1915 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1914
-    :1914 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1913
-    :1913 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1912
-    :1912 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1911
-    :1911 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1910
-    :1910 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1909
-    :1909 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1908
-    :1908 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1907
-    :1907 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1906
-    :1906 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1905
-    :1905 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1904
-    :1904 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1903
-    :1903 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1902
-    :1902 rdf:type owl:NameIndividual , :Year.
-    ###  http://prc.di.uminho.pt/2019/tpc2#1901
-    :1901 rdf:type owl:NameIndividual , :Year.
+
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2018
+    :y2018 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2017
+    :y2017 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2016
+    :y2016 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2015
+    :y2015 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2014
+    :y2014 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2013
+    :y2013 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2012
+    :y2012 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2011
+    :y2011 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2010
+    :y2010 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2009
+    :y2009 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2008
+    :y2008 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2007
+    :y2007 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2006
+    :y2006 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2005
+    :y2005 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2004
+    :y2004 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2003
+    :y2003 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2002
+    :y2002 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2001
+    :y2001 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y2000
+    :y2000 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1999
+    :y1999 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1998
+    :y1998 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1997
+    :y1997 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1996
+    :y1996 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1995
+    :y1995 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1994
+    :y1994 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1993
+    :y1993 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1992
+    :y1992 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1991
+    :y1991 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1990
+    :y1990 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1989
+    :y1989 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1988
+    :y1988 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1987
+    :y1987 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1986
+    :y1986 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1985
+    :y1985 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1984
+    :y1984 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1983
+    :y1983 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1982
+    :y1982 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1981
+    :y1981 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1980
+    :y1980 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1979
+    :y1979 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1978
+    :y1978 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1977
+    :y1977 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1976
+    :y1976 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1975
+    :y1975 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1974
+    :y1974 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1973
+    :y1973 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1972
+    :y1972 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1971
+    :y1971 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1970
+    :y1970 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1969
+    :y1969 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1968
+    :y1968 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1967
+    :y1967 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1966
+    :y1966 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1965
+    :y1965 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1964
+    :y1964 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1963
+    :y1963 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1962
+    :y1962 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1961
+    :y1961 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1960
+    :y1960 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1959
+    :y1959 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1958
+    :y1958 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1957
+    :y1957 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1956
+    :y1956 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1955
+    :y1955 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1954
+    :y1954 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1953
+    :y1953 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1952
+    :y1952 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1951
+    :y1951 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1950
+    :y1950 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1949
+    :y1949 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1948
+    :y1948 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1947
+    :y1947 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1946
+    :y1946 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1945
+    :y1945 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1944
+    :y1944 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1943
+    :y1943 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1939
+    :y1939 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1938
+    :y1938 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1937
+    :y1937 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1936
+    :y1936 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1935
+    :y1935 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1934
+    :y1934 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1933
+    :y1933 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1932
+    :y1932 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1931
+    :y1931 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1930
+    :y1930 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1929
+    :y1929 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1928
+    :y1928 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1927
+    :y1927 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1926
+    :y1926 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1925
+    :y1925 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1924
+    :y1924 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1923
+    :y1923 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1922
+    :y1922 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1921
+    :y1921 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1920
+    :y1920 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1919
+    :y1919 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1918
+    :y1918 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1917
+    :y1917 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1916
+    :y1916 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1915
+    :y1915 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1914
+    :y1914 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1913
+    :y1913 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1912
+    :y1912 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1911
+    :y1911 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1910
+    :y1910 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1909
+    :y1909 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1908
+    :y1908 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1907
+    :y1907 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1906
+    :y1906 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1905
+    :y1905 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1904
+    :y1904 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1903
+    :y1903 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1902
+    :y1902 rdf:type owl:NameIndividual , :Year.
+    ###  http://prc.di.uminho.pt/2019/tpc2#y1901
+    :y1901 rdf:type owl:NameIndividual , :Year.
