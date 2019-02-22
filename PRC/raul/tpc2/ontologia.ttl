@@ -12,61 +12,80 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#hasArea
-:hasArea rdf:type owl:ObjectProperty ;
-         owl:inverseOf :hasLaureates .
-
-
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#hasLaureates
 :hasLaureates rdf:type owl:ObjectProperty ;
-              rdfs:domain :Area ;
+              owl:inverseOf :hasNobel ;
+              rdfs:domain :Nobel ;
               rdfs:range :Laureates .
+
+
+###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#hasNobel
+:hasNobel rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
+###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#category
+:category rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Nobel .
+
+
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#firstname
 :firstname rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:domain :Laureates ;
            rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#id
-:id rdf:type owl:DatatypeProperty .
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty ;
+    rdfs:domain :Laureates .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#motivation
-:motivation rdf:type owl:DatatypeProperty .
+:motivation rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Laureates .
+
+
+###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#overallMotivation
+:overallMotivation rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Nobel .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#share
-:share rdf:type owl:DatatypeProperty .
+:share rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain :Laureates .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#surname
 :surname rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:domain :Laureates ;
          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#year
+:year rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Nobel .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Area
-:Area rdf:type owl:Class .
-
-
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Chemistry
 :Chemistry rdf:type owl:Class ;
-           rdfs:subClassOf :Area .
+           rdfs:subClassOf :Nobel .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Economics
 :Economics rdf:type owl:Class ;
-           rdfs:subClassOf :Area .
+           rdfs:subClassOf :Nobel .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Laureates
@@ -75,22 +94,49 @@
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Literature
 :Literature rdf:type owl:Class ;
-            rdfs:subClassOf :Area .
+            rdfs:subClassOf :Nobel .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Medicine
 :Medicine rdf:type owl:Class ;
-          rdfs:subClassOf :Area .
+          rdfs:subClassOf :Nobel .
+
+
+###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Nobel
+:Nobel rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Peace
 :Peace rdf:type owl:Class ;
-       rdfs:subClassOf :Area .
+       rdfs:subClassOf :Nobel .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#Physics
 :Physics rdf:type owl:Class ;
-         rdfs:subClassOf :Area .
+         rdfs:subClassOf :Nobel .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#laureate
+:laureate rdf:type owl:NamedIndividual ,
+                   :Laureates ;
+          :firstname "Arthur" ;
+          :id 960 ;
+          :motivation "\"for the optical tweezers and their application to biological systems\"" ;
+          :share 2 ;
+          :surname "Ashkin" .
+
+
+###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#physics
+:physics rdf:type owl:NamedIndividual ,
+                  :Nobel ;
+         :hasLaureates :laureate ;
+         :category "physics" ;
+         :overallMotivation "“for groundbreaking inventions in the field of laser physics”" ;
+         :year 2018 .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
