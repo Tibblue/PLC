@@ -1,0 +1,2668 @@
+#
+##     Provérbios
+###    Versao actualizada em http:://natura.di.uminho.pt/~jj/pln/proverbio.dic
+####   Contribua com os seus provérbios preferidos para::
+#####   Projecto NATURA  jj@di.uminho.pt
+######
+
+ adiv:: Adivinha (riddle) 
+
+
+(qual|cal) é a coisa (qual|cal) é ela que ainda agora falei nela?:adiv::cal:jj
+altos castelos verdes e amarelos:adiv::laranjeira:lsb
+ave sou/penas nao tenho/pêlo de ovelha me cobre/de cabeça sou mui pobre/numa árvore me sustenho:adiv::avelã:lsb
+branco é, galinha o põe:adiv::ovo:jj
+casinha branca sem porta nem tranca:adiv::ovo:jj
+qual é a coisa, qual é ela, que mal entra em casa, fica logo á janela:adiv::botão:
+qual é o animal que tem mais que três olhos e menos que quatro?:adiv::\dom{matemática} piolho:luisa
+qual é o cúmulo do egoísmo:adiv::não digo:jj
+sou começo de virtude/e sou pecado mortal/meu nome pode escrever-se/sem consoante nem vogal:adiv::vírgula:lsb
+sou macho no natural/o que até custa a querer/vou-me deitar a afogar/para femea me fazer:adiv::gelo:lsb
+verde foi meu nascimento/e de luto me vesti/para dar a luz ao mundo/mil tormentos padeci:adiv::azeitona:jj
+
+No campo me criei metida entre verdes laços; quem mais chora por mim é quem me faz em pedaços:adiv::cebola:dp
+
+alto está, alto mora, todos o vêem, ninguém o adora:adiv::sino da torre:jl
+alto está, alto mora, ninguem o vê, todos o adoram:adiv::Deus:jl
+mil marinhinhos , mil marinhões dois para fitas e quatro chantões:adiv::boi:jl
+uma velhinha muito encorrilhadinha, com uma tranquinha no cu, 'arriu' passa é, advinha lá o que é?:adiv::uva passa:jl
+
+
+ cita:: Citações  
+
+
+
+Deus quer, o homem pensa e a obra nasce:cita:Fernando Pessoa::
+tudo vale a pena quando a alma não é pequena:cita:Fernando Pessoa::np
+a memória é a rainha das coisas:cita:Sófocles::
+mudam-se os tempos, mudam-se as vontades:cita:Camões::jm
+penso logo existo:cita:Decartes::jm
+merde!:cita:Cambrone:Ao general de Napoleão, Cambrone, foi pedido que se rendesse em Waterloo, e é citado como tendo dito, "The Old Guard dies but never surrenders," enquanto que segundo Hemingway ele simplesmente respondeu, "Merde!" (Conhecido como "le mot de Cambrone" entre os Franceses educados do tempo de Hemingway.):jl
+
+ citaContra:: citações de contrafacção
+
+
+
+tudo vale a pena, ainda que a alma seja pequena:citaContra::::jc
+nunca cometas o mesmo erro duas vezes; há muitos por onde escolher:citaContra::::
+
+ citaContra:: citações de contrafacção autores
+
+
+incomodam-me as pessoas que não dão a cara:citaContraAut:Anónimo::as
+vamos por partes:citaContraAut:Jack O Estripador::as
+a minha esposa tem um bom físico:citaContraAut:Albert Einstein::as
+eu comecei por roer as unhas:citaContraAut:Venus de Milo::as
+nunca pude estudar Direito:citaContraAut: O Corcunda de Notre Dame::as
+ser cego não é grave, pior seria ser negro:citaContraAut:citaContraAut: Stevie Wonder::as
+sempre quis ser o primeiro:citaContraAut: João Paulo II::as
+quando te foste deixaste-me um sabor amargo na boca:citaContraAut: Monica Lewinski::as
+hás-de pagar-me:citaContraAut: Fundo Monetario Internacional::as
+batemos a concorrência:citaContraAut: Moulinex::as
+não ao derramamento de sangue!!!:citaContraAut: Tampax::as
+o automóvel nunca substituirá o cavalo:citaContraAut: A égua::as
+disseram-me para jogar junto à linha branca:citaContraAut: Diego A. Maradona::as
+tenho um nó na garganta:citaContraAut: Um enforcado::as
+estou feito em pedaços:citaContraAut: Frankenstein::as
+gosto da humanidade:citaContraAut: Um canibal::as
+basta de humor negro!:citaContraAut: Ku Klux Klan::as
+a minha noiva é uma cadela!:citaContraAut: Pluto::as
+és a única mulher da minha vida!:citaContraAut: Adão::as
+levantarei os caídos e oprimirei os grandes!:citaContraAut: O soutien::as
+Que um homem não é de pau!:citaContraAut: Pinóquio::jc
+
+ prov:: Provérbios 
+
+
+
+a açorda faz a velha gorda e a menina formosa:prov:::jm
+a água corrente não mata a gente:prov:::jj
+a ambição cerra o coração:prov:::pv
+a apressada pergunta, vagarosa resposta:prov:::pv
+a boca do ambicioso só se fecha com terra de sepultura:prov:::pv
+a boda e a batizado, não vás sem ser convidado:prov:::pv
+a bom bocado, bom grito ou bom suspiro:prov:::gast
+a bom ou mau comer, três vezes beber:prov:::gast
+abre o olho, que assam carne:prov:::gast
+a cada boca uma sopa:prov:::gast
+a cavalo dado não se olha o dente:prov:::
+a conversa é como as cerejas:prov:::gast
+à falta de capão, cebola e pão:prov:::gast
+a fartura faz bravura:prov:::gast
+a fome é a melhor cozinheira:prov:::jm
+a fome é boa mostarda:prov:::gast
+a fome é o melhor tempero:prov:::gast
+a fome faz sair o lobo do mato:prov:::pv
+a fruta proibida é a mais apetecida:prov:::jm
+a galinha da minha vizinha é sempre melhor que a minha:prov:::gast
+a galinha do vizinho é sempre mais gorda do que a nossa:prov:::mc
+a gosto danado o doce é amargo:prov:::gast
+água e vento são meio sustento:prov:::jm
+águas passadas não movem moínhos:prov:::
+ai de quem de mim mal diz, pior de quem mo chega ao nariz:prov:::felix
+a ignorância da lei não desculpa a ninguém:prov:::jm
+a ignorância é o pior de todos os males:prov:::jpo
+a intenção é que conta:prov:::jm
+ajuda-te que Deus te ajudará:prov:::jm
+a laranja de manhã é ouro, à tarde é prata e à noite mata:prov:::jj
+albarda-se o burro à vontade do dono:prov:::jm
+alma até Almeida:prov:::jm
+a merda é a mesma, as moscas é que mudaram:prov:::jm
+amigo do seu amigo meu amigo é:prov:::pl
+amigo não empata amigo:prov:::jj
+amigos, amigos, negócios à parte:prov:::jj
+à míngua de pão, boas são as tortas:prov:::gast
+amor com amor se paga:prov:::mc
+a morte não escolhe idades:prov:::mc
+(andar|não ponhas) o carro (adiante|á frente) dos bois:prov:::pv
+a (necessidade|fome) aguça o engenho:prov:::mc,jj
+a noite é boa conselheira:prov:::pv
+antes a minha face com fome amarela, que vergonha nela:prov:::pv
+antes a morte que tal sorte:prov:::jm
+antes cegues que mal vejas:prov:::jm
+antes dentes que parentes:prov:::jm
+(antes|mais vale) só que mal acompanhado:prov:::
+antes morte que má sorte:prov:::jm
+antes podrido, que mal comido:prov:::gast
+antes quebrar que torcer:prov:::
+antes que cases vê o que fazes:prov:::cr
+ao bom amigo, com teu pão e teu vinho:prov:::gast
+a ocasião faz o ladrão:prov:::cr
+a ociosidade é mãe de todos os vícios:prov:::pv
+ao Diabo e à mulher nunca falta que fazer:prov:::jm
+ao menino e ao borracho (põe-lhe|mete) Deus a mão por baixo:prov:::jj
+ao rico mil amigos se deparam, ao pobre seus irmãos o desamparam:prov:::pv
+ao rico não faltes, ao pobre não prometas:prov:::cr
+a palavra é de prata e o silêncio é de ouro:prov:::jm
+a palavras (ocas|loucas) orelhas moucas:prov:::jj,cm
+(a|para) bom entendedor meia palavra basta:prov:::jj
+a pensar morreu um burro:prov:::jj
+a preguiça é a mãe de todos os vícios:prov:::jm
+aprender até morrer:prov:::jm
+a quem tudo quer saber, nada se lhe diz:prov:::jj
+aquilo que sabe bem ou faz mal ou é pecado:prov:::jm
+a roupa suja lava-se em casa:prov:::jm
+as aparências iludem:prov:::cr
+(as|) boas contas fazem os bons amigos:prov:::jj
+as cadelas apressadas parem cães tortos:prov:::jm
+as más noticias (chegam|viajam) depressa:prov:::jm
+as (palavras|conversas|...) são como as cerejas, vêm umas atrás das outras:prov:::mc
+as palavras voam, a escrita fica:prov:::jm
+as rosas caem os espinhos ficam:prov:::cr
+as sopas e os amores, os primeiros são os melhores:prov:::gast
+às três é de vez:prov:::jm
+até ao lavar dos cestos é vindima:prov:::jj
+atrás de mim virá quem (de mim bom|bom me) fará:prov:::jj,pl
+a união faz a força:prov:::jj
+a uns morrem as vacas, a outros parem os bois:prov:::jm
+a ventre farto o mel amarga:prov:::gast
+azar ao jogo, sorte aos amores:prov:::jj
+barriga cheia, cara alegre:prov:::gast
+(barriga cheia|meranda comida), companhia desfeita:prov:::jm
+barriga farta, pé dormente:prov:::gast
+barriga vazia não conhece alegria:prov:::gast
+bem dizer faz rir, bem fazer faz calar:::as
+bem mal ceia quem come de mão alheia:prov:::gast
+bem mal farás que andes e não comas:prov:::gast
+bem se canta na Sé, mas é quem é:prov:::jm
+bem se lambe o gato, depois de farto:prov:::gast
+biscoito de freira,fanga de trigo:prov:::gast
+boa árvore, bons frutos:prov:::gast
+boa fama granjeia quem não diz mal da vida alheia:prov:::pv
+boa romaria faz, quem em casa fica em paz:prov:::jj
+bocado comido não apanha amigo:prov:::gast
+boca que apetece, coração que deseja:prov:::gast
+boda molhada, boda abençoada:prov:::jm
+boi ruim no corno cresce:prov:::mi
+broa quente, muita na mão e pouca no ventre:prov:::gast
+burro velho não aprende línguas:prov:::jj
+burro velho não ganha andadura:prov:::mc
+burro velho não tem mandadura e se tem pouco dura:prov:::jpo
+cabra manca não tem sesta. E se a tem, pouco lhe presta.:prov:::gast
+cada bucha sua pinga:prov:::gast
+cada cabeça sua sentença:prov:::jj
+cada cavadela (cada minhocada|uma minhoca):prov:::pina
+cada coisa no seu lugar:prov:::jm
+cada cor, seu paladar:prov:::gast
+cada maluco com a sua mania:prov:::jm
+cada panela tem o seu testo:prov:::mc
+cada terra (tem|com) seu uso cada roca (tem|com) seu fuso:prov:::pl
+(cada um chega|chegar*) a brasa (para a|á) sua sardinha:prov:::jj
+cada um come do que faz:prov:::jm
+cada um come do que gosta:prov:::jm
+cada (um|qual) é para o que nasce:prov:::jpo
+cada um que se governe:prov:::jm
+cada um sabe as linhas com que se cose:prov:::jj
+cada um (trata|sabe) de si e Deus de todos:prov:::jj
+candeia que vai à frente alumia duas vezes:prov:::jj
+cão que ladra não morde:prov:::cr
+capa e merenda nunca pesaram:prov:::gast
+carne que baste, vinho que farte, pão que sobre:prov:::gast
+casamento, apartamento:prov:::mc
+casa onde entra o sol não entra o médico:prov:::jj
+casa que não é ralhada não é governada:prov:::
+casarás, amansarás:prov:::jm
+casa roubada, trancas à porta:prov:::jj
+cá se fazem, cá se pagam:prov:::jm
+cautelas e caldos de galinha nunca fizeram mal a ninguém:prov:::jj
+cesteiro que faz um cesto faz um cento (|se lhe derem verga e tempo):prov:::jm
+chapa ganha, chapa (gasta|batida):prov:::jm
+(chega-te|junta-te) aos bons, serás como eles, (chega-te|junta-te) aos maus, serás pior do que eles:prov:::jj
+com a verdade me enganas:prov:::jmf
+com coisas sérias não se brinca:prov:::jj
+come caldo, vive em alto, anda quente, viverás longamente:prov:::gast
+come e folga, terás boa vida:prov:::gast
+come para viver, não vivas para comer:prov:::jm
+comer e coçar, mal é começar:prov:::gast
+com mulher louca, andem as mãos e cale-se a boca:prov:::jm
+com o fogo não se brinca:prov:::jj
+com papas e bolos se enganam os tolos:prov:::jj
+com tempo tudo se cura:prov:::jm
+com vinagre não se apanham moscas:prov:::jm
+contas são contas:prov:::jm
+contra factos não há argumentos:prov:::jj
+cozinha sem salsa é como jarra sem flores:prov:::mi
+criados e bois - nem menos de um ano nem mais de dois:prov:::fl
+custa mais a mecha que o sebo:prov:::jm
+dá Deus (as|) nozes a quem não tem dentes:prov:::jj
+da mão à boca vai-se a sopa:prov:::jm
+de boas intenções está o inferno cheio:prov:::jj
+de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias:prov:::gast
+(de|) hora a hora Deus melhora:prov:::jj
+deitar cedo e cedo erguer dá saúde e faz crescer:prov:::jj
+de lautas ceias estão as sepulturas cheias:prov:::jm
+de manhã é que começa o dia:prov:::jm
+de médico, de sábio e de louco todos temos um pouco:prov:::jm
+de noite todos os gatos são pardos:prov:::jj
+de pequenino se torce (o pé ao|o) pepino:prov:::jj
+depois da noiva casada não faltam pretendentes:prov:::dm
+depois da tempestade (vem) a bonança:prov:::jj
+depois de eu comer não faltam colheres:prov:::dm
+depressa e bem, (há pouco quem|ninguém):prov:::jj,psa
+Deus ajuda quem madruga:prov:::mc
+Deus dá o frio conforme a roupa:prov:::jm
+Deus escreve direito por linhas tortas:prov:::
+Deus perdoou a quem não matou:prov:::cm
+Deus o deu, Deus o levou:prov:::jm
+devagar que tenho pressa:prov:::jpo
+devagar se vai ao longe:prov:::jj
+de véspera todos madrugam:prov:::jm
+diz-me com quem andas, dir-te-ei quem és:prov:::jj
+diz o roto ao nu "Porque não te vestes tu?" :prov:::jm
+diz o tacho para a panela -- sai daqui, não me enferretes:prov:::mi
+dois pardais numa espiga, nunca fazem liga:prov:::gast
+do mal, o menos:prov:::jm
+do prato à boca se perde a sopa:prov:::cr
+dos cheiros o pão e do sabor o sal:prov:::gast
+dos fracos não reza a história:prov:::jj
+ele a dar-lhe e a burra (a mijar para trás|a fugir):prov:::jm
+em Agosto toda a fruta tem gosto:prov:::jpo
+em boca fechada não entra mosquito:prov:Minas Gerais(br)::sp
+(em|) casa de ferreiro, espeto de pau:prov:::cr
+(em|) casa onde não há pão, todos ralham e ninguém tem razão:prov:::jj
+((em|no) bom|no melhor) pano cai a nódoa:prov:::jj
+em mesa redonda não há cabeceira:prov:::as
+em pouco muito se diz:prov:::jm
+em Roma sê romano:prov:::jj
+em tempo de guerra não se limpam armas:prov:::jj
+em terra de cegos, quem tem um olho é rei:prov:::
+enquanto há vida há esperança:prov:::
+enquanto o pau vai e vem folgam as costas:prov:::jj
+entradas de leão, saídas de (sendeiro|cordeiro):prov:::mc
+entre marido e mulher nunca metas a colher:prov:::jj
+entre mortos e feridos alguém há-de escapar:prov:::jm
+esta vida são dois dias e o Carnaval são três:prov:::jm
+falai no mau que ele sempre aparece:prov:::jm
+faz a tua ceara onde cante a cigarra:prov:::gast
+fia-te na virgem e não corras:prov:::jpo
+fica tudo como dantes, quartel-general em Abrantes:prov:::jm
+filho de peixe sabe nadar:prov:::
+(filho és, pai serás,|) assim como fizeres, assim acharás:prov:::jj
+flor colhida, fruto perdido:prov:::gast
+gaba-te, cesta, que vais à vindima:prov:::jm
+gaba-te, cesto, que vender-te quero:prov:::jm
+galinha do campo não quer capoeira:prov:::gast
+galinha pedrês não a comas nem a dês:prov:::gast
+gato escaldado de água fria tem medo:prov:::
+gato escondido com o rabo de fora:prov:::
+gato que nunca comeu azeite, quando o come se lambuza:prov:::gast
+gordura é formosura (|magreza é beleza):prov:::mc
+gostos não se discutem:prov:::jm
+grande nau grande tormenta:prov:::jj
+grandes peixes pescam-se em grandes rios:prov:::gast
+grão a grão enche a galinha o papo:prov:::jj
+grão a grão enche o moleiro o sarrão:prov:::gast
+guardado (está|estava) o bocado para quem o há de comer:prov:::jj
+guarda que comer, não guardes que fazer:prov:::jm
+haja fartura, que a fome ninguém atura:prov:::gast
+há mais mares que marinheiros:prov:::jpo
+há males que vêm por bem:prov:::jj
+há remédio para tudo menos para a morte:prov:::jm
+homem muito perfumado é rima de pé quebrado:prov:::af
+homem pequenino, ou (sacana|velhaco) ou bailarino:prov:::jm
+homem prevenido vale por dois:prov:::jj
+ir à lã e ser tosquiado:prov:::jpo
+jantar tarde e cear cedo tiram a merenda de permeio:prov:::gast
+ladrão não rouba a ladrão:prov:::jm
+ladrão que rouba a ladrão tem cem anos de (perdão|prisão):prov:::jj
+lembra aos rapazes o que ao diabo esquece:prov:::jm
+lenha verde pouco acende e quem muito dorme pouco aprende:prov:::gast
+lobo faminto não tem assento:prov:::gast
+longe da vista, longe do coração:prov:::jj
+madruga e verás trabalha e terás:prov:::cr
+mais depressa se apanha um mentiroso que um coxo:prov:::jj
+mais vale cair em graça do que ser engraçado:prov:::jm
+mais vale (cedo que tarde e|) tarde que nunca:prov:::jj
+mais vale perder um minuto na vida que a vida num minuto:prov:::jpo
+mais vale pouco que nada:prov:::jpo
+mais vale quem Deus ajuda de quem cedo madruga:prov:::jpo
+mais vale sê-lo que parecê-lo:prov:::jm
+mais vale (ter|) um pássaro na mão que dois (a voar|voando):prov:::jk
+mais vale um ano à volta que nunca a casa:prov:::jpo
+mais vale uma palavra antes que duas depois:prov:::jm
+mais vale um gosto na vida que (dez reis|seis vintens) na algibeira:prov:::jj
+mais vale um inimigo sãbio que um amigo ignorante:prov:::diogo
+mais vale um mau acordo que uma boa sentença:[Juríd.]:::prov:::jm
+mais vale um pé no travão que dois no caixão:prov:::jpo
+(mais vale|vale mais) prevenir que remediar:prov:::jj
+mal por mal, venha o Diabo e escolha:prov:::jm
+manda quem pode, obedece quem deve:prov:::jm
+mãos frias, coração quente (amor ardente| amor para sempre|):prov:::jj
+mãos quentes, coração frio amor vadio:prov:::jj,pl
+mata o teu porco, e conhece teu corpo:prov:::gast
+matar dois coelhos com uma (cajadada|paulada):prov:::wm
+mel, se o achaste, come o que baste:prov:::gast
+menino farto não é comedor:prov:::cr
+mesa sem pão é mesa de vilão:prov:::jm
+mordedura de cão cura-se com o pêlo do mesmo cão:prov:::jm
+morra Marta, morra farta:prov:::jm
+morrer por morrer, morra o meu pai que é mais velho:prov:::jm
+morreu o bicho, acabou-se a peçonha:prov:::jm
+muda de moleiro, que não mudas de ladrão:prov:::gast
+muita gente junta não se safa:prov:::jm
+muita parra pouca uva:prov:::jj
+muito alcança quem não cansa:prov:::jm
+muito come o tolo mas mais tolo é quem lho dá:prov:::jj
+muito esquece a quem não sabe:prov:::jm
+muito riso pouco siso:prov:::jj
+muitos cozinheiros estragam a sopa:prov:::jj
+muito se engana quem cuida:prov:::jj
+muito se engana quem julga:prov:::jj
+mulher doente, mulher para sempre:prov:::jm
+mulher feia é casta por natureza:prov:::jm
+mulher muito lavada não tem cheiro, não tem gosto, não tem nada:::ae
+mulher governadeira tem filha primeira:prov:::felix
+na morte e na boda verás quem te honra:prov:::gast
+não alimentes burros a pão-de-ló:prov:::jm
+não contes com o ovo no cu da galinha:prov:::jm
+não dá quem tem, dá quem quer bem:prov:::cr
+não deixes para amanhã o que podes fazer hoje:prov:::
+(não é com vinagre que|com vinagre não) se apanham moscas:prov:::jj
+não é por muito madrugar que amanhece mais cedo:prov:::jj
+não faças aos outros o que não gostas que te façam a ti:prov:::
+não há amor como o primeiro:prov:::mc
+não há bela sem senão, nem feia sem sua graça:prov:::pl
+não há bela sem senão:prov:::jj
+não há bem que sempre dure nem mal que não acabe:prov:::pl
+não há crime sem lei:prov:::jm
+não há duas sem três:::jj
+não há fome que não (traga|dê em) fartura:prov:::jj
+não há fumo sem fogo:prov:::jj
+(não há|) galinha gorda por pouco dinheiro:prov:::jj
+não há mal que o tempo não cure:prov:::jj
+não há mal que sempre dure nem bem que se não acabe:prov:::jm
+não há parto sem dor:prov:::mc
+não há pior cego que o que não quer ver:prov:::jj
+não há regra sem excepção:prov:::jj
+não há rosas sem espinhos:prov:::jj
+não há sábado sem sol, domingo sem missa nem segunda sem preguiça:prov:::jj
+não metas a mão em prato onde te fiquem as unhas:prov:::gast
+(não queira o|quem te manda a ti) sapateiro tocar rabecão:prov:::jm
+não se malha em ferro frio:prov:::jm
+não se pescam trutas a bragas enxutas:prov:::jm
+não se pode fazer a par - comer e assoprar:prov:::gast
+não suba o sapateiro além da canela:prov:::jm
+não te metas no que não te diz respeito:prov:::jm
+não tenhas mais olhos do que barriga:prov:::gast
+na primeira quem quer cai; na segunda cai quem quer; na terceira quem é parvo:prov:::jm
+nem contas com parentes nem dívidas com ausentes:prov:::jm
+nem oito nem oitenta:prov:::jm
+nem pão quente, nem vinho que salte ao dente:prov:::gast
+nem sempre galinha nem sempre sardinha:prov:::cr
+nem sempre o forno faz rosquilhas:prov:::gast
+nem só de pão vive o homem:prov:::mc
+nem tanto ao mar nem tanto à terra:prov:::jm
+nem todas as verdades se dizem:prov:::jm
+nem todo o grão vai ao olho do moinho:prov:::gast
+nem tudo o que luz é ouro:prov:::cr
+(nem|) tudo o que vem à rede é peixe:prov:::jm
+(ninguém diga|nunca digas) desta água não beberei (e deste pão não comerei|):prov:::jj
+ninguém é bom juiz em causa própria:prov:::jj
+ninguém é profeta na sua terra:prov:::jj
+ninguém nasce ensinado:prov:::jj
+ninguém perde que outro não ganhe:prov:::jm
+ninguém quer ser velho nem morrer novo:prov:::jj
+no aperto e no perigo se conhece o amigo:prov:::jj
+no meio é que está a virtude:prov:::jm
+no poupar é que está o ganho:prov:::jm
+no tempo quente refresca o ventre:prov:::gast
+nunca deites foguetes antes da festa:prov:::
+o bom filho à casa torna:prov:::jj
+o bom médico é o do terceiro dia. [Méd.] :prov:::jm
+o calado é o melhor:prov:::jm
+o casamento e a mortalha no céu se talha:prov:::jj
+o comer e o coçar estão no começar:prov:::jm
+o cu não tem nada a ver com as calças:prov:::jm
+o dinheiro fez-se para se (contar|gastar):prov:::jm
+o dinheiro não dá a felicidade, mas ajuda muito:prov:::jm
+ódio velho não cansa:prov:::mc
+o futuro a Deus pertence:prov:::jm
+o hábito não faz o monge:prov:::cr
+o homem põe e Deus dispõe:prov:::mc
+olha para ti e fica-te por aí:prov:::jj
+o mal dos outros é consolo de parvos:prov:::jm
+o mal está nos olhos de quem o vê:prov:::jm
+o mau artífice (queixa-se da|culpa a) ferramenta:prov:::jm
+o melão e a mulher conhecem-se pelo rabo:prov:::jm
+onde está galo não canta galinha:prov:::jm
+onde fogo não há, fumo não se levanta:prov:::jj
+onde nasce a lagarta aí se farta:prov:::cr
+(onde|quando) mija um português, mijam (logo|sempre) dois ou três:prov:::
+o olho do dono engorda o cavalo:prov:::pl
+o óptimo é inimigo do bom:prov:::jm
+o que arde cura:prov:::jm
+o que arma a esparrela muitas vezes cai nela:prov:::jm
+o que é barato sai caro:prov:::jm
+o que é bom acaba depressa:prov:::jm
+o que é doce nunca amargou:prov:::jm
+o que é nosso vem parar-nos à mão:prov:::jm
+o que mais custa melhor sabe:prov:::gast
+o que não tem remédio remediado está:prov:::jj
+o que o berço dá só a tumba tira:prov:::cr
+o que os olhos não vêem o coração não sente:prov:::jm
+o que tu sabes já eu me esqueci:prov:::jm
+o rabo é o pior de esfolar:prov:::jm
+o saber não ocupa (espaço|lugar):prov:::jj
+os amigos são para as ocasiões:prov:::
+os cães ladram mas a caravana passa:prov:::jm
+o segredo é a alma do negócio:prov:::jj
+o seguro morreu de velho:prov:::jm
+o seu a seu dono:prov:::cr
+os extremos tocam-se:prov:::jm
+os homens não se medem aos palmos:prov:::cr
+os olhos pedem mais do que a barriga aguenta:prov:::jj
+o sol quando nasce é para todos:prov:::jj
+osso que acabes de comer não o voltes a roer:prov:::gast
+o trabalho dá saúde:prov:::jm
+o trabalho não mata ninguém:prov:::jm
+o último a rir é o que ri melhor:prov:::jj
+ovelha que berra, bocado que perde:prov:::jpo
+ovelha ruim bota o rebanho a perder:prov:::gast
+o ventre em jejum não ouve a nenhum:prov:::gast
+o vinho faz bem aos homens quando são as mulheres que o bebem:prov:::jm
+paga o justo pelo pecador:prov:::jm
+pai não tiveste... diabo te fizeste:prov:::rp
+palavra de rei não volta atrás:prov:::jm
+palavra puxa palavra:prov:::jm
+palavras não adubam sopas:prov:::gast
+pão afatiado não enfarta rapaz esfaimado:prov:::gast
+pão quente: muito na mão e pouco no ventre:prov:::gast
+papagaio teme maleitas, porque não lhe dão amêndoas confeitas:prov:::gast
+para a fome não há pão duro:prov:::jj
+para baixo todos os santos ajudam, para cima é que as coisas mudam:prov:::jm
+para boa fome não há mau pão:prov:::gast
+para grandes males grandes remédios:prov:::jj
+para lá do Marão mandam os que lá estão:prov:::jm
+para morrer basta estar vivo:prov:::jm
+para muito sono toda a cama é boa:prov:::jj
+para quem é, bacalhau basta:prov:::jj
+parar é morrer:prov:::jm
+para trás mija a burra:prov:::jm
+pardal que tem fome, vem abaixo e come:prov:::gast
+passarinhos e pardais,não são todos iguais:prov:::cr
+patrão fora, dia santo na loja:prov:::jj
+pede o guloso para o desejoso:prov:::jm
+peixe não puxa carroça:prov:::jm
+pela boca morre o peixe:prov:::jj
+pela farinha se conhece o moleiro:prov:::mc
+pelo amor se ganha o céu:prov:::as
+perde-se o velho por não poder e o novo por não saber:prov:::jm
+perdido por cem, perdido por mil:prov:::jm
+perguntar não ofende:prov:::jm
+pimenta nos olhos dos outros é (refresco|água):prov:br::jk
+por bem fazer mal haver:prov:::jj
+por (falta de|morrer) uma andorinha não acaba a primavera:prov:::jm
+por mais santo que seja o dia, a panela tem que ferver:prov:::gast
+por uma besta dar um coice não se lhe corta uma perna:prov:::jpo
+presunção e água benta, cada qual toma a que quer:prov:::jj
+primeiro a obrigação, depois a devoção:prov:::jm
+quando a esmola é grande o (pobre|santo) desconfia:prov:::jj
+quando Deus quer, água fria é remédio:prov:::gast
+quando dois búfalos lutam, quem sai mal é o capim:prov:África::np
+quando não há pão, come-se broa:prov:::gast
+quando o mar bate na rocha quem se lixa é o mechilhão:prov:::
+quando se faz uma panela, faz-se um testo para ela:prov:::jm
+quando um burro (zurra|fala) o outro (baixa|abaixa) as orelhas:prov:::mc
+quando um cai, todos o pisam:prov:::jm
+quanto mais alto se sobe de mais alto se cai:prov:::jm
+quanto mais choras, menos mijas:prov:::jm
+quanto mais depressa mais devagar:prov:::jm
+quanto mais me bates mais gosto de ti:prov:::jj
+(que|) bem prega Frei Tomás, façamos o que ele diz e não o que ele faz:prov:::pl
+queijo com pão faz o homem são:prov:::gast
+quem a alto sode de alto cai:prov:::cr
+quem acha guarda:prov:::jm
+quem anda à chuva molha-se:prov:::vff
+quem anda de boca aberta, ou entra mosca ou sai asneira:prov:::jm
+quem andou não tem para andar:prov:::jj
+quem bem come e bebe, bem faz o que deve:prov:::gast
+quem bem vive bem morre:prov:::jm
+quem boa cama faz nela se deita:prov:::jm
+quem brinca com o fogo queima-se:prov:::jm
+quem cabritos vende e cabras não tem, de algures lhe vem:prov:::gast
+quem cala consente:prov:::cr
+quem canta (seu mal|seus males) espanta:prov:::jj
+quem casa não pensa, quem pensa não casa:prov:::jm
+quem casa quer casa:prov:::jj
+quem ceia em vinhas, almoça em fontes:prov:::gast
+quem come salgado, bebe dobrado:prov:::gast
+quem comeu a carne que roa os ossos:prov:::jm
+quem com ferro fere, com ferro será ferido:prov:::jk
+quem com ferros mata, com ferros morre:prov:::jj
+quem com porcos se mistura farelos come:prov:::gast
+quem conta um conto (aumenta|acrescenta-lhe) um ponto:prov:::jj
+quem corre por gosto não cansa:prov:::jj
+quem dá aos pobres empresta a Deus:prov:::jpo
+quem dá a quem o entende, não o dá que bem o vende:prov:::dp
+quem dá e torna a tirar ao inferno vai parar (com uma faca na barriga, toda a vida vai durar|):prov:::jj
+quem desdenha quer comprar:prov:::jj
+quem é amigo de todos não o é de ninguém:prov:::jm
+quem em novo dança bem, em velho algum geito tem:prov:::dp
+quem espera por sapatos de defunto, toda a vida anda descalço:prov:::pl
+quem espera sempre alcança:prov:::jj
+quem está no convento é que sabe o que lhe vai dentro:prov:::jm
+quem é vivo sempre aparece:prov:::jj
+quem (faz o que pode|dá o que tem) a mais não é obrigado:prov:::jj
+quem lida com mel sempre lambe os dedos:prov:::gast
+quem mais jura mais mente:prov:::jj
+quem mais tem mais quer:prov:::jm
+quem mal quiser cear, à noite o vá buscar:prov:::gast
+quem me dá um ovo, não me quer ver morto:prov:::gast
+quem (me|te) avisa (meu|teu) amigo é:prov:::jj
+quem muito escolhe pouco acerta:prov:::jj
+quem (muito|) espera desespera:prov:::cr
+quem muito espera desespera:prov:::jj
+quem muito fala pior ouve:prov:::jm
+quem muito fala pouco acerta:prov:::jj
+quem muito se abaixa, o rabo se lhe vê:prov:::jj
+quem nada não se afoga:prov:::jm
+quem não age conforme pensa começa a pensar conforme age:máxima:::dm
+quem não arrisca não petisca:prov:::jk
+quem não come por ter comido, (não é doença|o mal não é) de perigo:prov:::jm
+quem não deve não teme:prov:::jj
+quem não é para comer, não é para trabalhar:prov:::gast
+quem (não está bem|estiver mal) que se mude:prov:::jj
+quem não pode arreia:prov:::jm
+quem não quer ser lobo não lhe vista a pele:prov:::jj
+quem não sabe é como quem não vê:prov:::jj
+quem não semeia não colhe:prov:::jj
+quem (não se|se não) sente não é filho de boa gente:prov:::jj
+quem não tem cão caça com gato:prov:::np
+quem não tem dinheiro não tem vícios:prov:::jm
+quem não tem panos não arma tendas:prov:::jm
+quem (não|) tem unhas (é que|) (não|)toca (guitarra|viola):prov:::cm,jj
+quem não tem vergonha, todo o mundo é seu:prov:::jj
+quem não trabalha não come:prov:::jm
+quem não trabuca não manduca:prov:::mc
+quem nasceu para a forca não morre afogado:prov:::jm
+quem nasceu para burro nunca chega a cavalo:prov:::jm
+quem nunca comeu melado, quando come se lambuza:prov:::wm
+quem o alheio veste, na praça o despe:prov:::jj
+quem o feio ama (lindo|bonito) lhe parece:prov:::np
+quem o seu cão quer matar chama-lhe raivoso:prov:::np
+quem ovos vende e galinhas não tem, de algum lado eles vêm:prov:::jj
+quem paga adiantado é mal servido:prov:::jm
+quem parte e reparte e não fica com a maior parte ou é tolo ou não tem arte:prov:::jj
+quem parte velho paga novo:prov:::jm
+quem pergunta quer saber:prov:::jm
+quem porfia, mata caça:prov:::jj
+quem primeiro se queixa foi quem atirou a ameixa:prov:::jm
+quem procura sempre acha, se não um prego, uma tacha:prov:::jm
+quem promete deve:prov:::jm
+quem quer bolota trepa:prov:::jpo
+quem quer vai, quem não quer (manda|fica):prov:::jj
+quem sabe faz, quem não sabe ensina:prov:::jm,jc
+quem sai aos seus não degenera:prov:::jpo
+quem se deita sem ceia toda a noite esperneia:prov:::gast
+quem semeia ventos colhe tempestades:prov:::
+quem se mete em atalhos mete-se em trabalhos:prov:::jpo
+quem tarde vier comerá do que trouxer:prov:::jj
+quem te cobre que te descubra:prov:::jm
+quem te fala mal de outra pessoa, falarã mal de ti também:prov:::diogo
+quem tem boca vai a Roma:prov:::
+quem tem burro e anda a pé mais burro é:prov:::
+quem tem calos não se mete em apertos:prov:::jm
+quem tem capa sempre escapa:prov:::jm
+quem tem cem mas deve cem pouco tem:prov:::cr
+quem tem cu tem medo:prov:::jm
+quem tem filhos tem cadilhos:prov:::mc
+quem tem telhados de vidro não atira pedras:prov:::jm
+(quem tem|tens) medo compra um cão:prov:::jj,np
+quem tolos manda a Santarém tolos vão e tolos veem:prov:serra do Montemuro::ob
+quem (torto nasce|nasce torto), tarde ou nunca se endireita:prov:::jj
+quem tudo quer tudo perde:prov:::jj
+quem vai à feira perde a cadeira:prov:br::jan
+quem vai à fonte e não bebe, não sabe o que perde:prov:::gast
+quem vai à guerra dá e leva:prov:::jj
+quem vai ao mar avia-se em terra:prov:::mc
+quem vai ao mar perde o lugar:prov:::jj
+quem vê cara não vê corações:prov:::jj
+quem vê caras não vê corações:prov:::jj
+querer é poder:prov:::jm
+queres um conselho, pede-o ao velho:prov:::jm
+quer queira quer não queira o burro há-de ir à feira:prov:::jm
+(ralham|zangam-se) as comadres, (descobrem-se|ouvem-se) as verdades:prov:::jj
+rei morto, rei posto:prov:::mc
+Roma e Pavia não se fizeram num dia:prov:::
+rompe-se o saco à força de querer enchê-lo:prov:::jm
+saber demasiado é envelhecer precocemente:prov:::diogo
+saco cheio não verga:prov:::jj
+saco vazio não se tem de pé:prov:::jj
+santos da casa não fazem milagres:prov:::jj
+são mais as vozes que as nozes:prov:::jm
+sarampo sarampelo sete vezes vem ao pêlo:prov:::jm
+se mal jantas e pior ceias, minguantes as carnes e crescentes as veias:prov:::gast
+semeia e cria, (viverás com|terás) alegria:prov:::jj
+sem ovos não se fazem omeletes:prov:::gast
+sem sangue não se fazem morcelas:prov:::gast
+se não chover pelo São Mateus, guarda as ovelhas que os borregos não são teus:prov:Elvas::lp
+se não tens o que gostas, gosta do que tens:prov:::jm
+se o gato não come o bife, ou o gato não é gato, ou o bife não é bife:prov:::gs
+se o trabalho dá saúde, que trabalhem os doentes:prov:::jm
+se queres enfermar, ceia e vai-te deitar:prov:::gast
+se tens sardinha, não andes à cata de perú:prov:::gast
+sogro e sogra milho e feijão só dão resultado debaixo do chão:prov:::
+só a morte não tem remédio:prov:::mc
+só se lembra Santa Bárbara quando troveja:prov:::jm
+só trabalha quem não sabe fazer mais nada:prov:::jm
+só vemos os argueiros nos olhos dos outros:prov:::mc
+tantas vezes vai o cântaro à fonte que (uma vez deixa lá a asa|um dia se quebra):prov:::jj
+tempo é dinheiro:prov:::cr
+todo o burro come palha, a questão é saber-lha dar:prov:::jj
+todo o homem tem o seu preço:prov:::jm
+todos os caminhos vão dar a Roma:prov:::
+trabalhar para aquecer, é melhor morrer de frio:prov:::jm
+trabalho de menino é pouco, quem não o aproveita é louco:prov:::jm
+tristezas não pagam dívidas:prov:::cr
+(tudo|) o que não mata engorda:prov:::jj
+uma andorinha não faz a Primavera:prov:::
+uma desgraça nunca vem só:prov:::jj
+uma mão lava a outra e juntas lavam a cara:prov:::jm
+um burro carregado de livros é um doutor:prov:::jj
+um dia não são dias:prov:::jm
+(um, dois|) três, foi a conta que Deus fez:prov:::jm
+um olho no burro e outro no cigano:prov:::jm
+uns comem os figos, a outros rebenta-lhes a boca:prov:::gast
+vai muito do dizer ao fazer:prov:::jm
+vão-se os anéis fiquem(-se|) os dedos:prov:::jj
+velhos são os trapos:prov:::jj
+(vê-se pela aragem|pela aragem se vê) quem vai na carruagem:prov:::cr
+vinho, azeite e amigos, os mais antigos:prov:::gast
+voz do povo é voz de Deus:prov:::jj
+
+
+ prov :: mais Provérbios ainda classificados...
+
+
+a abelha não leva chumbo:prov:africano::
+a açorda faz a velha gorda e a menina formosa:prov:::
+a água de Janeiro vale dinheiro:prov:::
+a água é tão útil às plantas como o alimento aos animais:prov:PT::
+a água salobra, na terra seca, é doce:prov:PT::
+a ambição, assim como a cólera, é muito má conselheira:prov:PT::
+a ambição cerra o coração:prov:::
+a amenidade no semblante, anuncia a bondade do coração:prov:PT::
+a amizade não se adquire, senão pela amizade:prov:PT::
+a apressada pergunta, vagarosa resposta:prov:::
+a Arca de Noé foi construída por amadores; os profissionais construíram o Titanic:máxima:::
+a aversão é para o coração, o que a prevenção é para o espírito:prov:PT::
+a beleza não se põe na mesa, mas eu não como no chão:prov:PT::
+a boa fé é uma moeda, que quase não tem curso no comércio da vida:prov:PT::
+a boa ventura de uns, ajuda aos outros:prov:PT::
+à boca da barra, se perde o navio:prov:PT::
+a boca do ambicioso só se fecha com terra de sepultura:prov:::
+a boca não admite fiador:prov:PT::
+à boda do ferreiro, cada um com o seu dinheiro:prov:PT::
+à boda e a baptizado, não vás sem ser convidado:prov:::
+a bom bocado, bom grito ou bom suspiro:prov:::
+a bom entendedor, meia palavra basta:prov:PT::
+a bom ou mau comer, três vezes beber:prov:::
+a cabeça não se fez só para usar chapéu:prov:PT::
+a cabeça não serve só para usar boné:prov:BR::alt
+a cada boca uma sopa:prov:::
+a caridade começa por nós próprios:prov:::
+a carne é fraca:prov:::
+a cavalo dado não se olham os dentes:prov:BR::
+a cavalo dado não se olha o dente:prov:PT::alt
+a cavalo roedor, cabresto curto:prov:PT::
+a chave do almoço é um bocado de pão e, a da zaragata é uma palavra:prov:PT::
+a conversa é como as cerejas:prov:::
+a criança é com os arbustosinhos; também precisa de um arrimo:prov:PT::
+a culpa morre solteira:prov:PT::
+a demasiada boa-fé é sinónimo de imbecilidade:prov:PT::
+a esperança é a última a morrer:prov:::
+a esperteza do tolo sempre redunda em velhacaria:prov:PT::
+à falta de capão, cebola e pão:prov:::
+a fartura faz bravura:prov:::
+a fatalidade é cega:prov:PT::
+a felicidade é algo que se multiplica quando se divide:prov:::
+a fome é o melhor tempero:prov:::
+a fome é o melhor condimento:prov:PT::alt
+a fome é a melhor amiga do cozinheiro:prov:PT::alt
+a fome faz sair o lobo do mato:prov:::
+a fortuna ajuda os atrevidos, mas também, muita vez, os abandona:prov:PT::
+a fruta proibida é a mais apetecida:prov:::
+a função faz o orgão:prov:::
+a galinha da minha vizinha é mais gorda que a minha:prov:PT::
+a galinha da minha vizinha é sempre melhor que a minha:prov:PT::alt
+a galinha que canta como galo corta-se-lhe o gargalo:prov:::
+a gosto danado o doce é amargo:prov:::
+a grandes cautelas, cautelas maiores:prov:PT::
+a grama é sempre mais verde do lado do vizinho:prov:BR::
+a humildade só é virtude quando não revela fraqueza:prov:PT::
+a ignorância da lei não desculpa a ninguém:prov:::
+a ignorância é a mãe de todos os erros:prov:::
+a ignorância é a mãe de todos os vícios:prov:::
+a ignorância é a mãe do atrevimento:prov:::
+a ignorância é o pior de todos os males:prov:::
+a ignorância é mãe de todos os (vícios|doenças):prov:::
+a ociosidade é mãe de todos os (vícios|doenças):prov:::alt
+a preguiça é mãe de todos os (vícios|doenças):prov:::alt
+a ignorância força-nos a fazer duas vezes o mesmo caminho:prov:PT::
+a intenção é que conta:prov:::
+a justiça começa em casa:prov:::
+a justiça é cega:prov:::
+a lã nunca pesou ao carneiro:prov:::
+a laranja de manhã é ouro, à tarde é prata e à noite mata:prov:::
+a lei é poderosa mas, mais poderosa é a necessidade:prov:PT::
+a lição dos exemplos instrui muito mais, que a dos preceitos:prov:PT::
+a lisonja é incompatível com a nobreza de carácter:prov:PT::
+a lua trinta, como quinta, quando o sétimo ou nono não desminta:prov:PT::
+a luz com que vês os outros, é a luz com que os outroa te vêem a ti:prov:africano::
+a magro não chego, e de gordo não passo:prov:::
+a maior miséria é aquela que vem da preguiça:prov:PT::
+a maior virtude dos que falam é calar o que não devem dizer:prov:PT::
+a majestade e a amizade são quase sempre incompatíveis:prov:PT::
+a mão que embala o berço, dirige o mundo:prov:PT::
+à medida que se estende a experiência, aumenta-se a inteligência:prov:PT::
+a melhor defesa é o ataque:prov:::
+a melhor mostarda é a fome:prov:PT::
+a mentira tem pernas curtas:prov:BR::
+a merda é a mesma, as moscas é que mudam:prov:::
+à míngua de pão, boas são as tortas:prov:::
+a minha liberdade acaba onde começa a liberdade dos outros:prov:::
+a mocidade é como a água da ribeira; entregue a si própria, destroi as pontes:prov:africano::
+a mocidade é temerária presume muito e sabe pouco:prov:PT::
+a morte não escolhe idades:prov:::
+à mulher de César não basta parecer:prov:PT::
+a mulher de César tem que ser, não basta parecer:prov:::alt
+a mulher e a pescada, querem-se da mais grada (engraçada):prov:::
+a mulher e a sardinha, querem-se da mais pequenina:prov:::
+a necessidade é mestra de engenhos:prov:PT::
+a fome aguça o engenho:prov:PT::alt
+a necessidade aguça o engenho:prov:PT::alt
+a ninguém amaria, quem a si não amasse:prov:PT::
+a ninguém contenta, quem de nada está contente:prov:PT::
+a noite é boa conselheira:prov:::
+à noite todos os gatos são pardos:prov:::
+a ocasião faz o ladrão:prov:::
+a ordem dos fatores não altera o produto:prov:::
+a palavra é de prata e o silêncio é de ouro:prov:::
+a palavras loucas, orelhas moucas:prov:PT::
+a palavras ocas, orelhas moucas:prov:PT::alt
+a panela, pelo soar; o homem, pelo falar - conhecem-se:prov:PT::
+a pena e a tinta, são as melhores testemunhas:prov:PT::
+a pena é coxa, mas chega:prov:PT::
+a pensar morreu um burro:prov:::
+a preguiça é a mãe de todos os vícios:prov:::
+a pressa é inimiga da perfeição:prov:BR::
+a presunção é a mãe de todas as asneiras:prov:::
+a previdência vence os maus acontecimentos:prov:PT::
+a quem tudo quer saber, nada se lhe diz:prov:::
+a raposa tanto vai ao ninho, que um dia deixa o focinho:prov:::
+a rico não devas e a pobre não prometas:prov:::
+a roupa suja lava-se em casa:prov:::
+a sorte protege os audazes:prov:PT::
+à terra onde fores ter, faz como vires fazer:prov:PT::
+a união faz a força:prov:BR::
+a uns morrem as vacas, a outros parem os bois:prov:::
+a ventre farto o mel amarga:prov:::
+a verdade gera ódio:prov:PT::
+a verdade na arte é apenas a sinceridade das impressões do artista:prov:PT::
+a vida humana sem religião, é viagem sem roteiro:prov:PT::
+a vingança é um prato que se serve frio:prov:::
+(a|para) bom entendedor meia palavra basta:prov:::
+abre o olho, que assam carne:prov:::
+abril áquas mil (|, coadas por um mandril):prov:::
+abril frio e molhado, enche o celeiro e farta o gado.:prov:::
+abrir a alma à ambição, é fecha-la ao sossego:prov:PT::
+abunda a malícia onde falta a polícia:prov:::
+agora é tarde e Inês é morta:prov:::
+agora, já a gaivota caga na bóia [Já vem tarde]:prov:::
+água dá, água leva:prov:::
+água do rio corre para o mar:prov:::
+água e vento são meio sustento:prov:::
+água mole em pedra dura, tanto (bate|dá) até que fura:prov::elogio da perseverança:
+água mole em pedra dura, tanto bate e nunca fura:prov:::alt
+água pelo São João tira azeite e não dá pão:prov:::
+águas passadas não movem moinhos:prov:BR::
+águas verdadeiras, pelo (São João|São Mateus) as primeiras:prov:PT::
+ainda que sejas prudente e velho, não desprezes o conselho:prov:PT/Graciosa::
+ajoelhou, tem que rezar:prov:BR::
+ajuda-te que Deus te ajudará:prov:::
+albarda-se o burro à vontade do dono:prov:::
+albarda-se o cavalo à vontade do dono:prov:::
+alegria, Entrudo, que amanhã será Cinzas:prov:::
+alegria de pobre dura pouco:prov:::
+alentejanos, algarvios e cães de caça, é tudo da mesma raça:prov:::
+alma até Almeida:prov:::
+amanhã será, far-nos-á Deus mercê:prov:PT::
+amarra a boia e vai a nado:prov:PT/Madeira::
+(amarra-se|Albarde-se) o (cavalo|burro) à vontade do dono:prov:::
+amigo diligente é melhor que parente:prov:PT::
+amigo do seu amigo meu amigo é:prov:::
+amigo meu não tem defeito, inimigo se não tiver eu ponho:prov:::
+amigo não empata amigo:prov:PT::
+amigos dos meus amigos, meus amigos são:prov:::
+amigos que desaparecem, esquecem:prov:PT::
+amigos, amigos, negócios à parte:prov:::
+amor com amor se paga:prov:BR::
+amor e fé nas obras se vê:prov:::
+amor não enche a barriga:prov:PT::
+(andar|não ponhas) o carro (à frente|adiante) dos bois:prov:::
+ande o frio por onde andar ao Natal há-de chegar:prov:::
+antes a minha face com fome amarela, que vergonha nela:prov:::
+antes a morte que tal sorte:prov:::
+antes cegues que mal vejas:prov:::
+antes de tudo julgar, é necessário conhecer:prov:PT::
+antes dentes que parentes:prov:::
+antes morte que má sorte:prov:::
+antes não começar, que não acabar:prov:PT::
+antes podrido, que mal comido:prov:::
+antes pouco, honrado, que muito, roubado:prov:PT::
+(mais vale|Antes|melhor) prevenir do que remediar:prov:::
+antes que cases, (vê|olha) o que fazes:prov:::
+antes que o mal cresça, corta-se-lhe a cabeça:prov:::
+antes quebrar que torcer:prov:::
+antes quero asno que me leve do que cavalo que me derrube:prov:PT::
+antes só que, em casa, ouvindo a miúdo, a mulher a implicar com tudo:prov:PT::
+(mais vale|Antes) só que mal acompanhado:prov:::
+(mais vale|Antes) tarde do que nunca:prov:::
+ao bom amigo, com teu pão e teu vinho:prov:::
+ao Diabo e à mulher nunca falta que fazer:prov:::
+ao luar de Janeiro, se conta o dinheiro:prov:PT::
+ao manhoso, não descubras teu feito:prov:PT::
+ao meio dia ou carrega ou alivia:prov:::
+ao menino e ao borracho (mete|põe-lhes) Deus a mão por baixo:prov:PT::
+ao rico mil amigos se deparam, ao pobre seus irmãos o desamparam:prov:::
+ao rico não faltes, ao pobre não prometas:prov:::
+aos olhos da inveja todo o sucesso é crime:prov:::
+apanha-se mais depressa um mentiroso do que um coxo:prov:PT::
+aprender até morrer:prov:::
+aquilo que sabe bem ou faz mal ou é pecado:prov:::
+as (conversas|palavras) são como as cerejas, vêm umas atrás das outras:prov:::
+as aparências (iludem|enganam):prov:::
+as cadelas apressadas parem cães tortos:prov:::
+as más noticias chegam depressa:prov:::
+as más noticias viajam depressa:prov:::
+as multidões sempre estão nos extremos, quando não tremem, ameaçam:prov:PT::
+as palavras voam, (os escritos ficam|a escrita fica):prov:PT::
+as paredes têm ouvidos:prov:::
+as rosas caem os espinhos ficam:prov:::
+as sopas e os amores, os primeiros são os melhores:prov:::
+as tatuagens nas costas são conhecidas daquêles que as executam (não de quem as traz.):prov:PT::
+às três é de vez:prov:::
+(|as) boas contas fazem os bons amigos:prov:::
+asno com oiro, tudo alcança:prov:PT::
+assás é de pouco saber quem se mata pelo que não pode haver:prov:PT::
+assim como vive o Rei, vivem os vassalos:prov:::
+assim se canta na Sé:prov:::
+até à morte, pé forte:prov:PT::
+até ao lavar dos cestos é vindima:prov:::
+até S. Pedro o vinho tem medo.:prov:::
+atirei no que vi e acertei no que não vi:prov:::
+atrás de mim virá quem (de mim bom|bom de mim) fará:prov:::
+azeite de cima, mel do meio e vinho do fundo, não enganam o mundo:prov:::
+baleias no canal, terás temporal:prov:PT-São Jorge::
+barcos virão, novas trarão:prov:PT-Corvo::
+barriga cheia cara alegre:prov:PT::
+barriga cheia, companhia desfeita:prov:PT::
+barriga farta, pé dormente:prov:::
+barriga vazia não conhece alegria:prov:::
+bater no cão do amigo, o amigo é batido:prov:africano::
+beleza não põe mesa:prov:::
+bem grande é o Marão, mas não dá palha nem grão:prov:::
+bem lavrar, bem semear:prov:PT::
+bem mal ceia quem come de mão alheia:prov:::
+bem mal farás que andes e não comas:prov:::
+bem prega frei Tomás, fazei o que ele diz e não o que ele faz:prov:PT::
+bem saber e bem querer, muito importam para bem viver:prov:PT::
+bem se canta na Sé, mas é quem é:prov:::
+bem se lambe o gato, depois de farto:prov:::
+bem toucada, não há mulher feia:prov:PT-São Miguel::
+besteiro torto, atira aos pés e dá no rosto:prov:PT::
+biscoito de freira, fanga de trigo:prov:::
+boa amizade, segundo parentesco:prov:PT::
+boa árvore, bons frutos:prov:::
+boa é a truta, bom é o sável, bom é o salmão - quando da sazão:prov:PT::
+boa fama granjeia quem não diz mal da vida alheia:prov:::
+boa noite após mau tempo, traz depressa chuva ou vento:prov:PT::
+boa romaria faz, quem em casa fica em paz:prov:BR::
+boas contas, fazem bons amigos:prov:::
+boas palavras e maus feitos, enganam sisudos e néscios:prov:PT::
+boca que apetece, coração que deseja:prov:::
+bocado comido não apanha amigo:prov:::
+boda molhada, boda abençoada:prov:::
+boi em terra alheia é vaca:prov:::
+boi ruim no corno cresce:prov:::
+boi velho gosta de erva tenra:prov:PT-Faial::
+bolsa leve, coração pesado:prov:PT::
+bom serás, sem morto estás:prov:PT::
+bom tempo no Inverno e mau no estio - mau ano de fome, bom ano de frio:prov:PT::
+Braga é o penico do céu:prov:::jj
+branca geada, mensageira de água:prov:PT::
+(brigam|zangam-se) as comadres, descobrem-se as verdades:prov:::
+brigas de namorados, amores dobrados:prov:::
+brilhante nascente que nuvens desfaz, reúne a companha que bom tempo nos trás:prov:::
+broa quente, muita na mão e pouca no ventre:prov:::
+burro velho não aprende línguas:prov:::
+burro velho não ganha andadura:prov:::
+burro velho não tem andadura e se tem pouco dura:prov:::alt
+cá se fazem, cá se pagam:prov:::
+cabeças loucas, orelhas moucas:prov:PT::
+cabra manca não tem sesta. E se a tem, pouco lhe presta.:prov:::
+cachorro mordido de cobra, tem medo até de barbante:prov:::
+cachorro mordido de cobra, tem medo de lingüiça:prov:::alt
+cada bucha sua pinga:prov:::
+cada cabeça (cada|sua) sentença:prov:::
+cada cavadela, (cada|uma) minhoca:prov:PT::
+cada cor, seu paladar:prov:::
+cada macaco no seu galho:prov:::
+cada panela tem seu testo:prov:::
+quando se faz uma panela faz-se um testo para ela:prov:PT::alt
+cada qual com o seu igual:prov:::
+cada um com seu cada um:prov:BR::alt
+cada um com cada qual:prov:PT::alt
+cada qual sentirá seu mal:prov:PT::
+cada pessoa pede para o seu ídolo:prov:africano::
+cada qual no seu ofício:prov:::
+cada qual sabe onde lhe aperta o sapato:prov:::
+cada terra com seu uso, cada roca com seu fuso:prov:PT::
+cada terra tem seu uso, cada roca tem seu fuso:prov:PT::alt
+o seu a seu dono:prov:::
+cada um a seu dono:prov:::alt
+cada um com seus problemas:prov:BR::
+cada um come do que (faz|gosta):prov:::
+cada um como cada qual:prov:PT::
+cada um dá o que tem (| e a mais não é obrigado):prov:::
+cada um é filho de seu pai:prov:PT::
+cada um é para o que nasce:prov:::
+cada um por si e Deus por todos:prov:::
+cada um que se governe:prov:::
+cada um sabe as linhas com que se cose:prov:::
+cada um (trata|sabe) de si (|e Deus de todos):prov:PT::
+cada (tolo|maluco) com sua mania:prov:::
+calcanhar de homem, cu de mulher e nariz de cão só aquecem no Verão:prov:PT::
+caldo sem pão, só no inferno o dão:prov:PT::
+candeia que vai à frente alumia duas vezes:prov:PT::
+cão de caça vem de raça:prov:::
+cão que ladra não morde:prov:::
+cão que levou mordida de cobra tem medo de salsicha:prov:::
+capa e merenda nunca pesaram:prov:::
+caranguejo esconde-se para a água passar:prov:africano::
+carne que baste, vinho que farte, pão que sobre:prov:::
+carne sem osso, proveito sem trabalho:prov:PT::
+casa de esquina, ou morte ou ruína:prov:::
+casa de ferreiro, espeto de pau:prov:::
+casa de pais, escola de filhos:prov:::
+casa onde entra o sol não entra o médico:prov:::
+casa onde não há pão, todos ralham e ninguém tem razão:prov:::
+casa roubada, trancas à porta:prov:::
+casa varrida e mesa posta, hóspedes espera:prov:PT::
+casamento, apartamento:prov:::
+casarás, amansarás:prov:::
+castelos de nuvens sem nuvens por cima são chuvadas certas mesmo sem rimas:prov:::
+castiga-se a arrogância, dando-lhe as costas:prov:PT::
+castiga-se o enfatuado, não se lhe dando importância:prov:PT::
+cautela e caldos de galinha nunca fizeram mal a ninguém:prov:PT::
+cavalga, para não cair:prov:PT::
+cavalo velho não pega andadura:prov:::
+cachorro velho não aprende truque novo.BR:prov:::
+cego é quem vê por entre fios de seda:prov:PT::
+cesteiro que faz um cesto faz um cento (|se lhe derem verga e tempo):prov:::
+céu pedrento, chuva ou vento, não tem assento:prov:::
+chapa ganha, chapa (gasta|batida):prov:::
+chega-te aos bons, serás como eles, chega-te aos maus, serás pior do que eles:prov:::
+junta-te aos bons, serás como eles, junta-te aos maus, serás pior do que eles:prov:::alt
+chuva de São João, (talha|tira) vinho e não dá pão:prov:::
+chuva de São João, cada pinga vale um tostão:prov:::
+chuva miúda e neve aturada, são bom alimento de terra lavrada:prov:PT::
+chuva miudinha como farinha dá vento do norte mas não muito forte:prov:::
+com a verdade me enganas:prov:::
+com açúcar e com mel, até pedras sabem bem:prov:PT::
+com águas passadas não moem moinhos:prov:PT::
+com céu azul carregado, teremos o barco em vento afogado:prov:::
+com coisas sérias não se brinca:prov:::
+com má gente, é remédio muita gente de permeio:prov:PT::
+com mulher louca, andem as mãos e cale-se a boca:prov:::
+com o Diabo, não se brinca:prov:::
+com o fogo, não se brinca:prov:::
+com os males dos outros, posso eu (muito) bem:prov:::
+com papas e bolos, se enganam os tolos:prov:::
+com tempo, tudo se cura:prov:::
+com teu amo, não jogues as peras:prov:::
+com teu amo não, jogues as peras, porque ele come as maduras e dá-te as verdes:prov:::alt
+com teu amo não jogues as peras, porque ele come as maduras e deixa-te as verdes:prov:::alt
+com um olho no burro e o outro no cigano:prov:::
+com vento alimpam os trigos; e, os vícios, com castigo:prov:PT::
+com vinagre não se apanham moscas:prov:::
+come caldo, vive em alto, anda quente, viverás longamente:prov:::
+come e folga, terás boa vida:prov:::
+come para viver, não vivas para comer:prov:::
+comer e coçar está no começar:prov:::
+comer e coçar é só começar:prov:BR::alt
+comer e coçar mal é começar:prov:::alt
+comigo o buraco é mais embaixo:prov:::
+como te fizer teu compadre, assim lhe faz:prov:PT::
+compreender e compadecer-se, é todo o segredo da bondade:prov:PT::
+compro, logo existo!!:prov:BR::
+confia, mas reserva-te:prov:PT::
+confiamos menos nos homens, à medida que mais os praticamos:prov:PT::
+conheces o marinheiro, quando vem a tempestade:prov:PT::
+conserva-se o lume, debaixo da cinza:prov:PT::
+contas, são contas:prov:::
+contra factos, não há argumentos:prov:::
+convida, se não queres constranger; dirige, se não podes ordenar:prov:PT::
+cria fama e deita-te a dormir:prov:PT::
+coube sempre o melhor quinhão, a quem mais força teve, e não razão:prov:PT::
+cozinha sem salsa é como jarra sem flores:prov:::
+cria fama e deita-te na cama:prov:PT::
+cria fama e deita-te a dormir:prov:PT::alt
+cumpre depressa, quem promete devagar:prov:PT::
+custa mais a mecha que o sebo:prov:::
+dá Deus (as|) nozes a quem não tem dentes:prov:::
+dá Deus (as|) nozes a quem não tem dentes, e dentes a quem não tem nozes:prov:::
+da discussão nasce a luz:prov:::
+de Espanha nem bom vento nem bom casamento:prov:PT::
+da Espanha vêm maus ventos e maus casamentos:prov:PT::alt
+de Espanha nem bons ventos nem bons casamentos:prov:PT::alt
+da Argentina só vem frente fria:prov:BR::
+da flor de Janeiro, ninguém enche o celeiro:prov:PT::
+da mão à boca vai-se a sopa:prov:::
+da minha galinha, a postura é minha:prov:PT::
+da noz, o figo é bom amigo:prov:PT::
+dar a César o que é de César e a Deus o que é de Deus:prov:::
+dar o seu a seu dono:prov:::
+de boas intenções está o inferno cheio:prov:PT::
+de boas intenções o inferno está cheio:prov:::alt
+de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias:prov:::
+de (lautas|fartas) ceias estão as sepulturas cheias:prov:PT::
+grão a grão, enche a galinha o papo:prov:PT::
+de grão em grão a galinha enche o papo:prov:::alt
+de tostão em tostão se faz um milhão:prov:BR::alt
+de hora a hora Deus melhora:prov:PT::
+de manhã é que começa o dia:prov:::
+de noite todos os gatos são pardos:prov:::
+de pequenino (|é que) se torce o pepino:prov:::
+de pequenino se constrói o destino:prov:PT::alt
+de Santa Luzia ao Natal, um salto de pardal, de Natal a Janeiro, um salto de carneiro:prov:::
+de santo e de louco todos temos um pouco:prov:PT::
+de médico e de louco todos (|nós) temos um pouco:prov:BR::alt
+de sábio e de louco todos temos um pouco:prov:PT::alt
+de tal gente, tal semente:prov:PT::
+de véspera todos madrugam:prov:::
+deitar cedo e cedo erguer dá saúde e faz crescer:prov:PT::
+depois da noiva casada não faltam pretendentes:prov:::
+depois da tempestade, vem a bonança:prov:::
+depois de chuva, nevoeiro, tens bom tempo marinheiro:prov:::
+depois de eu comer não faltam colheres:prov:::
+depois de fartos, não faltam pratos:prov:PT-Flores::
+depois do mal feito, todos o tinham previsto:prov:PT::
+depois do Natal, saltinho de pardal:prov:::
+depressa e bem há pouco quem:prov:PT::
+depressa e bem não faz ninguém:prov:PT::alt
+desconfiai de vós, dos homens e do mundo, mas confiai em Deus:prov:PT::
+desconfiar de homem que não fale e de cão que não ladre:prov:::
+devemos dar, como queremos receber:prov:PT::
+Deus ajuda a quem (muito|cedo) madruga:prov:::
+Deus ajuda quem madruga:prov:::
+Deus dá o frio conforme a roupa:prov:::
+Deus escreve (direito|certo) por linhas tortas:prov:::
+Deus me dê paciência e um (pano|paninho) para a embrulhar:prov:::
+Deus não dá asas à cobra:prov:::
+Deus nunca fechou uma porta que não abrisse outra:prov:::
+Deus o deu, Deus o levou:prov:::
+devagar que tenho pressa:prov:::
+devagar se vai ao longe:prov:::
+dia de S. Martinho, lume castanhas e vinho.:prov:::
+dinheiro não nasce nas árvores:prov:::
+dinheiro não traz felicidade:prov:::
+discutamos muitas vezes, mas não disputemos nunca:prov:PT::
+dispensa argúcias a defesa da boa causa:prov:PT::
+dividir para (conquistar|reinar):prov:::
+diz o roto ao nu, porque não te vestes tu:prov:::
+diz-me com quem andas dir-te-ei quem és:prov:::
+dize-me com quem andas e eu te direi quem és:prov:BR::alt
+do alto cai quem alto sobe:prov:PT::
+do fogo te guardarás, e do mau homem não poderás:prov:PT::
+do prato à boca perde-se a sopa:prov:::
+dois bicudos não se bicam:prov:::
+dois olhos vêem mais do que um só:prov:::
+dois pardais numa espiga, nunca fazem liga:prov:::
+dois sóis não cabem no mundo:prov:PT::
+dos cheiros o pão e do sabor o sal:prov:::
+dos fracos não reza a história:prov:::
+dos males o menor:prov:::
+do mal o menos:prov:::alt
+dos Santos ao Natal, é bom chover e melhor nevar:prov:PT::
+duas cabeças pensam melhor que uma:prov:::
+dura pouco, quando dura, o que pouco custou a alcançar:prov:PT::
+duro com duro não faz bom muro:prov:::
+é a fome e o frio que põe a lebre a caminho:prov:::
+é bem vindo quem vier por bem:prov:::
+é de pequenino que se torce o pepino:prov:::
+é dificil agradar a Gregos e Troianos:prov:::
+é mais abjecto que o miserável, quem lhe insulta a desgraça:prov:PT::
+é melhor não cutucar onça com vara curta:prov:BR::
+é muito fácil ser soberbo; dificílimo ser humilde:prov:PT::
+é sempre feliz e abastado quem dá útil emprego ao seu tempo:prov:PT::
+é sempre o burro que fala:prov:::
+é trabalhando que o homem vai subindo:prov:PT::
+ele a dar-lhe e a burra a fugir:prov:::
+el-Rei vai onde pode e não onde quer:prov:PT::
+em Abril, águas mil:prov:::
+em Abril, carrega a velha o carro e o carril:prov:::
+em Agosto toda a fruta tem gosto:prov:::
+em boca fechada não entra (mosca|mosquito):prov:::
+em boca fechada não entram moscas:prov:PT::alt
+em boca fechada, as moscas não têm entrada:prov:PT::alt
+em bom pano cai a nódoa:prov:::
+em casa bem regrada, ao meio-dia a olha, à noite a salada:prov:PT::
+em casa de ferreiro, o espeto é de pau:prov:::
+em casa de ferreiro, espeto de salgueiro:prov:PT::alt
+em casa de ferreiro, espeto de pau:prov:PT::alt
+em casa de vilão,não há gato nem cão:prov:PT::
+em casa onde não há pão, todos ralham e ninguém tem razão:prov:::
+em desterro, dá a pobreza mais tormento:prov:PT::
+em Dezembro, a uma lebre, galgos cento:prov:PT::
+em dia de S. Lourenço, vai à vinha e enche o lenço:prov:PT::
+em dia de S. Martinho, vai à adega e prova o vinho:prov:::
+em Janeiro uma hora por inteiro e quem bem contar hora e meia há-de encontrar:prov:::
+em Janeiro, sete capelos e um sombreiro:prov:PT::
+em Janeiro sobe ao outeiro. Se vires verdejar, põe-te a chorar; se vires terrear, põe-te a cantar:prov:PT::
+em Fevereiro sobe a um outeiro. Se vires verdejar põe-te a chorar, se vires terrejar põe-te a cantar:prov:::alt
+em lágrimas a dor se irá sumir:prov:PT::
+em Maio comem-se as cerejas ao borralho:prov:::
+em mesa redonda não há cabeceira:prov:::
+em Julho, ceifo o trigo e o debulho:prov:::
+em Julho fazer vasculho:prov:PT::
+em Junho foucinha no punho:prov:::
+em Março tanto durmo como faço:prov:::
+em Outubro manda o boi para o palheiro e o barco para o muro:prov:::
+em Outubro pega tudo:prov:PT::
+em pouco muito se diz:prov:::
+em questões de amor e bravura, os que mais roncam são os que menos fazem:prov:PT::
+em Roma sê romano:prov:::
+em rio que tem piranha, jacaré nada de costas:prov:BR::
+em tempo de guerra não se limpam armas:prov:::
+em tempo de guerra, qualquer buraco é trincheira:prov:::
+em terra de cego, quem tem um olho é rei:prov:BR::
+em terra de cegos, quem tem um olho é rei:prov:PT::alt
+em terra de saci, calça comprida dá pra dois:prov:::
+em terra de sapo, de cócoras como ele:prov:::
+em terra de sapo, mosquito não dá rasante:prov:::alt
+em terra de sapos, de cócoras como eles:prov:::alt
+em zanga de marido e mulher não se mete a colher:prov:::
+em briga de marido e mulher, ninguém mete a colher:prov:BR::alt
+entre marido e mulher, não metas a colher:prov:PT::alt
+embriagar-se, é enlouquecer por gosto:prov:PT::
+enganaste-me uma vez, nunca mais me enganarás:prov:PT::
+enquanto há vida há esperança | doçura:prov:::
+enquanto o pau vai e vem, folgam as costas:prov:::
+entradas de leão, saídas de (sendeiro|cordeiro):prov:::
+entre marido e mulher (não metas|não se mete|nunca metas) a colher:prov:PT::
+entre mortos e feridos alguém há-de escapar:prov:::
+entre os Santos e o Natal é Inverno natural:prov:::
+errar é humano:prov:::
+errar é humano, perdoar é divino:prov:::alt
+erva ruim, não a queima a geada:prov:PT::
+está a Candelária a chorar, está o inverno a passar:prov:::
+esta vida são dois dias e o Carnaval são três:prov:::
+estar a olhar para qualquer coisa como um boi para um palácio:prov:::
+existir, é sofrer:prov:PT::
+exagero é acreditar todos e, erro, não acreditar ninguém:prov:PT::
+olha para o que eu digo, não olhes para o que eu faço:prov:PT::
+faça o que eu digo, não faça o que eu faço:prov:BR::alt
+faz o que eu digo, mas não faças o que eu faço:prov:PT::alt
+faça-as quem as fizer quem as paga é a minha mulher:prov:PT::
+fala, para que eu te conheça:prov:PT::
+falai no mau que ele sempre aparece:prov:::
+falas-me a guaguejar, estás-me a enganar:prov:::
+farinha pouca, meu pirão primeiro:prov:BR::
+favas o Maio as dá, o Maio as leva:prov:::
+faz a tua ceara onde cante a cigarra:prov:::
+faz contas com a hóspeda e verás o que te fica:prov:PT::
+faz o bem não olhes a quem:prov:PT::
+faz o que deves, e sê o que podes:prov:PT::
+faz o que te digo, não faças o que eu faço:prov:::
+ferro mata ferro morre:prov:::
+ferro que não se usa, gasta-o a ferrugem:prov:::
+festa acabada, músicos a pé:prov:::
+fevereiro é o mês mais curto e menos cortês:prov:PT::
+fevereiro quente traz o diabo no ventre:prov:PT::
+fevereiro, o mais curto mês e o menos cortês:prov:::
+fia-te na Virgem e não corras:prov:PT::
+fica melhor a mulher no seu lar, ouvindo o grilo cantar:prov:::
+fica tudo como dantes, quartel-general em Abrantes:prov:::
+fidalguia sem comodoria é gaita que não assobia:prov:::
+filha casada, pretendentes à porta:prov:::
+filho de peixe sabe nadar:prov:PT::
+filho és pai serás:prov:::
+filho és, pai serás. Como o fizeres, assim o acharás:prov:PT::alt
+filhos criados, trabalhos dobrados:prov:::
+filhos à porta é como lagarta na horta:prov:::
+flor colhida, fruto perdido:prov:::
+focinho de porco e galinha de bico, nunca fizeram o homem rico:prov:::
+foge de um céu azul aleitado; ou desces à câmara ou ficas molhado:prov:::
+foge o diabo da cruz e o morcego da luz:prov:::
+foi-se o nordeste, turvou-se o azul, fugiu do norte, foi para o sul:prov:::
+força física é a lei do bruto:prov:PT::
+gaba-te, cesta, que vais à vindima:prov:::
+gaba-te, cesto, que vender-te quero:prov:::
+gaivotas em terra, tempestade no mar:prov:::
+galinha de campo não quer capoeira:prov:::
+gato escaldado de água fria tem medo:prov:PT::
+gato escaldado tem medo de água fria:prov:BR::alt
+gato escondido com o rabo de fora:prov:::
+gato que nunca comeu azeite, quando o come se lambuza:prov:::
+galinha pedrês não a comas nem a dês:prov:::
+gastos demasiados, caminho de miséria:prov:PT::
+geada na lama água na cama:prov:::
+gente tola e touros, paredes altas:prov:::
+gordura é formosura (|magreza é beleza):prov:::
+gostos não se discutem:prov:::
+goza se podes; sofre se deves; mas esquece a dor e revive o prazer:prov:PT::
+grande nau grande tormenta:prov:::
+grandes caminhadas, grandes mentiras:prov:::
+grandes peixes, pescam-se em grandes rios:prov:::
+grão a grão enche o moleiro o sarrão:prov:::
+grão a grão enche a galinha o papo:prov:PT::
+de grão em grão a galinha enche o papo:prov:BR::alt
+guarda o que não presta, que encontrarás o que te é preciso:prov:PT::
+guarda que comer e não guardes que fazer:prov:PT::
+guardado está o bocado para quem o há-de comer:prov:PT::
+guarda-te do tolo, se tens algum miolo:prov:PT::
+há instrução demasiada, mas a educação é sempre pouca:prov:PT::
+há ocasiões em que o coração vê melhor que os olhos:prov:PT::
+há mais marés que marinheiros:prov:PT::
+há males que vêm por bem:prov:::
+há mar e mar, há ir e voltar:prov:::
+há que dar tempo ao tempo:prov:::
+há remédio para tudo menos para a morte:prov:::
+há violências que só violentam a quem as faz:prov:PT::
+haja fartura, que a fome ninguém atura:prov:PT::
+homem pequenino, ou velhaco ou (bailarino|dançarino):prov:PT::
+homem pequenino, ou sacana ou bailarino:prov:PT::alt
+homem pequenino, embusteiro ou bailarino:prov:PT::alt
+homem pequenino malandro ou dançarino:prov:::alt
+homem prevenido vale por dois:prov:PT::
+hora a hora Deus melhora:prov:::
+horizonte puro, com fuzis brilhando, terás dia brando, com calor seguro:prov:::
+ignora as causas, quem se pasma dos efeitos:prov:PT::
+infeliz no jogo, feliz no amor:prov:BR::
+sorte no jogo, azar no amor:prov:::alt
+azar ao jogo, sorte aos amores:prov:PT::alt
+ir à lã e ser tosquiado:prov:::
+ir buscar lã e ser tosquiado:prov:::alt
+jacaré que dorme, vira bolsa:prov:BR::
+janeiro, fora uma hora:prov:::
+janeiro geadeiro, Fevereiro rego cheio, Março coreiro, Abril águas mil caibam todas num barril, Maio amoroso, Junho calmoso e Julho ventoso, fazem o ano formoso:prov:::
+jantar tarde e cear cedo tiram a merenda de permeio:prov:PT::
+jejuai galegos, que não há pão cozido:prov:PT::
+julga mal, em muitos casos, quem julga os outros por si:prov:PT::
+julgam os namorados que todos têm os olhos fechados:prov:PT::
+junho abafadiço, sai a abelha do cortiço:prov:::
+junho calmoso, ano formoso:prov:::
+junho floreiro, paraíso verdadeiro:prov:::
+junta-te aos bons, serás como eles, junta-te aos maus, serás pior do que eles:prov:::
+chega-te aos bons, serás como eles, chega-te aos maus, serás pior do que eles:prov:::alt
+juntam-se as comadres, descobrem-se as verdades:prov:::
+juramentos de amor, juramentos de um dia:prov:PT::
+ladrão não rouba a ladrão:prov:PT::
+ladrão que rouba a ladrão tem cem anos de (perdão|prisão):prov:::
+lançar foguetes, fazer a festa e apanhar as canas:prov:::
+lembra aos rapazes o que ao (diabo|demos) esquece:prov:PT::
+lenha verde pouco acende e quem muito dorme pouco aprende:prov:PT::
+limpo horizonte que relampeja, dia sereno, calma sobeja:prov:::
+língua comprida, mentira maior:prov:PT::
+lisboa é praça de armas, Coimbra dos estudantes, Porto dos mercadores, Vila Real dos amantes:prov:::
+lobo faminto não tem assento:prov:PT::
+lobo não come lobo:prov:::
+longe (da vista|dos olhos), longe do coração:prov:::
+louvor em boca própria é vitupério:prov:::
+lua à tardinha com seu anel, dá chuva à noite ou vento a granel:prov:::
+lua com circo traz água no bico:prov:::
+lua com halo de grande aparato, É molha certa prá gente de quarto:prov:::
+lua deitada, marinheiro de pé:prov:::
+lua nova trovejada, trinta dias é molhada:prov:::
+lugar ventoso, lugar sem repouso:prov:PT::
+má é a obra, se a sua publicidade nos envergonha:prov:PT::
+macaco velho não mete a mão em cumbuca:prov:BR::
+maçã madura na beira da estrada, ou tá podre, ou tá bichada:prov:BR::
+madruga e verás, trabalha e terás:prov:::
+mãe é tudo igual, só muda de endereço:prov:BR::
+mãe só há uma:prov:PT::
+mais alto é aquele que mais tem:prov:PT::
+mais depressa se apanha um mentiroso que um coxo:prov:::
+mais depressa se encontra um mentiroso que um coxo:prov:::alt
+é mais fácil pegar um mentiroso do que um coxo:prov:BR::alt
+mais do que o dado, vale a maneira de o dar:prov:PT::
+mais vale agradecer com a verdade, que ofender com a lisonja:prov:PT::
+mais vale andar no mar alto, que nas bocas do mundo:prov:::
+mais vale burro vivo que sábio morto:prov:::
+mais vale cedo que tarde:prov:::
+mais vale cedo que tarde e tarde que nunca:prov:::alt
+mais vale cair em graça do que ser engraçado:prov:::
+mais vale ter graça do que ser engraçado:prov:::alt
+mais vale ficar vermelho cinco minutos,que amarelo toda a vida:prov:BR::
+mais vale o calar do mundo, que o falar do mentiroso:prov:PT::
+mais vale o sim tardio, que o não vazio:prov:PT::
+mais vale pão duro, que nenhum:prov:PT::
+mais vale perder um minuto na vida do que a vida num minuto:prov:::
+mais vale pouco que nada:prov:::
+mais vale prevenir (do) que remediar:prov:::
+mais vale quem Deus ajuda do que quem (cedo|muito) madruga:prov:::
+mais vale rico e com saúde do que pobre e doente:prov:::
+mais vale sê-lo que parecê-lo:prov:::
+mais vale ser feliz que rico:prov:::
+mais vale ser rabo de pescada que cabeça de sardinha:prov:::
+mais vale só que mal acompanhado:prov:PT::
+(mais vale|antes) tarde do que nunca:prov:::
+mais vale um ano à volta que nunca a casa:prov:::
+mais vale um "toma" do que dois "te darei":prov:::
+mais vale um gosto do que seis vinténs:prov:::
+mais vale um gosto na vida que seis (reis|vinténs) na algibeira:prov:::
+mais vale um inimigo sábio que um amigo ignorante:prov:::
+mais vale um mau acordo que uma boa (sentença|demanda):prov:::
+mais vale um pássaro na mão do que dois a voar:prov:::
+mais vale um pássaro na mão do que dois voando:prov:::alt
+mais vale ter um pássaro na mão do que dois a voar:prov:::alt
+mais vale um que bem mande do que dois que mal façam:prov:PT::
+mais vale um sim tardio, que um não vazio:prov:PT::
+mais vale uma palavra antes que duas depois:prov:::
+mais vale uma vista do dono, que cem brados do abegão:prov:PT::
+mais vale verde no meu papo, que maduro no papo alheio:prov:PT::
+mal de muitos consolo é:prov:::
+mal fechado, mal guardado:prov:PT::
+mal por mal, antes na cadeia do que no hospital:prov:::
+mal por mal, venha o Diabo e escolha:prov:::
+mal se dói o farto, do faminto:prov:PT::
+manda e faz, servido serás:prov:PT::
+manhã com arco mal vai o barco. se à tarde vem, é p'ra teu bem:prov:::
+manhã de névoa, tarde de sesta:prov:PT::
+manhã de nevoeiro, tarde de calmeiro:prov:PT::
+manda quem pode, obedece quem tem juízo:prov:::
+manda quem pode, obedece quem deve:prov:::alt
+mãos frias, coração quente (amor ardente| amor para sempre|):prov:::
+mãos generosas, mãos poderosas:prov:PT::
+mãos quentes, coração frio amor vadio:prov:::
+março, marçagão, manhã de inverno, tarde de verão:prov:PT::
+março marçagão, pela manhã, cara de anjo; à noite, cara de ladrão:prov:PT::
+março, marçagão, de manhã Inverno, à tarde Verão:prov:::
+mas se está claro, cheio de luz, haja alegria, que o tempo é de truz:prov:::
+mata o teu porco, e conhece teu corpo:prov:::
+mata primeiro o elefante e depois arranca-lhe os pelos da cauda:prov:africano::
+matar dois coelhos com uma (cajadada|paulada) (só|):prov:::
+medra o trigo debaixo da neve como o carneiro debaixo da pele:prov:PT::
+mel, se o achaste, come o que baste:prov:::
+melhor é o meu ,que o nosso:prov:PT::
+menino farto não é comedor:prov:::
+mente quem dá com a lingua no dente:prov:PT::
+mentir nem zombando:prov:PT::
+mentira tem perna curta:prov:::
+mentira mil vezes repetida torna-se verdade:prov:::
+merenda comida, companhia desfeita:prov:::
+mesa sem pão é mesa de vilão:prov:::
+meus filhos em casa, tudo se abrasa:prov:PT::
+miragem que espante vento do levante:prov:::
+mocidade ociosa traz velhice vergonhosa:prov:PT::
+mocidade ociosa, velhice penosa:prov:PT::
+moço desprevenido, será velho arrependido:prov:PT::
+mordedura (de cão) cura-se com o pêlo do mesmo cão:prov:::
+morra Marta, morra farta:prov:::
+morrer e pagar quanto mais tarde melhor:prov:PT::
+pagar e morrer, é a ultima coisa a fazer:prov:PT::alt
+morrer por morrer, morra o meu pai que é mais velho:prov:::
+morreu o bicho, acabou-se a peçonha:prov:::
+muda de moleiro, que não mudas de ladrão:prov:::
+mudam-se os tempos, mudam-se as vontades:prov:::
+muita gente junta não se safa:prov:::
+muita parra pouca uva:prov:::
+muito alcança quem não cansa:prov:::
+muito come o tolo mas mais tolo é quem lho dá:prov:::
+muito e mal, é geral; muito e bem, há pouco quem:prov:PT::
+muito esquece a quem não sabe:prov:::
+muito falar, pouco acertar:prov:PT::
+muito faremos e muito diremos, mas mal vai o barco sem rumo:prov:PT::
+muito riso, pouco siso:prov:::
+muito se engana quem julga:prov:::
+muitos comandantes levam o navio pela encosta acima:prov:PT::
+muitos cozinheiros estragam a sopa:prov:::
+mulher (honrada|séria) não tem ouvidos:prov:::
+mulher de janela, amora de estrada:prov:PT::
+mulher doente, mulher para sempre:prov:::
+mulher feia é casta por natureza:prov:::
+mulher que a dois ama, a ambos engana:prov:PT::
+mulher que nas juras de homem se fia, chora de noite e de dia:prov:PT::
+mulher séria não tem ouvidos:prov:PT::
+mulheres, mulas e muletas, tudo se escreve com a mesma letra:prov:::
+na adversidade é que se prova a amizade:prov:::
+na água turva é que se apanha o bargue:prov:africano::
+na boda dos pobres, tudo são vozes:prov:PT::
+na cama que farás, nela te deitarás:prov:::
+na confiança está o perigo:prov:PT::
+na desconfiança, é que está a segurança:prov:PT::
+na lareira uma pedra só não aguenta a marmita:prov:africano::
+na morte e na boda verás quem te honra:prov:::
+na noite involta, pesca o pescador:prov:PT::
+na primeira quem quer cai, na segunda cai quem quer:prov:::
+na variedade é que está o bom gosto:prov:PT::
+nada é mais incompatível com o estudo, do que o sono e o cansaço:prov:PT::
+nada é tão bem empregado, como aquilo que se dá aos que precisam:prov:PT::
+nada há mais difícil em tudo, que o bem começar:prov:PT::
+nada há mais importuno que os cumprimentos, quando são excessivos:prov:PT::
+nada há tão contagioso, como o medo:prov:PT::
+nada se dá com tanta liberalidade como os conselhos:prov:::
+não alimentes burros a pão-de-ló:prov:::
+não contes com o ovo no cu da galinha:prov:::
+não coso morto nem vivo, coso isto que está descosido:prov:::
+não coso vivo nem morto, coso aquilo que está roto:prov:::
+não crie cão, quem não lhe sobeje pão:prov:PT::
+não dá quem tem, dá quem quer bem:prov:::
+não deixe escapar camarão pela rede:prov:PT::
+não deixes para amanhã o que podes fazer hoje:prov:::
+não deixe para amanhã o que você pode fazer hoje:prov:::alt
+não desespera quem já nada espera, porque já não tem inquietações:prov:PT::
+não destrua a árvore, para depois ter seu fruto:prov:BR::
+não digas mal do teu vizinho, pois podes encontrá-lo pelo caminho:prov:::
+não é com vinagre que se apanham moscas:prov:::
+não é em pia grande que o porco come à vontade:prov:PT::
+não é pobre o que tem pouco, senão o que cobiça muito:prov:PT::
+não é por muito madrugar que amanhece mais cedo:prov:PT::
+não é vilão o da vila, senão o que faz vilania:prov:PT::
+não está sempre na mão de cada um o ser feliz, mas está o merece-lo:prov:PT::
+não faças aos outros o que não gostas que te façam a ti:prov:::
+não faças nada, sem consultar a almofada:prov:PT::
+não fales como doente, nem mores entre vil gente:prov:PT::
+não gozes com o mal do teu vizinho, porque o teu vem a caminho:prov:::
+não há amor como o primeiro:prov:::
+não há bela sem senão:prov:::
+não há bela sem senão, nem feia sem sua graça:prov:::alt
+não há cabeça a que não falte a carapuça:prov:PT::
+não há cabeças mais duras, que as cabeças vazias:prov:PT::
+não há crime sem lei:prov:::
+não há dia sem tarde:prov:PT::
+não há duas sem três:prov:::
+não há fome sem fartura:prov:::
+não há fome que não dê em fartura:prov:PT::alt
+não há filho que avalie quanto deve ao pai:prov:PT::
+não há galinha gorda por pouco dinheiro:prov:::
+não há luar mais bonito que o de Agosto:prov:::
+não há livro tão ruim, que não tenha alguma coisa boa:prov:PT::
+não há mais bronze, que anos onze:prov:PT::
+não há mal que o tempo não cure:prov:::
+não há mal que sempre dure nem bem que não acabe:prov:PT::
+não há manjar que não enfastie, nem vício que não enfade:prov:PT::
+não há nada mais barato, do que aquilo que se compra:prov:PT::
+não há nada tão forte, a que não derrube a morte:prov:PT::
+não há regra que não falhe:prov:PT::
+não há nada, por mais antigo que seja, que não fosse já novo:prov:PT::
+não há parto sem dor:prov:::
+não há pior cego que o que não quer ver:prov:::
+não há regra sem exepção:prov:PT::
+não há rosas sem espinhos:prov:::
+não há sábado sem sol, domingo sem missa nem segunda sem preguiça:prov:::
+não medram galinhas onde a raposa mora:prov:PT::
+não metas a mão em prato onde te fiquem as unhas:prov:PT::
+não metas dinheiro em saco, sem veres se tem buraco:prov:PT::
+não negues o louvor, senão a que o pedir:prov:PT::
+não morde a abelha, senão a quem trata com ela:prov:PT::
+não peças a quem pediu, nem sirvas a quem serviu:prov:PT::
+não ponhas dúvidas, nem faças contendas sem que saibas a quem te diriges:prov:PT::
+não queira o sapateiro tocar rabecão:prov:::
+não se arrancando a silveira, padece a videira:prov:PT::
+não se deseja, o que o olhar não veja:prov:PT::
+não se deve desdenhar o que se recebe graciosamente:prov:::
+não se deve despir um santo para vestir outro:prov:::
+não se fala de corda em casa de enforcado:prov:::
+não se malha em ferro frio:prov:::
+não se pescam trutas a bragas enxutas:prov:::
+não se pode fazer a par - comer e assoprar:prov:::
+não se preocupe, se ocupe!:prov:BR::
+não sou rio, para não voltar atraz:prov:PT::
+não suba o sapateiro além da chinela:prov:::
+não vá o sapateiro além da chinela:prov:::alt
+não te metas no que não te diz respeito:prov:::
+não tenhas mais olhos (do) que barriga:prov:::
+não vá o diabo tecê-las:prov:::
+não vendas a pele do urso antes de o matar:prov:::
+não vos apresseis a fazer amigos, nem a deixar os antigos:prov:PT::
+nariz de cão e cu de gente não se quer quente:prov:::
+nas costas dos outros vejo as minhas:prov:PT::
+nas empresas arrojadas, o êxito depende do primeiro impulso:prov:PT::
+navegar é preciso, viver não é preciso:prov:::
+negra é a ceia em casa alheia:prov:PT::
+nem contas com parentes nem dívidas com ausentes:prov:::
+nem de cada malha peixe, nem de cada mata feixe:prov:PT::
+nem oito, nem oitenta:prov:::
+nem pão quente, nem vinho que salte ao dente:prov:::
+nem por muito madrugar amanhece mais cedo:prov:PT::
+nem sempre galinha, nem sempre rainha:prov:PT::
+nem sempre o forno faz rosquilhas:prov:::
+nem sempre sardinha, nem sempre galinha:prov:::
+nem só de pão vive o homem:prov:PT::
+nem sobejo, nem minguado:prov:PT::
+nem tanto ao mar nem tanto à terra:prov:::
+nem todas as verdades se dizem:prov:::
+nem todo o grão vai ao olho do moinho:prov:::
+nem todos os dias morrem bispos:prov:PT::
+nem tudo que (luz|reluz) é ouro:prov:::
+nem tudo o que vem à rede é peixe:prov:::
+ninguém aponte as faltas alheias com o dedo sujo:prov:PT::
+ninguém diga desta água não beberei (e deste pão não comerei|):prov:::
+ninguém é bom juiz (nem mau advogado), em causa própria:prov:PT::
+ninguém é mais fácil de enganar, que aquele que não engana ninguém:prov:PT::
+ninguém é profeta em terra própria:prov:::
+ninguém é profeta na sua terra:prov:::alt
+ninguém fala que não tenha que se lhe diga:prov:PT::
+ninguém melhor ajuda o pobre, que o pobre:prov:::
+ninguém nasce ensinado:prov:::
+ninguém perde que outro não ganhe:prov:::
+ninguém quer ser velho nem morrer novo:prov:::
+ninguém seria vendeiro, se não fosse o dinheiro:prov:PT::
+no aperto e no perigo se conhece o amigo:prov:::
+no dia de S. Martinho vai à adega e prova o vinho:prov:PT::
+no meio é que está a virtude:prov:::
+no melhor pano cai a nódoa:prov:::
+no Natal, passadinha de Natal:prov:::
+no poupar é que está o ganho:prov:PT::
+no São Martinho vai à adega e prova o vinho:prov:::
+no tempo quente refresca o ventre:prov:::
+no velho e no menino, o ofício é perdida:prov:PT::
+nordeste molhado, não te dê cuidado:prov:::
+nove meses de Inverno, três de inferno:prov:::
+novos tempos, novos costumes:prov:::
+numa mulher não se bate nem com uma flor:prov:::
+nunca deites foguetes antes da festa:prov:::
+nunca desprezes as dádivas de hoje pelas promessas de amanhã:prov:PT::
+nunca digas desta água não beberei:prov:PT::
+nunca digas desta água não beberei (e deste pão não comerei|):prov:::alt
+nunca mostres o fundo, nem da bolsa, nem da alma:prov:PT::
+nunca o invejoso medrou nem quem ao pé dele morou:prov:::
+nunca se agradece com tanto fervor, como quando se espera um novo favor:prov:PT::
+nunca se é tão bem servido que por si mesmo:prov:::
+nuvem comprida que se desfia sinal de grande ventania:prov:::
+nuvens aos pares, paradas, cor de cobre, É temporal que se descobre:prov:::
+nuvens espessas e acumuladas, ventanias certas e continuadas:prov:::
+nuvens finas, sem ligação, bom tempo, brisas de feição:prov:::
+nuvens pequenas, altas e escuras são chuvas certas e seguras:prov:::
+o amor é cego:prov:::
+o amor não tem lei:prov:PT::
+o ar que cada um se quer dar, não vale o que procura deixar:prov:PT::
+o avarento não tem, e o pródigo não terá:prov:PT::
+o avarento, onde tem o tesouro, tem o entendimento:prov:PT::
+o avarento, por um real, perde um cento:prov:PT::
+o barulho não faz bem e o bem não faz barulho:prov:::
+o barato sai caro:prov:::
+o bom e o bem, nunca enfadam:prov:PT::
+o bom filho à casa torna:prov:::
+o bom homem goza o fruto de o ser:prov:PT::
+o bom médico é o do terceiro dia:prov:::
+o calado é o melhor:prov:::
+o caldo em quente, a injúria em frio:prov:PT::
+o cantar bem é de poucos:prov:PT::
+o cão ladra e a caranava passa:prov:::
+o casamento e a mortalha no céu se talha:prov:::
+o ciúme nasce sempre com o amor; mas não morre sempre com ele:prov:PT::
+o comer e o coçar estão no começar:prov:::
+o corno é sempre o último a saber:prov:::
+o crime não compensa:prov:::
+o cu não tem nada a ver com as calças:prov:::
+o desconfiado convida a ser traído:prov:PT::
+o diabo deu um tiro com uma tranca:prov:::
+o diligente ganha a sua vida, o preguiçoso, rouba-a:prov:PT::
+o dinheiro fala todas as línguas:prov:PT-Santa Maria::
+o dinheiro fez-se para se (contar|gastar):prov:::
+o dinheiro não dá a felicidade, mas ajuda muito:prov:::
+o eco da primeira palavra fica sempre no coração:prov:africano::
+o enfatuado é um tolo, que os tolos reputam sábio:prov:PT::
+o esperto só acredita em metade, e o génio sabe em que metade deve acreditar:prov:::
+o filho que amargura os pais jamais conta com ventura:prov:PT::
+o futuro a Deus pertence:prov:::
+o hábito é uma segunda Natureza:prov:::
+o hábito não faz o monge:prov:::
+o homem ande sempre com tento, e a mulher não lhe toque o vento:prov:PT::
+o homem honrado não se autoriza com as opiniões do patife:prov:PT::
+o homem mais independente é, ainda, escravo do ar que respira:prov:PT::
+o homem não é infeliz enquanto não é injusto:prov:PT::
+o homem põe e Deus dispõe:prov:::
+o homem queremos ver, que os vestidos são de lã:prov:PT::
+o homem só é absolutamente pobre, quando já não pode trabalhar:prov:PT::
+o ignorante é sempre presunçoso:prov:PT::
+o indiscreto tem sempre motivo para se arrepender daquilo que diz:prov:PT::
+o lobo, com a goela cheia, não morde:prov:PT::
+o linho apurado, dá lenço dobrado:prov:PT::
+o macaco mesmo coberto com a pele dum carneiro, é sempre um macaco:prov:africano::
+o macaco só vê o rabo do outro:prov:Angola::
+o macaco não vê o seu rabo:prov:Cabo Verde::alt
+o magnânimo tem por sua a honra dos seus:prov:PT::
+o maior revés nada vale, quando a honra fica de pé:prov:PT::
+o mais difícil de curar é aquele que tem a aparência do bem:prov:PT::
+o mal alheio não pesa a quem o não tem:prov:PT::
+o mal do meu burrinho, ensina o meu vizinho:prov:PT::
+o mal dos outros é consolo de parvos:prov:::
+o mal está nos olhos de quem o vê:prov:::
+o mau artífice (queixa-se da|culpa a) ferramenta:prov:::
+o mau crê nas maldades, e o bom, nas virtudes:prov:PT::
+o melão e a mulher conhecem-se pelo rabo:prov:::
+o meu herdeiro é quem me limpa o traseiro:prov:::
+o moço oficial, faça o que lhe mandam, e não fará mal:prov:PT::
+o mundo é um caleidoscópio; cada qual o vê conforme o agita:prov:PT::
+o necessário, aproveita-o; o desnecessário, enjeita-o:prov:PT::
+o ocioso para nada vive:prov:PT::
+o ódio dos maus, honra o homem de bem:prov:PT::
+o olho do dono (|é que) engorda o (gado|cavalo|boi):prov:::
+o óptimo é inimigo do bom:prov:PT::
+quando está quase bom, deixa-se:prov:PT::alt
+o pai impertinente, faz o filho desobediente:prov:PT::
+o pão do pobre cai sempre com a manteiga para baixo:prov:::
+o pior cego é aquele que não quer ver:prov:::
+o pote tanto vai à bica que um dia fica:prov:::
+o preto no branco, fala como gente:prov:PT::
+o prevenido procede seguro:prov:PT::
+o primeiro milho é dos pardais:prov:::
+o prometido é devido:prov:::
+o que arde, cura:prov:::
+o que arde cura, o que aperta segura:prov:::alt
+o que arma a esparrela muitas vezes cai nela:prov:::
+o que é barato sai caro:prov:::
+o que é bom acaba depressa:prov:::
+o que é doce nunca amargou:prov:::
+o que é nosso vem parar-nos à mão:prov:::
+o que é vivo sempre aparece:prov:::
+o que mais custa melhor sabe:prov:::
+o que não mata engorda:prov:::
+o que não tem remédio remediado está:prov:::
+o que não tem solução, solucionado está:prov:::alt
+(o que|quem) torto nasce, tarde ou nunca se endireita:prov:PT::
+pau que nasce torto morre torto:prov:::
+o que o berço dá só a tumba tira:prov:::
+o que os olhos não vêem o coração não sente:prov:::
+olhos que não vêem, coração que não sente:prov:::alt
+o que se não faz no dia da romaria, faz-se no outro dia:prov:::
+o que tu sabes já eu me esqueci:prov:::
+o rabo é o pior de esfolar:prov:::
+o ridículo desonra mais que a desonra:prov:PT::
+o rio passado, o santo não lembrado:prov:PT::
+o risco que corre o pau, corre o machado:prov:::
+o saber não ocupa lugar!:prov:::
+o segredo é a alma do negócio:prov:PT::
+o seguro morreu de velho:prov:::
+o seguro morreu de velho e a previdência foi ao enterro:prov:PT::alt
+o seguro morreu de velho e o desconfiado ainda está vivo:prov:PT::alt
+o seu a seu dono:prov:::
+o silêncio é de ouro:prov:::
+o Sol quando nasce é para todos:prov:::
+o Sol nasce para todos:prov:BR::alt
+o Sol nasce para todos, e a sombra para poucos:prov:BR::alt
+o Sol quando nasce é rei, ao meio dia é morgado, de tarde está doente, à noite sepultado:prov:::
+o sisudo ata o saber à estaca:prov:PT::
+o temor do Senhor é o princípio da sabedoria:prov:::
+o tempo dá remédio, onde falta o conselho:prov:PT::
+o tempo é o melhor juiz de todas as coisas:prov:PT::
+o tempo que vai não volta:prov:PT::
+o testamento do pobre é breve, na unha se escreve:prov:::
+o trabalho dá saúde:prov:PT::
+o trabalho não mata ninguém:prov:::
+o trabalho paga dividas:prov:PT::
+o último a rir é o que ri melhor:prov:::
+o ventre em jejum não ouve a nenhum:prov:::
+o vinho faz bem aos homens quando são as mulheres que o bebem:prov:::
+obdece e saberás mandar:prov:PT::
+ódio velho não cansa:prov:::
+olha para o que eu digo, não olhes para o que eu faço:prov:::
+bem prega frei Tomás, fazei o que ele diz e não o que ele faz:prov:PT::alt
+olha para ti e fica-te por aí:prov:::
+olho por olho, dente por dente:prov:::
+olhos que não vêem, olhos que não pecam:prov:PT::
+onde a cólera há semeado, faz o arrependimento a colheita:prov:PT::
+onde a desconfiança começa, aí acaba a amizade:prov:PT::
+onde alhos há, vinho haverá:prov:PT::
+onde canta galo não canta galinha:prov:::
+onde choram, não cantes:prov:PT::
+onde entra o beber, sai o saber:prov:PT::
+onde está galo não canta galinha:prov:::
+onde fogo não há, fumo não se levanta:prov:::
+onde há filhos, não há parentes nem amigos:prov:PT::
+onde há fumo há fogo:prov:::
+onde há fumaça há fogo:prov:::alt
+não há fumo sem fogo:prov:PT::alt
+onde nasce a lagarta aí se farta:prov:::
+onde mija um português, mijam (logo|sempre) dois ou três:prov:::
+os anos não fazem sábios, fazem velhos:prov:PT::
+os amigos são para as ocasiões:prov:::
+os bons conselhos desprezados, são depois, com dor, comemorados:prov:PT::
+os cães ladram mas a caravana passa:prov:::
+os cegos por ambição ainda vêem menos, que os cegos por nascimento:prov:PT::
+os conselhos que damos aos outros, devemos tomá-los para nós:prov:PT::
+os extremos tocam-se:prov:::
+os fins (não) justificam os meios:prov:::
+os frutos não caem longe da árvore:prov:::
+os homens não se medem aos palmos:prov:::
+os homens que não se vingam, são sempre os mais vingados:prov:PT::
+os olhos pedem mais do que a barriga aguenta:prov:::
+os rios correm para o mar:prov:::
+os tímidos roubam-se a si mesmo:prov:::
+os últimos serão os primeiros:prov:::
+os últimos são sempre os primeiros:prov:::alt
+os vivos são sempre e cada vez mais governados pelos mais vivos:prov:BR::
+osso que acabes de comer não o voltes a roer:prov:::
+ossos do ofício, que o não há sem ossos:prov:PT::
+ouro é o que ouro vale:prov:PT::
+outubro recolhe tudo:prov:::
+ovelha má põe o rebanho a perder:prov:::
+ovelha ruim bota o rebanho a perder:prov:::alt
+ovelha que (bale|berra), bocado que perde:prov:::
+ovelha que barrega, é bocada que perde:prov:PT::
+padre sem sacristão, toca o sino com os pés:prov:S.Tomé e Príncipe::
+paga o justo pelo pecador:prov:::
+palavra de rei não volta atrás:prov:::
+palavra puxa palavra:prov:::
+palavras loucas, orelhas moucas:prov:::
+palavras loucas, ouvidos moucos:prov:::alt
+palavras não adubam sopas:prov:::
+palavras, leva-as o vento:prov:::
+pão afatiado não enfarta rapaz esfaimado:prov:::
+pão quente, muito na mão e pouco no ventre:prov:::
+papagaio come o milho, periquito leva a fama:prov:::
+para a missa e para o moinho não esperes pelo teu vizinho:prov:PT::
+papagaio teme maleitas, porque não lhe dão amêndoas confeitas:prov:::
+para a fome não há pão duro:prov:::
+para amigo íntimo, basta um, colhido na adversidade:prov:PT::
+para baixo, todos os santos ajudam:prov:PT::
+para baixo, todo santo ajuda:prov:::alt
+para boa fome não há mau pão:prov:::
+para bem tagarelar, basta o arrojo:prov:PT::
+para caçador novo, cão velho:prov:PT::
+para conhecer os homens, é preciso ter sofrido:prov:PT::
+para ganhar, até o ferro nada:prov:PT::
+para grandes males, grandes remédios:prov:::
+para lá do Marão, mandam os que lá estão:prov:PT::
+para cá do Marão, mandam os que cá estão, para lá do Marão, mandam os que de cá vão:prov:PT-Trás-os-Montes::alt
+para ladrão, ladrão e meio:prov:::
+para morrer basta estar vivo:prov:::
+para muito sono toda a cama é boa:prov:::
+para o bom obreiro não há má ferramenta:prov:PT::
+para quem é bacalhau basta:prov:::
+para quem sabe ler um pingo é letra:prov:::
+para bom entendedor meia palavra basta:prov:::
+para bom entendedor um pingo é letra:prov:::alt
+para São João guarda o velho o melhor tição:prov:::
+para trás mija a burra:prov:::
+para um mau profissional, nenhuma ferramenta lhe serve:prov:::
+parar é morrer:prov:::
+pardal que tem fome, vem abaixo e come:prov:::
+passarinho que come pedra sabe o cu que tem:prov:::
+passarinhos e pardais,não são todos iguais:prov:::
+passou das seis, para mim é boa noite:prov:::
+patrão fora, dia santo na loja:prov:PT::
+quando o gato sai, os ratos fazem a festa:prov:::
+pau que nasce torto, tarde ou nunca se endireita:prov:::
+pede o guloso para o desejoso:prov:::
+pedra sobre pedra, às vezes chega:prov:PT::
+peixe não puxa carroça:prov:::
+pela boca morre o peixe:prov:::
+pela farinha se conhece o moleiro:prov:::
+pelo amor se ganha o céu:prov:::
+pelo S.João ceifa o teu pão:prov:::
+pelo Santiago pinta o bago:prov:::
+pelos amores novos, esquecem-se os velhos:prov:PT::
+pelos frutos conhece-se a árvore:prov:::
+pelo fruto se conhece a árvore:prov:::alt
+pelos maus, pagam os bons:prov:PT::
+penso, logo desisto:prov:::
+pequenos descuidos produzem grandes males:prov:PT::
+perdendo tempo não se ganha dinheiro:prov:PT::
+perde-se o velho por não poder e o novo por não saber:prov:::
+perdi a roca e o fuso não acho; três dias há que lhes ando no rastro:prov:PT::
+perdido por cem, pedido por mil:prov:::
+peso e medida, tiram o homem de fadiga:prov:PT::
+pimenta nos olhos dos outros é refresco:prov:::
+pior é nada:prov:::
+piu, piu, piu, piu, ao terceiro piu vai buscar água ao rio:prov:::
+p'lo S. Simão e S. Judas, já colhidas são as uvas:prov:PT::
+p'lo Santiago, pinta o bago:prov:PT::
+pobreza não é vileza:prov:::
+pode ir o pobre sem esmola, mas não vai sem resposta:prov:::
+poente nubloso, vermelho acobreado safa a japona, que o tempo é molhado:prov:::
+por mais que o vento sopre uma montanha nunca se inclina:prov:::
+por mais santo que seja o dia, a panela tem que ferver:prov:::
+por morrer uma andorinha não acaba a Primavera:prov:::
+por bem fazer mal haver:prov:::
+pôr o carro à frente dos bois:prov:::
+por pouca saúde, mais vale nenhuma:prov:::
+por uma besta dar um coice não se lhe corta uma perna:prov:::
+porfia mata veado, e não besteiro cansado:prov:PT::
+pouco a pouco a lagarta consegue devorar a folha da árvore:prov:africano::
+pouco aprende quem muito dorme:prov:PT::
+pouco sabe, quem muito se ufana de saber:prov:PT::
+poucos fuzis, trovões em barda, rumo em que o vento se alaparda:prov:::
+pragas com razão, nem ao meu cão:prov:PT::
+pregar no deserto, é sermão perdido:prov:PT::
+preso por ter cão, preso por não ter:prov:::
+presunção e água benta cada um toma a que quer:prov:PT::
+primeiro a obrigação, depois a devoção:prov:::
+primeiro de Maio, corre o lobo e o veado:prov:PT::
+quando a passarada berra, o marinheiro procura terra:prov:::
+quando a causa está quase de todo perdida, deve-se tudo arriscar:prov:PT::
+quando a esmola é grande, o pobre desconfia:prov:::
+quando ao sol posto o norte é puro, tens bom tempo seguro:prov:::
+quando de faz uma panela, faz-se o testo para ela:prov:::
+quando Deus não quer, santos não rogam:prov:PT::
+quando Deus quer, água fria é remédio:prov:::
+quando Deus queria do norte chovia:prov:::
+quando dois búfalos lutam, quem sai mal é o capim:prov:::
+quando falta, sobra e quando sobra, falta:prov:::
+quando mija um português mijam (logo|) dois ou três:prov:::
+quando não chove em Fevereiro, nem bom pão nem bom lameiro:prov:PT::
+quando não faz vento, faz bom tempo:prov:PT::
+quando não há pão, come-se broa:prov:::
+quando o gato sai, os ratos fazem a festa:prov:::
+quando o gato sai de casa, os ratos passeiam:prov:::alt
+quando o lobo vai por seu pé, não come o que quer:prov:PT::
+quando o mar bate na rocha quem se lixa é o mexilhão:prov:::
+quando o sábio aponta para a Lua, o idiota olha para o dedo:prov:china::
+quando o vinho entra, o juízo sai:prov:::
+quando pobre come frango, um dos dois está doente:prov:BR::
+quando quiseres mentir, fala no tempo que há-de vir:prov:::
+quando tudo é interessante, coisa alguma interessa:prov:PT::
+quando um burro (fala|zurra), os outros baixam as orelhas:prov:::
+quando um cai, todos o pisam:prov:::
+quando um não quer, dois não discutem:prov:::
+quando vem a glória, vai-se a memória:prov:::
+quando vires as barbas do teu vizinho a arder põe as tuas de molho:prov:PT::
+quanto maior é a nau, maior é a tormenta:prov:PT::
+quanto mais alto se sobe pior é a queda:prov:PT::
+quanto mais alto, maior é a queda:prov:::alt
+quanto mais alto se sobe de mais alto se cai:prov:::alt
+quanto mais choras, menos mijas:prov:::
+quanto mais depressa, mais devagar:prov:::
+quanto mais me bates, mais gosto de ti:prov:::
+quanto mais prima mais se lhe arrima:prov:::
+quanto mais se semeia em desejos, menos se colhe em felicidade:prov:PT::
+quanto mais te agachas mais o rabo se vê:prov:PT::
+quanto mais te agachas, mais te põem o pé em cima:prov:::alt
+quanto mais te baixas, mais se te vê o cu:prov:::alt
+quanto mais te dão, mais teus amigos são:prov:PT::
+quanto sabes, quanto vales. Saberás, mas se nada tens, nada vales:prov:PT::
+que bem prega Frei Tomás, façamos o que ele diz e não o que ele faz:prov:::
+quebra galho é macaco gordo:prov:::
+queijo com pão faz o homem são:prov:::
+quem a alto sode de alto cai:prov:::
+quem acha guarda:prov:::
+quem bebe é para passar mal, se for para ficar bom que tome remédio:prov:BR::
+quem acompanha morcego acorda de cabeça pra baixo:prov:::
+a beleza está nos olhos de quem vê:prov:PT::
+quem o feio ama, bonito lhe parece:prov:PT::
+quem ama o feio, bonito lhe parece:prov:::alt
+quem anda à chuva, molha-se:prov:::
+quem anda de boca aberta, ou entra mosca ou sai asneira:prov:::
+quem andou não tem para andar:prov:::
+quem arrota pede bolota:prov:::
+quem assim fala não é gago:prov:::
+quem avisa, amigo é:prov:::
+quem te avisa, teu amigo é:prov:PT::alt
+quem me avisa, meu amigo é:prov:PT::alt
+quem bem come e bebe, bem faz o que deve:prov:::
+quem bem vive bem morre:prov:::
+quem boa ou má cama fizer, nela se deitará:prov:PT::
+quem boa cama fizer, nela dorme!:prov:PT::alt
+quem boa cama faz, nela se deita:prov:PT::alt
+quem brinca com o fogo queima-se:prov:::
+quem cabritos vende e cabras não tem, de algures lhe vem:prov:::
+quem cala consente:prov:::
+quem cala, vence:prov:PT::
+quem canta seus males espanta:prov:::
+quem casa não pensa, quem pensa não casa:prov:::
+quem casa quer casa:prov:::
+quem ceia em vinhas, almoça em fontes:prov:::
+quem chora, sente:prov:::
+quem com ferros mata, com ferros morre:prov:::
+quem com ferro fere, com ferro será ferido:prov:::
+quem com porcos se mistura farelos come:prov:::
+quem comeu a carne que roa os ossos:prov:PT::
+quem come a carne que roa os ossos:prov:::alt
+quem come e guarda, duas vezes põe a mesa:prov:::
+quem come pouco, muito aproveita:prov:PT::
+quem come salgado, bebe dobrado:prov:::
+quem conta um conto, (aumenta|acrescenta) um ponto:prov:::
+quem corre por gosto não cansa:prov:::
+quem corre, cansa:prov:::
+quem dá a quem o entende, não o dá que bem o vende:prov:::
+quem dá aos pobres empresta a Deus:prov:::
+quem dá e (torna|volta) a tirar, ao inferno vai parar:prov:PT::
+quem dá o que pode, a mais não é obrigado:prov:PT::
+quem dá o que tem, a pedir vem:prov:PT::
+quem dá pão dá criação:prov:::
+quem desconfia de tudo, adivinha metade:prov:::
+quem desconfia não é certo:prov:::
+quem desdenha quer comprar:prov:::
+quem diz a verdade, não merece castigo:prov:PT::
+quem diz o que quer, ouve o que não quer:prov:::
+quem dorme com criança acorda molhado:prov:::
+quem é amigo de todos não o é de ninguém:prov:::
+quem é vivo sempre aparece:prov:::
+quem em novo dança bem, em velho algum geito tem:prov:::
+quem empresta ao amigo arranja um inimigo:prov:PT::
+quem escuta, de si ouve:prov:::
+quem espera desespera:prov:PT::
+quem espera por sapatos de defunto, toda a vida anda descalço:prov:::
+quem espera sempre alcança:prov:::
+quem tem esperança sempre alcança:prov:PT::alt
+quem está no convento é que sabe o que lhe vai dentro:prov:::
+quem estiver mal que se mude:prov:::
+quem estraga velho paga novo:prov:::
+quem fala muito, dá bom dia a cavalo:prov:::
+quem faz de si, lixo, pisam-no as galinhas:prov:PT::
+quem faz o pino, vê o mundo mais direito:prov:PT::
+quem faz o que pode a mais não é obrigado:prov:::
+quem foge do trabalho, foge do ganho:prov:PT::
+quem gasta mais do que tem, mostra que siso não tem:prov:::
+quem gasta sem fazer contas, arruína-se sem dar por isso:prov:PT::
+quem gosta de homem é homossexual, mulher gosta de dinheiro:prov:::
+quem junta para si, poupa para os outros:prov:PT::
+quem jura é quem mais mente:prov:::
+quem lida com mel sempre lambe os dedos:prov:::
+quem mais jura mais mente:prov:::
+quem mais mete na barca, mais saca:prov:PT::
+quem mais não pode, de sua mazela morre:prov:PT::
+quem mais tem mais quer:prov:::
+quem mais vive, mais sabe:prov:PT::
+quem mal quiser cear, à noite o vá buscar:prov:::
+quem más manhas há, tarde ou nunca as perderá:prov:PT::
+quem me dá um ovo, não me quer ver morto:prov:::
+quem muito abarca, pouco abraça:prov:::
+quem muito divisa, pouco assisa:prov:::
+quem muito dorme pouco aprende:prov:PT::
+quem muito escolhe pouco acerta:prov:::
+quem muito espera desespera:prov:PT::
+quem muito espera sempre cansa:prov:::
+quem muito fala pior ouve:prov:::
+quem muito fala pouco acerta:prov:::
+quem muito lê, treslê:prov:PT::
+quem muito padece, tanto lembra que aborrece:prov:::
+quem muito se abaixa, o rabo se lhe vê:prov:::
+quem nada faz, já muito dorme:prov:PT::
+quem nada não se afoga:prov:::
+quem não age conforme pensa começa a pensar conforme age:prov:::
+quem não aparece, esquece:prov:::
+quem não arrisca, não petisca:prov:::
+quem não chora não mama:prov:::
+quem não come por ter comido, (não é doença|o mal não é) de perigo:prov:::
+quem não deve, não teme:prov:::
+quem não é para comer, não é para trabalhar:prov:::
+quem não está bem que se mude:prov:::
+quem não faz mais que outro, não vale mais do que outro:prov:PT::
+quem não herda, não medra:prov:::
+quem não pode arreia:prov:::
+quem não quer ser lobo não lhe (veste|vista) a pele:prov:PT::
+quem não sabe, é como quem não vê:prov:::
+quem não sabe executar, também não sabe ordenar:prov:PT::
+quem não sabe falar, não sabe calar|calar-se:prov:PT::
+quem não sabe, nem aprende, por asno se vende:prov:PT::
+quem não se sente não é filho de boa gente:prov:::
+quem não semeia não colhe:prov:::
+quem não tem bunda não senta na rampa:prov:::
+quem não tem cão, caça com gato:prov:::
+quem não tem dinheiro, não tem vícios:prov:PT::
+quem não tem esforço, foge mais que o corço:prov:PT::
+quem não tem padrinho, morre pagão:prov:::
+quem não tem padrinho, morre mouro:prov:::alt
+quem não tem panos não arma tendas:prov:::
+quem não tem que fazer, veste-se e despe-se:prov:PT::
+quem não tem unhas não toca guitarra:prov:::
+quem não tem vergonha, todo o mundo é seu:prov:::
+quem não trabalha não come:prov:::
+quem não trabuca não manduca:prov:::
+quem não vê não peca:prov:::
+quem nasce torto, tarde ou nunca se endireita:prov:::
+quem nasceu para a forca não morre afogado:prov:::
+quem nasceu para burro nunca chega a cavalo:prov:::
+quem nasce para lagartixa não chega a jacaré:prov:BR::
+quem nunca comeu melado, quando come, lambuza-se:prov:::
+quem nunca comeu melado, quando come, se lambuza:prov:::
+quem o alheio mal não sente, ninguém terá que o seu lamente:prov:PT::
+quem o alheio veste, na praça o despe:prov:PT::
+quem o feio ama, bonito lhe parece:prov:::
+quem feio ama, bonito lhe parece:prov:::alt
+quem o inimigo poupa, às mãos lhe morre:prov:PT::
+quem o seu cão quer matar chama-lhe raivoso:prov:::
+quem os fez que os ature:prov:::
+quem ovos vende e galinhas não tem, de algum lado eles vêm:prov:::
+quem paga adiantado é mal servido:prov:::
+quem pariu Mateus que o embale:prov:::
+quem parte e reparte e não fica com a melhor parte, ou é tolo ou não tem arte:prov:::
+quem parte velho paga novo:prov:::
+quem pergunta quer saber:prov:::
+quem pobreza tem, dos parentes é desdém:prov:PT::
+quem pode manda e quem não pode, faz:prov:::
+quem pode o mais pode o menos:prov:::
+quem porfia mata a caça:prov:::
+quem porfia mata caça:prov:PT::alt
+quem porfia sempre alcança:prov:::alt
+quem primeiro se queixa foi quem atirou a ameixa:prov:::
+quem procura sempre acha, se não um prego, uma tacha:prov:::
+quem promete deve:prov:::
+quem quer a bolota, atrepa!:prov:::
+quem quer chegar muito depressa, arrisca-se a ficar manco:prov:PT::
+quem quer dormir, paga à guarda:prov:PT::
+quem quer festa, sua-lhe a testa:prov:::
+quem quer vai, quem não quer (manda|fica):prov:::
+quem quer faz, quem não quer manda:prov:PT::alt
+quem ri por último, ri melhor:prov:::
+quem sabe faz, quem não sabe ensina:prov:::
+quem sabe sorrir, sabe viver:prov:PT-Terceira::
+quem sabe, sabe:prov:::
+quem sabe, sabe. Quem não sabe, aprende:prov:::alt
+quem se não sente de agravos, não é honrado:prov:PT::
+quem sai aos seus não degenera:prov:::
+quem se ajusta a São Miguel não é dono de si quando quer:prov:::
+quem se deita com cães, acorda com pulgas:prov:::
+quem se deita sem ceia toda a noite esperneia:prov:::
+quem se mata, morto fica e, se não morre, entisica:prov:PT::
+quem se mete em atalhos mete-se em trabalhos:prov:::
+quem se não sente não é filho de boa gente:prov:::
+quem se veste de ruim pano, veste-se duas vezes no ano:prov:PT::
+quem semeia bom grão, terá bom pão:prov:PT::
+quem semeia ventos colhe tempestades:prov:::
+quem serve bem seus pais, não precisa de avós:prov:PT::
+quem tarde vier comerá do que trouxer:prov:::
+quem te avisa, teu amigo é:prov:PT::
+quem te cobre que te descubra:prov:::
+quem te fala mal de outra pessoa, falará mal de ti também:prov:::
+quem te manda a ti sapateiro tocar rabecão:prov:::
+quem tem boca não manda soprar:prov:::
+quem tem boca vai a Roma:prov:::
+quem tem burro e anda a pé mais burro é:prov:::
+quem tem calos não se mete em apertos:prov:::
+quem tem capa sempre escapa:prov:::
+quem tem cem mas deve cem pouco tem:prov:::
+quem tem cu tem medo:prov:::
+quem tem filhos, tem (cadilhos|sarilhos):prov:PT::
+quem tem filhos, tem cadilhos. Quem os não tem, cadilhos tem:prov:PT::alt
+quem tem filhos, tem cadilhos. Quem não tem filhos, cadilhos tem:prov:PT::alt
+quem tem medo compra um cão:prov:PT::
+tens medo, compra um cão:prov:PT::alt
+quem tem padrinho não morre pagão:prov:::
+quem tem pressa come crú:prov:::
+quem tem sangue, faz chouriços:prov:PT::
+quem tem telhado de vidro não atira pedras ao do vizinho:prov:::
+quem tem telhado de vidro não atira pedra no vizinho:prov:BR::alt
+quem tem telhados de vidro não deve andar á pedrada:prov:::alt
+quem tem telhados de vidro não atira pedra aos outros:prov:PT::alt
+quem tem unhas toca guitarra:prov:::
+quem tem vergonha, passa mal:prov:::
+quem tolos manda a Santarém tolos vão e tolos veem:prov:::
+quem torto nasce, tarde ou nunca se endireita:prov:PT::
+quem tudo quer nada tem:prov:::
+quem tudo quer tudo perde:prov:::
+quem vai à feira perde a cadeira:prov:::
+quem vai à fonte e não bebe, não sabe o que perde:prov:::
+quem vai à guerra, dá e leva:prov:PT::
+quem vai ao mar avia-se em terra:prov:::
+quem vai ao mar perde o lugar:prov:::
+quem vai ao mar perde o lugar e quem vai ao vento perde o assento:prov:::alt
+quem vai, vai, quem está, está:prov:PT::
+quem vê caras não vê corações:prov:::
+quem viver verá:prov:::
+quer queira quer não queira o burro há-de ir à feira:prov:::
+quereis que se diga bem de vós? Não o digais:prov:PT::
+querer é poder:prov:::
+queres um conselho, pede-o ao velho:prov:::
+ralham as comadres, (descobrem-se|ouvem-se) as verdades:prov:PT::
+receia-se menos um bravo em cólera, que um cobarde que dissimula:prov:PT::
+rei morto, rei posto:prov:PT::
+relâmpagos ao norte, vento forte, se do sul vem, chuva também:prov:::
+remenda o teu pano e dura mais um ano. Volta a remendar e mais um ano vai durar:prov:::
+respeitai os bens dos outros, se quereis possuir os vossos tranquilamente:prov:PT::
+ri melhor quem ri por último:prov:::
+Roma e Pavia não se fizeram num dia:prov:::
+Roma não se fez num dia:prov:::alt
+riam com quem rir, e chorem com quem chorar:prov:PT::
+rompe-se o saco à força de querer enchê-lo:prov:::
+rosado Sol posto cariz bem disposto:prov:::
+roupa suja se lava em casa:prov:::
+s. Miguel e S. João passado, tanto manda o amo como o criado:prov:PT::
+saber demasiado é envelhecer precocemente:prov:PT::
+saco cheio não verga:prov:PT::
+saco vazio não se tem de pé:prov:PT::
+santos de casa não fazem milagres:prov:PT::
+são mais as vozes que as nozes:prov:PT::
+são Mamede te levede, São Vincente te acrescente:prov:::
+sarampo sarampelo sete vezes vem ao pêlo:prov:PT::
+satisfação de vaidades, não recompensam virtudes:prov:PT::
+se a rico queres chegar, vai devagar:prov:PT::
+se a vida lhe der um limão, faça uma limonada:prov:::
+se ao vale a névoa baixar, vai para o mar. Mas se p'los montes se atrasa, fica em casa:prov:::
+se bem guardas o que é teu, melhor guardarás o que não for:prov:PT::
+se Deus não defende a cidade, debalde a vigiam seus guardas:prov:PT::
+se Deus o marcou, defeito lhe achou:prov:::
+sê em Agosto cuidadoso e aguilhoa o preguiçoso:prov:PT::
+se em Novembro ouvires trovão, o ano que vem será bom:prov:::
+se em terra entra a gaivota é porque o mar a enxota:prov:::
+se entra por terra a gaivota, é que o temporal a enxota:prov:::alt
+se fores a pé, chegarás; se choutares, cansarás:prov:PT::
+se grandes, correm desmanteladas, mau tempo, velas rizadas:prov:::
+sê ávido de saber, e serás sábio:prov:PT::
+se a montanha não vem a Maomé, vai Maomé à montanha:prov:::
+se Maomé não vai à montanha, a montanha vai a Maomé:prov_contra:::
+se não chover pelo São Mateus, guarda as ovelhas que os borregos não são teus:prov:PT::
+se não fossem os gonzos, nada valiam as fechaduras:prov:PT::
+se não queres engordar come e bebe devagar:prov:PT::
+se não tens o que gostas, gosta do que tens:prov:PT::
+se não vejo pelos meus olhos, vejo pelos meus óculos:prov:PT::
+se Nossa Senhora das Candeias vier a rir, o Inverno está para vir, se a Senhora vier a chorar o Inverno está a acabar:prov:PT::
+se o amor é tímido, não é verdadeiro:prov:PT::
+se o cântaro bate na pedra, quem fica mal é o cântaro:prov:PT::
+se o gato não come o bife, ou o gato não é gato, ou o bife não é bife:prov:PT::
+se o gosto é mais que o proveito, daí o trato por desfeito:prov:PT::
+se o sapo canta em Janeiro, guarda a palha no sendeiro:prov:PT::
+se os filhos de Adão pecaram, os filhos da Covilhã sempre cardaram:prov:PT::
+se Outubro vier sisudo, recolhe tudo:prov:PT::
+se passa o que é bom, também passa o que é mau:prov:africano::
+se queres bom conselheiro, consulta o travesseiro:prov:PT::
+se queres conhecer o vilão, põe-lhe uma vara na mão:prov:::
+se queres conhecer o vilão, põe-lhe um pau na mão:prov:PT::alt
+se queres enfermar, ceia e vai-te deitar:prov:PT::
+se sabes o que eu sei, cala-te que eu me calarei:prov:::
+se tens sardinha, não andes à cata de perú:prov:PT::
+se queres ver o pobre soberbo, dá-lhe a chave do palheiro:prov:PT::
+se tens vento e depois água, deixa andar que não faz mágoa:prov:
+se um dia Deus quiser, até com norte pode chover:prov:::
+se um trovão seco no céu reboa, temporal violento nos apregoa:prov:::
+se vem chuva e depois vento põe-te em guarda e toma tento:prov:::
+se vieres a ser rico, não te esqueças de que foste pobre:prov:PT::
+semeia e cria, viverás com alegria:prov:PT::
+semeia e cria, terás alegria:prov:PT::alt
+semeia em pó e de mim não tenhas dó:prov:PT::
+sempre promete em duvida, pois, ao dar, ninguém te ajuda:prov:PT::
+sem ovos não se fazem omeletas:prov:PT::
+sem se partirem ovos não se fazem omeletas:prov:::
+sem sangue não se fazem morcelas:prov:PT::
+sem nuvens o céu e estrelas sem brilho verás que a tormenta te põe num sarilho:prov:::
+senhoria de Itália, Dom de Espanha - não valem uma castanha:prov:PT::
+setembro molhado, figo estragado:prov:::
+só a morte não tem remédio:prov:PT::
+só de bagos fez uma velha cem pipas:prov:::
+só é pobre, quem se tem por pobre:prov:PT::
+só perde quem tem:prov:::
+só se lembra Santa Bárbara quando troveja:prov:PT::
+só trabalha quem não sabe fazer mais nada:prov:PT::
+só vemos os argueiros nos olhos dos outros:prov:PT::
+sol de Fevereiro mata a velhinha ao soalheiro:prov:PT::
+sol de Janeiro dá que fazer ao coveiro:prov:PT::
+sol de Junho madruga muito:prov:::
+sol e chuva, casamento de viúva:prov:::
+sol na eira água no nabal:prov:::
+sol na eira, chuva no nabal:prov:PT::alt
+sol nascente desfigurado, no Inverno, frio, no Verão, molhado:prov:::
+sol posto ledo, com claro ao norte, andar sem medo que estás com sorte:prov:::
+sol que nasce em nuvens sentado não vás ao mar fica deitado:prov:::
+somos galegos, e não nos entendemos:prov:PT::
+sono de Abril, deixa-o a teu filho dormir:prov:PT::
+sorte no jogo, azar no amor:prov:::
+infeliz no jogo, feliz no amor:prov:::alt
+subi devagar, e chegareis sem cansar:prov:PT::
+tal pai, tal filho:prov:::
+também nossa espada corta:prov:PT::
+tanta chuva pelas Candeias, tantas abelhas para as colmeias:prov:::
+tantas vezes vai o cântaro à fonte que lá deixa a asa:prov:PT::
+tantas vezes vai o cântaro à fonte que um dia lá deixa ficar a asa:prov:::alt
+tanto é ladrão o que vai à vinha como o que fica à porta:prov:::
+tanto faz dar-lhe na cabeça como na cabeça lhe dar:prov:::
+tempo de guerra, mentira como terra:prov:::
+tempo é dinheiro:prov:::
+ter mais olhos (do) que barriga:prov:::
+todo o burro come palha, a questão é saber-lha dar:prov:::
+todo o homem tem o seu preço:prov:::
+todos nascem a chorar, sem que morra alguém a rir:prov:PT::
+todos os caminhos vão dar a Roma:prov:::
+tornai-vos a vosso mister, que só sapateiro heis-de ser:prov:PT::
+trabalhar para aquecer, é melhor morrer de frio:prov:::
+trabalhar para o Bispo:prov:PT::
+trabalho de menino é pouco, mas quem não o aproveita é louco:prov:PT::
+três foi a conta que Deus fez:prov::
+um, dois, três, foi a conta que Deus fez:prov:::alt
+tristezas não pagam dívidas:prov:PT::
+tudo falta, a quem tudo deseja:prov:PT::
+tudo o que não mata engorda:prov:::
+tudo o que vem à rede é peixe:prov:::
+um abismo chama outro:prov:::
+um burro carregado de livros é um doutor:prov:::
+um dia não são dias:prov:::
+um doente come pouco, mas gasta muito:prov:PT::
+um é pouco, dois é bom, três é demais:prov:PT::
+um espírito sem juízo é um navio sem leme:prov:PT::
+um homem civil em demasia, é tão insuportável como um homem incivil:prov:PT::
+um homem prevenido vale por dois:prov:::
+um olho no burro e outro no cigano:prov:::
+um médico, cura; dois, empatam; três matam:prov:::
+um tatu cheira o outro:prov:::
+uma andorinha não faz a Primavera:prov:::
+uma desgraça nunca vem só:prov:::
+uma ovelha má põe o rebanho a perder:prov:::
+uma galinha sustenta dez pintos mas dez pintos não sustentam uma galinha:prov:::
+uma mão lava a outra:prov:::
+uma mão lava a outra e (ambas|as duas) lavam (o rosto|face):prov:::alt
+uma mão lava a outra e as duas batem palmas:prov:::alt
+uma mulher é sempre uma interrogação:prov:PT::
+uma mulher rica é um mal insolente:prov:PT::
+uns comem os figos, a outros rebenta-lhes a boca:prov:::
+vaga ao revés encrespada, vai dar-te o vento saltada:prov:::
+vai a moça ao rio; conta o seu e o do seu vizinho:prov:PT::
+vai muito do dizer ao fazer:prov:PT::
+vão-se os anéis fiquem-se os dedos:prov:PT::
+vão-se os anéis fiquem os dedos:prov:PT::alt
+velhos são os trapos:prov:PT::
+vêm as glórias, vão-se as memórias:prov:PT::
+vencer sem luta é triunfar sem glória:prov:::
+vencer-se a si, é mais que vencer o mundo:prov:PT::
+vento contra a corrente, levanta mar imediatamente:prov:::
+vento sudoeste mansinho e panga É de tremer dele, quando se zanga:prov:::
+verdade, verdade, não há beleza sem bondade:prov:PT::
+vermelho nascente que pronto descora, tempo de chuva que está p'ra demora:prov:::
+vê-se pela aragem quem vai na carruagem:prov:PT::
+pela aragem se vê quem vai na carruagem:prov:PT::alt
+vinho e amigo o mais antigo:prov:PT::
+vinho, azeite e amigos, os mais antigos:prov:PT::alt
+vinte galinhas e um galo comem tanto como um cavalo:prov:::
+viver de crédito, pagar dobrado:prov:::
+viver é como desenhar sem borracha:prov:::
+volta direita, vem satisfeita. Volta de cão traz furacão:prov:::
+voo de falcão, morte de gavião:prov:PT::
+voz do povo é voz de Deus:prov:PT::
+vozes da aldeia, não crer nem em meia; vozes da cidade, a metade da metade:prov:PT::
+vozes de burro não chegam (ao Céu|aos Céus):prov:PT::
+xexéu e vira-bosta, cada qual do outro gosta:prov:::
+xexéu e vira-bosta, cada qual do rabo gosta:prov:::alt
+zangam-se as comadres, (descobrem-se|ouvem-se|sabem-se) as verdades:prov:PT::
+brigam as comadres, (descobrem-se|ouvem-se|sabem-se) as verdades:prov:BR::alt
+juntam-se as comadres, (descobrem-se|ouvem-se|sabem-se) as verdades:prov:::alt
+ralham as comadres, (descobrem-se|ouvem-se|sabem-se) as verdades:prov:::alt
+zangas de namorados, amores dobrados:prov:::
+zeloso que não sabe dar a capa, não tem bom zelo:prov:::
+Zé Nabiça, quanto vê quanto cobiça:prov:PT::
+Maria Nabiça, tudo o que vê, tudo cobiça:prov:PT::
+zomba das cicatrizes quem nunca foi ferido:prov:::
+zomba o vesgo do zarolho:prov:::
+zombai com o tolo em casa, zombará convosco na praça:prov:::
+zombai do tolo em casa, zombará convosco na praça:prov:::alt
+zombar dos bons conselhos é dispor para as ruínas:prov:::
+zombaria de siso mete os homens em perigo:prov:::
+zorro deitado não apanha bocado:prov:::
+zorro deitado não apanha mosca:prov:::alt
+zurra o burro, deitam-lhe o cabresto:prov:::
+zurra o burro, deitem-lhe o cabresto:prov:::alt
+(zurros|vozes) de burro não chegam (ao céu|aos céus):prov:::
+
+ prov_contra:: Provérbio de contrafacção 
+
+
+penso logo hesito:citaContra::penso logo existo:jm
+penso logo exausto:citaContra:Alentejano:penso logo existo:jbb
+penso logo ferida:citaContra:Jardim-escola:penso logo existo:fmm
+penso logo:citaContra::penso logo existo:jj
+
+a cabeça não serve só para criar piolhos:prov_contra:PT::
+a cabeça não serve só para separar as orelhas:prov_contra:BR::
+a carne é fraca mas o molho é muito bom:prov_contra:::lsb
+a cavalo dado não se olham os dentes para não levar mordida:prov_contra:::
+a esperança é a última a morrer, quando não morre nada depois dela:prov_contra:::
+a ignorância é a mãe de todas as doenças mas é um repousante:prov_contra:::
+a jantar dado, não se olha o molho:prov_contra:PT::
+alegria de pobre, é impossível:prov_contra:::wm
+amarra à boia:prov_contra:::
+antes só do que... com 2 violadores numa cela.:prov_contra::antes só que mal acompanhado:balao
+antes só do que com dois violadores numa cela:prov_contra:::
+antes tarde do que mais tarde:prov_contra:BR::
+a ocasião faz o furto, o ladrão já nasce feito:prov_contra:::
+a ordem dos tratores não altera o viaduto:prov_contra:::
+boca fechada não cai os dentes:prov_contra:::
+boca fechada não fala:prov_contra:::
+cada macaco... com a sua macaca.:prov_contra::cada macaco no seu galho:balao
+chuva em Novembro, Natal em Dezembro:prov_contra:::
+cão mordido por cobra até de linguiça tem medo:prov_contra:::diogo
+convidados é como o peixe fresco; são muito bons mas ao fim de 3 dias cheiram mal:prov_contra:::jbb
+cão que ladra não morde, enquanto ladra:prov_contra:::
+de boas intenções e políticos o inferno está cheio:prov_contra:::
+de grão em grão a galinha engasga:prov_contra::grão a grão enche a galinha o papo:wm
+de hora a hora Deus melhora; espera-se uma rápida convalescência:prov_contra:de hora a hora Deus melhora::
+deitar cedo e cedo erguer, dá imenso sono:prov_contra:::
+deitar cedo e cedo erguer, dá um sono do caraças!:prov_contra::deitar cedo e cedo erguer dá saúde e faz crescer:balao
+deitar cedo e cedo erguer, é uma pasmaceira de morrer!:prov_contra::deitar cedo e cedo erguer dá saúde e faz crescer:jc
+deitar cedo e cedo erguer, só se for para foder:prov_contra::deitar cedo e cedo erguer dá saúde e faz crescer:
+
+depois da tempestade, vem a gripe:prov_contra::depois da tempestade a bonança:wm
+depois da tempestade, vem a puta da gripe!:prov_contra::depois da tempestade a bonança:balao
+devagar nunca mais lá se chega:prov_contra:::
+devagar nunca se chega:prov_contra::devagar se vai ao longe:wm
+devagar se não vai longe:prov_contra::devagar se vai ao longe:jc
+devagar se vai ao longe, mas chega-se um pouco atrasado...:prov_contra::devagar se vai ao longe:Carlos
+dinheiro não traz felicidade, dê-me o seu e seja feliz:prov_contra:::
+dinheiro não traz felicidade, ele manda entregar na sua residência:prov_contra:::
+dinheiro não traz felicidade, mas ajuda:prov_contra:::
+dinheiro não traz felicidade, mas ajudar a sofrer em Paris!:prov_contra:::wm
+dinheiro não traz felicidade, mas ser um pobre feliz é bem difícil:prov_contra:::wm
+dinheiro não dá a felicidade. Compra-a:prov_contra:::jc
+diz-me com quem andas e dir-te-ei que se for de carro eu quero boleia:prov_contra:::
+diz-me com quem andas e ficas sem a miúda:prov_contra:::lsb
+em casa de ferreiro, só tem ferro:prov_contra::em casa de ferreiro, espeto de pau:wm
+em noite de núpcias, fia-te na virgem:prov_contra:::lsb
+em terra de cego, quem tem um olho é (caolho|zarolho):prov_contra::em terra de cegos quem tem olho é rei:wm
+em terra de cego, quem tem um olho vê cada coisa...:prov_contra::em terra de cegos quem tem olho é rei:wm
+em terra de sapo, cuidado com o veneno deles:prov_contra:::
+errar é humano, perseverar é diabólico!:prov_contra:::
+errar é humano, persistir no erro é burrice!!:prov_contra:::
+fia-te na Virgem e não corras, e vais ver o trambolhão que levas:prov_contra:PT::
+filho de peixe, faz bolhas na água com a boca:prov_contra:::
+filho de peixe, peixinho é:prov_contra:BR::
+filho de peixe, é tão feio como o pai!:prov_contra::filho de peixe sabe nadar:balao
+(frio|chuva) em Novembro Natal em Dezembro:prov_contra_taut:::jbb,jgr
+frio em Novembro, Natal em Dezembro:prov_contra_taut:::
+gato escaldado... morre, naturalmente!:prov_contra::gato escaldado de água fria tem medo:balao
+gato escaldado, morre...:prov_contra::gato escaldado de água fria tem medo:wm
+água mole em pedra dura tanto bate até que falta água:prov_contra:::
+águas passadas... já passaram.:prov_contra::águas passadas não movem moínhos:balao
+há males que vem para pior:prov_contra::há males que vêm por bem:wm
+há males que vêm... para piorar.:prov_contra::há males que vêm por bem:balao
+já que a água não vai ao moinho, vá o moinho à água:prov_contra:::diogo
+mais vale quem Deus ajuda, do que quem acorda com a pássara na mão:prov_contra:: Ouvido na boca de um velho Industrial Inglês, radicado havia alguns anos no Porto, (passa-se isto nos anos 50), que resulta da mistura de dois provérbios-- "Mais vale quem Deus ajuda de quem cedo madruga" e "mais vale um pássaro na mão que dois a voar", juntando lhe a troca dos géneros (pássara/pássaro), muito característica no Português dos súbditos de sua majestade.  O resultado tinha um tom brejeiro, que o próprio parecia não perceber, mas que o levava a dize-lo, sempre que se proporcionava, nas suas reuniões sociais, para gáudio dos seus interlocutores, (muitas vezes senhoras).  :jl
+mais vale ser rico e saudável que pobre e doente:prov_contra_taut:::fmm
+mais vale tarde do que... muito mais tarde.:prov_contra::mais vale tarde que nunca:balao
+mais vale tarde do que grávida:prov_contra::mais vale tarde que nunca:balao
+mais vale ter uma na mão que duas no soutien:prov_contra::mais vale um pássaro na mão que dois a voar:jbb
+mais vale uma mão inchada do que uma enxada na mão:prov_contra:::rf
+mais vale um pé no travão que dois no caixão:prov_contra:::
+mais vale um pássaro na mão que dois no caixão:prov_contra::mais vale um pássaro na mão que dois a voar:jpo
+mais vale um pássaro voando do que dois na mão te bicando:prov_contr:::André Assis
+matar um coelho com duas (cajadadas|pauladas):prov_contra::matar dois coelhos duma cajadada:wm
+à menina que é um borracho ponho-lhe eu a mão por baixo:prov_contra::ao menino e ao borracho põe-lhe Deus a mão por baixo:jc
+à menina e ao borracho (põe-lhe|mete) Deus a mão por baixo:prov_contra::ao menino e ao borracho põe-lhe Deus a mão por baixo:jgr
+muito come o tolo mas mais tolo é quem não come:prov_contra::muito come tolo mas mais tolo é quem lho dá:jj
+na primeira quem quer cai; na segunda cai quem quer; na terceira quem é parvo:prov_contra:::
+nem só de pão vive o homem mas também de musse de chocolate:prov_contra:::albie
+não deixe para amanhã o que você pode fazer depois de amanhã:prov_contra:BR::
+não deixes para amanhã o que podes beber hoje:prov_contra::não deixes para amanhã o que podes fazer hoje:jj
+não deixes para amanhã o que podes deixar de fazer:prov_contra::não deixes para amanhã o que podes fazer hoje:jc
+não deixes para amanhã o que podes fazer depois de amanhã:prov_contra:::
+não faças hoje o que podes deixar para amanhã:prov_contra:::
+o pior cego é aquele que anda sem bengala:prov_contra::o pior cego é o que não quer ver:wm
+o pior cego é aquele que... se recusa a ter cão.:prov_contra::o pior cego é o que não quer ver:balao
+os homens não se medem aos palmos; medem-se aos centímetros:prov_contra:::jj
+os últimos serão desclassificados!:prov_contra::os últimos são os primeiros:wm
+os últimos são sempre... desclassificados!:prov_contra::os últimos são os primeiros:balao
+pimenta no cu dos outros é refresco:prov_contra:::
+quem ama o feio é cego:prov_contra::quem o feio ama, lindo lhe parece:wm
+quem ama o feio, é porque o bonito não lhe aparece:prov_contra:::
+quem ama o feio, lindo não lhe aparece:prov_contra:::
+quem cedo madruga, fica com sono o dia todo:prov_contra:::wm
+quem com ferro fere, tanto bate até que fura:prov_contra_jun::que com ferros mata com ferros morre:jk
+quem corre alcança, quem anda nunca chega lá:prov_contra:::
+quem dá aos pobres, adeus:prov_contra:::wm
+quem dá aos pobres e empresta, adeus!:prov_contra::quem dá aos pobres empresta a Deus:wm
+quem dá aos pobres... é estupido porque fica com menos.:prov_contra:::balao
+quem dá aos pobres, fica com menos:prov_contra:::
+quem dá aos pobres, paga a conta do motel:prov_contra:BR::
+quem desdenha não tem dinheiro para comprar:prov_contra:::
+quem diz que dinheiro não dá felicidade não sabe onde fazer compras:prov_contra:::
+quem empresta ao governo, dá adeus:prov_contra:BR::
+quem leva no que é seu a mais não é obrigado:prov_contra::quem dá o que tem a mais não é obrigado:Henrique Silva
+quem muito espera sempre cansa:prov_contra:::
+quem não arrisca... não se lixa.:prov_contra::quem não arrisca não petisca:balao
+quem não arrisca, não (come|) patanisca:prov_contra::quem não arrisca não petisca:ambs
+quem não rouba nem herda, nunca tem uma merda:prov_contra:::diogo
+quem não tem cão, caça latindo:prov_contra:::
+quem não tem cão, não (tem|) caça:prov_contra::quem não tem cão caça com gato:wm
+quem não tem padrinho morre pagando:prov_contra:::
+quem nunca comeu melado, quando come se lambuza. E fica com muita dor de barriga:prov_contra:::wm
+quem o feio ama, é porque vê mal como (o caralho|os cornos)!:prov_contra::quem o feio ama, lindo lhe parece:balao
+quem o feio ama, é porque vê mal:prov_contra:::
+quem tudo quer tudo pede:prov_contra::quem tudo quer tudo perde:
+quem ri por último, não entendeu a piada...:prov_contra:::wm
+quem ri por último, é retardado ou mongolóide!:prov_contra:::balao
+quem ri por último, é retardado:prov_contra:::
+quem sabe, sabe. Quem não sabe, ensina:prov_contra:::
+quem sabe faz, quem não sabe ensina. Quem não sabe ensinar (manda palpites|dá conselhos):prov_contra:::jc
+quem sabe, faz, quem não sabe, ensina, quem não sabe ensinar, faz consultadoria:prov_contra:::jc
+quem sai aos seus não é de Genebra:prov_contra::quem sai aos seus não degenera:jl
+quem semeia e-mails, colhe spams:prov_contra::quem semia ventos colhe tempestadas:sara 
+
+
+quem tem boca... pode ir ao dentista!:prov_contra::quem tem boca vai a Roma:balao
+quem tem boca, vai ao dentista:prov_contra:::
+quem tem dores de dentes é que vai ao dentista:prov_contra:PT::
+quem tem medo vai à casinha:prov_contra:PT::
+quem tem pressa come crú, quem não tem fica com fome:prov_contra:::
+quem vê cara, não vê que horas são:prov_contra:::
+quem vê caras não vê o resto:prov_contra:::
+ri por último é retardado porque não entendeu a piada:prov_contra:::
+se a vida lhe der um limão, faça dele uma caipirinha:prov_contra:::
+se Maomé não vai à montanha, vai Maomé à praia:prov_contra:::Henrique Silva
+se o trabalho dá saúde, que trabalhem os doentes:prov_contra:PT::
+sol na eira, chuva no nabal seria o ideal:prov_contra:PT::
+templo é dinheiro:prov_contra:::
+uma mão lava a outra e as duas guiam o caminhão:prov_contra:BR::
+uma mão lava a outra e as duas lavam a bunda:prov_contra:::
+
+ proc_contra-erud:: Provérbio de contrafacção por parafrase erudita
+
+
+idêntico ascendente, idêntico descendente:prov_contra-erud::tal pai tal filho::
+
+expõe-me com quem deambulas e a tua idiossincrasia augurarei:prov_contra-erud::diz-me com quem andas e dir-te-ei quem és.
+
+equídeo objecto de dádiva, não é passível de observação odontológica:prov_contra-erud::a cavalo dado não se olha o dente::
+
+espécime avícola na cavidade metacárpica, supera os congéneres revolteando em duplicado:prov_contra-erud::mais vale um pássaro na mão que dois a voar::
+
+descendente de espécie piscícola sabe locomover-se em líquido inorgânico:prov_contra-erud::filho de peixe sabe nadar::
+
+pequena leguminosa seca após pequena leguminosa seca, atesta a capacidade de ingestão de espécie avícola:prov_contra-erud::grão a grão enche a galinha o papo::0
+
+quem aguarda lentamente, atinge o estado de exaustão:prov_contra-erud::quem espera desespera::
+
+
+ proc_mv:: Provérbio de mais vale 
+
+
+mais vale uma amizade sincera, do que um amor fingido:prov_mv:::
+mais vale uma cabeça bem feita do que uma cabeça bem cheia:prov_mv:::
+mais vale uma esculhambação organizada do que uma organização esculhambada:prov_mv:::
+mais vale ter uma paz desvantajosa do que uma guerra legítima:prov_mv:::
+mais vale uma pálida tinta do que uma boa memória:prov_mv::Confúcio:
+para o homem mais vale uma trepada roubada do que a consciência tranqüila:prov_mv:::
+mais vale uma ilegalidade justa, do que uma legalidade injusta:prov_mv:::
+mais vale uma matraca fechada do que duas comendo mosca:prov_contra_mv:::
+mais vale uma tagline inventada do que duas roubadas:prov_mv:::
+mais vale acender uma vela pequenina do que lamentar a escuridão!:prov_mv:::
+mais vale uma roliça sorridente do que uma anoréctica carrancuda:prov_contra_mv:::
+mais vale uma bêbada conhecida do que uma alcólica anónima:prov_contra_mv:::
+
+ maxima_cf:: Maximas de contração 
+
+
+Não és completamente inútil ... // pelo menos serve de mau exemplo.:maxima_cf:::
+Se não és parte da solução// pelo menos és parte do problema.:maxima_cf:::
+Errar é humano,// mas achar em quem colocar a culpa é mais Humano ainda.:maxima_cf:::
+O importante não é saber,// mas ter o telefone de quem sabe.:maxima_cf:::
+Quem sabe, sabe.//  Quem não sabe é chefe!:maxima_cf:::
+É bom deixar a bebida.//  Mas convem lembrar-se onde.:maxima_cf:::
+Existe um mundo melhor,// mas é caríssimo.:maxima_cf:::
+Trabalhar nunca matou ninguém, mas...// pra que arriscar ?:maxima_cf:::
+Há duas palavras que abrem muitas portas:// PUXE e EMPURRE.:maxima_cf:::
+Não leves a vida tão a sério,// afinal não sairás vivo dela.:maxima_cf:::
+
+ prov_agri:: Provérbio agrícola-meteorológicos 
+
+
+Janeiro - A água de Janeiro vale dinheiro.
+Fevereiro - Fevereiro, o mais curto mês e o menos cortês.
+Março - Em Março tanto durmo como faço.
+Abril - Abril frio e molhado, enche o celeiro e farta o gado.
+Maio - Favas o Maio as dá, o Maio as leva.
+Junho - Sol de Junho madruga muito.
+Julho - Em Julho, ceifo o trigo e o debulho.
+Agosto - Em Agosto toda a fruta tem gosto.
+Setembro - Setembro molhado, figo estragado.
+Outubro - Outubro recolhe tudo.
+Novembro - Dia de S. Martinho, lume castanhas e vinho.
+Dezembro - No Natal, passadinha de Natal.
+Dezembro frio, calor no estio:prov_agri::
+nove meses de Inverno, três de inferno:prov_agri:::diogo
+Abril áquas mil(|,coadas por um mandril):prov_agri:::cr
+Fevereiro quente traz o diabo no ventre:prov_agri:::
+Janeiro geadeiro, Fevereiro rego cheio, Março coreiro, Abril águas mil caibam todas num barril, Maio amoroso, Junho calmoso e Julho ventoso, fazem o ano formoso:prov_agri:::cai
+ande o frio por onde andar ao Natal há-de chegar:prov_agri:::jpo
+ao meio dia ou carrega ou alivia:prov_agri:::jj
+chuva nas Cruzes sol no S.Joao:prov_agri::\nota{Cruzes=festa de Barcelos}:lsb
+em Agosto toda a fruta tem gosto:prov_agri:::jpo
+em Fevereiro sobe a um outeiro. Se vires verdejar põe-te a chorar, se vires terrejar põe-te a cantar:prov_agri:::jj
+em Março tento durmo como faço:prov_agri:::lsb
+em Junho foucinha no punho:prov_agri:::jpo
+em dia de S.Martinho, vai à adega e prova o vinho:prov_agri:::jj
+está a Candelária a chorar, está o inverno a passar:prov_agri::\nota{Candelária em 2 de Fevereiro}:jj
+está a Candelária a rir, está o inverno para vir:prov_agri::\nota{Candelária em 2 de Fevereiro}:jj
+gaivotas em terra, tempestade no mar:prov_agri:::mc
+lua nova trovejada 30 dias é molhada:prov_agri:::jj
+o primeiro milho é dos pardais:prov_agri:::jj
+pelo S.João ceifa o teu pão:prov_agri:::cr
+pelo Santiago pinta o bago:prov_agri:::jj
+
+brilhante nascente que nuvens desfaz, reúne a companha que bom tempo nos traz:prov_agri:[aspecto do céu]::anc
+castelos de nuvens sem nuvens por cima são chuvadas certas mesmo sem rimas:prov_agri:[aspecto do céu]::anc
+chuva miudinha como farinha dá vento do norte mas não muito forte:prov_agri:[chuva]::anc
+com céu azul carregado, teremos o barco em vento afogado:prov_agri:[aspecto do céu]::anc
+céu pedrento, chuva ou vento, não tem assento:prov_agri:[aspecto do céu]::anc
+de Espanha, nem bom vento, nem bom casamento:prov_agri:[vento]::anc
+depois de chuva, nevoeiro, tens bom tempo marinheiro:prov_agri:[nevoeiro]::anc
+entre os Santos e o Natal é Inverno natural:prov_agri:[chuva]::anc
+foge de um céu azul aleitado; ou desces à câmara ou ficas molhado:prov_agri:[aspecto do céu]::anc
+foi-se o nordeste, turvou-se o azul, fugiu do norte, foi para o sul:prov_agri:[vento]::anc
+horizonte puro, com fuzis brilhando, terás dia brando, com calor seguro:prov_agri:[relâmpagos e trovões]::anc
+limpo horizonte que relampeja, dia sereno, calma sobeja:prov_agri:[relâmpagos e trovões]::anc
+lua com halo de grande aparato, É molha certa prá gente de quarto:prov_agri:[lua]::anc
+lua deitada marinheiro em pé:prov_agri:[lua]::anc
+lua à tardinha com seu anel, dá chuva à noite ou vento a granel:prov_agri:[lua]::anc
+manhã com arco mal vai o barco. se à tarde vem, é p'ra teu bem:prov_agri:[arco-Íris]::anc
+mas se está claro, cheio de luz, haja alegria, que o tempo é de truz:prov_agri:[aspecto do céu]::anc
+miragem que espante vento do levante:prov_agri:[aspecto do céu]::anc
+nordeste molhado, não te dê cuidado:prov_agri:[vento]::anc
+nuvem comprida que se desfia sinal de grande ventania:prov_agri:[aspecto do céu]::anc
+nuvens aos pares, paradas, cor de cobre, É temporal que se descobre:prov_agri:[aspecto do céu]::anc
+nuvens espessas e acumuladas, ventanias certas e continuadas:prov_agri:[aspecto do céu]::anc
+nuvens finas, sem ligação, bom tempo, brisas de feição:prov_agri:[aspecto do céu]::anc
+nuvens pequenas, altas e escuras são chuvas certas e seguras:prov_agri:[aspecto do céu]::anc
+poente nubloso, vermelho acobreado safa a japona, que o tempo é molhado:prov_agri:[aspecto do céu]::anc
+poucos fuzis, trovões em barda, rumo em que o vento se alaparda:prov_agri:[relâmpagos e trovões]::anc
+quando a passarada berra, o marinheiro procura terra:prov_agri:[aves marinhas]::anc
+quando ao sol posto o norte é puro, tens bom tempo seguro:prov_agri:[vento]::anc
+quando quiseres mentir, fala no tempo que há-de vir:prov_agri:::anc
+relâmpagosao norte, vento forte, se do sul vem, chuva também:prov_agri:[relâmpagos e trovões]::anc
+rosado sol posto cariz bem disposto:prov_agri:[aspecto do céu]::anc
+se ao vale a névoa baixar, vai para o mar. mas se p'los montes se atrasa, fica em casa:prov_agri:[nevoeiro]::anc
+se entra por terra a gaivota, é que o temporal a enxota:prov_agri:[aves marinhas]::anc
+se grandes, correm desmanteladas, mau tempo, velas rizadas:prov_agri:[aspecto do céu]::anc
+se tens vento e depois água, deixa andar que não faz mágoa:prov_agri:[chuva]::anc
+se um dia Deus quiser, até com norte pode chover:prov_agri:[vento]::anc
+se um trovão seco no céu reboa, temporal violento nos apregoa:prov_agri:[relâmpagos e trovões]::anc
+se vem chuva e depois vento põe-te em guarda e toma tento:prov_agri:[chuva]::anc
+sem nuvens o céu e estrelas sem brilho verás que a tormenta te põe num sarilho:prov_agri:[estrelas]::anc
+sol nascente desfigurado, no Inverno, frio, no Verão, molhado:prov_agri:[aspecto do céu]::anc
+sol posto ledo, com claro ao norte, andar sem medo que estás com sorte:prov_agri:[aspecto do céu]::anc
+sol que nasce em nuvens sentado não vás ao mar fica deitado:prov_agri:[aspecto do céu]::anc
+vaga ao revés encrespada, vai dar-te o vento saltada:prov_agri:[vento]::anc
+vento contra a corrente, levanta mar imediatamente:prov_agri:[vento]::anc
+vento sudoeste mansinho e panga É de tremer dele, quando se zanga:prov_agri:[vento]::anc
+vermelho nascente que pronto descora, tempo de chuva que está p'ra demora:prov_agri:[aspecto do céu]::anc
+volta direita, vem satisfeita. Volta de cão traz furacão:prov_agri:[vento]::anc
+
+ travalingua:: Trava Línguas 
+
+
+Xuxa! A Sasha fez xixi no chão da sala.:travalingua:::mag
+
+O rato roeu a roupa do Rei de Roma a rainha com raiva resolveu remendar.:travalingua:::mag
+
+Três pratos de trigo para três tigres tristes.:travalingua:::mag
+
+O original nunca se desoriginou e nem nunca se desoriginalizará.:travalingua:::mag
+
+Qual é o doce que é mais doce que o doce de batata doce? Respondi que o doce que é mais doce que o doce de batata doce é o doce que é feito com o doce do doce de batata doce.:travalingua:::mag
+
+Sabendo o que sei e sabendo o que sabes e o que não sabes e o que não sabemos, ambos saberemos se somos sábios, sabidos ou simplesmente saberemos se somos sabedores.:travalingua:::mag
+
+O tempo perguntou ao tempo quanto tempo o tempo tem. O tempo respondeu ao tempo que o tempo tem tanto tempo quanto tempo o tempo tem.:travalingua:::jl
+
+Embaixo da pia tem um pinto que pia, quanto mais a pia pinga mais o pinto pia!:travalingua:::mag
+
+A sábia não sabia que o sábio sabia que o sabiá sabia que o sábio não sabia que o sabiá não sabia que a sábia não sabia que o sabiá sabia assobiar.:travalingua:::mag
+
+Num ninho de mafagafos, cinco mafagafinhos há! Quem os desmafagafizá-los, um bom desmafagafizador será.:travalingua:::mag
+
+O desinquivincavacador das caravelarias desinquivincavacaria as cavidades que deveriam ser desinquivincavacadas.:travalingua:::mag
+
+Perlustrando patética petição produzida pela postulante, prevemos possibilidade para pervencê-la porquanto perecem pressupostos primários permissíveis para propugnar pelo presente pleito pois prejulgamos pugna pretárita perfeitíssima.:travalingua:::mag
+
+Não confunda ornitorrinco com otorrinolaringologista, ornitorrinco com ornitologista, ornitologista com otorrinolaringologista, porque ornitorrinco, é ornitorrinco, ornitologista, é ornitologista, e otorrinolaringologista é otorrinolaringologista.:travalingua:::mag
+
+Disseram que na minha rua tem paralelepípedo feito de paralelogramos. Seis paralelogramos tem um paralelepípedo. Mil paralelepípedos tem uma paralelepipedovia. Uma paralelepipedovia tem mil paralelogramos. Então uma paralelepipedovia é uma paralelogramolândia?:travalingua:::mag
+
+Pardal Pardo porque palras? Palro e palrarei, porque sou o pardal pardo, palrador de el-rei!:travalingua:::jl
+
+
+Pedro Paulo Pinto Pereira, pobre pintor português, pinta portas, paredes, paineis, portais, por preços pouco pecuniosos. Pretendendo, pode procurar, Porto, Portugal.:travalingua:::jl
+
+Pedro Paulo Pinto Pereira, pobre pintor português, pinta portas, paredes, painéis, portais, por preço pouco puxado. Precisando pode procurar pela Praça Pedro primeiro, Porto, Portugal.:travalingua::Alt:jc
+
+Porem, poderá permitir a pessoas predestinadas, proverem a palavra pertinentemente precisa.:travalingua:::jl
+
+
+ thanks:: Agradecimentos 
+
+
+as=Alberto Simões
+ae=Augusto Eugenio
+af=Álvaro Fazenda
+anc=Associação Nacional de Cruzeiros
+balao=José Balão
+cai=Carlos Alberto Ilharco
+cb=Carlos Bispo
+cm=Carlos Manuel Neves
+cr=Cristina Ferreira
+diogo=Diogo Azevedo Freitas
+dc=domingos Cardoso
+fmm=Fernando Mário Martins
+fl=Filomena Louro
+gs=Giovanni Seu\it
+jan=Jan Leoni
+jbb=José Bernado Barros
+jc=José Carvalho\Quénia
+jj=José João Almeida
+jk=Jorge Kinoshita\br
+jl=João Lemos
+jmf=Joao Mario Ferradais
+jm=Joao Magalhaes
+lp=Luísa Alice Santos Pereira
+jpo=Joao Pedro Oliveira
+lsb=Luís Barbosa
+luisa=luisa@cupido.inesc.pt
+mag=Magda
+mc=Manuel Carvalho
+mespcv=Paula Vaz
+mi=José Miguel & Isa
+np=Nikolaus Pollak
+ob=Orlando Belo
+pina=António Pina
+pl=Pires de Lima
+pv=Pedro Vaz
+rf=Rui Miguel Ferreira
+rp=Ricardo Pereira
+sp=Severino de Paiva\br (a viver no Canadá)
+sara=Sara Fernandes
+up=Ulisses Pinto
+wm=William Max\br
+dp=Deolinda Peralta
+
+ seealso:: Ver também 
+    
+
+Provérbios do João Magalhães
+Provérbios da Associação Nacional de Cruzeiros
+Provérbios da Isabel Maria Almeida da Costa
+Ditados e Provérbios do William Max
+"Guia do Marinheiro Amador" de Domingos Heitor Gomes
+"Adagiário Português" de Fernando Pires de Lima
+Bom Conselho do Chico Buarque
+"degrau a degrau"
+Piadas do João Araújo
+travalínguas brasileiro
