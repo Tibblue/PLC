@@ -17,16 +17,25 @@ def getProv(mensagem):
     comp = 1000
     mensagem = cleanText(mensagem)
     mensagem = mensagem.split()
-    # print(mensagem)
 
+    result = "Não encontrei nada... oops"
     for prov in proverbios:
         for pal in mensagem:
-            if(pal in prov):
+            if(mySubString(pal,prov)):
                 if( rank.get(pal) < comp):
                     result = prov
                     comp = rank.get(pal)
     print(result)
 
+# função para verficar se uma palavra existe numa string
+def mySubString (pal,prov):
+    prov = prov.lower()
+    prov = prov.split()
+
+    for p in prov:
+        if(pal == p):
+            return True
+    return False
 
 def talk():
     while True:

@@ -1,4 +1,4 @@
-proverbios = ["amigos, amigos negócios à parte.", "grão a grão, enche a galinha o papo."]
+proverbios = ["Amigos, amigos negócios à parte.", "Grão a grão, enche a galinha o papo."]
 
 dicRank = {
     'a' : 100,
