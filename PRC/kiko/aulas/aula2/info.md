@@ -33,6 +33,7 @@ Mostrar as classes existente
     prefix owl <http://www.w3.org/2002/07/owl#>
     select ?classe where {
         ?classe a owl:Class .
+    #    ?classe rdf:type owl:Class . # equivalente
     }
 
 Mostrar todas a propriedas mas dá com repeticao

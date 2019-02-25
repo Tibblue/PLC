@@ -1,0 +1,30 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://prc.di.uminho.pt/2019/countries#>
+
+# Nome dos paises que fazem fronteira com Espanha
+select ?npais where {
+   ?pais a :Country.
+   ?pais :border :es.
+   ?pais :countryName ?npais.
+} limit 100
+select ?npais where {
+	?pais :border :es .
+    ?pais :countryName ?npais
+} limit 100
+
+# Nome das capitais de paises que fazem fronteira com Portugal
+select ?nCapital where {
+    ?pais a :Country.
+    ?pais :border :pt.
+    ?cidade :belongs ?pais.
+    ?cidade a :Capital.
+    ?cidade :cityname ?nCapital
+} limit 100
+
+# Lista de propriedades unicas (distinct)
+select distinct ?p where {
+    ?s ?p ?o.
+}
+order by asc(?p) # ascendente
+# order by desc(?p) # descendente
+limit 100 # limite de resultados

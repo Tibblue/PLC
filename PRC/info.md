@@ -46,8 +46,8 @@
 
 #### PICS XD
 ![hi](http://www.stickpng.com/assets/images/586295ba3796e30ac4468739.png)
-![hi](https://media3.giphy.com/media/L3nWlmgyqCeU8/giphy.gif)
-![hi](http://image.noelshack.com/fichiers/2014/38/1410967177-dragonballzgif-0.gif)
-![hi](https://media1.tenor.com/images/9e01369c2339ebb3ba93a56c258004e4/tenor.gif?itemid=12302415)
-![hi]()
-![hi]()
+![cat](https://media3.giphy.com/media/L3nWlmgyqCeU8/giphy.gif)
+![goku](http://image.noelshack.com/fichiers/2014/38/1410967177-dragonballzgif-0.gif)
+![kiko](https://media1.tenor.com/images/9e01369c2339ebb3ba93a56c258004e4/tenor.gif?itemid=12302415)
+![xxx]()
+![xxx]()

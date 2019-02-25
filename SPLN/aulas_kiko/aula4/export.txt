@@ -1,0 +1,3 @@
+no .bashrc
+
+export PATH=$PATH:~/spln-2018-ii/bin
