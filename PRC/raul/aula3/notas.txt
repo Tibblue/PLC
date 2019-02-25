@@ -1,0 +1,38 @@
+ficha 7
+
+exer 5
+
+classes:
+    State
+    Country
+    City
+    Capital
+
+Object Property:
+    border
+    belongs
+    isPartOf
+    locates
+
+Data Property:
+    contryname
+
+Individuos:
+    ind:pt rdf:type Country.
+    ind_lisboa rdf:type Capital.
+    ind_lisboa belongs Portugal.
+    ind_pt countryname "Portugal"
+    ind_pt border ind_es
+
+
+
+exer 3
+
+Classes:
+    Queque
+    Bolo
+    Glacê
+    Forma
+    Receita
+    Ingrediente(nome,quantidade)
+    

@@ -1,0 +1,62 @@
+?s sujeito do triplo
+?p predicado do triplo
+?o object
+
+select ?classe where{
+    ?classe rdf:type owl:Class
+}
+
+select ?npais where{
+    ?pais a :Country.
+	?pais :countryname ?npais.
+    ?pais :border :es
+}
+
+select ?ncapital where{
+    ?pais a :Country.
+	?pais :border :pt.
+    ?cidade :belongs ?pais.
+    ?cidade a :Capital.
+    ?cidade :cityname ?ncapital
+}
+
+select distinct ?p where{
+	?s ?p ?o
+}
+order by ?p
+
+
+aferição 2016
+
+ex1
+select (count (?s) as ?num) where{
+	?s ?p ?o
+}
+
+ex2
+select distinct ?s where{
+	?s a owl:Class
+}
+
+ex3
+select distinct ?p where{
+	?s a historia:Rei.
+	?s ?p ?o
+}
+
+ex4
+select (count(?s) as ?nrei) where{
+	?s a historia:Rei
+}
+
+ex5
+select ?nome ?dnasc ?cognome where{
+	?s a historia:Rei.
+    ?s  historia:nome ?nome;
+        historia:nascimento ?dnasc;
+        historia:cognomes ?cognome
+}
+ORDER BY ?dnasc
+
+ex7
+
