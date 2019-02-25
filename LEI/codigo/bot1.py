@@ -1,9 +1,6 @@
-import random
 import myDicio
-import re
 
 proverbios = myDicio.proverbios
-
 rank = myDicio.dicRank
 
 # remover pontuação e meter o texto da mensagem em minusculas
@@ -12,7 +9,7 @@ def cleanText(mensagem):
     mensagem = re.sub(r"(\w+)([,.!?])", r"\1", mensagem)
     return mensagem
 
-
+# retorna o prov que tiver a palavra com um maior rank
 def getProv(mensagem):
     comp = 1000
     mensagem = cleanText(mensagem)
@@ -36,6 +33,7 @@ def mySubString (pal,prov):
         if(pal == p):
             return True
     return False
+
 
 def talk():
     while True:

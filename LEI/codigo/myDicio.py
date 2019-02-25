@@ -12,3 +12,11 @@ dicRank = {
     'negócios' : 3,
     'papo' : 3
 }
+
+dicTrad = {
+    'olá' : 'hello',
+    'comer' : 'eat',
+    'vermelho' : 'red',
+    'azul' : 'blue',
+    'carro' : 'car',
+}
