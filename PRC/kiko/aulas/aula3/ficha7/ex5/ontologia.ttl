@@ -74,7 +74,8 @@
 #################################################################
 
 ###  http://prc.di.uminho.pt/2019/countries#es
-:es rdf:type owl:NamedIndividual ;
+:es rdf:type owl:NamedIndividual ,
+             :Country ;
     :border :pt ;
     :countryName "Espanha" .
 

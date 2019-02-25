@@ -1,0 +1,43 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://prc.di.uminho.pt/2019/countries#>
+PREFIX historia: <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
+
+# 1 Conta o numero de sujeitos
+select (count(?s) as ?numero) where {
+    ?s ?p ?o.
+}
+# Conta o numero de classes
+select (count(?s) as ?numero) where {
+    ?s a owl:Class.
+}
+
+# 2 Todas as classes definidas
+select distinct ?s where {
+    ?s a owl:Class.
+}
+
+# 3 Propriedades da classe Rei
+select distinct ?p where {
+    ?s a historia:Rei.
+    ?s ?p ?o
+}
+
+# 4 Numero de Reis
+select (count(?s) as ?nrei) where {
+    ?s a historia:Rei.
+}
+
+# 5
+select ?nome ?dnasc ?cognome where {
+    ?s a historia:Rei.
+    ?s historia:nome ?nome;
+       historia:nascimento ?dnasc;
+       historia:cognomes ?cognome.
+}
+order by asc(?nome)
+
+
+
+# 7
+
+# count do agregate

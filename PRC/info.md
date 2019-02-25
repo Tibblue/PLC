@@ -17,6 +17,11 @@
     * [Didac](http://www4.di.uminho.pt/~jcr/AULAS/didac/)
 * [XML](http://www4.di.uminho.pt/~jcr/XML/)
 
+## TPCs
+* <a href="mailto:jcr@di.uminho.pt?subject=PRC2018::A78416::TPY
+&body=Boas,&#13;&#10; Envio em anexo o manifesto, que contem link para o repo GitHub com o TPC">Kiko TPC Sender</a>
+* <a href="mailto:jcr@di.uminho.pt?subject=PRC2018::AXXXXX::TPY">Click para enviar TPC ;)</a>
+
 ## Ferramentas
 * [GraphDB](https://www.ontotext.com/company/news/ontotexts-graphdb-8-8-0-enriches-the-knowledge-graph-experience/)
     * [Guide](http://graphdb.ontotext.com/documentation/free/quick-start-guide.html)
