@@ -3,13 +3,13 @@ import random
 from listaProverbios import proverbios
 from myDicio import respostasFeitas
 import re
-import nltk
+
 rank = formas_totalPT.dicRank
 
-
-#---------------------------------------------------------------------------------------------
-#---------------------------------REAL DEAL---------------------------------------------------
-#---------------------------------------------------------------------------------------------
+# remover pontuação e meter o texto da mensagem em minusculas
+def cleanText(mensagem):
+    mensagem = re.sub(r"(\w+)([,.!?])", r"\1", mensagem)
+    return mensagem
 
 def getProverbios(mensagem):
     mensagem = cleanText(mensagem)
@@ -21,6 +21,7 @@ def getProverbios(mensagem):
         if pal != "":
             palavras.append(pal)
             mensagem.remove(pal)
+
     listaProv = findListaProverbio(palavras)
     # caso existra provérbios emprime um aleatoriamente
     if listaProv:
@@ -33,22 +34,6 @@ def getProverbios(mensagem):
         notFound = respostasFeitas[ind]
         return notFound
 
-def talk():
-    while True:
-        # mensagem = input()
-        mensagem = "a"
-        result = getProverbios(mensagem)
-        print(result)
-
-#---------------------------------------------------------------------------------------------
-#---------------------------------FUNÇÕES AUXILIARES------------------------------------------
-#---------------------------------------------------------------------------------------------
-
-# remover pontuação e meter o texto da mensagem em minusculas
-def cleanText(mensagem):
-    mensagem = re.sub(r"(\w+)([,.!?])", r"\1", mensagem)
-    return mensagem
-
 # retorna a pal de uma frase que tem o menor rank
 def getPalavraByRank(mensagem):
     comp = 1000000000
@@ -59,6 +44,16 @@ def getPalavraByRank(mensagem):
                 comp = rank.get(palavra)
                 pal = palavra
     return pal
+
+# dando a lista de palavras retorna um provérbio caso seja encontrado
+# def findProverbio(palavras):
+#     for pal in palavras:
+#         for prov in proverbios:
+#             if(mySubString(pal,prov)):
+#                 return prov.capitalize() + "."
+#     ind = random.randint(0,4)
+#     notFound = respostasFeitas[ind]
+#     return notFound
 
 # dado uma lista de palavras retorna os vários provérbios encontrados
 def findListaProverbio(palavras):
@@ -79,9 +74,12 @@ def mySubString (pal,prov):
             return True
     return False
 
-#---------------------------------------------------------------------------------------------
-#------------------------------RUN THE PROGRAM------------------------------------------------
-#---------------------------------------------------------------------------------------------
+
+def talk():
+    while True:
+        mensagem = input()
+        result = getProverbios(mensagem)
+        print(result)
 
 talk()
 
