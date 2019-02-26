@@ -4,6 +4,7 @@ from listaProverbios import proverbios
 from myDicio import respostasFeitas
 import re
 import nltk
+import regex as re
 rank = formas_totalPT.dicRank
 
 
@@ -83,7 +84,20 @@ def mySubString (pal,prov):
 #------------------------------RUN THE PROGRAM------------------------------------------------
 #---------------------------------------------------------------------------------------------
 
+# talk()
+
+#---------------------------------------------------------------------------------------------
+#------------------------------TESTING & OTHERS-----------------------------------------------
+#---------------------------------------------------------------------------------------------
+
+
+# TO DO juntar isto ao cleanText
+def talk():
+    while True:
+        mensagem = input()
+        # frases = nltk.sent_tokenize(mensagem) # divide as frases com base na pontuação
+        palavras = nltk.word_tokenize(mensagem.lower()) # divide em palavras
+        palavras = [palavra for palavra in palavras if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
+        print(palavras)
+
 talk()
-
-
-
