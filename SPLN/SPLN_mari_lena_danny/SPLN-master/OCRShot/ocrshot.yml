@@ -1,4 +1,4 @@
---- 
+---
 definicoes:
   path: #/home/<username>/Imagens
 metadados: [
@@ -11,7 +11,7 @@ metadados: [
     "polaridade"
   ]
 ]
-funcoes: 
+funcoes:
   resumo: |-
     from string import punctuation
     import nltk
@@ -21,9 +21,9 @@ funcoes:
     palavras = nltk.word_tokenize(text.lower())
 
     palavras = [palavra for palavra in palavras if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
-  
+
     frequencia = nltk.FreqDist(palavras)
-    
+
     dictionary = defaultdict(int)
 
     for i, frase in enumerate(frases):
@@ -108,8 +108,8 @@ funcoes:
           for p in lines:
               if p in dict:
                   found += 1
-                  value += dict.get(p,0)  
-          if found:                 
+                  value += dict.get(p,0)
+          if found:
             print("Analisadas " + str(found) + " palavras.\nPolaridade: {0:.3f}".format(round(value/found,3)))
           else:
             print("Não foi possível analisar!!!")
