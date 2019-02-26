@@ -3,13 +3,14 @@ import numeros
 
 dictu = numeros.dictu
 dictd = numeros.dictd
-dicte = numeros.dicte
 dictc = numeros.dictc
+dicte = numeros.dicte
 
 # cent -> representa a casa das centenas do triplo
 # resto -> resto da divisão do triplo
 # dezena -> representa a casa das dezenas do triplo
 # unidade -> representa a casa das unidades do triplo
+
 def convert_triple(inteiro):
     string = []
     resto = inteiro % 100
@@ -20,15 +21,16 @@ def convert_triple(inteiro):
             string.append('cem')
         else:
             string.append(dictc.get(cent))
-    # para os casos com 111,153,251 ...
+    # para o caso de 0,00,000
     elif resto == 0 and cent == 0:
         pass
+    # para os casos com 111,153,251 ...
     else:
-        # para escrever o trezentos em '342' caso seja apenas '42' não faz
+        # escrever centenas caso existam
         if cent > 0:
             string.append(str(dictc.get(cent)) + " e")
-        # para os casos especiais com 11,12,13 ...
-        if resto < 20 and resto >= 10:
+        # para os casos especiais com 11,12,13,14,15,16,17,18,19
+        if resto >= 10 and resto < 20:
             string.append(dicte.get(resto))
         else:
             dezena = math.floor(resto/10)
@@ -42,56 +44,39 @@ def convert_triple(inteiro):
             # para o caso com 29
             else:
                 string.append( str(dictd.get(dezena)) + " e " + str(dictu.get(unidade)) )
-    return ((' ').join(string))
-
-# trata da situação quando entre os triplos contém um 'e' ou não
-# ex: 1 001 -> mil e um (tem um 'e' entre os triplos)
-# ex: 1 123 -> mil cento e vinte e três (não tem 'e' entre os triplos)
-def checkElement(inteiro,numero_str):
-    cent = math.floor(inteiro / 100)
-    resto = inteiro % 100
-    if(inteiro < 100 and inteiro > 0 or (cent >=1 and cent <=9 and resto == 0)):
-        numero_str.append("e " + convert_triple(inteiro))
-    else:
-        numero_str.append(convert_triple(inteiro))
+    return (' ').join(string)
 
 
 def converter(numero):
+    print(numero) # debug do input
     numero_str = []
     lst = numero.split(',')
-    lst = lst[::-1]
-    for i in reversed(range(0,len(lst))):
+    for i in range(0,len(lst)):
         inteiro = int(lst[i])
-        if i==0:
-            # para o caso de ser apenas um '0'
-            if len(lst) == 1 and inteiro == 0:
+        # triplo mais a direita (ultimo)
+        if i==len(lst)-1:
+            if inteiro == 0: # para o caso de ser apenas um '0'
                 numero_str.append('zero')
-            # para o restos dos numeros na 1ª casa
             else:
                 numero_str.append(convert_triple(inteiro))
-                # checkElement(inteiro,numero_str)
-        elif i==1:
-            if inteiro > 0:
-                numero_str.append(convert_triple(inteiro) + " VIRGULA")
-            # caso seja tenha '000' não faz nada
-        elif i==2:
-            # casos normais
-            if inteiro > 1:
-                numero_str.append(convert_triple(inteiro) + " milhões")
-            # caso especial de '1 000 000' em que é apenas 'um milhão'
-            elif inteiro==1:
-                numero_str.append(convert_triple(inteiro) + " milhão")
-        # elif i==3:
-        #     numero_str.append(convert_triple(inteiro) + " mil milhões")
+        # restantes triplos
+        else:
+            if inteiro == 0: # para o caso de ser apenas um '0'
+                numero_str.append('zero' + " vírgula")
+            else:
+                numero_str.append(convert_triple(inteiro) + " vírgula")
 
     numero_str = ' '.join(numero_str).capitalize()
-    print(numero)
-    print(numero_str)
+    return numero_str
+
 
 # pensar neste caso
 # converter('000')
 
-converter('3,244')
+print(converter('3,333,244'))
+print(converter('0,000'))
+print(converter('000'))
+print(converter('100,000,010'))
 
 def teste():
     for i in range(1,100):
