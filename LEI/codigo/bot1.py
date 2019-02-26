@@ -24,19 +24,22 @@ def getProv(mensagem):
 
     for i in range(len(mensagem)):
         pal = getPalByRank(mensagem)
-        palavras.append(pal)
-        mensagem.remove(pal)
+        if not pal == "":
+            palavras.append(pal)
+            mensagem.remove(pal)
 
     return findProverb(palavras)
 
 # retorna a pal de uma frase que tem o menor rank
 def getPalByRank(mensagem):
     comp = 1000000000
+    pal = ""
     for palavra in mensagem:
-        if rank.get(palavra) < comp:
-            # print(rank.get(palavra))
-            comp = rank.get(palavra)
-            pal = palavra
+        if not rank.get(palavra) is None :
+            print(rank.get(palavra))
+            if rank.get(palavra) < comp:
+                comp = rank.get(palavra)
+                pal = palavra
     return pal
 
 # dando a lista de palavras retorna um provérbio caso seja encontrado
