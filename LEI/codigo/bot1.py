@@ -24,7 +24,7 @@ def getProv(mensagem):
 
     for i in range(len(mensagem)):
         pal = getPalByRank(mensagem)
-        if not pal == "":
+        if pal != "":
             palavras.append(pal)
             mensagem.remove(pal)
 
@@ -36,7 +36,6 @@ def getPalByRank(mensagem):
     pal = ""
     for palavra in mensagem:
         if not rank.get(palavra) is None :
-            print(rank.get(palavra))
             if rank.get(palavra) < comp:
                 comp = rank.get(palavra)
                 pal = palavra
