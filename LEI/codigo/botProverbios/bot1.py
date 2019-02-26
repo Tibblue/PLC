@@ -1,14 +1,8 @@
 import formas_totalPT
 import random
 from listaProverbios import proverbios
+from myDicio import respostasFeitas
 import re
-
-respostasFeitas = [
-    "Não encontrei nada. :(", "Não tenho mais nada a dizer!" , "Eu sou apenas um pobre bot.",
-    "Não conheço nenhum provérbio para isso.",
-    "Manda vir outro!",
-]
-
 
 rank = formas_totalPT.dicRank
 
@@ -28,7 +22,17 @@ def getProverbios(mensagem):
             palavras.append(pal)
             mensagem.remove(pal)
 
-    return findProverbio(palavras)
+    listaProv = findListaProverbio(palavras)
+    # caso existra provérbios emprime um aleatoriamente
+    if listaProv:
+        size = len(listaProv)
+        n = random.randint(0,size)
+        return listaProv[n]
+    # caso não exista nenhum provérbio encontrado emprime uma respota pré feita
+    else:
+        ind = random.randint(0,4)
+        notFound = respostasFeitas[ind]
+        return notFound
 
 # retorna a pal de uma frase que tem o menor rank
 def getPalavraByRank(mensagem):
@@ -42,17 +46,24 @@ def getPalavraByRank(mensagem):
     return pal
 
 # dando a lista de palavras retorna um provérbio caso seja encontrado
+# def findProverbio(palavras):
+#     for pal in palavras:
+#         for prov in proverbios:
+#             if(mySubString(pal,prov)):
+#                 return prov.capitalize() + "."
+#     ind = random.randint(0,4)
+#     notFound = respostasFeitas[ind]
+#     return notFound
 
-# TO DO : fazer lista de proverbios  em vez de retornar só um
-# para poderms alterar nas respostas e nao ser sempre igual
-def findProverbio(palavras):
+# dado uma lista de palavras retorna os vários provérbios encontrados
+def findListaProverbio(palavras):
+    listaProv = []
     for pal in palavras:
         for prov in proverbios:
             if(mySubString(pal,prov)):
-                return prov.capitalize() + "."
-    ind = random.randint(0,4)
-    notFound = respostasFeitas[ind]
-    return notFound
+                listaProv.append(prov.capitalize() + ".")
+        if not listaProv == []:
+            return listaProv
 
 # função para verficar se uma palavra existe numa string
 def mySubString (pal,prov):
