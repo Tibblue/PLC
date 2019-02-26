@@ -1,28 +1,35 @@
-import myDicio
+import formas_totalPT
+from listaProverbios import proverbios
+import re
 
-proverbios = myDicio.proverbios
-rank = myDicio.dicRank
+
+rank = formas_totalPT.dicRank
 
 # remover pontuação e meter o texto da mensagem em minusculas
 def cleanText(mensagem):
-    mensagem = mensagem.lower()
+    # mensagem = mensagem.lower()
     mensagem = re.sub(r"(\w+)([,.!?])", r"\1", mensagem)
     return mensagem
 
-# retorna o prov que tiver a palavra com um maior rank
 def getProv(mensagem):
-    comp = 1000
+    comp = 1000000000
     mensagem = cleanText(mensagem)
     mensagem = mensagem.split()
+    notFound = "Nada foi encontrado"
 
-    result = "Não encontrei nada... oops"
+    for palavra in mensagem:
+        if rank.get(palavra) < comp:
+            comp = rank.get(palavra)
+            pal = palavra
+
+    # print(comp)
+    # print(pal)
+
     for prov in proverbios:
-        for pal in mensagem:
-            if(mySubString(pal,prov)):
-                if( rank.get(pal) < comp):
-                    result = prov
-                    comp = rank.get(pal)
-    print(result)
+        if(mySubString(pal,prov)):
+            return prov.capitalize()
+
+    return notFound
 
 # função para verficar se uma palavra existe numa string
 def mySubString (pal,prov):
@@ -38,7 +45,8 @@ def mySubString (pal,prov):
 def talk():
     while True:
         mensagem = input()
-        getProv(mensagem)
+        result = getProv(mensagem)
+        print(result)
 
 talk()
 

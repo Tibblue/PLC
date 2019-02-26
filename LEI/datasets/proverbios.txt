@@ -5,7 +5,7 @@
 #####   Projecto NATURA  jj@di.uminho.pt
 ######
 
- adiv:: Adivinha (riddle) 
+ adiv:: Adivinha (riddle)
 
 
 (qual|cal) é a coisa (qual|cal) é ela que ainda agora falei nela?:adiv::cal:jj
@@ -28,7 +28,7 @@ mil marinhinhos , mil marinhões dois para fitas e quatro chantões:adiv::boi:jl
 uma velhinha muito encorrilhadinha, com uma tranquinha no cu, 'arriu' passa é, advinha lá o que é?:adiv::uva passa:jl
 
 
- cita:: Citações  
+ cita:: Citações
 
 
 
@@ -71,7 +71,7 @@ a minha noiva é uma cadela!:citaContraAut: Pluto::as
 levantarei os caídos e oprimirei os grandes!:citaContraAut: O soutien::as
 Que um homem não é de pau!:citaContraAut: Pinóquio::jc
 
- prov:: Provérbios 
+ prov:: Provérbios
 
 
 
@@ -2285,7 +2285,7 @@ zurra o burro, deitam-lhe o cabresto:prov:::
 zurra o burro, deitem-lhe o cabresto:prov:::alt
 (zurros|vozes) de burro não chegam (ao céu|aos céus):prov:::
 
- prov_contra:: Provérbio de contrafacção 
+ prov_contra:: Provérbio de contrafacção
 
 
 penso logo hesito:citaContra::penso logo existo:jm
@@ -2415,7 +2415,7 @@ quem sabe, sabe. Quem não sabe, ensina:prov_contra:::
 quem sabe faz, quem não sabe ensina. Quem não sabe ensinar (manda palpites|dá conselhos):prov_contra:::jc
 quem sabe, faz, quem não sabe, ensina, quem não sabe ensinar, faz consultadoria:prov_contra:::jc
 quem sai aos seus não é de Genebra:prov_contra::quem sai aos seus não degenera:jl
-quem semeia e-mails, colhe spams:prov_contra::quem semia ventos colhe tempestadas:sara 
+quem semeia e-mails, colhe spams:prov_contra::quem semia ventos colhe tempestadas:sara
 
 
 quem tem boca... pode ir ao dentista!:prov_contra::quem tem boca vai a Roma:balao
@@ -2452,7 +2452,7 @@ pequena leguminosa seca após pequena leguminosa seca, atesta a capacidade de in
 quem aguarda lentamente, atinge o estado de exaustão:prov_contra-erud::quem espera desespera::
 
 
- proc_mv:: Provérbio de mais vale 
+ proc_mv:: Provérbio de mais vale
 
 
 mais vale uma amizade sincera, do que um amor fingido:prov_mv:::
@@ -2468,7 +2468,7 @@ mais vale acender uma vela pequenina do que lamentar a escuridão!:prov_mv:::
 mais vale uma roliça sorridente do que uma anoréctica carrancuda:prov_contra_mv:::
 mais vale uma bêbada conhecida do que uma alcólica anónima:prov_contra_mv:::
 
- maxima_cf:: Maximas de contração 
+ maxima_cf:: Maximas de contração
 
 
 Não és completamente inútil ... // pelo menos serve de mau exemplo.:maxima_cf:::
@@ -2482,7 +2482,7 @@ Trabalhar nunca matou ninguém, mas...// pra que arriscar ?:maxima_cf:::
 Há duas palavras que abrem muitas portas:// PUXE e EMPURRE.:maxima_cf:::
 Não leves a vida tão a sério,// afinal não sairás vivo dela.:maxima_cf:::
 
- prov_agri:: Provérbio agrícola-meteorológicos 
+ prov_agri:: Provérbio agrícola-meteorológicos
 
 
 Janeiro - A água de Janeiro vale dinheiro.
@@ -2566,7 +2566,7 @@ vento sudoeste mansinho e panga É de tremer dele, quando se zanga:prov_agri:[ve
 vermelho nascente que pronto descora, tempo de chuva que está p'ra demora:prov_agri:[aspecto do céu]::anc
 volta direita, vem satisfeita. Volta de cão traz furacão:prov_agri:[vento]::anc
 
- travalingua:: Trava Línguas 
+ travalingua:: Trava Línguas
 
 
 Xuxa! A Sasha fez xixi no chão da sala.:travalingua:::mag
@@ -2607,7 +2607,7 @@ Pedro Paulo Pinto Pereira, pobre pintor português, pinta portas, paredes, pain�
 Porem, poderá permitir a pessoas predestinadas, proverem a palavra pertinentemente precisa.:travalingua:::jl
 
 
- thanks:: Agradecimentos 
+ thanks:: Agradecimentos
 
 
 as=Alberto Simões
@@ -2653,8 +2653,8 @@ up=Ulisses Pinto
 wm=William Max\br
 dp=Deolinda Peralta
 
- seealso:: Ver também 
-    
+ seealso:: Ver também
+
 
 Provérbios do João Magalhães
 Provérbios da Associação Nacional de Cruzeiros

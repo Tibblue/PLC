@@ -6,11 +6,11 @@ dicRank = {
     'o' : 80,
     'parte' : 4,
     'amigos' : 5,
-    'grão' : 1,
+    'grão' : 3,
     'enche' : 10,
     'galinha' : 2,
-    'negócios' : 3,
-    'papo' : 3
+    'negócios' : 8,
+    'papo' : 6
 }
 
 dicTrad = {
