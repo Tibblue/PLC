@@ -17,21 +17,21 @@ def cleanText(mensagem):
     mensagem = re.sub(r"(\w+)([,.!?])", r"\1", mensagem)
     return mensagem
 
-def getProv(mensagem):
+def getProverbios(mensagem):
     mensagem = cleanText(mensagem)
     mensagem = mensagem.split()
     palavras = []
 
     for i in range(len(mensagem)):
-        pal = getPalByRank(mensagem)
+        pal = getPalavraByRank(mensagem)
         if pal != "":
             palavras.append(pal)
             mensagem.remove(pal)
 
-    return findProverb(palavras)
+    return findProverbio(palavras)
 
 # retorna a pal de uma frase que tem o menor rank
-def getPalByRank(mensagem):
+def getPalavraByRank(mensagem):
     comp = 1000000000
     pal = ""
     for palavra in mensagem:
@@ -42,7 +42,10 @@ def getPalByRank(mensagem):
     return pal
 
 # dando a lista de palavras retorna um provérbio caso seja encontrado
-def findProverb(palavras):
+
+# TO DO : fazer lista de proverbios  em vez de retornar só um
+# para poderms alterar nas respostas e nao ser sempre igual
+def findProverbio(palavras):
     for pal in palavras:
         for prov in proverbios:
             if(mySubString(pal,prov)):
@@ -55,7 +58,6 @@ def findProverb(palavras):
 def mySubString (pal,prov):
     prov = prov.lower()
     prov = prov.split()
-
     for p in prov:
         if(pal == p):
             return True
@@ -65,7 +67,7 @@ def mySubString (pal,prov):
 def talk():
     while True:
         mensagem = input()
-        result = getProv(mensagem)
+        result = getProverbios(mensagem)
         print(result)
 
 talk()
