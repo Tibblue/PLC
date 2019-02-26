@@ -7,29 +7,39 @@ rank = formas_totalPT.dicRank
 
 # remover pontuação e meter o texto da mensagem em minusculas
 def cleanText(mensagem):
-    # mensagem = mensagem.lower()
     mensagem = re.sub(r"(\w+)([,.!?])", r"\1", mensagem)
     return mensagem
 
 def getProv(mensagem):
-    comp = 1000000000
     mensagem = cleanText(mensagem)
     mensagem = mensagem.split()
-    notFound = "Nada foi encontrado"
+    palavras = []
 
+    for i in range(len(mensagem)):
+        pal = getPalByRank(mensagem)
+        palavras.append(pal)
+        mensagem.remove(pal)
+
+    return findProverb(palavras)
+
+# retorna a pal de uma frase que tem o menor rank
+def getPalByRank(mensagem):
+    comp = 1000000000
     for palavra in mensagem:
         if rank.get(palavra) < comp:
+            # print(rank.get(palavra))
             comp = rank.get(palavra)
             pal = palavra
+    return pal
 
-    # print(comp)
-    # print(pal)
-
-    for prov in proverbios:
-        if(mySubString(pal,prov)):
-            return prov.capitalize()
-
-    return notFound
+# dando a lista de palavras retorna um provérbio caso seja encontrado
+def findProverb(palavras):
+    notFound = "Nada foi encontrado"
+    for pal in palavras:
+        for prov in proverbios:
+            if(mySubString(pal,prov)):
+                return prov.capitalize()
+    return notfound
 
 # função para verficar se uma palavra existe numa string
 def mySubString (pal,prov):
