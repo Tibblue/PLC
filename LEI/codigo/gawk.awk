@@ -1,7 +1,7 @@
-# awk -f freqAno.awk processos.txt |sort -n -r
+# awk -f gawk.awk ../datasets/formas_totalPT.txt > formas_totalPT.py
 
 BEGIN {FS=" "
-    print "dicRank:{"}
+    print "dicRank={"}
 
     {print "    \""$2"\"" " : " $1 " ,"}
 
