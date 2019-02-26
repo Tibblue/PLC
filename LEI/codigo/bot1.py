@@ -1,6 +1,13 @@
 import formas_totalPT
+import random
 from listaProverbios import proverbios
 import re
+
+respostasFeitas = [
+    "Não encontrei nada. :(", "Não tenho mais nada a dizer!" , "Eu sou apenas um pobre bot.",
+    "Não conheço nenhum provérbio para isso.",
+    "Manda vir outro!",
+]
 
 
 rank = formas_totalPT.dicRank
@@ -34,12 +41,13 @@ def getPalByRank(mensagem):
 
 # dando a lista de palavras retorna um provérbio caso seja encontrado
 def findProverb(palavras):
-    notFound = "Nada foi encontrado"
     for pal in palavras:
         for prov in proverbios:
             if(mySubString(pal,prov)):
-                return prov.capitalize()
-    return notfound
+                return prov.capitalize() + "."
+    ind = random.randint(0,4)
+    notFound = respostasFeitas[ind]
+    return notFound
 
 # função para verficar se uma palavra existe numa string
 def mySubString (pal,prov):
