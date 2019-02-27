@@ -8,30 +8,40 @@
     
     <xsl:template match="/">
         <xsl:apply-templates select="root/*"/>
-        <xsl:apply-templates select="root/element/*"/>
+        <xsl:apply-templates select="root/element/laureates/element"/>
     </xsl:template>
     
     <xsl:template match="root/*">
      
     ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#<xsl:value-of select="category"/><xsl:value-of select="year"/>
     :<xsl:value-of select="category"/><xsl:value-of select="year"/>
-    rdf:type owl:NamedIndividual , :<xsl:value-of select="name(.)"/> ;
+    rdf:type owl:NamedIndividual , :Nobel ;
     
     <xsl:for-each select="laureates/element/id">
-    :haslaureates  :r<xsl:value-of select="."/>;   
+    :hasLaureates  :l<xsl:value-of select="."/>;   
     </xsl:for-each>
         
-    :category <xsl:value-of select="category"/>;
-    :overallMotivation <xsl:value-of select="overallMotivation"/>;
+    :category "<xsl:value-of select="category"/>";
+     <xsl:if test="overallMotivation">
+         :overallMotivation <xsl:value-of select="overallMotivation"/>;
+     </xsl:if>
+    
     :year <xsl:value-of select="year"/>.
-        
-        
-<!--    :firstname "<xsl:value-of select="firstname"/>" ;
-    :id "<xsl:value-of select="id"/>" ;
-    :motivation "<xsl:value-of select="motivation"/>" ;
-    :share "<xsl:value-of select="share"/>" ;
-    :surname "<xsl:value-of select="surname"/>" ;-->
       
     </xsl:template>
     
-</xsl:stylesheet>
+    <xsl:template match="root/element/laureates/element">
+        ###  http://www.semanticweb.org/raulv/ontologies/2019/1/untitled-ontology-9#l<xsl:value-of select="id"/>
+        :l<xsl:value-of select="id"/>
+        rdf:type owl:NamedIndividual , :Laureates ;
+        
+        :firstname "<xsl:value-of select="firstname"/>" ;
+        :id "l<xsl:value-of select="id"/>" ;
+        <xsl:if test="motivation">
+            :motivation <xsl:value-of select="motivation"/>;
+        </xsl:if>
+        :share "<xsl:value-of select="share"/>" ;
+        :surname "<xsl:value-of select="surname"/>" .
+       </xsl:template>
+    
+    </xsl:stylesheet>
