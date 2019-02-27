@@ -1,20 +1,21 @@
 import re
 import myDicio
+from py_translator import Translator
+from listaLinguas import linguas
 
 
-traducoes = myDicio.dicTrad
-
-def traduzir(mensagem):
-    mensagem = re.search(r'(?<=Como se diz ).+(?= em inglês?)', mensagem)
-    mensagem = mensagem.group() # devolve a palavra capturada
-
-    traducao = traducoes.get(mensagem)
-    traducao = 'A tradução de ' + mensagem + " é " + traducao + "."
-    print(traducao)
-
+# TO DO tratar dos casos errado
 def talk():
     while True:
         mensagem = input()
-        traduzir(mensagem)
+        mensagem = re.search(r'(?<=Como se diz )(.+)? em (.+)\?', mensagem)
+        palavra = mensagem.group(1)
+        lingua = mensagem.group(2).capitalize()
+        # print(palavra)
+        # print(lingua)
+        abrevLingua = linguas.get(lingua)
+        s = Translator().translate(palavra, abrevLingua).text
+        print(s)
 
 talk()
+
