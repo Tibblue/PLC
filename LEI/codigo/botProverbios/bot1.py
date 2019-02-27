@@ -15,7 +15,6 @@ rank = formas_totalPT.dicRank
 
 def getProverbios(mensagem):
     mensagem = cleanText(mensagem)
-    mensagem = mensagem.split()
     palavras = []
 
     for i in range(len(mensagem)):
@@ -47,8 +46,11 @@ def talk():
 #-----------------------------------------------------------------------------#
 
 # remover pontuação e meter o texto da mensagem em minusculas
+# input: Hey! Tudo bem?
+# output: ['hey', 'tudo', 'bem']
 def cleanText(mensagem):
-    mensagem = re.sub(r"(\w+)([,.!?])", r"\1", mensagem)
+    mensagem = nltk.word_tokenize(mensagem.lower())
+    mensagem = [palavra for palavra in mensagem if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
     return mensagem
 
 # retorna a pal de uma frase que tem o menor rank
@@ -93,12 +95,12 @@ talk()
 
 
 # TO DO juntar isto ao cleanText
-def talkTesting():
-    while True:
-        mensagem = input()
-        # frases = nltk.sent_tokenize(mensagem) # divide as frases com base na pontuação
-        palavras = nltk.word_tokenize(mensagem.lower()) # divide em palavras
-        palavras = [palavra for palavra in palavras if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
-        print(palavras)
+# def talkTesting():
+#     while True:
+#         mensagem = input()
+#         # frases = nltk.sent_tokenize(mensagem) # divide as frases com base na pontuação
+#         palavras = nltk.word_tokenize(mensagem.lower()) # divide em palavras
+#         palavras = [palavra for palavra in palavras if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
+#         print(palavras)
 
 # talkTesting()
