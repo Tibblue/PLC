@@ -35,7 +35,13 @@ def getProverbios(mensagem):
         return notFound
 
 def talk():
+    print("####   ####    ##    ####\n"+
+          "   #   #  #   #  #   #  #\n"+
+          "#  #   #  #   ####   #  #\n"+
+          " ##    ####   #  #   ####\n"
+          )
     while True:
+
         mensagem = input()
         # mensagem = "a" # debug
         result = getProverbios(mensagem)
@@ -95,12 +101,12 @@ talk()
 
 
 # TO DO juntar isto ao cleanText
-# def talkTesting():
-#     while True:
-#         mensagem = input()
-#         # frases = nltk.sent_tokenize(mensagem) # divide as frases com base na pontuação
-#         palavras = nltk.word_tokenize(mensagem.lower()) # divide em palavras
-#         palavras = [palavra for palavra in palavras if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
-#         print(palavras)
+def talkTesting():
+    while True:
+        mensagem = input()
+        # frases = nltk.sent_tokenize(mensagem) # divide as frases com base na pontuação
+        palavras = nltk.word_tokenize(mensagem.lower()) # divide em palavras
+        palavras = [palavra for palavra in palavras if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
+        print(palavras)
 
 # talkTesting()
