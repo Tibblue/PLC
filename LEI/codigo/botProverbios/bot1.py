@@ -1,16 +1,17 @@
-import formas_totalPT
 import random
-from listaProverbios import proverbios
-from myDicio import respostasFeitas
 import re
 import nltk
 import regex as re
+
+from listaProverbios import proverbios
+from myDicio import respostasFeitas
+import formas_totalPT
 rank = formas_totalPT.dicRank
 
 
-#---------------------------------------------------------------------------------------------
-#---------------------------------REAL DEAL---------------------------------------------------
-#---------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------#
+#-------------------               REAL DEAL               -------------------#
+#-----------------------------------------------------------------------------#
 
 def getProverbios(mensagem):
     mensagem = cleanText(mensagem)
@@ -23,12 +24,12 @@ def getProverbios(mensagem):
             palavras.append(pal)
             mensagem.remove(pal)
     listaProv = findListaProverbio(palavras)
-    # caso existra provérbios emprime um aleatoriamente
+    # caso exista provérbios imprime um aleatoriamente
     if listaProv:
         size = len(listaProv)-1
         n = random.randint(0,size)
         return listaProv[n]
-    # caso não exista nenhum provérbio encontrado emprime uma respota pré feita
+    # caso não exista nenhum provérbio encontrado imprime uma resposta pré feita
     else:
         ind = random.randint(0,4)
         notFound = respostasFeitas[ind]
@@ -36,14 +37,14 @@ def getProverbios(mensagem):
 
 def talk():
     while True:
-        # mensagem = input()
-        mensagem = "a"
+        mensagem = input()
+        # mensagem = "a" # debug
         result = getProverbios(mensagem)
         print(result)
 
-#---------------------------------------------------------------------------------------------
-#---------------------------------FUNÇÕES AUXILIARES------------------------------------------
-#---------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------#
+#-------------------          FUNÇÕES AUXILIARES           -------------------#
+#-----------------------------------------------------------------------------#
 
 # remover pontuação e meter o texto da mensagem em minusculas
 def cleanText(mensagem):
@@ -80,19 +81,19 @@ def mySubString (pal,prov):
             return True
     return False
 
-#---------------------------------------------------------------------------------------------
-#------------------------------RUN THE PROGRAM------------------------------------------------
-#---------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------#
+#-------------------            RUN THE PROGRAM            -------------------#
+#-----------------------------------------------------------------------------#
 
-# talk()
+talk()
 
-#---------------------------------------------------------------------------------------------
-#------------------------------TESTING & OTHERS-----------------------------------------------
-#---------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------#
+#-------------------           TESTING & OTHERS            -------------------#
+#-----------------------------------------------------------------------------#
 
 
 # TO DO juntar isto ao cleanText
-def talk():
+def talkTesting():
     while True:
         mensagem = input()
         # frases = nltk.sent_tokenize(mensagem) # divide as frases com base na pontuação
@@ -100,4 +101,4 @@ def talk():
         palavras = [palavra for palavra in palavras if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
         print(palavras)
 
-talk()
+# talkTesting()

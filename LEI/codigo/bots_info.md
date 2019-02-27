@@ -1,12 +1,24 @@
 # LEI
 
+## NLTK
+### Install
+```
+$sudo pip3 install nltk
+$python3
+>>> nltk.download()
+
+Downloader> d
+
+Download which package (l=list; x=cancel)?
+  Identifier> all
+```
+
 ## Bots
 
-### Bot1 - Proverbios
-
+### Bot1 - Provérbios
+Este bot devolve um provérbio para qualquer input.
 
 ### Bot2 - Tradutor
-
 Este bot traduz de PT para EN.
 
 Ele aceita input que siga a seguinte **Expressão Regular**
