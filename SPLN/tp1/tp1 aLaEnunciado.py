@@ -1,10 +1,14 @@
 import math
+import re
+
 import numeros
 
 dictu = numeros.dictu
 dictd = numeros.dictd
 dictc = numeros.dictc
 dicte = numeros.dicte
+
+input = "Se nos fixarmos nas contas de Assunção Cristas, temos de concluir que desde que António Costa tomou posse que a dívida absoluta aumentou, num total de 17,419 mil milhões de euros. Dos 231,526 mil milhões de euros registados em Novembro de 2015, a dívida continuou a subir desde então. Nos últimos três anos, a subiu  7,5% para um total de 248,955 mil milhões de euros em Setembro de 2018, segundo os dados do Banco de Portugal."
 
 # cent -> representa a casa das centenas do triplo
 # resto -> resto da divisão do triplo
@@ -69,14 +73,21 @@ def converter(numero):
     numero_str = ' '.join(numero_str).capitalize()
     return numero_str
 
+# print(converter('3,333,244'))
+# print(converter('0,000'))
+# print(converter('000'))
+# print(converter('100,000,010'))
 
-# pensar neste caso
-# converter('000')
 
-print(converter('3,333,244'))
-print(converter('0,000'))
-print(converter('000'))
-print(converter('100,000,010'))
+def converterInput(numero):
+    # print(numero) # debug do input
+    # print(converter(str(numero.group(0))))
+    return " >>"+converter(numero.group(0))+"<< "
+
+
+
+print(re.sub(r'\d{4,}'," ANO ",input))
+print(re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterInput,input))
 
 def teste():
     for i in range(1,100):
