@@ -32,7 +32,7 @@ dicte = {
     16: 'dezasseis',
     17: 'dezassete',
     18: 'dezoito',
-    19: 'dezenove',
+    19: 'dezanove',
 }
 
 dictc =  {

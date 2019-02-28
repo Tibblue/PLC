@@ -1,14 +1,15 @@
 import math
 import re
+from termcolor import colored,cprint
+print(colored('hello', 'red'), colored('world', 'green'), colored('!', 'white', 'on_red'))
 
 import numeros
-
 dictu = numeros.dictu
 dictd = numeros.dictd
 dictc = numeros.dictc
 dicte = numeros.dicte
-
-input = "Se nos fixarmos nas contas de Assunção Cristas, temos de concluir que desde que António Costa tomou posse que a dívida absoluta aumentou, num total de 17,419 mil milhões de euros. Dos 231,526 mil milhões de euros registados em Novembro de 2015, a dívida continuou a subir desde então. Nos últimos três anos, a subiu  7,5% para um total de 248,955 mil milhões de euros em Setembro de 2018, segundo os dados do Banco de Portugal."
+import numerosInverted
+dictInv = numerosInverted.dictInv
 
 # cent -> representa a casa das centenas do triplo
 # resto -> resto da divisão do triplo
@@ -52,7 +53,7 @@ def convert_triple(inteiro):
 
 
 def converter(numero):
-    print(numero) # debug do input
+    # print(numero) # debug do input
     numero_str = []
     lst = numero.split(',')
     for i in range(0,len(lst)):
@@ -95,12 +96,32 @@ def converterAnos(ano):
     return "__"+milhares+" e "+converter(str(triplo))+"__"
 
 
+
+print(" NUM 2 TEXT")
 inputFile = open("A/example_input.txt", "r").read()
 # print(inputFile)
-output = inputFile
-output = re.sub(r'\d{4}',converterAnos,output)
-# output = re.sub(r'\d{4}'," >ANO< ",output)
-output = re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterInput,output)
+input = inputFile
+input = re.sub(r'\d{4}',converterAnos,input)
+input = re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterInput,input)
+print(input)
+
+
+def text2num(texto):
+    texto = texto.group(1)
+    if texto in dictInv:
+        # return '>>'+str(dictInv[texto])+'<<'
+        return colored(str(dictInv[texto]), 'white','on_blue')
+    else:
+        return texto
+        # return colored(texto, 'green')
+
+print(" TEXT 2 NUM")
+outputFile = open("A/example_output.txt", "r").read()
+output = outputFile
+print(output)
+output = re.sub(r'(\w+) mil e',text2num,output)
+output = re.sub(r'(\w+)(?: e )?',text2num,output)
+output = re.sub(r' vírgula ',colored(',','white','on_blue'),output)
 print(output)
 
 def teste():
