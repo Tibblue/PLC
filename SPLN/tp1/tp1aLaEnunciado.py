@@ -84,10 +84,24 @@ def converterInput(numero):
     # print(converter(str(numero.group(0))))
     return " >>"+converter(numero.group(0))+"<< "
 
+def converterAnos(ano):
+    ano = int(ano.group())
+    milhares = math.floor(ano / 1000)
+    triplo = ano % 1000
+    if(milhares==1):
+        milhares="Mil"
+    else:
+        milhares="Dois mil"
+    return "__"+milhares+" e "+converter(str(triplo))+"__"
 
 
-print(re.sub(r'\d{4,}'," ANO ",input))
-print(re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterInput,input))
+inputFile = open("A/example_input.txt", "r").read()
+# print(inputFile)
+output = inputFile
+output = re.sub(r'\d{4}',converterAnos,output)
+# output = re.sub(r'\d{4}'," >ANO< ",output)
+output = re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterInput,output)
+print(output)
 
 def teste():
     for i in range(1,100):
