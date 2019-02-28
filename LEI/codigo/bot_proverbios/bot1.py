@@ -2,7 +2,7 @@ import random
 import re
 import nltk
 import regex as re
-
+from art import *
 from listaProverbios import proverbios
 from myDicio import respostasFeitas
 import formas_totalPT
@@ -35,11 +35,8 @@ def getProverbios(mensagem):
         return notFound
 
 def talk():
-    print("####   ####    ##    ####\n"+
-          "   #   #  #   #  #   #  #\n"+
-          "#  #   #  #   ####   #  #\n"+
-          " ##    ####   #  #   ####\n"
-          )
+    art = text2art("Sofia")
+    print(art)
     while True:
 
         mensagem = input()
