@@ -146,8 +146,18 @@ def text2numAno(texto):
 dicKeys = '|'.join(dictInv)
 # print(dicKeys)
 # regEx = "("+dicKeys+"+"+" )"+"(?:e[ ,])?" # works... kinda
-regEx = "(?<=\\b)"+"(?:("+dicKeys+")\\b(?: e | )?)"+"(?= |\.)" # better version ? or not
+regEx = "(?<=\\b)(?:("+dicKeys+")\\b(?: e | )?)+(?= |\.)" # better version ? or not
 print(regEx)
+
+# Dada um string com um numero_triplo por extenso, converte para digitos
+def text2Num_strTriplo(texto):
+    texto = texto.group(0)
+    texto = texto.split(' ')
+    result = 0
+    for palavra in texto:
+        if palavra != 'e':
+            result += dictInv[palavra]
+    return colored(result, 'white','on_blue')
 
 def colorirN(text):
     return colored(text.group(),'white','on_blue')
@@ -159,7 +169,8 @@ outputFile = open("A/example_output.txt", "r").read()
 output = outputFile
 # print(output)
 # output = re.sub(r''+dicKeys+'+'+' mil e '+regEx,colorirA,output)
-output = re.sub(r''+regEx,colorirN,output)
+output = re.sub(r''+regEx,text2Num_strTriplo,output)
+# output = re.sub(r''+regEx,colorirN,output)
 output = re.sub(r' vírgula ',colored(',','white','on_magenta'),output)
 print(output)
 
