@@ -38,7 +38,6 @@ def talk():
     art = text2art("Sofia")
     print(art)
     while True:
-
         mensagem = input()
         # mensagem = "a" # debug
         result = getProverbios(mensagem)
@@ -96,8 +95,7 @@ talk()
 #-------------------           TESTING & OTHERS            -------------------#
 #-----------------------------------------------------------------------------#
 
-
-# TO DO juntar isto ao cleanText
+#
 def talkTesting():
     while True:
         mensagem = input()

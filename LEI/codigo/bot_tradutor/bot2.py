@@ -4,19 +4,23 @@ from py_translator import Translator
 from listaLinguas import linguas
 import random
 from art import *
+from formas_totalPT import dicRank
+
 
 def talk():
     art = text2art("Fabio")
     print(art)
     while True:
         mensagem = input()
-        # if mensagem == '\n':
-        #     print('sim')
         mensagem = re.search(r'(?:.+ )?(.+)? em (.+)\?', mensagem)
         if not mensagem is None:
             palavra = mensagem.group(1)
             lingua = mensagem.group(2).capitalize()
-            if not linguas.get(lingua) is None:
+
+            if dicRank.get(palavra) is None:
+                x = palavra.capitalize() + " não é uma palavra. Por favor repete."
+                print(x)
+            elif not linguas.get(lingua) is None:
                 abrevLingua = linguas.get(lingua)
                 result = Translator().translate(palavra, abrevLingua).text
                 result = "A tradução de " + palavra + " é " + result +"."
