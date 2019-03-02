@@ -104,9 +104,9 @@ def converterNum2Text_file(filename):
     print(input)
 
 # traduzir o ficheiro de teste (debug)
-converterNum2Text_file("A/teste_input.txt")
+converterNum2Text_file("teste_input.txt")
 # traduzir o ficheiro de teste (stores)
-# converterNum2Text_file("A/example_input.txt")
+# converterNum2Text_file("example_input.txt")
 
 
 
@@ -157,6 +157,6 @@ def converterText2Num_file(filename):
     return output
 
 # traduzir o ficheiro de teste (debug)
-print(converterText2Num_file("A/teste_output.txt"))
+print(converterText2Num_file("teste_output.txt"))
 # traduzir o ficheiro de teste (stores)
-# print(converterText2Num_file("A/example_output.txt"))
+# print(converterText2Num_file("example_output.txt"))
