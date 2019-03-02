@@ -11,7 +11,7 @@ def talk():
     art = text2art("Fabio")
     print(art)
     while True:
-        mensagem = input()
+        mensagem = input('Eu: ')
         mensagem = re.search(r'(?:.+ )?(.+)? em (.+)\?', mensagem)
         if not mensagem is None:
             palavra = mensagem.group(1)

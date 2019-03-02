@@ -1,7 +1,7 @@
 import math
 import re
 from termcolor import colored,cprint
-print(colored('hello','red'),colored('world','green'),colored('!','white','on_red'))
+# print(colored('hello','red'),colored('world','green'),colored('!','white','on_red'))
 # cprint('Hello, World!', 'white', 'on_red')
 # cprint('Hello, World!', 'white', 'on_green')
 # cprint('Hello, World!', 'white', 'on_blue')
@@ -23,6 +23,7 @@ def colorirREGEX(text):
 
 
 ########## Num 2 Text ##########
+
 
 # cent -> representa a casa das centenas do triplo
 # resto -> resto da divisão do triplo
@@ -103,14 +104,16 @@ def converterAno2Text(ano):
         milhares = dictu[milhares].capitalize()+" mil"
     result = milhares+" e "+converterNum2Text(str(triplo))
     # return result # sem cor
-    return colored(result,'white','on_green') # com cor
+    # return colored(result,'white','on_green') # com cor
+    return colored(result,'white','on_blue')
 
 # recebe um ano em sre_match (match de expressao regular) e converte para texto
 def converterAno2TextREGEX(ano):
     ano = int(ano.group(0))
     result = converterAno2Text(ano)
     # return result # sem cor
-    return colored(result,'white','on_green') # com cor
+    # return colored(result,'white','on_green') # com cor
+    return colored(result,'white','on_blue')
 
 ### Recebe um filename e converte todos os numeros (em digitos) para texto (numero em extenso)
 def converterNum2Text_file(filename):
@@ -151,7 +154,8 @@ def text2NumAno(texto):
     for palavra in triplo:
         if palavra != 'e':
             result += dictInv[palavra]
-    return colored(result, 'white','on_green')
+    # return colored(result, 'white','on_green')
+    return colored(result, 'white','on_blue')
 
 ### Recebe um filename e converte todos os numeros (em extenso) para digitos
 def converterText2Num_file(filename):
@@ -161,7 +165,8 @@ def converterText2Num_file(filename):
     output = outputFile
     output = re.sub(r''+regExAno,text2NumAno,output)
     output = re.sub(r''+regEx,text2Num_strTriplo,output)
-    output = re.sub(r' vírgula ',colored(',','white','on_cyan'),output)
+    # output = re.sub(r' vírgula ',colored(',','white','on_cyan'),output)
+    output = re.sub(r' vírgula ',colored(',','white','on_blue'),output)
     return output
 
 
