@@ -15,7 +15,6 @@ dictInv = numerosInverted.dictInv
 # resto -> resto da divisão do triplo
 # dezena -> representa a casa das dezenas do triplo
 # unidade -> representa a casa das unidades do triplo
-
 def convert_triple(inteiro):
     string = []
     resto = inteiro % 100
@@ -92,7 +91,7 @@ def converterNum2TextAnos(ano):
     return colored(result, 'white','on_green') # com cor
 
 def converterNum2Text_file(filename):
-    print(colored(" -> NUM 2 TEXT -> "+filename,"red"))
+    print(colored(" -> NUM 2 TEXT -> "+filename,"yellow"))
     inputFile = open(filename, "r").read()
     # print(inputFile)
     input = inputFile
@@ -100,8 +99,10 @@ def converterNum2Text_file(filename):
     input = re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterNum2TextREGEX,input)
     print(input)
 
-# traduzir o ficheiro de teste
-converterNum2Text_file("A/example_input.txt")
+# traduzir o ficheiro de teste (debug)
+converterNum2Text_file("A/teste_input.txt")
+# traduzir o ficheiro de teste (stores)
+# converterNum2Text_file("A/example_input.txt")
 
 
 
@@ -110,22 +111,16 @@ converterNum2Text_file("A/example_input.txt")
 def text2num(texto):
     texto = texto.group(1)
     if texto in dictInv:
-        # return '>>'+str(dictInv[texto])+'<<'
         return colored(str(dictInv[texto]), 'white','on_blue')
-        # return "YEY » "+texto+" -> "+str(dictInv[texto])
     else:
         return texto
-        # return colored(texto, 'green')
-        # return ' '.join(["SAD",texto])
 
 def text2numAno(texto):
     texto = texto.group(1)
     if texto in dictInv:
-        # return '>>'+str(dictInv[texto])+'<<'
         return colored(str(dictInv[texto]), 'white','on_blue')
     else:
         return texto
-        # return colored(texto, 'green')
 
 
 # print(colored(" TEXT 2 NUM","red"))
@@ -145,8 +140,7 @@ def text2numAno(texto):
 
 dicKeys = '|'.join(dictInv)
 # print(dicKeys)
-# regEx = "("+dicKeys+"+"+" )"+"(?:e[ ,])?" # works... kinda
-regEx = "(?<=\\b)(?:("+dicKeys+")\\b(?: e | )?)+(?= |\.)" # better version ? or not
+regEx = "(?<=\\b)(?:("+dicKeys+")\\b(?: e | )?)+(?= |\.|,)"
 print(regEx)
 
 # Dada um string com um numero_triplo por extenso, converte para digitos
@@ -164,13 +158,17 @@ def colorirN(text):
 def colorirA(text):
     return colored(text.group(),'white','on_green')
 
-print(colored(" TEXT 2 NUM colorir","yellow"))
-outputFile = open("A/example_output.txt", "r").read()
-output = outputFile
-# print(output)
-# output = re.sub(r''+dicKeys+'+'+' mil e '+regEx,colorirA,output)
-output = re.sub(r''+regEx,text2Num_strTriplo,output)
-# output = re.sub(r''+regEx,colorirN,output)
-output = re.sub(r' vírgula ',colored(',','white','on_magenta'),output)
-print(output)
+def converterText2Num_file(filename):
+    print(colored(" -> TEXT 2 NUM -> "+filename,"yellow"))
+    outputFile = open(filename, "r").read()
+    # print(output)
+    output = outputFile
+    # output = re.sub(r''+dicKeys+'+'+' mil e '+regEx,colorirA,output)
+    output = re.sub(r''+regEx,text2Num_strTriplo,output)
+    output = re.sub(r' vírgula ',colored(',','white','on_magenta'),output)
+    return output
 
+# traduzir o ficheiro de teste (debug)
+print(converterText2Num_file("A/teste_output.txt"))
+# traduzir o ficheiro de teste (stores)
+# print(converterText2Num_file("A/example_output.txt"))

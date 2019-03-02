@@ -1,4 +1,5 @@
 dictInv =  {
+    'zero': 0,
     'um': 1,
     'dois': 2,
     'três': 3,
