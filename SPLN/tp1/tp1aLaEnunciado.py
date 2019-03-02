@@ -1,8 +1,7 @@
 import math
 import re
 from termcolor import colored,cprint
-print(colored('hello', 'red'), colored('world', 'green'), colored('!', 'white', 'on_red'))
-# cprint('Hello, World!', 'green', 'on_red')
+print(colored('hello','red'),colored('world','green'),colored('!','white','on_red'))
 # cprint('Hello, World!', 'white', 'on_red')
 # cprint('Hello, World!', 'white', 'on_green')
 # cprint('Hello, World!', 'white', 'on_blue')
@@ -15,10 +14,22 @@ dicte = numeros.dicte
 import numerosInverted
 dictInv = numerosInverted.dictInv
 
+########## Auxiliar ##########
+
+def colorir(text):
+    return colored(text.group(),'white','on_cyan')
+def colorirREGEX(text):
+    return colored(text.group(),'white','on_magenta')
+
+
+########## Num 2 Text ##########
+
 # cent -> representa a casa das centenas do triplo
 # resto -> resto da divisão do triplo
 # dezena -> representa a casa das dezenas do triplo
 # unidade -> representa a casa das unidades do triplo
+
+# converte um triplo (3digitos) para texto
 def convert_triple(inteiro):
     string = []
     resto = inteiro % 100
@@ -54,73 +65,72 @@ def convert_triple(inteiro):
                 string.append( str(dictd.get(dezena)) + " e " + str(dictu.get(unidade)) )
     return (' ').join(string)
 
-
-def converterNum2Text(numero):
-    # print(numero) # debug do input
-    numero_str = []
-    lst = numero.split(',')
-    for i in range(0,len(lst)):
-        inteiro = int(lst[i])
+# converte um numero (n digitos) para texto
+def converterNum2Text(numero_str):
+    numero_texto = []
+    lista = numero_str.split(',')
+    for i in range(len(lista)):
+        triplo = int(lista[i])
         # triplo mais a direita (ultimo)
-        if i==len(lst)-1:
-            if inteiro == 0: # para o caso de ser apenas um '0'
-                numero_str.append('zero')
+        if i==len(lista)-1:
+            if triplo == 0: # para o caso de ser apenas um '0'
+                numero_texto.append('zero')
             else:
-                numero_str.append(convert_triple(inteiro))
+                numero_texto.append(convert_triple(triplo))
         # restantes triplos
         else:
-            if inteiro == 0: # para o caso de ser apenas um '0'
-                numero_str.append('zero' + " vírgula")
+            if triplo == 0: # para o caso de ser apenas um '0'
+                numero_texto.append('zero' + " vírgula")
             else:
-                numero_str.append(convert_triple(inteiro) + " vírgula")
-    numero_str = ' '.join(numero_str).capitalize()
-    return numero_str
+                numero_texto.append(convert_triple(triplo) + " vírgula")
+    numero_texto = ' '.join(numero_texto).capitalize()
+    return numero_texto
 
+# recebe um numero em sre_match (match de expressao regular) e converte para texto
 def converterNum2TextREGEX(numero):
-    # print(numero) # debug do input
-    result = converterNum2Text(numero.group(0))
+    numero = numero.group(0)
+    result = converterNum2Text(numero)
     # return result # sem cor
     return colored(result,'white','on_blue') # com cor
 
-def converterNum2TextAnos(ano):
-    ano = int(ano.group())
+# recebe um ano e converte para texto
+def converterAno2Text(ano):
     milhares = math.floor(ano / 1000)
     triplo = ano % 1000
     if(milhares==1):
-        milhares="Mil"
+        milhares = "Mil"
     else:
-        milhares="Dois mil"
+        milhares = dictu[milhares].capitalize()+" mil"
     result = milhares+" e "+converterNum2Text(str(triplo))
     # return result # sem cor
-    return colored(result, 'white','on_green') # com cor
+    return colored(result,'white','on_green') # com cor
 
+# recebe um ano em sre_match (match de expressao regular) e converte para texto
+def converterAno2TextREGEX(ano):
+    ano = int(ano.group(0))
+    result = converterAno2Text(ano)
+    # return result # sem cor
+    return colored(result,'white','on_green') # com cor
+
+### Recebe um filename e converte todos os numeros (em digitos) para texto (numero em extenso)
 def converterNum2Text_file(filename):
     print(colored(" -> NUM 2 TEXT -> "+filename,"yellow"))
     inputFile = open(filename, "r").read()
     # print(inputFile)
     input = inputFile
-    input = re.sub(r'\d{4}',converterNum2TextAnos,input)
+    input = re.sub(r'\d{4}',converterAno2TextREGEX,input)
     input = re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterNum2TextREGEX,input)
     print(input)
 
-# traduzir o ficheiro de teste (debug)
-converterNum2Text_file("teste_input.txt")
-# traduzir o ficheiro de teste (stores)
-# converterNum2Text_file("example_input.txt")
 
-
-
-
+########## Text 2 Num ##########
 
 ### expressoes regulares
 dicKeys = '|'.join(dictInv)
-# print(dicKeys)
 regEx = "(?<=\\b)(?:("+dicKeys+")\\b(?: e | )?)+(?= |\.|,)"
-# print(regEx)
 regExAno = "(?<=\\b)(?:("+dicKeys+") )?mil (?:e )?((?:(?:"+dicKeys+")\\b(?: e | )?)+)(?= |\.|,)"
-# print(regExAno)
 
-# Dada um string com um numero_triplo por extenso, converte para digitos
+# Dada uma string com um triplo por extenso, converte para digitos
 def text2Num_strTriplo(texto):
     texto = texto.group(0)
     texto = texto.split(' ')
@@ -130,33 +140,39 @@ def text2Num_strTriplo(texto):
             result += dictInv[palavra]
     return colored(result, 'white','on_blue')
 
-def text2numAno(texto):
-    # print(texto.group()) # print da captura
+# Dada uma string com um ano por extenso, converte para digitos
+def text2NumAno(texto):
     milhares = texto.group(1)
     triplo = texto.group(2)
     result = 1000
     if milhares in dictInv:
-        result *= dictInv.get(milhares,1)
-        # result = 1000*dictInv[milhares]
-    # print(result) # print dos milhares
+        result *= dictInv[milhares]
     triplo = triplo.split(' ')
     for palavra in triplo:
         if palavra != 'e':
             result += dictInv[palavra]
-    # print(result) # print do resultado
     return colored(result, 'white','on_green')
 
+### Recebe um filename e converte todos os numeros (em extenso) para digitos
 def converterText2Num_file(filename):
     print(colored(" -> TEXT 2 NUM -> "+filename,"yellow"))
     outputFile = open(filename, "r").read()
     # print(output)
     output = outputFile
-    output = re.sub(r''+regExAno,text2numAno,output)
+    output = re.sub(r''+regExAno,text2NumAno,output)
     output = re.sub(r''+regEx,text2Num_strTriplo,output)
-    output = re.sub(r' vírgula ',colored(',','white','on_magenta'),output)
+    output = re.sub(r' vírgula ',colored(',','white','on_cyan'),output)
     return output
 
+
+##########   RUN   ##########
+
 # traduzir o ficheiro de teste (debug)
-print(converterText2Num_file("teste_output.txt"))
+# converterNum2Text_file("teste_input.txt")
 # traduzir o ficheiro de teste (stores)
-# print(converterText2Num_file("example_output.txt"))
+converterNum2Text_file("example_input.txt")
+
+# traduzir o ficheiro de teste (debug)
+# print(converterText2Num_file("teste_output.txt"))
+# traduzir o ficheiro de teste (stores)
+print(converterText2Num_file("example_output.txt"))
