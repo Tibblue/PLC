@@ -2,6 +2,10 @@ import math
 import re
 from termcolor import colored,cprint
 print(colored('hello', 'red'), colored('world', 'green'), colored('!', 'white', 'on_red'))
+# cprint('Hello, World!', 'green', 'on_red')
+# cprint('Hello, World!', 'white', 'on_red')
+# cprint('Hello, World!', 'white', 'on_green')
+# cprint('Hello, World!', 'white', 'on_blue')
 
 import numeros
 dictu = numeros.dictu
@@ -108,40 +112,13 @@ converterNum2Text_file("A/teste_input.txt")
 
 
 
-def text2num(texto):
-    texto = texto.group(1)
-    if texto in dictInv:
-        return colored(str(dictInv[texto]), 'white','on_blue')
-    else:
-        return texto
-
-def text2numAno(texto):
-    texto = texto.group(1)
-    if texto in dictInv:
-        return colored(str(dictInv[texto]), 'white','on_blue')
-    else:
-        return texto
-
-
-# print(colored(" TEXT 2 NUM","red"))
-# outputFile = open("A/example_output.txt", "r").read()
-# output = outputFile
-# print(output)
-# output = re.sub(r'(\w+) mil e',text2num,output)
-# output = re.sub(r'(\w+)(?: e )?',text2num,output)
-# output = re.sub(r' vírgula ',colored(',','white','on_blue'),output)
-# print(output)
-
-
-
-
-
-
-
+### expressoes regulares
 dicKeys = '|'.join(dictInv)
 # print(dicKeys)
 regEx = "(?<=\\b)(?:("+dicKeys+")\\b(?: e | )?)+(?= |\.|,)"
-print(regEx)
+# print(regEx)
+regExAno = "(?<=\\b)(?:("+dicKeys+") )?mil (?:e )?((?:(?:"+dicKeys+")\\b(?: e | )?)+)(?= |\.|,)"
+# print(regExAno)
 
 # Dada um string com um numero_triplo por extenso, converte para digitos
 def text2Num_strTriplo(texto):
@@ -153,17 +130,28 @@ def text2Num_strTriplo(texto):
             result += dictInv[palavra]
     return colored(result, 'white','on_blue')
 
-def colorirN(text):
-    return colored(text.group(),'white','on_blue')
-def colorirA(text):
-    return colored(text.group(),'white','on_green')
+def text2numAno(texto):
+    # print(texto.group()) # print da captura
+    milhares = texto.group(1)
+    triplo = texto.group(2)
+    result = 1000
+    if milhares in dictInv:
+        result *= dictInv.get(milhares,1)
+        # result = 1000*dictInv[milhares]
+    # print(result) # print dos milhares
+    triplo = triplo.split(' ')
+    for palavra in triplo:
+        if palavra != 'e':
+            result += dictInv[palavra]
+    # print(result) # print do resultado
+    return colored(result, 'white','on_green')
 
 def converterText2Num_file(filename):
     print(colored(" -> TEXT 2 NUM -> "+filename,"yellow"))
     outputFile = open(filename, "r").read()
     # print(output)
     output = outputFile
-    # output = re.sub(r''+dicKeys+'+'+' mil e '+regEx,colorirA,output)
+    output = re.sub(r''+regExAno,text2numAno,output)
     output = re.sub(r''+regEx,text2Num_strTriplo,output)
     output = re.sub(r' vírgula ',colored(',','white','on_magenta'),output)
     return output
