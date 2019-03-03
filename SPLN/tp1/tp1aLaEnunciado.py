@@ -104,16 +104,14 @@ def converterAno2Text(ano):
         milhares = dictu[milhares].capitalize()+" mil"
     result = milhares+" e "+converterNum2Text(str(triplo))
     # return result # sem cor
-    # return colored(result,'white','on_green') # com cor
-    return colored(result,'white','on_blue')
+    return colored(result,'white','on_blue') # com cor
 
 # recebe um ano em sre_match (match de expressao regular) e converte para texto
 def converterAno2TextREGEX(ano):
     ano = int(ano.group(0))
     result = converterAno2Text(ano)
     # return result # sem cor
-    # return colored(result,'white','on_green') # com cor
-    return colored(result,'white','on_blue')
+    return colored(result,'white','on_blue') # com cor
 
 ### Recebe um filename e converte todos os numeros (em digitos) para texto (numero em extenso)
 def converterNum2Text_file(filename):
@@ -154,7 +152,6 @@ def text2NumAno(texto):
     for palavra in triplo:
         if palavra != 'e':
             result += dictInv[palavra]
-    # return colored(result, 'white','on_green')
     return colored(result, 'white','on_blue')
 
 ### Recebe um filename e converte todos os numeros (em extenso) para digitos
@@ -165,7 +162,6 @@ def converterText2Num_file(filename):
     output = outputFile
     output = re.sub(r''+regExAno,text2NumAno,output)
     output = re.sub(r''+regEx,text2Num_strTriplo,output)
-    # output = re.sub(r' vírgula ',colored(',','white','on_cyan'),output)
     output = re.sub(r' vírgula ',colored(',','white','on_blue'),output)
     return output
 
@@ -176,6 +172,8 @@ def converterText2Num_file(filename):
 # converterNum2Text_file("teste_input.txt")
 # traduzir o ficheiro de teste (stores)
 converterNum2Text_file("example_input.txt")
+
+input() # apenas para a apresentaçao
 
 # traduzir o ficheiro de teste (debug)
 # print(converterText2Num_file("teste_output.txt"))
