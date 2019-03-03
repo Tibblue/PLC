@@ -11,8 +11,7 @@ dictu = numeros.dictu
 dictd = numeros.dictd
 dictc = numeros.dictc
 dicte = numeros.dicte
-import numerosInverted
-dictInv = numerosInverted.dictInv
+dictInv = numeros.dictInv
 
 ########## Auxiliar ##########
 

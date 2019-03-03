@@ -84,8 +84,8 @@ def converter(numero):
             # caso especial de '1 000 000' em que é apenas 'um milhão'
             elif inteiro==1:
                 numero_str.append(convert_triple(inteiro) + " milhão")
-        # elif i==3:
-        #     numero_str.append(convert_triple(inteiro) + " mil milhões")
+        elif i==3:
+            numero_str.append(convert_triple(inteiro) + " mil milhões")
 
     numero_str = ' '.join(numero_str).capitalize()
 
@@ -95,8 +95,11 @@ def converter(numero):
 # pensar neste caso
 # converter('000')
 
-converter('3 244')
+# converter('3 244')
 # converter('123 001 123')
+
+batatas = input()
+converter(batatas)
 
 def teste():
     for i in range(1,100):
