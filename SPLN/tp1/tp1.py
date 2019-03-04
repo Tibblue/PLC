@@ -1,6 +1,6 @@
 import math
-import numeros
 
+import numeros
 dictu = numeros.dictu
 dictd = numeros.dictd
 dicte = numeros.dicte
@@ -86,27 +86,11 @@ def converter(numero):
                 numero_str.append(convert_triple(inteiro) + " milhão")
         elif i==3:
             numero_str.append(convert_triple(inteiro) + " mil milhões")
-
-    numero_str = ' '.join(numero_str).capitalize()
-
-    print(numero)
-    print(numero_str)
-
-# pensar neste caso
-# converter('000')
+    numero_str = ' '.join(numero_str)
+    return numero_str
 
 # converter('3 244')
 # converter('123 001 123')
 
 batatas = input()
-converter(batatas)
-
-def teste():
-    for i in range(1,100):
-        # s= []
-        # s.append( str(i) + ' ' + '000')
-        s = ' '.join([str(i),'000'])
-        # print(s)
-        converter(s)
-
-# teste()
+print(converter(batatas))

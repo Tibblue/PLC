@@ -16,20 +16,18 @@ dictInv = numeros.dictInv
 ########## Auxiliar ##########
 
 def colorir(text):
-    return colored(text.group(),'white','on_cyan')
+    return colored(text,'white','on_cyan')
 def colorirREGEX(text):
     return colored(text.group(),'white','on_magenta')
 
 
 ########## Num 2 Text ##########
 
-
-# cent -> representa a casa das centenas do triplo
-# resto -> resto da divisão do triplo
-# dezena -> representa a casa das dezenas do triplo
-# unidade -> representa a casa das unidades do triplo
-
 # converte um triplo (3digitos) para texto
+    # cent -> representa a casa das centenas do triplo
+    # resto -> resto da divisão do triplo
+    # dezena -> representa a casa das dezenas do triplo
+    # unidade -> representa a casa das unidades do triplo
 def convert_triple(inteiro):
     string = []
     resto = inteiro % 100
@@ -83,7 +81,7 @@ def converterNum2Text(numero_str):
                 numero_texto.append('zero' + " vírgula")
             else:
                 numero_texto.append(convert_triple(triplo) + " vírgula")
-    numero_texto = ' '.join(numero_texto).capitalize()
+    numero_texto = ' '.join(numero_texto)
     return numero_texto
 
 # recebe um numero em sre_match (match de expressao regular) e converte para texto
@@ -100,7 +98,7 @@ def converterAno2Text(ano):
     if(milhares==1):
         milhares = "Mil"
     else:
-        milhares = dictu[milhares].capitalize()+" mil"
+        milhares = dictu[milhares]+" mil"
     result = milhares+" e "+converterNum2Text(str(triplo))
     # return result # sem cor
     return colored(result,'white','on_blue') # com cor
@@ -120,7 +118,7 @@ def converterNum2Text_file(filename):
     input = inputFile
     input = re.sub(r'\d{4}',converterAno2TextREGEX,input)
     input = re.sub(r'(\d{1,3},)*\d{1,3}(?=[ %])',converterNum2TextREGEX,input)
-    print(input)
+    return input
 
 
 ########## Text 2 Num ##########
@@ -170,9 +168,7 @@ def converterText2Num_file(filename):
 # traduzir o ficheiro de teste (debug)
 # converterNum2Text_file("teste_input.txt")
 # traduzir o ficheiro de teste (stores)
-converterNum2Text_file("example_input.txt")
-
-input() # apenas para a apresentaçao
+print(converterNum2Text_file("example_input.txt"))
 
 # traduzir o ficheiro de teste (debug)
 # print(converterText2Num_file("teste_output.txt"))
