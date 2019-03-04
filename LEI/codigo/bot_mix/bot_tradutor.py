@@ -7,6 +7,15 @@ from art import *
 from formas_totalPT import dicRank
 
 
+def verifica_traduzir(mensagem):
+    mensagem = re.search(r'(?:.+ )?(.+)? em (.+)\?', mensagem)
+
+    if not mensagem is None:
+        lingua = mensagem.group(2).capitalize()
+        if not linguas.get(lingua) is None:
+            return True
+    return False
+
 def traduz(mensagem):
     mensagem = re.search(r'(?:.+ )?(.+)? em (.+)\?', mensagem)
     if not mensagem is None:
