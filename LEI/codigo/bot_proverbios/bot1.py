@@ -38,7 +38,7 @@ def talk():
     art = text2art("Conan")
     print(art)
     while True:
-        mensagem = input()
+        mensagem = input("Eu:")
         # mensagem = "a" # debug
         result = getProverbios(mensagem)
         print(result)
@@ -84,7 +84,6 @@ def findListaProverbio(palavras):
         for pal in palavras:
             if(mySubString(pal,prov)):
                 count += 1
-                print(count)
         if count > comp:
             comp = count
             listaProv = []
@@ -92,7 +91,6 @@ def findListaProverbio(palavras):
         elif count == comp:
             listaProv.append(prov.capitalize() + ".")
 
-    print(listaProv)
     return listaProv
 
 # função para verficar se uma palavra existe numa string

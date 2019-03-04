@@ -1,4 +1,4 @@
-proverbios = [
+proverbios = {
 "a abelha não leva chumbo",
 "a açorda faz a velha gorda e a menina formosa",
 "a água corrente não mata a gente",
@@ -466,7 +466,6 @@ proverbios = [
 "de Espanha nem bom vento nem bom casamento",
 "de Espanha, nem bom vento, nem bom casamento",
 "de Espanha nem bons ventos nem bons casamentos",
-"de grão em grão a galinha enche o papo",
 "de grão em grão a galinha engasga",
 "(de|) hora a hora Deus melhora",
 "de hora a hora Deus melhora",
@@ -729,7 +728,6 @@ proverbios = [
 "grandes peixes pescam-se em grandes rios",
 "grandes peixes, pescam-se em grandes rios",
 "grão a grão enche a galinha o papo",
-"grão a grão, enche a galinha o papo",
 "grão a grão enche o moleiro o sarrão",
 "guardado (está|estava) o bocado para quem o há de comer",
 "guardado está o bocado para quem o há-de comer",
@@ -1415,7 +1413,6 @@ proverbios = [
 "presunção e água benta cada um toma a que quer",
 "primeiro a obrigação, depois a devoção",
 "primeiro de Maio, corre o lobo e o veado",
-proverbios = [
 "quando a causa está quase de todo perdida, deve-se tudo arriscar",
 "quando a esmola é grande, o pobre desconfia",
 "quando a esmola é grande o (pobre|santo) desconfia",
@@ -1944,7 +1941,7 @@ proverbios = [
 "vinte galinhas e um galo comem tanto como um cavalo",
 "viver de crédito, pagar dobrado",
 "viver é como desenhar sem borracha",
-"volta direita, vem satisfeita. Volta de cão traz furacão "]
+"volta direita, vem satisfeita. Volta de cão traz furacão ",
 "volta direita, vem satisfeita. Volta de cão traz furacão",
 "voo de falcão, morte de gavião",
 "voz do povo é voz de Deus",
@@ -1967,4 +1964,4 @@ proverbios = [
 "zurra o burro, deitam-lhe o cabresto",
 "zurra o burro, deitem-lhe o cabresto",
 "(zurros|vozes) de burro não chegam (ao céu|aos céus)",
-]
+}
