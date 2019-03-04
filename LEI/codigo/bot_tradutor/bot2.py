@@ -18,7 +18,7 @@ def talk():
             lingua = mensagem.group(2).capitalize()
 
             if dicRank.get(palavra) is None:
-                x = palavra.capitalize() + " não é uma palavra. Por favor repete."
+                x = "Não percebi. Podes repetir, por favor."
                 print(x)
             elif not linguas.get(lingua) is None:
                 abrevLingua = linguas.get(lingua)

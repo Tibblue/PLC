@@ -78,7 +78,7 @@ def getPalavraByRank(mensagem):
 
 def findListaProverbio(palavras):
     listaProv = []
-    comp = 0
+    comp = 1
     for prov in proverbios:
         count = 0
         for pal in palavras:
