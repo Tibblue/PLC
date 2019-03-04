@@ -15,14 +15,14 @@ rank = formas_totalPT.dicRank
 
 def getProverbios(mensagem):
     mensagem = cleanText(mensagem)
-    # palavras = []
+    palavras = []
 
-    # for i in range(len(mensagem)):
-    #     pal = getPalavraByRank(mensagem)
-    #     if pal != "":
-    #         palavras.append(pal)
-    #         mensagem.remove(pal)
-    listaProv = findListaProverbio(mensagem)
+    for i in range(len(mensagem)):
+        pal = getPalavraByRank(mensagem)
+        if pal != "":
+            palavras.append(pal)
+            mensagem.remove(pal)
+    listaProv = findListaProverbio(palavras)
     # caso exista provérbios imprime um aleatoriamente
     if listaProv:
         size = len(listaProv)-1
@@ -35,7 +35,7 @@ def getProverbios(mensagem):
         return notFound
 
 def talk():
-    art = text2art("Conan")
+    art = text2art("Sofia")
     print(art)
     while True:
         mensagem = input()
@@ -67,33 +67,14 @@ def getPalavraByRank(mensagem):
     return pal
 
 # dado uma lista de palavras retorna os vários provérbios encontrados
-# def findListaProverbio(palavras):
-#     listaProv = []
-#     for pal in palavras:
-#         for prov in proverbios:
-#             if(mySubString(pal,prov)):
-#                 listaProv.append(prov.capitalize() + ".")
-#         if not listaProv == []:
-#             return listaProv
-
 def findListaProverbio(palavras):
     listaProv = []
-    comp = 0
-    for prov in proverbios:
-        count = 0
-        for pal in palavras:
+    for pal in palavras:
+        for prov in proverbios:
             if(mySubString(pal,prov)):
-                count += 1
-                print(count)
-        if count > comp:
-            comp = count
-            listaProv = []
-            listaProv.append(prov.capitalize() + ".")
-        elif count == comp:
-            listaProv.append(prov.capitalize() + ".")
-
-    print(listaProv)
-    return listaProv
+                listaProv.append(prov.capitalize() + ".")
+        if not listaProv == []:
+            return listaProv
 
 # função para verficar se uma palavra existe numa string
 def mySubString (pal,prov):
