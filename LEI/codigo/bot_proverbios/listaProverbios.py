@@ -1,4 +1,4 @@
-proverbios = {
+proverbios = [
 "a abelha não leva chumbo",
 "a açorda faz a velha gorda e a menina formosa",
 "a água corrente não mata a gente",
@@ -1964,4 +1964,4 @@ proverbios = {
 "zurra o burro, deitam-lhe o cabresto",
 "zurra o burro, deitem-lhe o cabresto",
 "(zurros|vozes) de burro não chegam (ao céu|aos céus)",
-}
+]
