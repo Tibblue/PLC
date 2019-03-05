@@ -56,15 +56,15 @@ def cleanText(mensagem):
     return mensagem
 
 # retorna a pal de uma frase que tem o menor rank
-def getPalavraByRank(mensagem):
-    comp = 1000000000
-    pal = ""
-    for palavra in mensagem:
-        if not rank.get(palavra) is None :
-            if rank.get(palavra) < comp:
-                comp = rank.get(palavra)
-                pal = palavra
-    return pal
+# def getPalavraByRank(mensagem):
+#     comp = 1000000000
+#     pal = ""
+#     for palavra in mensagem:
+#         if not rank.get(palavra) is None :
+#             if rank.get(palavra) < comp:
+#                 comp = rank.get(palavra)
+#                 pal = palavra
+#     return pal
 
 # dado uma lista de palavras retorna os vários provérbios encontrados
 # def findListaProverbio(palavras):

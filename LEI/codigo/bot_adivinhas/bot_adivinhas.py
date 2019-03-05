@@ -3,7 +3,6 @@ from listaAdivinhas import adivinhas
 import re
 
 
-
 def getAdivinhaResposta():
     listaAdvinhas = adivinhas
     size = len(listaAdvinhas)-1
@@ -13,7 +12,6 @@ def getAdivinhaResposta():
     adiv = adivinha.group(1)
     resposta = adivinha.group(2)
     return (adiv,resposta)
-
 
 def verificaResposta(adivinha,resposta):
     mensagem = input("Eu:")
@@ -39,21 +37,5 @@ def talk():
             (adivinha,resposta) = getAdivinhaResposta()
             print(adivinha)
             verificaResposta(adivinha,resposta)
-            # mensagem = input("Eu:")
-            # if(resposta in mensagem):
-            #     print('Está certooooo')
-            # else:
-            #     print('Falhaste. Queres tentar outra vez ou queres a resposta?')
-            #     mensagem = input('Eu: ')
-            #     msg = re.search(r'.*(resposta).*', mensagem)
-            #     if not msg is None and msg.group(1) == 'resposta':
-            #         print("A resposta era " + resposta + ".")
-            #     else:
-            #         msg = re.search(r'.*(sim|Sim).*', mensagem)
-            #         print('Vai força')
 
 talk()
-
-        # mensagem = "a" # debug
-        # result = getProverbios(mensagem)
-        # print(result)
