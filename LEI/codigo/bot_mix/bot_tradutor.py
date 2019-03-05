@@ -24,22 +24,22 @@ def traduz(mensagem):
 
         if dicRank.get(palavra) is None:
             x = "Não percebi. Podes repetir, por favor."
-            print(x)
+            return x
         elif not linguas.get(lingua) is None:
             abrevLingua = linguas.get(lingua)
             result = Translator().translate(palavra, abrevLingua).text
             result = "A tradução de " + palavra + " é " + result +"."
-            print(result)
+            return result
         else:
             size = len(linguaNotFound)-1
             ind = random.randint(0,size)
             notFound = linguaNotFound[ind]
-            print(notFound)
+            return notFound
     else:
         size = len(respostasFeitas)-1
         ind = random.randint(0,size)
         notFound = respostasFeitas[ind]
-        print(notFound)
+        return notFound
 
 linguaNotFound = ['Desconheço essa língua.','Não consegui perceber a que língua te referes','Não percebi. Podes repetir?']
 respostasFeitas = ['Essa não sei.','Está fora dos meus conhecimentos.','Não percebi. Podes repetir?']
