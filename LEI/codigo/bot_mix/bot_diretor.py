@@ -8,7 +8,6 @@ from listaLinguas import linguas
 # TO DO:
 # ver a questão de ter ou não um '?' no final da frase
 
-
 # ESPECIAL DESTAQUE -> pensar que fazer nestes casos
 # Eu: carro em ingsaasd?
 # Diz-me com quem andas e dir-te-ei que se for de carro eu quero boleia.
