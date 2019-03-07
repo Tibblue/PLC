@@ -6,9 +6,12 @@ import random
 from .bot_tradutor import bot_tradutor # atm tradutor
 from .bot_lista import bot_lista # atm proverbios
 
+despedidas = [
+    "Adeus parceiro",
+    "Até à próxima colega",
+]
 lista = [
     ( r'batatas(.*)', "love"),
-    ( r'meme', lambda x: random.choice(["doge","catMemes","dogMemes"])),
     ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
     # bot2.geraRegras()[0], # regra automatica (beta)
     ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1))),
@@ -17,7 +20,21 @@ lista = [
 # print(lista)
 
 
+
+
 ##### Auxiliares #####
+# append de uma mensagem ao ficheiro de log
+def append2file(msg,ident):
+    file = 'log.txt'
+    file = open(file,'a')
+    if ident == 'user':
+        file.write('User: '+msg+'\n')
+    elif ident == 'bot':
+        file.write('Bots: '+msg+'\n')
+    else:
+        file.write('\n---FIM DE CONVERSA---\n\n')
+    file.close()
+
 
 ##### Funcoes #####
 # percorre as regras até encontrar uma que dê match e devolve o output
@@ -46,15 +63,21 @@ def main():
         print(result)
     else: # caso não haja input file, lê do stdin
         while True:
-            content = input()
-            if content == "quit": # diretor termina com "quit"
+            inputUser = input()
+            append2file(inputUser,'user')
+            if inputUser == "quit": # diretor termina com "quit"
                 break
-            result = parse(content)
+            result = parse(inputUser)
+            append2file(result,'bot')
             print(result)
-        print("Adeus parceiro") # TODO podemos meter lista de despedidas
+        despedida = random.choice(despedidas)
+        append2file(despedida,'bot')
+        print(despedida)
+        append2file('','') # log de fim de conversa
 
 
 ##### Run #####
+# print(open('../bots_info.md','r').read())
 main()
 # print(getMeme())
 # print(bot_gera.gera_resposta('galinha'))
