@@ -94,11 +94,11 @@ def findListaProverbio(palavras):
     return listaProv
 
 # função para verficar se uma palavra existe numa string
-def mySubString (pal,prov):
-    prov = prov.lower()
-    prov = prov.split()
-    for p in prov:
-        if(pal == p):
+def mySubString (palavra,string):
+    string = string.lower()
+    string = string.split()
+    for p in string:
+        if(palavra == p):
             return True
     return False
 
@@ -107,6 +107,13 @@ def mySubString (pal,prov):
 #-----------------------------------------------------------------------------#
 
 # talk()
+
+#-----------------------------------------------------------------------------#
+#-------------------             KIKO  THINKS              -------------------#
+#-----------------------------------------------------------------------------#
+
+
+
 
 #-----------------------------------------------------------------------------#
 #-------------------           TESTING & OTHERS            -------------------#
