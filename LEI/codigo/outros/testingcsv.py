@@ -1,55 +1,74 @@
 import csv
-
-Schema1 = [
-    ["Cadeira","String",["Qual","Que","Quantas"]],
-    ["Ano","Int",["Em que","Qual"]],
-    ["Semestre","Int",["Em que"]],
-    ["Créditos","Int",["Quantos"]],
-]
-
-Schema2 = {
-    'Em que' : ['Ano::Cadeira','Semestre::Cadeira'],
-    'Qual'   : ['Cadeira::Ano','Cadeira::Semestre'],
-    'Quantos': ['Créditos::Cadeira']
-}
-
-
-# Em que ano cálculo é lecionado?
-# Quantos créditos tem Análise?
-# Em que semestre é dado análise?
-# Qual a cadeira que é leciaonda no 1 semestre do 1 ano
-
-
-
-# input: $ script ficheiro.python ficheiro.csv listaTipos
-
-#             Cadeira   Ano   Semestre   Créditos
-listaTipos = [Objeto,Temporal,Temporal,Quantitativo]
+import sys
+import re
 
 Schema3 = {
-    Objeto : ['Qual'],
-    Temporal : ['Quando','Em que'],
-    Quantitativo : ['Quantos']
+    'Objeto' : ['Qual'],
+    'Temporal' : ['Quando','Em que'],
+    'Quantitativo' : ['Quantos']
 }
 
-# Em que ano cálculo é lecionado?
+def openCSV(file):
+    with open(file, newline='') as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=',')
+        valores = []
+        flag = 0
+        for row in spamreader:
+            if flag == 0:
+                tipos = row
+                flag = 1
+            else:
+                valores.append(row)
+    return(tipos,valores)
 
 
-with open('cadeiras.csv', newline='') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter=',')
-    l = []
-    flag = 0
-    for row in spamreader:
-        if flag == 0:
-            columnName = row
-            flag = 1
-        else:
-            l.append(row)
-    # print(columnName)
-    # print(l)
+
+# dá match ao tipo que queremos encontrar de elemento referido
+def mensagemSearch(mensagem,tipos):
+    tipos = '|'.join(tipos)
+    match = re.search(r'.*('+tipos+') (.*) (.*)\?',mensagem,re.IGNORECASE)
+    if match is None:
+        print(fodeu)
+    tipoObjetivo = match.group(1).capitalize()
+    verbo = match.group(2)
+    elemento = match.group(3).capitalize()
+
+    return(tipoObjetivo,verbo,elemento)
+
+
+# retorna a lista com a linha onde está o valor pretendido
+def findRow(elemento,valores):
+    for row in valores:
+        for elem in row:
+            if elem == elemento:
+                return row
 
 
 def talk():
-
     while True:
-        mensagem = input("Eu: ")
+        mensagem = input('Eu: ')
+        # mensagem = 'Em que ano é lecionado cálculo?'
+        # mensagem = 'Quantos créditos tem análise?'
+        (tipos,valores) = openCSV(sys.argv[1])
+        (tipoObjetivo,verbo,elemento) = mensagemSearch(mensagem,tipos)
+        print(tipos)
+        print("tipoObjetivo: " + tipoObjetivo)
+        print("elemento: " + elemento)
+        row = findRow(elemento,valores)
+        print(row)
+
+        # coluna em que o tipo objetivo se encontra
+        posi = tipos.index(tipoObjetivo)
+        print(posi)
+
+        frase = elemento + " " + verbo + " " + row[posi] + " " +  tipoObjetivo + "."
+        print(frase)
+        # tipoObjetivo = identTipoMensagem(mensagem,tipos)
+        # print(tipoObjetivo)
+
+
+talk()
+
+
+
+
