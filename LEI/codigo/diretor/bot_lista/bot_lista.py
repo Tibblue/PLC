@@ -11,7 +11,7 @@ def cleanText(mensagem):
 
 def get_listaInput():
     listaInput = []
-    file = "listaProverbios.txt"
+    file = "./diretor/bot_lista/"+"listaProverbios.txt"
     file = open(file, "r").read()
     listaInput = file.split('\n')
     return listaInput
@@ -21,16 +21,16 @@ def find_respostas(palavras):
     listaRespostas = []
     comp = 1
     for l in listaRecebida:
-         count = 0
-         for pal in palavras:
-             if(mySubString(pal,l)):
-                 count += 1
-         if count > comp:
-             comp = count
-             listaRespostas = []
-             listaRespostas.append(l.capitalize())
-         elif count == comp:
-             listaRespostas.append(l.capitalize())
+        count = 0
+        for pal in palavras:
+            if(mySubString(pal,l)):
+                count += 1
+        if count > comp:
+            comp = count
+            listaRespostas = []
+            listaRespostas.append(l.capitalize())
+        elif count == comp:
+            listaRespostas.append(l.capitalize())
     return listaRespostas
 
 def gera_resposta(mensagem):

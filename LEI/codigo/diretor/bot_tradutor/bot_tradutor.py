@@ -4,7 +4,7 @@ import random
 from art import *
 from py_translator import Translator
 
-from listaLinguas import linguas
+from .listaLinguas import linguas
 
 ##### Variaveis #####
 # respostas pré feitas, para casos especiais
@@ -29,18 +29,15 @@ def geraRegras():
 
 # funcao para uso do bot individualmente
 def talk():
-    print(text2art("Fabio"))
+    print(text2art("Fabio")) # art
     while True:
         mensagem = input('Eu: ')
-        mensagem = re.search(r'(?:.+ )?(.+)? em (.+)\?', mensagem)
+        mensagem = re.search(r'(?:.* )?(.+) em (\w+)\b\??', mensagem)
         if mensagem is not None:
             palavra = mensagem.group(1)
-            lingua = mensagem.group(2).capitalize()
-            if linguas.get(lingua) is not None:
-                abrevLingua = linguas.get(lingua)
-                result = Translator().translate(palavra, abrevLingua).text
-                result = "A tradução de " + palavra + " é " + result +"."
-                return result
+            linguagem = mensagem.group(2).capitalize()
+            if linguas.get(linguagem) is not None:
+                return traduz(palavra,linguagem)
             else: # nao encontrou a lingua
                 return random.choice(linguaNotFound)
         else: # nao deu match a frase

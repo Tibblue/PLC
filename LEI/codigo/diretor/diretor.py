@@ -3,19 +3,23 @@ import sys
 import re
 import random
 
-import bot2 # atm tradutor
-import bot_gera # atm proverbios
+from .bot_tradutor import bot_tradutor # atm tradutor
+from .bot_lista import bot_lista # atm proverbios
 
 lista = [
     ( r'batatas(.*)', "love"),
     ( r'meme', lambda x: random.choice(["doge","catMemes","dogMemes"])),
-    ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot2.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
+    ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
     # bot2.geraRegras()[0], # regra automatica (beta)
-    ( r'(.+)', lambda x: bot_gera.gera_resposta(x.group(1))),
+    ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1))),
     ( r'(.+)', "FDS"),
 ]
 # print(lista)
 
+
+##### Auxiliares #####
+
+##### Funcoes #####
 # percorre as regras até encontrar uma que dê match e devolve o output
 def parse(content):
     for regex,out in lista:
