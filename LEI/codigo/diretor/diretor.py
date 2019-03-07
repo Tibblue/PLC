@@ -1,22 +1,22 @@
+#!/usr/bin/python3
 import sys
 import re
 import random
 
-import bot_gera
-import bot2
+import bot2 # atm tradutor
+import bot_gera # atm proverbios
 
 lista = [
-    ( r'batatas(.*)', "6"),
-    ( r'chuta', lambda x: getMeme()),
-    ( r'(.+) em (.+)', lambda x: bot2.traduz(x.group(1),x.group(2))),
+    ( r'batatas(.*)', "love"),
+    ( r'meme', lambda x: random.choice(["doge","catMemes","dogMemes"])),
+    ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot2.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
+    # bot2.geraRegras()[0], # regra automatica (beta)
     ( r'(.+)', lambda x: bot_gera.gera_resposta(x.group(1))),
     ( r'(.+)', "FDS"),
 ]
+# print(lista)
 
-def getMeme():
-    meme = ["Drake","doge","catMemes","dogMemes"]
-    return random.choice(meme)
-
+# percorre as regras até encontrar uma que dê match e devolve o output
 def parse(content):
     for regex,out in lista:
         # print(regex,out)
@@ -26,25 +26,31 @@ def parse(content):
         else:
             # print(match)
             if callable(out):
-                # print("funçao here!")
-                return out(match)
+                output = out(match)
+                if output != None:
+                    return output
             else:
                 return out+'=>'+match.group(0)
-    return "Negative Sir!"
+    return "Negative Sir!" # TODO devolver uma frase de falha ou entretenimento
 
+# onde tudo começa
 def main():
-    # print(len(sys.argv))
     if (len(sys.argv)>1): # caso seja inserido um argumento (input file)
         file = sys.argv[1]
         content = open(file,'r').read()
         result = parse(content)
-        return result
-    else: # caso não haja input file, le do stdin
-        content = input()
-        result = parse(content)
-        return result
+        print(result)
+    else: # caso não haja input file, lê do stdin
+        while True:
+            content = input()
+            if content == "quit": # diretor termina com "quit"
+                break
+            result = parse(content)
+            print(result)
+        print("Adeus parceiro") # TODO podemos meter lista de despedidas
 
 
-print(main())
+##### Run #####
+main()
 # print(getMeme())
 # print(bot_gera.gera_resposta('galinha'))
