@@ -8,7 +8,7 @@ import bot2
 lista = [
     ( r'batatas(.*)', "6"),
     ( r'chuta', lambda x: getMeme()),
-    ( r'(.+) em (.+)', lambda x: bot2.traduz(x)),
+    ( r'(.+) em (.+)', lambda x: bot2.traduz(x.group(1),x.group(2))),
     ( r'(.+)', lambda x: bot_gera.gera_resposta(x.group(1))),
     ( r'(.+)', "FDS"),
 ]

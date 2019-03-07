@@ -1,9 +1,10 @@
 import re
-import myDicio
-from py_translator import Translator
-from listaLinguas import linguas
 import random
 from art import *
+from py_translator import Translator
+
+from listaLinguas import linguas
+
 
 def talk():
     art = text2art("Fabio")
@@ -11,10 +12,10 @@ def talk():
     while True:
         mensagem = input()
         mensagem = re.search(r'(?:.+ )?(.+)? em (.+)\?', mensagem)
-        if not mensagem is None:
+        if mensagem is not None:
             palavra = mensagem.group(1)
             lingua = mensagem.group(2).capitalize()
-            if not linguas.get(lingua) is None:
+            if linguas.get(lingua) is not None:
                 abrevLingua = linguas.get(lingua)
                 result = Translator().translate(palavra, abrevLingua).text
                 result = "A tradução de " + palavra + " é " + result +"."
@@ -34,4 +35,3 @@ linguaNotFound = ['Desconheço essa língua.','Não consegui perceber a que lín
 respostasFeitas = ['Essa não sei.','Está fora dos meus conhecimentos.','Não percebi. Podes repetir?']
 
 talk()
-
