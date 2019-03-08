@@ -1,12 +1,19 @@
 import csv
 import sys
 import re
+import nltk
+import nltk.corpus
+import pandas
 
 Schema3 = {
     'Objeto' : ['Qual'],
     'Temporal' : ['Quando','Em que'],
     'Quantitativo' : ['Quantos']
 }
+
+listaQuestao = [
+    'Em que', 'Qual' , 'Quantos'
+]
 
 def openCSV(file):
     with open(file, newline='') as csvfile:
@@ -21,19 +28,22 @@ def openCSV(file):
                 valores.append(row)
     return(tipos,valores)
 
-
-
 # dá match ao tipo que queremos encontrar de elemento referido
 def mensagemSearch(mensagem,tipos):
     tipos = '|'.join(tipos)
-    match = re.search(r'.*('+tipos+') (.*) (.*)\?',mensagem,re.IGNORECASE)
-    if match is None:
-        print(fodeu)
-    tipoObjetivo = match.group(1).capitalize()
-    verbo = match.group(2)
-    elemento = match.group(3).capitalize()
+    listaQuest = '|'.join(listaQuestao)
 
-    return(tipoObjetivo,verbo,elemento)
+    match = re.search(r'.*('+listaQuest+').*('+tipos+') (.*) (.*)\?',mensagem,re.IGNORECASE)
+    if match is None:
+        print('fodeu')
+    tipoQuestao = match.group(1)
+    tipoObjetivo = match.group(2).capitalize()
+    verbo = match.group(3)
+    elemento = match.group(4).capitalize()
+
+    forDebuging = tipoQuestao + " " + tipoObjetivo + " " + verbo + " " + elemento
+    print(forDebuging)
+    return(tipoQuestao,tipoObjetivo,verbo,elemento)
 
 
 # retorna a lista com a linha onde está o valor pretendido
@@ -45,30 +55,41 @@ def findRow(elemento,valores):
 
 
 def talk():
-    while True:
-        mensagem = input('Eu: ')
+    # while True:
+        # mensagem = input('Eu: ')
+        mensagem = 'Qual é a comida preferida do Kiko?'
         # mensagem = 'Em que ano é lecionado cálculo?'
         # mensagem = 'Quantos créditos tem análise?'
         (tipos,valores) = openCSV(sys.argv[1])
-        (tipoObjetivo,verbo,elemento) = mensagemSearch(mensagem,tipos)
-        print(tipos)
-        print("tipoObjetivo: " + tipoObjetivo)
-        print("elemento: " + elemento)
-        row = findRow(elemento,valores)
-        print(row)
+        lista_colunas(valores)
+        # (tipoQuestao,tipoObjetivo,verbo,elemento) = mensagemSearch(mensagem,tipos)
+        # print(tipos)
+        # row = findRow(elemento,valores)
+        # print(row)
 
         # coluna em que o tipo objetivo se encontra
-        posi = tipos.index(tipoObjetivo)
-        print(posi)
+        # posi = tipos.index(tipoObjetivo)
+        # print(posi)
 
-        frase = elemento + " " + verbo + " " + row[posi] + " " +  tipoObjetivo + "."
-        print(frase)
+        # frase = elemento + " " + verbo + " " + row[posi] + " " +  tipoObjetivo + "."
+        # print(frase)
         # tipoObjetivo = identTipoMensagem(mensagem,tipos)
         # print(tipoObjetivo)
 
 
-talk()
+def colunas():
+    colnames = ['Nome', 'Idade', 'País', 'Nascimento', 'Comida']
+    data = pandas.read_csv('individual.csv', names=colnames)
 
+    Nome = data.Nome.tolist()
+    Idade = data.Idade.tolist()
+    País = data.País.tolist()
+    Nascimento = data.Nascimento.tolist()
+    Comida = data.Comida.tolist()
+    print(Nome)
+    print(Idade)
+    print(País)
+    print(Nascimento)
+    print(Comida)
 
-
-
+testing()
