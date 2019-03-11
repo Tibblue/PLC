@@ -10,17 +10,16 @@ despedidas = [
     "Adeus parceiro",
     "Até à próxima colega",
 ]
+
 lista = [
+    ( r'[Oo]lá',"Olá amigo!"),
     ( r'batatas(.*)', "love"),
     ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
     # bot2.geraRegras()[0], # regra automatica (beta)
     ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1))),
-    ( r'(.+)', "FDS"),
+    ( r'(.+)', "Oops"),
 ]
 # print(lista)
-
-
-
 
 ##### Auxiliares #####
 # append de uma mensagem ao ficheiro de log
@@ -63,7 +62,7 @@ def main():
         print(result)
     else: # caso não haja input file, lê do stdin
         while True:
-            inputUser = input()
+            inputUser = input("Eu: ")
             append2file(inputUser,'user')
             if inputUser == "quit": # diretor termina com "quit"
                 break

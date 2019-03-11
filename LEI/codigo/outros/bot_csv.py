@@ -11,7 +11,6 @@ listaQuestao = [
     'Em que', 'Qual' , 'Quantos'
 ]
 
-
 def main():
     ops, args = getopt.getopt( sys.argv[ 1: ], 'b' )
     ops = dict( ops )

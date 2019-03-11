@@ -1,0 +1,6 @@
+User: Olá
+Bots: Olá amigo!=>Olá
+User: olá
+Bots: Olá amigo!=>olá
+User: Olá
+Bots: Olá amigo!=>Olá
