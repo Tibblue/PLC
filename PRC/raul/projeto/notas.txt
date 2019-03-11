@@ -1,0 +1,15 @@
+Projeto:
+
+Vão criar/extrair/cosntruir/limpar um dataset a partir de informação na LOD
+    - DBPedia
+    - dados.gov.pt
+    - Wikidata
+    - MusicBrainz
+    - Geonames
+
+
+1. Dataset
+    - Recolha
+    - Armazenamento em GraphDB
+
+2. Criar uma App web para explorar o dataset

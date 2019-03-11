@@ -4,3 +4,29 @@ User: olá
 Bots: Olá amigo!=>olá
 User: Olá
 Bots: Olá amigo!=>Olá
+User: Olá
+Bots: Olá amigo!=>Olá
+User: Como estás?
+Bots: Sol posto ledo, com claro ao norte, andar sem medo que estás com sorte
+User: carro em português?
+Bots: A tradução de carro é carro.
+User: carro em inglês?
+Bots: A tradução de carro é car.
+User: piopardo em inglês?
+Bots: A tradução de piopardo é piopardo.
+User: e piupardo em inglês?
+Bots: A tradução de piupardo é paupardo.
+User: quantos minutos tem uma hora?
+Bots: De hora a hora deus melhora
+User: o que sabes sobre azeitonas?
+Bots: O que tu sabes já eu me esqueci
+User: em inglês como se diz belo?
+Bots: Boa fama granjeia quem não diz mal da vida alheia
+User: casado em espanhol
+Bots: A tradução de casado é casado.
+User: dois em três
+Bots: Um é pouco, dois é bom, três é demais
+User: olá em inglês
+Bots: Olá amigo!=>olá
+User: hoje estás com copos, muito ébrio!
+Bots: Não faças hoje o que podes deixar para amanhã

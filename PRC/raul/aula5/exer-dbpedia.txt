@@ -1,0 +1,8 @@
+SELECT ?classe WHERE {
+  ?classe a owl:Class
+
+}
+order by ?classe
+limit 200
+
+

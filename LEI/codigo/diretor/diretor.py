@@ -11,7 +11,7 @@ despedidas = [
     "Até à próxima colega",
 ]
 
-lista = [
+regras = [
     ( r'[Oo]lá',"Olá amigo!"),
     ( r'batatas(.*)', "love"),
     ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
@@ -19,7 +19,7 @@ lista = [
     ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1))),
     ( r'(.+)', "Oops"),
 ]
-# print(lista)
+# print(regras)
 
 ##### Auxiliares #####
 # append de uma mensagem ao ficheiro de log
@@ -38,7 +38,7 @@ def append2file(msg,ident):
 ##### Funcoes #####
 # percorre as regras até encontrar uma que dê match e devolve o output
 def parse(content):
-    for regex,out in lista:
+    for regex,out in regras:
         # print(regex,out)
         match = re.match(regex,content)
         if match==None:

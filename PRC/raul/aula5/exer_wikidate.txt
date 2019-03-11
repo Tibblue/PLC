@@ -1,0 +1,11 @@
+#Number of humans in Wikidata
+SELECT ?name ?origem
+WHERE {
+	?item wdt:P106 wd:Q36834.
+    ?item wdt:P1559 ?name.
+    ?item wdt:P27 ?pais.
+    ?pais wdt:P1813 ?origem
+          filter(lang(?origem)='en')
+}
+order by ?name
+limit 200

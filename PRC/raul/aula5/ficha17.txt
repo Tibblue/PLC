@@ -1,0 +1,111 @@
+1.
+select * where{
+    ?s a owl:Class
+}
+limit 300
+
+2. Quantos elementos há na tabela periódica?
+select (count(?s) as ?num) where{
+    ?s a :Element
+}
+limit 300
+
+3. Qual o símbolo, o nome e o número atómico de cada elemento?
+select ?simb ?nome ?numatm where{
+    ?s a :Element;
+    	:symbol ?simb;
+    	:name ?nome;
+    	:atomicNumber ?numatm.
+}
+
+4. Obtenha a última lista ordenada por número atómico
+select ?simb ?nome ?numatm where{
+    ?s a :Element;
+    	:symbol ?simb;
+    	:name ?nome;
+    	:atomicNumber ?numatm.
+}
+order by ?nome
+
+
+5. Especifica uma query SPARQL para responder à questão: Quais são os 3 elementos com maior número atómico?
+
+
+6. Cada elemento na tabela pertence a um grupo. Obtenha o número e o nome de cada grupo (há cerca de 20 grupos).
+select * where{
+    ?s a :Group .
+    OPTIONAL {?s :number ?numero}
+    OPTIONAL{?s :name ?nome}
+}
+
+7. Obtenha o nome, o símbolo e o número atómico dos elementos do grupo 18.
+select * where{
+    ?s a :Element;
+		:group :group_18;
+        :atomicNumber ?num;
+        :symbol ?simb
+}
+order by ?num
+
+8. Qual o número de elementos em cada grupo? (distribuição dos elementos por grupos)
+select ?s (count(?e) as ?numElem) where{
+    ?s a :Group;
+    	:element ?e.
+}
+group by ?s
+
+9. Quais os 5 grupos com mais elementos?
+select ?s (count(?e) as ?numElem) where{
+    ?s a :Group;
+    	:element ?e.
+}
+group by ?s
+order by desc(?numElem)
+limit 5
+
+10. Qual a média dos números atómicos dos elementos na tabela?
+select (avg(?num) as ?media) where{
+    ?e a :Element;
+    	:atomicNumber ?num.
+}
+
+
+
+select * where{
+    ?e a :Element;
+    	:atomicNumber ?num.
+}
+order by desc(?num)
+limit 1
+
+----------------História de portugal--------------------------
+
+1.Quantos triplos existem na Ontologia?
+select (count(?s) as ?triplos) where{
+	?s ?p ?o
+}
+
+2. Que classes estão definidas?
+select * where{
+	?s a owl:Class
+}
+
+3. Que propriedades tem a classe "Rei"?
+select distinct ?prop where{
+    ?s a historia:Rei;
+            ?prop ?o
+}
+
+5. Calcula uma tabela com o seu nome, data de nascimento e cognome.
+select * where{
+    ?s a historia:Rei;
+    	historia:nome ?nome;
+     	historia:nascimento ?datanasc;
+      	historia:cognomes ?cognome
+}
+
+
+7. Qual a distribuição de reis pelas 4 dinastias?
+
+8. Lista os decobrimentos (sua descrição) por ordem cronológica.
+
