@@ -1,4 +1,4 @@
-1. bot receber várias fontes de informação de uma só vez
+1. bot receber várias fontes de informação de uma só vez (KINDA DONE)
 3. diagramas
 4. melhorar nomes de funções e variáveis
 5. entender a pergunta se esta for feita de várias formas

@@ -30,3 +30,69 @@ User: olá em inglês
 Bots: Olá amigo!=>olá
 User: hoje estás com copos, muito ébrio!
 Bots: Não faças hoje o que podes deixar para amanhã
+User: ola
+Bots: Não encontrei nada.
+User: olá
+Bots: Olá amigo!=>olá
+User: olá
+Bots: Olá amigo!=>olá
+User: Como estás?
+Bots: Sol posto ledo, com claro ao norte, andar sem medo que estás com sorte
+User: olá
+Bots: Olá amigo!=>olá
+User: sadasd
+Bots: Não encontrei nada.
+User: galinha
+Bots: Não encontrei nada.
+User: virtude
+Bots: Em virtude do rei, da pátria mesta,
+User: galinha
+Bots: Não encontrei nada.
+User: Galinha
+Bots: Não encontrei nada.
+User: sorte
+Bots: "depois de aparelhados desta sorte
+User: sorte
+Bots: De infinito poder; que desta sorte
+User: galinha grão
+Bots: O grão poder de dário estrui e rende,
+User: grão
+Bots: Que eu co'o grão macedónio, e o romano,
+User: galinha
+Bots: Onde canta galo não canta galinha
+User: galinha
+Bots: Uma galinha sustenta dez pintos mas dez pintos não sustentam uma galinha
+User: galinha
+Bots: Não há galinha gorda por pouco dinheiro
+User: galinha
+Bots: Nem sempre sardinha, nem sempre galinha
+User: romano
+Bots: Em roma sê romano
+User: Romano antigo
+Bots: Em roma sê romano
+User: romano
+Bots: Em roma sê romano
+User: romano
+Bots: Em roma sê romano
+User: galinha
+Bots: Nem sempre galinha nem sempre sardinha
+User: galinha
+Bots: A galinha da minha vizinha é mais gorda que a minha
+User: grão galinha
+Bots: De grão em grão a galinha engasga
+User: romano
+Bots: Em roma sê romano
+User: romano
+Bots: Em roma sê romano
+User: romano
+Bots: Em roma sê romano
+User: galinha
+Bots: Grão a grão enche a galinha o papo
+User: galinah romano
+Bots: Tanto como qualquer romano antigo.
+User: romano
+Bots: Do romano poder, de nascimento,
+User: galinha
+Bots: Galinha de campo não quer capoeira
+User: romano antigo
+Bots: Se ainda dura o gentio antigo rito,

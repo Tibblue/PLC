@@ -9,18 +9,10 @@ def cleanText(mensagem):
     mensagem = [palavra for palavra in mensagem if palavra not in nltk.corpus.stopwords.words('portuguese') and not re.match('\p{punct}', palavra)]
     return mensagem
 
-def get_listaInput():
-    listaInput = []
-    file = "./diretor/bot_lista/"+"listaProverbios.txt"
-    file = open(file, "r").read()
-    listaInput = file.split('\n')
-    return listaInput
-
-def find_respostas(palavras):
-    listaRecebida = get_listaInput()
+def find_respostas(palavras,lista_MX):
     listaRespostas = []
     comp = 1
-    for l in listaRecebida:
+    for l in lista_MX:
         count = 0
         for pal in palavras:
             if(mySubString(pal,l)):
@@ -33,9 +25,10 @@ def find_respostas(palavras):
             listaRespostas.append(l.capitalize())
     return listaRespostas
 
-def gera_resposta(mensagem):
+def gera_resposta(mensagem,lista_MX):
     palavras = cleanText(mensagem)
-    listaRespostas = find_respostas(palavras)
+    listaRespostas = find_respostas(palavras,lista_MX)
+
     nada = "Não encontrei nada."
     if listaRespostas:
         size = len(listaRespostas)-1
@@ -52,12 +45,13 @@ def mySubString (pal,l):
             return True
     return False
 
-def gera_bot():
-    while True:
-        mensagem = input("Eu: ")
 
-        result = gera_resposta(mensagem)
-        print(result)
+# for testing
+# lista_MX = ['Mas eu que falo, humilde, baxo e rudo,', 'De vós não conhecido nem sonhado?', 'Da boca dos pequenos sei, contudo,', 'Que o louvor sai às vezes acabado.', 'Tem me falta na vida honesto estudo,',
+# 'Com longa experiência misturado,', 'Nem engenho, que aqui vereis presente,', 'Cousas que juntas se acham raramente.', 'Pera servir-vos, braço às armas feito,', 'Pera cantar-vos, mente às Musas dada;', 'Só me falece ser a vós aceito,',
+# 'De quem virtude deve ser prezada.', 'Se me isto o Céu concede, e o vosso peito', 'Dina empresa tomar de ser cantada,', 'Como a pres[s]aga mente vaticina', 'Olhando a vossa inclinação divina,', 'Ou fazendo que, mais que a de Medusa,',
+# 'A vista vossa tema o monte Atlante,', 'Ou rompendo nos campos de Ampelusa', 'Os muros de Marrocos e Trudante,', 'A minha já estimada e leda Musa', 'Fico que em todo o mundo de vós cante,',
+# 'De sorte que Alexandro em vós se veja,', 'Sem à dita de Aquiles ter enveja.']
 
-
-# gera_bot()
+# x = gera_resposta("Alexandro",lista_MX)
+# print(x)

@@ -1,0 +1,4 @@
+proverbios_MX.txt
+lusiadas_MX.txt
+insultos.txt
+senhordosaneis.txt
