@@ -1,0 +1,55 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+#1
+select (count (?s) as ?triplos) where{
+    ?s ?p ?o.
+}
+
+#2
+select * where{
+    ?s a owl:Class.
+}
+
+#3
+select distinct ?prop where{
+    ?s a historia:Rei;
+       ?prop ?o.
+}
+
+
+#5
+select * where{
+    ?s a historia:Rei;
+       historia:nome ?nome;
+       historia:nascimento ?nasc;
+       historia:cognomes ?cognome.
+}
+
+#6
+select ?dinastia (count(?rei) as ?num) where{
+    ?rei a historia:Rei;
+       historia:temReinado ?reinado.
+    ?reinado historia:dinastia ?dinastia.
+}
+group by ?dinastia
+
+#7
+select ?numDinastia (count(?rei) as ?num) where{
+    ?rei a historia:Rei;
+       historia:temReinado ?reinado.
+    ?reinado historia:dinastia ?dinastia.
+#    BIND(STRAFTER(STR(?dinastia),'#') AS ?numDinastia).
+#    BIND(STRAFTER(STR(?dinastia),'historia#') AS ?numDinastia).
+    BIND(STRAFTER(STR(?dinastia),'historia#dinastia') AS ?numDinastia).
+}
+group by ?numDinastia
+
+
+#11 - Data inicial e final dos mandatos de Sidónio Pais
+select * where{
+    ?rei a historia:Presidente;
+         historia:nome "Sidónio Bernardino Cardoso da Silva Pais";
+         historia:mandato ?mandato.
+    ?mandato historia:comeco ?comeco;
+             historia:fim ?fim.
+}

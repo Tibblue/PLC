@@ -1,0 +1,108 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://www.daml.org/2003/01/periodictable/PeriodicTable#>
+
+#1
+select * where{
+    ?s a owl:Class
+}
+
+#2
+select (count(?s) as ?num) where{
+    ?s a :Element
+}
+
+#3
+select ?simb ?nome ?numatomic where{
+    ?s a :Element;
+       :symbol ?simb;
+       :name ?nome;
+       :atomicNumber ?numatomic.
+}
+
+#4
+select ?simb ?nome ?numatomic where{
+    ?s a :Element;
+       :symbol ?simb;
+       :name ?nome;
+       :atomicNumber ?numatomic.
+}
+order by (?numatomic)
+
+#5
+select ?simb ?nome ?numatomic where{
+    ?s a :Element;
+       :symbol ?simb;
+       :name ?nome;
+       :atomicNumber ?numatomic.
+}
+order by desc (?numatomic)
+limit 3
+
+#6
+select distinct * where{
+    ?s a :Group.
+    OPTIONAL { ?s :number ?num}.
+    OPTIONAL { ?s :name ?name}.
+}
+order by (?num)
+
+#7
+select * where{
+    ?s a :Element;
+       :group :group_18;
+       :atomicNumber ?num;
+       :symbol ?symb.
+}
+
+#8
+select ?s (count (?e) as ?numElem) where{
+    ?s a :Group;
+       :element ?e.
+}
+GROUP BY ?s
+
+#9
+select ?s (count (?e) as ?numElem) where{
+    ?s a :Group;
+       :element ?e.
+}
+GROUP BY ?s
+order by desc(?numElem)
+limit 5
+
+#10
+select (avg(?num) as ?media) where{
+    ?s a :Element;
+       :atomicNumber ?num.
+}
+
+#11
+select (max(?num) as ?maximo) where{
+    ?s a :Element;
+       :atomicNumber ?num.
+}
+
+#12
+select (min(?num) as ?minimo) where{
+    ?s a :Element;
+       :atomicNumber ?num.
+}
+
+#13
+select * where{
+    ?s a :Element;
+       :atomicNumber ?num;
+       :name ?nome.
+}
+order by asc(?num)
+limit 1
+#13 - atomicWeight
+select * where{
+    ?s a :Element;
+       :atomicWeight ?num;
+       :name ?nome.
+}
+order by desc(?num)
+limit 1
+
+#14
