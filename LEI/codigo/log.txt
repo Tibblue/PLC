@@ -202,3 +202,11 @@ Bots: Adeus parceiro
 
 ---FIM DE CONVERSA---
 
+User: asdasdasda
+Bots: Não encontrei nada.
+Bots: Adeus parceiro
+
+---FIM DE CONVERSA---
+
+User: asdasd
+Bots: Oops=>asdasd
