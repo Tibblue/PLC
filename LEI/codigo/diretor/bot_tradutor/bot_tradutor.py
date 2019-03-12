@@ -28,14 +28,13 @@ def traduz(palavra,linguagem):
 def guardar(palavra,linguagem,traducao):
     # carrega o json e converte para um dict (nao parece mas é)
     python_obj = json.loads(open("./diretor/bot_tradutor/cache.json").read())
-        # print(python_obj)
-        # print(python_obj["kiko"]) # fails miserably
-        # print(python_obj.get('kiko')) # retorna None
-        # print(python_obj["carro"]["en"]) # info aninhada
-    python_obj.update({palavra:{linguagem:traducao}}) # atualiza/adiciona novo elemento
-    # abre ficheiro para escrita
+    if python_obj.get(palavra):
+        # print("palavra existe - updating translations")
+        python_obj[palavra].update({linguagem:traducao})
+    else:
+        # print("palavra nova - adicionada ao dict")
+        python_obj.update({palavra:{linguagem:traducao}})
     f = open("./diretor/bot_tradutor/cache.json", "w")
-    # prettyfy do JSON
     prettyJSON = json.dumps(python_obj,sort_keys=True, indent=2)
     f.write(prettyJSON)
 

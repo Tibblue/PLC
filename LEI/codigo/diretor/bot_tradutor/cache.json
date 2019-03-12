@@ -1,12 +1,29 @@
 {
   "batata": {
-    "en": "potato"
+    "en": "potato",
+    "es": "patata",
+    "fr": "pomme de terre"
   },
   "carro": {
     "en": "car",
     "es": "coche"
   },
   "eu": {
-    "en": "I"
+    "en": "I",
+    "es": "yo"
+  },
+  "oitenta e dois": {
+    "fr": "quatre vingt deux"
+  },
+  "seis": {
+    "de": "sechs"
+  },
+  "sete": {
+    "de": "sieben",
+    "en": "Seven",
+    "fr": "sept"
+  },
+  "setenta e dois": {
+    "fr": "soixante douze"
   }
 }
