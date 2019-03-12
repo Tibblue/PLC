@@ -1,13 +1,14 @@
+NOTAS a não esquecer
+* atenção aos nomes de funções e variáveis
+* várias reações para o mesmo input (evitar repetições)
+* entender o input, escrito de várias maneiras
+* diagramas (com legendas)
+
 1. bot receber várias fontes de informação de uma só vez (KINDA DONE)
 3. diagramas
-4. melhorar nomes de funções e variáveis (tá melhorado)
-5. entender a pergunta se esta for feita de várias formas
+4. "o que é que tu sabes sobre ..." -> outro bot? adicionar reações a um já existente
 6. regras das saudações: mais e melhorar (melhor exp. regulares)
 
 7. bot tradutor:
-    7.1 aprender com user / dar add a novas traduçoes (DONE)
     7.2 saber dizer n sei (feito, exceto para quando nao tem traduçao e devolve a propria palavra)
-    7.3 "o que é que tu sabes sobre ..." ->
     7.4 n traduzir tudo sempre que vê um "em" (ainda pode ser melhorado)
-
-8. várias reações para uma mesma coisa
