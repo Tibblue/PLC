@@ -17,39 +17,61 @@ from .listaLinguas import linguas
 def traduz(palavra,linguagem):
     abrevLinguagem = linguas.get(linguagem)
     if abrevLinguagem is not None:
+        dict = verifica_dicionario(palavra,abrevLinguagem)
         cache = verifica_cache(palavra,abrevLinguagem)
-        if cache:
+        if dict:
+            traducao = dict
+        elif cache:
             traducao = cache
         else:
             traducao = Translator().translate(palavra,abrevLinguagem).text
-            guardar(palavra,abrevLinguagem,traducao) # guarda nova traduçao em cache
+            guardar_cache(palavra,abrevLinguagem,traducao) # guarda nova traduçao em cache
         resposta = "A tradução de " + palavra + " é " + traducao + "."
         return resposta
     else: # nao encontrou a lingua
         return None
-        # return random.choice(linguaNotFound) #resposta de falha
 
 # guarda em cache a traduçao de uma palavra para um linguagem
 def guardar_cache(palavra,linguagem,traducao):
-    dict_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
+    cache_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
+    if cache_json.get(palavra):
+        cache_json[palavra].update({linguagem:traducao})
+    else:
+        cache_json.update({palavra:{linguagem:traducao}})
+    f = open("./diretor/bot_tradutor/cache.json", "w")
+    prettyJSON = json.dumps(cache_json,sort_keys=True, indent=2)
+    f.write(prettyJSON)
+
+# guarda no dicionario pessoal a traduçao de uma palavra para um linguagem
+def guardar_dicionario(palavra,linguagem,traducao):
+    dict_json = json.loads(open("./diretor/bot_tradutor/dicionario.json").read())
     if dict_json.get(palavra):
-        # print("palavra existe - updating translations")
         dict_json[palavra].update({linguagem:traducao})
     else:
-        # print("palavra nova - adicionada ao dict")
         dict_json.update({palavra:{linguagem:traducao}})
-    f = open("./diretor/bot_tradutor/cache.json", "w")
+    f = open("./diretor/bot_tradutor/dicionario.json", "w")
     prettyJSON = json.dumps(dict_json,sort_keys=True, indent=2)
     f.write(prettyJSON)
+# guardar_dicionario('eu','en','i')
 
 # procura na cache se já existe a traduçao de uma palavra para uma linguagem
 def verifica_cache(palavra,linguagem):
-    dict_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
+    cache_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
+    if cache_json.get(palavra):
+        if cache_json[palavra].get(linguagem):
+            return cache_json[palavra][linguagem]
+    # se não tiver a palavra na linguagem correta, returna None
+    return None
+
+# procura no dicionario se já existe a traduçao de uma palavra para uma linguagem
+def verifica_dicionario(palavra,linguagem):
+    dict_json = json.loads(open("./diretor/bot_tradutor/dicionario.json").read())
     if dict_json.get(palavra):
         if dict_json[palavra].get(linguagem):
             return dict_json[palavra][linguagem]
     # se não tiver a palavra na linguagem correta, returna None
     return None
+# print(verifica_dicionario('batatas','kiko'))
 
 # gera regras de uso do bot para o diretor
 def geraRegras():
