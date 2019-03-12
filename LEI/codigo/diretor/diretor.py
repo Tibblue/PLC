@@ -34,7 +34,7 @@ regras = [
 ##### Auxiliares #####
 # append de uma mensagem ao ficheiro de log
 def append2file(msg,ident):
-    file = 'log.txt'
+    file = 'log/log.txt'
     file = open(file,'a')
     if ident == 'user':
         file.write('User: '+msg+'\n')
