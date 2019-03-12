@@ -99,9 +99,33 @@ def talk():
             return None
             # return random.choice(matchFailed) # resposta de falha
 
+def main():
+    if (len(sys.argv)>1): # caso seja inserido um argumento (option)
+        #
+        option = sys.argv[1]
+        if option=='-h' or option=='--help':
+            print_help()
+        elif option=='-x' or option=='--exec':
+            talk()
+        elif option=='-r' or option=='--rules':
+            print(geraRegras()) # FIXME needs upgrades
+        else:
+            print('Error: Unknows Option')
+            print('Run with --help option for help.')
+    # else: # caso não haja input file
+
+def print_help():
+    print('BOT_TRADUTOR\n')
+    print('    NOTE: If no option is given, nothing will be executed')
+    print('\tOPTIONS:')
+    print('\t    -h, --help\n\t    \tPrint this message and exit.')
+    print('\t    -x, --exec\n\t    \tExecutes the bot.')
+    print('\t    -r, --rules\n\t    \tExport bot rules (FIXME).')
+    print('')
+
+
 ##### Run #####
-# print(talk())
-# print(traduz('carro','Inglês'))
+main()
 
 ##### Testing #####
 # print(geraRegras())

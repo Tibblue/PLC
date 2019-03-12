@@ -126,7 +126,6 @@ def concat_files_into_list(lista):
     return(lista_geral)
 
 ##### Run #####
-# print(open('../bots_info.md','r').read())
 
 # para já estão como variáveis globais
 ficheiros_input = get_ficheiros_input()
@@ -134,5 +133,3 @@ lista_MX = divide_ficheiros_input(ficheiros_input)
 print(lista_MX)
 lista_MX = concat_files_into_list(lista_MX)
 main()
-# print(getMeme())
-# print(bot_gera.gera_resposta('galinha'))
