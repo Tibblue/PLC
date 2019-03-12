@@ -132,3 +132,81 @@ User: romano
 Bots: Tanto como qualquer romano antigo.
 User: romano antigo
 Bots: Tanto como qualquer romano antigo
+User: quit
+Bots: Até à próxima colega
+
+---FIM DE CONVERSA---
+
+User: galinha
+Bots: Galinha do campo não quer capoeira
+User: romano antigo
+Bots: Tanto como qualquer romano antigo
+
+---FIM DE CONVERSA---
+
+User: galinha
+Bots: Onde está galo não canta galinha
+
+---FIM DE CONVERSA---
+
+
+---FIM DE CONVERSA---
+
+
+---FIM DE CONVERSA---
+
+
+---FIM DE CONVERSA---
+
+
+---FIM DE CONVERSA---
+
+User: quit
+Bots: Até à próxima colega
+
+---FIM DE CONVERSA---
+
+Bots: Adeus parceiro
+
+---FIM DE CONVERSA---
+
+Bots: Até à próxima colega
+
+---FIM DE CONVERSA---
+
+User: galinha
+Bots: A galinha da minha vizinha é sempre melhor que a minha
+Bots: Até à próxima colega
+
+---FIM DE CONVERSA---
+
+User: galinha
+Bots: A galinha da minha vizinha é sempre melhor que a minha
+Bots: Até à próxima colega
+
+---FIM DE CONVERSA---
+
+Bots: Adeus parceiro
+
+---FIM DE CONVERSA---
+
+Bots: Adeus parceiro
+
+---FIM DE CONVERSA---
+
+Bots: Até à próxima colega
+
+---FIM DE CONVERSA---
+
+Bots: Adeus parceiro
+
+---FIM DE CONVERSA---
+
+User: asdasdasda
+Bots: Não encontrei nada.
+Bots: Adeus parceiro
+
+---FIM DE CONVERSA---
+
+User: asdasd
+Bots: Oops=>asdasd

@@ -29,13 +29,10 @@ def gera_resposta(mensagem,lista_MX):
     palavras = cleanText(mensagem)
     listaRespostas = find_respostas(palavras,lista_MX)
 
-    nada = "Não encontrei nada."
     if listaRespostas:
         size = len(listaRespostas)-1
         n = random.randint(0,size)
         return listaRespostas[n]
-    else:
-        return nada
 
 def mySubString (pal,l):
     l = l.lower()
