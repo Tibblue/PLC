@@ -30,7 +30,7 @@ def traduz(palavra,linguagem):
         # return random.choice(linguaNotFound) #resposta de falha
 
 # guarda em cache a traduçao de uma palavra para um linguagem
-def guardar(palavra,linguagem,traducao):
+def guardar_cache(palavra,linguagem,traducao):
     dict_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
     if dict_json.get(palavra):
         # print("palavra existe - updating translations")
@@ -57,7 +57,7 @@ def geraRegras():
         # ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
         ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
         ( r'em (\w+) como se diz ([\w ]+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1).capitalize())),
-        ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar(x.group(1),x.group(2),x.group(3))),
+        ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_cache(x.group(1),x.group(2),x.group(3))),
     ]
     return regras
 
