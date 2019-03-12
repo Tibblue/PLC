@@ -15,7 +15,7 @@ from .listaLinguas import linguas
 ##### Funçoes #####
 # traduz uma dada palavra para uma dada linguagem
 def traduz(palavra,linguagem):
-    abrevLinguagem = linguas.get(linguagem)
+    abrevLinguagem = linguas.get(linguagem.capitalize())
     if abrevLinguagem is not None:
         dict = verifica_dicionario(palavra,abrevLinguagem)
         cache = verifica_cache(palavra,abrevLinguagem)
@@ -44,15 +44,18 @@ def guardar_cache(palavra,linguagem,traducao):
 
 # guarda no dicionario pessoal a traduçao de uma palavra para um linguagem
 def guardar_dicionario(palavra,linguagem,traducao):
+    abrevLinguagem = linguas.get(linguagem.capitalize())
     dict_json = json.loads(open("./diretor/bot_tradutor/dicionario.json").read())
     if dict_json.get(palavra):
-        dict_json[palavra].update({linguagem:traducao})
+        dict_json[palavra].update({abrevLinguagem:traducao})
     else:
-        dict_json.update({palavra:{linguagem:traducao}})
+        dict_json.update({palavra:{abrevLinguagem:traducao}})
     f = open("./diretor/bot_tradutor/dicionario.json", "w")
     prettyJSON = json.dumps(dict_json,sort_keys=True, indent=2)
     f.write(prettyJSON)
-# guardar_dicionario('eu','en','i')
+    respostas = ["Tradução adicionada!","Adicionado ao dicionario."]
+    return random.choice(respostas)
+
 
 # procura na cache se já existe a traduçao de uma palavra para uma linguagem
 def verifica_cache(palavra,linguagem):
@@ -71,15 +74,14 @@ def verifica_dicionario(palavra,linguagem):
             return dict_json[palavra][linguagem]
     # se não tiver a palavra na linguagem correta, returna None
     return None
-# print(verifica_dicionario('batatas','kiko'))
 
 # gera regras de uso do bot para o diretor
 def geraRegras():
     regras = [
-        # ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
         ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
         ( r'em (\w+) como se diz ([\w ]+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1).capitalize())),
-        ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_cache(x.group(1),x.group(2),x.group(3))),
+        ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
+        ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2))),
     ]
     return regras
 

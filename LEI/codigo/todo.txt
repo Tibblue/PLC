@@ -5,7 +5,7 @@
 6. regras das saudações: mais e melhorar (melhor exp. regulares)
 
 7. bot tradutor:
-    7.1 aprender com user (dar add)
+    7.1 aprender com user / dar add a novas traduçoes (DONE)
     7.2 saber dizer n sei (feito, exceto para quando nao tem traduçao e devolve a propria palavra)
     7.3 "o que é que tu sabes sobre ..." ->
     7.4 n traduzir tudo sempre que vê um "em" (ainda pode ser melhorado)

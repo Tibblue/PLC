@@ -10,6 +10,8 @@ from .bot_lista import bot_lista # atm proverbios
 saudacoes = [
     "Bom dia","Boa tarde","Olá"
 ]
+saudacoes_exp = '|'.join(saudacoes)
+# print(saudacoes_exp)
 
 despedidas = [
     "Adeus parceiro.", "Até logo!",
@@ -17,15 +19,13 @@ despedidas = [
     "Adeus!	", "Até amanhã!", "Passa bem!",
 ]
 
-saudacoes_exp = '|'.join(saudacoes)
-print(saudacoes_exp)
 
 regras = [
     ( r'^('+saudacoes_exp+')$',lambda x : x.group(1)),
-    ( r'batatas(.*)', "love"),
-    ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
-    ( r'em (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1).capitalize())),
-    # ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
+    ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
+    ( r'em (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1))),
+    ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
+    ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2))),
     ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),lista_MX)),
     ( r'(.+)', "Oops"),
 ]
