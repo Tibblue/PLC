@@ -25,9 +25,12 @@ def traduz(palavra,linguagem):
 
 # gera regras de uso do bot para o diretor
 def geraRegras():
-    regras = []
-    # regras.append( (r'(.+) em (.+)', lambda x: bot2.traduz(x.group(1),x.group(2).capitalize())) ) # regra antiga
-    regras.append( (r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot2.traduz(x.group(1),x.group(2).capitalize())) ) # regra nova :D
+    regras = [
+        # ( r'(.+) em (.+)', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra antiga
+        # ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
+        ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
+        ( r'em (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1).capitalize())),
+    ]
     return regras
 
 # funcao para uso do bot individualmente

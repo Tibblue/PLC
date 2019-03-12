@@ -15,8 +15,9 @@ despedidas = [
 regras = [
     ( r'[Oo]lá',"Olá amigo!"),
     ( r'batatas(.*)', "love"),
-    ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
-    # bot2.geraRegras()[0], # regra automatica (beta)
+    ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
+    ( r'em (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1).capitalize())),
+    # ( r'(?:.* )?(.+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())), # regra a mão
     ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),lista_MX)),
     ( r'(.+)', "Oops"),
 ]
@@ -43,15 +44,18 @@ def responde(content):
         # print(regex,out)
         match = re.match(regex,content)
         if match==None:
-            print("    NONE of this")
+            print("    Regra nao deu MATCH") # debug
         else:
             # print(match)
             if callable(out):
                 output = out(match)
                 if output != None:
                     return output
+                else:
+                    print("    Regra returnou NONE") # debug
             else:
                 return out+'=>'+match.group(0)
+    # chegamos aqui se nenhum bot responder
     return "Negative Sir!" # TODO devolver uma frase de falha ou entretenimento
 
 # onde tudo começa
