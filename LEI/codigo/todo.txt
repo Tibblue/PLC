@@ -1,6 +1,6 @@
 1. bot receber várias fontes de informação de uma só vez (KINDA DONE)
 3. diagramas
-4. melhorar nomes de funções e variáveis
+4. melhorar nomes de funções e variáveis (tá melhorado)
 5. entender a pergunta se esta for feita de várias formas
 6. regras das saudações: mais e melhorar (melhor exp. regulares)
 

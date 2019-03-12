@@ -62,17 +62,28 @@ def main():
     #     print(result)
     # else: # caso não haja input file, lê do stdin
     while True:
-        inputUser = input("Eu: ")
-        append2file(inputUser,'user')
-        if inputUser == "quit": # diretor termina com "quit"
-            break
-        result = responde(inputUser)
-        append2file(result,'bot')
-        print(result)
+        try:
+            inputUser = input("Eu: ")
+            append2file(inputUser,'user')
+            if inputUser == "quit": # diretor termina com "quit"
+                break
+            result = responde(inputUser)
+            append2file(result,'bot')
+            print(result)
+        except KeyboardInterrupt:
+            print('\n')
+            get_despedida_e_escreve_log()
+            sys.exit()
+
+    get_despedida_e_escreve_log()
+
+
+# printa uma despedida e escreve o resultado no ficheiro log assim como o fim de conversa
+def get_despedida_e_escreve_log():
     despedida = random.choice(despedidas)
     append2file(despedida,'bot')
     print(despedida)
-    append2file('','') # log de fim de conversa
+    append2file('','')
 
 
 # cria uma lista com o conteúdo que está no ficheiro inputs.txt
