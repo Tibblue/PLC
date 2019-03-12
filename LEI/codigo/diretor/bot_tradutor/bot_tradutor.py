@@ -17,8 +17,11 @@ def traduz(palavra,linguagem):
     if linguas.get(linguagem) is not None:
         abrevLinguagem = linguas.get(linguagem)
         result = Translator().translate(palavra,abrevLinguagem).text
-        result = "A tradução de " + palavra + " é " + result +"."
+        result = "A tradução de " + palavra + " é " + result + "."
         return result
+    else: # nao encontrou a lingua
+        return None
+        # return random.choice(linguaNotFound) #resposta de falha
 
 # gera regras de uso do bot para o diretor
 def geraRegras():
@@ -36,12 +39,10 @@ def talk():
         if mensagem is not None:
             palavra = mensagem.group(1)
             linguagem = mensagem.group(2).capitalize()
-            if linguas.get(linguagem) is not None:
-                return traduz(palavra,linguagem)
-            else: # nao encontrou a lingua
-                return random.choice(linguaNotFound)
+            return traduz(palavra,linguagem)
         else: # nao deu match a frase
-            return random.choice(matchFailed)
+            return None
+            # return random.choice(matchFailed) # resposta de falha
 
 ##### Run #####
 # print(talk())

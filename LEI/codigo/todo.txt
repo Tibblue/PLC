@@ -6,9 +6,9 @@
 
 7. bot tradutor:
     7.1 aprender com user (dar add)
-    7.2 saber dizer n sei
+    7.2 saber dizer n sei (in progress)
     7.3 "o que é que tu sabes sobre ..." ->
     7.4 n traduzir tudo sempre que vê um "em"
 
 8. várias reações para uma mesma coisa
-9. n deixar que vários respondam ao mesmo tempo
+9. n deixar que vários respondam ao mesmo tempo (isto nunca foi problema)
