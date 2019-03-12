@@ -7,8 +7,9 @@ from .bot_tradutor import bot_tradutor # atm tradutor
 from .bot_lista import bot_lista # atm proverbios
 
 despedidas = [
-    "Adeus parceiro",
-    "Até à próxima colega",
+    "Adeus parceiro.", "Até logo!",
+    "Até à próxima colega.", "Foi um prazer!",
+    "Adeus!	", "Até amanhã!", "Passa bem!",
 ]
 
 regras = [
@@ -117,7 +118,6 @@ def concat_files_into_list(lista):
 
 # para já estão como variáveis globais
 ficheiros_input = get_ficheiros_input()
-print(ficheiros_input)
 lista_MX = divide_ficheiros_input(ficheiros_input)
 print(lista_MX)
 lista_MX = concat_files_into_list(lista_MX)
