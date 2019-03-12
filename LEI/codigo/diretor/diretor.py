@@ -17,11 +17,11 @@ despedidas = [
     "Adeus!	", "Até amanhã!", "Passa bem!",
 ]
 
-saudacoes_exo = '|'.join(saudacoes)
-print(saudacoes_exo)
+saudacoes_exp = '|'.join(saudacoes)
+print(saudacoes_exp)
 
 regras = [
-    ( r'('+saudacoes_exo+')',lambda x : x.group(1)),
+    ( r'^('+saudacoes_exp+')$',lambda x : x.group(1)),
     ( r'batatas(.*)', "love"),
     ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
     ( r'em (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1).capitalize())),
