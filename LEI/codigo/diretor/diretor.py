@@ -106,11 +106,10 @@ def concat_files_into_list(lista):
 
 # para já estão como variáveis globais
 ficheiros_input = get_ficheiros_input()
+print(ficheiros_input)
 lista_MX = divide_ficheiros_input(ficheiros_input)
 print(lista_MX)
 lista_MX = concat_files_into_list(lista_MX)
-
-
 main()
 # print(getMeme())
 # print(bot_gera.gera_resposta('galinha'))

@@ -96,3 +96,39 @@ User: galinha
 Bots: Galinha de campo não quer capoeira
 User: romano antigo
 Bots: Se ainda dura o gentio antigo rito,
+User: galinha
+Bots: Galinha do campo não quer capoeira
+User: galinha
+Bots: Nem sempre sardinha, nem sempre galinha
+User: romano
+Bots: Do romano poder, de nascimento,
+User: romano antigo
+Bots: Nome antigo e de grande proeminência:
+User: antigo r0omano
+Bots: Já pelo nome antigo tão famosa
+User: antigo romano
+Bots: Já pelo nome antigo tão famosa
+User: romano injusto
+Bots: Como no galardão injusto e duro;
+User: Romano injusto
+Bots: Em roma sê romano
+User: galinha grão
+Bots: Grão a grão enche a galinha o papo
+User: grão galinha
+Bots: De grão em grão a galinha engasga
+User: grão galinha engasga
+Bots: De grão em grão a galinha engasga
+User: capitão Romano
+Bots: O capitão venceu romano injusto,
+User: romano antigo
+Bots: Grande no tempo antigo e no moderno.
+User: romano injusto
+Bots: Como no galardão injusto e duro;
+User: Romano injusto
+Bots: Como no galardão injusto e duro;
+User: ilhas mais remotas
+Bots: E as ilhas mais remotas do oriente,
+User: romano
+Bots: Tanto como qualquer romano antigo.
+User: romano antigo
+Bots: Tanto como qualquer romano antigo
