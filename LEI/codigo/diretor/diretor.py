@@ -6,14 +6,22 @@ import random
 from .bot_tradutor import bot_tradutor # atm tradutor
 from .bot_lista import bot_lista # atm proverbios
 
+
+saudacoes = [
+    "Bom dia","Boa tarde","Olá"
+]
+
 despedidas = [
     "Adeus parceiro.", "Até logo!",
     "Até à próxima colega.", "Foi um prazer!",
     "Adeus!	", "Até amanhã!", "Passa bem!",
 ]
 
+saudacoes_exo = '|'.join(saudacoes)
+print(saudacoes_exo)
+
 regras = [
-    ( r'[Oo]lá',"Olá amigo!"),
+    ( r'('+saudacoes_exo+')',lambda x : x.group(1)),
     ( r'batatas(.*)', "love"),
     ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2).capitalize())),
     ( r'em (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1).capitalize())),
