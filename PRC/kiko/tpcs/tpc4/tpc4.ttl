@@ -30,6 +30,12 @@
 :group rdf:type owl:ObjectProperty .
 
 
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#molecule
+:molecule rdf:type owl:ObjectProperty ;
+          rdfs:domain :Element ;
+          rdfs:range :Molecule .
+
+
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#period
 :period rdf:type owl:ObjectProperty .
 
@@ -183,6 +189,10 @@
                          owl:onProperty :number ;
                          owl:allValuesFrom xsd:integer
                        ] .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#Molecule
+:Molecule rdf:type owl:Class .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#Period
@@ -458,6 +468,7 @@
    :block :p-block ;
    :classification :Non-metallic ;
    :group :group_14 ;
+   :molecule :CO2 ;
    :period :period_2 ;
    :standardState :solid ;
    :atomicNumber 6 ;
@@ -466,6 +477,13 @@
    :color "graphite is black, diamond is colourless"^^xsd:string ;
    :name "carbon"^^xsd:string ;
    :symbol "C"^^xsd:string .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#CO2
+:CO2 rdf:type owl:NamedIndividual ,
+              :Molecule ;
+     :element :C ,
+              :O .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#Ca
@@ -1284,6 +1302,7 @@
    :block :p-block ;
    :classification :Non-metallic ;
    :group :group_16 ;
+   :molecule :CO2 ;
    :period :period_2 ;
    :standardState :gas ;
    :atomicNumber 8 ;
