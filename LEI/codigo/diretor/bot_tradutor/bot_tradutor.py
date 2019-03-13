@@ -98,10 +98,11 @@ def talk():
         else: # nao deu match a frase
             return None
             # return random.choice(matchFailed) # resposta de falha
+    ##### Testing #####
+    # print(geraRegras())
 
 def main():
     if (len(sys.argv)>1): # caso seja inserido um argumento (option)
-        #
         option = sys.argv[1]
         if option=='-h' or option=='--help':
             print_help()
@@ -110,9 +111,13 @@ def main():
         elif option=='-r' or option=='--rules':
             print(geraRegras()) # FIXME needs upgrades
         else:
+            print(option)
             print('Error: Unknows Option')
             print('Run with --help option for help.')
-    # else: # caso não haja input file
+    # else: # caso não haja argumentos
+
+def imported():
+    pass
 
 def print_help():
     print('BOT_TRADUTOR\n')
@@ -125,7 +130,7 @@ def print_help():
 
 
 ##### Run #####
-main()
-
-##### Testing #####
-# print(geraRegras())
+if __name__ == "__main__": # corre quando é o ficheiro principal
+    main()
+else: # corre quando for importado
+    imported()
