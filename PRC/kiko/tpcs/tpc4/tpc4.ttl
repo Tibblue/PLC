@@ -476,7 +476,9 @@
    :block :p-block ;
    :classification :Non-metallic ;
    :group :group_14 ;
-   :molecule :CO2 ;
+   :molecule :C2H6 ,
+             :C6H12O6 ,
+             :CO2 ;
    :period :period_2 ;
    :standardState :solid ;
    :atomicNumber 6 ;
@@ -485,6 +487,28 @@
    :color "graphite is black, diamond is colourless"^^xsd:string ;
    :name "carbon"^^xsd:string ;
    :symbol "C"^^xsd:string .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#C2H6
+:C2H6 rdf:type owl:NamedIndividual ,
+               :Molecule ;
+      :element :C ,
+               :H ;
+      :name "metano"^^xsd:string ;
+      :pontoEbulicao "-89"^^xsd:int ;
+      :pontoFusao "-182"^^xsd:int ;
+      :symbol "C2H6"^^xsd:string .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#C6H12O6
+:C6H12O6 rdf:type owl:NamedIndividual ,
+                  :Molecule ;
+         :element :C ,
+                  :H ,
+                  :O ;
+         :name "glisose"^^xsd:string ;
+         :pontoFusao "146"^^xsd:int ;
+         :symbol "C6H12O6"^^xsd:string .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#CO2
@@ -856,7 +880,11 @@
    :block :s-block ;
    :classification :Non-metallic ;
    :group :group_1 ;
-   :molecule :H2O ;
+   :molecule :C2H6 ,
+             :C6H12O6 ,
+             :H2O ,
+             :H2SO4 ,
+             :NH3 ;
    :period :period_1 ;
    :standardState :gas ;
    :atomicNumber 1 ;
@@ -876,6 +904,11 @@
      :pontoEbulicao "100"^^xsd:int ;
      :pontoFusao "0"^^xsd:int ;
      :symbol "H2O"^^xsd:string .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#H2SO4
+:H2SO4 rdf:type owl:NamedIndividual ,
+                :Molecule .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#He
@@ -1193,6 +1226,7 @@
    :block :p-block ;
    :classification :Non-metallic ;
    :group :group_15 ;
+   :molecule :NH3 ;
    :period :period_2 ;
    :standardState :gas ;
    :atomicNumber 7 ;
@@ -1201,6 +1235,17 @@
    :color "colourless"^^xsd:string ;
    :name "nitrogen"^^xsd:string ;
    :symbol "N"^^xsd:string .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#NH3
+:NH3 rdf:type owl:NamedIndividual ,
+              :Molecule ;
+     :element :H ,
+              :N ;
+     :name "amoniaco"^^xsd:string ;
+     :pontoEbulicao "-33"^^xsd:int ;
+     :pontoFusao "-77"^^xsd:int ;
+     :symbol "NH3"^^xsd:string .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#Na
@@ -1326,8 +1371,10 @@
    :block :p-block ;
    :classification :Non-metallic ;
    :group :group_16 ;
-   :molecule :CO2 ,
-             :H2O ;
+   :molecule :C6H12O6 ,
+             :CO2 ,
+             :H2O ,
+             :H2SO4 ;
    :period :period_2 ;
    :standardState :gas ;
    :atomicNumber 8 ;
@@ -1616,6 +1663,7 @@
    :block :p-block ;
    :classification :Non-metallic ;
    :group :group_16 ;
+   :molecule :H2SO4 ;
    :period :period_3 ;
    :standardState :solid ;
    :atomicNumber 16 ;
@@ -2582,7 +2630,14 @@
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#solid
 :solid rdf:type owl:NamedIndividual ,
-                :StandardState .
+                :StandardState ;
+       :element :H ,
+                :O ,
+                :S ;
+       :name "acido sulfurico"^^xsd:string ;
+       :pontoEbulicao "337"^^xsd:int ;
+       :pontoFusao "10"^^xsd:int ;
+       :symbol "H2SO4"^^xsd:string .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#state_unknown
