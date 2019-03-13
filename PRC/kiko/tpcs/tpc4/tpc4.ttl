@@ -74,6 +74,14 @@
 :number rdf:type owl:DatatypeProperty .
 
 
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#pontoEbulicao
+:pontoEbulicao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#pontoFusao
+:pontoFusao rdf:type owl:DatatypeProperty .
+
+
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#symbol
 :symbol rdf:type owl:DatatypeProperty .
 
@@ -483,7 +491,11 @@
 :CO2 rdf:type owl:NamedIndividual ,
               :Molecule ;
      :element :C ,
-              :O .
+              :O ;
+     :name "Dioxido de Carbono"^^xsd:string ;
+     :pontoEbulicao "-34"^^xsd:int ;
+     :pontoFusao "-56"^^xsd:int ;
+     :symbol "CO2"^^xsd:string .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#Ca
@@ -844,6 +856,7 @@
    :block :s-block ;
    :classification :Non-metallic ;
    :group :group_1 ;
+   :molecule :H2O ;
    :period :period_1 ;
    :standardState :gas ;
    :atomicNumber 1 ;
@@ -852,6 +865,17 @@
    :color "colourless"^^xsd:string ;
    :name "hydrogen"^^xsd:string ;
    :symbol "H"^^xsd:string .
+
+
+###  http://www.daml.org/2003/01/periodictable/PeriodicTable#H2O
+:H2O rdf:type owl:NamedIndividual ,
+              :Molecule ;
+     :element :H ,
+              :O ;
+     :name "agua"^^xsd:string ;
+     :pontoEbulicao "100"^^xsd:int ;
+     :pontoFusao "0"^^xsd:int ;
+     :symbol "H2O"^^xsd:string .
 
 
 ###  http://www.daml.org/2003/01/periodictable/PeriodicTable#He
@@ -1302,7 +1326,8 @@
    :block :p-block ;
    :classification :Non-metallic ;
    :group :group_16 ;
-   :molecule :CO2 ;
+   :molecule :CO2 ,
+             :H2O ;
    :period :period_2 ;
    :standardState :gas ;
    :atomicNumber 8 ;
