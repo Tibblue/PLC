@@ -1,0 +1,1988 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://www.daml.org/2003/01/periodictable/PeriodicTable#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.daml.org/2003/01/periodictable/PeriodicTable>
+    a owl:Ontology ;
+    rdfs:comment "Periodic Table of the Elements" ;
+    owl:versionInfo "$Id: PeriodicTable.owl,v 1.10 2004/02/05 15:49:58 mdean Exp $" .
+
+:Ac
+    :atomicNumber 89 ;
+    :atomicWeight "227"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-34-8"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "actinium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Ac"^^xsd:string ;
+    a :Element .
+
+:Ag
+    :atomicNumber 47 ;
+    :atomicWeight "107.8682"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-22-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silver"^^xsd:string ;
+    :group :group_11 ;
+    :name "silver"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Ag"^^xsd:string ;
+    a :Element .
+
+:Al
+    :atomicNumber 13 ;
+    :atomicWeight "26.981538"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7429-90-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery"^^xsd:string ;
+    :group :group_13 ;
+    :name "aluminium"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :solid ;
+    :symbol "Al"^^xsd:string ;
+    a :Element .
+
+:Am
+    :atomicNumber 95 ;
+    :atomicWeight "243"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-35-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "americium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Am"^^xsd:string ;
+    a :Element .
+
+:Ar
+    :atomicNumber 18 ;
+    :atomicWeight "39.948"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-37-1"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_18 ;
+    :name "argon"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :gas ;
+    :symbol "Ar"^^xsd:string ;
+    a :Element .
+
+:As
+    :atomicNumber 33 ;
+    :atomicWeight "74.92160"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-38-2"^^xsd:string ;
+    :classification :Semi-metallic ;
+    :color "metallic grey"^^xsd:string ;
+    :group :group_15 ;
+    :name "arsenic"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "As"^^xsd:string ;
+    a :Element .
+
+:At
+    :atomicNumber 85 ;
+    :atomicWeight "210"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-68-8"^^xsd:string ;
+    :classification :Semi-metallic ;
+    :color "metallic"^^xsd:string ;
+    :group :group_17 ;
+    :name "astatine"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "At"^^xsd:string ;
+    a :Element .
+
+:Au
+    :atomicNumber 79 ;
+    :atomicWeight "196.96655"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-57-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "gold"^^xsd:string ;
+    :group :group_11 ;
+    :name "gold"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Au"^^xsd:string ;
+    a :Element .
+
+:B
+    :atomicNumber 5 ;
+    :atomicWeight "10.811"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-42-8"^^xsd:string ;
+    :classification :Semi-metallic ;
+    :color "black"^^xsd:string ;
+    :group :group_13 ;
+    :name "boron"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :solid ;
+    :symbol "B"^^xsd:string ;
+    a :Element .
+
+:Ba
+    :atomicNumber 56 ;
+    :atomicWeight "137.327"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-39-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_2 ;
+    :name "barium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Ba"^^xsd:string ;
+    a :Element .
+
+:Be
+    :atomicNumber 4 ;
+    :atomicWeight "9.012182"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-41-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "lead gray"^^xsd:string ;
+    :group :group_2 ;
+    :name "beryllium"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :solid ;
+    :symbol "Be"^^xsd:string ;
+    a :Element .
+
+:Bh
+    :atomicNumber 107 ;
+    :atomicWeight "264"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "54037-14-8"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_7 ;
+    :name "bohrium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Bh"^^xsd:string ;
+    a :Element .
+
+:Bi
+    :atomicNumber 83 ;
+    :atomicWeight "208.98038"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-69-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "lustrous reddish white"^^xsd:string ;
+    :group :group_15 ;
+    :name "bismuth"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Bi"^^xsd:string ;
+    a :Element .
+
+:Bk
+    :atomicNumber 97 ;
+    :atomicWeight "247"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-40-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "berkelium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Bk"^^xsd:string ;
+    a :Element .
+
+:Block
+    a owl:Class ;
+    owl:oneOf (:s-block
+        :p-block
+        :d-block
+        :f-block
+    ) .
+
+:Br
+    :atomicNumber 35 ;
+    :atomicWeight "79.904"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7726-95-6"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "red-brown, metallic lustre when solid"^^xsd:string ;
+    :group :group_17 ;
+    :name "bromine"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :liquid ;
+    :symbol "Br"^^xsd:string ;
+    a :Element .
+
+:C
+    :atomicNumber 6 ;
+    :atomicWeight "12.0107"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-44-0"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "graphite is black, diamond is colourless"^^xsd:string ;
+    :group :group_14 ;
+    :name "carbon"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :solid ;
+    :symbol "C"^^xsd:string ;
+    a :Element .
+
+:Ca
+    :atomicNumber 20 ;
+    :atomicWeight "40.078"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-70-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_2 ;
+    :name "calcium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Ca"^^xsd:string ;
+    a :Element .
+
+:Cd
+    :atomicNumber 48 ;
+    :atomicWeight "112.411"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-43-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery grey metallic"^^xsd:string ;
+    :group :group_12 ;
+    :name "cadmium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Cd"^^xsd:string ;
+    a :Element .
+
+:Ce
+    :atomicNumber 58 ;
+    :atomicWeight "140.116"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-45-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "cerium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Ce"^^xsd:string ;
+    a :Element .
+
+:Cf
+    :atomicNumber 98 ;
+    :atomicWeight "251"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-71-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "californium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Cf"^^xsd:string ;
+    a :Element .
+
+:Cl
+    :atomicNumber 17 ;
+    :atomicWeight "35.453"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7782-50-5"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "yellowish green"^^xsd:string ;
+    :group :group_17 ;
+    :name "chlorine"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :gas ;
+    :symbol "Cl"^^xsd:string ;
+    a :Element .
+
+:Classification
+    a owl:Class ;
+    owl:oneOf (:Metallic
+        :Non-metallic
+        :Semi-metallic
+    ) .
+
+:Cm
+    :atomicNumber 96 ;
+    :atomicWeight "247"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-51-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silver"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "curium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Cm"^^xsd:string ;
+    a :Element .
+
+:Co
+    :atomicNumber 27 ;
+    :atomicWeight "58.933200"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-48-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "lustrous, metallic, greyish tinge"^^xsd:string ;
+    :group :group_9 ;
+    :name "cobalt"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Co"^^xsd:string ;
+    a :Element .
+
+:Cr
+    :atomicNumber 24 ;
+    :atomicWeight "51.9961"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-47-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery metallic"^^xsd:string ;
+    :group :group_6 ;
+    :name "chromium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Cr"^^xsd:string ;
+    a :Element .
+
+:Cs
+    :atomicNumber 55 ;
+    :atomicWeight "132.90545"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-46-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery gold"^^xsd:string ;
+    :group :group_1 ;
+    :name "caesium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Cs"^^xsd:string ;
+    a :Element .
+
+:Cu
+    :atomicNumber 29 ;
+    :atomicWeight "63.546"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-50-8"^^xsd:string ;
+    :classification :Metallic ;
+    :color "copper, metallic"^^xsd:string ;
+    :group :group_11 ;
+    :name "copper"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Cu"^^xsd:string ;
+    a :Element .
+
+:Db
+    :atomicNumber 105 ;
+    :atomicWeight "262"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "53850-35-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_5 ;
+    :name "dubnium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Db"^^xsd:string ;
+    a :Element .
+
+:Dy
+    :atomicNumber 66 ;
+    :atomicWeight "162.500"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7429-91-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "dysprosium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Dy"^^xsd:string ;
+    a :Element .
+
+:Element
+    a owl:Class ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:string ;
+        owl:onProperty :name
+    ], [
+        a owl:Restriction ;
+        owl:cardinality 1 ;
+        owl:onProperty :name
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:string ;
+        owl:onProperty :symbol
+    ], [
+        a owl:Restriction ;
+        owl:cardinality 1 ;
+        owl:onProperty :symbol
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:integer ;
+        owl:onProperty :atomicNumber
+    ], [
+        a owl:Restriction ;
+        owl:cardinality 1 ;
+        owl:onProperty :atomicNumber
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:float ;
+        owl:onProperty :atomicWeight
+    ], [
+        a owl:Restriction ;
+        owl:cardinality 1 ;
+        owl:onProperty :atomicWeight
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :Group ;
+        owl:onProperty :group
+    ], [
+        a owl:Restriction ;
+        owl:cardinality 1 ;
+        owl:onProperty :group
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :Period ;
+        owl:onProperty :period
+    ], [
+        a owl:Restriction ;
+        owl:cardinality 1 ;
+        owl:onProperty :period
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :Block ;
+        owl:onProperty :block
+    ], [
+        a owl:Restriction ;
+        owl:cardinality 1 ;
+        owl:onProperty :block
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :StandardState ;
+        owl:onProperty :standardState
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:string ;
+        owl:onProperty :color
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :Classification ;
+        owl:onProperty :classification
+    ] .
+
+:Er
+    :atomicNumber 68 ;
+    :atomicWeight "167.259"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-52-0"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "erbium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Er"^^xsd:string ;
+    a :Element .
+
+:Es
+    :atomicNumber 99 ;
+    :atomicWeight "252"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7429-92-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "einsteinium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Es"^^xsd:string ;
+    a :Element .
+
+:Eu
+    :atomicNumber 63 ;
+    :atomicWeight "151.964"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-53-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "europium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Eu"^^xsd:string ;
+    a :Element .
+
+:F
+    :atomicNumber 9 ;
+    :atomicWeight "18.9984032"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7782-41-4"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "pale yellow"^^xsd:string ;
+    :group :group_17 ;
+    :name "fluorine"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :gas ;
+    :symbol "F"^^xsd:string ;
+    a :Element .
+
+:Fe
+    :atomicNumber 26 ;
+    :atomicWeight "55.845"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7439-89-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "lustrous, metallic, greyish tinge"^^xsd:string ;
+    :group :group_8 ;
+    :name "iron"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Fe"^^xsd:string ;
+    a :Element .
+
+:Fm
+    :atomicNumber 100 ;
+    :atomicWeight "257"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-72-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "fermium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Fm"^^xsd:string ;
+    a :Element .
+
+:Fr
+    :atomicNumber 87 ;
+    :atomicWeight "223"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-73-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "metallic"^^xsd:string ;
+    :group :group_1 ;
+    :name "francium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Fr"^^xsd:string ;
+    a :Element .
+
+:Ga
+    :atomicNumber 31 ;
+    :atomicWeight "69.723"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-55-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_13 ;
+    :name "gallium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Ga"^^xsd:string ;
+    a :Element .
+
+:Gd
+    :atomicNumber 64 ;
+    :atomicWeight "157.25"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-54-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "gadolinium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Gd"^^xsd:string ;
+    a :Element .
+
+:Ge
+    :atomicNumber 32 ;
+    :atomicWeight "72.64"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-56-4"^^xsd:string ;
+    :classification :Semi-metallic ;
+    :color "greyish white"^^xsd:string ;
+    :group :group_14 ;
+    :name "germanium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Ge"^^xsd:string ;
+    a :Element .
+
+:Group
+    a owl:Class ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:integer ;
+        owl:onProperty :number
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:string ;
+        owl:onProperty :name
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :Element ;
+        owl:onProperty :element
+    ] .
+
+:H
+    :atomicNumber 1 ;
+    :atomicWeight "1.00794"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "1333-74-0"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_1 ;
+    :name "hydrogen"^^xsd:string ;
+    :period :period_1 ;
+    :standardState :gas ;
+    :symbol "H"^^xsd:string ;
+    a :Element .
+
+:He
+    :atomicNumber 2 ;
+    :atomicWeight "4.002602"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-59-7"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_18 ;
+    :name "helium"^^xsd:string ;
+    :period :period_1 ;
+    :standardState :gas ;
+    :symbol "He"^^xsd:string ;
+    a :Element .
+
+:Hf
+    :atomicNumber 72 ;
+    :atomicWeight "178.49"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-58-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "grey steel"^^xsd:string ;
+    :group :group_4 ;
+    :name "hafnium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Hf"^^xsd:string ;
+    a :Element .
+
+:Hg
+    :atomicNumber 80 ;
+    :atomicWeight "200.59"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7439-97-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_12 ;
+    :name "mercury"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :liquid ;
+    :symbol "Hg"^^xsd:string ;
+    a :Element .
+
+:Ho
+    :atomicNumber 67 ;
+    :atomicWeight "164.93032"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-60-0"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "holmium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Ho"^^xsd:string ;
+    a :Element .
+
+:Hs
+    :atomicNumber 108 ;
+    :atomicWeight "269"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "54037-57-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_8 ;
+    :name "hassium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Hs"^^xsd:string ;
+    a :Element .
+
+:I
+    :atomicNumber 53 ;
+    :atomicWeight "126.90447"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7553-56-2"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "violet-dark grey, lustrous"^^xsd:string ;
+    :group :group_17 ;
+    :name "iodine"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "I"^^xsd:string ;
+    a :Element .
+
+:In
+    :atomicNumber 49 ;
+    :atomicWeight "114.818"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-74-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery lustrous grey"^^xsd:string ;
+    :group :group_13 ;
+    :name "indium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "In"^^xsd:string ;
+    a :Element .
+
+:Ir
+    :atomicNumber 77 ;
+    :atomicWeight "192.217"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7439-88-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_9 ;
+    :name "iridium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Ir"^^xsd:string ;
+    a :Element .
+
+:K
+    :atomicNumber 19 ;
+    :atomicWeight "39.0983"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-09-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_1 ;
+    :name "potassium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "K"^^xsd:string ;
+    a :Element .
+
+:Kr
+    :atomicNumber 36 ;
+    :atomicWeight "83.798"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7439-90-9"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_18 ;
+    :name "krypton"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :gas ;
+    :symbol "Kr"^^xsd:string ;
+    a :Element .
+
+:La
+    :atomicNumber 57 ;
+    :atomicWeight "138.9055"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7439-91-0"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "lanthanum"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "La"^^xsd:string ;
+    a :Element .
+
+:Li
+    :atomicNumber 3 ;
+    :atomicWeight "6.941"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7439-93-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white/grey"^^xsd:string ;
+    :group :group_1 ;
+    :name "lithium"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :solid ;
+    :symbol "Li"^^xsd:string ;
+    a :Element .
+
+:Lr
+    :atomicNumber 103 ;
+    :atomicWeight "262"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "22537-19-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_3 ;
+    :name "lawrencium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Lr"^^xsd:string ;
+    a :Element .
+
+:Lu
+    :atomicNumber 71 ;
+    :atomicWeight "174.967"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7439-94-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_3 ;
+    :name "lutetium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Lu"^^xsd:string ;
+    a :Element .
+
+:Md
+    :atomicNumber 101 ;
+    :atomicWeight "258"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-11-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "mendelevium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Md"^^xsd:string ;
+    a :Element .
+
+:Metallic
+    a :Classification .
+
+:Mg
+    :atomicNumber 12 ;
+    :atomicWeight "24.3050"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7439-95-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_2 ;
+    :name "magnesium"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :solid ;
+    :symbol "Mg"^^xsd:string ;
+    a :Element .
+
+:Mn
+    :atomicNumber 25 ;
+    :atomicWeight "54.938049"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7439-96-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery metallic"^^xsd:string ;
+    :group :group_7 ;
+    :name "manganese"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Mn"^^xsd:string ;
+    a :Element .
+
+:Mo
+    :atomicNumber 42 ;
+    :atomicWeight "95.94"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7439-98-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "grey metallic"^^xsd:string ;
+    :group :group_6 ;
+    :name "molybdenum"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Mo"^^xsd:string ;
+    a :Element .
+
+:Mt
+    :atomicNumber 109 ;
+    :atomicWeight "268"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "54038-01-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_9 ;
+    :name "meitnerium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Mt"^^xsd:string ;
+    a :Element .
+
+:N
+    :atomicNumber 7 ;
+    :atomicWeight "14.0067"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7727-37-9"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_15 ;
+    :name "nitrogen"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :gas ;
+    :symbol "N"^^xsd:string ;
+    a :Element .
+
+:Na
+    :atomicNumber 11 ;
+    :atomicWeight "22.989770"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-23-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_1 ;
+    :name "sodium"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :solid ;
+    :symbol "Na"^^xsd:string ;
+    a :Element .
+
+:Nb
+    :atomicNumber 41 ;
+    :atomicWeight "92.90638"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-03-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "grey metallic"^^xsd:string ;
+    :group :group_5 ;
+    :name "niobium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Nb"^^xsd:string ;
+    a :Element .
+
+:Nd
+    :atomicNumber 60 ;
+    :atomicWeight "144.24"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-00-8"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white, yellowish tinge"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "neodymium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Nd"^^xsd:string ;
+    a :Element .
+
+:Ne
+    :atomicNumber 10 ;
+    :atomicWeight "20.1797"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-01-9"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_18 ;
+    :name "neon"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :gas ;
+    :symbol "Ne"^^xsd:string ;
+    a :Element .
+
+:Ni
+    :atomicNumber 28 ;
+    :atomicWeight "58.6934"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-02-0"^^xsd:string ;
+    :classification :Metallic ;
+    :color "lustrous, metallic, silvery tinge"^^xsd:string ;
+    :group :group_10 ;
+    :name "nickel"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Ni"^^xsd:string ;
+    a :Element .
+
+:No
+    :atomicNumber 102 ;
+    :atomicWeight "259"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "10028-14-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "nobelium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "No"^^xsd:string ;
+    a :Element .
+
+:Non-metallic
+    a :Classification .
+
+:Np
+    :atomicNumber 93 ;
+    :atomicWeight "237"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7439-99-8"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery metallic"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "neptunium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Np"^^xsd:string ;
+    a :Element .
+
+:O
+    :atomicNumber 8 ;
+    :atomicWeight "15.9994"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7782-44-7"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless as a gas, liquid is pale blue"^^xsd:string ;
+    :group :group_16 ;
+    :name "oxygen"^^xsd:string ;
+    :period :period_2 ;
+    :standardState :gas ;
+    :symbol "O"^^xsd:string ;
+    a :Element .
+
+:Os
+    :atomicNumber 76 ;
+    :atomicWeight "190.23"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-04-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "bluish grey"^^xsd:string ;
+    :group :group_8 ;
+    :name "osmium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Os"^^xsd:string ;
+    a :Element .
+
+:P
+    :atomicNumber 15 ;
+    :atomicWeight "30.973761"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7723-14-0"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless/red/silvery white"^^xsd:string ;
+    :group :group_15 ;
+    :name "phosphorus"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :solid ;
+    :symbol "P"^^xsd:string ;
+    a :Element .
+
+:Pa
+    :atomicNumber 91 ;
+    :atomicWeight "231.03588"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-13-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery metallic"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "protactinium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Pa"^^xsd:string ;
+    a :Element .
+
+:Pb
+    :atomicNumber 82 ;
+    :atomicWeight "207.2"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7439-92-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "bluish white"^^xsd:string ;
+    :group :group_14 ;
+    :name "lead"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Pb"^^xsd:string ;
+    a :Element .
+
+:Pd
+    :atomicNumber 46 ;
+    :atomicWeight "106.42"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-05-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white metallic"^^xsd:string ;
+    :group :group_10 ;
+    :name "palladium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Pd"^^xsd:string ;
+    a :Element .
+
+:Period
+    a owl:Class ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:allValuesFrom xsd:integer ;
+        owl:onProperty :number
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :Element ;
+        owl:onProperty :element
+    ] .
+
+:Pm
+    :atomicNumber 61 ;
+    :atomicWeight "145"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-12-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "metallic"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "promethium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Pm"^^xsd:string ;
+    a :Element .
+
+:Po
+    :atomicNumber 84 ;
+    :atomicWeight "209"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-08-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery"^^xsd:string ;
+    :group :group_16 ;
+    :name "polonium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Po"^^xsd:string ;
+    a :Element .
+
+:Pr
+    :atomicNumber 59 ;
+    :atomicWeight "140.90765"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-10-0"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white, yellowish tinge"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "praseodymium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Pr"^^xsd:string ;
+    a :Element .
+
+:Pt
+    :atomicNumber 78 ;
+    :atomicWeight "195.078"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-06-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "greyish white"^^xsd:string ;
+    :group :group_10 ;
+    :name "platinum"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Pt"^^xsd:string ;
+    a :Element .
+
+:Pu
+    :atomicNumber 94 ;
+    :atomicWeight "244"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-07-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "plutonium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Pu"^^xsd:string ;
+    a :Element .
+
+:Ra
+    :atomicNumber 88 ;
+    :atomicWeight "226"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-14-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "metallic"^^xsd:string ;
+    :group :group_2 ;
+    :name "radium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Ra"^^xsd:string ;
+    a :Element .
+
+:Rb
+    :atomicNumber 37 ;
+    :atomicWeight "85.4678"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-17-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_1 ;
+    :name "rubidium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Rb"^^xsd:string ;
+    a :Element .
+
+:Re
+    :atomicNumber 75 ;
+    :atomicWeight "186.207"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-15-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "greyish white"^^xsd:string ;
+    :group :group_7 ;
+    :name "rhenium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Re"^^xsd:string ;
+    a :Element .
+
+:Rf
+    :atomicNumber 104 ;
+    :atomicWeight "261"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "53850-36-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_4 ;
+    :name "rutherfordium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Rf"^^xsd:string ;
+    a :Element .
+
+:Rh
+    :atomicNumber 45 ;
+    :atomicWeight "102.90550"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-16-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white metallic"^^xsd:string ;
+    :group :group_9 ;
+    :name "rhodium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Rh"^^xsd:string ;
+    a :Element .
+
+:Rn
+    :atomicNumber 86 ;
+    :atomicWeight "222"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "10043-92-2"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_18 ;
+    :name "radon"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :gas ;
+    :symbol "Rn"^^xsd:string ;
+    a :Element .
+
+:Ru
+    :atomicNumber 44 ;
+    :atomicWeight "101.07"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-18-8"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white metallic"^^xsd:string ;
+    :group :group_8 ;
+    :name "ruthenium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Ru"^^xsd:string ;
+    a :Element .
+
+:S
+    :atomicNumber 16 ;
+    :atomicWeight "32.065"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7704-34-9"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "lemon yellow"^^xsd:string ;
+    :group :group_16 ;
+    :name "sulpher"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :solid ;
+    :symbol "S"^^xsd:string ;
+    a :Element .
+
+:Sb
+    :atomicNumber 51 ;
+    :atomicWeight "121.760"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-36-0"^^xsd:string ;
+    :classification :Semi-metallic ;
+    :color "silvery lustrous grey"^^xsd:string ;
+    :group :group_15 ;
+    :name "antimony"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Sb"^^xsd:string ;
+    a :Element .
+
+:Sc
+    :atomicNumber 21 ;
+    :atomicWeight "44.955910"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-20-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_3 ;
+    :name "scandium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Sc"^^xsd:string ;
+    a :Element .
+
+:Se
+    :atomicNumber 34 ;
+    :atomicWeight "78.96"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7782-49-2"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "grey, metallic lustre"^^xsd:string ;
+    :group :group_16 ;
+    :name "selenium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Se"^^xsd:string ;
+    a :Element .
+
+:Semi-metallic
+    a :Classification .
+
+:Sg
+    :atomicNumber 106 ;
+    :atomicWeight "266"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "54038-81-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_6 ;
+    :name "seaborgium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Sg"^^xsd:string ;
+    a :Element .
+
+:Si
+    :atomicNumber 14 ;
+    :atomicWeight "28.0855"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-21-3"^^xsd:string ;
+    :classification :Semi-metallic ;
+    :color "dark grey with a bluish tinge"^^xsd:string ;
+    :group :group_14 ;
+    :name "silicon"^^xsd:string ;
+    :period :period_3 ;
+    :standardState :solid ;
+    :symbol "Si"^^xsd:string ;
+    a :Element .
+
+:Sm
+    :atomicNumber 62 ;
+    :atomicWeight "150.36"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-19-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "samarium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Sm"^^xsd:string ;
+    a :Element .
+
+:Sn
+    :atomicNumber 50 ;
+    :atomicWeight "118.710"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-31-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery lustrous grey"^^xsd:string ;
+    :group :group_14 ;
+    :name "tin"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Sn"^^xsd:string ;
+    a :Element .
+
+:Sr
+    :atomicNumber 38 ;
+    :atomicWeight "87.62"^^xsd:float ;
+    :block :s-block ;
+    :casRegistryID "7440-24-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_2 ;
+    :name "strontium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Sr"^^xsd:string ;
+    a :Element .
+
+:StandardState
+    a owl:Class ;
+    owl:oneOf (:state_unknown
+        :gas
+        :solid
+        :liquid
+    ) .
+
+:Ta
+    :atomicNumber 73 ;
+    :atomicWeight "180.9479"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-25-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "grey blue"^^xsd:string ;
+    :group :group_5 ;
+    :name "tantalum"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Ta"^^xsd:string ;
+    a :Element .
+
+:Tb
+    :atomicNumber 65 ;
+    :atomicWeight "158.92534"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-27-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "terbium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Tb"^^xsd:string ;
+    a :Element .
+
+:Tc
+    :atomicNumber 43 ;
+    :atomicWeight "98"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-26-8"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery grey metallic"^^xsd:string ;
+    :group :group_7 ;
+    :name "technetium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Tc"^^xsd:string ;
+    a :Element .
+
+:Te
+    :atomicNumber 52 ;
+    :atomicWeight "127.60"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "13494-80-9"^^xsd:string ;
+    :classification :Semi-metallic ;
+    :color "silvery lustrous grey"^^xsd:string ;
+    :group :group_16 ;
+    :name "tellurium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Te"^^xsd:string ;
+    a :Element .
+
+:Th
+    :atomicNumber 90 ;
+    :atomicWeight "232.0381"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-29-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "thorium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Th"^^xsd:string ;
+    a :Element .
+
+:Ti
+    :atomicNumber 22 ;
+    :atomicWeight "47.867"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-32-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery metallic"^^xsd:string ;
+    :group :group_4 ;
+    :name "titanium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Ti"^^xsd:string ;
+    a :Element .
+
+:Tl
+    :atomicNumber 81 ;
+    :atomicWeight "204.3833"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-28-0"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_13 ;
+    :name "thallium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Tl"^^xsd:string ;
+    a :Element .
+
+:Tm
+    :atomicNumber 69 ;
+    :atomicWeight "168.93421"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-30-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "thulium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Tm"^^xsd:string ;
+    a :Element .
+
+:U
+    :atomicNumber 92 ;
+    :atomicWeight "238.02891"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-61-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "metallic grey"^^xsd:string ;
+    :group :group_actinoid ;
+    :name "uranium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "U"^^xsd:string ;
+    a :Element .
+
+:Uub
+    :atomicNumber 112 ;
+    :atomicWeight "285"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "54084-26-3"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_12 ;
+    :name "ununbium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :liquid ;
+    :symbol "Uub"^^xsd:string ;
+    a :Element .
+
+:Uuh
+    :atomicNumber 116 ;
+    :block :p-block ;
+    :casRegistryID "54100-71-9"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_16 ;
+    :name "ununhexium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Uuh"^^xsd:string ;
+    a :Element .
+
+:Uun
+    :atomicNumber 110 ;
+    :atomicWeight "271"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "54083-77-1"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_10 ;
+    :name "ununnilium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Uun"^^xsd:string ;
+    a :Element .
+
+:Uuo
+    :atomicNumber 118 ;
+    :block :p-block ;
+    :casRegistryID "54144-19-3"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "unknown, but probably a colourless gas"^^xsd:string ;
+    :group :group_18 ;
+    :name "ununoctium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :gas ;
+    :symbol "Uuo"^^xsd:string ;
+    a :Element .
+
+:Uup
+    :atomicNumber 115 ;
+    :block :p-block ;
+    :group :group_15 ;
+    :name "ununpentium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :state_unknown ;
+    :symbol "Uup"^^xsd:string ;
+    a :Element .
+
+:Uuq
+    :atomicNumber 114 ;
+    :atomicWeight "289"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "54085-16-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_14 ;
+    :name "ununquadium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Uuq"^^xsd:string ;
+    a :Element .
+
+:Uus
+    :atomicNumber 117 ;
+    :block :p-block ;
+    :group :group_17 ;
+    :name "ununseptium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :state_unknown ;
+    :symbol "Uus"^^xsd:string ;
+    a :Element .
+
+:Uut
+    :atomicNumber 113 ;
+    :block :p-block ;
+    :group :group_13 ;
+    :name "ununtrium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :state_unknown ;
+    :symbol "Uut"^^xsd:string ;
+    a :Element .
+
+:Uuu
+    :atomicNumber 111 ;
+    :atomicWeight "272"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "54386-24-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "unknown, but probably metallic and silvery white or grey in appearance"^^xsd:string ;
+    :group :group_11 ;
+    :name "unununium"^^xsd:string ;
+    :period :period_7 ;
+    :standardState :solid ;
+    :symbol "Uuu"^^xsd:string ;
+    a :Element .
+
+:V
+    :atomicNumber 23 ;
+    :atomicWeight "50.9415"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-62-2"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery grey metallic"^^xsd:string ;
+    :group :group_5 ;
+    :name "vanadium"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "V"^^xsd:string ;
+    a :Element .
+
+:W
+    :atomicNumber 74 ;
+    :atomicWeight "183.84"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-33-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "greyish white, lustrous"^^xsd:string ;
+    :group :group_6 ;
+    :name "tungsten"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "W"^^xsd:string ;
+    a :Element .
+
+:Xe
+    :atomicNumber 54 ;
+    :atomicWeight "131.293"^^xsd:float ;
+    :block :p-block ;
+    :casRegistryID "7440-63-3"^^xsd:string ;
+    :classification :Non-metallic ;
+    :color "colourless"^^xsd:string ;
+    :group :group_18 ;
+    :name "xenon"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :gas ;
+    :symbol "Xe"^^xsd:string ;
+    a :Element .
+
+:Y
+    :atomicNumber 39 ;
+    :atomicWeight "88.90585"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-65-5"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_3 ;
+    :name "yttrium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Y"^^xsd:string ;
+    a :Element .
+
+:Yb
+    :atomicNumber 70 ;
+    :atomicWeight "173.04"^^xsd:float ;
+    :block :f-block ;
+    :casRegistryID "7440-64-4"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_lanthanoid ;
+    :name "ytterbium"^^xsd:string ;
+    :period :period_6 ;
+    :standardState :solid ;
+    :symbol "Yb"^^xsd:string ;
+    a :Element .
+
+:Zn
+    :atomicNumber 30 ;
+    :atomicWeight "65.409"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-66-6"^^xsd:string ;
+    :classification :Metallic ;
+    :color "bluish pale grey"^^xsd:string ;
+    :group :group_12 ;
+    :name "zinc"^^xsd:string ;
+    :period :period_4 ;
+    :standardState :solid ;
+    :symbol "Zn"^^xsd:string ;
+    a :Element .
+
+:Zr
+    :atomicNumber 40 ;
+    :atomicWeight "91.224"^^xsd:float ;
+    :block :d-block ;
+    :casRegistryID "7440-67-7"^^xsd:string ;
+    :classification :Metallic ;
+    :color "silvery white"^^xsd:string ;
+    :group :group_4 ;
+    :name "zirconium"^^xsd:string ;
+    :period :period_5 ;
+    :standardState :solid ;
+    :symbol "Zr"^^xsd:string ;
+    a :Element .
+
+:atomicNumber
+    a owl:DatatypeProperty .
+
+:atomicWeight
+    a owl:DatatypeProperty .
+
+:block
+    a owl:ObjectProperty .
+
+:casRegistryID
+    a owl:DatatypeProperty ;
+    rdfs:comment "Chemical Abstracts Service (CAS) related information" ;
+    rdfs:seeAlso <http://www.cas.org> .
+
+:classification
+    a owl:ObjectProperty .
+
+:color
+    a owl:DatatypeProperty .
+
+:d-block
+    a :Block .
+
+:element
+    a owl:ObjectProperty .
+
+:f-block
+    a :Block .
+
+:gas
+    a :StandardState .
+
+:group
+    a owl:ObjectProperty .
+
+:group_1
+    :element :Cs, :Fr, :H, :K, :Li, :Na, :Rb ;
+    :name "Alkali metal"^^xsd:string ;
+    :number 1 ;
+    a :Group .
+
+:group_10
+    :element :Ni, :Pd, :Pt, :Uun ;
+    :number 10 ;
+    a :Group .
+
+:group_11
+    :element :Ag, :Au, :Cu, :Uuu ;
+    :name "Coinage metal"^^xsd:string ;
+    :number 11 ;
+    a :Group .
+
+:group_12
+    :element :Cd, :Hg, :Uub, :Zn ;
+    :number 12 ;
+    a :Group .
+
+:group_13
+    :element :Al, :B, :Ga, :In, :Tl, :Uut ;
+    :number 13 ;
+    a :Group .
+
+:group_14
+    :element :C, :Ge, :Pb, :Si, :Sn, :Uuq ;
+    :number 14 ;
+    a :Group .
+
+:group_15
+    :element :As, :Bi, :N, :P, :Sb, :Uup ;
+    :name "Pnictogen"^^xsd:string ;
+    :number 15 ;
+    a :Group .
+
+:group_16
+    :element :O, :Po, :S, :Se, :Te, :Uuh ;
+    :name "Chalcogen"^^xsd:string ;
+    :number 16 ;
+    a :Group .
+
+:group_17
+    :element :At, :Br, :Cl, :F, :I, :Uus ;
+    :name "Halogen"^^xsd:string ;
+    :number 17 ;
+    a :Group .
+
+:group_18
+    :element :Ar, :He, :Kr, :Ne, :Rn, :Uuo, :Xe ;
+    :name "Noble gas"^^xsd:string ;
+    :number 18 ;
+    a :Group .
+
+:group_2
+    :element :Ba, :Be, :Ca, :Mg, :Ra, :Sr ;
+    :name "Alkaline earth metal"^^xsd:string ;
+    :number 2 ;
+    a :Group .
+
+:group_3
+    :element :Lr, :Lu, :Sc, :Y ;
+    :number 3 ;
+    a :Group .
+
+:group_4
+    :element :Hf, :Rf, :Ti, :Zr ;
+    :number 4 ;
+    a :Group .
+
+:group_5
+    :element :Db, :Nb, :Ta, :V ;
+    :number 5 ;
+    a :Group .
+
+:group_6
+    :element :Cr, :Mo, :Sg, :W ;
+    :number 6 ;
+    a :Group .
+
+:group_7
+    :element :Bh, :Mn, :Re, :Tc ;
+    :number 7 ;
+    a :Group .
+
+:group_8
+    :element :Fe, :Hs, :Os, :Ru ;
+    :number 8 ;
+    a :Group .
+
+:group_9
+    :element :Co, :Ir, :Mt, :Rh ;
+    :number 9 ;
+    a :Group .
+
+:group_actinoid
+    :element :Ac, :Am, :Bk, :Cf, :Cm, :Es, :Fm, :Md, :No, :Np, :Pa, :Pu, :Th, :U ;
+    :name "Actinoid"^^xsd:string ;
+    a :Group .
+
+:group_lanthanoid
+    :element :Ce, :Dy, :Er, :Eu, :Gd, :Ho, :La, :Nd, :Pm, :Pr, :Sm, :Tb, :Tm, :Yb ;
+    :name "Lanthanoid"^^xsd:string ;
+    a :Group .
+
+:liquid
+    a :StandardState .
+
+:name
+    a owl:DatatypeProperty .
+
+:number
+    a owl:DatatypeProperty .
+
+:p-block
+    a :Block .
+
+:period
+    a owl:ObjectProperty .
+
+:period_1
+    :element :H, :He ;
+    :number 1 ;
+    a :Period .
+
+:period_2
+    :element :B, :Be, :C, :F, :Li, :N, :Ne, :O ;
+    :number 2 ;
+    a :Period .
+
+:period_3
+    :element :Al, :Ar, :Cl, :Mg, :Na, :P, :S, :Si ;
+    :number 3 ;
+    a :Period .
+
+:period_4
+    :element :As, :Br, :Ca, :Co, :Cr, :Cu, :Fe, :Ga, :Ge, :K, :Kr, :Mn, :Ni, :Sc, :Se, :Ti, :V, :Zn ;
+    :number 4 ;
+    a :Period .
+
+:period_5
+    :element :Ag, :Cd, :I, :In, :Mo, :Nb, :Pd, :Rb, :Rh, :Ru, :Sb, :Sn, :Sr, :Tc, :Te, :Xe, :Y, :Zr ;
+    :number 5 ;
+    a :Period .
+
+:period_6
+    :element :At, :Au, :Ba, :Bi, :Ce, :Cs, :Dy, :Er, :Eu, :Gd, :Hf, :Hg, :Ho, :Ir, :La, :Lu, :Nd, :Os, :Pb, :Pm, :Po, :Pr, :Pt, :Re, :Rn, :Sm, :Ta, :Tb, :Tl, :Tm, :W, :Yb ;
+    :number 6 ;
+    a :Period .
+
+:period_7
+    :element :Ac, :Am, :Bh, :Bk, :Cf, :Cm, :Db, :Es, :Fm, :Fr, :Hs, :Lr, :Md, :Mt, :No, :Np, :Pa, :Pu, :Ra, :Rf, :Sg, :Th, :U, :Uub, :Uuh, :Uun, :Uuo, :Uup, :Uuq, :Uus, :Uut, :Uuu ;
+    :number 7 ;
+    a :Period .
+
+:s-block
+    a :Block .
+
+:solid
+    a :StandardState .
+
+:standardState
+    a owl:ObjectProperty .
+
+:state_unknown
+    a :StandardState .
+
+:symbol
+    a owl:DatatypeProperty .
+
