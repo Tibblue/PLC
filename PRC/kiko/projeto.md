@@ -8,7 +8,7 @@
 
 * Criar, extrair, construir, limpar (um dataset) apartir da LOD ( ??? Open Data)
     * [DBPedia](https://wiki.dbpedia.org/)
-    * dados.gov.pt
+    * [dados.gov.pt](https://dados.gov.pt)
     * [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
     * [MusicBrainz](https://musicbrainz.org/)
     * [Geonames](https://www.geonames.org/)
