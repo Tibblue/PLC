@@ -7,29 +7,76 @@ from .bot_tradutor import bot_tradutor # atm tradutor
 from .bot_lista import bot_lista # atm proverbios
 
 
-saudacoes = [
-    "Bom dia","Boa tarde","Olá"
+interlocutor = [
+    "(meu )?caro", "(minha )?cara", "caríssim[oa]", "amig[oa]", "colega", "parceir[oa]"
 ]
-saudacoes_exp = '|'.join(saudacoes)
-# print(saudacoes_exp)
+interlocutor_exp = '|'.join(interlocutor)
+
+resp_saudacoesDia = [
+    "Bom dia para ti também! Está um dia lindo, de facto!", "Bom dia para ti também!",
+    "Bom dia. Mas que simpático, humano.", "Muito bom dia para ti humano. Obrigada pela consideração.", 
+    "É um bom dia, de facto.", "Para ti também, humano", "Bom dia!"
+]
+
+resp_saudacoesTarde = [
+    "Boa tarde para ti também! Está uma tarde linda, de facto!", "Boa tarde para ti também!",
+    "Boa tarde. Mas que simpático, humano.", "Muito boa tarde para ti humano. Obrigada pela consideração.", 
+    "É uma boa tarde, de facto.", "Para ti também, humano", "Boa tarde!"
+]
+
+resp_saudacoesNoite = [
+    "Boa noite para ti também! Está uma noite linda, de facto!", "Boa noite para ti também!",
+    "Boa noite. Mas que simpático, humano.", "Muito boa noite para ti humano. Obrigada pela consideração.", 
+    "É uma boa noite, de facto.", "Para ti também, humano", "Boa noite!"
+]
+
+resp_saudacoesSimples = [
+    "Olá!", "Olá humano!", "Olá amigo!", "Olá colega!", "Olá, pessoa!"
+]
+
+terminadores = [
+    "Xau", "Xau!", "Adeus", "Adeus parceiro", "Até logo!", "Até à próxima colega.", "Foi um prazer!",
+    "Adeus! ", "Até amanhã!", "Passa bem!", "Até à próxima", "Adeus amigo.", "Adeus amigo!", "Até amanhã",
+    "Até amanhã!", "Até para a semana", "Até para a semana!"
+]
 
 despedidas = [
-    "Adeus parceiro.", "Até logo!",
-    "Até à próxima colega.", "Foi um prazer!",
-    "Adeus!	", "Até amanhã!", "Passa bem!",
+    "Adeus parceiro.", "Até logo!", "Até à próxima colega.", "Foi um prazer!", "Adeus!", "Até amanhã!", "Passa bem!",
 ]
 
+clueless = [
+    "Não estou a perceber nada...", "Fala-me português!", "O quê?", "Tens a certeza que sabes falar português?!",
+    "Andas-te a beber?!", "Estás a gozar comigo?!", "Repete lá isso de forma que eu entenda."
+]
+
+comoEstas = [
+    "Como estás", "Está tudo bem", "Como vai a vida", "Como anda a vida", "Como tens passado"
+]
+comoEstas_exp = '|'.join(comoEstas)
+
+agradecimentos = [
+    "Bem, obrigado.", "Ótimo, e tu?", "Vou andando. Coisas da vida...", "Bem, obrigado por perguntares"
+]
 
 regras = [
-    ( r'^('+saudacoes_exp+')$',lambda x : x.group(1)),
-    ( r'como se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
-    ( r'em (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1))),
+    ( r'[Bb]om dia[ ,]?('+interlocutor_exp+')?',lambda x :random.choice(resp_saudacoesDia)),
+    ( r'[Bb]oa noite[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesNoite)),
+    ( r'[Bb]oa tarde[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesTarde)),
+    ( r'[Olá]lá[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesSimples)),
+    ( r''+comoEstas_exp+'[ ,?]?('+interlocutor_exp+')?',lambda x : random.choice(agradecimentos)),
+#   TRADUTOR
+    ( r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
+    ( r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
+    ( r'([\w ]+) como se diz em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
+    ( r'[Ee]m (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1))),
     ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
     ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2))),
+
     ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),lista_MX)),
     ( r'(.+)', "Oops"),
 ]
 # print(regras)
+
 
 ##### Auxiliares #####
 # append de uma mensagem ao ficheiro de log
@@ -61,10 +108,10 @@ def responde(content):
                     return output
                 else:
                     print("    Regra returnou NONE") # debug
-            else:
-                return out+'=>'+match.group(0)
+#            else:
+#                return out+'=>'+match.group(0)
     # chegamos aqui se nenhum bot responder
-    return "Negative Sir!" # TODO devolver uma frase de falha ou entretenimento
+    return random.choice(clueless) # TODO devolver uma frase de falha ou entretenimento
 
 # onde tudo começa
 def main():
@@ -78,7 +125,7 @@ def main():
         try:
             inputUser = input("Eu: ")
             append2file(inputUser,'user')
-            if inputUser == "quit": # diretor termina com "quit"
+            if any(item.lower() == inputUser.lower() for item in terminadores): 
                 break
             result = responde(inputUser)
             append2file(result,'bot')
