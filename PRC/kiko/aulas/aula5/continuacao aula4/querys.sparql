@@ -1,0 +1,26 @@
+# 1) Moleculas que tem oxigenio na sua composição
+PREFIX : <http://www.daml.org/2003/01/periodictable/PeriodicTable#>
+select ?molecule where {
+	?molecule :hasPart ?part .
+    ?part :hasRange :O .
+}
+
+# 2) Moleculas que na sua composição tem mais de 2 atomos de O (oxigenio)
+PREFIX : <http://www.daml.org/2003/01/periodictable/PeriodicTable#>
+select ?molecule where {
+	?molecule :hasPart ?part .
+    ?part :hasRange :O .
+    ?part :quantity ?quantity .
+    FILTER (?quantity > 2) .
+}
+
+# 3) Dado o id duma molecula, quais os seus elementos que a constituem e em que numero
+# fixei Acido Sulfurico (SulfuricAcid)
+PREFIX : <http://www.daml.org/2003/01/periodictable/PeriodicTable#>
+select ?element ?quantity where {
+	:SulfuricAcid :hasPart ?part .
+    ?part :hasRange ?element .
+    ?part :quantity ?quantity .
+}
+
+
