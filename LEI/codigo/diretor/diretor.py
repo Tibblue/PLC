@@ -14,19 +14,19 @@ interlocutor_exp = '|'.join(interlocutor)
 
 resp_saudacoesDia = [
     "Bom dia para ti também! Está um dia lindo, de facto!", "Bom dia para ti também!",
-    "Bom dia. Mas que simpático, humano.", "Muito bom dia para ti humano. Obrigada pela consideração.", 
+    "Bom dia. Mas que simpático, humano.", "Muito bom dia para ti humano. Obrigada pela consideração.",
     "É um bom dia, de facto.", "Para ti também, humano", "Bom dia!"
 ]
 
 resp_saudacoesTarde = [
     "Boa tarde para ti também! Está uma tarde linda, de facto!", "Boa tarde para ti também!",
-    "Boa tarde. Mas que simpático, humano.", "Muito boa tarde para ti humano. Obrigada pela consideração.", 
+    "Boa tarde. Mas que simpático, humano.", "Muito boa tarde para ti humano. Obrigada pela consideração.",
     "É uma boa tarde, de facto.", "Para ti também, humano", "Boa tarde!"
 ]
 
 resp_saudacoesNoite = [
     "Boa noite para ti também! Está uma noite linda, de facto!", "Boa noite para ti também!",
-    "Boa noite. Mas que simpático, humano.", "Muito boa noite para ti humano. Obrigada pela consideração.", 
+    "Boa noite. Mas que simpático, humano.", "Muito boa noite para ti humano. Obrigada pela consideração.",
     "É uma boa noite, de facto.", "Para ti também, humano", "Boa noite!"
 ]
 
@@ -62,7 +62,7 @@ regras = [
     ( r'[Bb]om dia[ ,]?('+interlocutor_exp+')?',lambda x :random.choice(resp_saudacoesDia)),
     ( r'[Bb]oa noite[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesNoite)),
     ( r'[Bb]oa tarde[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesTarde)),
-    ( r'[Olá]lá[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesSimples)),
+    ( r'[Oo]lá[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesSimples)),
     ( r''+comoEstas_exp+'[ ,?]?('+interlocutor_exp+')?',lambda x : random.choice(agradecimentos)),
 #   TRADUTOR
     ( r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
@@ -99,17 +99,16 @@ def responde(content):
         # print(regex,out)
         match = re.match(regex,content)
         if match==None:
-            print("    Regra nao deu MATCH") # debug
+            pass
+            # print("    Regra nao deu MATCH") # debug
         else:
-            # print(match)
+            # print(match) # debug
             if callable(out):
                 output = out(match)
                 if output != None:
                     return output
-                else:
-                    print("    Regra returnou NONE") # debug
-#            else:
-#                return out+'=>'+match.group(0)
+                # else: print("    Regra returnou NONE") # debug
+#            else: return out+'=>'+match.group(0) # debug
     # chegamos aqui se nenhum bot responder
     return random.choice(clueless) # TODO devolver uma frase de falha ou entretenimento
 
@@ -125,7 +124,7 @@ def main():
         try:
             inputUser = input("Eu: ")
             append2file(inputUser,'user')
-            if any(item.lower() == inputUser.lower() for item in terminadores): 
+            if any(item.lower() == inputUser.lower() for item in terminadores):
                 break
             result = responde(inputUser)
             append2file(result,'bot')
