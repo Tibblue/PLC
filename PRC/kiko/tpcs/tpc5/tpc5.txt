@@ -1,0 +1,2 @@
+TPC 5
+Adaptar o websparql da aula para o endpoint da DBpedia
