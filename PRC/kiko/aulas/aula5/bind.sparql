@@ -1,0 +1,7 @@
+select ?sval ?pval ?oval where {
+  ?s ?p ?o.
+  BIND (STRAFTER(STR(?s), '#') AS ?sval).
+  BIND (STRAFTER(STR(?p), '#') AS ?pval).
+  BIND (STRAFTER(STR(?o), '#') AS ?oval).
+}
+limit 20
