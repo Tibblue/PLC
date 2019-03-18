@@ -72,7 +72,7 @@ regras = [
     ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
     ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2))),
 
-    ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),lista_MX)),
+    ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),lista_LST)),
     ( r'(.+)', "Oops"),
 ]
 # print(regras)
@@ -153,14 +153,14 @@ def get_ficheiros_input():
     return ficheiros_input
 
 # divide em listas por área os vários ficheeiros no inputs.txt
-# (para já só guarda os ficheiros com '_MX')
+# (para já só guarda os ficheiros com '_LST')
 def divide_ficheiros_input(ficheiros_input):
-    lista_MX = []
+    lista_LST = []
     for f in ficheiros_input:
-        match = re.match(r'.*_MX.*',f)
-        if match is not None:
-            lista_MX.append(f)
-    return lista_MX
+        lista = f.split('::')
+        if lista[1] == 'LST':
+            lista_LST.append(lista[0])
+    return lista_LST
 
 def concat_files_into_list(lista):
     lista_geral = []
@@ -175,7 +175,8 @@ def concat_files_into_list(lista):
 
 # para já estão como variáveis globais
 ficheiros_input = get_ficheiros_input()
-lista_MX = divide_ficheiros_input(ficheiros_input)
-print(lista_MX)
-lista_MX = concat_files_into_list(lista_MX)
+print(ficheiros_input)
+lista_LST = divide_ficheiros_input(ficheiros_input)
+print(lista_LST)
+lista_LST = concat_files_into_list(lista_LST)
 main()
