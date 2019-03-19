@@ -68,14 +68,12 @@ def openCSV(file):
 # dá match ao que queremos encontrar na mensagem
 def mensagemSearch(mensagem,tipos):
     tipos = '|'.join(tipos)
-
-    match = re.search(r'Qual.*('+tipos+').* (.*)\b\??', mensagem,re.IGNORECASE)
+    match = re.search(r'Qual.*('+tipos+r').* (.*)\b\??', mensagem,re.IGNORECASE)
 
     if match is None:
         print('ripzao')
     tipoObjetivo= match.group(1).capitalize()
     elemento = match.group(2)
-
     return(tipoObjetivo,elemento)
     # elemento = match.group(3).capitalize()
 
@@ -93,7 +91,8 @@ def findRow(elemento,valores):
 def talk():
     # mensagem = input('Eu: ')
     # mensagem = "Qual é a comida preferida do Kiko?"
-    mensagem = "Qual é a comida preferida do Vitor?"
+    # mensagem = 'Qual é a comida preferida do Vitor?'
+    mensagem = 'Qual a idade do Vitor?'
     print(mensagem)
     # parte da divisão em classes de palavras
     # tagged_line = tagger_m.tag(nltk.word_tokenize(mensagem))

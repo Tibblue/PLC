@@ -91,7 +91,6 @@ def append2file(msg,ident):
         file.write('\n---FIM DE CONVERSA---\n\n')
     file.close()
 
-
 ##### Funcoes #####
 # percorre as regras até encontrar uma que dê match e devolve o output
 def responde(content):
@@ -114,12 +113,6 @@ def responde(content):
 
 # onde tudo começa
 def main():
-    # if (len(sys.argv)>1): # caso seja inserido um argumento (input file)
-    #     file = sys.argv[1]
-    #     content = open(file,'r').read()
-    #     result = responde(content)
-    #     print(result)
-    # else: # caso não haja input file, lê do stdin
     while True:
         try:
             inputUser = input("Eu: ")
@@ -153,7 +146,6 @@ def get_ficheiros_input():
     return ficheiros_input
 
 # divide em listas por área os vários ficheeiros no inputs.txt
-# (para já só guarda os ficheiros com '_LST')
 def divide_ficheiros_input(ficheiros_input):
     lista_LST = []
     for f in ficheiros_input:
