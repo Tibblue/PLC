@@ -50,7 +50,8 @@ clueless = [
 ]
 
 comoEstas = [
-    "Como estás", "Está tudo bem", "Como vai a vida", "Como anda a vida", "Como tens passado"
+    "Como estás", "Está tudo bem", "Como vai a vida", "Como anda a vida", "Como tens passado",
+    "[tT]udo bem"
 ]
 comoEstas_exp = '|'.join(comoEstas)
 
@@ -168,8 +169,8 @@ def get_despedida_e_escreve_log():
 ##### Run #####
 
 ficheiros_input = get_ficheiros_input()
-print(ficheiros_input)
+# print(ficheiros_input)
 lista_LST = divide_ficheiros_input(ficheiros_input)
-print(lista_LST)
+# print(lista_LST)
 lista_LST = concat_files_into_list(lista_LST)
 main() # MAIN
