@@ -7,9 +7,9 @@ import pandas
 import csv
 import re
 
-listaQuestao = [
-    'Em que', 'Qual' , 'Quantos'
-]
+# listaQuestao = [
+#     'Em que', 'Qual' , 'Quantos'
+# ]
 
 # def main():
 #     ops, args = getopt.getopt( sys.argv[ 1: ], 'b' )
@@ -89,36 +89,29 @@ def findRow(elemento,valores):
                 return row
 
 def talk():
-    # mensagem = input('Eu: ')
-    # mensagem = "Qual é a comida preferida do Kiko?"
-    # mensagem = 'Qual é a comida preferida do Vitor?'
-    mensagem = 'Qual a idade do Vitor?'
-    print(mensagem)
-    # parte da divisão em classes de palavras
-    # tagged_line = tagger_m.tag(nltk.word_tokenize(mensagem))
-    # print(tagged_line)
+    while True:
+        mensagem = input('Eu: ')
+        # mensagem = "Qual é a comida preferida do Kiko?"
+        # mensagem = 'Qual é a comida preferida do Vitor?'
+        # mensagem = 'Qual a idade do Vitor?'
+        # parte da divisão em classes de palavras
+        # tagged_line = tagger_m.tag(nltk.word_tokenize(mensagem))
+        # print(tagged_line)
 
-    (tipos,valores) = openCSV(sys.argv[1])
-    (tipoObjetivo,elemento) = mensagemSearch(mensagem,tipos)
+        (tipos,valores) = openCSV(sys.argv[1])
+        (tipoObjetivo,elemento) = mensagemSearch(mensagem,tipos)
 
-    # verbo = find_verbo(tagged_line)
-    # printVerbo = "Verbo: " + verbo
-    # print(printVerbo)
+        # verbo = find_verbo(tagged_line)
+        # printVerbo = "Verbo: " + verbo
+        # print(printVerbo)
 
-    # # para obter a resposta
-    row = findRow(elemento,valores)
-    posi = tipos.index(tipoObjetivo)
-    resposta = row[posi]
-    print(resposta)
-    # print(resposta)
-    # frase = cria_frase(tipoObjetivo,elemento,verbo,resposta)
-    # print(frase)
-
-
-# encontra o verbo na mensagem
-# def find_verbo(tagged_line):
-#     for pal,classe in tagged_line:
-#         if classe == 'V':
-#             return pal
+        # # para obter a resposta
+        row = findRow(elemento,valores)
+        posi = tipos.index(tipoObjetivo)
+        resposta = row[posi]
+        print(resposta)
+        # print(resposta)
+        # frase = cria_frase(tipoObjetivo,elemento,verbo,resposta)
+        # print(frase)
 
 talk()
