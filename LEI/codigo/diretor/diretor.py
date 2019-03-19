@@ -80,7 +80,7 @@ regras = [
 
 ##### Auxiliares #####
 # append de uma mensagem ao ficheiro de log
-def append2file(msg,ident):
+def save_log(msg,ident):
     file = 'log/log.txt'
     file = open(file,'a')
     if ident == 'user':
@@ -92,6 +92,7 @@ def append2file(msg,ident):
     file.close()
 
 ##### Funcoes #####
+
 # percorre as regras até encontrar uma que dê match e devolve o output
 def responde(content):
     for regex,out in regras:
@@ -107,36 +108,11 @@ def responde(content):
                 if output != None:
                     return output
                 # else: print("    Regra returnou NONE") # debug
-#            else: return out+'=>'+match.group(0) # debug
+            # else: return out+'=>'+match.group(0) # debug
     # chegamos aqui se nenhum bot responder
-    return random.choice(clueless) # TODO devolver uma frase de falha ou entretenimento
+    return random.choice(clueless)
 
-# onde tudo começa
-def main():
-    while True:
-        try:
-            inputUser = input("Eu: ")
-            append2file(inputUser,'user')
-            if any(item.lower() == inputUser.lower() for item in terminadores):
-                break
-            result = responde(inputUser)
-            append2file(result,'bot')
-            print(result)
-        except KeyboardInterrupt:
-            print('\n')
-            get_despedida_e_escreve_log()
-            sys.exit()
-
-    get_despedida_e_escreve_log()
-
-
-# printa uma despedida e escreve o resultado no ficheiro log assim como o fim de conversa
-def get_despedida_e_escreve_log():
-    despedida = random.choice(despedidas)
-    append2file(despedida,'bot')
-    print(despedida)
-    append2file('','')
-
+### Carregar ficheiros ###
 
 # cria uma lista com o conteúdo que está no ficheiro inputs.txt
 def get_ficheiros_input():
@@ -163,12 +139,37 @@ def concat_files_into_list(lista):
         lista_geral.extend(lista_ficheiro)
     return(lista_geral)
 
+
+
+##### Main #####
+def main():
+    while True:
+        try:
+            inputUser = input("Eu: ")
+            save_log(inputUser,'user')
+            if any(item.lower() == inputUser.lower() for item in terminadores):
+                get_despedida_e_escreve_log()
+                sys.exit()
+            result = responde(inputUser)
+            save_log(result,'bot')
+            print(result)
+        except KeyboardInterrupt:
+            print('\n')
+            get_despedida_e_escreve_log()
+            sys.exit()
+
+# printa uma despedida e escreve o resultado no ficheiro log assim como o fim de conversa
+def get_despedida_e_escreve_log():
+    despedida = random.choice(despedidas)
+    save_log(despedida,'bot')
+    print(despedida)
+    save_log('','')
+
 ##### Run #####
 
-# para já estão como variáveis globais
 ficheiros_input = get_ficheiros_input()
 print(ficheiros_input)
 lista_LST = divide_ficheiros_input(ficheiros_input)
 print(lista_LST)
 lista_LST = concat_files_into_list(lista_LST)
-main()
+main() # MAIN
