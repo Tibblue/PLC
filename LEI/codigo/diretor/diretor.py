@@ -16,6 +16,8 @@ regras = [
     ( r'[Bb]oa tarde[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesTarde)),
     ( r'[Oo]lá[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesSimples)),
     ( r''+comoEstas_exp+'[ ,?]?('+interlocutor_exp+')?',lambda x : random.choice(agradecimentos)),
+    # Informativo:Wiki
+    # (r'O que sabes sobre (.*)\b\??',lambda x : LISTA_DIC_CONTENT.get(x.group(1))),
     # TRADUTOR
     ( r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
     ( r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
@@ -80,14 +82,19 @@ def get_ficheiros_input():
     ficheiros_input = file.split('\n')
     return ficheiros_input
 
-# divide em listas por área os vários ficheeiros no inputs.txt
+# divide em listas por área os vários ficheiros no inputs.txt
 def divide_ficheiros_input(ficheiros_input):
     lista_LST = []
+    lista_DIC = []
     for f in ficheiros_input:
         lista = f.split('::')
-        if lista[1] == 'LST':
-            lista_LST.append(lista[0])
-    return lista_LST
+        nome_ficheiro = lista[0]
+        cod = lista[1]
+        if cod == 'LST':
+            lista_LST.append(nome_ficheiro)
+        elif cod == 'DIC':
+            lista_DIC.append(nome_ficheiro)
+    return (lista_LST,lista_DIC)
 
 def concat_files_into_list(lista):
     lista_geral = []
@@ -97,8 +104,6 @@ def concat_files_into_list(lista):
         lista_ficheiro = file.split('\n')
         lista_geral.extend(lista_ficheiro)
     return(lista_geral)
-
-
 
 ##### Main #####
 def main(options):
@@ -113,7 +118,7 @@ def main(options):
 
     # TODO arrumar estas funçoes, ta uma mess
     ficheiros_input = get_ficheiros_input()
-    lista_LST = divide_ficheiros_input(ficheiros_input)
+    (lista_LST,lista_DIC) = divide_ficheiros_input(ficheiros_input)
     global LISTA_LST_CONCAT # para o python saber que queremos a variavel global
     LISTA_LST_CONCAT = concat_files_into_list(lista_LST)
 

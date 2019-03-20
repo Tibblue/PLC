@@ -1,24 +1,22 @@
 import csv
 import re
+import json
 
+########################################################################
+# funções para carregar o ficheiro json e o csv
 
-# lista de tuplos de (nome da coluna do csv, tipo relativo )
-# acrescentar variável para identificar se são únicos ou não
-lista_nomeColuna_tipo = [
-    ('Nome','Pessoa'),
-    ('Idade','Numero'),
-    ('País','Local'),
-    ('Nascimento','Tempo'),
-    ('Comida','Objeto')
-]
+# faz o open do json e guarda
+def save_json():
+    json_file = json.loads(open("files_csv.json").read())
+    return json_file
 
-lista_questao_tipo = [
-    ('Quem','Pessoa'),
-    ('Quando','Tempo'),
-    ('Onde','Local'),
-    ('Quantos','Numero'),
-    ('Qual','Objeto')
-]
+# retorna uma lista com o nome das colunas do csv
+def get_lista_nomeColunass(json_file):
+    dict_keys_nomeColuna = json_file['individuals.csv'].keys()
+    lista_nomeColunas = []
+    for nome_coluna in dict_keys_nomeColuna:
+        lista_nomeColunas.append(nome_coluna)
+    return lista_nomeColunas
 
 # retorna  os valores_csv
 def openCSV(file):
@@ -33,49 +31,48 @@ def openCSV(file):
                 valores_csv.append(row)
     return valores_csv
 
+#######################################################################
+# Variáveis globais/funções/listas
+lista_questao_tipo = [
+    ('Quem','Pessoa'),
+    ('Quando','Tempo'),
+    ('Onde','Local'),
+    ('Quantos','Numero'),
+    ('Qual','Objeto')
+]
+
+json_file = save_json()
+lista_nomeColunass = get_lista_nomeColunass(json_file)
 valores_csv = openCSV('individual.csv')
-# print(valores_csv)
+nome_colunas_exp_reg = '|'.join(lista_nomeColunass)
 
-# retorna o nome das colunas do csv
-def get_tipos_csv(nome_colunas_csv):
-    nome_colunas_csv = []
-    for nome_coluna,tipo in lista_nomeColuna_tipo:
-        nome_colunas_csv.append(nome_coluna)
-    return nome_colunas_csv
-
-nome_colunas_csv = get_tipos_csv(lista_nomeColuna_tipo)
-# print(nome_colunas_csv)
-
-nome_colunas_exp_reg = '|'.join(nome_colunas_csv)
-# print(nome_colunas_exp_reg)
 
 # tuplo com a exp reg e o número de matches que vai dar
 lista_exp_reg = [
-    (r'(Quem).* (.*)\b\??',2),
-    (r'(Quem).* (.*) anos\b\??',2), # ver como resolver esta situação
-    (r'(Quantos).* (.*)\b\??',2),
-    (r'(Onde).* (.*)\b\??',2),
-    (r'(Quando).* (.*)\b\??',2),
-    (r'(Qual).*('+nome_colunas_exp_reg+r').* (.*)\b\??', 3)
+    (r'(Quem).* (.*) anos\b\??'), # ver como resolver esta situação
+    (r'(Quem).* (.*)\b\??'),
+    (r'(Quantos).* (.*)\b\??'),
+    (r'(Onde).* (.*)\b\??'),
+    (r'(Quando).* (.*)\b\??'),
+    (r'(Qual).*('+nome_colunas_exp_reg+r').* (.*)\b\??')
 ]
 
-def mensagemSearch(mensagem,nome_colunas_csv):
+def mensagemSearch(mensagem,lista_nomeColunass):
     questao = ""
     nome_coluna_obj = ""
     elemento = ""
-    for exp_reg,num in lista_exp_reg:
+    for exp_reg in lista_exp_reg:
         match = re.search(exp_reg, mensagem,re.IGNORECASE)
         if match is not None:
-            if num ==2:
+            num_matches = len(match.groups())
+            if num_matches==2:
                 questao = match.group(1).lower()
                 elemento = match.group(2).lower()
-            elif num == 3:
+            elif num_matches==3:
                 questao = match.group(1).lower()
                 nome_coluna_obj = match.group(2).lower()
                 elemento = match.group(3).lower()
             return (questao,nome_coluna_obj,elemento)
-        else:
-            print('Não deu match')
 
 # retorna a lista com a linha onde está o valor pretendido
 def findRow(elemento,valores_csv):
@@ -86,24 +83,23 @@ def findRow(elemento,valores_csv):
 
 
 # responde quando tem todos os argumentos precisos
-def respond_full_agr(nome_coluna_obj,elemento):
-        row = findRow(elemento,valores_csv)
-        posi = nome_colunas_csv.index(nome_coluna_obj.capitalize())
-        resposta = row[posi]
-        return resposta
+def respond_full_agr(nome_coluna_obj,elemento,lista_nomeColunass):
+    row = findRow(elemento,valores_csv)
+    posi = lista_nomeColunass.index(nome_coluna_obj.capitalize())
+    resposta = row[posi]
+    return resposta
 
 # responde quando não tem todos os argumentos precisos
-def respond_missing_agr(questao,elemento):
+def respond_missing_agr(questao,elemento,lista_nomeColunass):
     for quest,tipo in lista_questao_tipo:
         if quest.lower() == questao:
             tipo_obj = tipo
-    for nome_coluna,tipo in lista_nomeColuna_tipo:
-        if tipo_obj == tipo:
-            nome_coluna_obj = nome_coluna
+    for nomeColuna in lista_nomeColunass:
+        tipo_coluna = json_file['individuals.csv'][nomeColuna]['Tipo']
+        if tipo_obj == tipo_coluna:
+            nome_coluna_obj = nomeColuna
 
-    row = findRow(elemento,valores_csv)
-    posi = nome_colunas_csv.index(nome_coluna_obj.capitalize())
-    resposta = row[posi]
+    resposta = respond_full_agr(nome_coluna_obj,elemento,lista_nomeColunass)
     return resposta
 
 def talk():
@@ -111,15 +107,15 @@ def talk():
         mensagem = input('Eu: ')
         # mensagem = 'Qual a comida preferida do Kiko?'
         # mensagem = 'Quem nasceu em Portugal?'
-        # mensagem = 'Onde nasceu o Kiko?'
+        # mensagem = 'Quando nasceu o Kiko?'
 
-        (questao,nome_coluna_obj,elemento) = mensagemSearch(mensagem,nome_colunas_csv)
+        (questao,nome_coluna_obj,elemento) = mensagemSearch(mensagem,lista_nomeColunass)
         print(questao,nome_coluna_obj,elemento)
 
         if nome_coluna_obj is not "":
-            resposta = respond_full_agr(nome_coluna_obj,elemento)
+            resposta = respond_full_agr(nome_coluna_obj,elemento,lista_nomeColunass)
         else:
-            resposta = respond_missing_agr(questao,elemento)
+            resposta = respond_missing_agr(questao,elemento,lista_nomeColunass)
         print(resposta)
 
 talk()
