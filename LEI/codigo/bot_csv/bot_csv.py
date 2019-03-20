@@ -3,6 +3,7 @@ import re
 
 
 # lista de tuplos de (nome da coluna do csv, tipo relativo )
+# acrescentar variável para identificar se são únicos ou não
 lista_nomeColuna_tipo = [
     ('Nome','Pessoa'),
     ('Idade','Numero'),
@@ -15,6 +16,7 @@ lista_questao_tipo = [
     ('Quem','Pessoa'),
     ('Quando','Tempo'),
     ('Onde','Local'),
+    ('Quantos','Numero'),
     ('Qual','Objeto')
 ]
 
@@ -50,7 +52,10 @@ nome_colunas_exp_reg = '|'.join(nome_colunas_csv)
 # tuplo com a exp reg e o número de matches que vai dar
 lista_exp_reg = [
     (r'(Quem).* (.*)\b\??',2),
+    (r'(Quem).* (.*) anos\b\??',2), # ver como resolver esta situação
+    (r'(Quantos).* (.*)\b\??',2),
     (r'(Onde).* (.*)\b\??',2),
+    (r'(Quando).* (.*)\b\??',2),
     (r'(Qual).*('+nome_colunas_exp_reg+r').* (.*)\b\??', 3)
 ]
 
@@ -61,7 +66,6 @@ def mensagemSearch(mensagem,nome_colunas_csv):
     for exp_reg,num in lista_exp_reg:
         match = re.search(exp_reg, mensagem,re.IGNORECASE)
         if match is not None:
-
             if num ==2:
                 questao = match.group(1).lower()
                 elemento = match.group(2).lower()
@@ -69,10 +73,9 @@ def mensagemSearch(mensagem,nome_colunas_csv):
                 questao = match.group(1).lower()
                 nome_coluna_obj = match.group(2).lower()
                 elemento = match.group(3).lower()
-
             return (questao,nome_coluna_obj,elemento)
         else:
-            print('não deu match')
+            print('Não deu match')
 
 # retorna a lista com a linha onde está o valor pretendido
 def findRow(elemento,valores_csv):
@@ -104,11 +107,11 @@ def respond_missing_agr(questao,elemento):
     return resposta
 
 def talk():
-    # while True:
-        # mensagem = input('Eu: ')
+    while True:
+        mensagem = input('Eu: ')
         # mensagem = 'Qual a comida preferida do Kiko?'
         # mensagem = 'Quem nasceu em Portugal?'
-        mensagem = 'Onde nasceu o Kiko?'
+        # mensagem = 'Onde nasceu o Kiko?'
 
         (questao,nome_coluna_obj,elemento) = mensagemSearch(mensagem,nome_colunas_csv)
         print(questao,nome_coluna_obj,elemento)
