@@ -4,11 +4,12 @@ NOTAS a não esquecer
 * entender o input, escrito de várias maneiras
 * diagramas (com legendas)
 
-1. bot receber várias fontes de informação de uma só vez (KINDA DONE)
-3. diagramas
-4. "o que é que tu sabes sobre ..." -> outro bot? adicionar reações a um já existente
-6. regras das saudações: mais e melhorar (melhor exp. regulares)
-
-7. bot tradutor:
-    7.2 saber dizer n sei (feito, exceto para quando nao tem traduçao e devolve a propria palavra)
-    7.4 n traduzir tudo sempre que vê um "em" (ainda pode ser melhorado)
+1. bot receber várias fontes de informação de uma só vez (em vias de ser alterado)
+2. criar um bot interlucutor? generalizado para BOT_???
+    * dado um set de regras (regex) responde de um determinada maneira
+        * Exemplo default:  (r'Bom dia.','Boas amigo!)
+            User: Bom dia.
+            Bot: Boas amigo!
+        * Exemplo KIKO:     (r'.* batatas!',['Acalmate Kiko...','Fritas?'])
+            User: Quero batatas!
+            Bot: Acalmate Kiko...

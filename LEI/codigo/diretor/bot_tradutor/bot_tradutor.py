@@ -114,7 +114,7 @@ def talk():
 ##### MAIN #####
 def main(options):
     print(options)
-    if options.get('-h')=='':
+    if '-h' in options:
         print_help()
     elif options.get('-x')=='':
         talk()
