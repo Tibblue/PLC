@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-import re
+
+import regex as re
+import sys, getopt
 import random
 import json
 from art import *
 from py_translator import Translator
 
 from .listaLinguas import linguas
+
 
 ##### Variaveis #####
 # respostas pré feitas, para casos especiais
@@ -31,6 +34,8 @@ def traduz(palavra,linguagem):
     else: # nao encontrou a lingua
         return None
 
+
+### Funcoes auxiliares de CACHE e DICIONARIO ##
 # guarda em cache a traduçao de uma palavra para um linguagem
 def guardar_cache(palavra,linguagem,traducao):
     cache_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
@@ -56,7 +61,6 @@ def guardar_dicionario(palavra,linguagem,traducao):
     respostas = ["Tradução adicionada!","Adicionado ao dicionario."]
     return random.choice(respostas)
 
-
 # procura na cache se já existe a traduçao de uma palavra para uma linguagem
 def verifica_cache(palavra,linguagem):
     cache_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
@@ -75,6 +79,9 @@ def verifica_dicionario(palavra,linguagem):
     # se não tiver a palavra na linguagem correta, returna None
     return None
 
+
+
+##### FUTURE WORK #####
 # gera regras de uso do bot para o diretor
 def geraRegras():
     regras = [
@@ -85,9 +92,12 @@ def geraRegras():
     ]
     return regras
 
+
+
+##### Funcao para falar com o BOT #####
 # funcao para uso do bot individualmente
 def talk():
-    print(text2art("Fabio")) # art
+    # print(text2art("Fabio")) # art
     while True:
         mensagem = input('Eu: ')
         mensagem = re.search(r'(?:.* )?(.+) em (\w+)\b\??', mensagem)
@@ -101,24 +111,19 @@ def talk():
     ##### Testing #####
     # print(geraRegras())
 
-def main():
-    if (len(sys.argv)>1): # caso seja inserido um argumento (option)
-        option = sys.argv[1]
-        if option=='-h' or option=='--help':
-            print_help()
-        elif option=='-x' or option=='--exec':
-            talk()
-        elif option=='-r' or option=='--rules':
-            print(geraRegras()) # FIXME needs upgrades
-        else:
-            print(option)
-            print('Error: Unknows Option')
-            print('Run with --help option for help.')
-    # else: # caso não haja argumentos
+##### MAIN #####
+def main(options):
+    print(options)
+    if options.get('-h')=='':
+        print_help()
+    elif options.get('-x')=='':
+        talk()
 
+# como reagir quando é importado
 def imported():
     pass
 
+# print de help ao utilizador
 def print_help():
     print('BOT_TRADUTOR\n')
     print('    NOTE: If no option is given, nothing will be executed')
@@ -131,6 +136,21 @@ def print_help():
 
 ##### Run #####
 if __name__ == "__main__": # corre quando é o ficheiro principal
-    main()
+    try:
+        # na listagem de options nao se coloca o - ou --
+        short_opts = 'hx'
+        long_opts = ['help','exec']
+        options, remainder = getopt.getopt(sys.argv[1:],short_opts,long_opts)
+        options = dict(options) # options = [(option, argument)]
+        # print(options)
+        # print(remainder) # argumentos introduzidos que nao faziam sentido
+        if remainder:
+            print('Too many args')
+            sys.exit(1)
+        else:
+            main(options)
+    except getopt.GetoptError as err:
+        print('ERROR:', err)
+        sys.exit(1)
 else: # corre quando for importado
     imported()
