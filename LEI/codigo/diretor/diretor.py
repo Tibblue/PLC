@@ -1,11 +1,13 @@
 #!/usr/bin/python3
-import sys
-import re
+import sys, getopt
+import regex as re
 import random
 
 from .bot_tradutor import bot_tradutor # atm tradutor
 from .bot_lista import bot_lista # atm proverbios
 from .respostas import *
+INPUT_FILE = 'inputs.txt'
+LISTA_LST_CONCAT = ''
 
 regras = [
     # INTERLOCUTOR
@@ -22,7 +24,7 @@ regras = [
     ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
     ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2))),
     # OUTROS
-    ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),lista_LST)),
+    ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),LISTA_LST_CONCAT)),
     ( r'(.+)', "Oops"),
 ]
 # print(regras)
@@ -40,6 +42,13 @@ def save_log(msg,ident):
     else:
         file.write('\n---FIM DE CONVERSA---\n\n')
     file.close()
+
+# printa uma despedida e escreve o resultado no ficheiro log assim como o fim de conversa
+def get_despedida_e_escreve_log():
+    despedida = random.choice(despedidas)
+    save_log(despedida,'bot')
+    print(despedida)
+    save_log('','')
 
 ##### Funcoes #####
 
@@ -63,10 +72,10 @@ def responde(content):
     return random.choice(clueless)
 
 ### Carregar ficheiros ###
-
 # cria uma lista com o conteúdo que está no ficheiro inputs.txt
 def get_ficheiros_input():
-    file = "./diretor/" + sys.argv[1]
+    # print(INPUT_FILE) # debug
+    file = "./diretor/" + INPUT_FILE
     file = open(file, "r").read()
     ficheiros_input = file.split('\n')
     return ficheiros_input
@@ -92,8 +101,23 @@ def concat_files_into_list(lista):
 
 
 ##### Main #####
-def main():
-    while True:
+def main(options):
+    run = True
+    if ('-h' in options) or ('--help' in options):
+        print_help()
+        run = False
+    elif ('-f' in options) or ('--file' in options):
+        file = (options.get('-f')) or (options.get('--file'))
+        global INPUT_FILE # para o python saber que queremos a variavel global
+        INPUT_FILE = file
+
+    # TODO arrumar estas funçoes, ta uma mess
+    ficheiros_input = get_ficheiros_input()
+    lista_LST = divide_ficheiros_input(ficheiros_input)
+    global LISTA_LST_CONCAT # para o python saber que queremos a variavel global
+    LISTA_LST_CONCAT = concat_files_into_list(lista_LST)
+
+    while run:
         try:
             inputUser = input("Eu: ")
             save_log(inputUser,'user')
@@ -108,18 +132,32 @@ def main():
             get_despedida_e_escreve_log()
             sys.exit()
 
-# printa uma despedida e escreve o resultado no ficheiro log assim como o fim de conversa
-def get_despedida_e_escreve_log():
-    despedida = random.choice(despedidas)
-    save_log(despedida,'bot')
-    print(despedida)
-    save_log('','')
+# print de help ao utilizador
+def print_help():
+    print('DIRETOR\n')
+    print('')
+    print('\tOPTIONS:')
+    print('\t    -h, --help\n\t    \tPrint this message and exit.')
+    print('\t    -f, --file\n\t    \tGive input file to be used.')
+    print('')
 
 ##### Run #####
-
-ficheiros_input = get_ficheiros_input()
-# print(ficheiros_input)
-lista_LST = divide_ficheiros_input(ficheiros_input)
-# print(lista_LST)
-lista_LST = concat_files_into_list(lista_LST)
-main() # MAIN
+if __name__ == "__main__": # corre quando é o ficheiro principal
+    try:
+        # na listagem de options nao se coloca o - ou --
+        short_opts = 'hf:'
+        long_opts = ['help','file=']
+        options, remainder = getopt.getopt(sys.argv[1:],short_opts,long_opts)
+        options = dict(options) # options = [(option, argument)]
+        # print(options)
+        # print(remainder) # argumentos introduzidos que nao faziam sentido
+        if remainder:
+            print('Too many args')
+            sys.exit(1)
+        else:
+            main(options)
+    except getopt.GetoptError as err:
+        print('ERROR:', err)
+        sys.exit(1)
+else: # corre quando for importado
+    pass
