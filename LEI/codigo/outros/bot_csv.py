@@ -7,10 +7,6 @@ import pandas
 import csv
 import re
 
-# listaQuestao = [
-#     'Em que', 'Qual' , 'Quantos'
-# ]
-
 # def main():
 #     ops, args = getopt.getopt( sys.argv[ 1: ], 'b' )
 #     ops = dict( ops )
@@ -43,38 +39,47 @@ import re
 #         # return tagged_line
 
 
-# retorna a lista com os tipos e os valores
+# retorna a lista com os tipos_csv e os valores_csv
 def openCSV(file):
     with open(file, newline='') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',')
-        valores = []
+        valores_csv = []
         flag = 0
         for row in spamreader:
             if flag == 0:
-                tipos = row
+                tipos_csv = row
                 flag = 1
             else:
-                valores.append(row)
-    return(tipos,valores)
+                valores_csv.append(row)
+    return(tipos_csv,valores_csv)
 
-# def lista_unica(valores):
+
+(tipos_csv,valores_csv) = openCSV(sys.argv[1])
+tipos_csv_exp_reg = '|'.join(tipos_csv)
+
+# def lista_unica(valores_csv):
 #     lista_unica = []
-#     for row in valores:
+#     for row in valores_csv:
 #         for elemento in row:
 #             lista_unica.append(elemento)
 
 #     print(lista_unica)
 
-# dá match ao que queremos encontrar na mensagem
-def mensagemSearch(mensagem,tipos):
-    tipos = '|'.join(tipos)
-    match = re.search(r'Qual.*('+tipos+r').* (.*)\b\??', mensagem,re.IGNORECASE)
+lista_exp_reg = [
+    r'Qual.*('+tipos_csv_exp_reg+r').* (.*)\b\??',
+]
 
-    if match is None:
-        print('ripzao')
-    tipoObjetivo= match.group(1).capitalize()
-    elemento = match.group(2)
-    return(tipoObjetivo,elemento)
+# dá match ao que queremos encontrar na mensagem
+def mensagemSearch(mensagem,tipos_csv):
+
+    for exp_reg in lista_exp_reg:
+        match = re.search(exp_reg, mensagem,re.IGNORECASE)
+        if match is not None:
+            tipoObjetivo= match.group(1).capitalize()
+            elemento = match.group(2).capitalize()
+            return(tipoObjetivo,elemento)
+        else:
+            print('ripzao')
     # elemento = match.group(3).capitalize()
 
     # ForControlling = "Para controlar: " + tipoQuestao + " " + tipoObjetivo + " " + elemento
@@ -82,8 +87,8 @@ def mensagemSearch(mensagem,tipos):
     # return(tipoQuestao,tipoObjetivo,elemento)
 
 # retorna a lista com a linha onde está o valor pretendido
-def findRow(elemento,valores):
-    for row in valores:
+def findRow(elemento,valores_csv):
+    for row in valores_csv:
         for elem in row:
             if elem == elemento:
                 return row
@@ -98,16 +103,15 @@ def talk():
         # tagged_line = tagger_m.tag(nltk.word_tokenize(mensagem))
         # print(tagged_line)
 
-        (tipos,valores) = openCSV(sys.argv[1])
-        (tipoObjetivo,elemento) = mensagemSearch(mensagem,tipos)
+        (tipoObjetivo,elemento) = mensagemSearch(mensagem,tipos_csv)
 
         # verbo = find_verbo(tagged_line)
         # printVerbo = "Verbo: " + verbo
         # print(printVerbo)
 
         # # para obter a resposta
-        row = findRow(elemento,valores)
-        posi = tipos.index(tipoObjetivo)
+        row = findRow(elemento,valores_csv)
+        posi = tipos_csv.index(tipoObjetivo)
         resposta = row[posi]
         print(resposta)
         # print(resposta)
