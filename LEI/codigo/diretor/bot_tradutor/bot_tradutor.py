@@ -81,9 +81,9 @@ def verifica_dicionario(palavra,linguagem):
 
 
 
-##### FUTURE WORK #####
+#####  WORK IN PROGRESS  #####
 # gera regras de uso do bot para o diretor
-def geraRegras():
+def geraRegras(filename): # FIXME
     regras = [
         ( r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
         ( r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
@@ -92,6 +92,12 @@ def geraRegras():
         ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
         ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2)))
     ]
+    for regra in regras:
+        regra_new = tuple((regra[0],filename,('TRANS',5)))
+        print(regra_new)
+        nameless = lambda x,y: print(x,y)
+        nameless('ola',None)
+        # print(regra[0],filename)
     return regras
 
 
@@ -115,11 +121,13 @@ def talk():
 
 ##### MAIN #####
 def main(options):
-    print(options)
+    # print(options) # debug
     if '-h' in options:
         print_help()
-    elif options.get('-x')=='':
+    elif '-x' in options:
         talk()
+    elif '-r' in options:
+        geraRegras('batatas.txt') # FIXME
 
 # como reagir quando é importado
 def imported():
@@ -140,8 +148,8 @@ def print_help():
 if __name__ == "__main__": # corre quando é o ficheiro principal
     try:
         # na listagem de options nao se coloca o - ou --
-        short_opts = 'hx'
-        long_opts = ['help','exec']
+        short_opts = 'hxr'
+        long_opts = ['help','exec','rules']
         options, remainder = getopt.getopt(sys.argv[1:],short_opts,long_opts)
         options = dict(options) # options = [(option, argument)]
         # print(options)

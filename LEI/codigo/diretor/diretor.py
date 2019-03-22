@@ -107,6 +107,30 @@ def concat_files_into_list(lista):
         lista_geral.extend(lista_ficheiro)
     return(lista_geral)
 
+
+### ??? ###
+# print de help ao utilizador
+def print_help(): # FIXME
+    print('DIRETOR\n')
+    print('')
+    print('\tOPTIONS:')
+    print('\t    -h, --help\n\t    \tPrint this message and exit.')
+    print('\t    -f, --file\n\t    \tGive input file to be used.')
+    print('\t    -r, --rules\n\t    \tGenerates rules, for the files loaded')
+    print('')
+
+# gera regras de uso do bot para o diretor
+def geraRegras(): # FIXME
+    regras = [
+        ( r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
+        ( r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
+        ( r'([\w ]+) como se diz em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
+        ( r'[Ee]m (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1))),
+        ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
+        ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2)))
+    ]
+    return regras
+
 ##### Main #####
 def main(options):
     run = True
@@ -117,6 +141,12 @@ def main(options):
         file = (options.get('-f')) or (options.get('--file'))
         global INPUT_FILE # para o python saber que queremos a variavel global
         INPUT_FILE = file
+    elif ('-r' in options) or ('--rules' in options): # FIXME
+        if ('-f' in options) or ('--file' in options):
+            file = (options.get('-f')) or (options.get('--file'))
+            global INPUT_FILE # para o python saber que queremos a variavel global
+            INPUT_FILE = file
+        makeRules() # TODO
 
     # TODO arrumar estas funçoes, ta uma mess
     ficheiros_input = get_ficheiros_input()
@@ -141,21 +171,12 @@ def main(options):
             get_despedida_e_escreve_log()
             sys.exit()
 
-# print de help ao utilizador
-def print_help():
-    print('DIRETOR\n')
-    print('')
-    print('\tOPTIONS:')
-    print('\t    -h, --help\n\t    \tPrint this message and exit.')
-    print('\t    -f, --file\n\t    \tGive input file to be used.')
-    print('')
-
 ##### Run #####
 if __name__ == "__main__": # corre quando é o ficheiro principal
     try:
         # na listagem de options nao se coloca o - ou --
-        short_opts = 'hf:'
-        long_opts = ['help','file=']
+        short_opts = 'hf:r'
+        long_opts = ['help','file=','rules']
         options, remainder = getopt.getopt(sys.argv[1:],short_opts,long_opts)
         options = dict(options) # options = [(option, argument)]
         # print(options)
