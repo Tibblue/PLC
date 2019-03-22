@@ -5,6 +5,7 @@ import random
 
 from .bot_tradutor import bot_tradutor # atm tradutor
 from .bot_lista import bot_lista # atm proverbios
+from .bot_wiki import bot_wiki # atm wiki
 from .respostas import *
 INPUT_FILE = 'inputs.txt'
 LISTA_LST_CONCAT = ''
@@ -17,7 +18,8 @@ regras = [
     ( r'[Oo]lá[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesSimples)),
     ( r''+comoEstas_exp+'[ ,?]?('+interlocutor_exp+')?',lambda x : random.choice(agradecimentos)),
     # Informativo:Wiki
-    # (r'O que sabes sobre (.*)\b\??',lambda x : LISTA_DIC_CONTENT.get(x.group(1))),
+    (r'[Oo] que sabes sobre (.*)\b\??',lambda x : bot_wiki.gera_resposta(x.group(1),lista_DIC)),
+    (r'[Ff]ala me sobre (.*)\b\??',lambda x : bot_wiki.gera_resposta(x.group(1),lista_DIC)),
     # TRADUTOR
     ( r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
     ( r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
@@ -118,7 +120,9 @@ def main(options):
 
     # TODO arrumar estas funçoes, ta uma mess
     ficheiros_input = get_ficheiros_input()
+    global lista_DIC
     (lista_LST,lista_DIC) = divide_ficheiros_input(ficheiros_input)
+    # print(lista_DIC)
     global LISTA_LST_CONCAT # para o python saber que queremos a variavel global
     LISTA_LST_CONCAT = concat_files_into_list(lista_LST)
 
