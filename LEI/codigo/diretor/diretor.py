@@ -147,6 +147,8 @@ def main(options):
             global INPUT_FILE # para o python saber que queremos a variavel global
             INPUT_FILE = file
         makeRules() # TODO
+    elif '--debug' in options: # debug
+        run = False
 
     # TODO arrumar estas funçoes, ta uma mess
     ficheiros_input = get_ficheiros_input()
@@ -176,7 +178,7 @@ if __name__ == "__main__": # corre quando é o ficheiro principal
     try:
         # na listagem de options nao se coloca o - ou --
         short_opts = 'hf:r'
-        long_opts = ['help','file=','rules']
+        long_opts = ['help','file=','rules','debug']
         options, remainder = getopt.getopt(sys.argv[1:],short_opts,long_opts)
         options = dict(options) # options = [(option, argument)]
         # print(options)

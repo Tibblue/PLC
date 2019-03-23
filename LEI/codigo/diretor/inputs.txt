@@ -1,5 +1,6 @@
 proverbios.txt::LST
 lusiadas.txt::LST
 wiki.json::DIC
+dicionario.json::TRANS
 insultos.txt::
 senhordosaneis.txt::

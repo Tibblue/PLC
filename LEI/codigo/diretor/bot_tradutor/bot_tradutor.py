@@ -13,7 +13,6 @@ from .listaLinguas import linguas
 ##### Variaveis #####
 # respostas pré feitas, para casos especiais
 # linguaNotFound = ['Desconheço essa língua.','Não consegui perceber a que língua te referes','Não percebi. Podes repetir?']
-# matchFailed = ['Essa não sei.','Está fora dos meus conhecimentos.','Não percebi. Podes repetir?']
 
 ##### Funçoes #####
 # traduz uma dada palavra para uma dada linguagem
@@ -49,8 +48,10 @@ def guardar_cache(palavra,linguagem,traducao):
 
 # guarda no dicionario pessoal a traduçao de uma palavra para um linguagem
 def guardar_dicionario(palavra,linguagem,traducao):
+    dicio = 'dicionario.json'
+    path_to_data = "./diretor/data/"
     abrevLinguagem = linguas.get(linguagem.capitalize())
-    dict_json = json.loads(open("./diretor/bot_tradutor/dicionario.json").read())
+    dict_json = json.loads(open(path_to_data+dicio).read())
     if dict_json.get(palavra):
         dict_json[palavra].update({abrevLinguagem:traducao})
     else:
@@ -72,7 +73,9 @@ def verifica_cache(palavra,linguagem):
 
 # procura no dicionario se já existe a traduçao de uma palavra para uma linguagem
 def verifica_dicionario(palavra,linguagem):
-    dict_json = json.loads(open("./diretor/bot_tradutor/dicionario.json").read())
+    dicio = 'dicionario.json'
+    path_to_data = "./diretor/data/"
+    dict_json = json.loads(open(path_to_data+dicio).read())
     if dict_json.get(palavra):
         if dict_json[palavra].get(linguagem):
             return dict_json[palavra][linguagem]
@@ -92,7 +95,7 @@ def geraRegras(filename): # FIXME
         ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
         ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2)))
     ]
-    for regra in regras:
+    for regra in regras: # debug
         regra_new = tuple((regra[0],filename,('TRANS',5)))
         print(regra_new)
         nameless = lambda x,y: print(x,y)
