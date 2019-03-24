@@ -4,6 +4,12 @@ interlocutor = [
 ]
 interlocutor_exp = '|'.join(interlocutor)
 
+tipos_perguntas = [
+    "[Qq]uando","[Qq]ual","[Qq]uem","[Oo]nde","[Qq]ual","[Qq]uantos"
+]
+
+tipos_perguntas_exp = '|'.join(tipos_perguntas)
+
 resp_saudacoesDia = [
     "Bom dia para ti também! Está um dia lindo, de facto!", "Bom dia para ti também!",
     "Bom dia. Mas que simpático, humano.", "Muito bom dia para ti humano. Obrigada pela consideração.",

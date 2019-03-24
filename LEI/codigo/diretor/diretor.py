@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-import sys, getopt
+import sys, getopt, os
 import regex as re
 import random
-
 from .bot_tradutor import bot_tradutor # atm tradutor
 from .bot_lista import bot_lista # atm proverbios
 from .bot_wiki import bot_wiki # atm wiki
+from .bot_csv import bot_csv
 from .respostas import *
 INPUT_FILE = 'inputs.txt'
 LISTA_LST_CONCAT = ''
@@ -27,6 +27,8 @@ regras = [
     ( r'[Ee]m (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1))),
     ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
     ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2))),
+    # CSV's
+    (r'('+tipos_perguntas_exp+r').*', lambda x: bot_csv.responde(x.group(0),files_CSV)),
     # OUTROS
     ( r'(.+)', lambda x: bot_lista.gera_resposta(x.group(1),LISTA_LST_CONCAT)),
     ( r'(.+)', "Oops"),
@@ -96,7 +98,9 @@ def divide_ficheiros_input(ficheiros_input):
             lista_LST.append(nome_ficheiro)
         elif cod == 'DIC':
             lista_DIC.append(nome_ficheiro)
-    return (lista_LST,lista_DIC)
+        elif cod == 'CSV':
+            files_CSV = nome_ficheiro
+    return (lista_LST,lista_DIC,files_CSV)
 
 def concat_files_into_list(lista):
     lista_geral = []
@@ -144,8 +148,8 @@ def main(options):
     elif ('-r' in options) or ('--rules' in options): # FIXME
         if ('-f' in options) or ('--file' in options):
             file = (options.get('-f')) or (options.get('--file'))
-            global INPUT_FILE # para o python saber que queremos a variavel global
-            INPUT_FILE = file
+            # global INPUT_FILE # para o python saber que queremos a variavel global
+            # INPUT_FILE = file
         makeRules() # TODO
     elif '--debug' in options: # debug
         run = False
@@ -153,13 +157,15 @@ def main(options):
     # TODO arrumar estas funçoes, ta uma mess
     ficheiros_input = get_ficheiros_input()
     global lista_DIC
-    (lista_LST,lista_DIC) = divide_ficheiros_input(ficheiros_input)
+    global files_CSV
+    (lista_LST,lista_DIC,files_CSV) = divide_ficheiros_input(ficheiros_input)
     # print(lista_DIC)
     global LISTA_LST_CONCAT # para o python saber que queremos a variavel global
     LISTA_LST_CONCAT = concat_files_into_list(lista_LST)
 
     while run:
         try:
+
             inputUser = input("Eu: ")
             save_log(inputUser,'user')
             if any(item.lower() == inputUser.lower() for item in terminadores):
