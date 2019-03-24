@@ -1,17 +1,27 @@
+import json
+import xml.etree.ElementTree as ET
+import re
 
-# import urllib.request, json
-# with urllib.request.urlopen("http://dicionario-aberto.net/search-json/carro") as url:
-#     data = json.loads(url.read().decode())
-#     # prettyJSON = json.dumps(data,sort_keys=True, indent=2)
-#     # print(prettyJSON)
+tree = ET.parse('letraA.xml')
+entrys = tree.findall('entry')
 
-#     x = data["superEntry"][1]
-#     print(x)
 
-from xml.dom import minidom
-xmldoc = minidom.parse('teste.xml')
-entry_list = xmldoc.getElementsByTagName('entry')
-print(len(entry_list))
-# print(entry_list[0].attributes['orth'].value)
-for s in entry_list:
-    print(s.attributes['orth'].value)
+for entry in entrys:
+    try:
+        lista_def = []
+        palavra = entry.find('form/orth').text
+        senses = entry.findall('sense')
+        for sense in senses:
+            definition = sense.find('def').text
+            # definition = re.sub(r'(\n)','',definition)
+            # definition = re.sub(r'_','',definition)
+            # definition = re.sub(r'[,:.\?!]','',definition)
+            lista_def.append(definition)
+        # print(palavra,lista_def)
+        dicio_json = json.loads(open("dicio.json").read())
+        dicio_json.update({palavra:lista_def})
+        prettyJSON = json.dumps(dicio_json,sort_keys=True, indent=2,ensure_ascii=False)
+        f = open("dicio.json", "w")
+        f.write(prettyJSON)
+    except:
+        pass
