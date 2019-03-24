@@ -1,0 +1,20 @@
+{
+    "individuals.csv": {
+        "Nome":{
+            "Tipo" : "Pessoa",
+            "Unique" : "True"
+        },
+        "Idade":{
+            "Tipo" : "Numero"
+        },
+        "País": {
+            "Tipo": "Local"
+        },
+        "Nascimento": {
+            "Tipo": "Tempo"
+        },
+        "Comida": {
+            "Tipo": "Objeto"
+        }
+    }
+}

@@ -2,5 +2,6 @@ proverbios.txt::LST
 lusiadas.txt::LST
 wiki.json::DIC
 dicionario.json::TRANS
+files_csv.json::CSV
 insultos.txt::
 senhordosaneis.txt::
