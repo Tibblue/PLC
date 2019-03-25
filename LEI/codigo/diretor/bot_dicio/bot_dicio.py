@@ -17,11 +17,12 @@ for entry in entrys:
             # definition = re.sub(r'_','',definition)
             # definition = re.sub(r'[,:.\?!]','',definition)
             lista_def.append(definition)
-        # print(palavra,lista_def)
-        dicio_json = json.loads(open("dicio.json").read())
-        dicio_json.update({palavra:lista_def})
-        prettyJSON = json.dumps(dicio_json,sort_keys=True, indent=2,ensure_ascii=False)
-        f = open("dicio.json", "w")
-        f.write(prettyJSON)
+        print(palavra,lista_def)
+
     except:
         pass
+    dicio_json = json.loads(open("dicio.json").read())
+    dicio_json.update({palavra:lista_def})
+    prettyJSON = json.dumps(dicio_json,sort_keys=True, indent=2,ensure_ascii=False)
+    f = open("dicio.json", "w")
+    f.write(prettyJSON)
