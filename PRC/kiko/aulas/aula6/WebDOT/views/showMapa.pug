@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    script(scr="/javascripts/jquery-3.3.1.min.js")
+    script(src="https://d3js.org/d3.v5.min.js")
+    script(src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker")
+    script(src="https://unpkg.com/d3-graphviz@1.4.0/build/d3-graphviz.min.js")
+
+    div(class="w3-container")
+        header(class="w3-container w3-center w3-cyan")
+            h1 Navegador Grafico
+    div(class="w3-container")
+        div(class="w3-container w3-border w3-light-grey")
+            header(class="w3-container")
+                h4 Mapa (SVG)
+        div(class="w3-border" id="graph")
+            script!= renderingCode
+    div(class="w3-container")
+        footer(class="w3-container w3-cyan")
+            address Gerado por WebDOT
