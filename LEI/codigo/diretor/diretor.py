@@ -17,7 +17,7 @@ regras = [
     ( r'[Bb]oa tarde[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesTarde)),
     ( r'[Oo]lá[ ,]?('+interlocutor_exp+')?',lambda x : random.choice(resp_saudacoesSimples)),
     ( r''+comoEstas_exp+'[ ,?]?('+interlocutor_exp+')?',lambda x : random.choice(agradecimentos)),
-    # Informativo:Wiki
+    # WIKI
     (r'[Oo] que sabes sobre (.*)\b\??',lambda x : bot_wiki.gera_resposta(x.group(1),lista_DIC)),
     (r'[Ff]ala me sobre (.*)\b\??',lambda x : bot_wiki.gera_resposta(x.group(1),lista_DIC)),
     # TRADUTOR
