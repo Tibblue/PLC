@@ -15,5 +15,3 @@ NOTAS a não esquecer
             Bot: Acalmate Kiko...
 
 3. KIKO - meter a pasta log dentro do diretor (faz mais sentido)
-4. KIKO - bots ainda em fase inicial (aka csv, wiki, etc)
-    * mover para ou pasta a parte (bots_em_producao)
