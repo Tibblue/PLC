@@ -6,13 +6,15 @@ def get_regras(bot):
     regras = []
     if bot == 'bot_lista':
         regras = bot_lista.regras
-        return regras
+        # ver linha debaixo
+        bot = lambda x: bot_lista.gera_resposta(x.group(1)),
+        return regras,bot
 
 def create_triplos():
     tuplos = read_dsl.read_dsl()
     triplos = []
     for bot,dataset in tuplos:
-        regras = get_regras(bot)
+        regras,bot = get_regras(bot)
         triplo = tuple((regras,bot,dataset))
         triplos.append(triplo)
     return triplos
