@@ -4,6 +4,7 @@ import random
 import re
 import regex as re
 
+regras = [r'(.+)',r'(.+)']
 
 # remove stopwords e pontuação da mensagem revcebida com input
 def cleanText(mensagem):
