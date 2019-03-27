@@ -1,5 +1,8 @@
 import sys
 
+
+# lê a dsl e retorna uma lista de tuplos que contém os bots e o dataset a ser usado
+
 def read_dsl():
     tuplos = []
     ficheiro = sys.argv[1]
