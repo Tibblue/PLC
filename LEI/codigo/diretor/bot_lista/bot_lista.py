@@ -3,6 +3,7 @@ import nltk
 import random
 import re
 import regex as re
+import os
 
 regras = [r'(.+)']
 
@@ -14,10 +15,10 @@ def cleanText(mensagem):
 
 # cria uma lista com as respostas toda encotnradas com base na
 # mensagem e na lista com o conteudo dos ficheiros
-def find_respostas(palavras,lista_MX):
+def find_respostas(palavras,dataset):
     listaRespostas = []
     comp = 1
-    for l in lista_MX:
+    for l in dataset:
         count = 0
         for pal in palavras:
             if(my_substring(pal,l)):
@@ -40,9 +41,22 @@ def my_substring (pal,l):
     return False
 
 # gera uma resposta
-def gera_resposta(mensagem,lista_MX):
+def gera_resposta(mensagem,dataset):
     palavras = cleanText(mensagem)
-    listaRespostas = find_respostas(palavras,lista_MX)
+    listaRespostas = find_respostas(palavras,dataset)
 
+    if listaRespostas:
+        return random.choice(listaRespostas)
+
+
+# gera uma resposta
+def gera_resposta_dsl(mensagem,dataset):
+    palavras = cleanText(mensagem)
+    # path_dataset = os.getcwd() + '/diretor/data/' + dataset
+    path_dataset = os.getcwd() + '/data/' + dataset
+    print(path_dataset)
+    dataset = open(path_dataset).read()
+    dataset = dataset.split('\n')
+    listaRespostas = find_respostas(palavras,dataset)
     if listaRespostas:
         return random.choice(listaRespostas)
