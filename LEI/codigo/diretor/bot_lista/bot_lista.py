@@ -5,7 +5,10 @@ import re
 import regex as re
 import os
 
-regras = [r'(.+)']
+regras = [
+    ( r'(.+)', lambda x,dataset: bot_lista.gera_resposta_dsl(x.group(1),dataset))
+]
+
 
 # remove stopwords e pontuação da mensagem revcebida com input
 def cleanText(mensagem):

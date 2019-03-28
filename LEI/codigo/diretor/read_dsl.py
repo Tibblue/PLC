@@ -19,4 +19,3 @@ def read_dsl():
         tuplo = tuple((bot,dataset))
         tuplos.append(tuplo)
     return tuplos
-
