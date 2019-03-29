@@ -1,14 +1,6 @@
 import read_dsl
-from bot_lista import bot_lista
+from get_regras import get_regras
 
-
-def get_regras(bot):
-    regras = []
-    if bot == 'bot_lista':
-        regras = bot_lista.regras
-        # ver linha debaixo
-        print(regras)
-        return regras
 
 def change_tuplos():
     tuplos_dsl = read_dsl.read_dsl()

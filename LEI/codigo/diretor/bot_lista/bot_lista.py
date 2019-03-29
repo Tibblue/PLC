@@ -5,9 +5,9 @@ import re
 import regex as re
 import os
 
-regras = [
-    ( r'(.+)', lambda x,dataset: bot_lista.gera_resposta_dsl(x.group(1),dataset))
-]
+# regras = [
+#     ( r'(.+)', lambda x,dataset: bot_lista.gera_resposta_dsl(x.group(1),dataset))
+# ]
 
 
 # remove stopwords e pontuação da mensagem revcebida com input
@@ -57,7 +57,6 @@ def gera_resposta_dsl(mensagem,dataset):
     palavras = cleanText(mensagem)
     # path_dataset = os.getcwd() + '/diretor/data/' + dataset
     path_dataset = os.getcwd() + '/data/' + dataset
-    print(path_dataset)
     dataset = open(path_dataset).read()
     dataset = dataset.split('\n')
     listaRespostas = find_respostas(palavras,dataset)

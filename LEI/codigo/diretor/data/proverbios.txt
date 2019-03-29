@@ -542,7 +542,7 @@ diz-me com quem andas, dir-te-ei quem és
 diz-me com quem andas e dir-te-ei que se for de carro eu quero boleia
 diz-me com quem andas e ficas sem a miúda
 diz o roto ao nu, porque não te vestes tu
-diz o roto ao nu \Porque não te vestes tu?\
+diz o roto ao nu Porque não te vestes tu?
 diz o tacho para a panela -- sai daqui, não me enferretes
 do alto cai quem alto sobe
 do fogo te guardarás, e do mau homem não poderás
@@ -877,7 +877,7 @@ mais vale um pássaro voando do que dois na mão te bicando
 mais vale um pé no travão que dois no caixão
 mais vale um que bem mande do que dois que mal façam
 mais vale um sim tardio, que um não vazio
-mais vale um \toma\ do que dois \te darei\
+mais vale um toma do que dois te darei
 (mais vale|vale mais) prevenir que remediar
 mais vale verde no meu papo, que maduro no papo alheio
 mal de muitos consolo é

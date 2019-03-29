@@ -11,21 +11,17 @@ def responde(input_utilizador):
         for regra,funcao in regras:
             match = re.match(regra,input_utilizador)
             if match is not None:
-                print('deu match')
-                # output = bot(regra,dataset)
-                # print(output)
-                # print(bot)
+                print('Deu match')
                 if callable(funcao):
                     print('é callable')
-                    # dataset = open("data/"+bot).read()
-                    # print(dataset)
-                resposta = funcao(match,dataset)
-                if resposta is not None:
-                    return resposta
-    # print("not good bra")
+                    resposta = funcao(match,dataset)
+                    if resposta is not None:
+                        return resposta
+            else:
+                print('Nao deu match\n')
 
 # input_utilizador = input('Eu:')
-input_utilizador = 'galinha grão'
+input_utilizador = 'Fala me sobre Abril?'
 # x = bot_lista.gera_resposta_dsl(input_utilizador,'proverbios.txt')
 # print(x)
 resposta = responde(input_utilizador)
