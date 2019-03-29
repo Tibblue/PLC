@@ -1,7 +1,7 @@
+import re
 from change_tuplos import change_tuplos
 from bot_lista import bot_lista
-import re
-
+from respostas import *
 
 # percorre as regras até encontrar uma que dê match e devolve o output
 def responde(input_utilizador):

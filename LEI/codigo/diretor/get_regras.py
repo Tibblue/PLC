@@ -20,6 +20,10 @@ regras_bot_tradutor = [
     ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2)))
 ]
 
+regras_bot_csv = [
+    (r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_csv.responde_dsl(x.group(0),dataset)),
+]
+
 def get_regras(bot):
     regras = []
     if bot == 'bot_lista':
@@ -28,4 +32,6 @@ def get_regras(bot):
         regras = regras_bot_tradutor
     elif bot == 'bot_wiki':
         regras = regras_bot_wiki
+    elif bot == 'bot_csv':
+        regras = regras_bot_csv
     return regras

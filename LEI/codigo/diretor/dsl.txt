@@ -1,1 +1,1 @@
-b1 = CREATE bot_wiki FROM wiki.json ;
+b1 = CREATE bot_csv FROM individual.csv ;

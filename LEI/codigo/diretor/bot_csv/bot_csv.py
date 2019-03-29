@@ -23,17 +23,19 @@ def get_lista_nomeColunas(json_file):
     return lista_nomeColunas
 
 # retorna  os valores_csv
-def openCSV(file):
-    with open(file, newline='') as csvfile:
+def openCSV(path):
+    with open(path, newline='') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',')
         valores_csv = []
+        lista_nomeColunas = []
         flag = 0
         for row in spamreader:
             if flag == 0:
                 flag = 1
+                lista_nomeColunas = row
             else:
                 valores_csv.append(row)
-    return valores_csv
+    return lista_nomeColunas,valores_csv
 
 #######################################################################
 # Variáveis globais/funções/listas
@@ -136,3 +138,32 @@ def responde(mensagem,files_csv):
     else:
         resposta = respond_missing_agr(questao,elemento,lista_nomeColunas,files_csv,valores_csv)
     return resposta
+
+
+def responde_dsl(mensagem,dataset):
+
+    # path só para testing individual
+    path_dataset = os.path.dirname(os.getcwd()) + '/data/' + dataset
+    # path correto
+    # path_dataset = os.getcwd() + '/data/' + dataset
+    (lista_nomeColunas,valores_csv) = openCSV(path_dataset)
+    nome_colunas_exp_reg = '|'.join(lista_nomeColunas)
+    lista_exp_reg = [
+        (r'(Quem).* (.*) anos\b\??'), # ver como resolver esta situação
+        (r'(Quem).* (.*)\b\??'),
+        (r'(Quantos).* (.*)\b\??'),
+        (r'(Onde).* (.*)\b\??'),
+        (r'(Quando).* (.*)\b\??'),
+        (r'(Qual).*('+nome_colunas_exp_reg+r').* (.*)\b\??')
+    ]
+
+    (questao,nome_coluna_obj,elemento) = mensagemSearch(mensagem,lista_nomeColunas,lista_exp_reg)
+    print(questao,nome_coluna_obj,elemento)
+
+    # if nome_coluna_obj is not "":
+    #     resposta = respond_full_agr(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
+    # else:
+    #     resposta = respond_missing_agr(questao,elemento,lista_nomeColunas,files_csv,valores_csv)
+    # return resposta
+
+responde_dsl('Qual a comida preferida do Kiko?','individual.csv')
