@@ -11,14 +11,15 @@ def responde(input_utilizador):
         for regra,funcao in regras:
             match = re.match(regra,input_utilizador)
             if match is not None:
-                print('Deu match')
+                # print('Deu match')
                 if callable(funcao):
-                    print('é callable')
+                    # print('é callable')
                     resposta = funcao(match,dataset)
                     if resposta is not None:
                         return resposta
             else:
-                print('Nao deu match\n')
+                # print('Nao deu match\n')
+                pass
 
 input_utilizador = input('Eu:')
 # input_utilizador = 'Quando nasceu o Kiko?'

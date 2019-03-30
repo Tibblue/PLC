@@ -50,7 +50,7 @@ def read_dsl():
     # sort das prioridades
     tuplos_joined.sort(key=itemgetter(1),reverse=True)
     tuplos = rem_prioridades_triplos(tuplos,tuplos_joined)
-    print(tuplos)
+    # print(tuplos)
     return tuplos
 
 read_dsl()
