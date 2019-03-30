@@ -139,14 +139,42 @@ def responde(mensagem,files_csv):
         resposta = respond_missing_agr(questao,elemento,lista_nomeColunas,files_csv,valores_csv)
     return resposta
 
+####################################################################################################
+# DSL AREA
 
-def responde_dsl(mensagem,dataset):
+# responde quando tem todos os argumentos precisos
+def respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv):
+    nome_coluna_obj= nome_coluna_obj.capitalize()
+    posi = lista_nomeColunas.index(nome_coluna_obj)
+    row = findRow(elemento,valores_csv)
+    return row[posi]
 
-    # path só para testing individual
-    path_dataset = os.path.dirname(os.getcwd()) + '/data/' + dataset
-    # path correto
-    # path_dataset = os.getcwd() + '/data/' + dataset
-    (lista_nomeColunas,valores_csv) = openCSV(path_dataset)
+
+# responde quando não tem todos os argumentos precisos
+def respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_csv):
+    for quest,tipo in lista_questao_tipo:
+        if quest.lower() == questao:
+            tipo_obj = tipo
+    for nomeColuna in lista_nomeColunas:
+        tipo_coluna = schema[nomeColuna]['Tipo']
+        if tipo_obj == tipo_coluna:
+            nome_coluna_obj = nomeColuna
+    return respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
+
+def responde_dsl(mensagem,schema,csv):
+
+    # paths só para testing individual
+    # path_csv = os.path.dirname(os.getcwd()) + '/data/' + csv
+    # path_schema = os.path.dirname(os.getcwd()) + '/data/' + schema
+
+    # paths para quando correr no /diretor
+    path_csv = os.getcwd() + '/data/' + csv
+    path_schema = os.getcwd() + '/data/' + schema
+
+    # guarda o conteudo do ficheiro json com o schema
+    schema = save_json(path_schema)
+
+    (lista_nomeColunas,valores_csv) = openCSV(path_csv)
     nome_colunas_exp_reg = '|'.join(lista_nomeColunas)
     lista_exp_reg = [
         (r'(Quem).* (.*) anos\b\??'), # ver como resolver esta situação
@@ -158,12 +186,14 @@ def responde_dsl(mensagem,dataset):
     ]
 
     (questao,nome_coluna_obj,elemento) = mensagemSearch(mensagem,lista_nomeColunas,lista_exp_reg)
-    print(questao,nome_coluna_obj,elemento)
+    # print(questao,nome_coluna_obj,elemento)
 
-    # if nome_coluna_obj is not "":
-    #     resposta = respond_full_agr(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
-    # else:
-    #     resposta = respond_missing_agr(questao,elemento,lista_nomeColunas,files_csv,valores_csv)
-    # return resposta
+    if nome_coluna_obj is not "":
+         resposta = respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
+    else:
+        resposta = respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_csv)
+    return resposta
 
-responde_dsl('Qual a comida preferida do Kiko?','individual.csv')
+# resposta = responde_dsl('Qual a comida preferida do Kiko?','individual_schema.json','individual.csv')
+# resposta = responde_dsl('Quando nasceu o Kiko?','individual_schema.json','individual.csv')
+# print(resposta)

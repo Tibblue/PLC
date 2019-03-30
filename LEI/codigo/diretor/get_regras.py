@@ -1,14 +1,16 @@
 from bot_lista import bot_lista
 from bot_tradutor import bot_tradutor
 from bot_wiki import bot_wiki
+from bot_csv import bot_csv
+from respostas import *
 
 regras_bot_lista = [
-    ( r'(.+)', lambda x,dataset: bot_lista.gera_resposta_dsl(x.group(1),dataset))
+    ( r'(.+)', lambda x,dataset: bot_lista.gera_resposta_dsl(x.group(1),dataset[0]))
 ]
 
 regras_bot_wiki = [
-    (r'[Oo] que sabes sobre (.*)\b\??',lambda x,dataset : bot_wiki.gera_resposta_dsl(x.group(1),dataset)),
-    (r'[Ff]ala me sobre (.*)\b\??',lambda x,dataset : bot_wiki.gera_resposta_dsl(x.group(1),dataset)),
+    (r'[Oo] que sabes sobre (.*)\b\??',lambda x,dataset : bot_wiki.gera_resposta_dsl(x.group(1),dataset[0])),
+    (r'[Ff]ala me sobre (.*)\b\??',lambda x,dataset : bot_wiki.gera_resposta_dsl(x.group(1),dataset[0])),
 ]
 
 regras_bot_tradutor = [
@@ -21,7 +23,7 @@ regras_bot_tradutor = [
 ]
 
 regras_bot_csv = [
-    (r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_csv.responde_dsl(x.group(0),dataset)),
+    (r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_csv.responde_dsl(x.group(0),dataset[0],dataset[1])),
 ]
 
 def get_regras(bot):

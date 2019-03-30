@@ -21,7 +21,7 @@ def responde(input_utilizador):
                 print('Nao deu match\n')
 
 # input_utilizador = input('Eu:')
-input_utilizador = 'Fala me sobre Abril?'
+input_utilizador = 'Quando nasceu o Kiko?'
 # x = bot_lista.gera_resposta_dsl(input_utilizador,'proverbios.txt')
 # print(x)
 resposta = responde(input_utilizador)
