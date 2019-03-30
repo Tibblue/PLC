@@ -1,5 +1,5 @@
 b0 = CREATE bot_csv WITH individual_schema.json FROM individual.csv ;
-b1 = CREATE bot_lista FROM lusidas.txt
+b1 = CREATE bot_lista FROM lusiadas.txt
 b2 = CREATE bot_lista FROM proverbios.txt
 b3 = CREATE bot_wiki FROM wiki.json
 

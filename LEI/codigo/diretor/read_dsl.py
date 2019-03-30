@@ -48,8 +48,6 @@ def read_dsl():
         if datasets != [] or bot != []:
             tuplo = tuple((bot,datasets))
             tuplos.append(tuplo)
-
-    print(tuplos)
     return tuplos
 
 read_dsl()
