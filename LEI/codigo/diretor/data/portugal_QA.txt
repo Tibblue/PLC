@@ -1,0 +1,5 @@
+Quem;foi;[rei,Portugal];D. Afonso Henriques
+Quem;foi;[primeiro,rei,Portugal];D. Afonso Henriques
+Quem;foi;[primeiro,rei];D. Henriques
+Quem;foi;[primeiro,rei,Portugal];D. Henriques
+Quem;foi;[segundo,rei,Portugal];D. Sancho I

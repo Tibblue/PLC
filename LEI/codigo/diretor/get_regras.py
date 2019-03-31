@@ -2,6 +2,7 @@ from bot_lista import bot_lista
 from bot_tradutor import bot_tradutor
 from bot_wiki import bot_wiki
 from bot_csv import bot_csv
+from bot_QA import bot_QA
 from respostas import *
 
 regras_bot_lista = [
@@ -26,6 +27,11 @@ regras_bot_csv = [
     (r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_csv.responde_dsl(x.group(0),dataset[0],dataset[1])),
 ]
 
+regras_bot_QA = [
+    (r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_QA.responde(x.group(0),dataset[0])),
+]
+
+
 def get_regras(bot):
     regras = []
     if bot == 'bot_lista':
@@ -36,4 +42,6 @@ def get_regras(bot):
         regras = regras_bot_wiki
     elif bot == 'bot_csv':
         regras = regras_bot_csv
+    elif bot == 'bot_QA':
+        regras = regras_bot_QA
     return regras
