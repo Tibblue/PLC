@@ -4,7 +4,6 @@ import random
 import re
 import regex as re
 import os
-
 # regras = [
 #     ( r'(.+)', lambda x,dataset: bot_lista.gera_resposta_dsl(x.group(1),dataset))
 # ]
@@ -32,7 +31,9 @@ def find_respostas(palavras,dataset):
             listaRespostas.append(l.capitalize())
         elif count == comp:
             listaRespostas.append(l.capitalize())
-    return listaRespostas
+    n_matches = comp
+
+    return listaRespostas,n_matches
 
 # verfica se uma palavra está contida numa string
 def my_substring (pal,l):
@@ -55,10 +56,16 @@ def gera_resposta(mensagem,dataset):
 # gera uma resposta
 def gera_resposta_dsl(mensagem,dataset):
     palavras = cleanText(mensagem)
+    # print(palavras)
     # path_dataset = os.getcwd() + '/diretor/data/' + dataset
     path_dataset = os.getcwd() + '/data/' + dataset
     dataset = open(path_dataset).read()
     dataset = dataset.split('\n')
-    listaRespostas = find_respostas(palavras,dataset)
+    listaRespostas,n_matches = find_respostas(palavras,dataset)
+    tam_input = len(palavras)
+    # print("n_matches",n_matches)
+    # print('tam_input: ', tam_input)
+    ratio = (n_matches+1)/tam_input
+    # print('ratio: ',ratio)
     if listaRespostas:
-        return random.choice(listaRespostas)
+        return random.choice(listaRespostas),ratio

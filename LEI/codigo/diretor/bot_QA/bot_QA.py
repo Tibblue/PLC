@@ -23,25 +23,32 @@ def responde(input_utilizador,dataset):
     comp = 0
     max_value = 999999999
     info = trata_info(dataset)
-
+    result = None
+    ratio = 1
     for questao,verbo,keywords,resposta in info:
         keywords = trata_keywords(keywords)
         if questao in input_utilizador and verbo in input_utilizador:
-            c = 0
+            count = 0
             value = 0
             for key in keywords:
-                if key in input_utilizador:
-                    c += 1
+                if key.lower() in input_utilizador.lower():
+                    count += 1
                     value += formas_totalPT.dicRank.get(key)
-            if c > comp:
+            if count > comp:
                 max_value = value
-                comp = c
+                comp = count
                 result = resposta
-            elif c == comp:
+            elif count == comp:
                 if value < max_value:
                     max_value = value
                     result = resposta
-    return result
+                n_keywords = len(keywords)
+    print(input_utilizador)
+    print("número matches: " ,count)
+    print("número keywords: ",n_keywords)
+    ratio = comp/n_keywords
+    print(ratio)
+    return result,ratio
 
 #  condição de desempate pode ser o resultado das formastotal pt da somas das keywords
 

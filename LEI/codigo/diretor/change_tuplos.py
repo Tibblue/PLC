@@ -3,13 +3,13 @@ from get_regras import get_regras
 
 
 def change_tuplos():
-    tuplos_dsl = read_dsl.read_dsl()
-    tuplos = []
-    for bot,dataset in tuplos_dsl:
+    triplos_dsl = read_dsl.read_dsl()
+    triplos = []
+    for bot,dataset,prioridade_bot in triplos_dsl:
         regras = get_regras(bot)
-        tuplo = tuple((regras,dataset))
-        tuplos.append(tuplo)
-    return tuplos
+        tuplo = tuple((regras,dataset,prioridade_bot))
+        triplos.append(tuplo)
+    return triplos
 
-# tuplos = change_tuplos()
-# print(tuplos)
+# triplos = change_tuplos()
+# print(triplos)

@@ -94,7 +94,6 @@ def respond_missing_agr(questao,elemento,lista_nomeColunas,files_csv,valores_csv
     return resposta
 
 def responde(mensagem,files_csv):
-
     # path para ser possível ir buscar coisas à data
     path_atual = os.getcwd()
     path_data = path_atual + '/diretor/data/'
@@ -162,6 +161,8 @@ def respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_cs
     return respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
 
 def responde_dsl(mensagem,schema,csv):
+    ratio = 1
+
 
     # paths só para testing individual
     # path_csv = os.path.dirname(os.getcwd()) + '/data/' + csv
@@ -192,7 +193,7 @@ def responde_dsl(mensagem,schema,csv):
          resposta = respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
     else:
         resposta = respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_csv)
-    return resposta
+    return resposta,ratio
 
 # resposta = responde_dsl('Qual a comida preferida do Kiko?','individual_schema.json','individual.csv')
 # resposta = responde_dsl('Quando nasceu o Kiko?','individual_schema.json','individual.csv')
