@@ -1,0 +1,224 @@
+@prefix : <http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-14#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://prc.di.uminho.pt/2019/cinema> .
+
+<http://prc.di.uminho.pt/2019/cinema> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/cinema#atuou
+:atuou rdf:type owl:ObjectProperty ;
+       owl:inverseOf :temAtor ;
+       rdfs:domain :Pessoa ;
+       rdfs:range :Filme .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#compos
+:compos rdf:type owl:ObjectProperty ;
+        owl:inverseOf :foiComposta .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#escreveu
+:escreveu rdf:type owl:ObjectProperty ;
+          owl:inverseOf :foiEscrita .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#foiComposta
+:foiComposta rdf:type owl:ObjectProperty .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#foiEscrita
+:foiEscrita rdf:type owl:ObjectProperty .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#realizou
+:realizou rdf:type owl:ObjectProperty ;
+          owl:inverseOf :temRealizador .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#temAtor
+:temAtor rdf:type owl:ObjectProperty .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#temGenero
+:temGenero rdf:type owl:ObjectProperty ;
+           owl:inverseOf :éGeneroDe .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#temPeçaMusical
+:temPeçaMusical rdf:type owl:ObjectProperty ;
+                owl:inverseOf :éPeçaMusicalDe .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#temRealizador
+:temRealizador rdf:type owl:ObjectProperty .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#éGeneroDe
+:éGeneroDe rdf:type owl:ObjectProperty .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#éPeçaMusicalDe
+:éPeçaMusicalDe rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/cinema#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#sexo
+:sexo rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/cinema#Argumento
+:Argumento rdf:type owl:Class ;
+           rdfs:subClassOf :Obra .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Ator
+:Ator rdf:type owl:Class ;
+      owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :atuou ;
+                                                   owl:someValuesFrom :Filme
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#AtorFeminino
+:AtorFeminino rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :Ator
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :sexo ;
+                                                           owl:hasValue "F"
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#AtorMasculino
+:AtorMasculino rdf:type owl:Class ;
+               rdfs:subClassOf :Ator .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Escritor
+:Escritor rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :escreveu ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:unionOf ( :Argumento
+                                                                                          :Livro
+                                                                                        )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf :Pessoa .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Filme
+:Filme rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Genero
+:Genero rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Livro
+:Livro rdf:type owl:Class ;
+       rdfs:subClassOf :Obra .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Musico
+:Musico rdf:type owl:Class ;
+        rdfs:subClassOf :Pessoa .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Obra
+:Obra rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#PeçaMusical
+:PeçaMusical rdf:type owl:Class ;
+             rdfs:subClassOf :Obra .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#Realizador
+:Realizador rdf:type owl:Class ;
+            rdfs:subClassOf :Pessoa .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://prc.di.uminho.pt/2019/cinema#a_BillyBurke
+:a_BillyBurke rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#a_DwayneJohnson
+:a_DwayneJohnson rdf:type owl:NamedIndividual ;
+                 :atuou :f_VelocidadeFuriosa4 .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#a_KristenSteward
+:a_KristenSteward rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#a_RobertPattinson
+:a_RobertPattinson rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#a_TaylorLautner
+:a_TaylorLautner rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#f_Twilight
+:f_Twilight rdf:type owl:NamedIndividual ;
+            :temAtor :a_BillyBurke ,
+                     :a_KristenSteward ,
+                     :a_RobertPattinson ,
+                     :a_TaylorLautner .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#f_VelocidadeFuriosa4
+:f_VelocidadeFuriosa4 rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#r_CatherineHardwicke
+:r_CatherineHardwicke rdf:type owl:NamedIndividual ;
+                      :realizou :f_Twilight ;
+                      :nome "Catherine Hardwicke" ;
+                      :sexo "F" .
+
+
+###  http://prc.di.uminho.pt/2019/cinema#r_MelissaRosenberg
+:r_MelissaRosenberg rdf:type owl:NamedIndividual ;
+                    :nome "Melissa Rosenberg" ;
+                    :sexo "F" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

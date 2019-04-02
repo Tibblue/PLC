@@ -1,0 +1,47 @@
+extends layout
+
+block content
+  script(src="/javascripts/jquery-3.2.1.min.js")
+  script(src="/javascripts/ajax.js")
+  div(class="w3-container")
+    header(class="w3-container w3-center w3-indigo")
+      h1 Query SPARQL Endpoints
+  div(class="w3-row")
+    div(class="w3-col s4 w3-padding")
+        div(class="w3-container w3-border w3-light-grey")
+          header(class="w3-container")
+            h4 Dataset:
+          div(id="datasets")
+            input(type='radio' name="dataset" value='dbpedia' checked)
+            |  DBpedia
+            br
+            input(type='radio' name="dataset" value='wikidata')
+            |  Wikidata
+            p
+        div(class="w3-container w3-border w3-light-grey")
+          header(class="w3-container")
+            h4 Output:
+          div(id="formats")
+            input(type='radio' name="format" value='json' checked)
+            |  JSON
+            br
+            input(type='radio' name="format" value='xml')
+            |  XML
+            p
+        div(class="w3-container w3-border w3-light-grey")
+            header(class="w3-container")
+                h4 Input:
+        div(class="w3-container w3-border")
+            textarea(rows="10" cols="50" class="w3-input" placeholder="Input here..." name="intext" id="intext")
+            div(class="w3-bar w3-light-grey")
+              div(class="w3-bar-item w3-button" id="proc") Processar
+              div(class="w3-bar-item w3-button" id="novo") Novo
+    div(class="w3-col s8 w3-padding")
+        div(class="w3-container w3-border w3-light-grey")
+            header(class="w3-container")
+                div(class="w3-button w3-indigo w3-right" id="limpa") Limpar resultados
+                h4 Resultado:
+        div(class="w3-code w3-border w3-responsive" id="resultado")
+  div(class="w3-container")
+    footer(class="w3-container w3-indigo")
+      address Gerado por KIKO
