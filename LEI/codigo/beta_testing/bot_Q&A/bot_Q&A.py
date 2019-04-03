@@ -48,4 +48,4 @@ def responde(input_utilizador,dataset):
 
 
 
-responde('Quem foi o segundo rei de Portugal?','Portugal_Q&A.txt')
+# responde('Quem foi o segundo rei de Portugal?','Portugal_Q&A.txt')
