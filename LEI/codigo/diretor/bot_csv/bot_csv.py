@@ -162,7 +162,7 @@ def respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_cs
 
 def responde_dsl(mensagem,schema,csv):
     ratio = 1
-
+    resposta = None
     # paths só para testing individual
     # path_csv = os.path.dirname(os.getcwd()) + '/data/' + csv
     # path_schema = os.path.dirname(os.getcwd()) + '/data/' + schema
@@ -185,13 +185,16 @@ def responde_dsl(mensagem,schema,csv):
         (r'(Qual).*('+nome_colunas_exp_reg+r').* (.*)\b\??')
     ]
 
-    (questao,nome_coluna_obj,elemento) = mensagemSearch(mensagem,lista_nomeColunas,lista_exp_reg)
-    # print(questao,nome_coluna_obj,elemento)
+    try:
+        (questao,nome_coluna_obj,elemento) = mensagemSearch(mensagem,lista_nomeColunas,lista_exp_reg)
+        # print(questao,nome_coluna_obj,elemento)
 
-    if nome_coluna_obj is not "":
-         resposta = respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
-    else:
-        resposta = respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_csv)
+        if nome_coluna_obj is not "":
+            resposta = respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
+        else:
+            resposta = respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_csv)
+    except:
+        pass
     return resposta,ratio
 
 # resposta = responde_dsl('Qual a comida preferida do Kiko?','individual_schema.json','individual.csv')

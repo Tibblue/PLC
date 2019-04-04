@@ -3,6 +3,7 @@ from bot_tradutor import bot_tradutor
 from bot_wiki import bot_wiki
 from bot_csv import bot_csv
 from bot_QA import bot_QA
+from estados import chateado
 from util import *
 
 regras_bot_lista = [
@@ -37,6 +38,11 @@ regras_estado = [
     ('CHATEADO',r'Tu és ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
     ('CHATEADO',r'Desculpa', lambda : 'NORMAL')
 ]
+
+regras_estado_resposta = [
+    ('CHATEADO',lambda : chateado.responde())
+]
+
 
 def get_regras(bot):
     regras = []

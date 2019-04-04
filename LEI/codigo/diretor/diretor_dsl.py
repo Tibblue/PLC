@@ -1,6 +1,7 @@
 import re
 from change_tuplos import change_tuplos
 from bot_lista import bot_lista
+from get_regras import regras_estado_resposta
 from util import *
 from altera_estados import altera_estados
 from operator import itemgetter
@@ -9,6 +10,9 @@ from math import trunc
 global state_atual
 state_atual = 'NORMAL'
 
+#ERROS#
+# Eu:Quem é o primeiro rei de portugal?
+# csv dá erro tmb
 def responde(input_utilizador):
     lista_respostas = []
     triplos,estados = change_tuplos()
@@ -46,7 +50,12 @@ def responde(input_utilizador):
         if lista_respostas:
             return lista_respostas[0][0]
         else:
-            return 'CASOS SEM REGRA'
+            for estado_check,funcao_estado in regras_estado_resposta:
+                if state_atual == estado_check:
+                    resposta = funcao_estado()
+                    return resposta
+
+        return 'CASOS SEM REGRA'
 
 while(True):
     input_utilizador = input('Eu:')

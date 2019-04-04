@@ -1,3 +1,3 @@
-def responde(mensagem,dataset):
+def responde():
     frase = 'Não falo mais contigo.'
     return frase

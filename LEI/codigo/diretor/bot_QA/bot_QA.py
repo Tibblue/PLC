@@ -21,8 +21,6 @@ def trata_keywords(keywords):
     keywords = keywords.split(',')
     return keywords
 
-
-
 # pega nos quadruplos e ordena por ratio, depois elimina os que nãoi tem o ratio mais elevado
 # e depois ordena esses por o valor de raridade retornado a resposta e o racio do primeiro elemento
 def trata_quad(lista_quad):
@@ -69,6 +67,9 @@ def responde(input_utilizador,dataset):
                 lista_quad.append(quad)
 
     # print(lista_quad)
-    (resposta,racio) = trata_quad(lista_quad)
-    # print(resposta)
-    return resposta,racio
+    if lista_quad:
+        (resposta,racio) = trata_quad(lista_quad)
+        # print(resposta)
+        return resposta,racio
+    else:
+        return None,0
