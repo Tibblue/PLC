@@ -56,6 +56,7 @@ def gera_resposta(mensagem,dataset):
 # gera uma resposta
 def gera_resposta_dsl(mensagem,dataset):
     palavras = cleanText(mensagem)
+    ratio = 0
     # print(palavras)
     # path_dataset = os.getcwd() + '/diretor/data/' + dataset
     path_dataset = os.getcwd() + '/data/' + dataset
@@ -69,3 +70,5 @@ def gera_resposta_dsl(mensagem,dataset):
     # print('ratio: ',ratio)
     if listaRespostas:
         return random.choice(listaRespostas),ratio
+    else:
+        return None,ratio
