@@ -61,3 +61,8 @@ comoEstas_exp = '|'.join(comoEstas)
 agradecimentos = [
     "Bem, obrigado.", "Ótimo, e tu?", "Vou andando. Coisas da vida...", "Bem, obrigado por perguntares"
 ]
+
+respostas_alteracao_estados = [
+    ('CHATEADO','NORMAL',r'Desculpa','Estás desculpado.'),
+    ('NORMAL','CHATEADO',r'.*','Não, tu é que és!')
+]
