@@ -2,6 +2,8 @@ import re
 from bot_QA import formas_totalPT
 import sys
 import os
+from operator import itemgetter
+
 
 def trata_info(dataset):
     path_dataset = os.getcwd() + '/data/' + dataset
@@ -19,39 +21,54 @@ def trata_keywords(keywords):
     keywords = keywords.split(',')
     return keywords
 
+
+
+# pega nos quadruplos e ordena por ratio, depois elimina os que nãoi tem o ratio mais elevado
+# e depois ordena esses por o valor de raridade retornado a resposta e o racio do primeiro elemento
+def trata_quad(lista_quad):
+    lista_quad.sort(key=itemgetter(2),reverse=True)
+    # print(lista_quad)
+
+    max_ratio = lista_quad[0][2]
+    for n_keywords,value,ratio,resposta in lista_quad:
+        if ratio < max_ratio:
+            lista_quad.remove(tuple((n_keywords,value,ratio,resposta)))
+    # print(lista_quad)
+    lista_quad.sort(key=itemgetter(1))
+    # print(lista_quad[0][3])
+    return(lista_quad[0][3],lista_quad[0][2])
+
 def responde(input_utilizador,dataset):
-    comp = 0
+    count_compare = 0
+    ratio = 0
     max_value = 999999999
-    info = trata_info(dataset)
     result = None
-    ratio = 1
-    for questao,verbo,keywords,resposta in info:
+    lista_quad = []
+    info = trata_info(dataset)
+
+    for questao,verbo,keywords,resposta in info: # percorrer os quadruplos
         keywords = trata_keywords(keywords)
         if questao in input_utilizador and verbo in input_utilizador:
             count = 0
             value = 0
-            for key in keywords:
+            ratio = 0
+            for key in keywords: # percorrer as keywords de um quadruplo
                 if key.lower() in input_utilizador.lower():
                     count += 1
                     value += formas_totalPT.dicRank.get(key)
-            if count > comp:
-                max_value = value
-                comp = count
-                result = resposta
-            elif count == comp:
-                if value < max_value:
-                    max_value = value
-                    result = resposta
-                n_keywords = len(keywords)
-    print(input_utilizador)
-    print("número matches: " ,count)
-    print("número keywords: ",n_keywords)
-    ratio = comp/n_keywords
-    print(ratio)
-    return result,ratio
+            ratio = count / len(keywords)
+            # print(count,value,len(keywords),ratio)
 
-#  condição de desempate pode ser o resultado das formastotal pt da somas das keywords
+            if count > count_compare:
+                count_compare = count
+                lista_quad = []
+                quad = tuple((count,value,ratio,resposta))
+                lista_quad.append(quad)
+            elif count == count_compare:
+                quad = tuple((count,value,ratio,resposta))
+                lista_quad.append(quad)
 
-
-
-# responde('Quem foi o segundo rei de Portugal?','Portugal_QA.txt')
+    # print(lista_quad)
+    (resposta,racio) = trata_quad(lista_quad)
+    # print(resposta)
+    return resposta,racio

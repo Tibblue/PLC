@@ -15,6 +15,7 @@ amalucado
 amarelo
 amaneirado
 amaricado
+burro
 amigo-da-onça
 analfabeto
 analfabruto
@@ -129,7 +130,6 @@ campónio
 canalha
 canastrão
 candongueiro
-cão
 caquética
 cara-de-cu-à-paisana
 caramelo
@@ -264,7 +264,6 @@ facínora
 fala-barato
 falhado
 falsário
-falso
 fanático
 fanchono
 fanfarrão
@@ -313,7 +312,6 @@ gatuno
 gazeteiro
 glutão
 gordalhufo
-gordo
 gosma
 gralha
 grosseiro
@@ -336,7 +334,6 @@ indigente
 indolente
 inepto
 infame
-infeliz
 infiel
 imprudente
 intriguista
@@ -420,7 +417,6 @@ mastronço
 matarroano
 matrafona
 matrona
-mau
 medíocre
 medricas
 medroso
@@ -537,8 +533,6 @@ pindérica
 pinga-amor
 pintas
 pinto calçudo
-pintor
-piolho
 piolhoso
 pirata
 piroso

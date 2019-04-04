@@ -3,7 +3,7 @@ from bot_tradutor import bot_tradutor
 from bot_wiki import bot_wiki
 from bot_csv import bot_csv
 from bot_QA import bot_QA
-from respostas import *
+from util import *
 
 regras_bot_lista = [
     (1,r'(.+)', lambda x,dataset: bot_lista.gera_resposta_dsl(x.group(1),dataset[0]))
@@ -31,6 +31,13 @@ regras_bot_QA = [
     (2,r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_QA.responde(x.group(0),dataset[0])),
 ]
 
+regras_estado = [
+    ('CHATEADO',r'És mesmo ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
+    ('CHATEADO',r'Desculpa', lambda : 'NORMAL')
+
+    # (r'És ('+insultos_exp_reg+r')'),
+    # (r'Tu és ('+insultos_exp_reg+r')')
+]
 
 def get_regras(bot):
     regras = []

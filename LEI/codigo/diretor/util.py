@@ -1,3 +1,8 @@
+import os
+
+path_insultos = os.getcwd() + '/data/insultos.txt'
+insultos = open(path_insultos).read().split('\n')
+insultos_exp_reg = '|'.join(insultos)
 
 interlocutor = [
     "(meu )?caro", "(minha )?cara", "caríssim[oa]", "amig[oa]", "colega", "parceir[oa]"

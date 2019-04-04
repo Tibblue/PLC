@@ -163,7 +163,6 @@ def respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_cs
 def responde_dsl(mensagem,schema,csv):
     ratio = 1
 
-
     # paths só para testing individual
     # path_csv = os.path.dirname(os.getcwd()) + '/data/' + csv
     # path_schema = os.path.dirname(os.getcwd()) + '/data/' + schema
