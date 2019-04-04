@@ -14,11 +14,11 @@ def responde(input_utilizador):
     triplos,estados = change_tuplos()
     # print(estados)
     global state_atual
-    print(state_atual)
+    print('Estado antes: ',state_atual)
 
     last_state = state_atual
     state_atual = altera_estados(input_utilizador,estados,state_atual)
-    print('Estado apos altera_estados(): ',state_atual)
+    print('Estado apos: ',state_atual)
 
     if last_state != state_atual:
         if state_atual == 'CHATEADO':
@@ -33,17 +33,24 @@ def responde(input_utilizador):
             for prioridade_regra,regra,funcao, in regras:
                 match = re.match(regra,input_utilizador)
                 if match is not None:
+                    # print('deu match')
                     if callable(funcao):
+                        # print('é callable')
                         resposta,ratio = funcao(match,dataset)
+                        # print(resposta)
+                        # print(ratio)
                         if resposta is not None:
                             if ratio > 1: ratio = 1
                             confianca = trunc((prioridade_bot + prioridade_regra) * ratio)
-                            print("confiança: ", confianca)
+                            # print("confiança: ", confianca)
                             tuplo = tuple((resposta,confianca))
                             lista_respostas.append(tuplo)
         lista_respostas.sort(key=itemgetter(1),reverse=True)
-        print(lista_respostas)
-        return lista_respostas[0][0]
+        print("\nlista_respostas: ",lista_respostas)
+        if lista_respostas:
+            return lista_respostas[0][0]
+        else:
+            return 'ADICIONAR REGRA AQUI'
 
 while(True):
     input_utilizador = input('Eu:')

@@ -20,6 +20,7 @@ def cleanText(mensagem):
 def find_respostas(palavras,dataset):
     listaRespostas = []
     comp = 1
+    n_matches = 0
     for l in dataset:
         count = 0
         for pal in palavras:
@@ -66,7 +67,8 @@ def gera_resposta_dsl(mensagem,dataset):
     tam_input = len(palavras)
     # print("n_matches",n_matches)
     # print('tam_input: ', tam_input)
-    ratio = (n_matches+1)/tam_input
+    if tam_input > 0:
+        ratio = (n_matches+1)/tam_input
     # print('ratio: ',ratio)
     if listaRespostas:
         return random.choice(listaRespostas),ratio
