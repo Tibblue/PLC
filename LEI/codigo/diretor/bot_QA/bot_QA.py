@@ -46,7 +46,7 @@ def responde(input_utilizador,dataset):
 
     for questao,verbo,keywords,resposta in info: # percorrer os quadruplos
         keywords = trata_keywords(keywords)
-        if questao in input_utilizador and verbo in input_utilizador:
+        if questao.lower() in input_utilizador.lower() and verbo.lower() in input_utilizador.lower():
             count = 0
             value = 0
             ratio = 0

@@ -1,4 +1,5 @@
 import re
+import random
 from change_tuplos import change_tuplos
 from bot_lista import bot_lista
 from get_regras import regras_estado_resposta
@@ -55,7 +56,7 @@ def responde(input_utilizador):
                     resposta = funcao_estado()
                     return resposta
 
-        return 'CASOS SEM REGRA'
+        return random.choice(clueless)
 
 while(True):
     input_utilizador = input('Eu:')

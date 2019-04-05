@@ -1,5 +1,2 @@
-Quem;foi;[primeiro,batatas,Portugal];D. Afonso Henriques
-Quem;foi;[Portugal];D. Afonso Henriques
-Quem;foi;[rei,Portugal];D. Sancho I
 Quem;foi;[primeiro,rei,Portugal];D. Afonso Henriques
-Quem;foi;[rei];D. Carlos
+Quem;foi;[segundo,rei,Portugal];D. Sancho I
