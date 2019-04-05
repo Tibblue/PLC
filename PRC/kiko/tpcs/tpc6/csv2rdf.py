@@ -128,7 +128,7 @@ print('''@prefix : <http://prc.di.uminho.pt/2019/mapa#> .
 
 ''')
 
-print('##### ADDED BY PYTHON SCRIPT -> csv2rdf.py')
+print('##### INDIVIDUALS ADDED BY PYTHON SCRIPT -> csv2rdf.py')
 
 distCount = 0
 g_cidadeCount = g_fregCount = 0
