@@ -11,12 +11,14 @@ from math import trunc
 global state_atual
 state_atual = 'NORMAL'
 
-#ERROS#
-# Eu:Quem é o primeiro rei de portugal?
-# csv dá erro tmb
+# > preciso de informações -- Estado ativo: Informativo
+# > estou aqui para isso, o que precisas? --um exemplot de quote de alteração para o estado informativo
+# (apenas usa bots informativos, CSV,QA,WIKI)
+
 def responde(input_utilizador):
     lista_respostas = []
     triplos,estados = change_tuplos()
+    # print(estados)
     # print(estados)
     global state_atual
     print('Estado antes: ',state_atual)
@@ -35,7 +37,7 @@ def responde(input_utilizador):
     else:
         for regras,dataset,prioridade_bot in triplos:
             for lista_estados_validos,prioridade_regra,regra,funcao, in regras:
-                if state_atual in lista_estados_validos: # só faz as cenas se o estado atual for permitido na regra
+                if state_atual in lista_estados_validos: # só acontece se o estado atual for permitido na regra
                     match = re.match(regra,input_utilizador)
                     if match is not None:
                         if callable(funcao):

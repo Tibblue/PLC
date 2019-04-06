@@ -4,6 +4,6 @@ b2 = CREATE bot_lista FROM proverbios.txt
 b3 = CREATE bot_wiki FROM wiki.json
 b4 = CREATE bot_QA FROM portugal_QA.txt
 
-STATES CHATEADO
+STATES CHATEADO INFORMATIVO
 
 JOIN b0 !3 + b1 !1 + b2 !2 + b3 !4 + b4 !5

@@ -62,7 +62,9 @@ agradecimentos = [
     "Bem, obrigado.", "Ótimo, e tu?", "Vou andando. Coisas da vida...", "Bem, obrigado por perguntares"
 ]
 
+# estado antes, estado depois, exp reg, resposta
 respostas_alteracao_estados = [
     ('CHATEADO','NORMAL',r'Desculpa','Estás desculpado.'),
     ('NORMAL','CHATEADO',r'.*','Não, tu é que és!'),
+    ('NORMAL','INFORMATIVO',r'Diz me uma coisa','O que precisas?')
 ]
