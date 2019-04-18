@@ -1,12 +1,10 @@
+import os, sys, getopt
+import re
 import nltk
 from pickle import dump,load
-import getopt
-import sys
-import os
-import re
 
 dir = './nlgrep'
-file = dir+'/mac_morpho.pkl'
+corpus_path = dir+'/mac_morpho.pkl'
 
 def getNProps(tagged_list):
     nomesProprios = []
@@ -26,8 +24,8 @@ def getDuplos(nomesProprios):
     # print(duplos) # debug
     return duplos
 
-def getTriplos(duplos):
-    triplos=[]
+def getTriplos(duplos, triplos):
+    # triplos=[]
     for d1,d2 in duplos:
         new=True
         for t1,t2,n in triplos:
@@ -41,8 +39,17 @@ def getTriplos(duplos):
     print(triplos) # debug
     return triplos
 
+def processLine(line, tagger_corpus, triplos):
+    tagged_line = tagger_corpus.tag(nltk.word_tokenize(line))
+    # print(tagged_line) # debug
+    nProps = getNProps(tagged_line)
+    duplos = getDuplos(nProps)
+    triplos = getTriplos(duplos, triplos)
+    return triplos
+
+
 def main():
-    ops, args = getopt.getopt( sys.argv[ 1: ], 'b' )
+    ops, args = getopt.getopt(sys.argv[1:], 'b')
     ops = dict( ops )
 
     if '-b' in ops:
@@ -53,23 +60,30 @@ def main():
         m3 = nltk.TrigramTagger(tagged_sents_m, backoff=m2)
 
         os.makedirs(dir, exist_ok=True ) # cria a diretoria
-        output_file = open(file, 'wb')
+        output_file = open(corpus_path, 'wb')
         dump(m3, output_file, -1)
         output_file.close()
     else:
-        input_m = open(file, 'rb')
-        tagger_m = load(input_m)
-        input_m.close()
+        # load do corpus
+        corpus_input = open(corpus_path, 'rb')
+        tagger_corpus = load(corpus_input)
+        corpus_input.close()
+        # load do input
+        file_path = "harry_fenix.pt.txt"
+        file_input = open(file_path, 'r')
+        file_lines = file_input.readlines()
 
-        # mensagem = input("a:") # debug
         mensagem = "Harry vai falar com o Ron. Leva a Hermione. Kiko. Kiko!!!" # debug
+        # processLine(mensagem,tagger_corpus, [])
 
-        tagged_line = tagger_m.tag(nltk.word_tokenize(mensagem))
-        print(tagged_line)
+        triplos = [('Eu','Tu',6)]
+        for i in range(10,20):
+            # process non empty lines
+            if file_lines[i]!='\n':
+                processLine(file_lines[i],tagger_corpus, triplos)
 
-        nProps = getNProps(tagged_line)
-        duplos = getDuplos(nProps)
-        triplos = getTriplos(duplos)
+        # for line in file_lines:
+        #     processLine(line,tagger_corpus, triplos)
 
 
 main()
