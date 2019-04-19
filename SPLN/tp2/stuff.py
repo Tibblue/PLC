@@ -6,6 +6,21 @@ from pickle import dump,load
 dir = './nlgrep'
 corpus_path = dir+'/mac_morpho.pkl'
 
+### Funcoes Auxiliares ###
+# funcao auxiliar para ordenar triplos
+def sortTriplos(triplo):
+    t1,t2,n = triplo
+    return n
+
+# funcao auxiliar para remover triplos com menos de N ocorrencias
+def remTriplosLastN(n,triplos):
+    result = []
+    for (t1,t2,occur) in triplos:
+        if occur>n :
+            result.append((t1,t2,occur))
+    return result
+
+### Funcoes ###
 def getNProps(tagged_list):
     nomesProprios = []
     for (word,tag) in tagged_list:
@@ -26,18 +41,19 @@ def getDuplos(nomesProprios):
 
 def getTriplos(duplos, triplos):
     # triplos=[]
+    result=triplos
     for d1,d2 in duplos:
         new=True
-        for t1,t2,n in triplos:
-            if d1==t1 and d2==t2:
-                triplos.append((t1,t2,n+1))
-                triplos.remove((t1,t2,n))
+        for t1,t2,n in result:
+            if (d1==t1 and d2==t2) or (d1==t2 and d2==t1):
+                result.append((t1,t2,n+1))
+                result.remove((t1,t2,n))
                 new = False
                 break
         if new:
-            triplos.append((d1,d2,1))
-    print(triplos) # debug
-    return triplos
+            result.append((d1,d2,1))
+    # print(result) # debug
+    return result
 
 def processLine(line, tagger_corpus, triplos):
     tagged_line = tagger_corpus.tag(nltk.word_tokenize(line))
@@ -77,10 +93,12 @@ def main():
         # processLine(mensagem,tagger_corpus, [])
 
         triplos = [('Eu','Tu',6)]
-        for i in range(10,20):
+        for i in range(10,int(len(file_lines)/4)):
             # process non empty lines
             if file_lines[i]!='\n':
-                processLine(file_lines[i],tagger_corpus, triplos)
+                triplos = processLine(file_lines[i],tagger_corpus, triplos)
+        triplos.sort(key=sortTriplos)
+        print(triplos)
 
         # for line in file_lines:
         #     processLine(line,tagger_corpus, triplos)
