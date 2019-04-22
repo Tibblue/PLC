@@ -6,6 +6,7 @@ from pickle import dump,load
 dir = './nlgrep'
 corpus_path = dir+'/mac_morpho.pkl'
 
+
 ### Funcoes Auxiliares ###
 # funcao auxiliar para ordenar triplos
 def sortTriplos(triplo):
@@ -20,13 +21,14 @@ def remTriplosLastN(n,triplos):
             result.append((t1,t2,occur))
     return result
 
+
 ### Funcoes ###
 def getNProps(tagged_list):
     nomesProprios = []
     for (word,tag) in tagged_list:
         if tag=="NPROP" and word!='.':
             nomesProprios.append(word)
-    print(nomesProprios) # debug
+    # print(nomesProprios) # debug
     return nomesProprios
 
 def getDuplos(nomesProprios):
@@ -88,14 +90,14 @@ def main():
         file_path = "harry_fenix.pt.txt"
         file_input = open(file_path, 'r')
         file_lines = file_input.readlines()
+        # print("### LOAD DONE ###") # debug
 
         mensagem = "Harry vai falar com o Ron. Leva a Hermione. Kiko. Kiko!!!" # debug
         # processLine(mensagem,tagger_corpus, [])
 
         triplos = [('Eu','Tu',6)]
         for i in range(10,int(len(file_lines)/4)):
-            # process non empty lines
-            if file_lines[i]!='\n':
+            if file_lines[i]!='\n': # process non empty lines
                 triplos = processLine(file_lines[i],tagger_corpus, triplos)
         triplos.sort(key=sortTriplos)
         print(triplos)
