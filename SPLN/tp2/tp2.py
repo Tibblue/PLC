@@ -31,7 +31,7 @@ def getNProps(tagged_list):
     nomesProprios = []
     for (word,tag) in tagged_list:
         # if tag=="NPROP" and word!='.':
-        if tag=="PROP_HUM":
+        if tag=="PROP_HUM" and (word!='de' and word!='da' and word!='D.') :
             nomesProprios.append(word)
     # print(nomesProprios) # debug
     return nomesProprios
@@ -127,7 +127,7 @@ def main():
             if file_lines[i]!='\n': # process non empty lines
                 triplos = processLine(file_lines[i],tagger_corpus, triplos)
         triplos.sort(key=sortTriplos)
-        # triplos = remTriplosLastN(20,triplos)
+        # triplos = remTriplosLastN(3,triplos)
         print(triplos)
 
         nodes = get_nodes(triplos)
