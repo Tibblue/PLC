@@ -9,22 +9,20 @@ def get_nodes(triplos):
     # print(set1) # debug
     return set1
 
-def draw(nodes,edges):
+def draw(nodes,edgesW):
     G = nx.Graph()
     G.add_nodes_from(nodes)
     G.add_weighted_edges_from(edgesW)
+    nodeSize = [len(node)*200+200 for node in nodes]
+    # print(nodes) # debug
+    # print(nodeSize) # debug
 
-    ### safe
-    nx.draw_shell(G,with_labels=True)
-    # pos=nx.get_node_attributes(G,'pos')
-    # labels = nx.get_edge_attributes(G,'weight')
-    # nx.draw_networkx_edge_labels(G,pos=nx.spring_layout(G),edge_labels=labels)
-
-    ### experimental
-    pos=nx.spring_layout(G)
-    nx.draw(G,pos,with_labels=True)
+    # pos = nx.shell_layout(G)
+    pos = nx.circular_layout(G)
+    nx.draw(G,pos,nodelist=nodes,node_size=nodeSize,with_labels=True)
     labels = nx.get_edge_attributes(G,'weight')
-    nx.draw_networkx_edge_labels(G,pos=nx.spring_layout(G),edge_labels=labels)
+    nx.draw_networkx_edge_labels(G,pos,edge_labels=labels)
+    plt.savefig("result.png")
 
 nodes = get_nodes(triplos)
 edgesW = triplos

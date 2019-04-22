@@ -2,6 +2,8 @@ import os, sys, getopt
 import re
 import nltk
 from pickle import dump,load
+import networkx as nx
+import matplotlib.pyplot as plt
 
 dir = './nlgrep'
 corpus_path = dir+'/mac_morpho.pkl'
@@ -65,6 +67,29 @@ def processLine(line, tagger_corpus, triplos):
     triplos = getTriplos(duplos, triplos)
     return triplos
 
+### Draw ###
+def get_nodes(triplos):
+    set1 = set([t1 for t1,t2,n in triplos])
+    set1.update([t2 for t1,t2,n in triplos])
+    # print(set1) # debug
+    return set1
+
+def draw(nodes,edgesW):
+    G = nx.Graph()
+    G.add_nodes_from(nodes)
+    G.add_weighted_edges_from(edgesW)
+    nodeSize = [len(node)*200+200 for node in nodes]
+    # print(nodes) # debug
+    # print(nodeSize) # debug
+
+    # pos = nx.shell_layout(G)
+    pos = nx.circular_layout(G)
+    nx.draw(G,pos,nodelist=nodes,node_size=nodeSize,with_labels=True)
+    labels = nx.get_edge_attributes(G,'weight')
+    nx.draw_networkx_edge_labels(G,pos,edge_labels=labels)
+    plt.savefig("result.png")
+
+
 
 def main():
     ops, args = getopt.getopt(sys.argv[1:], 'b')
@@ -87,23 +112,22 @@ def main():
         tagger_corpus = load(corpus_input)
         corpus_input.close()
         # load do input
-        file_path = "harry_fenix.pt.txt"
+        file_path = sys.argv[1]
         file_input = open(file_path, 'r')
         file_lines = file_input.readlines()
-        # print("### LOAD DONE ###") # debug
+        print("### LOAD DONE ###") # debug
 
-        mensagem = "Harry vai falar com o Ron. Leva a Hermione. Kiko. Kiko!!!" # debug
-        # processLine(mensagem,tagger_corpus, [])
-
-        triplos = [('Eu','Tu',6)]
-        for i in range(10,int(len(file_lines)/4)):
+        triplos = []
+        for i in range(10,int(len(file_lines)/2)):
             if file_lines[i]!='\n': # process non empty lines
                 triplos = processLine(file_lines[i],tagger_corpus, triplos)
         triplos.sort(key=sortTriplos)
+        triplos = remTriplosLastN(10,triplos)
         print(triplos)
 
-        # for line in file_lines:
-        #     processLine(line,tagger_corpus, triplos)
+        nodes = get_nodes(triplos)
+        edgesW = triplos
+        draw(nodes,edgesW)
 
 
 main()
