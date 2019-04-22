@@ -1,12 +1,14 @@
 import os, sys, getopt
 import re
 import nltk
+from nltk.corpus.reader.tagged import TaggedCorpusReader
 from pickle import dump,load
 import networkx as nx
 import matplotlib.pyplot as plt
 
 dir = './nlgrep'
-corpus_path = dir+'/mac_morpho.pkl'
+# corpus_path = dir+'/mac_morpho.pkl'
+corpus_path = dir+'/tagged.pkl'
 
 
 ### Funcoes Auxiliares ###
@@ -28,7 +30,8 @@ def remTriplosLastN(n,triplos):
 def getNProps(tagged_list):
     nomesProprios = []
     for (word,tag) in tagged_list:
-        if tag=="NPROP" and word!='.':
+        # if tag=="NPROP" and word!='.':
+        if tag=="PROP_HUM":
             nomesProprios.append(word)
     # print(nomesProprios) # debug
     return nomesProprios
@@ -96,7 +99,9 @@ def main():
     ops = dict( ops )
 
     if '-b' in ops:
-        tagged_sents_m = nltk.corpus.mac_morpho.tagged_sents()
+        corpus = TaggedCorpusReader('tagged/',r'.*\.tagged')
+        tagged_sents_m = corpus.tagged_sents()
+        # tagged_sents_m = nltk.corpus.mac_morpho.tagged_sents()
         m0 = nltk.DefaultTagger('N')
         m1 = nltk.UnigramTagger(tagged_sents_m, backoff=m0)
         m2 = nltk.BigramTagger(tagged_sents_m, backoff=m1)
@@ -118,11 +123,11 @@ def main():
         print("### LOAD DONE ###") # debug
 
         triplos = []
-        for i in range(10,int(len(file_lines)/2)):
+        for i in range(10,int(len(file_lines))):
             if file_lines[i]!='\n': # process non empty lines
                 triplos = processLine(file_lines[i],tagger_corpus, triplos)
         triplos.sort(key=sortTriplos)
-        triplos = remTriplosLastN(10,triplos)
+        # triplos = remTriplosLastN(20,triplos)
         print(triplos)
 
         nodes = get_nodes(triplos)
