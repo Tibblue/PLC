@@ -9,8 +9,9 @@ def create_edges(lista):
         if 2*i+2 <= tam:
             G.add_edge(lista[i],lista[2*i+2])
 
-G = nx.Graph()
 lista = range(50)
+G = nx.Graph()
 G.add_nodes_from(lista)
-create_tree(lista)
-nx.draw_kamada_kawai(G,node_color = 'lime',node_size=500,with_labels = True)
+create_edges(lista)
+nx.draw_kamada_kawai(G, node_color='lime', node_size=500, with_labels=True)
+plt.savefig("exemplo.png")

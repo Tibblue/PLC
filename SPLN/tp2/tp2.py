@@ -6,7 +6,7 @@ from pickle import dump,load
 import networkx as nx
 import matplotlib.pyplot as plt
 
-dir = './nlgrep'
+dir = './pickle'
 # corpus_path = dir+'/mac_morpho.pkl'
 corpus_path = dir+'/tagged.pkl'
 
@@ -85,12 +85,12 @@ def draw(nodes,edgesW):
     # print(nodes) # debug
     # print(nodeSize) # debug
 
-    # pos = nx.shell_layout(G)
+    # pos = nx.shell_layout(G) # alternative layout
     pos = nx.circular_layout(G)
     nx.draw(G,pos,nodelist=nodes,node_size=nodeSize,with_labels=True)
     labels = nx.get_edge_attributes(G,'weight')
     nx.draw_networkx_edge_labels(G,pos,edge_labels=labels)
-    plt.savefig("result.png")
+    plt.savefig("tp2.png")
 
 
 
