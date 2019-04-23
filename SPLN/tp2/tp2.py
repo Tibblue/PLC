@@ -7,7 +7,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 dir = './pickle'
-# corpus_path = dir+'/mac_morpho.pkl'
 corpus_path = dir+'/tagged.pkl'
 
 
@@ -101,7 +100,6 @@ def main():
     if '-b' in ops:
         corpus = TaggedCorpusReader('tagged/',r'.*\.tagged')
         tagged_sents_m = corpus.tagged_sents()
-        # tagged_sents_m = nltk.corpus.mac_morpho.tagged_sents()
         m0 = nltk.DefaultTagger('N')
         m1 = nltk.UnigramTagger(tagged_sents_m, backoff=m0)
         m2 = nltk.BigramTagger(tagged_sents_m, backoff=m1)
