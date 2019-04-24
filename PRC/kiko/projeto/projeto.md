@@ -6,7 +6,7 @@
     * Armazenamento em GraphDB
 2. Criar um App Web, para explorar o dataset
 
-* Criar, extrair, construir, limpar (um dataset) apartir da LOD ( ??? Open Data)
+* Criar, extrair, construir, limpar (um dataset) apartir da LOD ( Linked Open Data)
     * [DBPedia](https://wiki.dbpedia.org/)
     * [dados.gov.pt](https://dados.gov.pt)
     * [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
