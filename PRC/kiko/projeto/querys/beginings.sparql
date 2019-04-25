@@ -1,0 +1,28 @@
+# classes da ontologia
+select distinct * where {
+  ?s ?p owl:Class.
+}
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# propriedades de anime
+select distinct * where {
+  dbo:Anime ?property ?object .
+}
+
+# lista das instancias de anime
+select distinct * where {
+  ?name a dbo:Anime .
+}
+
+# propriedades do anime 'Fullmetal Alchemist: Brotherhood'
+select distinct * where {
+  dbr:Fullmetal_Alchemist:_Brotherhood ?property ?object .
+}
+
+# apenas as labels do anime 'Fullmetal Alchemist: Brotherhood'
+select distinct * where {
+  dbr:Fullmetal_Alchemist:_Brotherhood rdfs:label ?object .
+}
