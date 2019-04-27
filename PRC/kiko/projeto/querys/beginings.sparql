@@ -22,7 +22,10 @@ select distinct * where {
   dbr:Fullmetal_Alchemist:_Brotherhood ?property ?object .
 }
 
-# apenas as labels do anime 'Fullmetal Alchemist: Brotherhood'
+# apenas as labels do anime 'Fullmetal Alchemist: Brotherhood' em japones
 select distinct * where {
-  dbr:Fullmetal_Alchemist:_Brotherhood rdfs:label ?object .
+  dbr:Fullmetal_Alchemist:_Brotherhood rdfs:label ?label .
+  FILTER(LANG(?label)="ja") # option0
+#  FILTER(LANGMATCHES(LANG(?label), "ja")) # option1
+#  FILTER(LANG(?label) = "" || LANGMATCHES(LANG(?label), "ja")) # option2
 }
