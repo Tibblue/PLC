@@ -121,7 +121,7 @@ def main():
         print("### LOAD DONE ###") # debug
 
         triplos = []
-        for i in range(10,int(len(file_lines))):
+        for i in range(int(len(file_lines))):
             if file_lines[i]!='\n': # process non empty lines
                 triplos = processLine(file_lines[i],tagger_corpus, triplos)
         triplos.sort(key=sortTriplos)
