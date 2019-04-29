@@ -4,3 +4,4 @@
 **/\.antlr/
 **/__pycache__/
 LEI/codigo/log/
+**/.ipynb_checkpoints/
