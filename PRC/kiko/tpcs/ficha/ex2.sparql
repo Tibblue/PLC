@@ -1,0 +1,63 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#>
+
+# 1
+select ?nome ?data where {
+	?s rdf:type :Compositor .
+    ?s :nome ?nome.
+    ?s :dataDeNascimento ?data.
+}
+
+# 2
+select ?nome where {
+	?s rdf:type :Compositor .
+    ?s :nome "Valdemar Sequeira".
+    ?obra :temCompositor ?s.
+    ?obra :titulo ?nome.
+}
+
+# 3
+select (count(?s) as ?count) where {
+	?s rdf:type :Obra .
+}
+
+# 4
+select (count(?inst) as ?count) where {
+	?obra rdf:type :Obra .
+    ?obra :temPartituraInstrumento ?inst.
+}
+
+# 5
+select ?duracao where {
+	?obra rdf:type :Obra .
+    ?obra :duracao ?duracao.
+}
+ORDER BY DESC(?duracao)
+LIMIT 1
+
+# 6
+select ?nome ?obra SUM(?duracao) where {
+	?evento rdf:type :Evento .
+    ?evento :nome ?nome.
+    ?evento :temObra ?obra.
+    ?obra :duracao ?duracao.
+}
+
+# 7
+
+
+
+# 8
+select (count(?marcha) as ?count) where {
+	?marcha rdf:type :Marcha .
+}
+
+# 9
+select ?duracao where {
+	?marcha rdf:type :Marcha .
+    ?marcha :duracao ?duracao.
+}
+ORDER BY DESC(?duracao)
+LIMIT 1
+
+# 10

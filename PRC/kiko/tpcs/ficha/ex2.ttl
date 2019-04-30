@@ -1,0 +1,393 @@
+@prefix : <http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21> .
+
+<http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#escreveuObra
+:escreveuObra rdf:type owl:ObjectProperty ;
+              rdfs:domain :Compositor ;
+              rdfs:range :Obra .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#participaemObra
+:participaemObra rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Instrumento ;
+                 rdfs:range :Obra .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#temCompositor
+:temCompositor rdf:type owl:ObjectProperty ;
+               rdfs:domain :Obra ;
+               rdfs:range :Compositor .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#temObra
+:temObra rdf:type owl:ObjectProperty ;
+         rdfs:domain :Evento ;
+         rdfs:range :Obra .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#temPartituraInstrumento
+:temPartituraInstrumento rdf:type owl:ObjectProperty ;
+                         rdfs:domain :Obra ;
+                         rdfs:range :Instrumento .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#data
+:data rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Evento ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#dataDeNascimento
+:dataDeNascimento rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Compositor .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#duracao
+:duracao rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Obra ;
+         rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#id
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Compositor ,
+                :Evento ,
+                :Instrumento ,
+                :Obra ;
+    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#local
+:local rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Evento ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#nome
+:nome rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Compositor ,
+                  :Evento ,
+                  :Instrumento ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#tipo
+:tipo rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Obra ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#titulo
+:titulo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Obra .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#Compositor
+:Compositor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#Evento
+:Evento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#Instrumento
+:Instrumento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#Ligeiro
+:Ligeiro rdf:type owl:Class ;
+         rdfs:subClassOf :Obra .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#Marcha
+:Marcha rdf:type owl:Class ;
+        rdfs:subClassOf :Obra .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#MarchaConcerto
+:MarchaConcerto rdf:type owl:Class ;
+                rdfs:subClassOf :Marcha .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#MarchaDesfile
+:MarchaDesfile rdf:type owl:Class ;
+               rdfs:subClassOf :Marcha .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#MarchaProcissao
+:MarchaProcissao rdf:type owl:Class ;
+                 rdfs:subClassOf :Marcha .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#Obra
+:Obra rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#Rapsodia
+:Rapsodia rdf:type owl:Class ;
+          rdfs:subClassOf :Obra .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#comp2
+:comp2 rdf:type owl:NamedIndividual ,
+                :Compositor ;
+       :dataDeNascimento "1950-10-10" ;
+       :id "comp2" ;
+       :nome "Alexandre Fonseca" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#comp3
+:comp3 rdf:type owl:NamedIndividual ,
+                :Compositor ;
+       :dataDeNascimento "1972-10-10" ;
+       :id "comp3" ;
+       :nome "Meredith Wilson" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#comp4
+:comp4 rdf:type owl:NamedIndividual ,
+                :Compositor ;
+       :dataDeNascimento "1977-10-10" ;
+       :id "comp4" ;
+       :nome "Luis Cardoso" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#comp5
+:comp5 rdf:type owl:NamedIndividual ,
+                :Compositor ;
+       :dataDeNascimento "1956-10-10" ;
+       :id "comp5" ;
+       :nome "Valdemar Sequeira" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#comp6
+:comp6 rdf:type owl:NamedIndividual ,
+                :Compositor ;
+       :dataDeNascimento "1960-10-10" ;
+       :id "comp6" ;
+       :nome "Alberto Madureira" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#e1
+:e1 rdf:type owl:NamedIndividual ,
+             :Evento ;
+    :temObra :m18 ,
+             :m28 ,
+             :m30 ,
+             :m47 ,
+             :m7 ;
+    :data "2018-06-10" ;
+    :id "e1" ;
+    :local "Vila Verde" ;
+    :nome "Festas de Santo António" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#e2
+:e2 rdf:type owl:NamedIndividual ,
+             :Evento ;
+    :temObra :m28 ,
+             :m30 ,
+             :m47 ,
+             :m7 ;
+    :data "2018-12-17" ;
+    :id "e2" ;
+    :local "Vila de Prado" ;
+    :nome "Concerto de Natal" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#e3
+:e3 rdf:type owl:NamedIndividual ,
+             :Evento ;
+    :temObra :m28 ,
+             :m30 ;
+    :data "2018-04-22" ;
+    :id "e3" ;
+    :local "Amares" ;
+    :nome "Páscoa" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#e4
+:e4 rdf:type owl:NamedIndividual ,
+             :Evento ;
+    :temObra :m28 ,
+             :m47 ;
+    :data "2018-10-13" ;
+    :id "e4" ;
+    :local "Vila Verde" ;
+    :nome "Festa das Colheitas" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst1
+:inst1 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Caixa" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst10
+:inst10 rdf:type owl:NamedIndividual ,
+                 :Instrumento ;
+        :nome "Fagote" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst2
+:inst2 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Clarinete" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst3
+:inst3 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Flauta" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst4
+:inst4 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Saxofone" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst5
+:inst5 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Tuba" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst6
+:inst6 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Trombone" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst7
+:inst7 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Trompete" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst8
+:inst8 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Bateria" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#inst9
+:inst9 rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :nome "Oboé" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#m18
+:m18 rdf:type owl:NamedIndividual ,
+              :MarchaDesfile ;
+     :temCompositor :comp2 ;
+     :temPartituraInstrumento :inst1 ,
+                              :inst2 ,
+                              :inst3 ,
+                              :inst4 ,
+                              :inst5 ,
+                              :inst6 ,
+                              :inst7 ;
+     :duracao 12 ;
+     :id "m18" ;
+     :tipo "Marcha de desfile" ;
+     :titulo "12 de Abril" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#m28
+:m28 rdf:type owl:NamedIndividual ,
+              :Ligeiro ;
+     :temCompositor :comp4 ;
+     :temPartituraInstrumento :inst1 ,
+                              :inst10 ,
+                              :inst2 ,
+                              :inst3 ,
+                              :inst4 ,
+                              :inst5 ,
+                              :inst6 ,
+                              :inst7 ,
+                              :inst8 ,
+                              :inst9 ;
+     :duracao 18 ;
+     :id "m28" ;
+     :tipo "Ligeiro" ;
+     :titulo "Abba Mia" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#m30
+:m30 rdf:type owl:NamedIndividual ,
+              :Ligeiro ;
+     :temCompositor :comp3 ;
+     :temPartituraInstrumento :inst2 ,
+                              :inst3 ,
+                              :inst4 ,
+                              :inst5 ,
+                              :inst6 ,
+                              :inst7 ,
+                              :inst8 ,
+                              :inst9 ;
+     :duracao 15 ;
+     :id "m30" ;
+     :tipo "Marcha de concerto" ;
+     :titulo "76 Trombones" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#m47
+:m47 rdf:type owl:NamedIndividual ,
+              :Rapsodia ;
+     :temCompositor :comp5 ;
+     :temPartituraInstrumento :inst1 ,
+                              :inst2 ,
+                              :inst3 ,
+                              :inst4 ,
+                              :inst5 ,
+                              :inst6 ,
+                              :inst7 ,
+                              :inst8 ;
+     :duracao 22 ;
+     :id "m47" ;
+     :tipo "Rapsódia" ;
+     :titulo "Bailar em Nespereira" .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/3/untitled-ontology-21#m7
+:m7 rdf:type owl:NamedIndividual ,
+             :MarchaProcissao ;
+    :temCompositor :comp6 ;
+    :temPartituraInstrumento :inst1 ,
+                             :inst2 ,
+                             :inst3 ,
+                             :inst4 ,
+                             :inst5 ,
+                             :inst6 ,
+                             :inst7 ;
+    :duracao 19 ;
+    :id "m7" ;
+    :tipo "Marcha de procissão" ;
+    :titulo "Avé Maria" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
