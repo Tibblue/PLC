@@ -1,0 +1,52 @@
+# Exercicio 3
+
+# 1
+select (count(?river) as ?count) where {
+  ?river a dbo:River.
+}
+
+# 2
+select (count(?river) as ?count) where {
+  ?river a dbo:River.
+  ?river dbo:country :Portugal.
+}
+
+# 3
+select ?river ?labelPT ?nome ?distrito where {
+  ?river a dbo:River.
+  ?river dbo:country :Portugal.
+  OPTIONAL { ?river dbo:district ?distrito}
+  OPTIONAL { ?river rdfs:label ?labelPT
+    FILTER(LANG(?labelPT)="pt")
+  }
+  OPTIONAL { ?river foaf:name ?nome}
+}
+
+# 4
+# 4.1
+select distinct ?river where {
+  { ?river a dbo:River. }
+    UNION
+  { ?river a yago:WikicatRiversOfPortugal. }
+  ?river dbo:country :Portugal.
+}
+# 4.2
+select distinct ?river ?labelPT ?nome ?distrito where {
+  { ?river a dbo:River. }
+    UNION
+  { ?river a yago:WikicatRiversOfPortugal. }
+  ?river dbo:country :Portugal.
+  OPTIONAL { ?river dbo:district ?distrito}
+  OPTIONAL { ?river rdfs:label ?labelPT
+    FILTER(LANG(?labelPT)="pt")
+  }
+  OPTIONAL { ?river foaf:name ?nome}
+}
+
+# 5
+select ?river ?p where {
+  { ?river a dbo:River. }
+    UNION
+  { ?river a yago:WikicatRiversOfPortugal. }
+  ?river ?p <http://dbpedia.org/resource/Braga_(district)>.
+}

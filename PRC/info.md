@@ -3,8 +3,8 @@
 ## Metodo de avaliação
 <img height=100p style="float:right" src="http://www.stickpng.com/assets/images/586295ba3796e30ac4468739.png">
 
-* 40% Projeto
-* 30% Teste
+* 60% Projeto
+* 10% Ficha
 * 20% TPCs
 * 10% JCR (avaliação pessoal)
 

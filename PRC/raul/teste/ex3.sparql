@@ -1,0 +1,58 @@
+# Exercicio 3
+
+# 1 - Quantos rios estão catalogados na DBpedia? (dbo:River)
+
+select (count(?river) as ?count) where {
+  ?river a dbo:River.
+}
+
+# 2 - Quantos rios portugueses estão catalogados na DBpedia?
+
+select (count(?river) as ?count) where {
+  ?river a dbo:River.
+  ?river dbo:country :Portugal.
+}
+
+# 3 - Que nomes têm e a que distrito pertencem os rios portugueses?
+
+select ?river ?labelPT ?nome ?distrito where {
+  ?river a dbo:River.
+  ?river dbo:country :Portugal.
+  OPTIONAL { ?river dbo:district ?distrito}
+  OPTIONAL { ?river rdfs:label ?labelPT
+    FILTER(LANG(?labelPT)="pt")
+  }
+  OPTIONAL { ?river foaf:name ?nome}
+}
+
+# 4 - Reformula as duas queries anteriores considerando que um rio pode ser do tipo 'dbo:River' ou 'yago:WikicatRiversOfPortugal'.
+
+# 4.1
+select ?river where {
+  { ?river a dbo:River. }
+    UNION
+  { ?river a yago:WikicatRiversOfPortugal. }
+  ?river dbo:country :Portugal.
+}
+
+# 4.2
+select ?river ?labelPT ?nome ?distrito where {
+  { ?river a dbo:River. }
+    UNION
+  { ?river a yago:WikicatRiversOfPortugal. }
+  ?river dbo:country :Portugal.
+  OPTIONAL { ?river dbo:district ?distrito}
+  OPTIONAL { ?river rdfs:label ?labelPT
+    FILTER(LANG(?labelPT)="pt")
+  }
+  OPTIONAL { ?river foaf:name ?nome}
+}
+
+# 5 - Quantos rios estão de alguma forma associados a Braga?
+
+select ?river ?p where {
+  { ?river a dbo:River. }
+    UNION
+  { ?river a yago:WikicatRiversOfPortugal. }
+  ?river ?p <http://dbpedia.org/resource/Braga_(district)>.
+}
