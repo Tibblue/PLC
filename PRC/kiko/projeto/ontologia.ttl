@@ -12,8 +12,8 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasAnime
-:hasAnime rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#directed
+:directed rdf:type owl:ObjectProperty ;
           owl:inverseOf :hasDirector .
 
 
@@ -21,6 +21,17 @@
 :hasDirector rdf:type owl:ObjectProperty ;
              rdfs:domain :Anime ;
              rdfs:range :Director .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasWriter
+:hasWriter rdf:type owl:ObjectProperty ;
+           owl:inverseOf :wrote ;
+           rdfs:domain :Anime ;
+           rdfs:range :Writer .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#wrote
+:wrote rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -31,13 +42,13 @@
 :director rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#director_label
-:director_label rdf:type owl:DatatypeProperty .
-
-
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#label
 :label rdf:type owl:DatatypeProperty ;
        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#writer
+:writer rdf:type owl:DatatypeProperty .
 
 
 #################################################################
@@ -50,6 +61,10 @@
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Director
 :Director rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Writer
+:Writer rdf:type owl:Class .
 
 
 #################################################################
