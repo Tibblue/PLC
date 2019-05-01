@@ -1,0 +1,82 @@
+@prefix : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/kiko/ontologies/2019/projeto> .
+
+<http://www.semanticweb.org/kiko/ontologies/2019/projeto> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#director
+:director rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#director_label
+:director_label rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#label
+:label rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Anime
+:Anime rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+# URI «» rdf-schema#label «» director_label «» director «» imdbId «» licensee «» musicComposer_label «» musicComposer «» network_label «» network «» producer_label «» producer «» soundRecording_label «» soundRecording «» type_label «» type «» writer_label «» writer «» 22-rdf-syntax-ns#type_label «» 22-rdf-syntax-ns#type «» rdf-schema#seeAlso_label «» rdf-schema#seeAlso «» owl#differentFrom_label «» owl#differentFrom
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Fullmetal_Alchemist__Brotherhood
+:Fullmetal_Alchemist__Brotherhood rdf:type owl:NamedIndividual, :Anime.
+:Fullmetal_Alchemist__Brotherhood :label "Fullmetal Alchemist: Brotherhood" .
+:Fullmetal_Alchemist__Brotherhood :director_label "Yasuhiro Irie" .
+:Fullmetal_Alchemist__Brotherhood :director "http://dbpedia.org/resource/Yasuhiro_Irie" .
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Fullmetal_Alchemist__anime_
+:Fullmetal_Alchemist__anime_ rdf:type owl:NamedIndividual, :Anime.
+:Fullmetal_Alchemist__anime_ :label "Fullmetal Alchemist (anime)" .
+:Fullmetal_Alchemist__anime_ :director_label "Seiji Mizushima" .
+:Fullmetal_Alchemist__anime_ :director "http://dbpedia.org/resource/Seiji_Mizushima" .
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Steins_Gate
+:Steins_Gate rdf:type owl:NamedIndividual, :Anime.
+:Steins_Gate :label "Steins;Gate" .
+:Steins_Gate :director_label "Takuya Satō" .
+:Steins_Gate :director "http://dbpedia.org/resource/Takuya_Satō" .
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Steins_Gate_0
+:Steins_Gate_0 rdf:type owl:NamedIndividual, :Anime.
+:Steins_Gate_0 :label "Steins;Gate 0" .
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Attack_on_Titan__tv_series__1
+:Attack_on_Titan__tv_series__1 rdf:type owl:NamedIndividual, :Anime.
+:Attack_on_Titan__tv_series__1 :director_label "Tetsurō Araki" .
+:Attack_on_Titan__tv_series__1 :director "http://dbpedia.org/resource/Tetsurō_Araki" .
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Attack_on_Titan__tv_series__2
+:Attack_on_Titan__tv_series__2 rdf:type owl:NamedIndividual, :Anime.
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#One_Punch_Man__ova__1
+:One_Punch_Man__ova__1 rdf:type owl:NamedIndividual, :Anime.
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#One_Punch_Man__tv_series__1
+:One_Punch_Man__tv_series__1 rdf:type owl:NamedIndividual, :Anime.
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#No_Game_No_Life__TV_series__1
+:No_Game_No_Life__TV_series__1 rdf:type owl:NamedIndividual, :Anime.
+:No_Game_No_Life__TV_series__1 :director_label "Atsuko Ishizuka" .
+:No_Game_No_Life__TV_series__1 :director "http://dbpedia.org/resource/Atsuko_Ishizuka" .
+
+# Processed 12 lines.
