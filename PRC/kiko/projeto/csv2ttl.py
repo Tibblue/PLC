@@ -2,10 +2,12 @@ import sys
 import regex as re
 import csv
 
-### VARS
+### FILES
+ontology_file = open("./ontologia.ttl")
 csv_file = open("./datasets/Anime.csv")
 # csv_file = open("./datasets/Anime_small.csv")
 csv_reader = csv.reader(csv_file, delimiter=',')
+### VARS
 line_count = 0
 
 # printa erros para STDERR
@@ -22,68 +24,14 @@ def fix_id(id):
     # printE(id)
     return id
 
-ontologia = """
-    @prefix : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#> .
-    @prefix owl: <http://www.w3.org/2002/07/owl#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @base <http://www.semanticweb.org/kiko/ontologies/2019/projeto> .
-
-    <http://www.semanticweb.org/kiko/ontologies/2019/projeto> rdf:type owl:Ontology .
-
-    #################################################################
-    #    Object Properties
-    #################################################################
-
-    ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasDirector
-    :hasDirector rdf:type owl:ObjectProperty ;
-                rdfs:domain :Anime ;
-                rdfs:range :Director .
-
-
-    #################################################################
-    #    Data properties
-    #################################################################
-
-    ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#director
-    :director rdf:type owl:DatatypeProperty .
-
-
-    ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#director_label
-    :director_label rdf:type owl:DatatypeProperty .
-
-
-    ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#label
-    :label rdf:type owl:DatatypeProperty ;
-        rdfs:range xsd:string .
-
-
-    #################################################################
-    #    Classes
-    #################################################################
-
-    ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Anime
-    :Anime rdf:type owl:Class .
-
-
-    ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Director
-    :Director rdf:type owl:Class .
-
-
-    #################################################################
-    #    Individuals
-    #################################################################
-"""
-print(ontologia)
-
 
 directors = []
+print(ontology_file.read())
 for row in csv_reader:
     line_count += 1
     if line_count == 1:
-        print("# "+" «» ".join(row))
+        # print("# "+" «» ".join(row))
+        pass
     elif line_count == 2 or line_count == 3 or line_count == 4:
         pass
     else:
