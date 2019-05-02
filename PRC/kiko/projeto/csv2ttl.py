@@ -10,6 +10,7 @@ csv_reader = csv.reader(csv_file, delimiter=',')
 ### VARS
 directors = []
 writers = []
+networks = []
 
 # printa erros para STDERR
 def printE(*args, **kwargs):
@@ -57,6 +58,18 @@ def doAnime():
                 for i in range(len(s2)):
                     print(f':{id} :hasDirector :{"DIRECTOR_"+fix_id(s3[i].split("http://dbpedia.org/resource/")[1])} .')
                     directors.append((s2[i],s3[i]))
+            if row[8]!="NULL" and row[9]!="NULL":
+                r8 = re.search(r"{(.*)}",row[8])
+                r9 = re.search(r"{(.*)}",row[9])
+                if r8 and r9: # caso com mais que um elemento
+                    s8 = r8.group(1).split('|')
+                    s9 = r9.group(1).split('|')
+                else: # caso com um elemento
+                    s8 = [row[8]]
+                    s9 = [row[9]]
+                for i in range(len(s8)):
+                    print(f':{id} :hasNetwork :{"NETWORK_"+fix_id(s9[i].split("http://dbpedia.org/resource/")[1])} .')
+                    networks.append((s8[i],s9[i]))
             if row[16]!="NULL" and row[17]!="NULL":
                 r16 = re.search(r"{(.*)}",row[16])
                 r17 = re.search(r"{(.*)}",row[17])
@@ -99,7 +112,22 @@ def doWriters():
         print(f':{id} :label "{label}".')
         print()
 
+def doNetwork():
+    global networks
+    networks.sort()
+    networks = set(networks)
+    print("\n\n#####  NETWORKS  #####\n")
+    for label,network in networks:
+        id = network.split("http://dbpedia.org/resource/")[1]
+        id = "NETWORK_"+fix_id(id)
+        print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
+        print(f':{id} rdf:type owl:NamedIndividual, :Network.')
+        print(f':{id} :network "{network}".')
+        print(f':{id} :label "{label}".')
+        print()
+
 print(ontology_file.read())
 doAnime()
 doDirectors()
 doWriters()
+doNetwork()
