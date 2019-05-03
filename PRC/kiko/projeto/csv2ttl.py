@@ -126,6 +126,7 @@ def doNetwork():
         print(f':{id} :label "{label}".')
         print()
 
+
 print(ontology_file.read())
 doAnime()
 doDirectors()
