@@ -133,8 +133,33 @@ def procura_elemento(resto_frase,valores_csv):
                     return linha
         linha += 1
 
+# retorna as linhas em que tem o elemento contido na memsangem
+def procura_elementos(resto_frase,valores_csv):
+    lista_linhas = []
+    linha = 0
+    for row in valores_csv:
+        for elemento in row:
+            if elemento is not "":
+                if elemento.lower() in resto_frase.lower():
+                    lista_linhas.append(linha)
+        linha += 1
+    return lista_linhas
+
 # responde quando tem a coluna objetivo
 def respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv):
+    lista_respostas = []
+    coluna = nome_colunas.index(nome_coluna_obj.capitalize())
+    # linha = procura_elemento(resto_frase,valores_csv)
+    linhas = procura_elementos(resto_frase,valores_csv)
+    for linha in linhas:
+        print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
+        resposta = valores_csv[linha][coluna]
+        lista_respostas.append(resposta)
+    return lista_respostas
+
+########### for now
+# responde quando tem a coluna objetivo
+def respond_full_agr_beta(nome_colunas,nome_coluna_obj,resto_frase,valores_csv):
     coluna = nome_colunas.index(nome_coluna_obj.capitalize())
     linha = procura_elemento(resto_frase,valores_csv)
     print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
@@ -157,7 +182,8 @@ def responde(mensagem,schema,csv):
 
     # caso a coluna esteja especificada na mensagem
     if nome_coluna_obj is not "":
-        resposta = respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv)
+        lista_respostas = respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv)
+        resposta = (',').join(lista_respostas)
     # caso a coluna não esteja espeficiada na mensagem
     else:
         tipo_questao = busca_tipo_questao(questao)
@@ -165,7 +191,7 @@ def responde(mensagem,schema,csv):
         lista_colunas_obj = busca_colunas_tipo_especifico(schema,tipo_questao,nome_colunas)
         print("lista_colunas_obj: " + str(lista_colunas_obj))
         for nome_coluna_obj in lista_colunas_obj:
-            r = respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv)
+            r = respond_full_agr_beta(nome_colunas,nome_coluna_obj,resto_frase,valores_csv)
             resposta = resposta + ', ' + r
         resposta = resposta[2:]
     if resposta == "":
@@ -182,4 +208,11 @@ def responde(mensagem,schema,csv):
 # resposta =  responde("dia é a informática em portugal em que","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("Quais são os oradores da sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
 resposta = responde("Quando é a sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Quais são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
 print(resposta)
+
+
+
+############### casos a fazer ####################
+# Quais são as sessões social? -> nao tem tipo obj e com os quais vai englobar
+# mais colunas que a que queremos para a resposta
