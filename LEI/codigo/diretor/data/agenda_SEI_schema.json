@@ -1,0 +1,29 @@
+{
+    "Atividade":{
+        "Tipo" : "Objeto"
+    },
+    "Tipo":{
+        "Tipo" : "Objeto"
+    },
+    "Local": {
+        "Tipo": "Local"
+    },
+    "Dia": {
+        "Tipo": "Temporal"
+    },
+    "Início": {
+        "Tipo": "Temporal"
+    },
+    "Fim": {
+        "Tipo": "Temporal"
+    },
+    "Descrição": {
+        "Tipo": "Objeto"
+    },
+    "Oradores": {
+        "Tipo": "Pessoal"
+    },
+    "Requisitos": {
+        "Tipo": "Objeto"
+    }
+}

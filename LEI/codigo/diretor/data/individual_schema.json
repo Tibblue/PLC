@@ -10,7 +10,7 @@
         "Tipo": "Local"
     },
     "Nascimento": {
-        "Tipo": "Tempo"
+        "Tipo": "Temporal"
     },
     "Comida": {
         "Tipo": "Objeto"

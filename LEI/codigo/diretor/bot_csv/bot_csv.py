@@ -25,7 +25,7 @@ def get_lista_nomeColunas(json_file):
 # retorna  os valores_csv
 def openCSV(path):
     with open(path, newline='') as csvfile:
-        spamreader = csv.reader(csvfile, delimiter=',')
+        spamreader = csv.reader(csvfile, delimiter=';')
         valores_csv = []
         lista_nomeColunas = []
         flag = 0
@@ -41,29 +41,12 @@ def openCSV(path):
 # Variáveis globais/funções/listas
 lista_questao_tipo = [
     ('Quem','Pessoa'),
-    ('Quando','Tempo'),
+    ('Quando','Temporal'),
     ('Onde','Local'),
     ('Quantos','Numero'),
-    ('Qual','Objeto')
+    ('Qual','Objeto'),
+    ('Em que','Objeto')
 ]
-
-
-def mensagemSearch(mensagem,lista_nomeColunas,lista_exp_reg):
-    questao = ""
-    nome_coluna_obj = ""
-    elemento = ""
-    for exp_reg in lista_exp_reg:
-        match = re.search(exp_reg, mensagem,re.IGNORECASE)
-        if match is not None:
-            num_matches = len(match.groups())
-            if num_matches==2:
-                questao = match.group(1).lower()
-                elemento = match.group(2).lower()
-            elif num_matches==3:
-                questao = match.group(1).lower()
-                nome_coluna_obj = match.group(2).lower()
-                elemento = match.group(3).lower()
-            return (questao,nome_coluna_obj,elemento)
 
 # retorna a lista com a linha onde está o valor pretendido
 def findRow(elemento,valores_csv):
@@ -107,11 +90,6 @@ def responde(mensagem,files_csv):
     # lista com os nomes das colunas
     lista_nomeColunas = get_lista_nomeColunas(files_csv)
 
-    '''
-    Waning o files_csv.json vai permitir ter vários csv´s por isso isto depois tem de
-    ser alterado de forma a permitir isso
-    Para já só está feito para dar parau um csv especifico
-    '''
     path_individual = path_data + '/individual.csv'
 
     # retorna o contéudo do csv especifico
@@ -160,7 +138,8 @@ def respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_cs
             nome_coluna_obj = nomeColuna
     return respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
 
-def responde_dsl(mensagem,schema,csv):
+# versão antiga
+def responde_dsl_old(mensagem,schema,csv):
     ratio = 1
     resposta = None
     # paths só para testing individual
@@ -197,6 +176,85 @@ def responde_dsl(mensagem,schema,csv):
         pass
     return resposta,ratio
 
-# resposta = responde_dsl('Qual a comida preferida do Kiko?','individual_schema.json','individual.csv')
-# resposta = responde_dsl('Quando nasceu o Kiko?','individual_schema.json','individual.csv')
-# print(resposta)
+
+def mensagemSearch(mensagem,lista_nomeColunas,lista_exp_reg):
+    questao = ""
+    nome_coluna_obj = ""
+    for exp_reg in lista_exp_reg:
+        match = re.search(exp_reg, mensagem,re.IGNORECASE)
+        if match is not None:
+            num_matches = len(match.groups())
+            if num_matches==1:
+                questao = match.group(1).lower()
+            elif num_matches==2:
+                questao = match.group(1).lower()
+                nome_coluna_obj = match.group(2).lower()
+            return (questao,nome_coluna_obj)
+
+
+# procura no csv qual é o elemento da pergunta
+def procura_elemento(mensagem,valores_csv):
+    linha = 0
+    for row in valores_csv:
+        for elemento in row:
+            if elemento is not "":
+                if elemento.lower() in mensagem.lower():
+                    return elemento,linha
+        linha += 1
+
+def responde_dsl(mensagem,schema,csv):
+    ratio = 1
+    # resposta = None
+
+    # paths só para testing individual
+
+    path_csv = os.path.dirname(os.getcwd()) + '/data/' + csv
+    # print(path_csv)
+    path_schema = os.path.dirname(os.getcwd()) + '/data/' + schema
+    # print(path_schema)
+
+    # path geral
+    # path_csv = os.getcwd() + '/data/' + csv
+    # path_schema = os.getcwd() + '/data/' + schema
+
+    # guarda o conteudo do ficheiro json com o schema
+    schema = save_json(path_schema)
+    # print(schema)
+
+    (lista_nomeColunas,valores_csv) = openCSV(path_csv)
+    # print(lista_nomeColunas,valores_csv)
+
+    nome_colunas_exp_reg = '|'.join(lista_nomeColunas)
+    lista_exp_reg = [
+        (r'(Quem).* (.*) anos\b\??'), # ver como resolver esta situação
+        (r'(Quem).* (.*)\b\??'),
+        (r'(Quantos).* (.*)\b\??'),
+        (r'(Onde).* (.*)\b\??'),
+        (r'(Quando).* (.*)\b\??'),
+        (r'(Qual).*('+nome_colunas_exp_reg+r').* (.*)\b\??'),
+        (r'(Em que).*('+nome_colunas_exp_reg+r').*\b\??'),
+    ]
+
+
+    (questao,nome_coluna_obj) =  mensagemSearch(mensagem,lista_nomeColunas,lista_exp_reg)
+    print(questao)
+    print(nome_coluna_obj)
+
+    # descobre qual é o elemento da pergunta
+    elemento,linha = procura_elemento(mensagem,valores_csv)
+    print(elemento,linha)
+
+    coluna = lista_nomeColunas.index(nome_coluna_obj.capitalize())
+
+    resposta = valores_csv[linha][coluna]
+    return resposta,ratio
+
+    # if nome_coluna_obj is not "":
+    #     resposta = respond_full_agr_dsl(nome_coluna_obj,elemento,lista_nomeColunas,valores_csv)
+    # else:
+    #     resposta = respond_missing_agr_dsl(questao,elemento,lista_nomeColunas,schema,valores_csv)
+
+    # return resposta,ratio
+
+resposta,ratio = responde_dsl("Em que dia é a informática em portugal","agenda_SEI_schema.json","agenda_SEI.csv")
+print(resposta)
