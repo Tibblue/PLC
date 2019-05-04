@@ -10,7 +10,7 @@ import os
 tuplo_questao_tipo = [
     ('quem','Pessoal'),
     ('quando','Temporal'),
-    ('qnde','Local'),
+    ('onde','Local'),
     ('quantos','Numeral'),
     ('qual','Objeto'),
     ('em que','Objeto'),
@@ -99,21 +99,27 @@ def procura_mensagem(mensagem):
 
 # verifica se o nome da coluna está contida na mensagem
 def verifica_existe_nome_coluna(resto_frase,nome_colunas):
-    nome_coluna_obj = ""
+    coluna_obj = ""
 
     nome_colunas_exp_reg = '|'.join(nome_colunas)
     match = re.search(r'('+nome_colunas_exp_reg+r')',resto_frase,re.IGNORECASE)
 
     if match is not None:
-        nome_coluna_obj = match.group(1)
+        coluna_obj = match.group(1)
 
-    return nome_coluna_obj
+    return coluna_obj
 
 # retorna qual é o tipo de uma questao
 def busca_tipo_questao(questao):
     for quest,tipo in tuplo_questao_tipo:
         if questao.lower() == quest:
             return tipo
+
+# verifica se o tipo da coluna objetivo coincide com o tipo da questao
+def verifica_tipo_nome_coluna(coluna_obj,questao,schema):
+    tipo_questao = busca_tipo_questao(questao)
+    tipo_coluna_obj = schema[coluna_obj.capitalize()]['Tipo']
+    return tipo_questao,tipo_coluna_obj
 
 # descobre qual é a coluna obj quando não está presente na questao
 def busca_colunas_tipo_especifico(schema,tipo_questao,nome_colunas):
@@ -147,6 +153,7 @@ def procura_elementos(resto_frase,valores_csv):
         linha += 1
     return lista_linhas
 
+# trata do resultado para o caso em que há várias respostas
 def trata_resultado(lista_respostas):
     respostas = []
     for resposta_linha in lista_respostas:
@@ -156,9 +163,9 @@ def trata_resultado(lista_respostas):
     return resposta
 
 # responde quando tem a coluna objetivo
-def respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv):
+def respond_full_agr(nome_colunas,coluna_obj,resto_frase,valores_csv):
     lista_respostas = []
-    coluna = nome_colunas.index(nome_coluna_obj.capitalize())
+    coluna = nome_colunas.index(coluna_obj.capitalize())
     linhas = procura_elementos(resto_frase,valores_csv)
     for linha in linhas:
         print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
@@ -166,7 +173,6 @@ def respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv):
         lista_respostas.append(resposta)
     return lista_respostas
 
-########### for now
 # responde para quando não tem a coluna objetivo
 def respond_missing_arg(nome_colunas,lista_colunas_obj,resto_frase,valores_csv):
     lista_colunas = []
@@ -186,6 +192,7 @@ def respond_missing_arg(nome_colunas,lista_colunas_obj,resto_frase,valores_csv):
 
 def responde(mensagem,schema,csv):
     resposta = ""
+
     # retorna o schema e o conteudo do csv
     (schema,nome_colunas,valores_csv) = get_schema_nomeColunas_valorescsv(schema,csv)
 
@@ -195,12 +202,18 @@ def responde(mensagem,schema,csv):
     print("resto_frase: " + resto_frase)
 
     # vai verificar se a coluna está especifica na mensagem
-    nome_coluna_obj = verifica_existe_nome_coluna(resto_frase,nome_colunas)
-    print("nome_coluna_obj: "+nome_coluna_obj)
+    coluna_obj = verifica_existe_nome_coluna(resto_frase,nome_colunas)
+    print("coluna_obj: "+coluna_obj)
+
+    # vai descobrir qual é o tipo da questao e o tipo da coluna_obj
+    if coluna_obj:
+        tipo_questao,tipo_coluna_obj = verifica_tipo_nome_coluna(coluna_obj,questao,schema)
+        print("tipo_questao: "    + tipo_questao)
+        print("tipo_coluna_obj: " + tipo_coluna_obj)
 
     # caso a coluna esteja especificada na mensagem
-    if nome_coluna_obj is not "":
-        lista_respostas = respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv)
+    if coluna_obj is not "" and not(tipo_questao is not 'Objeto' and tipo_questao != tipo_coluna_obj):
+        lista_respostas = respond_full_agr(nome_colunas,coluna_obj,resto_frase,valores_csv)
         resposta = (',').join(lista_respostas)
     # caso a coluna não esteja espeficiada na mensagem
     else:
@@ -219,12 +232,12 @@ def responde(mensagem,schema,csv):
 # resposta,ratio = responde("Em que dia é a informática em portugal","agenda_SEI_schema.json","agenda_SEI.csv")
 # print(resposta)
 
-# resposta = responde("Em que dia é a informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Quando é a informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("em que dia é a informática em portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-# resposta = responde("dia é em que a informática em portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-# resposta =  responde("dia é a informática em portugal em que","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("Quais são os oradores da Informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-resposta = responde("Quais são as sessões social?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Quais são as sessões talk?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("Quais são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("A sessão de abertura é onde?","agenda_SEI_schema.json","agenda_SEI.csv")
+resposta = responde("Onde são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
 print('\nResposta:')
 print(resposta)
