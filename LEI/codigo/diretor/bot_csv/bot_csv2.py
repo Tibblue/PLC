@@ -13,11 +13,12 @@ tuplo_questao_tipo = [
     ('qnde','Local'),
     ('quantos','Numeral'),
     ('qual','Objeto'),
-    ('qm que','Objeto'),
-    ('Quais','Objeto')
+    ('em que','Objeto'),
+    ('quais','Objeto'),
+    ('o que','Objeto')
 ]
 
-questoes = ['quem','quantos','onde','quando','qual','em que','quais']
+questoes = ['quem','quantos','onde','quando','qual','em que','quais','o que']
 questoes_exp_reg = '|'.join(questoes)
 
 lista_exp_reg = [
@@ -124,6 +125,7 @@ def busca_colunas_tipo_especifico(schema,tipo_questao,nome_colunas):
     return lista_colunas_obj
 
 # procura no csv qual é o elemento da pergunta
+# para apagar provavelemente
 def procura_elemento(resto_frase,valores_csv):
     linha = 0
     for row in valores_csv:
@@ -145,11 +147,18 @@ def procura_elementos(resto_frase,valores_csv):
         linha += 1
     return lista_linhas
 
+def trata_resultado(lista_respostas):
+    respostas = []
+    for resposta_linha in lista_respostas:
+        r = ','.join(resposta_linha)
+        respostas.append(r[:-1])
+    resposta = '\n'.join(respostas)
+    return resposta
+
 # responde quando tem a coluna objetivo
 def respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv):
     lista_respostas = []
     coluna = nome_colunas.index(nome_coluna_obj.capitalize())
-    # linha = procura_elemento(resto_frase,valores_csv)
     linhas = procura_elementos(resto_frase,valores_csv)
     for linha in linhas:
         print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
@@ -158,13 +167,22 @@ def respond_full_agr(nome_colunas,nome_coluna_obj,resto_frase,valores_csv):
     return lista_respostas
 
 ########### for now
-# responde quando tem a coluna objetivo
-def respond_full_agr_beta(nome_colunas,nome_coluna_obj,resto_frase,valores_csv):
-    coluna = nome_colunas.index(nome_coluna_obj.capitalize())
-    linha = procura_elemento(resto_frase,valores_csv)
-    print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
-    resposta = valores_csv[linha][coluna]
-    return resposta
+# responde para quando não tem a coluna objetivo
+def respond_missing_arg(nome_colunas,lista_colunas_obj,resto_frase,valores_csv):
+    lista_colunas = []
+    lista_respostas = []
+    for coluna_obj in lista_colunas_obj:
+        coluna = nome_colunas.index(coluna_obj.capitalize())
+        lista_colunas.append(coluna)
+    lista_linhas = procura_elementos(resto_frase,valores_csv)
+    print('lista_colunas: '+ str(lista_colunas) + ' lista_linhas: ' + str(lista_linhas))
+    for linha in lista_linhas:
+        resposta_linha = []
+        for coluna in lista_colunas:
+            resposta = valores_csv[linha][coluna]
+            resposta_linha.append(resposta)
+        lista_respostas.append(resposta_linha)
+    return lista_respostas
 
 def responde(mensagem,schema,csv):
     resposta = ""
@@ -190,10 +208,9 @@ def responde(mensagem,schema,csv):
         print("tipo_questao: " + tipo_questao)
         lista_colunas_obj = busca_colunas_tipo_especifico(schema,tipo_questao,nome_colunas)
         print("lista_colunas_obj: " + str(lista_colunas_obj))
-        for nome_coluna_obj in lista_colunas_obj:
-            r = respond_full_agr_beta(nome_colunas,nome_coluna_obj,resto_frase,valores_csv)
-            resposta = resposta + ', ' + r
-        resposta = resposta[2:]
+        lista_respostas = respond_missing_arg(nome_colunas,lista_colunas_obj,resto_frase,valores_csv)
+        resposta = trata_resultado(lista_respostas)
+
     if resposta == "":
         resposta = 'Não existe.'
 
@@ -206,13 +223,8 @@ def responde(mensagem,schema,csv):
 # resposta = responde("em que dia é a informática em portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("dia é em que a informática em portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta =  responde("dia é a informática em portugal em que","agenda_SEI_schema.json","agenda_SEI.csv")
-# resposta = responde("Quais são os oradores da sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
-resposta = responde("Quando é a sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Quais são os oradores da Informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
+resposta = responde("Quais são as sessões social?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("Quais são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
+print('\nResposta:')
 print(resposta)
-
-
-
-############### casos a fazer ####################
-# Quais são as sessões social? -> nao tem tipo obj e com os quais vai englobar
-# mais colunas que a que queremos para a resposta
