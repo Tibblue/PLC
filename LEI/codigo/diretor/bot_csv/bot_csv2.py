@@ -75,9 +75,9 @@ def get_schema_nomeColunas_valorescsv(schema,csv):
 
     # guarda o conteudo do ficheiro json com o schema
     schema = save_json(path_schema)
-    (nome_colunas,valores_csv) = openCSV(path_csv)
+    (colunas,valores_csv) = openCSV(path_csv)
 
-    return schema,nome_colunas,valores_csv
+    return schema,colunas,valores_csv
 
 # percorre a lista de exp reg e retorna a questao e o resto da frase
 def procura_mensagem(mensagem):
@@ -98,10 +98,10 @@ def procura_mensagem(mensagem):
                 return questao,resto_frase
 
 # verifica se o nome da coluna está contida na mensagem
-def verifica_existe_nome_coluna(resto_frase,nome_colunas):
+def verifica_existe_coluna(resto_frase,colunas):
     coluna_obj = ""
 
-    nome_colunas_exp_reg = '|'.join(nome_colunas)
+    nome_colunas_exp_reg = '|'.join(colunas)
     match = re.search(r'('+nome_colunas_exp_reg+r')',resto_frase,re.IGNORECASE)
 
     if match is not None:
@@ -122,24 +122,33 @@ def verifica_tipo_nome_coluna(coluna_obj,questao,schema):
     return tipo_questao,tipo_coluna_obj
 
 # descobre qual é a coluna obj quando não está presente na questao
-def busca_colunas_tipo_especifico(schema,tipo_questao,nome_colunas):
+def busca_colunas_tipo_especifico(schema,tipo_questao,colunas):
     lista_colunas_obj = []
-    for nome_coluna in nome_colunas:
-        tipo_coluna = schema[nome_coluna]['Tipo']
+    for nome_coluna in colunas:
+        tipo_coluna =      sinomimos = schema[nome_coluna]['Tipo']
         if tipo_questao == tipo_coluna:
             lista_colunas_obj.append(nome_coluna)
     return lista_colunas_obj
 
-# procura no csv qual é o elemento da pergunta
-# para apagar provavelemente
-def procura_elemento(resto_frase,valores_csv):
-    linha = 0
-    for row in valores_csv:
-        for elemento in row:
-            if elemento is not "":
-                if elemento.lower() in resto_frase.lower():
-                    return linha
-        linha += 1
+# vai buscar os sinonimos no schema e cria uma lista de listas com os sinonimos para cada coluna
+def busca_sinonimos_schema(schema,colunas):
+    tuplos_coluna_sinonimos = []
+    for nome_coluna in colunas:
+        sinonimos = schema[nome_coluna]['Sinonimos']
+        tuplo = tuple((nome_coluna,sinonimos))
+        tuplos_coluna_sinonimos.append(tuplo)
+    return tuplos_coluna_sinonimos
+
+# verifica se na mensagem contém algum dos sinónimos, caso existe retorna a que coluna correspondente
+# d essa a coluna objetivo
+def verifica_sinonimos_mensagem(tuplos_coluna_sinonimos,resto_frase):
+    for coluna,sinonimos in tuplos_coluna_sinonimos:
+        sinonimos_exp_reg = '|'.join(sinonimos)
+        match = re.search(r'('+sinonimos_exp_reg+r')',resto_frase,re.IGNORECASE)
+        if match is not None:
+            if match.group(1) is not "":
+                return coluna
+    return ""
 
 # retorna as linhas em que tem o elemento contido na memsangem
 def procura_elementos(resto_frase,valores_csv):
@@ -158,14 +167,14 @@ def trata_resultado(lista_respostas):
     respostas = []
     for resposta_linha in lista_respostas:
         r = ','.join(resposta_linha)
-        respostas.append(r[:-1])
+        respostas.append(r)
     resposta = '\n'.join(respostas)
     return resposta
 
 # responde quando tem a coluna objetivo
-def respond_full_agr(nome_colunas,coluna_obj,resto_frase,valores_csv):
+def respond_full_agr(colunas,coluna_obj,resto_frase,valores_csv):
     lista_respostas = []
-    coluna = nome_colunas.index(coluna_obj.capitalize())
+    coluna = colunas.index(coluna_obj.capitalize())
     linhas = procura_elementos(resto_frase,valores_csv)
     for linha in linhas:
         print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
@@ -174,11 +183,11 @@ def respond_full_agr(nome_colunas,coluna_obj,resto_frase,valores_csv):
     return lista_respostas
 
 # responde para quando não tem a coluna objetivo
-def respond_missing_arg(nome_colunas,lista_colunas_obj,resto_frase,valores_csv):
+def respond_missing_arg(colunas,lista_colunas_obj,resto_frase,valores_csv):
     lista_colunas = []
     lista_respostas = []
     for coluna_obj in lista_colunas_obj:
-        coluna = nome_colunas.index(coluna_obj.capitalize())
+        coluna = colunas.index(coluna_obj.capitalize())
         lista_colunas.append(coluna)
     lista_linhas = procura_elementos(resto_frase,valores_csv)
     print('lista_colunas: '+ str(lista_colunas) + ' lista_linhas: ' + str(lista_linhas))
@@ -194,7 +203,7 @@ def responde(mensagem,schema,csv):
     resposta = ""
 
     # retorna o schema e o conteudo do csv
-    (schema,nome_colunas,valores_csv) = get_schema_nomeColunas_valorescsv(schema,csv)
+    (schema,colunas,valores_csv) = get_schema_nomeColunas_valorescsv(schema,csv)
 
     # divide a questao do resto da frase e retorna os valores
     questao,resto_frase = procura_mensagem(mensagem)
@@ -202,8 +211,16 @@ def responde(mensagem,schema,csv):
     print("resto_frase: " + resto_frase)
 
     # vai verificar se a coluna está especifica na mensagem
-    coluna_obj = verifica_existe_nome_coluna(resto_frase,nome_colunas)
+    coluna_obj = verifica_existe_coluna(resto_frase,colunas)
     print("coluna_obj: "+coluna_obj)
+
+    # tuplo com o nome da colunas e os respetivos sinonimos do chema
+    tuplos_coluna_sinonimos = busca_sinonimos_schema(schema,colunas)
+
+    if coluna_obj is "":
+        # verificar se por acaso não existe algum sinonimo das colunas na frase
+        coluna_obj = verifica_sinonimos_mensagem(tuplos_coluna_sinonimos,resto_frase)
+        print("coluna_obj (a partir do sinonimo): " + str(coluna_obj))
 
     # vai descobrir qual é o tipo da questao e o tipo da coluna_obj
     if coluna_obj:
@@ -213,15 +230,15 @@ def responde(mensagem,schema,csv):
 
     # caso a coluna esteja especificada na mensagem
     if coluna_obj is not "" and not(tipo_questao is not 'Objeto' and tipo_questao != tipo_coluna_obj):
-        lista_respostas = respond_full_agr(nome_colunas,coluna_obj,resto_frase,valores_csv)
+        lista_respostas = respond_full_agr(colunas,coluna_obj,resto_frase,valores_csv)
         resposta = (',').join(lista_respostas)
     # caso a coluna não esteja espeficiada na mensagem
     else:
         tipo_questao = busca_tipo_questao(questao)
         print("tipo_questao: " + tipo_questao)
-        lista_colunas_obj = busca_colunas_tipo_especifico(schema,tipo_questao,nome_colunas)
+        lista_colunas_obj = busca_colunas_tipo_especifico(schema,tipo_questao,colunas)
         print("lista_colunas_obj: " + str(lista_colunas_obj))
-        lista_respostas = respond_missing_arg(nome_colunas,lista_colunas_obj,resto_frase,valores_csv)
+        lista_respostas = respond_missing_arg(colunas,lista_colunas_obj,resto_frase,valores_csv)
         resposta = trata_resultado(lista_respostas)
 
     if resposta == "":
@@ -233,11 +250,18 @@ def responde(mensagem,schema,csv):
 # print(resposta)
 
 # resposta = responde("Quando é a informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-# resposta = responde("em que dia é a informática em portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
+resposta = responde("em que dia é a informática em portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("Quais são os oradores da Informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-# resposta = responde("Quais são as sessões talk?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("Quais são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
 # resposta = responde("A sessão de abertura é onde?","agenda_SEI_schema.json","agenda_SEI.csv")
-resposta = responde("Onde são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Onde são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Quem são os oradores da Mobile and web rapid application development with OutSystemsk?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Quando é o início da sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Qual é a descrição da sessão que tem como tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Em que complexo é a sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Quais são as sessões talk?","agenda_SEI_schema.json","agenda_SEI.csv")
+# resposta = responde("Em que complexo é a sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
+
+
 print('\nResposta:')
 print(resposta)

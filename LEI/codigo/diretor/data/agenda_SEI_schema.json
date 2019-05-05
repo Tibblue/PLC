@@ -1,29 +1,38 @@
 {
     "Atividade":{
-        "Tipo" : "Objeto"
+        "Tipo" : "Objeto",
+        "Sinonimos" : ["Conferência","Convenção","Reunião","sessões"]
     },
     "Tipo":{
-        "Tipo" : "Objeto"
+        "Tipo" : "Objeto",
+        "Sinonimos" : ["categoria"]
     },
     "Local": {
-        "Tipo": "Local"
+        "Tipo": "Local",
+        "Sinonimos" : ["zona","complexo"]
     },
     "Dia": {
-        "Tipo": "Temporal"
+        "Tipo": "Temporal",
+        "Sinonimos" : []
     },
     "Início": {
-        "Tipo": "Temporal"
+        "Tipo": "Temporal",
+        "Sinonimos" : ["começa"]
     },
     "Fim": {
-        "Tipo": "Temporal"
+        "Tipo": "Temporal",
+        "Sinonimos" : ["acaba"]
     },
     "Descrição": {
-        "Tipo": "Objeto"
+        "Tipo": "Objeto",
+        "Sinonimos" : ["resumo"]
     },
     "Oradores": {
-        "Tipo": "Pessoal"
+        "Tipo": "Pessoal",
+        "Sinonimos" : ["pregador","palestrante","palestrador","locutor","orador"]
     },
     "Requisitos": {
-        "Tipo": "Objeto"
+        "Tipo": "Objeto",
+        "Sinonimos" : ["limitações"]
     }
 }
