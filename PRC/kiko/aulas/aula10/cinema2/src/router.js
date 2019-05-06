@@ -12,6 +12,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: () => import('./views/ListaFilmes.vue')
+    },
+    {
+      path: '/filmes/:id',
+      name: 'filme',
+      component: () => import('./views/ConsultaFilme.vue')
     }
   ]
 })

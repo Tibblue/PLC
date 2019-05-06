@@ -46,7 +46,9 @@
     },
     methods: {
       rowClicked: function (item) {
-        this.$emit('filmeSelected', item)
+        // this.$emit('filmeSelected', item)
+        // alert()
+        this.$router.push('/filmes/'+item.id.split('#')[1])
       }
     }
   }
