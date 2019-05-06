@@ -15,7 +15,7 @@
         <tr @click="rowClicked(props.item)">
           <td class="subheading"> {{props.item.ano}} </td>
           <td class="subheading"> {{props.item.tit}} </td>
-          <td class="subheading"> {{props.item.id}} </td>
+          <td class="subheading"> {{props.item.id.split('#')[1]}} </td>
         </tr>
       </template>
     </v-data-table>
@@ -30,8 +30,8 @@
     data: () => ({
       headers: [
         { text: 'Ano', align:'left', sortable:true, value:'ano', class:'title'},
-        { text: 'Titulo', align:'tit', sortable:true, class:'title'},
-        { text: 'Identificador', align:'id', sortable:true, class:'title'}
+        { text: 'Titulo', value:'tit', sortable:true, class:'title'},
+        { text: 'Identificador', value:'id', sortable:true, class:'title'}
       ],
       filmes: []
     }),
