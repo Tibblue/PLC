@@ -12,11 +12,12 @@ var endpoints = [
 ];
 
 
-/* GET users listing. */
+/* GET input page. */
 router.get('/', function(req, res, next) {
     res.render('getInput');
 });
 
+/* POST input query. */
 router.post('/', function(req, res, next) {
     var dataset = req.body.dataset;
     var output = req.body.output;
@@ -50,7 +51,7 @@ router.post('/', function(req, res, next) {
         .catch(err => console.log('ERRO: ' + err));
 });
 
-/* GET users listing. */
+/* GET query API. */
 router.get('/graphDB/sparqlQuery/:output/', function(req, res, next) {
     var endpoint = endpoints[2];
     var encoded = req.query.query
