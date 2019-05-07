@@ -5,7 +5,7 @@
       :items="filmes"
       class="elevation-1"
     >
-      <template v-slot:data>
+      <template v-slot:no-data>
         <v-alert :value="true" color="error" icon="warning">
           Não foi possivel apresentar uma lista dos filmes...
         </v-alert>

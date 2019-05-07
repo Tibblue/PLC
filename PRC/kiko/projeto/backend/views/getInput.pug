@@ -9,30 +9,31 @@ block content
   div(class="w3-row")
     div(class="w3-col s12 w3-padding")
       div(class="w3-container w3-border w3-light-grey")
-        div(class="w3-col s3")
-          header(class="w3-container")
-            h4 Dataset:
-          div(id="datasets")
-            input(type='radio' name="dataset" value='dbpedia')
-            |  DBpedia
-            br
-            input(type='radio' name="dataset" value='wikidata')
-            |  Wikidata
-            br
-            input(type='radio' name="dataset" value='localhost' checked)
-            |  localhost
-            p
-        div(class="w3-col s2")
-          header(class="w3-container")
-            h4 Output:
-          div(id="formats")
-            input(type='radio' name="format" value='json' checked)
-            |  JSON
-            br
-            input(type='radio' name="format" value='xml')
-            |  XML
-            p
-        div(class="w3-col s8")
+        div(class="w3-col s3 l2")
+          div
+            header(class="w3-container")
+              h4 Dataset:
+            div(id="datasets")
+              input(type='radio' name="dataset" value='dbpedia')
+              |  DBpedia
+              br
+              input(type='radio' name="dataset" value='wikidata')
+              |  Wikidata
+              br
+              input(type='radio' name="dataset" value='localhost' checked)
+              |  localhost
+              p
+          div
+            header(class="w3-container")
+              h4 Output:
+            div(id="formats")
+              input(type='radio' name="format" value='json' checked)
+              |  JSON
+              br
+              input(type='radio' name="format" value='xml')
+              |  XML
+              p
+        div(class="w3-col s9 l10")
           header(class="w3-container")
             h4 Input:
           textarea(rows="6" cols="40" class="w3-input" placeholder="Input here..." name="intext" id="intext")
