@@ -4,7 +4,6 @@ var fs = require('fs');
 var path = require('path');
 var router = express.Router();
 
-/* Lista de endpoints. */
 /* GraphDB endpoint */
 var endpoint = 'http://localhost:7200/repositories/projetoBeta'
 
@@ -31,7 +30,7 @@ router.get('/', function(req, res, next) {
 router.get('/:savedQuery', function(req, res, next) {
     var url = 'http://localhost:7200/rest/sparql/saved-queries?name='
     var encodedName = encodeURIComponent(req.params.savedQuery)
-    console.log(encodedName)
+    // console.log(encodedName)
     axios.get(url+encodedName)
         .then(response => {
             var query = response.data.body
