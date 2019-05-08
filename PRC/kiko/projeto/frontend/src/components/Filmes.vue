@@ -13,14 +13,10 @@
 
       <template v-slot:items="props">
         <tr @click="rowClicked(props.item)">
-          <td class="subheading"> {{props.item.anime.value.split('#')[1]}} </td>
-          <td class="subheading"> {{props.item.relacao.value.split('#')[1]}} </td>
-          <td v-if="props.item.value.type=='uri'" class="subheading">
-            {{props.item.value.value.split('#')[1]}}
-          </td>
-          <td v-else class="subheading">
-            {{props.item.value.value}}
-          </td>
+          <td class="subheading"> {{props.item.anime.value.split('#ANIME_')[1]}} </td>
+          <td class="subheading"> {{props.item.label.value}} </td>
+          <td class="subheading"> {{props.item.writer.value.split('#WRITER_')[1]}} </td>
+          <td class="subheading"> {{props.item.director.value.split('#DIRECTOR_')[1]}} </td>
         </tr>
       </template>
     </v-data-table>
@@ -35,8 +31,9 @@
     data: () => ({
       headers: [
         { text: 'Anime', value:'anime', align:'left', sortable:true, class:'title'},
-        { text: 'relacao', value:'relacao', sortable:true, class:'title'},
-        { text: 'value', value:'value', sortable:true, class:'title'}
+        { text: 'Label', value:'label', sortable:true, class:'title'},
+        { text: 'Writer', value:'writer', sortable:true, class:'title'},
+        { text: 'Director', value:'director', sortable:true, class:'title'}
       ],
       animes: []
     }),
