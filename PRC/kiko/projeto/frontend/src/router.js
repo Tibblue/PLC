@@ -10,7 +10,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'lista',
       component: () => import('./views/ListaFilmes.vue')
     }
     // ,
