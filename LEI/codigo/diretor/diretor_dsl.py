@@ -1,5 +1,4 @@
-import re
-import random
+import random,sys,re,getopt
 from change_tuplos import change_tuplos
 from bot_lista import bot_lista
 from get_regras import regras_estado_resposta
@@ -11,21 +10,50 @@ from math import trunc
 global state_atual
 state_atual = 'NORMAL'
 
-# > preciso de informações -- Estado ativo: Informativo
-# > estou aqui para isso, o que precisas? --um exemplot de quote de alteração para o estado informativo
-# (apenas usa bots informativos, CSV,QA,WIKI)
+# printa uma despedida e escreve o resultado no ficheiro log assim como o fim de conversa
+def get_despedida_e_escreve_log():
+    despedida = random.choice(despedidas)
+    save_log(despedida,'bot')
+    print(despedida)
+    save_log('','')
 
-def responde(input_utilizador):
+# append de uma mensagem ao ficheiro de log
+def save_log(msg,ident):
+    file = 'log/log.txt'
+    file = open(file,'a')
+    if ident == 'user':
+        file.write('User: '+msg+'\n')
+    elif ident == 'bot':
+        file.write('Bot: '+msg+'\n')
+    else:
+        file.write('\n---FIM DE CONVERSA---\n\n')
+    file.close()
+
+def responde_test_opt(ficheiro):
+    # path ficheiro teste
+    path_teste = os.getcwd() + '/testing/' + ficheiro
+    file = open(path_teste).read()
+
+    inputs = file.split('\n')
+    for input_utilizador in inputs:
+        save_log(input_utilizador,'user')
+        triplos,estados = change_tuplos()
+        resposta = responde(input_utilizador,triplos,estados)
+        save_log(resposta,'bot')
+    save_log('','')
+
+
+
+def responde(input_utilizador,triplos,estados):
     lista_respostas = []
-    triplos,estados = change_tuplos()
     # print(estados)
     # print(estados)
     global state_atual
-    print('Estado antes: ',state_atual)
+    # print('Estado antes: ',state_atual)
 
     state_anterior = state_atual
     state_atual = altera_estados(input_utilizador,estados,state_atual)
-    print('Estado apos: ',state_atual)
+    # print('Estado apos: ',state_atual)
 
     # para casos especiais em que há alteração de estado
     if state_anterior != state_atual:
@@ -49,7 +77,7 @@ def responde(input_utilizador):
                                 tuplo = tuple((resposta,confianca))
                                 lista_respostas.append(tuplo)
         lista_respostas.sort(key=itemgetter(1),reverse=True)
-        print("\nlista_respostas: ",lista_respostas)
+        # print("\nlista_respostas: ",lista_respostas)
         if lista_respostas:
             return lista_respostas[0][0]
         else:
@@ -60,12 +88,31 @@ def responde(input_utilizador):
 
         return random.choice(clueless)
 
-while(True):
-    input_utilizador = input('Eu:')
-    # input_utilizador = 'Grão a galinha se a o padre batatas?'
-    # input_utilizador = 'Quem foi o primeiro rei de Portugal?'
-    # input_utilizador = 'És mesmo burro'
-    # x = bot_lista.gera_resposta_dsl(input_utilizador,'proverbios.txt')
-    # print(x)
-    resposta = responde(input_utilizador)
-    print(resposta)
+
+# trata do input caso haja opções
+def trata_opcoes(args):
+    options = ['--test','-t']
+    if args[0] == '--test' or args[0] == '-t':
+        responde_test_opt(args[1])
+
+def main():
+
+    # opções
+    if sys.argv[2:] != []:
+        trata_opcoes(sys.argv[2:])
+
+    else:
+        while(True):
+            try:
+                input_utilizador = input('Eu:')
+                save_log(input_utilizador,'user')
+                triplos,estados = change_tuplos()
+                resposta = responde(input_utilizador,triplos,estados)
+                save_log(resposta,'bot')
+                print(resposta)
+            except KeyboardInterrupt:
+                print('\n')
+                get_despedida_e_escreve_log()
+                sys.exit()
+
+main()

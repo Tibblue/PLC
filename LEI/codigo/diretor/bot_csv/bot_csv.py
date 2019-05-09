@@ -96,6 +96,7 @@ def procura_mensagem(mensagem):
                     questao = match.group(2)
                     resto_frase = match.group(1) + match.group(3)
                 return questao,resto_frase
+    return "",""
 
 # verifica se o nome da coluna está contida na mensagem
 def verifica_existe_coluna(resto_frase,colunas):
@@ -177,7 +178,7 @@ def respond_full_agr(colunas,coluna_obj,resto_frase,valores_csv):
     coluna = colunas.index(coluna_obj.capitalize())
     linhas = procura_elementos(resto_frase,valores_csv)
     for linha in linhas:
-        print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
+        # print('coluna: '+ str(coluna) + ' linha: ' + str(linha))
         resposta = valores_csv[linha][coluna]
         lista_respostas.append(resposta)
     return lista_respostas
@@ -190,7 +191,7 @@ def respond_missing_arg(colunas,lista_colunas_obj,resto_frase,valores_csv):
         coluna = colunas.index(coluna_obj.capitalize())
         lista_colunas.append(coluna)
     lista_linhas = procura_elementos(resto_frase,valores_csv)
-    print('lista_colunas: '+ str(lista_colunas) + ' lista_linhas: ' + str(lista_linhas))
+    # print('lista_colunas: '+ str(lista_colunas) + ' lista_linhas: ' + str(lista_linhas))
     for linha in lista_linhas:
         resposta_linha = []
         for coluna in lista_colunas:
@@ -242,7 +243,7 @@ def responde(mensagem,schema,csv):
         resposta = trata_resultado(lista_respostas)
 
     if resposta == "":
-        resposta = 'Não existe.'
+        resposta = None
 
     return resposta,ratio
 

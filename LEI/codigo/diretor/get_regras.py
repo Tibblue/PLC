@@ -32,6 +32,10 @@ regras_bot_QA = [
     (['NORMAL','INFORMATIVO'],2,r'(.*)', lambda x,dataset: bot_QA.responde(x.group(0),dataset[0])),
 ]
 
+# regras_bot_FAQ = [
+#     (['NORMAL','INFORMATIVO'],5,r'(.*)', lambda x,dataset: )),
+# ]
+
 regras_estado = [
     ('CHATEADO',r'És mesmo ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
     ('CHATEADO',r'És ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
