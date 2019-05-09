@@ -58,8 +58,8 @@ router.get('/sparqlQuery', function(req, res, next) {
   var encoded = encodeURIComponent(query)
 
   console.log('Dataset: ' + endpoint);
-  console.log('Query: \n' + query);
-  console.log('Encoded: \n' + encoded);
+  console.log('Query: ' + query);
+  // console.log('Encoded: \n' + encoded);
 
   axios.get(endpoint + '?query=' + encoded, {
     headers: { Accept: 'application/sparql-results+json'

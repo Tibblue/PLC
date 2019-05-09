@@ -14,9 +14,10 @@
       <template v-slot:items="props">
         <tr @click="rowClicked(props.item)">
           <td class="subheading"> {{props.item.anime.value.split('#ANIME_')[1]}} </td>
-          <td class="subheading"> {{props.item.label.value}} </td>
-          <td class="subheading"> {{props.item.writer.value.split('#WRITER_')[1]}} </td>
-          <td class="subheading"> {{props.item.director.value.split('#DIRECTOR_')[1]}} </td>
+          <td v-if="props.item.label" class="subheading"> {{props.item.label.value}} </td>
+          <td v-else > <p><i>No Label</i></p> </td>
+          <!-- <td class="subheading"> {{props.item.writer.value.split('#WRITER_')[1]}} </td> -->
+          <!-- <td class="subheading"> {{props.item.director.value.split('#DIRECTOR_')[1]}} </td> -->
         </tr>
       </template>
     </v-data-table>
@@ -32,14 +33,23 @@
       headers: [
         { text: 'Anime', value:'anime', align:'left', sortable:true, class:'title'},
         { text: 'Label', value:'label', sortable:true, class:'title'},
-        { text: 'Writer', value:'writer', sortable:true, class:'title'},
-        { text: 'Director', value:'director', sortable:true, class:'title'}
+        // { text: 'Writer', value:'writer', sortable:true, class:'title'},
+        // { text: 'Director', value:'director', sortable:true, class:'title'}
       ],
       animes: []
     }),
     mounted: async function (){
       try{
-        var response = await axios.get(lhost+'/query/PRC_Proj-anime_info');
+        var query = `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+          PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+          select distinct * where {
+              ?anime rdf:type :Anime .
+              OPTIONAL {?anime :label ?label .}
+          }`
+        var encoded = encodeURIComponent(query)
+        console.log(encoded)
+        var response = await axios.get(lhost+'/sparqlQuery?query='+encoded);
+        // var response = await axios.get(lhost+'/query/PRC_Proj-anime_label');
         this.animes = response.data.results.bindings
         console.log(this.animes)
       }
