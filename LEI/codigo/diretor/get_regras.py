@@ -25,11 +25,11 @@ regras_bot_tradutor = [
 ]
 
 regras_bot_csv = [
-    (['NORMAL','INFORMATIVO'],3,r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_csv.responde_dsl(x.group(0),dataset[0],dataset[1])),
+    (['NORMAL','INFORMATIVO'],3,r'(.*)', lambda x,dataset: bot_csv.responde(x.group(0),dataset[0],dataset[1])),
 ]
 
 regras_bot_QA = [
-    (['NORMAL','INFORMATIVO'],2,r'('+tipos_perguntas_exp+r').*', lambda x,dataset: bot_QA.responde(x.group(0),dataset[0])),
+    (['NORMAL','INFORMATIVO'],2,r'(.*)', lambda x,dataset: bot_QA.responde(x.group(0),dataset[0])),
 ]
 
 regras_estado = [

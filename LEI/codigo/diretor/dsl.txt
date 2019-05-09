@@ -1,4 +1,4 @@
-b0 = CREATE bot_csv WITH individual_schema.json FROM individual.csv
+b0 = CREATE bot_csv WITH agenda_SEI_schema.json FROM agenda_SEI.csv
 b1 = CREATE bot_lista FROM lusiadas.txt
 b2 = CREATE bot_lista FROM proverbios.txt
 b3 = CREATE bot_wiki FROM wiki.json
