@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <AnimesTable />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import AnimesTable from '@/components/AnimesTable'
 
   export default {
     components: {
-      HelloWorld
+      AnimesTable
     }
   }
 </script>

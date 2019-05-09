@@ -10,12 +10,12 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: () => import('./views/ListaFilmes.vue')
+      component: () => import('./views/Home.vue')
     },
     {
       path: '/animes/:id',
       name: 'anime',
-      component: () => import('./views/ListaFilmes.vue')
+      component: () => import('./views/Home.vue')
     }
   ]
 })

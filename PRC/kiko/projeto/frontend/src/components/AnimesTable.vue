@@ -1,13 +1,28 @@
 <template>
   <v-container>
+    <v-card-title>
+      <v-text-field
+        v-model="searchText"
+        append-icon="search"
+        label="Search"
+        single-line
+      ></v-text-field>
+    </v-card-title>
     <v-data-table
       :headers="headers"
       :items="animes"
+      :search="searchText"
+      item-key="anime"
       class="elevation-1"
     >
       <template v-slot:no-data>
         <v-alert :value="true" color="error" icon="warning">
           Não foi possivel apresentar a lista de animes...
+        </v-alert>
+      </template>
+      <template v-slot:no-results>
+        <v-alert :value="true" color="error" icon="warning">
+          A pesquisa por "{{searchText}}" não teve resultados.
         </v-alert>
       </template>
 
@@ -30,6 +45,7 @@
 
   export default {
     data: () => ({
+      searchText: '',
       headers: [
         { text: 'Anime', value:'anime', align:'left', sortable:true, class:'title'},
         { text: 'Label', value:'label', sortable:true, class:'title'},
