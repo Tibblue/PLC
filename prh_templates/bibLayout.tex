@@ -1,0 +1,516 @@
+\documentclass{article}%especifica o tipo de documento que tenciona escrever: carta, artigo, relatório... neste caso é um artigo
+
+\usepackage[portuges]{babel}%Babel -- irá activar automaticamente as regras apropriadas de hifenização para a língua todo o
+                                   %-- o texto gerado é automaticamente traduzido para Português.
+                                   %  Por exemplo, “chapter” irá passar a “capítulo”, “table of contents” a “conteúdo”.
+                                   %portuges -- específica para o Português e outras línguas com caracteres acentuados.
+\usepackage[utf8]{inputenc} % input do encode  do teclado
+
+\usepackage{graphicx} %permite incluir graficos, tabelas, figuras
+
+%listing%
+\usepackage{eurosym}
+\usepackage{listings}
+\usepackage{color}
+%\usepackage{listingsutf8}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{lightgray}{rgb}{0.83,0.83,0.83}
+\definecolor{dukeblue}{rgb}{0.0, 0.0, 0.61}
+\definecolor{pakistangreen}{rgb}{0.0, 0.4, 0.0}
+\definecolor{saddlebrown}{rgb}{0.55, 0.27, 0.07}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{saddlebrown},
+    keywordstyle=\color{dukeblue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{pakistangreen},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    inputencoding=utf8,
+    extendedchars=true,
+    escapeinside={\%*}{*)},
+    literate={á}{{\'a}}1 {ã}{{\~a}}1 {â}{{\^a}}1  {é}{{\'e}}1 {ê}{{\^e}}1  {í}{{\'i}}1 {ó}{{\'o}}1 {õ}{{\~o}}1 {ô}{{\^o}}1 {ú}{{\'u}}1 {ç}{{\'ç}}1,
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\parindent=0pt
+\parskip=2pt
+
+\setlength{\oddsidemargin}{-1cm} %espaço entre o texto e a margem
+\setlength{\textwidth}{18cm} %Comprimento do texto na pagina
+\setlength{\headsep}{-1cm} %espaço entre o texto e o cabeçalho
+\setlength{\textheight}{23cm} %altura do texto na pagina
+
+
+
+
+\title{Notas sobre  Bibliografia em  Bib\TeX} %Titulo do documento
+\author{Cristiana Araújo \and Pedro Rangel Henriques} %autores do documento
+\date{ \today} %data
+
+
+
+\begin{document} % corpo do documento
+
+\maketitle %apresentar titulo, autor e data
+
+Bib\TeX\ é uma ferramenta, complementar ao processador \LaTeX,  de formatação de referências bibliográficas
+citadas em documentos \LaTeX.
+Ela foi criada por Oren Patashnik e Leslie Lamport em 1985 para facilitar a separação da bibliografia
+do texto que constitui o corpo central do documento,
+seguindo o mesmo conceito de distinção entre o conteúdo e o estilo do texto utilizado no próprio \LaTeX.
+
+Para se gerar com o Bib\TeX\ uma bibliografia que possa ser incluida num documento, é necessário criar
+um outro ficheiro de texto à parte com o nome que se quiser mas terminado com a extensão \texttt{.bib}
+(por exemplo, \texttt{arquivoBib.bib}) contendo uma base de dados bibliográfica, (textual) a qual poderá ser reutilizada
+em qualquer outro documento \LaTeX\ que posteriormente se venha a criar.
+De modo a que a base de dados com registos bibliográficos possa ser tratada pelo Bib\TeX\ é necessário
+que cada registo seja escrito usando uma sintaxe própria e que contenha uma estrutura adequada, conforme se
+vai explicar na próxima secção.
+
+\section{Tipos de Referências em Bib\TeX} \label{sec:bibliografia} %referência cruzada para secçoes
+
+Embora a sintaxe a usar para descrever cada referência bibliográfica seja sempre a mesma, os campos de cada registo
+são variáveis e dependem do tipo de documento que se quer registar, existindo atualmente em Bib\TeX mais de quinze tipos distintos.
+
+As entradas desta base de dados devem ter sempre a seguinte estrutura:
+
+\begin{verbatim}
+ @tipoEntrada{label,
+    campo1 = {Valor do campo 1},
+    campo2 = {Valor do campo 2},
+    campo3 = {Valor do campo 3},
+    [...]
+    campo4 = {Valor do campo 4}
+ }
+\end{verbatim}
+
+A seguir são listados os tipos de entrada mais relevantes (mais usados)  e os respetivos campos, mostrando-se ainda um exemplo para cada caso.
+Convém notar que as entradas são compostas de campos obrigatórios (são aqueles sem os quais uma referência não
+pode ser caracterizada) e
+opcionais (são aqueles que não sendo essenciais ajudam a caracterizar mais adequadamente a referência).
+
+\begin{description}
+  \item[@article] Um artigo de um periódico ou revista.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} autor, title, journal, year.
+    \item \emph{Campos opcionais:} volume, number, pages, month, issn, publisher, doi, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @article{araujo:2018b,
+    author    = {Cristiana Ara{\'u}jo and Pedro Rangel Henriques and Ricardo G. Martini},
+    title     = {{Virtual Learning Spaces Creation Based on the Systematic Population of an Ontology}},
+    journal   = {Journal of Information Systems Engineering \& Management (JISEM)},
+    pages     = {1-11},
+    volume    = {3},
+    number    = {1},
+    year      = {2018},
+    month     = {Feb},
+    issn      = {2468-4376},
+    publisher = {Lectito and AISTI},
+    doi       = {https://doi.org/10.20897/jisem.201807}
+  }
+   \end{lstlisting}
+
+
+  \item[@book] Um livro inteiro publicado.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author ou editor; title; publisher; year.
+    \item \emph{Campos opcionais:} volume ou number; series; address; edition; month; isbn; note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @book{damas:1999,
+    title     = {Linguagem C},
+    author    = { Luís Damas},
+    isbn      = {9789727221561},
+    year      = {1999},
+    publisher = {FCA}
+  }
+  \end{lstlisting}
+
+
+  \item[@inBook]  Uma parte de um livro (capítulo dentro do livro).
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author/editor, title, chapter/pages, publisher, year.
+    \item \emph{Campos opcionais:} volume/number, series, type, address, edition, doi, month, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @inBook{Hopcroft:2006b,
+    author  =  {John E. Hopcroft and Rajeev Motwani and Jeffrey Ullman},
+    title   =  {Introduction to Automata Theory, Languages, and Computation},
+    chapter =  {5 -- Context-Free Grammars and Languages},
+    year    =  {2006},
+    edition =  {3rd Ed.},
+    publisher = {Addison-Wesley},
+  }
+  \end{lstlisting}
+
+
+  \item[@misc]  Algo que não se encaixa em nenhum outro tipo (imagens, áudios, vídeos,...).
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} Nenhum.
+    \item \emph{Campos opcionais:} author, title, howpublished, month, year, url, date, note.
+
+  \end{itemize}
+
+  \begin{lstlisting}
+  @misc{knuth:1999,
+    author    = {Donald Knuth},
+    title     = {Knuth: Computers and Typesetting},
+    year      = {1999}
+  }
+  \end{lstlisting}
+
+
+\item[@online]  Utilizado para sites, páginas web...
+\begin{itemize}
+    \item \emph{Campos obrigatórios:} Nenhum.
+    \item \emph{Campos opcionais:} author, title, howpublished, month, year, url, date, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @online{antlr:2016,
+    author  = {ANTLR},
+    title   = {{ANTLR}},
+    howpublished = {\url{http://www.antlr.org/}},
+    date    = {2016-09},
+    year    = {2016},
+    note    = {Accessed: 2016-09-14}
+  }
+  \end{lstlisting}
+
+
+  \item[@inCollection]  Livro de uma série (colecção de livros, por exemplo, Uma Aventura).
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author, title, booktitle, publisher, year.
+    \item \emph{Campos opcionais:} editor, volume/number, series, type, chapter, pages, address, edition, month, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @inCollection{maskin:1985,
+    author  = {Eric S. Maskin},
+    title   = {The theory of implementation in {N}ash equilibrium: a survey},
+    booktitle = {Social Goals and Social Organization},
+    editor  = {Leonid Hurwicz and David Schmeidler and Hugo Sonnenschein},
+    year    = {1985},
+    pages   = {173-204},
+    publisher = {Cambridge University Press},
+    address = {Cambridge}
+  }
+  \end{lstlisting}
+
+
+  \item[@proceedings] Livro de atas da conferência.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} title, year.
+    \item \emph{Campos opcionais:} editor, volume/number, series, address, publisher, month, note, organization.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @proceedings{deransart:1990,
+    title  = {Attribute Grammars and their Applications},
+    editor = {P. Deransart and M. Jourdan},
+    organization = {INRIA},
+    year   = {1990},
+    month  = {Sep},
+    publisher = {sv},
+    note   = {Lecture Notes in Computer Science, nu. 461},
+    annote = {compilacao, atributos}
+  }
+  \end{lstlisting}
+
+
+  \item[@inProceedings]  Um artigo nas atas de conferência.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author, title, booktitle, year.
+    \item \emph{Campos opcionais:} editor, volume/number, series, pages, address, month, isbn, organization, publisher, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @inProceedings{araujo:2017a,
+    author   = {Cristiana Ara{\'u}jo  and Pedro Rangel Henriques and Ricardo G. Martini},
+    title    = {{Automatizing Ontology Population to drive the navigation on Virtual Learning Spaces}},
+    booktitle = {Atas da 12$^{a}$ Confer{\^e}ncia Ib{\'e}rica de Sistemas e Tecnologias de Informa\c{c}\~ao, CISTI'2017},
+    editor   = {{\'A}lvaro Rocha and Br{\'a}ulio Alturas and Carlos Costa and Lu{\'i}s Paulo Reis and Manuel P{\'e}rez Cota},
+    pages    = {781-786},
+    year     = {2017},
+    month    = {June},
+    publisher = {AISTI--Associacao Ib{\'e}rica de Sistemas e Tecnologias de Informacao},
+    isbn     = {978-989-98434-7-9},
+    note     = {}
+  }
+  \end{lstlisting}
+
+
+  \item[@mastersthesis] Uma tese de mestrado.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author, title, school, year.
+    \item \emph{Campos opcionais:} type, address, month, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @mastersthesis{araujo:2016,
+	author = {Cristiana Ara{\'u}jo},
+	title  = {{Building the Museum of the Person Based on a combined CIDOC-CRM/ FOAF/ DBpedia Ontology}},
+	year   = {2016},
+    school = {Universidade do Minho},
+    month  = {December},
+    address= {Braga, Portugal},
+    note   = {{MSc} dissertation}
+  }
+  \end{lstlisting}
+
+
+  \item[@phdthesis]  Uma tese de doutoramento.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author, title, school, year.
+    \item \emph{Campos opcionais:} type, address, month, note, annote.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @phdthesis{martini:2018,
+    author = {Ricardo Giuliani Martini},
+    title  = {{Formal Description and Automatic Generation of Learning Spaces based on Ontologies}},
+    year   = {2018},
+    month  = {Sep},
+    school = {University of Minho},
+    annote = {Ontologies, DSLs, Virtual Learning Spaces, Automatic Generation of Websites}
+  }
+  \end{lstlisting}
+
+
+  \item[@techreport]  Relatório publicado por uma instituição.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author, title, institution, year.
+    \item \emph{Campos opcionais:} type, number, address, month, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @techreport{araujo:2017,
+	author    = {Cristiana Ara{\'u}jo},
+	title     = {{Norma -- Simplex Project}},
+    institution = {UNU-EGOV, United Nations University},
+    year      = {2017},
+    type      = {{Technical Report}},
+	language  = {English}
+  }
+  \end{lstlisting}
+
+
+  \item[@booklet] Um trabalho que é impresso mas não tem editora ou instituição patrocinadora (exemplo:folheto).
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} title.
+    \item \emph{Campos opcionais:} author, howpublished, address, month, year, note.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @booklet{caxton:1993,
+    title        = {The title of the work},
+    author       = {Peter Caxton},
+    howpublished = {How it was published},
+    address      = {The address of the publisher},
+    month        = {7},
+    year         = 1993,
+    note         = {An optional note}
+  }
+  \end{lstlisting}
+
+
+  \item[@manual] Documentação técnica.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} title.
+    \item \emph{Campos opcionais:} author, organization, address, edition, month, year, note, annote.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @manual{Pinto:1991,
+    author  = {Luis Filipe Pinto and Pedro Rangel Henriques},
+    title   = {Animador de Especifica\c{c}\~oes {OBLOG}},
+    year    = {1991},
+    month   = {Sep},
+    organization = {gdcc},
+    edition = {1.st},
+    number  = {UMMAN obl-man},
+    annote  = {ambientes desenvolvimento, prog oobjectos, espec formal}
+  }
+  \end{lstlisting}
+
+
+  \item[@unpublished] Documento não publicado formalmente.
+  \begin{itemize}
+    \item \emph{Campos obrigatórios:} author, title, note.
+    \item \emph{Campos opcionais:} month, year.
+  \end{itemize}
+
+  \begin{lstlisting}
+  @unpublished{fudenberg:1988,
+    title  = {A theory of learning, experimentation, and equilibrium in games},
+    author = {Drew Fudenberg  and David M. Kreps},
+    year   = {1988},
+    note   = {Unpublished paper}
+  }
+  \end{lstlisting}
+\end{description}
+
+
+\subsection{Campos de Entrada Bib\TeX}
+
+Nesta subseção explica-se o significado exato de cada campo de um registo bibliográfico obrigatório ou opcional.
+A listagem segue a ordem alfabética.
+
+\begin{itemize}
+  \item \textbf{address} -  Cidade da editora. No caso de \emph{inproceedings}, se a editora não for informada será o local do evento.
+  \item \textbf{annote} - Uma anotação. Não é usado pelos estilos de bibliografia padrão, mas pode ser usado por outros que produzem uma bibliografia anotada.
+  \item \textbf{author} - Autor(res) do trabalho. Se existir mais do que um autor devem ser separados por "\emph{and}".
+                        Quando um autor apresentar apelido composto devemos colocar o primeiro apelido em primeiro, por exemplo, os autores "Paulo Silva Neto, Joaquim Castro" devem ser cadastrados como "Silva{ }Neto, Paulo and Joaquim Castro";
+  \item \textbf{booktitle} - Depende do tipo de entrada. Para \emph{inbook} é o nome do livro, para \emph{incollection} é o nome da colecção, já para \emph{inproceedings} é o nome da publicação da conferência ou evento;
+  \item \textbf{chapter} - Número do capítulo;
+  \item \textbf{doi} - Digital Object Identifier - representa um sistema de identificação numérico para conteúdo digital, como livros, artigos electrónicos e documentos em geral;
+  \item \textbf{edition} - Edição de um livro - por exemplo, "Segundo";
+  \item \textbf{editor} -  Nome do(s) editor(es) semelhante ao campo author;
+  \item \textbf{howpublished} -  Como o trabalho está disponível;
+  \item \textbf{journal} - Nome da revista ou periódico;
+  \item \textbf{institution} - A instituição patrocinadora de um relatório técnico.
+  \item \textbf{isbn} - Código universal de qualquer livro.
+  \item \textbf{issn} - Código universal de qualquer revista.
+  \item \textbf{month} - Mês  em que o trabalho foi publicado ou, para um trabalho não publicado, no qual foi escrito;
+  \item \textbf{note} -  Observação. Qualquer informação adicional que possa ajudar o leitor;
+  \item \textbf{number} -  O número de um periódico, revista, relatório técnico ou de um trabalho numa série.
+                        Uma edição de um periódico ou revista é geralmente identificada pelo seu volume e número; a organização que emite um relatório técnico geralmente fornece um número; e às vezes os livros recebem números numa série nomeada;
+  \item \textbf{organization} - Organização. No caso de \emph{inproceedings} é o nome do evento;
+  \item \textbf{pages} -  Total de páginas do trabalho (mais usado em livros, monografias) ou páginas inicial e final separadas
+                          por hífen (mais usado em artigos);
+  \item \textbf{publisher} - Editora;
+  \item \textbf{school}  - Nome da instituição de ensino;
+  \item \textbf{section} -  Secção;
+  \item \textbf{series}  - O nome de uma série ou conjunto de livros. Ao citar um livro inteiro, o campo de título fornece o seu título e um campo de série, opcional, fornece o nome de um conjunto de séries ou vários volumes no qual o livro é publicado;
+  \item \textbf{subtitle} -  Subtítulo;
+  \item \textbf{title} - Título do trabalho;
+  \item \textbf{type} - O tipo de um relatório técnico, por exemplo, `` Research Note '';
+  \item \textbf{url} - Endereço na Internet;
+  \item \textbf{volume} - O volume de um revista ou livro em multi-volume;
+  \item \textbf{year} - Ano de publicação ou, para um trabalho não publicado, o ano em que foi escrito. No caso de \emph{inproceedings}, se a editora não for informada será o ano do evento.
+
+\end{itemize}
+
+\newpage
+\section{Citação e Inclusão da Bibliografia}
+Para se usar uma base de dados bibliográfica e dela se extraírem as referências citadas num documento com recurso à ferramenta
+Bib\TeX, é necessário incluir dois comandos especiais no documentos fonte \LaTeX\ conforme se explica a seguir.
+
+\subsection{Citar Referências}
+
+Para citar uma obra bibliográfica específica, descrita por uma entrada específica do ficheiro Bib\TeX,
+num determinado ponto  ao longo do texto principal no ficheiro fonte \LaTeX,
+é necessário usar o  comando abaixo, onde \texttt{label} se refere à etiqueta específica (a 'label') e única
+da entrada Bib\TeX\ respetiva:
+
+\begin{verbatim} \cite{label}\end{verbatim}
+
+Adicionalmente é possível fazer com que uma obra bibliográfica apareça na listagem final das Referências sem ser referenciada
+(citada) no texto.
+Para esse efeito basta usar no ficheiro fonte \LaTeX\ o comando:
+\begin{verbatim} \nocite{label}\end{verbatim}
+Usando em vez desse, o comando abaixo:
+\begin{verbatim} \nocite{*}\end{verbatim}
+consegue-se incluir na lista das Referências Bibliográficas todas as entradas da base de dados Bib\TeX.
+
+\subsection{Inclusão de um ficheiro Bib\TeX}
+O comando seguinte  importa o arquivo Bib\TeX  \texttt{'arquivoBib.bib'}  para dele se extrair a lista
+de referências a incluir no documento correspondentes às citações bibliográficas.
+
+\begin{verbatim}\bibliography{arquivoBib}\end{verbatim}
+
+É possível no mesmo documento fonte fazer citações de entradas bibliográficas que estejam contidas em bases de dados
+Bib\TeX\ diferentes.
+Para importar vários arquivos \texttt{.bib}, basta escrever os seus nomes separados por vírgula dentro das chavetas,
+a extensão do arquivo não é necessária.
+Por exemplo:
+\begin{verbatim}\bibliography{minhaBDB,tuaBDB,suaBDB}\end{verbatim}
+procura as citações em três bases de dados distintas: \texttt{minhaBDB.bib}, \texttt{tuaBDB.bib} e \texttt{suaBDB.bib}.
+
+\subsection{Estilos Bib\TeX}
+O estilo da bibliografia é definido pelo comando exibido abaixo.
+
+\begin{verbatim}\bibliographystyle{ESTILO}\end{verbatim}
+
+O \texttt{ESTILO} define o tipo de saída da Bibliografia que pode ser:
+numérico; abreviação do apelido e data; apelido por extenso e data; etc.
+
+As informações exibidas dependem do estilo de bibliografia utilizado, mesmo que a entrada contenha informações sobre a data,
+autor, título, editor, o estilo usado pode imprimir apenas o título e o autor.
+Este tópico será explicado e exemplificado a seguir.
+
+Como se disse acima, existem vários estilos de Bibliografia em Bib\TeX; os mais utilizados são:
+
+\begin{description}
+  \item[\texttt{plain}] -- numérico pela ordem de citação ou ordem alfabética (exemplo de formato: [1]).
+
+  \item[\texttt{alpha}] -- abreviação do apelido dos vários autores e data da publicação (exemplo de formato:[Hen08] ou [AH18]
+  ou [AAea16]).
+
+  \item[\texttt{apalike}] --  apelido do primeiro autor e data da publicação (exemplo de formato: (Araujo,18)).
+  Note que neste estilo de Bibliografia é necessário utilizar o pacote:
+ \begin{verbatim} \usepackage{apalike}\end{verbatim}
+\end{description}
+
+\subsubsection{Exemplos dos Estilos de Bibliografia}
+Na Figura~\ref{fig:texInput} é exibido um exemplo de um \emph{documento.tex} (neste caso um Artigo em Português
+escrito com o encoding \texttt{UTF-8}) que usa várias citações de  Bibliografia descrita nas entradas existentes
+no ficheiro \texttt{bibLayout.bib}.\\
+Este documento vai servir de exemplo para demonstrar os diferentes \textbf{Estilos} de  Bibliografia em Bib\TeX.
+
+ \begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/texInput}
+  \caption{Exemplo de um \emph{documento.tex} com Bibliografia}\label{fig:texInput}
+\end{figure}
+
+%\subsection*{Estilos de Bibliografia}
+
+  Na Figura~\ref{fig:estiloPlain} podemos ver um exemplo de uma Bibliografia com estilo \emph{Plain}.
+
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{img/estiloPlain}
+  \caption{Exemplo de uma Bibliografia com estilo \emph{Plain}}\label{fig:estiloPlain}
+  \end{figure}
+
+  Na Figura~\ref{fig:estiloAlpha} podemos ver um exemplo de uma Bibliografia com estilo \emph{Alpha}.
+
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{img/estiloAlpha}
+  \caption{Exemplo de uma Bibliografia com estilo \emph{Alpha}}\label{fig:estiloAlpha}
+  \end{figure}
+
+
+  Na Figura~\ref{fig:estiloAlpha} podemos ver um exemplo de uma Bibliografia com estilo \emph{Alpha}.
+
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{img/estiloApalike}
+  \caption{Exemplo de uma Bibliografia com estilo \emph{Apalike}}\label{fig:estiloApalike}
+  \end{figure}
+
+
+\end{document}
+

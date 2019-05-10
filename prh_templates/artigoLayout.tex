@@ -1,0 +1,138 @@
+%\documentclass[twocolumns]{article}
+\documentclass{article}%especifica o tipo de documento que tenciona escrever: carta, artigo, relatório... neste caso é um artigo
+
+\usepackage[portuges]{babel}%Babel -- irá activar automaticamente as regras apropriadas de hifenização para a língua todo o
+                                   %-- o texto gerado é automaticamente traduzido para Português.
+                                   %  Por exemplo, “chapter” irá passar a “capítulo”, “table of contents” a “conteúdo”.
+                                   %portuges -- específica para o Português.
+\usepackage[utf8]{inputenc} % define o encoding usado texto fonte (input)
+
+\usepackage{graphicx} %permite incluir graficos, tabelas, figuras
+
+\parindent=0pt
+\parskip=2pt
+
+
+\title{Um Exemplo de Artigo em \LaTeX} %Titulo do documento
+\author{Cristina Araújo %define o nome do 1. autor
+        \\ Universidade do Minhho %...e sua filiação
+        \and            %obrigatorio para separar autores
+        Sandra Lopes\thanks{Bolseiro da FCT} % coloca em roda pe a informação marcada
+        \\Escola FFF\\ Fafe
+        \and
+        Pedro Henriques\\Escola de Engenharia\\ Braga
+ } %autores do documento
+\date{ (\today)} %data
+
+
+
+\begin{document} % corpo do documento
+
+\maketitle %apresentar titulo, autor e data
+
+\begin{abstract} % resumo do documento
+\noindent Isto é um resumo do artigo. \\ %\noindent -- criar um parágrafo não indentado
+O objectivo é sintetizar em 2 ou 3 parágrafos a ideia principal descrita no artigo.
+\end{abstract}
+
+%\tableofcontents % Insere a tabela de indice
+
+\section{Introdução} \label{sec:introducao} %etiqueta para fazer referência cruzada às secçoes
+Enquadramento---Contexto do Problema e Motivação para o trabalho---do documento.
+% FIM DE PARAGRAFO E LINHA EM BRANCO
+Objetivos claros e concretos do artigo.
+% FIM DE PARAGRAFO E LINHA EM BRANCO
+
+Agora virá algum texto claro e apelativo à leitura.
+
+Aqui vai um exemplo de matemática com formas INLINE
+ $ \alpha\   \oint   \Psi \Delta \pi \  \varphi\ \phi\ \wedge \biguplus\ {\AE}  $
+
+Aqui vai um exemplo de matemática  EM DESTAQUE
+\[  \alpha\   \pi \  \varphi\ \phi\ \wedge \$   \]
+
+O artigo está organizado da seguinte forma.
+Na Secção~\ref{sec:background} %referência cruzada à secçao com a etiqueta identifacada
+falo dos conceitos básicos necessários para perceber o texto.
+Depois na Secção~\ref{sec:concbasicos} continuo a explicação com mais detalhe.
+
+Na Secção~\ref{sec:proposta} apresentamos a proposta dos autores para resolver o problema
+e na Secção~\ref{sec:implementa} discute-se a sua implementação e teste.
+
+Por fim a Secção~\ref{sec:conclusao} apresenta uma síntese do artigo e as conclusões discutindo os resultados obtidos;
+traça ainda linhas para trabalho futuro-
+%~\ref{proposta}-- substituí \ref pelo número da secção, subsecção, figura, tabela ou teorema após o respectivo comando \label foi invocado.
+
+Depois da organização começa mesmo o corpo do documento!
+
+\section{Background} \label{sec:background}
+Secção onde se apresentam os conceitos e definições básicas para entender o resto do texto.
+Discute-se também o state-of.the-art e os trabalhos relacionados com o nosso.
+
+\section{Conceitos básicos em XXX} \label{sec:concbasicos}
+\subsection{Conceitos básicos em XXX.1} %subseccao
+Aqui vai um exemplo de uma lista numerada
+\begin{itemize}  % EXEMPLO DE LISTA DE ITEMS SIMPLES assinalados com PONTO
+\item EXEMPLO DE ITEM SIMPLES
+\item segunda característica desta fase
+\item terceira característica desta fase
+\end{itemize}
+
+\subsection{Conceitos básicos em XXX.2}
+Seguem-se algumas definições fundamentais para se perceberem as ideias
+defendidas a seguir:
+\begin{description} % EXEMPLO DE lISTA DE ITEMS TIPO ENTRADAS COM DESCRIÇÃO
+\item[conceito 1] texto com a descrição do  conceito 1
+\item[conceito 2] descrição do  conceito 2
+\end{description}
+
+\subsection{Conceitos básicos em YYY}
+Veja a Figura \ref{fig:figuraA}. %substituí \ref pelo número da figura
+
+\section{A Proposta} \label{sec:proposta}
+Como se vê na Figura~\ref{fig:figuraA} bla bla bla
+
+    \begin{figure} %insere figuras
+     \begin{center} % insere a figura ao centro
+         \includegraphics[width=0.5\textwidth]{persevering.png}
+         % width=0.5\textwidth -- a figura é alterada de forma a que a largura seja 0.5 vezes a largura de um parágrafo normal (textwidth). A altura é calculada de forma a manter a relação altura/largura.
+         \caption{Legenda da Figura} \label{fig:figuraA} %legenda da figura
+        \end{center}
+    \end{figure}
+
+\section{A sua Implementação} \label{sec:implementa}
+A Figura \ref{fig:figuraB}, que surge na pagina~\pageref{fig:figuraB}, % \pageref imprime o número da página onde o comando \label ocorreu
+mostra o esquema seguido na implementação.
+
+Os resultados finais desta implementação serão discutidos na Secção \ref{sec:conclusao}.
+
+\begin{figure}[!htbp] %[especificação de colocação da figura]
+                      % h -- aqui neste exacto local onde ocorreu no meio do texto.
+                      % t -- no topo da página
+                      % b -- no fundo (bottom) da página
+                      % p -- numa página especial apenas com corpos flutuantes..
+                      % ! sem considerar a maior parte dos parâmetros internos a que podem fazer com que o corpo flutuante não seja colocado
+\begin{center}
+    \includegraphics[width=\textwidth]{persevering.png}
+    \caption{Legenda da Imagem} \label{fig:figuraB}
+\end{center}
+\end{figure}
+
+\newpage
+
+\section{Conclusão} \label{sec:conclusao}
+Síntese do que foi dito.\\
+Lista dos resultados atingidos:
+\begin{enumerate} % EXEMPLO DE lISTA DE ITEMS ENUMERADOS
+\item resultado um
+      \begin{itemize}
+        \item subresultado primeiro
+        \item subresultado segundo
+      \end{itemize}
+\item resultado dois
+\end{enumerate}
+Conclusão final e Trabalho Futuro.
+
+\end{document}
+
+

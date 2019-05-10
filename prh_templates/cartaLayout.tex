@@ -1,0 +1,53 @@
+
+\documentclass{letter} %especifica o tipo de documento que tenciona escrever: carta, artigo, relatório...
+
+%\usepackage --influenciam o estilo de todo o documento
+\usepackage[portuges]{babel}  %Babel -- irá activar automaticamente as regras apropriadas de hifenização para a língua
+                              %portuges -- específica para o Português e outras línguas com caracteres acentuados.
+\usepackage[utf8]{inputenc}
+
+\setlength{\oddsidemargin}{-1cm}
+\setlength{\textwidth}{18cm}
+\setlength{\headsep}{-1cm}
+\setlength{\textheight}{23cm}
+
+\address{Pedro Rangel Henriques (gEPL)\\
+         Departamento de Informática \\
+         Universidade do Minho \\ Campus de Gualtar \\ 4700-057 Braga
+} %Remetente
+
+\signature{
+  \begin{center}
+         Pedro Henriques
+  \end{center}
+} %assinatura da carta
+
+\date{24 Outubro de 2018}
+%\date{\today}
+
+\begin{document} % corpo do documento
+
+\begin{letter}{Ex.mo Sr. Director de Curso\\
+               Universidade do  Minho\\ Campus de Gualtar\\ Braga\\
+               \vspace{1cm}
+               \textbf{Assunto:} Disciplinas de Informática
+} %destinatário e assunto
+
+\opening{Caro Director de Curso} % abertura da carta
+
+Desde o início, ................
+
+Esperando ouvi-lo em breve, fico ao dispor para todos os
+esclarecimentos que julgue convenientes.
+
+\closing{Com os meus melhores cumprimentos,} % fecho da carta
+
+
+
+\ps
+P.S. Não se esqueça da reunião no proximo sábado.
+
+
+\end{letter}
+
+\end{document} 

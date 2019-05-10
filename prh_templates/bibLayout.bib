@@ -1,0 +1,207 @@
+%Tipo de entrada para ARTIGO  de uma revista ou jornal
+%obrigatórios: autor, title, journal, year.
+%opcionais: volume, number, pages, month, doi, note.
+@article{araujo:2018b,
+author = {Cristiana Ara{\'u}jo and Pedro Rangel Henriques and Ricardo G. Martini},
+title = {{Virtual Learning Spaces Creation Based on the Systematic Population of an Ontology}},
+journal = {Journal of Information Systems Engineering \& Management (JISEM)},
+pages = {1-11},
+volume = {3},
+number = {1},
+year = {2018},
+month = {Feb},
+ISSN = {2468-4376},
+publisher = {Lectito and AISTI},
+doi= {https://doi.org/10.20897/jisem.201807}
+}
+
+%Tipo de entrada para LIVRO Inteiro publicado
+%obrigatórios -- author ou editor; title; publisher; year;
+%opcionais -- volume ou number; series; address; edition; month; isbn; note;
+@book{damas:1999,
+  title={Linguagem C},
+  author={ Luís Damas},
+  isbn={9789727221561},
+  year      = {1999},
+  publisher={FCA}
+}
+
+
+%inbook -- Uma parte de um livro (capítulo dentro do livro)
+%Campos obrigatórios: author/editor, title, chapter/pages, publisher, year
+%Campos opcionais: volume/number, series, type, address, edition, month, note, key
+@Inbook{araujo:2018,
+title = {Annotated documents and expanded CIDOC-CRM ontology in the automatic construction of a virtual museum},
+author = {Cristiana Ara{\'u}jo and Ricardo Martini and Pedro Rangel Henriques and Jos{\'e} Jo{\~a}o Almeida},
+journal = {Studies in Computational Intelligence},
+year = {2018},
+volume = {718},
+pages = {91-110},
+doi   = {10.1007/978-3-319-58965-7_7}
+}
+
+
+
+%misc/ online --Algo que não se encaixa em nenhum outro tipo, sites, Imagens, áudios, vídeos...
+%Campos obrigatórios: Nenhum
+%Campos opcionais: author, title, howpublished, month, year, url, date, note;
+@misc{knuth:1999,
+    author    = {Donald Knuth},
+    title     = {Knuth: Computers and Typesetting},
+    year      = {1999},
+    url       = {http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+}
+@online{antlr:2016,
+    author  = {ANTLR},
+    title   = {{ANTLR}},
+    howpublished = {\url{http://www.antlr.org/}},
+    date   = {2016-09},
+    year =      {2016},
+    note = {Accessed: 2016-09-14}
+}
+
+
+%incollection -- Livro de uma serie  --  faz colecçao Livros
+%Campos obrigatórios: author, title, booktitle, publisher, year
+%Campos opcionais: editor, volume/number, series, type, chapter, pages, address, edition, month, note, key
+@incollection{maskin:1985,
+   author={ Eric S. Maskin},
+   year={1985},
+   title={The theory of implementation in {N}ash equilibrium: a survey},
+   booktitle={Social Goals and Social Organization},
+   editor={Leonid Hurwicz and David Schmeidler and Hugo Sonnenschein},
+   pages={173-204},
+   publisher={Cambridge University Press},
+   address={Cambridge}
+}
+
+
+
+%proceedings Livro de atas da conferencia
+%obrigatórios -- title; year;
+%opcionais -- editor; volume ou number; series; address; publisher; month; note; organization;
+@proceedings{deransart:1990,
+    title = {Attribute Grammars and their Applications},
+    editor = {P. Deransart and M. Jourdan},
+    organization = {INRIA},
+    year = {1990},
+    month = {Sep},
+    publisher = {sv},
+    note = {Lecture Notes in Computer Science, nu. 461},
+    annote = {compilacao, atributos}
+    }
+
+
+
+%inproceedings -- Um artigo nas atas de conferência
+%obrigatórios -- author; title; booktitle; year;
+%opcionais -- editor; volume ou number; series; pages; address; month; organization; publisher; note;
+@InProceedings{araujo:2017a,
+  author = {Cristiana Ara{\'u}jo  and Pedro Rangel Henriques and Ricardo G. Martini},
+  title = {{Automatizing Ontology Population to drive the navigation on Virtual Learning Spaces}},
+  booktitle = {Atas da 12$^{a}$ Confer{\^e}ncia Ib{\'e}rica de Sistemas e Tecnologias de Informa\c{c}\~ao, CISTI'2017},
+  editor =    {Álvaro Rocha and Bráulio Alturas and Carlos Costa and Luís Paulo Reis and Manuel Pérez Cota},
+  pages =     {781-786},
+  year =      {2017},
+  month =   {June},
+  publisher =   {AISTI--Associação Ibérica de Sistemas e Tecnologias de Informação},
+  ISBN =   {978-989-98434-7-9},
+  note= {}
+}
+@InProceedings{araujo:2017aa,
+  author = {Cristiana Ara{\'u}jo},
+  title = {{Automatizing Ontology Population to drive the navigation on Virtual Learning Spaces}},
+  booktitle = {Atas da 12$^{a}$ Confer{\^e}ncia Ib{\'e}rica de Sistemas e Tecnologias de Informa\c{c}\~ao, CISTI'2017},
+  editor =    {Álvaro Rocha and Bráulio Alturas and Carlos Costa and Luís Paulo Reis and Manuel Pérez Cota},
+  pages =     {781-786},
+  year =      {2017},
+  month =   {June},
+  publisher =   {AISTI--Associação Ibérica de Sistemas e Tecnologias de Informação},
+  ISBN =   {978-989-98434-7-9},
+  note= {}
+}
+
+
+%masterthesis -- Uma tese de mestrado
+%obrigatórios -- author; title; school; year;
+%opcionais -- type; address; month; note;
+@mastersthesis{araujo:2016,
+	author={Cristiana Ara{\'u}jo},
+	title={{Building the Museum of the Person Based on a combined CIDOC-CRM/ FOAF/ DBpedia Ontology}},
+	year={2016},
+    school    = {Universidade do Minho},
+    month     = {December},
+    address   = {Braga, Portugal},
+    note = {{MSc} dissertation}
+}
+
+
+
+%phdthesis -- Uma tese de doutoramento
+%obrigatórios -- author; title; school; year;
+%opcionais -- type; address; month; note;
+@phdthesis{martini:2018,
+    author = {Ricardo Giuliani Martini},
+    title = {{Formal Description and Automatic Generation of Learning Spaces based on Ontologies}},
+    year = {2018},
+    month = {Sep},
+    school = {University of Minho},
+    annote = {Ontologies, DSLs, Virtual Learning Spaces, Automatic Generation of Websites}
+}
+
+
+
+%techreport -- Relatório publicado por uma instituição
+%obrigatórios -- author; title; institution; year;
+%opcionais -- type; number; address; month; note;
+@techreport{araujo:2017,
+	author={Cristiana Ara{\'u}jo},
+	title={{Norma -- Simplex Project }},
+    institution = {UNU-EGOV, United Nations University},
+	year={2017},
+    type={{Technical Report}},
+	language={English}
+}
+
+
+
+%booklet -- Um trabalho que é impresso mas não tem editora ou instituição patrocinadora -- folheto
+%Campos necessários: title.
+%Campos opcionais: author, howpublished, address, month, year, note.
+@booklet{caxton:1993,
+  title        = {The title of the work},
+  author       = {Peter Caxton},
+  howpublished = {How it was published},
+  address      = {The address of the publisher},
+  month        = 7,
+  year         = 1993,
+  note         = {An optional note}
+}
+
+
+
+%manual -- Documentação técnica
+%Campos obrigatórios: title
+%Campos opcionais: author, organization, address, edition, month, year, note, key
+@manual{Pinto:1991,
+    author = {Luis Filipe Pinto and Pedro Rangel Henriques},
+    title = {Animador de Especifica\c{c}\~oes {OBLOG}},
+    year = {1991},
+    month = {Sep},
+    organization = {gdcc},
+    edition ={1.st},
+    number = {UMMAN obl-man},
+    annote = {ambientes desenvolvimento, prog oobjectos, espec formal}
+    }
+
+
+
+%unpublished -- Documento não publicado formalmente, com autor e título obrigatorio
+%obrigatórios -- author; title; note;
+%opcionais -- month; year;
+@unpublished{fudenberg:1988,
+  title = {A theory of learning, experimentation, and equilibrium in games},
+  author = {Drew Fudenberg  and David M. Kreps},
+  year = {1988},
+  note = {Unpublished paper}
+}
