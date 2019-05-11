@@ -1,18 +1,18 @@
 {"FAQ":[
     {
-        "keywords": ["o que é","SEI"],
+        "perguntas": ["O que é a SEI'","Do que trata a SEI"],
         "resposta": "É um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos."
     },
     {
-        "keywords": ["onde","inscrições","SEI"],
+        "perguntas": ["Onde são as incrições da SEI'","Onde me posso increver?"],
         "resposta": "Para te inscreveres basta aceder ao website da SEI."
     },
     {
-        "keywords": ["pagar","inscrever","SEI"],
+        "perguntas": ["A inscrição paga-se?","A SEI é gratuita?"],
         "resposta": "A SEI é gratuita, não tens que pagar."
     },
     {
-        "keywords": ["onde","local","SEI"],
+        "perguntas": ["Onde se realiza a SEI","Em que local é a SEI?"],
         "resposta": "A SEI realiza-se no campus de Gualtar da Universidade do Minho."
     }
 ]}

@@ -317,3 +317,15 @@ Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
 
 ---FIM DE CONVERSA---
 
+User: galinha
+Bot: Nem sempre sardinha, nem sempre galinha
+User: dasda
+Bot: Repete lá isso de forma que eu entenda.
+User: asdasd
+Bot: Tens a certeza que sabes falar português?!
+User: asdasd
+Bot: Não estou a perceber nada...
+Bot: Até à próxima colega.
+
+---FIM DE CONVERSA---
+
