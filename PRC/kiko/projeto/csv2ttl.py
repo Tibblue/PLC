@@ -8,8 +8,7 @@ csv_file = open("./datasets/Anime.csv")
 # csv_file = open("./datasets/Anime_small.csv")
 csv_reader = csv.reader(csv_file, delimiter=',')
 ### VARS
-directors = []
-writers = []
+persons = []
 networks = []
 
 # printa erros para STDERR
@@ -29,8 +28,7 @@ def fix_id(id):
 
 def doAnime():
     line_count = 0
-    global directors
-    global writers
+    global persons
     for row in csv_reader:
         line_count += 1
         if line_count == 1:
@@ -56,8 +54,8 @@ def doAnime():
                     s2 = [row[2]]
                     s3 = [row[3]]
                 for i in range(len(s2)):
-                    print(f':{id} :hasDirector :{"DIRECTOR_"+fix_id(s3[i].split("http://dbpedia.org/resource/")[1])} .')
-                    directors.append((s2[i],s3[i]))
+                    print(f':{id} :hasDirector :{"PERSON_"+fix_id(s3[i].split("http://dbpedia.org/resource/")[1])} .')
+                    persons.append((s2[i],s3[i]))
             if row[8]!="NULL" and row[9]!="NULL":
                 r8 = re.search(r"{(.*)}",row[8])
                 r9 = re.search(r"{(.*)}",row[9])
@@ -80,35 +78,21 @@ def doAnime():
                     s16 = [row[16]]
                     s17 = [row[17]]
                 for i in range(len(s16)):
-                    print(f':{id} :hasWriter :{"WRITER_"+fix_id(s17[i].split("http://dbpedia.org/resource/")[1])} .')
-                    writers.append((s16[i],s17[i]))
+                    print(f':{id} :hasWriter :{"PERSON_"+fix_id(s17[i].split("http://dbpedia.org/resource/")[1])} .')
+                    persons.append((s16[i],s17[i]))
             print()
 
-def doDirectors():
-    global directors
-    directors.sort()
-    directors = set(directors)
-    print("\n\n#####  DIRECTORS  #####\n")
-    for label,director in directors:
-        id = director.split("http://dbpedia.org/resource/")[1]
-        id = "DIRECTOR_"+fix_id(id)
+def doPersons():
+    global persons
+    persons.sort()
+    persons = set(persons)
+    print("\n\n#####  PERSONS  #####\n")
+    for label,person in persons:
+        id = person.split("http://dbpedia.org/resource/")[1]
+        id = "PERSON_"+fix_id(id)
         print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
-        print(f':{id} rdf:type owl:NamedIndividual, :Director.')
-        print(f':{id} :director "{director}".')
-        print(f':{id} :label "{label}".')
-        print()
-
-def doWriters():
-    global writers
-    writers.sort()
-    writers = set(writers)
-    print("\n\n#####  WRITERS  #####\n")
-    for label,writer in writers:
-        id = writer.split("http://dbpedia.org/resource/")[1]
-        id = "WRITER_"+fix_id(id)
-        print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
-        print(f':{id} rdf:type owl:NamedIndividual, :Writer.')
-        print(f':{id} :writer "{writer}".')
+        print(f':{id} rdf:type owl:NamedIndividual, :Person.')
+        print(f':{id} :dbpedia "{person}".')
         print(f':{id} :label "{label}".')
         print()
 
@@ -122,13 +106,12 @@ def doNetwork():
         id = "NETWORK_"+fix_id(id)
         print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
         print(f':{id} rdf:type owl:NamedIndividual, :Network.')
-        print(f':{id} :network "{network}".')
+        print(f':{id} :dbpedia "{network}".')
         print(f':{id} :label "{label}".')
         print()
 
 
 print(ontology_file.read())
 doAnime()
-doDirectors()
-doWriters()
+doPersons()
 doNetwork()
