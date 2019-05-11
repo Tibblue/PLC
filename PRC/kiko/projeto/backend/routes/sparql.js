@@ -39,6 +39,7 @@ router.post('/', function(req, res, next) {
       endpoint = 'ERROR!';
   }
 
+  console.log('PEDIDO: INTERFACE query')
   console.log('Dataset: ' + endpoint);
   console.log('Output format: ' + output);
   console.log('Query: \n' + query);
@@ -57,8 +58,9 @@ router.get('/sparqlQuery', function(req, res, next) {
   var query = req.query.query
   var encoded = encodeURIComponent(query)
 
+  console.log('PEDIDO: MANUAL query')
   console.log('Dataset: ' + endpoint);
-  console.log('Query: ' + query);
+  console.log('Query: \n' + query);
   // console.log('Encoded: \n' + encoded);
 
   axios.get(endpoint + '?query=' + encoded, {

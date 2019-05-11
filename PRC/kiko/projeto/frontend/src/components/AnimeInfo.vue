@@ -71,7 +71,7 @@ select distinct * where {
 }`
         var encoded = encodeURIComponent(query)
         var response = await axios.get(lhost+'/sparqlQuery?query='+encoded);
-        // var response = await axios.get(lhost+'/query/PRC_Proj-anime_label');
+        // var response = await axios.get(lhost+'/query/animes/'+this.idAnime);
         this.anime = response.data.results.bindings
         // console.log(encoded) // debug
         console.log(this.anime) // debug

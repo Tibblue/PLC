@@ -56,14 +56,7 @@
     }),
     mounted: async function (){
       try{
-        var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
-select distinct * where {
-  ?anime a :Anime .
-  OPTIONAL {?anime :label ?label .}
-}`
-        var encoded = encodeURIComponent(query)
-        var response = await axios.get(lhost+'/sparqlQuery?query='+encoded);
-        // var response = await axios.get(lhost+'/query/PRC_Proj-anime_label');
+        var response = await axios.get(lhost+'/query/PRC_Proj-anime_label');
         this.animes = response.data.results.bindings
         // console.log(encoded) // debug
         console.log(this.animes) // debug

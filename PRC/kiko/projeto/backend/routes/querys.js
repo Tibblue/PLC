@@ -48,6 +48,77 @@ router.get('/:savedQuery', function(req, res, next) {
 });
 
 
+
+////  Prepared querys  ////
+// Anime //
+/* GET anime info. */
+router.get('/animes/:anime', function(req, res, next) {
+  var anime = req.params.anime
+  var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct * where {
+  :ANIME_` + anime + ` ?p ?o .
+  FILTER ( ?p!=rdf:type)
+}`
+  var encoded = encodeURIComponent(query)
+
+  console.log('PEDIDO: GET Anime Info => '+anime)
+  // console.log('Query: \n' + query);
+  // console.log('Encoded: \n' + encoded);
+
+  axios.get(endpoint + '?query=' + encoded, {
+    headers: { Accept: 'application/sparql-results+json' }
+  })
+  .then(response => res.jsonp(response.data))
+  .catch(err => console.log('ERRO: ' + err));
+});
+
+// Person //
+/* GET person info. */
+router.get('/persons/:person', function(req, res, next) {
+  var person = req.params.person
+  var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct * where {
+  :PERSON_` + person + ` ?p ?o .
+  FILTER ( ?p!=rdf:type)
+}`
+  var encoded = encodeURIComponent(query)
+
+  console.log('PEDIDO: GET Person Info => '+person)
+  // console.log('Query: \n' + query);
+  // console.log('Encoded: \n' + encoded);
+
+  axios.get(endpoint + '?query=' + encoded, {
+    headers: { Accept: 'application/sparql-results+json' }
+  })
+  .then(response => res.jsonp(response.data))
+  .catch(err => console.log('ERRO: ' + err));
+});
+
+// Network //
+/* GET network info. */
+router.get('/networks/:network', function(req, res, next) {
+  var network = req.params.network
+  var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct * where {
+  :NETWORK_` + network + ` ?p ?o .
+  FILTER ( ?p!=rdf:type)
+}`
+  var encoded = encodeURIComponent(query)
+
+  console.log('PEDIDO: GET Network Info => '+network)
+  // console.log('Query: \n' + query);
+  // console.log('Encoded: \n' + encoded);
+
+  axios.get(endpoint + '?query=' + encoded, {
+    headers: { Accept: 'application/sparql-results+json' }
+  })
+  .then(response => res.jsonp(response.data))
+  .catch(err => console.log('ERRO: ' + err));
+});
+
+
+
+////  OTHERS  ////
 /* GET getClasses. */
 router.get('/others/getClasses', function(req, res, next) {
   var encoded = encodeURIComponent('select * where { ?s a owl:Class }')
@@ -82,7 +153,6 @@ router.get('/others/getNumClasses', function (req, res, next) {
     })
     .catch(err => console.log('ERRO: ' + err))
 });
-
 
 
 module.exports = router;
