@@ -16,6 +16,18 @@ export default new Router({
       path: '/animes/:id',
       name: 'anime',
       component: () => import('./views/ConsultaAnime.vue')
+    },
+    {
+      path: '/persons/:id',
+      name: 'person',
+      component: () => import('./views/Home.vue')
+      // component: () => import('./views/ConsultaPerson.vue')
+    },
+    {
+      path: '/networks/:id',
+      name: 'network',
+      component: () => import('./views/Home.vue')
+      // component: () => import('./views/ConsultaNetwork.vue')
     }
   ]
 })

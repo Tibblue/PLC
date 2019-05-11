@@ -22,7 +22,8 @@
     <h3> Directors </h3>
     <!-- <h3> {{this.testing.directors}} </h3> -->
     <p v-if="this.testing.directors.length==0"> Sem informação </p>
-    <li v-else v-for="director in this.testing.directors" :key="director">
+    <li v-else @click="personClicked(writer)"
+        v-for="director in this.testing.directors" :key="director">
       {{director}}
     </li>
     <br/>
@@ -30,7 +31,8 @@
     <h3> Writers </h3>
     <!-- <h3> {{this.testing.writers}} </h3> -->
     <h4 v-if="this.testing.writers.length==0"> Sem informação </h4>
-    <li v-else v-for="writer in this.testing.writers" :key="writer">
+    <li v-else @click="personClicked(writer)"
+        v-for="writer in this.testing.writers" :key="writer">
       {{writer}}
     </li>
     <br/>
@@ -38,7 +40,8 @@
     <h3> Networks </h3>
     <!-- <h3> {{this.testing.networks}} </h3> -->
     <p v-if="this.testing.networks.length==0"> Sem informação </p>
-    <li v-else v-for="network in this.testing.networks" :key="network">
+    <li v-else @click="networkClicked(network)"
+        v-for="network in this.testing.networks" :key="network">
       {{network}}
     </li>
     <br/>
@@ -64,14 +67,7 @@
     }),
     mounted: async function (){
       try{
-        var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
-select distinct * where {
-  :ANIME_`+this.idAnime+` ?p ?o .
-  FILTER ( ?p!=rdf:type)
-}`
-        var encoded = encodeURIComponent(query)
-        var response = await axios.get(lhost+'/sparqlQuery?query='+encoded);
-        // var response = await axios.get(lhost+'/query/animes/'+this.idAnime);
+        var response = await axios.get(lhost+'/query/animes/'+this.idAnime);
         this.anime = response.data.results.bindings
         // console.log(encoded) // debug
         console.log(this.anime) // debug
@@ -107,13 +103,13 @@ select distinct * where {
       });
     },
     methods: {
-      personClicked: function (item) {
-        // this.$emit('filmeSelected', item)
-        this.$router.push('/persons/'+item.anime.value.split('#PERSON_')[1])
+      personClicked: function (id) {
+        // this.$emit('filmeSelected', id)
+        this.$router.push('/persons/'+id)
       },
-      networkClicked: function (item) {
-        // this.$emit('filmeSelected', item)
-        this.$router.push('/networks/'+item.anime.value.split('#NETWORK_')[1])
+      networkClicked: function (id) {
+        // this.$emit('filmeSelected', id)
+        this.$router.push('/networks/'+id)
       }
     }
   }
