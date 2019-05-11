@@ -76,8 +76,8 @@
     methods: {
       rowClicked: function (item) {
         // this.$emit('filmeSelected', item)
-        alert("click! \n"+item.anime.value)
-        // this.$router.push('/filmes/'+item.id.split('#')[1])
+        // alert("click! \n"+item.anime.value)
+        this.$router.push('/animes/'+item.anime.value.split('#ANIME_')[1])
       }
     }
   }

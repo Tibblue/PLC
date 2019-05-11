@@ -15,7 +15,7 @@ export default new Router({
     {
       path: '/animes/:id',
       name: 'anime',
-      component: () => import('./views/Home.vue')
+      component: () => import('./views/ConsultaAnime.vue')
     }
   ]
 })
