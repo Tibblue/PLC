@@ -56,18 +56,17 @@
     }),
     mounted: async function (){
       try{
-        var query = `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-          PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
-          select distinct * where {
-              ?anime rdf:type :Anime .
-              OPTIONAL {?anime :label ?label .}
-          }`
+        var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct * where {
+  ?anime a :Anime .
+  OPTIONAL {?anime :label ?label .}
+}`
         var encoded = encodeURIComponent(query)
-        console.log(encoded)
         var response = await axios.get(lhost+'/sparqlQuery?query='+encoded);
         // var response = await axios.get(lhost+'/query/PRC_Proj-anime_label');
         this.animes = response.data.results.bindings
-        console.log(this.animes)
+        // console.log(encoded) // debug
+        console.log(this.animes) // debug
       }
       catch(e){
         return(e);
