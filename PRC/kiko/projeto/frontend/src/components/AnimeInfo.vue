@@ -17,6 +17,8 @@
 
     <h1 v-if="this.testing.label"> {{this.testing.label}} </h1>
     <h1 v-else> {{this.idAnime}} </h1>
+    <br/>
+
     <h3> Directors </h3>
     <!-- <h3> {{this.testing.directors}} </h3> -->
     <p v-if="this.testing.directors.length==0"> Sem informação </p>
@@ -86,11 +88,11 @@ select distinct * where {
             break;
           case "hasDirector":
             console.log("DIRECTOR")
-            this.testing.directors.push(item.o.value.split('#DIRECTOR_')[1])
+            this.testing.directors.push(item.o.value.split('#PERSON_')[1])
             break;
           case "hasWriter":
             console.log("DIRECTOR")
-            this.testing.writers.push(item.o.value.split('#WRITER_')[1])
+            this.testing.writers.push(item.o.value.split('#PERSON_')[1])
             break;
           case "hasNetwork":
             console.log("NETWORK")
@@ -105,10 +107,13 @@ select distinct * where {
       });
     },
     methods: {
-      rowClicked: function (item) {
+      personClicked: function (item) {
         // this.$emit('filmeSelected', item)
-        // alert("click! \n"+item.anime.value)
-        this.$router.push('/animes/'+item.anime.value.split('#ANIME_')[1])
+        this.$router.push('/persons/'+item.anime.value.split('#PERSON_')[1])
+      },
+      networkClicked: function (item) {
+        // this.$emit('filmeSelected', item)
+        this.$router.push('/networks/'+item.anime.value.split('#NETWORK_')[1])
       }
     }
   }
