@@ -16,7 +16,7 @@ channel.bind('new_message', function(data) {
             ${data.human_message}
         </div>
     `)
-    
+
     // Append bot message
     $('.chat-container').append(`
         <div class="chat-message col-md-5 offset-md-7 bot-message">
@@ -27,12 +27,12 @@ channel.bind('new_message', function(data) {
 
 $(function() {
     function submit_message(message) {
- 
+
         $.post( "/send_message", {
-            message: message, 
+            message: message,
             socketId: pusher.connection.socket_id
         }, handle_response);
-        
+
         function handle_response(data) {
             // append the bot repsonse to the div
             console.log(data.message)
@@ -53,23 +53,23 @@ $(function() {
         if (!input_message) {
             return
         }
-        
+
         $('.chat-container').append(`
             <div class="chat-message col-md-5 human-message">
                 ${input_message}
             </div>
         `)
-        
-        // loading 
+
+        // loading
         $('.chat-container').append(`
             <div class="chat-message text-center col-md-2 offset-md-10 bot-message" id="loading">
                 <b>...</b>
             </div>
         `)
-        
-        // clear the text input 
+
+        // clear the text input
         $('#input_message').val('')
-        
+
         // send the message
         submit_message(input_message)
     });

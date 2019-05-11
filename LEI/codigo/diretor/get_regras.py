@@ -3,6 +3,7 @@ from bot_tradutor import bot_tradutor
 from bot_wiki import bot_wiki
 from bot_csv import bot_csv
 from bot_QA import bot_QA
+from bot_exp import bot_exp
 from estados import chateado
 from util import *
 
@@ -36,6 +37,10 @@ regras_bot_QA = [
 #     (['NORMAL','INFORMATIVO'],5,r'(.*)', lambda x,dataset: )),
 # ]
 
+regras_bot_exp = [
+    (['NORMAL'],5,r'(.*)', lambda x,dataset: bot_exp.responde(x.group(0),dataset[0]))
+]
+
 regras_estado = [
     ('CHATEADO',r'És mesmo ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
     ('CHATEADO',r'És ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
@@ -51,6 +56,7 @@ regras_estado_resposta = [
 
 def get_regras(bot):
     regras = []
+
     if bot == 'bot_lista':
         regras = regras_bot_lista
     elif bot == 'bot_tradutor':
@@ -61,4 +67,6 @@ def get_regras(bot):
         regras = regras_bot_csv
     elif bot == 'bot_QA':
         regras = regras_bot_QA
+    elif bot == 'bot_exp':
+        regras = regras_bot_exp
     return regras

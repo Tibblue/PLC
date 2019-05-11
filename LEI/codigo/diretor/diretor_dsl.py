@@ -37,14 +37,12 @@ def responde_test_opt(ficheiro):
     inputs = file.split('\n')
     for input_utilizador in inputs:
         save_log(input_utilizador,'user')
-        triplos,estados = change_tuplos()
-        resposta = responde(input_utilizador,triplos,estados)
+        tuplos,estados = change_tuplos()
+        resposta = responde(input_utilizador,tuplos,estados)
         save_log(resposta,'bot')
     save_log('','')
 
-
-
-def responde(input_utilizador,triplos,estados):
+def responde(input_utilizador,tuplos,estados):
     lista_respostas = []
     # print(estados)
     # print(estados)
@@ -63,21 +61,24 @@ def responde(input_utilizador,triplos,estados):
                 if match is not None:
                     return resposta
     else:
-        for regras,dataset,prioridade_bot in triplos:
+        for regras,dataset,bot,prioridade_bot in tuplos:
             for lista_estados_validos,prioridade_regra,regra,funcao, in regras:
                 if state_atual in lista_estados_validos: # só acontece se o estado atual for permitido na regra
                     match = re.match(regra,input_utilizador)
                     if match is not None:
                         if callable(funcao):
-                            resposta,ratio = funcao(match,dataset)
-                            if resposta is not None:
-                                if ratio > 1: ratio = 1
-                                confianca = trunc((prioridade_bot + prioridade_regra) * ratio)
-                                # print("confiança: ", confianca)
-                                tuplo = tuple((resposta,confianca))
-                                lista_respostas.append(tuplo)
+                            try:
+                                resposta,ratio = funcao(match,dataset)
+                                if resposta is not None:
+                                    if ratio > 1: ratio = 1
+                                    confianca = trunc((prioridade_bot + prioridade_regra) * ratio)
+                                    # print("confiança: ", confianca)
+                                    tuplo = tuple((resposta,confianca,bot))
+                                    lista_respostas.append(tuplo)
+                            except:
+                                pass
         lista_respostas.sort(key=itemgetter(1),reverse=True)
-        # print("\nlista_respostas: ",lista_respostas)
+        print("\nlista_respostas: ",lista_respostas)
         if lista_respostas:
             return lista_respostas[0][0]
         else:
@@ -106,8 +107,8 @@ def main():
             try:
                 input_utilizador = input('Eu:')
                 save_log(input_utilizador,'user')
-                triplos,estados = change_tuplos()
-                resposta = responde(input_utilizador,triplos,estados)
+                tuplos,estados = change_tuplos()
+                resposta = responde(input_utilizador,tuplos,estados)
                 save_log(resposta,'bot')
                 print(resposta)
             except KeyboardInterrupt:
