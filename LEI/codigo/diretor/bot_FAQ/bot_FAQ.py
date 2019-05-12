@@ -27,17 +27,38 @@ def limpa_texto(mensagem):
     return lista_mensagem
 
 
+def conta_keywords(mensagem_limpa,pergunta_limpa):
+    count_keys = 0
+    for palavra in pergunta_limpa:
+        if palavra in mensagem_limpa.lower():
+            count_keys += 1
+    # print(count_keys)
+    return count_keys
+
+def calcula_ratio(count_keys,mensagem_limpa):
+    ratio = 0
+    if count_keys != 0:
+        ratio = count_keys/len(mensagem_limpa)
+    return ratio
+
 def responde(mensagem,nome_faq):
+    lista_respostas = []
     faq = busca_faq(nome_faq)
     # print(faq)
-    lista_mensagem = limpa_texto(mensagem)
-    print(lista_mensagem)
+    mensagem_limpa = limpa_texto(mensagem)
+    mensagem_limpa_str = ' '.join(mensagem_limpa)
+    print(mensagem_limpa)
 
     lista_faq = (faq['FAQ'])
     for faq in lista_faq:
-        keywords = faq['perguntas']
+        perguntas = faq['perguntas']
         resposta = faq['resposta']
-        # print(keywords,resposta)
+        for pergunta in perguntas:
+            pergunta_limpa = limpa_texto(pergunta)
+            count_keys = conta_keywords(mensagem_limpa_str,pergunta_limpa)
+            print(pergunta_limpa,count_keys)
+            ratio = calcula_ratio(count_keys,mensagem_limpa)
+            print(ratio)
 
-responde('O que é a SEI?','FAQ_SEI.json')
+responde('Onde é a SEI?','FAQ_SEI.json')
 

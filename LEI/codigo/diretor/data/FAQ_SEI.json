@@ -12,7 +12,7 @@
         "resposta": "A SEI é gratuita, não tens que pagar."
     },
     {
-        "perguntas": ["Onde se realiza a SEI","Em que local é a SEI?"],
+        "perguntas": ["Onde se realiza a SEI","Em que local é a SEI?","Onde é a SEI"],
         "resposta": "A SEI realiza-se no campus de Gualtar da Universidade do Minho."
     }
 ]}
