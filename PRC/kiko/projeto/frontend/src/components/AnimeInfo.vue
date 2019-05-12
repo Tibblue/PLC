@@ -92,7 +92,8 @@
         label: '',
         directors: [],
         writers: [],
-        networks: []
+        networks: [],
+        dbpedia: ''
       }
     }),
     mounted: async function (){
@@ -124,9 +125,11 @@
             console.log("NETWORK")
             this.animeInfo.networks.push(item.o.value.split('#NETWORK_')[1])
             break;
+          case "dbpedia":
+            console.log("DBPEDIA")
+            this.animeInfo.label = item.o.value
+            break;
           default:
-            console.log("FDS")
-            console.log("FDS")
             console.log("FDS")
             break;
         }

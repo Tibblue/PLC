@@ -26,8 +26,7 @@ export default new Router({
     {
       path: '/networks/:id',
       name: 'network',
-      component: () => import('./views/Home.vue')
-      // component: () => import('./views/ConsultaNetwork.vue')
+      component: () => import('./views/ConsultaNetwork.vue')
     }
   ]
 })
