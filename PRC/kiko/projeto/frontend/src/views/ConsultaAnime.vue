@@ -1,9 +1,9 @@
 <template>
   <v-container>
     <AnimeInfo :idAnime="$route.params.id"/>
-    <v-layout>
+    <v-flex>
       <v-btn @click="goBack()" color="info">Voltar à página anterior</v-btn>
-    </v-layout>
+    </v-flex>
   </v-container>
 </template>
 
