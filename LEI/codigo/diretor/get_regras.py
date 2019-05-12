@@ -4,6 +4,7 @@ from bot_wiki import bot_wiki
 from bot_csv import bot_csv
 from bot_QA import bot_QA
 from bot_exp import bot_exp
+from bot_FAQ import bot_FAQ
 from estados import chateado
 from util import *
 
@@ -33,9 +34,9 @@ regras_bot_QA = [
     (['NORMAL','INFORMATIVO'],2,r'(.*)', lambda x,dataset: bot_QA.responde(x.group(0),dataset[0])),
 ]
 
-# regras_bot_FAQ = [
-#     (['NORMAL','INFORMATIVO'],5,r'(.*)', lambda x,dataset: )),
-# ]
+regras_bot_FAQ = [
+    (['NORMAL','INFORMATIVO'],5,r'(.*)', lambda x,dataset:bot_FAQ.responde(x.group(0),dataset[0]) )
+]
 
 regras_bot_exp = [
     (['NORMAL'],5,r'(.*)', lambda x,dataset: bot_exp.responde(x.group(0),dataset[0]))
@@ -69,4 +70,6 @@ def get_regras(bot):
         regras = regras_bot_QA
     elif bot == 'bot_exp':
         regras = regras_bot_exp
+    elif bot == 'bot_FAQ':
+        regras = regras_bot_FAQ
     return regras

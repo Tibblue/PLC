@@ -1,7 +1,7 @@
 import os,json
 import nltk
 import regex as re
-
+from random import choice
 
 # faz o open do json e guarda
 def save_json(path_faq):
@@ -11,10 +11,10 @@ def save_json(path_faq):
 # retorna o conteudo do json
 def busca_faq(nome_faq):
     # paths só para testing individual
-    path_faq = os.path.dirname(os.getcwd()) + '/data/' + nome_faq
+    # path_faq = os.path.dirname(os.getcwd()) + '/data/' + nome_faq
 
     # path geral
-    # path_faq = os.getcwd() + '/data/' + nome_faq
+    path_faq = os.getcwd() + '/data/' + nome_faq
 
     # guarda o conteudo do ficheiro json com o schema
     faq = save_json(path_faq)
@@ -43,11 +43,12 @@ def calcula_ratio(count_keys,mensagem_limpa):
 
 def responde(mensagem,nome_faq):
     lista_respostas = []
+    ratio_cmp = 0
     faq = busca_faq(nome_faq)
     # print(faq)
     mensagem_limpa = limpa_texto(mensagem)
     mensagem_limpa_str = ' '.join(mensagem_limpa)
-    print(mensagem_limpa)
+    # print(mensagem_limpa)
 
     lista_faq = (faq['FAQ'])
     for faq in lista_faq:
@@ -56,9 +57,20 @@ def responde(mensagem,nome_faq):
         for pergunta in perguntas:
             pergunta_limpa = limpa_texto(pergunta)
             count_keys = conta_keywords(mensagem_limpa_str,pergunta_limpa)
-            print(pergunta_limpa,count_keys)
+            # print(pergunta_limpa,count_keys)
             ratio = calcula_ratio(count_keys,mensagem_limpa)
-            print(ratio)
+            # print(ratio)
+            if ratio > ratio_cmp:
+                ratio_cmp = ratio
+                lista_respostas = []
+                lista_respostas.append(tuple((resposta,ratio)))
+            elif ratio == ratio_cmp:
+                lista_respostas.append(tuple((resposta,ratio)))
+    # print(lista_respostas)
+    # print(choice(lista_respostas))
+    (resposta,ratio) = choice(lista_respostas)
+    return resposta,ratio
 
-responde('Onde é a SEI?','FAQ_SEI.json')
+resposta, ratio = responde('A SEI é gratis?','FAQ_SEI.json')
+# print(resposta,ratio)
 
