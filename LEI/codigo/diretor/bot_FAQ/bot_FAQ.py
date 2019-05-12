@@ -45,10 +45,12 @@ def responde(mensagem,nome_faq):
     lista_respostas = []
     ratio_cmp = 0
     faq = busca_faq(nome_faq)
+    ratio = 1
     # print(faq)
     mensagem_limpa = limpa_texto(mensagem)
     mensagem_limpa_str = ' '.join(mensagem_limpa)
     # print(mensagem_limpa)
+    # print(len(mensagem_limpa))
 
     lista_faq = (faq['FAQ'])
     for faq in lista_faq:
@@ -58,19 +60,15 @@ def responde(mensagem,nome_faq):
             pergunta_limpa = limpa_texto(pergunta)
             count_keys = conta_keywords(mensagem_limpa_str,pergunta_limpa)
             # print(pergunta_limpa,count_keys)
-            ratio = calcula_ratio(count_keys,mensagem_limpa)
+            # ratio = calcula_ratio(count_keys,mensagem_limpa)
             # print(ratio)
-            if ratio > ratio_cmp:
-                ratio_cmp = ratio
-                lista_respostas = []
-                lista_respostas.append(tuple((resposta,ratio)))
-            elif ratio == ratio_cmp:
-                lista_respostas.append(tuple((resposta,ratio)))
+            if count_keys == len(mensagem_limpa):
+                lista_respostas.append(resposta)
     # print(lista_respostas)
     # print(choice(lista_respostas))
-    (resposta,ratio) = choice(lista_respostas)
-    return resposta,ratio
+    # (resposta,ratio) = choice(lista_respostas)
+    return choice(lista_respostas),ratio
 
-resposta, ratio = responde('A SEI é gratis?','FAQ_SEI.json')
+# resposta, ratio = responde('O que sabes sobre a SEI?','FAQ_SEI.json')
 # print(resposta,ratio)
 

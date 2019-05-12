@@ -1,14 +1,14 @@
 {"FAQ":[
     {
-        "perguntas": ["O que é a SEI'","Do que trata a SEI"],
-        "resposta": "É um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos."
+        "perguntas": ["O que é a SEI'","Do que trata a SEI","O que sabes sobre a SEI?"],
+        "resposta": "A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos."
     },
     {
         "perguntas": ["Onde são as incrições da SEI'","Onde me posso increver?"],
         "resposta": "Para te inscreveres basta aceder ao website da SEI."
     },
     {
-        "perguntas": ["A inscrição paga-se?","A SEI é gratuita?"],
+        "perguntas": ["A inscrição paga-se?","A SEI é gratuita?","A SEI é grátis?"],
         "resposta": "A SEI é gratuita, não tens que pagar."
     },
     {

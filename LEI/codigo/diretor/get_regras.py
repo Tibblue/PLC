@@ -35,7 +35,7 @@ regras_bot_QA = [
 ]
 
 regras_bot_FAQ = [
-    (['NORMAL','INFORMATIVO'],5,r'(.*)', lambda x,dataset:bot_FAQ.responde(x.group(0),dataset[0]) )
+    (['NORMAL','INFORMATIVO'],3,r'(.*)', lambda x,dataset:bot_FAQ.responde(x.group(0),dataset[0]) )
 ]
 
 regras_bot_exp = [

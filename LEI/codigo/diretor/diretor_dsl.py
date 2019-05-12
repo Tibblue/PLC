@@ -78,7 +78,7 @@ def responde(input_utilizador,tuplos,estados):
                             except:
                                 pass
         lista_respostas.sort(key=itemgetter(1),reverse=True)
-        print("\nlista_respostas: ",lista_respostas)
+        # print("\nlista_respostas: ",lista_respostas)
         if lista_respostas:
             return lista_respostas[0][0]
         else:
