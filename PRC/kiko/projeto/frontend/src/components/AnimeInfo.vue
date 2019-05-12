@@ -127,7 +127,7 @@
             break;
           case "dbpedia":
             console.log("DBPEDIA")
-            this.animeInfo.label = item.o.value
+            this.animeInfo.dbpedia = item.o.value
             break;
           default:
             console.log("FDS")

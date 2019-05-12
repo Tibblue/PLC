@@ -82,7 +82,7 @@
             break;
           case "dbpedia":
             console.log("DBPEDIA")
-            this.networkInfo.label = item.o.value
+            this.networkInfo.dbpedia = item.o.value
             break;
           default:
             console.log("FDS")
