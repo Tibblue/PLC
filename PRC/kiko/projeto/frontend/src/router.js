@@ -13,18 +13,23 @@ export default new Router({
       component: () => import('./views/Home.vue')
     },
     {
+      path: '/animes',
+      name: 'animeList',
+      component: () => import('./views/TabelaAnime.vue')
+    },
+    {
       path: '/animes/:id',
-      name: 'anime',
+      name: 'animeInfo',
       component: () => import('./views/ConsultaAnime.vue')
     },
     {
       path: '/persons/:id',
-      name: 'person',
+      name: 'personInfo',
       component: () => import('./views/ConsultaPerson.vue')
     },
     {
       path: '/networks/:id',
-      name: 'network',
+      name: 'networkInfo',
       component: () => import('./views/ConsultaNetwork.vue')
     }
   ]

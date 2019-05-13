@@ -7,12 +7,19 @@
         label="Search"
         single-line
       ></v-text-field>
+      <v-spacer/>
+      <v-text-field
+        v-model="pagination.page"
+        label="Page number"
+      ></v-text-field>
     </v-card-title>
     <!-- <p>{{animes}}</p> -->
     <v-data-table
       :headers="headers"
       :items="animes"
       :search="searchText"
+      :rows-per-page-items="rowsPerPage"
+      :pagination.sync="pagination"
       class="elevation-1"
     >
       <template v-slot:no-data>
@@ -46,6 +53,8 @@
   export default {
     data: () => ({
       searchText: '',
+      pagination: {},
+      rowsPerPage: [6,9,15,{"text":"$vuetify.dataIterator.rowsPerPageAll","value":-1}],
       headers: [
         { text: 'Anime', value:'anime.value', align:'left', sortable:true, class:'title'},
         { text: 'Label', value:'label.value', sortable:true, class:'title'},
