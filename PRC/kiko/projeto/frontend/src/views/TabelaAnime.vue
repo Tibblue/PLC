@@ -1,13 +1,13 @@
 <template>
-  <Index/>
+  <AnimesTable />
 </template>
 
 <script>
-  import Index from '@/components/Index'
+  import AnimesTable from '@/components/AnimesTable'
 
   export default {
     components: {
-      Index
+      AnimesTable
     }
   }
 </script>
