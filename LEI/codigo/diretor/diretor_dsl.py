@@ -87,6 +87,8 @@ def responde(input_utilizador,tuplos,estados):
                     resposta = funcao_estado()
                     return resposta
 
+        # sugerir uma adivinha
+        #
         return random.choice(clueless)
 
 
