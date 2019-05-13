@@ -8,11 +8,11 @@
         single-line
       ></v-text-field>
     </v-card-title>
+    <!-- <p>{{animes}}</p> -->
     <v-data-table
       :headers="headers"
       :items="animes"
       :search="searchText"
-      item-key="anime"
       class="elevation-1"
     >
       <template v-slot:no-data>
@@ -47,8 +47,8 @@
     data: () => ({
       searchText: '',
       headers: [
-        { text: 'Anime', value:'anime', align:'left', sortable:true, class:'title'},
-        { text: 'Label', value:'label', sortable:true, class:'title'},
+        { text: 'Anime', value:'anime.value', align:'left', sortable:true, class:'title'},
+        { text: 'Label', value:'label.value', sortable:true, class:'title'},
         // { text: 'Writer', value:'writer', sortable:true, class:'title'},
         // { text: 'Director', value:'director', sortable:true, class:'title'}
       ],
