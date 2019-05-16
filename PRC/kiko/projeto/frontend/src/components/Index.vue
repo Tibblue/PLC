@@ -1,13 +1,12 @@
 <template>
   <v-container>
-    <v-card-title>
+    <!-- <v-card-title>
       <v-text-field
         append-icon="search"
         label="Search"
         single-line
       />
-    </v-card-title>
-
+    </v-card-title> -->
     <h1 @click="goToTable('animes')">Animes</h1>
     <h1 @click="goToTable('persons')">Writers/Directors</h1>
     <h1 @click="goToTable('networks')">Networks</h1>
@@ -17,7 +16,7 @@
 <script>
   export default {
     data: () => ({
-      animes: []
+      // animes: []
     }),
     methods: {
       goToTable: function (table) {
