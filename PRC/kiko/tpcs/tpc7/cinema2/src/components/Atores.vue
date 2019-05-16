@@ -48,6 +48,11 @@
       catch(e){
         return(e);
       }
+    },
+    methods: {
+      rowClicked: function(item) {
+        this.$router.push('/atores/' + item.a.split('#')[1])
+      }
     }
   }
 </script>

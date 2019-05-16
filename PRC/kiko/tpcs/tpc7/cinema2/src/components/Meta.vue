@@ -20,24 +20,24 @@
 </template>
 
 <script>
-  import axios from 'axios'
-  const lhost = "http://cinema.di.uminho.pt"
+import axios from 'axios'
+const lhost = "http://cinema.di.uminho.pt"
 
-  export default {
-    props: ["idFilme"],
-    data: () => ({
-      filme: {}
-    }),
-    mounted: async function (){
-      try{
-        var response = await axios.get(lhost+'/filmes/'+this.idFilme);
-        this.filme = response.data[0]
-      }
-      catch(e){
-        return(e);
-      }
+export default {
+  props: ["idFilme"],
+  data: () => ({
+    filme: {}
+  }),
+  mounted: async function (){
+    try{
+      var response = await axios.get(lhost+'/filmes/'+this.idFilme)
+      this.filme = response.data[0]
+    }
+    catch(e){
+      return(e)
     }
   }
+}
 </script>
 
 <style>

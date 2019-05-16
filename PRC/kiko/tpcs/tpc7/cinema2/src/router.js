@@ -16,6 +16,11 @@ export default new Router({
       path: '/filmes/:id',
       name: 'filme',
       component: () => import('./views/ConsultaFilme.vue')
+    },
+    {
+      path: '/atores/:id',
+      name: 'ator',
+      component: () => import('./views/ConsultaAtor.vue')
     }
   ]
 })
