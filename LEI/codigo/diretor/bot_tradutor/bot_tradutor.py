@@ -4,7 +4,7 @@ import sys, getopt
 import regex as re
 import random
 import json
-from art import *
+# from art import *
 from py_translator import Translator
 
 from .listaLinguas import linguas
