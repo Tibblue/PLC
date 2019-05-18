@@ -4,13 +4,27 @@ var fs = require('fs');
 var path = require('path');
 var router = express.Router();
 
+var querys = require('../sparqlQuerys'); //ficheiro de querys
+// console.log(querys) // debug
+
 /* GraphDB endpoint */
 var endpoint = 'http://localhost:7200/repositories/projetoBeta'
 
 
-/* GET Saved Querys list interface. */
+/* GET NodeJS Saved Querys list interface. */
 router.get('/', function(req, res, next) {
-  // res.send('Give a query name');
+  console.log('PEDIDO: NodeJS Saved Querys')
+  var html = '<h2>NodeJS Saved Querys</h2>' + '<ol>'
+  for (i in querys) {
+    // var query = querys[i]
+    html = html.concat('<li><a href="http://localhost:4005/query/' + i + '">' + i + '</li></a>')
+  }
+  res.send(html+'</ol>')
+});
+
+/* GET GraphDB Saved Querys list interface. */
+// DEPRECATED
+router.get('/savedQuerys', function(req, res, next) {
   var url = 'http://localhost:7200/rest/sparql/saved-queries'
   axios.get(url)
     .then(response => {

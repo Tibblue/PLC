@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var router = express.Router();
 
-var querys = require('../querys');
+var querys = require('../sparqlQuerys'); //ficheiro de querys
 // console.log(querys) // debug
 
 /* Lista de endpoints. */
