@@ -5,6 +5,7 @@ var path = require('path');
 var router = express.Router();
 
 var querys = require('../sparqlQuerys'); //ficheiro de querys
+var querys1attr = require('../sparqlQuerys1attr'); //ficheiro de querys1attr
 var querysDebug = require('../sparqlQuerys_debug'); //ficheiro de querysDebug
 // console.log(querys) // debug
 
@@ -17,12 +18,17 @@ router.get('/', function(req, res, next) {
   console.log('PEDIDO: NodeJS Saved Querys')
   var html = '<h1>NodeJS Saved Querys</h1>' + '<ol>'
   for (name in querys) {
-    html = html.concat('<li><a href="http://localhost:4005/query/' + name + '">' + name + '</li></a>')
+    html = html.concat('<li><a href="http://localhost:4005/query/' +name+ '">' +name+ '</li></a>')
   }
   html = html+'</ol>'
   html = html+'<h2>NodeJS Saved Querys (Debug/Testing)</h2>' + '<ol>'
   for (name in querysDebug) {
-    html = html.concat('<li><a href="http://localhost:4005/query/' + name + '">' + name + '</li></a>')
+    html = html.concat('<li><a href="http://localhost:4005/query/' +name+ '">' +name+ '</li></a>')
+  }
+  html = html+'</ol>'
+  html = html+'<h2>NodeJS Saved Querys (Debug/Testing)</h2>' + '<ol>'
+  for (name in querys1attr) {
+    html = html.concat('<li>' +name+ '</li>')
   }
   html = html+'</ol>'
   res.send(html)
@@ -30,8 +36,8 @@ router.get('/', function(req, res, next) {
 
 
 /* GET any Saved Query. */
-router.get('/:savedQuery', function(req, res, next) {
-  var queryName = req.params.savedQuery
+router.get('/:queryName', function(req, res, next) {
+  var queryName = req.params.queryName
   var query = (querys[queryName] || querysDebug[queryName])
   var encoded = encodeURIComponent(query)
   console.log('PEDIDO: '+queryName+' (Saved Query auto)')
@@ -47,62 +53,15 @@ router.get('/:savedQuery', function(req, res, next) {
 
 
 ////  Prepared querys  ////
-// Anime //
-/* GET anime info. */
-router.get('/animes/:anime', function(req, res, next) {
-  var anime = req.params.anime
-  var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
-select distinct * where {
-  :ANIME_` + anime + ` ?p ?o .
-  FILTER ( ?p!=rdf:type)
-}`
+// 1 Attribute querys //
+router.get('/:queryName/:attr', function(req, res, next) {
+  var queryName = req.params.queryName
+  var attr = req.params.attr
+  var query = querys1attr[queryName](attr)
   var encoded = encodeURIComponent(query)
 
-  console.log('PEDIDO: GET Anime Info => '+anime)
-  // console.log('Query: \n' + query);
-  // console.log('Encoded: \n' + encoded);
-
-  axios.get(endpoint + '?query=' + encoded, {
-    headers: { Accept: 'application/sparql-results+json' }
-  })
-  .then(response => res.jsonp(response.data))
-  .catch(err => console.log('ERRO: ' + err));
-});
-
-// Person //
-/* GET person info. */
-router.get('/persons/:person', function(req, res, next) {
-  var person = req.params.person
-  var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
-select distinct * where {
-  :PERSON_` + person + ` ?p ?o .
-  FILTER ( ?p!=rdf:type)
-}`
-  var encoded = encodeURIComponent(query)
-
-  console.log('PEDIDO: GET Person Info => '+person)
-  // console.log('Query: \n' + query);
-  // console.log('Encoded: \n' + encoded);
-
-  axios.get(endpoint + '?query=' + encoded, {
-    headers: { Accept: 'application/sparql-results+json' }
-  })
-  .then(response => res.jsonp(response.data))
-  .catch(err => console.log('ERRO: ' + err));
-});
-
-// Network //
-/* GET network info. */
-router.get('/networks/:network', function(req, res, next) {
-  var network = req.params.network
-  var query = `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
-select distinct * where {
-  :NETWORK_` + network + ` ?p ?o .
-  FILTER ( ?p!=rdf:type)
-}`
-  var encoded = encodeURIComponent(query)
-
-  console.log('PEDIDO: GET Network Info => '+network)
+  console.log('PEDIDO: '+queryName+' (Saved Query auto)')
+  console.log('        |>Attribute= ' + attr)
   // console.log('Query: \n' + query);
   // console.log('Encoded: \n' + encoded);
 
