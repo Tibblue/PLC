@@ -4,9 +4,9 @@ var fs = require('fs');
 var path = require('path');
 var router = express.Router();
 
-var querys = require('../sparqlQuerys'); //ficheiro de querys
-var querys1attr = require('../sparqlQuerys1attr'); //ficheiro de querys1attr
-var querysDebug = require('../sparqlQuerys_debug'); //ficheiro de querysDebug
+var querys = require('../querys/sparqlQuerys'); //ficheiro de querys
+var querys1attr = require('../querys/sparqlQuerys1attr'); //ficheiro de querys1attr
+var querysDebug = require('../querys/sparqlQuerys_debug'); //ficheiro de querysDebug
 // console.log(querys) // debug
 
 /* GraphDB endpoint */
