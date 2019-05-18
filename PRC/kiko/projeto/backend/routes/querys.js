@@ -16,49 +16,25 @@ router.get('/', function(req, res, next) {
   console.log('PEDIDO: NodeJS Saved Querys')
   var html = '<h2>NodeJS Saved Querys</h2>' + '<ol>'
   for (i in querys) {
-    // var query = querys[i]
     html = html.concat('<li><a href="http://localhost:4005/query/' + i + '">' + i + '</li></a>')
   }
   res.send(html+'</ol>')
 });
 
-/* GET GraphDB Saved Querys list interface. */
-// DEPRECATED
-router.get('/savedQuerys', function(req, res, next) {
-  var url = 'http://localhost:7200/rest/sparql/saved-queries'
-  axios.get(url)
-    .then(response => {
-      console.log('PEDIDO: GraphDB Saved Querys')
-      var html = '<h2>GraphDB Saved Querys</h2>'+'<ol>'
-      for (i in response.data) {
-        var name = response.data[i].name
-        html = html.concat('<li><a href="http://localhost:4005/query/'+name+'">' + name + '</li></a>')
-      }
-      html = html+'</ol>'
-      res.send(html)
-    })
-    .catch(err => console.log('ERROR returning Saved Querys list : ' + err))
-});
 
-/* GET any savedQuery. */
+/* GET any Saved Query. */
 router.get('/:savedQuery', function(req, res, next) {
-  var url = 'http://localhost:7200/rest/sparql/saved-queries?name='
-  var encodedName = encodeURIComponent(req.params.savedQuery)
-  // console.log(encodedName)
-  axios.get(url+encodedName)
-    .then(response => {
-      var query = response.data.body
-      var encoded = encodeURIComponent(query)
-      console.log('PEDIDO: '+encodedName+' (Saved Query auto)')
-      // console.log('Query: \n' + response.data.body)
+  var queryName = req.params.savedQuery
+  var query = querys[queryName]
+  var encoded = encodeURIComponent(query)
+  console.log('PEDIDO: '+queryName+' (Saved Query auto)')
+  // console.log('Query: \n' + query)
 
-      axios.get(endpoint + '?query=' + encoded, {
-        headers: { Accept: 'application/sparql-results+json' }
-      })
-      .then(response => res.jsonp(response.data))
-      .catch(err => console.log('ERRO: ' + err));
-    })
-    .catch(err => console.log('ERRO: ' + err))
+  axios.get(endpoint + '?query=' + encoded, {
+    headers: { Accept: 'application/sparql-results+json' }
+  })
+  .then(response => res.jsonp(response.data))
+  .catch(err => console.log('ERRO: ' + err));
 });
 
 
