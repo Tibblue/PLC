@@ -26,7 +26,7 @@ router.get('/', function(req, res, next) {
     html = html.concat('<li><a href="http://localhost:4005/query/' +name+ '">' +name+ '</li></a>')
   }
   html = html+'</ol>'
-  html = html+'<h2>NodeJS Saved Querys (Debug/Testing)</h2>' + '<ol>'
+  html = html+'<h2>NodeJS Saved Querys (1 Attribute)</h2>' + '<ol>'
   for (name in querys1attr) {
     html = html.concat('<li>' +name+ '</li>')
   }

@@ -79,7 +79,7 @@
     }),
     mounted: async function (){
       try{
-        var response = await axios.get(lhost+'/query/persons/'+this.idPerson);
+        var response = await axios.get(lhost+'/query/person_info_id/'+this.idPerson);
         this.personResponse = response.data.results.bindings
         // console.log(encoded) // debug
         console.log(this.personResponse) // debug

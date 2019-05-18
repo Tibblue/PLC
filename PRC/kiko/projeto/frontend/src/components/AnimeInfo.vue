@@ -98,7 +98,7 @@
     }),
     mounted: async function (){
       try{
-        var response = await axios.get(lhost+'/query/animes/'+this.idAnime);
+        var response = await axios.get(lhost+'/query/anime_info_id/'+this.idAnime);
         this.animeResponse = response.data.results.bindings
         // console.log(encoded) // debug
         console.log(this.animeResponse) // debug

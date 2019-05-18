@@ -61,7 +61,7 @@
     }),
     mounted: async function (){
       try{
-        var response = await axios.get(lhost+'/query/networks/'+this.idNetwork);
+        var response = await axios.get(lhost+'/query/network_info_id/'+this.idNetwork);
         this.networkResponse = response.data.results.bindings
         // console.log(encoded) // debug
         console.log(this.networkResponse) // debug
