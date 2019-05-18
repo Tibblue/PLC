@@ -121,6 +121,7 @@ select distinct * where {
 ////  OTHERS  ////
 /* GET getClasses. */
 router.get('/others/getClasses', function(req, res, next) {
+  var endpoint = 'http://localhost:7200/repositories/projetoBeta'
   var encoded = encodeURIComponent('select * where { ?s a owl:Class }')
 
   console.log('PEDIDO: getClasses')
