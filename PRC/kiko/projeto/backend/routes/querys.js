@@ -5,6 +5,7 @@ var path = require('path');
 var router = express.Router();
 
 var querys = require('../sparqlQuerys'); //ficheiro de querys
+var querysDebug = require('../sparqlQuerys_debug'); //ficheiro de querysDebug
 // console.log(querys) // debug
 
 /* GraphDB endpoint */
@@ -14,18 +15,24 @@ var endpoint = 'http://localhost:7200/repositories/projetoBeta'
 /* GET NodeJS Saved Querys list interface. */
 router.get('/', function(req, res, next) {
   console.log('PEDIDO: NodeJS Saved Querys')
-  var html = '<h2>NodeJS Saved Querys</h2>' + '<ol>'
-  for (i in querys) {
-    html = html.concat('<li><a href="http://localhost:4005/query/' + i + '">' + i + '</li></a>')
+  var html = '<h1>NodeJS Saved Querys</h1>' + '<ol>'
+  for (name in querys) {
+    html = html.concat('<li><a href="http://localhost:4005/query/' + name + '">' + name + '</li></a>')
   }
-  res.send(html+'</ol>')
+  html = html+'</ol>'
+  html = html+'<h2>NodeJS Saved Querys (Debug/Testing)</h2>' + '<ol>'
+  for (name in querysDebug) {
+    html = html.concat('<li><a href="http://localhost:4005/query/' + name + '">' + name + '</li></a>')
+  }
+  html = html+'</ol>'
+  res.send(html)
 });
 
 
 /* GET any Saved Query. */
 router.get('/:savedQuery', function(req, res, next) {
   var queryName = req.params.savedQuery
-  var query = querys[queryName]
+  var query = (querys[queryName] || querysDebug[queryName])
   var encoded = encodeURIComponent(query)
   console.log('PEDIDO: '+queryName+' (Saved Query auto)')
   // console.log('Query: \n' + query)
