@@ -69,7 +69,7 @@
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
   ?anime rdf:type :Anime .
-    OPTIONAL{?anime :label ?label .}
+  OPTIONAL{?anime :label ?label .}
 }`
         var encoded = encodeURIComponent(query)
         var response = await axios.get(lhost+'/sparqlQuery?query='+encoded);
