@@ -18,6 +18,11 @@ export default new Router({
       component: () => import('./views/TabelaAnime.vue')
     },
     {
+      path: '/persons',
+      name: 'personList',
+      component: () => import('./views/TabelaPerson.vue')
+    },
+    {
       path: '/networks',
       name: 'networkList',
       component: () => import('./views/TabelaNetwork.vue')
