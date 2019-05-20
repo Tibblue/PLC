@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-flex>
     <!-- <v-card-title>
       <v-text-field
         append-icon="search"
@@ -10,7 +10,7 @@
     <h1 @click="goToTable('animes')">Animes</h1>
     <h1 @click="goToTable('persons')">Writers/Directors</h1>
     <h1 @click="goToTable('networks')">Networks</h1>
-  </v-container>
+  </v-flex>
 </template>
 
 <script>

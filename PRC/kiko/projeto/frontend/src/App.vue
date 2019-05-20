@@ -9,9 +9,9 @@
       </v-toolbar-items>
     </v-toolbar>
 
-    <!-- <v-container> -->
+    <v-container>
       <router-view/>
-    <!-- </v-container> -->
+    </v-container>
 
     <v-footer dark height="auto">
       <v-card-text class="text-xs-center">
