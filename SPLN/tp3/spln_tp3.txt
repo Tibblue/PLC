@@ -1,0 +1,10 @@
+Passo 1:
+- utilziador dá palavras
+Passo 2:
+- scrip para gerar mais palavras
+Passo 3:
+- utilizador escolhe algumas dessas palavras
+Passo 4:
+- scrip para arranjar rimas dessas palavras
+Passo 5:
+- criar musica/poema
