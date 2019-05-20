@@ -26,16 +26,17 @@
                 <v-card
                   flat hover
                   dark color="grey darken-2"
-                  @click="itemClicked(card)">
-                    <v-container fill-height fluid pa-2>
-                      <v-layout fill-height>
-                        <v-flex align-end flexbox>
-                          <span class="title" v-text="fixName(card.network.value)"></span>
-                          <v-spacer/>
-                          <span class="subtitle" v-text="fixName(card.network.value)"></span>
-                        </v-flex>
-                      </v-layout>
-                    </v-container>
+                  @click="itemClicked(card)"
+                >
+                  <v-container fill-height fluid pa-2>
+                    <v-layout fill-height>
+                      <v-flex align-end flexbox>
+                        <span v-if="card.label" class="title" v-text="card.label.value"></span>
+                        <v-spacer/>
+                        <span class="subtitle" v-text="fixName(card.network.value)"></span>
+                      </v-flex>
+                    </v-layout>
+                  </v-container>
 
                 </v-card>
               </v-flex>
@@ -57,12 +58,6 @@
   export default {
     data: () => ({
       searchText: '',
-      pagination: {},
-      rowsPerPage: [6,9,15,{"text":"$vuetify.dataIterator.rowsPerPageAll","value":-1}],
-      headers: [
-        { text: 'Network', value:'network.value', align:'left', sortable:true, class:'title'},
-        { text: 'Label', value:'label.value', sortable:true, class:'title'}
-      ],
       networks: []
     }),
     mounted: async function (){
