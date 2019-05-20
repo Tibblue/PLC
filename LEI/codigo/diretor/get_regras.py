@@ -47,7 +47,11 @@ regras_estado = [
     ('CHATEADO',r'És ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
     ('CHATEADO',r'Tu és ('+insultos_exp_reg+r')', lambda : 'CHATEADO'),
     ('CHATEADO',r'Desculpa', lambda : 'NORMAL'),
-    ('INFORMATIVO',r'Diz me uma coisa', lambda:'INFORMATIVO')
+    ('INFORMATIVO',r'Diz me uma coisa', lambda:'INFORMATIVO'),
+    ('INFORMATIVO',r'preciso de informações sobre', lambda:'INFORMATIVO'),
+    ('INFORMATIVO',r'preciso de informações da', lambda:'INFORMATIVO'),
+    ('INFORMATIVO',r'acho que está tudo', lambda:'NORMAL'),
+
 ]
 
 regras_estado_resposta = [

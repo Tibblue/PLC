@@ -60,6 +60,7 @@ def responde(input_utilizador,tuplos,estados):
                 match = re.match(regra,input_utilizador,re.IGNORECASE)
                 if match is not None:
                     return resposta
+        return random.choice(clueless)
     else:
         for regras,dataset,bot,prioridade_bot in tuplos:
             for lista_estados_validos,prioridade_regra,regra,funcao, in regras:

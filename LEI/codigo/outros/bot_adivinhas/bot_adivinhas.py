@@ -26,7 +26,7 @@ def verificaResposta(adivinha,resposta):
             print('Okay :( precisas de mais alguma coisa?')
             return None
     else:
-        print('Falhaste. Queres tentar outra vez ou queres a resposta?')
+        print('Falhaste. Queres tentar outra vez? ou queres a resposta?')
         mensagem = input('Eu: ')
         match_val = re.search(r'sim|pode ser|claro', mensagem,re.IGNORECASE)
         match_neg = re.search(r'não|nao', mensagem,re.IGNORECASE)

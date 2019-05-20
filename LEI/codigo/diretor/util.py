@@ -66,5 +66,8 @@ agradecimentos = [
 respostas_alteracao_estados = [
     ('CHATEADO','NORMAL',r'Desculpa','Estás desculpado.'),
     ('NORMAL','CHATEADO',r'.*','Não, tu é que és!'),
-    ('NORMAL','INFORMATIVO',r'Diz me uma coisa','O que precisas?')
+    ('NORMAL','INFORMATIVO',r'Diz me uma coisa','O que precisas?'),
+    ('NORMAL','INFORMATIVO',r'preciso de informações .*','Estou aqui para isso! De que precisas?'),
+    ('INFORMATIVO','NORMAL',r'acho que está tudo','Espero que tenha sido útil!')
+
 ]

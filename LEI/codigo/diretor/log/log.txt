@@ -1,544 +1,87 @@
-User: Galinha
-Bot: A galinha da minha vizinha é mais gorda que a minha
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-Bot: Adeus parceiro.
-
----FIM DE CONVERSA---
-
-User: galinha
-Bot: De grão em grão a galinha engasga
-User: Quem foi o primeiro rei de portugal?
-Bot: D. Afonso Henriques
-User: quando é a informática de portugal?
-Bot: Ninguém é bom juiz (nem mau advogado), em causa própria
-User: Quando é a informática em portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-Bot: Adeus!
-
----FIM DE CONVERSA---
-
-User: Quando é a sessão de abertura?
-Bot: 4 fevereiro segunda-feira,10:00,10:30
-Bot: Foi um prazer!
-
----FIM DE CONVERSA---
-
-User: Quando é a sessão de abertura?
-Bot: 4 fevereiro segunda-feira,10:00,10:30
-Bot: Adeus!
-
----FIM DE CONVERSA---
-
-User: Galinha
-Bot: Onde está galo não canta galinha
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-Bot: Adeus parceiro.
-
----FIM DE CONVERSA---
-
-User: Galinha
-Bot: Galinha de campo não quer capoeira
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-Bot: Adeus!
-
----FIM DE CONVERSA---
-
-User: Galinha
-Bot: Uma galinha sustenta dez pintos mas dez pintos não sustentam uma galinha
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-Bot: Até amanhã!
-
----FIM DE CONVERSA---
-
-Bot: Foi um prazer!
-
----FIM DE CONVERSA---
-
-User: galiha
-Bot: Estás a gozar comigo?!
-User: galinha
-Bot: Galinha do campo não quer capoeira
-Bot: Até à próxima colega.
-
----FIM DE CONVERSA---
-
-User: Galinha
-User: Galinha
-Bot: A galinha da minha vizinha é sempre melhor que a minha
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-User: Galinha
-Bot: (não há|) galinha gorda por pouco dinheiro
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-User: Galinha
-Bot: A galinha do vizinho é sempre mais gorda do que a nossa
-
----FIM DE CONVERSA---
-
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-
----FIM DE CONVERSA---
-
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-
----FIM DE CONVERSA---
-
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-
----FIM DE CONVERSA---
-
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-
----FIM DE CONVERSA---
-
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-
----FIM DE CONVERSA---
-
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-
----FIM DE CONVERSA---
-
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-
----FIM DE CONVERSA---
-
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-
----FIM DE CONVERSA---
-
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-
----FIM DE CONVERSA---
-
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-
----FIM DE CONVERSA---
-
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-
----FIM DE CONVERSA---
-
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-
----FIM DE CONVERSA---
-
-User: Galinha
-Bot: (não há|) galinha gorda por pouco dinheiro
-User: Quem foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-
----FIM DE CONVERSA---
-
-User: galinha
-Bot: Nem sempre sardinha, nem sempre galinha
-User: dasda
-Bot: Repete lá isso de forma que eu entenda.
-User: asdasd
-Bot: Tens a certeza que sabes falar português?!
-User: asdasd
-Bot: Não estou a perceber nada...
-Bot: Até à próxima colega.
-
----FIM DE CONVERSA---
-
 User: Olá
-Bot: Olá! Tudo bem?
-User: Como estás?
-Bot: Sol posto ledo, com claro ao norte, andar sem medo que estás com sorte
-User: como estás
-Bot: Sol posto ledo, com claro ao norte, andar sem medo que estás com sorte
-Bot: Passa bem!
-
----FIM DE CONVERSA---
-
-User: como estás?
-Bot: Sol posto ledo, com claro ao norte, andar sem medo que estás com sorte
-Bot: Adeus!
-
----FIM DE CONVERSA---
-
-User: como estás?
-Bot: Vou andando. Coisas da vida.
-Bot: Até amanhã!
-
----FIM DE CONVERSA---
-
-User: como estás?
-Bot: Bem, obrigado. E tu?
-User: Olá, como estás?
-Bot: Olá! Tudo bem?
-User: olá
-Bot: Olá! Tudo bem?
-User: como estás?
-Bot: Bem, obrigado!
-Bot: Adeus parceiro.
-
----FIM DE CONVERSA---
-
-User: Quem é que dá as sessões talk?
-Bot:  André Pimenta
-Bot: Passa bem!
-
----FIM DE CONVERSA---
-
-User: Olá
-Bot: Saudações! Como vai isso?
-User: Sim, diz me aí um provérbio com galinha.
-Bot: Onde canta galo não canta galinha
-User: olha e quem é que foi o primeiro rei de Portugal?
 Bot: Boas parceiro.
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-
----FIM DE CONVERSA---
-
-User: Olá
-Bot: Olá! Tudo bem?
-User: diz me aí um provérbio com galinha.
-Bot: Galinha de campo não quer capoeira
-User: olha e quem é que foi o primeiro rei de Portugal?
-Bot: Olá! Tudo bem?
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
+User: Preciso de informações sobre a SEI. Achas que me podes ajudar?
+Bot: Estou aqui para isso! De que precisas?
+User: Quando é que começa a SEI?
+Bot: A SEI realiza-se no início do segundo semestre.
+User: E onde é a SEI?
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+User: A inscrição é gratuita?
+Bot: A SEI é gratuita, não tens que pagar.
+User: Acho que está tudo
+Bot: Espero que tenha sido útil!
+User: Adeus
+Bot: Adeus companheiro!
 
 ---FIM DE CONVERSA---
 
 User: Olá
 Bot: Saudações! Como vai isso?
-User: diz me aí um provérbio com galinha.
-Bot: Galinha do campo não quer capoeira
-User: olha e quem é que foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
-
----FIM DE CONVERSA---
-
-User: oi
-Bot: Saudações! Como vai isso?
-User:  oi
-Bot: Não estou a perceber nada...
-Bot: Até amanhã!
-
----FIM DE CONVERSA---
-
-User: Olá
-Bot: Saudações! Como vai isso?
-User: diz me aí um provérbio com galinha.
-Bot: Quem diz que dinheiro não dá felicidade não sabe onde fazer compras
-User: olha e quem é que foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
+User: sim e contigo?
+Bot: Mais vale o sim tardio, que o não vazio
+User: As galinhas tem dentes?
+Bot: Quem faz de si, lixo, pisam-no as galinhas
+User: Adeus
+Bot: Adeus companheiro!
 
 ---FIM DE CONVERSA---
 
 User: Olá
 Bot: Boas parceiro.
-User: diz me um provérbio com galinha.
-Bot: Nem sempre sardinha, nem sempre galinha
-User: olha e quem é que foi o primeiro rei de Portugal?
-Bot: D. Afonso Henriques
-User: Quando é a informática em Portugal?
-Bot: 5 fevereiro terça-feira,16:30,17:30
-User: dia é a em que informática em portugal?
-Bot: 5 fevereiro terça-feira
-User: Quais são os oradores da Informática em Portugal?
-Bot: Vitor Filipe & José Nuno Oliveira & João Faria
-User: Quais são as atividades do tipo social?
-Bot: Sessão de Abertura,Apresentação dos desafios,Rally das Tascas
-User: A sessão de abertura é onde?
-Bot: CP2-B1
-User: Onde são as atividades do tipo social?
-Bot: CP2-B1
-CP2-B1
-Largo do Carpe
-User: Quem são os oradores da Mobile and web rapid application development with OutSystemsk?
-Bot: César Pinto & Hernâni Fernandes & Paulo Marques & Tiago Fernandes
-User: Quando é o início da sessão de abertura?
-Bot: 10:00
-User: Qual é a descrição da sessão que tem como tipo social?
-Bot: Sessão inaugural da edição deste ano. Será apresentado o calendário e os parceiros da SEI. E, possivelmente, algumas surpresas.,Apresentação de todos os desafios que irão acontecer durante a semana.,O tradicional Rally das Tascas, evento social que pretende promover o convívio entre os participantes da SEI.
-User: Em que complexo é a sessão de abertura?
-Bot: CP2-B1
-User: Quais são as sessões talk?
-Bot: MVP (Minimum Viable Product) para produtos com inteligência artificial
+User: Bem e contigo?
+Bot: Por bem fazer mal haver
+User: As galinhas tem dentes?
+Bot: Não medram galinhas onde a raposa mora
+User: Adeus
+Bot: Até amanhã
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Olá! Tudo bem?
+User: Bem e contigo?
+Bot: Bem lavrar, bem semear
+User: sabes me dizer se as galinhas tem dentes?
+Bot: A cavalo dado não se olham os dentes
+User: Adeus
+Bot: Adeus parceiro!
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Saudações! Como vai isso?
+User: Bem e contigo?
+Bot: Quem serve bem seus pais, não precisa de avós
+User: Sabes me dizer se as galinhas tem dentes?
+Bot: Vinte galinhas e um galo comem tanto como um cavalo
+User: Padre pedro pegra pregos, pregos pegra o padre pedro
+Bot: Padre sem sacristão, toca o sino com os pés
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Boas parceiro.
+User: Bem e contigo?
+Bot: Bem saber e bem querer, muito importam para bem viver
+User: Sabes me dizer se as galinhas tem dentes?
+Bot: A cavalo dado não se olham os dentes
+User: Padre Pedro pegra pregos, pregos pegra o padre Pedro
+Bot: Até s. pedro o vinho tem medo.
+User: Ate já
+Bot: A abaxar a cerviz, onde se lhe ate
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Olá! Tudo bem?
+User: Bem e contigo?
+Bot: Não dá quem tem, dá quem quer bem
+User: Sabes me dizer se as galinhas tem dentes?
+Bot: Quem tem dores de dentes é que vai ao dentista
+User: Padre Pedro pegra pregos, pregos pegra o padre Pedro
+Bot: Até s. pedro o vinho tem medo.
+User: Até logo
+Bot: Foi um prazer!
 
 ---FIM DE CONVERSA---
 
