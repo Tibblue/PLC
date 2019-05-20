@@ -88,12 +88,74 @@
         </v-flex>
     </v-layout>
 
+    <v-layout row wrap ma-2>
+      <v-flex xs4>
+        <v-text-field
+          label="Nome do ficheiro"
+          v-model="ficheiro"
+          :rules="[v => !!v || 'Preencha o nome do ficheiro']"
+          solo
+        ></v-text-field>
+      </v-flex>
+      <v-flex>
+        <v-btn
+          dark round
+          color="light-blue darken-4"
+          @click="gravarDados()"
+          >Gravar</v-btn>
+        <v-btn
+          dark round
+          color="orange darken-4"
+          @click="carregarDados()"
+          >Carregar</v-btn>
+      </v-flex>
+    </v-layout>
+
+    <v-snackbar
+      v-model="erro"
+      color="red darken-3"
+    >
+      Preenche o nome do ficheiro
+      <v-btn
+        dark flat
+        @click="erro = false"
+      >Fechar</v-btn>
+    </v-snackbar>
+    <v-snackbar
+      v-model="gravacaoTerminada"
+      color="green darken-3"
+    >
+      Gravação concluida com sucesso
+      <v-btn
+        dark flat
+        @click="gravacaoTerminada = false"
+      >Fechar</v-btn>
+    </v-snackbar>
+    <v-snackbar
+      v-model="erroGravacao"
+      color="red darken-3"
+    >
+      {{mensagemErro}}
+      <v-btn
+        dark flat
+        @click="erroGravacao = ''"
+      >Fechar</v-btn>
+    </v-snackbar>
+
+
+
   </v-container>
 </template>
 
 <script>
+  const fs = require('fs')
   export default {
     data: () => ({
+      erro: false,
+      erroGravacao: false,
+      gravacaoTerminada: false,
+      mensagemErro: "",
+      ficheiro: "",
       receita: 0,
       despesa: 0,
       lista: [],
@@ -114,6 +176,24 @@
     }),
 
     methods: {
+        gravarDados: async function(){
+          try{
+            if(this.ficheiro == ""){
+              this.erro = true
+            }
+            else{
+              await fs.writeFileSync(this.ficheiro, this.lista)
+              this.gravacaoTerminada = true
+              this.ficheiro = ""
+            }
+          }
+          catch(e){
+            this.erroGravacao = true
+          }
+        },
+        carregarDados: async function() {
+          console.log("OK")
+        },
         adicionaItem: function(){
             if(this.lista.length>0)
               this.novo.id = this.lista[this.lista.length-1].id+1
