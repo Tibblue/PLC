@@ -1,0 +1,1 @@
+rapper -c -i turtle genoa2019.ttl

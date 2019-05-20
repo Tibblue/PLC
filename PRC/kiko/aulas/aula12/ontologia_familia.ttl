@@ -1,0 +1,623 @@
+@prefix : <http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage> .
+
+<http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage> rdf:type owl:Ontology ;
+                                                            rdfs:comment "Um ontologia sobre a minha família" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#eAntepassadoDe
+:eAntepassadoDe rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :temRelacaoSangue ;
+                owl:inverseOf :temAntepassado .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#eAvoFDe
+:eAvoFDe rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :eProgenitorGrau2De ;
+         owl:inverseOf :temAvoF .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#eAvoMDe
+:eAvoMDe rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :eProgenitorGrau2De ;
+         owl:inverseOf :temAvoM .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#eMaeDe
+:eMaeDe rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :eProgenitorDe ;
+        owl:inverseOf :temMae .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#ePaiDe
+:ePaiDe rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :eProgenitorDe ;
+        owl:inverseOf :temPai .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#eProgenitorDe
+:eProgenitorDe rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :eAntepassadoDe ;
+               owl:inverseOf :temProgenitor .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#eProgenitorGrau2De
+:eProgenitorGrau2De rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :eAntepassadoDe ;
+                    owl:inverseOf :temProgenitorGrau2 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temAntepassado
+:temAntepassado rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :temRelacaoSangue ;
+                rdf:type owl:TransitiveProperty .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temAvoF
+:temAvoF rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :temProgenitorGrau2 ;
+         rdfs:domain :Pessoa ;
+         rdfs:range :Mulher ;
+         owl:propertyChainAxiom ( :temProgenitor
+                                  :temMae
+                                ) .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temAvoM
+:temAvoM rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :temProgenitorGrau2 ;
+         rdfs:domain :Pessoa ;
+         rdfs:range :Homem ;
+         owl:propertyChainAxiom ( :temProgenitor
+                                  :temPai
+                                ) .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temAvoMPaterno
+:temAvoMPaterno rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :temProgenitorGrau2 ;
+                owl:propertyChainAxiom ( :temPai
+                                         :temPai
+                                       ) .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temIrmao
+:temIrmao rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :temRelacaoSangue ;
+          rdf:type owl:SymmetricProperty ;
+          owl:propertyChainAxiom ( :temProgenitor
+                                   :eProgenitorDe
+                                 ) .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temMae
+:temMae rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :temProgenitor ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Mulher .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temPai
+:temPai rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :temProgenitor ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Homem .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temPrimo
+:temPrimo rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :temRelacaoSangue ;
+          owl:propertyChainAxiom ( :temTio
+                                   :eProgenitorDe
+                                 ) .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temProgenitor
+:temProgenitor rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :temAntepassado ;
+               rdfs:domain :Pessoa ;
+               rdfs:range :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temProgenitorGrau2
+:temProgenitorGrau2 rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :temAntepassado ;
+                    rdfs:domain :Pessoa ;
+                    rdfs:range :Pessoa ;
+                    owl:propertyChainAxiom ( :temProgenitor
+                                             :temProgenitor
+                                           ) .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temRelacao
+:temRelacao rdf:type owl:ObjectProperty .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temRelacaoSangue
+:temRelacaoSangue rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :temRelacao ;
+                  rdf:type owl:SymmetricProperty ;
+                  rdfs:domain :Pessoa ;
+                  rdfs:range :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temSexo
+:temSexo rdf:type owl:ObjectProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Pessoa ;
+         rdfs:range :Sexo .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temTio
+:temTio rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :temAntepassado ;
+        owl:propertyChainAxiom ( :temProgenitor
+                                 :temIrmao
+                               ) .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temAnoEvento
+:temAnoEvento rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Pessoa ;
+              rdfs:range xsd:int .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temAnoNasc
+:temAnoNasc rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :temAnoEvento .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#temAnoObito
+:temAnoObito rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :temAnoEvento .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Antepassado
+:Antepassado rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :eAntepassadoDe ;
+                                                          owl:someValuesFrom :Pessoa
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#AntepassadoFem
+:AntepassadoFem rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( :Antepassado
+                                                           :Mulher
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#AntepassadoMasc
+:AntepassadoMasc rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( :Antepassado
+                                                            :Homem
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Descendente
+:Descendente rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :temAntepassado ;
+                                                          owl:someValuesFrom :Pessoa
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#DescendenteHomem
+:DescendenteHomem rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( :Descendente
+                                                             :Homem
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#DescendenteMulher
+:DescendenteMulher rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( :Descendente
+                                                              :Mulher
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#DominioFamiliar
+:DominioFamiliar rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Feminino
+:Feminino rdf:type owl:Class ;
+          rdfs:subClassOf :Sexo ;
+          owl:disjointWith :Masculino .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Homem
+:Homem rdf:type owl:Class ;
+       owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty :temSexo ;
+                                                    owl:someValuesFrom :Masculino
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Masculino
+:Masculino rdf:type owl:Class ;
+           rdfs:subClassOf :Sexo .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Mulher
+:Mulher rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :temSexo ;
+                                                     owl:someValuesFrom :Feminino
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Pessoa
+:Pessoa rdf:type owl:Class ;
+        rdfs:subClassOf :DominioFamiliar ,
+                        [ rdf:type owl:Class ;
+                          owl:unionOf ( :Homem
+                                        :Mulher
+                                      )
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :temMae ;
+                          owl:someValuesFrom :Mulher
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :temPai ;
+                          owl:someValuesFrom :Homem
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :temSexo ;
+                          owl:someValuesFrom :Sexo
+                        ] ;
+        owl:disjointWith :Sexo .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Sexo
+:Sexo rdf:type owl:Class ;
+      rdfs:subClassOf :DominioFamiliar ,
+                      [ rdf:type owl:Class ;
+                        owl:unionOf ( :Feminino
+                                      :Masculino
+                                    )
+                      ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Abilio_Silva_Ramalho
+:Abilio_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                               :Pessoa ;
+                      :temMae :Custodia_Azevedo_1867 ;
+                      :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Albina_Esteves_Araujo_1910
+:Albina_Esteves_Araujo_1910 rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Maria_Araujo_1884 ;
+                            :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Ana_Margarida_Ribeiro_Leite_1980
+:Ana_Margarida_Ribeiro_Leite_1980 rdf:type owl:NamedIndividual ,
+                                           :Pessoa ;
+                                  :temMae :Maria_Margarida_Ribeiro_1954 ;
+                                  :temPai :Rui_Alberto_Araujo_Leite_1948 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Ana_Silva_Ramalho
+:Ana_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                            :Pessoa ;
+                   :temMae :Custodia_Azevedo_1867 ;
+                   :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Antonio_Silva_Ramalho
+:Antonio_Silva_Ramalho rdf:type owl:NamedIndividual .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Antonio_Silva_Ramalho_1904
+:Antonio_Silva_Ramalho_1904 rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Custodia_Azevedo_1867 ;
+                            :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Arminda_Silva_Ramalho
+:Arminda_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                                :Pessoa ;
+                       :temMae :Custodia_Azevedo_1867 ;
+                       :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Christina_Rosa_Silva_Santos_1879
+:Christina_Rosa_Silva_Santos_1879 rdf:type owl:NamedIndividual ,
+                                           :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Custodia_Azevedo_1867
+:Custodia_Azevedo_1867 rdf:type owl:NamedIndividual ,
+                                :Pessoa ;
+                       :temMae :Maria_Goncalves_Azevedo ;
+                       :temPai :Jose_Francisco_Ramos_Mouco .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Emilia_Esteves_Araujo_1908
+:Emilia_Esteves_Araujo_1908 rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Maria_Araujo_1884 ;
+                            :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Ezequiel_Silva_Ramalho
+:Ezequiel_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                                 :Pessoa ;
+                        :temMae :Custodia_Azevedo_1867 ;
+                        :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Filomena_Esteves_Araujo_1927
+:Filomena_Esteves_Araujo_1927 rdf:type owl:NamedIndividual ,
+                                       :Pessoa ;
+                              :temMae :Maria_Araujo_1884 ;
+                              :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Flora_Castilho_Couto_Leite
+:Flora_Castilho_Couto_Leite rdf:type owl:NamedIndividual ,
+                                     :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Florinda_Alves_Santos
+:Florinda_Alves_Santos rdf:type owl:NamedIndividual ,
+                                :Pessoa ;
+                       :temMae :Christina_Rosa_Silva_Santos_1879 ;
+                       :temPai :Joze_Silva_Santos_1879 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Generosa_Silva_Ramalho
+:Generosa_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                                 :Pessoa ;
+                        :temMae :Custodia_Azevedo_1867 ;
+                        :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Henrique_Luis_Esteves_Araujo_1924
+:Henrique_Luis_Esteves_Araujo_1924 rdf:type owl:NamedIndividual ,
+                                            :Pessoa ;
+                                   :temMae :Maria_Araujo_1884 ;
+                                   :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Henrique_Luiz_Araujo_1867
+:Henrique_Luiz_Araujo_1867 rdf:type owl:NamedIndividual .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Henrique_Marcal_Araujo_Leite_1943
+:Henrique_Marcal_Araujo_Leite_1943 rdf:type owl:NamedIndividual ,
+                                            :Pessoa ;
+                                   :temMae :Maria_Esteves_Araujo_1912 ;
+                                   :temPai :Marcal_Aristides_Costa_Leite_1909 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Henrique_Miguel_Cabrita_Araujo_Leite_1971
+:Henrique_Miguel_Cabrita_Araujo_Leite_1971 rdf:type owl:NamedIndividual ,
+                                                    :Pessoa ;
+                                           :temMae :Maria_Otilia_Araujo_Leite_1944 ;
+                                           :temPai :Henrique_Marcal_Araujo_Leite_1943 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Ilda_Santos_Ramalho_1949
+:Ilda_Santos_Ramalho_1949 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Alves_Santos_1906 ;
+                          :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Isabel_Maria_Cabrita_Araujo_Leite_1971
+:Isabel_Maria_Cabrita_Araujo_Leite_1971 rdf:type owl:NamedIndividual ,
+                                                 :Pessoa ;
+                                        :temMae :Maria_Otilia_Araujo_Leite_1944 ;
+                                        :temPai :Henrique_Marcal_Araujo_Leite_1943 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Jose_Carlos_Leite_Ramalho_1967
+:Jose_Carlos_Leite_Ramalho_1967 rdf:type owl:NamedIndividual ,
+                                         :Pessoa ;
+                                :temMae :Maria_Flora_Araujo_Leite_1941 ;
+                                :temPai :Jose_Santos_Ramalho_1942 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Jose_Emilio_Esteves_Araujo_1916
+:Jose_Emilio_Esteves_Araujo_1916 rdf:type owl:NamedIndividual ,
+                                          :Pessoa ;
+                                 :temMae :Maria_Araujo_1884 ;
+                                 :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Jose_Francisco_Ramos_Mouco
+:Jose_Francisco_Ramos_Mouco rdf:type owl:NamedIndividual ,
+                                     :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Jose_Santos_Ramalho_1942
+:Jose_Santos_Ramalho_1942 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Alves_Santos_1906 ;
+                          :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Joze_Silva_Santos_1879
+:Joze_Silva_Santos_1879 rdf:type owl:NamedIndividual ,
+                                 :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Luis_Esteves_Araujo_1918
+:Luis_Esteves_Araujo_1918 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Araujo_1884 ;
+                          :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Manuel_Carlos_Santos_Ramalho
+:Manuel_Carlos_Santos_Ramalho rdf:type owl:NamedIndividual ,
+                                       :Pessoa ;
+                              :temMae :Maria_Alves_Santos_1906 ;
+                              :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Manuel_Fernando_Santos_Ramalho
+:Manuel_Fernando_Santos_Ramalho rdf:type owl:NamedIndividual ,
+                                         :Pessoa ;
+                                :temMae :Maria_Alves_Santos_1906 ;
+                                :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Manuel_Silva_Ramalho_1866
+:Manuel_Silva_Ramalho_1866 rdf:type owl:NamedIndividual ,
+                                    :Pessoa ;
+                           :temMae :Maria_Dias_Reis ;
+                           :temPai :Antonio_Silva_Ramalho .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Marcal_Aristides_Costa_Leite_1909
+:Marcal_Aristides_Costa_Leite_1909 rdf:type owl:NamedIndividual ,
+                                            :Pessoa ;
+                                   :temMae :Flora_Castilho_Couto_Leite ;
+                                   :temPai :Marcal_Costa_Leite .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Marcal_Costa_Leite
+:Marcal_Costa_Leite rdf:type owl:NamedIndividual ,
+                             :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Alves_Santos_1906
+:Maria_Alves_Santos_1906 rdf:type owl:NamedIndividual ,
+                                  :Pessoa ;
+                         :temMae :Christina_Rosa_Silva_Santos_1879 ;
+                         :temPai :Joze_Silva_Santos_1879 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Araujo_1884
+:Maria_Araujo_1884 rdf:type owl:NamedIndividual ,
+                            :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Dias_Reis
+:Maria_Dias_Reis rdf:type owl:NamedIndividual ,
+                          :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Esteves_Araujo_1912
+:Maria_Esteves_Araujo_1912 rdf:type owl:NamedIndividual ,
+                                    :Pessoa ;
+                           :temMae :Maria_Araujo_1884 ;
+                           :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Flora_Araujo_Leite_1941
+:Maria_Flora_Araujo_Leite_1941 rdf:type owl:NamedIndividual ,
+                                        :Pessoa ;
+                               :temMae :Maria_Esteves_Araujo_1912 ;
+                               :temPai :Marcal_Aristides_Costa_Leite_1909 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Flora_Santos_Ramalho
+:Maria_Flora_Santos_Ramalho rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Maria_Alves_Santos_1906 ;
+                            :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Goncalves_Azevedo
+:Maria_Goncalves_Azevedo rdf:type owl:NamedIndividual ,
+                                  :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Helena_Leite_Ramalho_1968
+:Maria_Helena_Leite_Ramalho_1968 rdf:type owl:NamedIndividual ,
+                                          :Pessoa ;
+                                 :temMae :Maria_Flora_Araujo_Leite_1941 ;
+                                 :temPai :Jose_Santos_Ramalho_1942 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Margarida_Ribeiro_1954
+:Maria_Margarida_Ribeiro_1954 rdf:type owl:NamedIndividual ,
+                                       :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Maria_Otilia_Araujo_Leite_1944
+:Maria_Otilia_Araujo_Leite_1944 rdf:type owl:NamedIndividual ,
+                                         :Pessoa .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Rui_Alberto_Araujo_Leite_1948
+:Rui_Alberto_Araujo_Leite_1948 rdf:type owl:NamedIndividual ,
+                                        :Pessoa ;
+                               :temMae :Maria_Esteves_Araujo_1912 ;
+                               :temPai :Marcal_Aristides_Costa_Leite_1909 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Sara_Esteves_Araujo_1914
+:Sara_Esteves_Araujo_1914 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Araujo_1884 ;
+                          :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Teresa_Maria_Ribeiro_Leite_1985
+:Teresa_Maria_Ribeiro_Leite_1985 rdf:type owl:NamedIndividual ,
+                                          :Pessoa ;
+                                 :temMae :Maria_Margarida_Ribeiro_1954 ;
+                                 :temPai :Rui_Alberto_Araujo_Leite_1948 .
+
+
+###  http://jcr.di.uminho.pt/ontologias/2016/04/16/myHeritage#Virginia_Esteves_Araujo_1921
+:Virginia_Esteves_Araujo_1921 rdf:type owl:NamedIndividual ,
+                                       :Pessoa ;
+                              :temMae :Maria_Araujo_1884 ;
+                              :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
