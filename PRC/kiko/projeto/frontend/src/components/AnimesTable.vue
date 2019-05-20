@@ -65,7 +65,7 @@
       </template>
 
       <template v-slot:items="props">
-        <tr @click="rowClicked(props.item)">
+        <tr @click="itemClicked(props.item)">
           <td class="subheading"> {{props.item.anime.value.split('#ANIME_')[1]}} </td>
           <td v-if="props.item.label" class="subheading"> {{props.item.label.value}} </td>
           <td v-else > <p><i>No Label</i></p> </td>
@@ -82,7 +82,7 @@
   export default {
     data: () => ({
       searchText: '',
-      rowsPerPage: [6,9,15,{"text":"$vuetify.dataIterator.rowsPerPageAll","value":-1}],
+      rowsPerPage: [5,10,25,{"text":"$vuetify.dataIterator.rowsPerPageAll","value":-1}],
       headers: [
         { text: 'Anime', value:'anime.value', align:'left', sortable:true, class:'title'},
         { text: 'Label', value:'label.value', sortable:true, class:'title'},

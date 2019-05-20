@@ -24,4 +24,24 @@ select distinct * where {
     ?network a :Network .
     OPTIONAL{?network :label ?label .}
 }`,
+  person_label: `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct * where {
+    ?person a :Person .
+    OPTIONAL{?person :label ?label .}
+}`,
+  writer_label: `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct ?writer ?label where {
+    ?writer a :Person .
+    ?anime :hasWriter ?writer .
+    OPTIONAL{?writer :label ?label .}
+}`,
+  director_label: `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct ?director ?label where {
+    ?director a :Person .
+    ?anime :hasDirector ?director .
+    OPTIONAL{?director :label ?label .}
+}`,
 }
