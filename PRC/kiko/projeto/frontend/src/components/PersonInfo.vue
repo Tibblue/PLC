@@ -81,7 +81,6 @@
       try{
         var response = await axios.get(lhost+'/query/person_info_id/'+this.idPerson);
         this.personResponse = response.data.results.bindings
-        // console.log(encoded) // debug
         console.log(this.personResponse) // debug
       }
       catch(e){
@@ -114,7 +113,6 @@
     },
     methods: {
       animeClicked: function (id) {
-        // this.$emit('filmeSelected', id)
         this.$router.push('/animes/'+id)
       }
     }

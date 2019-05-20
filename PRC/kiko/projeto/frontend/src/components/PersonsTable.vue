@@ -1,7 +1,6 @@
 <template>
   <v-container>
 
-
     <v-layout justify-center>
       <v-flex xs6 mr-2>
         <v-toolbar color="indigo darken-2" dark>
@@ -94,7 +93,7 @@
           <v-spacer></v-spacer>
           <v-flex xs6>
             <v-text-field
-              v-model="searchText"
+              v-model="searchTextPersons"
               append-icon="search"
               label="Search"
               single-line
@@ -130,7 +129,14 @@
       </v-flex>
     </v-layout> -->
 
+
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+    <!-- <p>{{writers}}</p> -->
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+    <!-- <p>{{directors}}</p> -->
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <p>{{persons}}</p> -->
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
   </v-container>
 </template>
@@ -141,7 +147,7 @@
 
   export default {
     data: () => ({
-      searchText: '',
+      searchTextPersons: '',
       searchTextWriters: '',
       searchTextDirectors: '',
       persons: [],
@@ -153,15 +159,12 @@
         var response
         // response = await axios.get(lhost+'/query/person_label');
         // this.persons = response.data.results.bindings
-        // console.log(encoded) // debug
-        // console.log(this.persons) // debug
         response = await axios.get(lhost+'/query/writer_label');
         this.writers = response.data.results.bindings
-        // console.log(encoded) // debug
-        // console.log(this.writers) // debug
         response = await axios.get(lhost+'/query/director_label');
         this.directors = response.data.results.bindings
-        // console.log(encoded) // debug
+        // console.log(this.persons) // debug
+        // console.log(this.writers) // debug
         // console.log(this.directors) // debug
       }
       catch(e){
@@ -173,6 +176,7 @@
         this.$router.push('/persons/'+item.person.value.split('#PERSON_')[1])
       },
       fixName: function (name) {
+        // TODO: remover _ e outras coisas assim que apareçam
         return name.split('#PERSON_')[1]
       }
     },
@@ -180,7 +184,7 @@
       filteredPersons() {
         return this.persons.filter(item => {
           var name = item.person.value.split('#PERSON_')[1]
-          return name.toLowerCase().includes(this.searchText.toLowerCase())
+          return name.toLowerCase().includes(this.searchTextPersons.toLowerCase())
         })
       },
       filteredWriters() {

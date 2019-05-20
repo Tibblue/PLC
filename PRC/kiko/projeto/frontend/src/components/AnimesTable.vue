@@ -93,7 +93,6 @@
       try{
         var response = await axios.get(lhost+'/query/anime_label');
         this.animes = response.data.results.bindings
-        // console.log(encoded) // debug
         console.log(this.animes) // debug
       }
       catch(e){

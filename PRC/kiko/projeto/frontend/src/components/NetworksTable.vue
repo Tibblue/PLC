@@ -62,7 +62,6 @@
       try{
         var response = await axios.get(lhost+'/query/network_label');
         this.networks = response.data.results.bindings
-        // console.log(encoded) // debug
         console.log(this.networks) // debug
       }
       catch(e){

@@ -20,7 +20,6 @@
     }),
     methods: {
       goToTable: function (table) {
-        // this.$emit('filmeSelected', item)
         this.$router.push('/'+table)
       }
     }

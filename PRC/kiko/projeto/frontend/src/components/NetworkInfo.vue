@@ -63,7 +63,6 @@
       try{
         var response = await axios.get(lhost+'/query/network_info_id/'+this.idNetwork);
         this.networkResponse = response.data.results.bindings
-        // console.log(encoded) // debug
         console.log(this.networkResponse) // debug
       }
       catch(e){
@@ -92,7 +91,6 @@
     },
     methods: {
       animeClicked: function (id) {
-        // this.$emit('filmeSelected', id)
         this.$router.push('/animes/'+id)
       }
     }
