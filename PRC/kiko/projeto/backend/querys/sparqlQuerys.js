@@ -18,23 +18,23 @@ select distinct * where {
 #    ?anime ?relacao ?value .
 #    FILTER ( ?value!=owl:NamedIndividual && ?relacao!=rdf:type)
 } limit 100`,
-  network_label: `
+  network_id: `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
     ?network a :Network .
 }`,
-  person_label: `
+  person_id: `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
     ?person a :Person .
 }`,
-  writer_label: `
+  writer_id: `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct (?writer as ?person) ?label where {
     ?writer a :Person .
     ?anime :hasWriter ?writer .
 }`,
-  director_label: `
+  director_id: `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct (?director as ?person) ?label where {
     ?director a :Person .

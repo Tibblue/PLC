@@ -65,9 +65,8 @@
                 <v-layout fill-height>
                   <v-flex align-end flexbox>
                     <span class="title">{{fixName(card.person.value)}}</span>
-                    <!-- <v-spacer/> -->
-                    <!-- <span class="title">{{card.label.value}}</span> -->
-                    <!-- <span class="subtitle">{{index}}</span> -->
+                    <!-- <v-spacer v-if="card.label"/> -->
+                    <!-- <span v-if="card.label" class="subtitle">{{card.label.value}}</span> -->
                   </v-flex>
                 </v-layout>
               </v-container>

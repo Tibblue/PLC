@@ -1,5 +1,8 @@
 <template>
-  <NetworksTable />
+  <v-flex>
+    <NetworksTable />
+    <!-- <p>{{networks}}</p> -->
+  </v-flex>
 </template>
 
 <script>

@@ -31,7 +31,7 @@
                   <v-container fill-height fluid pa-2>
                     <v-layout fill-height>
                       <v-flex align-end flexbox>
-                        <span v-if="card.label" class="title" v-text="card.label.value"></span>
+                        <span class="title">{{fixName(card.network.value)}}</span>
                       </v-flex>
                     </v-layout>
                   </v-container>
@@ -60,7 +60,7 @@
     }),
     mounted: async function (){
       try{
-        var response = await axios.get(lhost+'/query/network_label');
+        var response = await axios.get(lhost+'/query/network_id');
         this.networks = response.data.results.bindings
         console.log(this.networks) // debug
       }
@@ -73,7 +73,7 @@
         this.$router.push('/networks/'+item.network.value.split('#NETWORK_')[1])
       },
       fixName: function (name) {
-        return name.split('#NETWORK_')[1]
+        return name.split('#NETWORK_')[1].replace(/_/g, " ")
       }
     },
     computed: {

@@ -89,11 +89,11 @@
     mounted: async function (){
       try{
         var response
-        // response = await axios.get(lhost+'/query/person_label');
+        // response = await axios.get(lhost+'/query/person_id');
         // this.persons = response.data.results.bindings
-        response = await axios.get(lhost+'/query/writer_label');
+        response = await axios.get(lhost+'/query/writer_id');
         this.writers = response.data.results.bindings
-        response = await axios.get(lhost+'/query/director_label');
+        response = await axios.get(lhost+'/query/director_id');
         this.directors = response.data.results.bindings
         // console.log(this.persons) // debug
         // console.log(this.writers) // debug
@@ -108,8 +108,7 @@
         this.$router.push('/persons/'+item.person.value.split('#PERSON_')[1])
       },
       fixName: function (name) {
-        // TODO: remover _ e outras coisas assim que apareçam
-        return name.split('#PERSON_')[1]
+        return name.split('#PERSON_')[1].replace(/_/g, " ")
       },
       nextPage: function () {
         if(this.currentPageWriters<this.writers.length/this.pageSize)
