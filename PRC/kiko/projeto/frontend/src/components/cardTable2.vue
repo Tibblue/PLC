@@ -114,7 +114,11 @@
         })
       },
       pagedList() {
-        var filtered = this.filteredList()
+        var filtered = this.list.filter((item) => {
+          var name = item.id
+          // var label = item.label
+          return name.toLowerCase().includes(this.searchText.toLowerCase())
+        })
         var paged = filtered.filter((item,index) => {
           return index>=(this.currentPage-1)*this.pageSize
                   && index<this.currentPage*this.pageSize
