@@ -37,7 +37,8 @@
       icons: [
         // ['home','http://localhost:8080'],
         ['fab fa-github','http://www.github.com/Tibblue'],
-        // ['fab fa-instagram','http://www.instagram.com'],
+        ['fab fa-linkedin','https://www.linkedin.com/in/kiko-oliveira/'],
+        ['fas fa-university','https://www.uminho.pt'],
       ]
     }),
     methods: {
