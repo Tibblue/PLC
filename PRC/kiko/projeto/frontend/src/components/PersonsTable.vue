@@ -1,131 +1,19 @@
 <template>
   <v-flex>
+    <v-layout>
+    <v-flex xs6 mr-2>
+      <cardTable
+        name="Writers"
+        :list="writers"
+      ></cardTable>
+    </v-flex>
 
-    <v-layout justify-center>
-      <v-flex xs6 mr-2>
-        <v-toolbar color="indigo darken-2" dark>
-          <v-flex xs6>
-            <v-text-field
-              v-model="searchTextWriters"
-              prepend-icon="search"
-              label="Search Writers"
-              single-line
-            ></v-text-field>
-          </v-flex>
-          <v-flex xs6>
-            <v-layout>
-              <v-btn icon @click="currentPageWriters=1">
-                <v-icon>{{'fas fa-angle-double-left'}}</v-icon>
-              </v-btn>
-              <v-btn icon @click="previousPage()">
-                <v-icon>{{'fas fa-caret-left'}}</v-icon>
-              </v-btn>
-              <v-text-field
-                solo flat readonly
-                class="centered-input"
-                background-color="indigo darken-2"
-                v-model="currentPageWriters"
-              ></v-text-field>
-              <v-btn icon @click="nextPage()">
-                <v-icon>{{'fas fa-caret-right'}}</v-icon>
-              </v-btn>
-              <v-btn icon @click="currentPageWriters=Math.ceil(writers.length/pageSize)">
-                <v-icon>{{'fas fa-angle-double-right'}}</v-icon>
-              </v-btn>
-              <v-combobox
-                v-model="pageSize"
-                :items="items"
-                label="Page"
-              ></v-combobox>
-            </v-layout>
-          </v-flex>
-        </v-toolbar>
-        <v-card>
-          <v-container fluid grid-list-md>
-            <v-layout row wrap>
-              <v-flex
-                v-for="(card,index) in filteredWriters"
-                :key="card.person.value"
-              >
-                <v-card v-if="index>=currentPageWriters*pageSize-pageSize && index<currentPageWriters*pageSize"
-                  flat hover
-                  dark color="grey darken-2"
-                  @click="itemClicked(card)"
-                >
-                  <v-container fill-height fluid pa-2>
-                    <v-layout fill-height>
-                      <v-flex align-end flexbox>
-                        <span class="title">{{index}}{{card.label.value}}</span>
-                      </v-flex>
-                    </v-layout>
-                  </v-container>
-                </v-card>
-              </v-flex>
-            </v-layout>
-          </v-container>
-        </v-card>
-      </v-flex>
-
-      <v-flex xs6 ml-2>
-        <v-toolbar color="indigo darken-2" dark>
-          <v-flex xs6>
-            <v-text-field
-              v-model="searchTextDirectors"
-              prepend-icon="search"
-              label="Search Directors"
-              single-line
-            ></v-text-field>
-          </v-flex>
-          <v-flex xs6>
-            <v-layout>
-              <v-btn icon @click="currentPageDirectors=1">
-                <v-icon>{{'fas fa-angle-double-left'}}</v-icon>
-              </v-btn>
-              <v-btn icon @click="currentPageDirectors--">
-                <v-icon>{{'fas fa-caret-left'}}</v-icon>
-              </v-btn>
-              <v-text-field
-                solo flat readonly
-                class="centered-input"
-                background-color="indigo darken-2"
-                v-model="currentPageDirectors"
-              ></v-text-field>
-              <v-btn icon @click="nextPage()">
-                <v-icon>{{'fas fa-caret-right'}}</v-icon>
-              </v-btn>
-              <v-btn icon @click="currentPageDirectors=Math.ceil(directors.length/pageSize)">
-                <v-icon>{{'fas fa-angle-double-right'}}</v-icon>
-              </v-btn>
-            </v-layout>
-          </v-flex>
-        </v-toolbar>
-        <v-card>
-          <v-container fluid grid-list-md>
-            <v-layout row wrap>
-              <v-flex
-                v-for="(card,index) in filteredDirectors"
-                :key="card.person.value"
-              >
-                <v-card v-if="index<pageSize"
-                  flat hover
-                  dark color="grey darken-2"
-                  @click="itemClicked(card)"
-                >
-                  <v-container fill-height fluid pa-2>
-                    <v-layout fill-height>
-                      <v-flex align-end flexbox>
-                        <span class="title">{{card.label.value}}</span>
-                      </v-flex>
-                    </v-layout>
-                  </v-container>
-
-                </v-card>
-              </v-flex>
-            </v-layout>
-          </v-container>
-        </v-card>
-      </v-flex>
-
+    <v-flex xs6 ml-2>
+      <cardTable
+        name="Directors"
+        :list="directors"
+      ></cardTable>
+    </v-flex>
     </v-layout>
 
 <!--
@@ -186,16 +74,14 @@
 <script>
   import axios from 'axios'
   const lhost = "http://localhost:4005"
+  import cardTable from '@/components/cardTable'
 
   export default {
+    components: {
+      cardTable
+    },
     data: () => ({
-      pageSize: 30,
-      items: [20,30,60,100],
       searchTextPersons: '',
-      searchTextWriters: '',
-      searchTextDirectors: '',
-      currentPageWriters: 1,
-      currentPageDirectors: 1,
       persons: [],
       writers: [],
       directors: []
@@ -239,18 +125,6 @@
         return this.persons.filter(item => {
           var name = item.person.value.split('#PERSON_')[1]
           return name.toLowerCase().includes(this.searchTextPersons.toLowerCase())
-        })
-      },
-      filteredWriters() {
-        return this.writers.filter(item => {
-          var name = item.person.value.split('#PERSON_')[1]
-          return name.toLowerCase().includes(this.searchTextWriters.toLowerCase())
-        })
-      },
-      filteredDirectors() {
-        return this.directors.filter(item => {
-          var name = item.person.value.split('#PERSON_')[1]
-          return name.toLowerCase().includes(this.searchTextDirectors.toLowerCase())
         })
       }
     }
