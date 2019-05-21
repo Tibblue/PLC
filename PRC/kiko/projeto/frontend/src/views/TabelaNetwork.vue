@@ -38,9 +38,6 @@
       }
     },
     methods: {
-      fixName: function (name) {
-        return name.split('#NETWORK_')[1].replace(/_/g, " ")
-      },
       simplify: function (item) {
         return {id:item.network.value.split('#NETWORK_')[1]}
       }

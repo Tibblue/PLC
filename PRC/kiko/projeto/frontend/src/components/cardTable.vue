@@ -1,8 +1,11 @@
 <template>
   <v-flex>
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <span>{{this.name}}</span> -->
     <!-- <span>{{this.list}}</span> -->
-    <!-- <span>{{filteredList2}}</span> -->
+    <!-- <span>{{this.route}}</span> -->
+    <!-- <span>{{filteredList}}</span> -->
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
     <v-toolbar dark color="indigo darken-2" flat>
       <v-flex xs12>
@@ -53,7 +56,7 @@
       <v-container fluid grid-list-md>
         <v-layout row wrap>
           <v-flex
-            v-for="card in filteredList2"
+            v-for="card in pagedList"
             :key="card.person.value"
           >
             <v-card
@@ -80,7 +83,7 @@
 
 <script>
   export default {
-    props: ["name","list"],
+    props: ["name","list","route"],
     data: () => ({
       pageSize: 30,
       items: [20,30,60,100],
@@ -89,7 +92,7 @@
     }),
     methods: {
       itemClicked: function (item) {
-        this.$router.push('/persons/'+item.person.value.split('#PERSON_')[1])
+        this.$router.push('/'+this.route+'/'+item.person.value.split('#PERSON_')[1])
       },
       fixName: function (name) {
         return name.split('#PERSON_')[1].replace(/_/g, " ")
@@ -110,7 +113,7 @@
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
       },
-      filteredList2() {
+      pagedList() {
         var filtered = this.list.filter((item) => {
           var name = item.person.value.split('#PERSON_')[1]
           return name.toLowerCase().includes(this.searchText.toLowerCase())
