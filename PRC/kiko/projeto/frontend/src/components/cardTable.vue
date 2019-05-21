@@ -57,7 +57,7 @@
         <v-layout row wrap>
           <v-flex
             v-for="card in pagedList"
-            :key="card.person.value"
+            :key="card.id"
           >
             <v-card
               flat hover
@@ -67,9 +67,9 @@
               <v-container fill-height fluid pa-2>
                 <v-layout fill-height>
                   <v-flex align-end flexbox>
-                    <span class="title">{{fixName(card.person.value)}}</span>
-                    <!-- <v-spacer v-if="card.label"/> -->
-                    <!-- <span v-if="card.label" class="subtitle">{{card.label.value}}</span> -->
+                    <span class="title">{{fixName(card.id)}}</span>
+                    <v-spacer v-if="card.label"/>
+                    <span v-if="card.label" class="subtitle">{{card.label}}</span>
                   </v-flex>
                 </v-layout>
               </v-container>
@@ -92,10 +92,10 @@
     }),
     methods: {
       itemClicked: function (item) {
-        this.$router.push('/'+this.route+'/'+item.person.value.split('#PERSON_')[1])
+        this.$router.push('/'+this.route+'/'+item.id)
       },
       fixName: function (name) {
-        return name.split('#PERSON_')[1].replace(/_/g, " ")
+        return name.replace(/_/g, " ")
       },
       nextPage: function () {
         if(this.currentPage<this.filteredList.length/this.pageSize)
@@ -109,13 +109,14 @@
     computed: {
       filteredList() {
         return this.list.filter(item => {
-          var name = item.person.value.split('#PERSON_')[1]
+          var name = item.id
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
       },
       pagedList() {
         var filtered = this.list.filter((item) => {
-          var name = item.person.value.split('#PERSON_')[1]
+          var name = item.id
+          // var label = item.label
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
         var paged = filtered.filter((item,index) => {

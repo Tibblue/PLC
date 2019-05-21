@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <cardTable2
+    <cardTable
       name="Networks"
       :list="networksSimple"
       route="networks"
-    ></cardTable2>
+    ></cardTable>
   </v-container>
 
   <!-- <h1> <mark> DEBUG </mark> </h1> -->
@@ -15,13 +15,13 @@
 </template>
 
 <script>
-  import cardTable2 from '@/components/cardTable2'
+  import cardTable from '@/components/cardTable'
   import axios from 'axios'
   const lhost = "http://localhost:4005"
 
   export default {
     components: {
-      cardTable2
+      cardTable
     },
     data: () => ({
       networks: [],

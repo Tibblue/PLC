@@ -4,7 +4,7 @@
     <v-flex xs6 mr-2>
       <cardTable
         name="Writers"
-        :list="writers"
+        :list="writersSimple"
         route="persons"
       ></cardTable>
     </v-flex>
@@ -12,7 +12,7 @@
     <v-flex xs6 ml-2>
       <cardTable
         name="Directors"
-        :list="directors"
+        :list="directorsSimple"
         route="persons"
       ></cardTable>
     </v-flex>
@@ -21,17 +21,20 @@
     <v-flex xs10 >
       <cardTable
         name="Persons"
-        :list="persons"
+        :list="personsSimple"
         route="persons"
       ></cardTable>
     </v-flex>
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <p>{{writers}}</p> -->
+    <!-- <p>{{writersSimple}}</p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <p>{{directors}}</p> -->
+    <!-- <p>{{directorsSimple}}</p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <p>{{persons}}</p> -->
+    <!-- <p>{{personsSimple}}</p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
   </v-container>
@@ -49,26 +52,32 @@
     data: () => ({
       persons: [],
       writers: [],
-      directors: []
+      directors: [],
+      personsSimple: [],
+      writersSimple: [],
+      directorsSimple: [],
     }),
     mounted: async function (){
       try{
         var response
         response = await axios.get(lhost+'/query/person_id');
         this.persons = response.data.results.bindings
+        this.personsSimple = this.persons.map(this.simplify)
         response = await axios.get(lhost+'/query/writer_id');
         this.writers = response.data.results.bindings
+        this.writersSimple = this.writers.map(this.simplify)
         response = await axios.get(lhost+'/query/director_id');
         this.directors = response.data.results.bindings
-        // console.log(this.persons) // debug
-        // console.log(this.writers) // debug
-        // console.log(this.directors) // debug
+        this.directorsSimple = this.directors.map(this.simplify)
       }
       catch(e){
         return(e);
       }
     },
     methods: {
+      simplify: function (item) {
+        return {id:item.person.value.split('#PERSON_')[1]}
+      }
     }
   }
 </script>
