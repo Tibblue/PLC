@@ -2,6 +2,7 @@
   <v-flex>
     <!-- <span>{{this.name}}</span> -->
     <!-- <span>{{this.list}}</span> -->
+    <!-- <span>{{filteredList2}}</span> -->
 
     <v-toolbar dark color="indigo darken-2" flat>
       <v-flex xs12>
@@ -51,11 +52,10 @@
       <v-container fluid grid-list-md>
         <v-layout row wrap>
           <v-flex
-            v-for="(card,index) in filteredList"
+            v-for="(card,index) in filteredList2"
             :key="card.person.value"
           >
             <v-card
-              v-if="index>=currentPage*pageSize-pageSize && index<currentPage*pageSize"
               flat hover
               dark color="grey darken-2"
               @click="itemClicked(card)"
@@ -108,6 +108,20 @@
           var name = item.person.value.split('#PERSON_')[1]
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
+      },
+      filteredList2() {
+        var filtered = this.list.filter((item) => {
+          var name = item.person.value.split('#PERSON_')[1]
+          return name.toLowerCase().includes(this.searchText.toLowerCase())
+        })
+        var paged = filtered.filter((item,index) => {
+          if( index>=(this.currentPage-1)*this.pageSize
+              && index<this.currentPage*this.pageSize)
+            return true
+          else
+            return false
+        })
+        return paged
       }
     }
   }
