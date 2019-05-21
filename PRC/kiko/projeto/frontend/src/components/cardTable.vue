@@ -7,10 +7,10 @@
     <v-toolbar dark color="indigo darken-2" flat>
       <v-flex xs12>
         <v-text-field
+          single-line
           v-model="searchText"
           prepend-icon="search"
           :label="'Search '+name"
-          single-line
         ></v-text-field>
       </v-flex>
     </v-toolbar>
@@ -26,6 +26,7 @@
           </v-btn>
           <v-text-field
             solo flat readonly
+            single-line
             class="centered-input"
             background-color="indigo darken-2"
             v-model="currentPage"
@@ -52,7 +53,7 @@
       <v-container fluid grid-list-md>
         <v-layout row wrap>
           <v-flex
-            v-for="(card,index) in filteredList2"
+            v-for="card in filteredList2"
             :key="card.person.value"
           >
             <v-card
@@ -63,8 +64,10 @@
               <v-container fill-height fluid pa-2>
                 <v-layout fill-height>
                   <v-flex align-end flexbox>
-                    <span class="subtitle">{{index}}</span>
-                    <span class="title">{{card.label.value}}</span>
+                    <span class="title">{{fixName(card.person.value)}}</span>
+                    <!-- <v-spacer/> -->
+                    <!-- <span class="title">{{card.label.value}}</span> -->
+                    <!-- <span class="subtitle">{{index}}</span> -->
                   </v-flex>
                 </v-layout>
               </v-container>
@@ -90,8 +93,7 @@
         this.$router.push('/persons/'+item.person.value.split('#PERSON_')[1])
       },
       fixName: function (name) {
-        // TODO: remover _ e outras coisas assim que apareçam
-        return name.split('#PERSON_')[1]
+        return name.split('#PERSON_')[1].replace(/_/g, " ")
       },
       nextPage: function () {
         if(this.currentPage<this.filteredList.length/this.pageSize)
@@ -115,11 +117,8 @@
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
         var paged = filtered.filter((item,index) => {
-          if( index>=(this.currentPage-1)*this.pageSize
-              && index<this.currentPage*this.pageSize)
-            return true
-          else
-            return false
+          return index>=(this.currentPage-1)*this.pageSize
+                  && index<this.currentPage*this.pageSize
         })
         return paged
       }

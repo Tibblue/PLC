@@ -1,5 +1,11 @@
 <template>
-  <PersonsTable />
+  <v-container>
+  <!-- <v-flex ma-4 px-4> -->
+    <!-- <v-flex px-4><v-flex px-4> -->
+      <PersonsTable/>
+    <!-- </v-flex></v-flex> -->
+  <!-- </v-flex> -->
+  </v-container>
 </template>
 
 <script>
