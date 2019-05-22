@@ -18,7 +18,6 @@
             ></cardTable>
           </v-flex>
         </v-container>
-
         <!-- <span>{{this.animesSimple}}</span> -->
 
       </v-card>
@@ -70,15 +69,12 @@
         // console.log(item)
         switch (item.p.value.split('#')[1]) {
           case "label":
-            console.log("LABEL")
             this.label = item.o.value
             break;
           case "produced":
-            console.log("ANIME")
             this.animes.push(item.o.value.split('#ANIME_')[1])
             break;
           case "dbpedia":
-            console.log("DBPEDIA")
             this.dbpedia = item.o.value
             break;
           default:
