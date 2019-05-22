@@ -1,13 +1,48 @@
 <template>
-  <AnimesTable />
+  <v-container>
+
+    <v-flex xs12>
+      <cardTable
+        name="Animes"
+        :list="animesSimple"
+        route="animes"
+      ></cardTable>
+    </v-flex>
+
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+    <!-- <p>{{animes}}</p> -->
+    <!-- <p>{{animesSimple}}</p> -->
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+  </v-container>
 </template>
 
 <script>
-  import AnimesTable from '@/components/AnimesTable'
+  import cardTable from '@/components/cardTable'
+  import axios from 'axios'
+  const lhost = "http://localhost:4005"
 
   export default {
     components: {
-      AnimesTable
-    }
+      cardTable
+    },
+    data: () => ({
+      animes: [],
+      animesSimple: []
+    }),
+    mounted: async function (){
+      try{
+        var response = await axios.get(lhost+'/query/anime_label');
+        this.animes = response.data.results.bindings
+        this.animesSimple = this.animes.map(this.simplify)
+      }
+      catch(e){
+        return(e);
+      }
+    },
+    methods: {
+      simplify: function (item) {
+        return {id:item.anime.value.split('#ANIME_')[1]}
+      }
+    },
   }
 </script>
