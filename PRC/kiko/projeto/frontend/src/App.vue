@@ -18,7 +18,7 @@
     <v-footer dark height="auto">
       <v-card-text class="text-xs-center">
         <v-btn icon v-for="icon in icons" :key="icon[0]">
-          <v-icon size="24px" @click="goTo(icon[2])">{{icon[0]}}</v-icon>
+          <v-icon size="24px" @click="goTo(icon[1])">{{icon[0]}}</v-icon>
         </v-btn>
 
         <v-divider></v-divider>
