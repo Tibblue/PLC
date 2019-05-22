@@ -1,24 +1,24 @@
 <template>
   <v-container>
     <v-layout>
-    <v-flex xs6 mr-2>
-      <cardTable
-        name="Writers"
-        :list="writersSimple"
-        route="persons"
-      ></cardTable>
-    </v-flex>
+      <v-flex xs6 mr-2>
+        <cardTable
+          name="Writers"
+          :list="writersSimple"
+          route="persons"
+        ></cardTable>
+      </v-flex>
 
-    <v-flex xs6 ml-2>
-      <cardTable
-        name="Directors"
-        :list="directorsSimple"
-        route="persons"
-      ></cardTable>
-    </v-flex>
+      <v-flex xs6 ml-2>
+        <cardTable
+          name="Directors"
+          :list="directorsSimple"
+          route="persons"
+        ></cardTable>
+      </v-flex>
     </v-layout>
 
-    <v-flex xs10 >
+    <v-flex xs12 mt-3>
       <cardTable
         name="Persons"
         :list="personsSimple"
