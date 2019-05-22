@@ -110,7 +110,7 @@
             console.log("FDS")
             break;
         }
-      });
+      })
       this.directorsSimple = this.directors.map(this.simplify)
       this.writersSimple = this.writers.map(this.simplify)
       this.networksSimple = this.networks.map(this.simplify)
