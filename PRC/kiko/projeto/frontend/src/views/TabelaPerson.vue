@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-layout>
+    <v-layout row wrap>
       <v-flex xs6 mr-2>
         <cardTable
           name="Writers"
