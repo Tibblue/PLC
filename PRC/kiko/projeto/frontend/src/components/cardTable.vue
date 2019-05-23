@@ -109,13 +109,13 @@
     computed: {
       filteredList() {
         return this.list.filter(item => {
-          var name = item.id
+          var name = this.fixName(item.id)
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
       },
       pagedList() {
         var filtered = this.list.filter((item) => {
-          var name = item.id
+          var name = this.fixName(item.id)
           // var label = item.label
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })

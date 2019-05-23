@@ -8,6 +8,12 @@
         <v-btn flat @click="goToTable('networks')"><h3>Network</h3></v-btn>
       </v-toolbar-items>
     </v-toolbar>
+<!--
+    <v-layout ma-3>
+      <span v-if="this.$session.get('animesSimple')">animeSimple</span>
+      <span v-if="this.$session.get('personSimple')">personSimple</span>
+      <span v-if="this.$session.get('networkSimple')">networkSimple</span>
+    </v-layout> -->
 
     <!-- <v-container> -->
     <!-- <v-flex ma-5> -->
