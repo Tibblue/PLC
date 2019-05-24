@@ -85,3 +85,39 @@ Bot: Foi um prazer!
 
 ---FIM DE CONVERSA---
 
+User: olá
+Bot: Boas parceiro.
+User: Olá
+Bot: Olá! Tudo bem?
+User: Preciso de informações sobre a SEI. Achas que me podes ajudar?
+Bot: Estou aqui para isso! De que precisas?
+User: Quando é que começa a SEI?
+Bot: Estás a gozar comigo?!
+User: E onde é a SEI?
+Bot: Repete lá isso de forma que eu entenda.
+User: A inscrição é gratuita?
+Bot: Repete lá isso de forma que eu entenda.
+User: Acho que está tudo
+Bot: Espero que tenha sido útil!
+User: Adeus
+Bot: Até amanhã
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Saudações! Como vai isso?
+User: Preciso de informações sobre a SEI. Achas que me podes ajudar?
+Bot: Estou aqui para isso! De que precisas?
+User: Quando é que começa a SEI?
+Bot: Tens a certeza que sabes falar português?!
+User: Quando é a sessão de abertura?
+Bot: 4 fevereiro segunda-feira,10:00,10:30
+User: A inscrição é gratuita?
+Bot: Repete lá isso de forma que eu entenda.
+User: Acho que está tudo
+Bot: Espero que tenha sido útil!
+User: Adeus
+Bot: Até amanhã
+
+---FIM DE CONVERSA---
+
