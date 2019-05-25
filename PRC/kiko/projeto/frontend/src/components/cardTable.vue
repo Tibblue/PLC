@@ -57,22 +57,22 @@
         <v-layout row wrap>
           <v-flex
             v-for="card in pagedList"
-            :key="card.id"
+            :key="card.title"
           >
             <v-card
               flat hover
               dark color="grey darken-2"
-              @click="itemClicked(card)"
+              @click="itemClicked(card.title)"
               :img="card.img"
             >
               <v-container fill-height fluid pa-2>
                 <v-layout fill-height>
                   <v-flex align-end flexbox>
-                    <span class="title">{{fixName(card.id)}}</span>
-                    <v-spacer v-if="card.label"/>
-                    <span v-if="card.label" class="subtitle">{{card.label}}</span>
-                    <v-spacer v-if="card.img"/>
-                    <span v-if="card.img" class="subtitle">{{card.img}}</span>
+                    <span class="title">{{card.title}}</span>
+                    <v-spacer/>
+                    <span class="subtitle">{{card.title_japanese}}</span>
+                    <!-- <v-spacer v-if="card.title_english"/> -->
+                    <!-- <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span> -->
                   </v-flex>
                 </v-layout>
               </v-container>
@@ -89,7 +89,7 @@
     props: ["name","list","route"],
     data: () => ({
       pageSize: 30,
-      items: [20,30,60,100],
+      items: [20,30,60],
       searchText: '',
       currentPage: 1,
     }),
@@ -112,14 +112,14 @@
     computed: {
       filteredList() {
         return this.list.filter(item => {
-          var name = this.fixName(item.id)
+          var name = item.title
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
       },
       pagedList() {
         var filtered = this.list.filter((item) => {
-          var name = this.fixName(item.id)
-          // var label = item.label
+          var name = item.title
+          // var title_english = item.title_english
           return name.toLowerCase().includes(this.searchText.toLowerCase())
         })
         var paged = filtered.filter((item,index) => {

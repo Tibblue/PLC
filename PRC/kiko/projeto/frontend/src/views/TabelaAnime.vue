@@ -31,7 +31,7 @@
     }),
     mounted: async function (){
       try{
-        var response = await axios.get(lhost+'/query/anime_label');
+        var response = await axios.get(lhost+'/query/anime_titles_img_score');
         this.animes = response.data.results.bindings
         this.animesSimple = this.animes.map(this.simplify)
       }
@@ -41,8 +41,13 @@
     },
     methods: {
       simplify: function (item) {
-        var id = item.anime.value.split('#ANIME_')[1]
-        return {id:id, img:"ups"}
+        return {
+          title: item.title.value,
+          title_english: item.title_english.value,
+          title_japanese: item.title_japanese.value,
+          img: item.img.value,
+          score: item.score.value,
+        }
       }
     },
   }

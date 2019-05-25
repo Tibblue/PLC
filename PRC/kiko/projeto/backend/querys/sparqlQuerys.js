@@ -1,10 +1,14 @@
 // QUERYS
 module.exports = {
-  anime_label: `
+  anime_titles_img_score: `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
     ?anime a :Anime .
-    OPTIONAL{?anime :label ?label .}
+    ?anime :title ?title .
+    OPTIONAL{?anime :title_english ?title_english .}
+    ?anime :title_japanese ?title_japanese .
+    ?anime :img ?img .
+    ?anime :score ?score .
 }`,
   anime_info: `
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
