@@ -63,6 +63,7 @@
               flat hover
               dark color="grey darken-2"
               @click="itemClicked(card)"
+              :img="card.img"
             >
               <v-container fill-height fluid pa-2>
                 <v-layout fill-height>
@@ -70,6 +71,8 @@
                     <span class="title">{{fixName(card.id)}}</span>
                     <v-spacer v-if="card.label"/>
                     <span v-if="card.label" class="subtitle">{{card.label}}</span>
+                    <v-spacer v-if="card.img"/>
+                    <span v-if="card.img" class="subtitle">{{card.img}}</span>
                   </v-flex>
                 </v-layout>
               </v-container>

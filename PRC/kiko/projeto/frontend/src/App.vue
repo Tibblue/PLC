@@ -8,6 +8,58 @@
         <v-btn flat @click="goToTable('networks')"><h3>Network</h3></v-btn>
       </v-toolbar-items>
     </v-toolbar>
+
+    <v-layout>
+      <!-- <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      /> -->
+      <!-- <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      /> -->
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/5/47421.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+      <v-img
+        src="https://cdn.myanimelist.net/images/anime/12/35893.jpg"
+        lazy-src="@/assets/logo.png" width="124"
+      />
+    </v-layout>
+
 <!--
     <v-layout ma-3>
       <span v-if="this.$session.get('animesSimple')">animeSimple</span>

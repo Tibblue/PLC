@@ -41,7 +41,8 @@
     },
     methods: {
       simplify: function (item) {
-        return {id:item.anime.value.split('#ANIME_')[1]}
+        var id = item.anime.value.split('#ANIME_')[1]
+        return {id:id, img:"ups"}
       }
     },
   }
