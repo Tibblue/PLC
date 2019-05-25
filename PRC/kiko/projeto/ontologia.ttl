@@ -53,9 +53,36 @@
 :dbpedia rdf:type owl:DatatypeProperty .
 
 
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#img
+:img rdf:type owl:DatatypeProperty .
+
+
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#label
 :label rdf:type owl:DatatypeProperty ;
        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#score
+:score rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Anime .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Anime .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#title_english
+:title_english rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#title_japanese
+:title_japanese rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#type
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Anime .
 
 
 #################################################################

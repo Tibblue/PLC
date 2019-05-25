@@ -4,7 +4,8 @@ import csv
 
 ### FILES
 ontology_file = open("./ontologia.ttl")
-csv_file = open("./datasets/Anime.csv")
+csv_file = open("./datasets/anime_cleaned.csv")
+# csv_file = open("./datasets/Anime.csv")
 # csv_file = open("./datasets/Anime_small.csv")
 csv_reader = csv.reader(csv_file, delimiter=',')
 ### VARS
@@ -111,7 +112,35 @@ def doNetwork():
         print()
 
 
+def doAnimeV2():
+    line_count = 0
+    global persons
+    for row in csv_reader:
+        line_count += 1
+        if line_count == 1:
+            pass
+            for i in range(len(row)): printE(f'# {i} => {row[i]}')
+        else:
+            id = "ANIME_"+row[0]
+            print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
+            print(f':{id} rdf:type owl:NamedIndividual, :Anime.')
+            if row[1]!="NULL":
+                print(f':{id} :title \'{row[1]}\' .')
+            if row[2]!="NULL":
+                print(f':{id} :title_english \'{row[2]}\' .')
+            if row[3]!="NULL":
+                print(f':{id} :title_japanese \'{row[3]}\' .')
+            if row[5]!="NULL":
+                print(f':{id} :img \'{row[5]}\' .')
+            if row[6]!="NULL":
+                print(f':{id} :type \'{row[6]}\' .')
+            if row[15]!="NULL":
+                print(f':{id} :score \'{row[15]}\' .')
+            print()
+
+
 print(ontology_file.read())
-doAnime()
-doPersons()
-doNetwork()
+doAnimeV2()
+# doAnime()
+# doPersons()
+# doNetwork()
