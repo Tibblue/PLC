@@ -131,7 +131,8 @@ def doAnimeV2():
             if row[3]!="NULL":
                 print(f':{id} :title_japanese \'{row[3]}\' .')
             if row[5]!="NULL":
-                print(f':{id} :img \'{row[5]}\' .')
+                img = row[5].replace("myanimelist.cdn-dena.com","cdn.myanimelist.net")
+                print(f':{id} :img \'{img}\' .')
             if row[6]!="NULL":
                 print(f':{id} :type \'{row[6]}\' .')
             if row[15]!="NULL":
