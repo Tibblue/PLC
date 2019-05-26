@@ -11,6 +11,7 @@
       <v-flex xs12>
         <v-text-field
           single-line
+          @keyup="checkPage()"
           v-model="searchText"
           prepend-icon="search"
           :label="'Search '+name"
@@ -112,6 +113,10 @@
       previousPage: function () {
         if(this.currentPage>1)
           this.currentPage--
+      },
+      checkPage: function() {
+        if(this.currentPage>this.filteredList.length/this.pageSize)
+          this.currentPage = Math.ceil(this.filteredList.length/this.pageSize)
       }
     },
     computed: {
