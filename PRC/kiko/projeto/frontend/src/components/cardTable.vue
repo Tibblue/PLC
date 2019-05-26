@@ -28,13 +28,9 @@
           <v-btn icon @click="previousPage()">
             <v-icon>{{'fas fa-caret-left'}}</v-icon>
           </v-btn>
-          <v-text-field
-            solo flat readonly
-            single-line
-            class="centered-input"
-            background-color="indigo darken-2"
-            v-model="currentPage"
-          ></v-text-field>
+          <v-flex pa-2 class="text-xs-center">
+            <h1>{{currentPage}}/{{maxPage}}</h1>
+          </v-flex>
           <v-btn icon @click="nextPage()">
             <v-icon>{{'fas fa-caret-right'}}</v-icon>
           </v-btn>
@@ -121,6 +117,13 @@
       }
     },
     computed: {
+      maxPage() {
+        var filtered = this.list.filter(item => {
+          var name = item.title
+          return name.toLowerCase().includes(this.searchText.toLowerCase())
+        })
+        return Math.ceil(filtered.length/this.pageSize)
+      },
       filteredList() {
         return this.list.filter(item => {
           var name = item.title
