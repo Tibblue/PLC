@@ -115,8 +115,9 @@
           this.currentPage--
       },
       checkPage: function() {
-        if(this.currentPage>this.filteredList.length/this.pageSize)
-          this.currentPage = Math.ceil(this.filteredList.length/this.pageSize)
+        var maxPage = Math.ceil(this.filteredList.length/this.pageSize)
+        if(this.currentPage>maxPage)
+          this.currentPage = maxPage||1
       }
     },
     computed: {
