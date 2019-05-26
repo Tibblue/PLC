@@ -57,12 +57,12 @@
         <v-layout row wrap>
           <v-flex
             v-for="card in pagedList"
-            :key="card.title"
+            :key="card.id"
           >
             <v-card
               flat hover
               dark color="grey darken-2"
-              @click="itemClicked(card.title)"
+              @click="itemClicked(card.id)"
               :img="card.img"
             >
               <v-container fill-height fluid pa-2>
@@ -94,8 +94,8 @@
       currentPage: 1,
     }),
     methods: {
-      itemClicked: function (item) {
-        this.$router.push('/'+this.route+'/'+item.id)
+      itemClicked: function (id) {
+        this.$router.push('/'+this.route+'/'+id)
       },
       fixName: function (name) {
         return name.replace(/_/g, " ")

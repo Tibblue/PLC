@@ -4,6 +4,7 @@ module.exports = {
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
     ?anime a :Anime .
+    ?anime :id ?id .
     ?anime :title ?title .
     OPTIONAL{?anime :title_english ?title_english .}
     ?anime :title_japanese ?title_japanese .

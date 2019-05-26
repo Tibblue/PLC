@@ -42,6 +42,7 @@
     methods: {
       simplify: function (item) {
         return {
+          id: item.id.value,
           title: item.title.value,
           title_english: item.title_english.value,
           title_japanese: item.title_japanese.value,
