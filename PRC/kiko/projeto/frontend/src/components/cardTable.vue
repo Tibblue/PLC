@@ -58,24 +58,29 @@
           <v-flex
             v-for="card in pagedList"
             :key="card.id"
+            xs3
           >
             <v-card
               flat hover
-              dark color="grey darken-2"
+              dark color="grey darken-3"
               @click="itemClicked(card.id)"
-              :img="card.img"
             >
-              <v-container fill-height fluid pa-2>
-                <v-layout fill-height>
-                  <v-flex align-end flexbox>
-                    <span class="title">{{card.title}}</span>
-                    <v-spacer/>
-                    <span class="subtitle">{{card.title_japanese}}</span>
-                    <!-- <v-spacer v-if="card.title_english"/> -->
-                    <!-- <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span> -->
+              <v-layout fill-height px-2 pt-1>
+                <v-flex xs12 flexbox class="text-xs-center">
+                  <span class="title">{{card.title}}</span>
+                  <v-spacer/>
+                  <span class="subtitle">{{card.title_japanese}}</span>
+                  <v-spacer v-if="card.title_english"/>
+                  <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span>
                   </v-flex>
-                </v-layout>
-              </v-container>
+              </v-layout>
+              <v-img
+                class="white--text"
+                width="266"
+                ratio=1.6
+                :src="card.img"
+              >
+              </v-img>
             </v-card>
           </v-flex>
         </v-layout>
@@ -88,7 +93,7 @@
   export default {
     props: ["name","list","route"],
     data: () => ({
-      pageSize: 30,
+      pageSize: 20,
       items: [20,30,60],
       searchText: '',
       currentPage: 1,
