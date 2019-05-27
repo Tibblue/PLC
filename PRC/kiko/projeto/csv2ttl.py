@@ -27,7 +27,7 @@ def fix_id(id):
   return id
 
 
-def doAnimeV2():
+def doAnime():
   line_count = 0
   global genre
   global producers
@@ -41,16 +41,17 @@ def doAnimeV2():
       print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
       print(f':{id} rdf:type owl:NamedIndividual, :Anime.')
       print(f':{id} :id \'{id}\' .')
+      #print(f':{id} :label \'{row[1]}\' .')
       print(f':{id} :title \'{row[1]}\' .')
-      if row[2]!="NULL":
+      if row[2]:
         print(f':{id} :title_english \'{row[2]}\' .')
       print(f':{id} :title_japanese \'{row[3]}\' .')
-      if row[5]!="NULL":
+      if row[5]:
         img = row[5].replace("myanimelist.cdn-dena.com","cdn.myanimelist.net")
         print(f':{id} :img \'{img}\' .')
-      if row[6]!="NULL":
+      if row[6]:
         print(f':{id} :type \'{row[6]}\' .')
-      if row[15]!="NULL":
+      if row[15]:
         print(f':{id} :score \'{row[15]}\' .')
       if row[25]:
         for producer in row[25].split(', '):
@@ -107,7 +108,7 @@ def doStudio():
 
 
 print(ontology_file.read())
-doAnimeV2()
+doAnime()
 doGenre()
 doProducer()
 doStudio()

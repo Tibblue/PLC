@@ -1,24 +1,35 @@
 // QUERYS
 module.exports = {
   anime_info_id: function (anime) {
-    return `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+    return `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
   :ANIME_` + anime + ` ?p ?o .
-  FILTER ( ?p!=rdf:type)
+  FILTER ( ?p!=rdf:type )
 }`
   },
-  person_info_id: function (person) {
-    return `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+  genre_info_id: function (genre) {
+    return `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
-  :PERSON_` + person + ` ?p ?o .
-  FILTER ( ?p!=rdf:type)
+  :GENRE_` + genre + ` ?p ?o .
+  FILTER ( ?p!=rdf:type )
 }`
   },
-  network_info_id: function (network) {
-    return `PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+  producer_info_id: function (producer) {
+    return `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
-  :NETWORK_` + network + ` ?p ?o .
-  FILTER ( ?p!=rdf:type)
+  :PRODUCER_` + producer + ` ?p ?o .
+  FILTER ( ?p!=rdf:type )
+}`
+  },
+  studio_info_id: function (studio) {
+    return `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct * where {
+  :STUDIO_` + studio + ` ?p ?o .
+  FILTER ( ?p!=rdf:type )
 }`
   }
 }
