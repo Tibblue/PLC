@@ -12,22 +12,18 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#directed
-:directed rdf:type owl:ObjectProperty ;
-          owl:inverseOf :hasDirector .
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasGenre
+:hasGenre rdf:type owl:ObjectProperty ;
+          owl:inverseOf :refersTo ;
+          rdfs:domain :Anime ;
+          rdfs:range :Genre .
 
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasDirector
-:hasDirector rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasProducer
+:hasProducer rdf:type owl:ObjectProperty ;
+             owl:inverseOf :produced ;
              rdfs:domain :Anime ;
-             rdfs:range :Person .
-
-
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasNetwork
-:hasNetwork rdf:type owl:ObjectProperty ;
-            owl:inverseOf :produced ;
-            rdfs:domain :Anime ;
-            rdfs:range :Network .
+             rdfs:range :Producer .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasWriter
@@ -39,6 +35,10 @@
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#produced
 :produced rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#refersTo
+:refersTo rdf:type owl:ObjectProperty .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#wrote
@@ -73,11 +73,13 @@
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#title_english
-:title_english rdf:type owl:DatatypeProperty .
+:title_english rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Anime .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#title_japanese
-:title_japanese rdf:type owl:DatatypeProperty .
+:title_japanese rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Anime .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#type
@@ -93,12 +95,16 @@
 :Anime rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Network
-:Network rdf:type owl:Class .
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Genre
+:Genre rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Person
 :Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Producer
+:Producer rdf:type owl:Class .
 
 
 #################################################################
@@ -106,8 +112,7 @@
 #################################################################
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#ANIME_testing
-:ANIME_testing rdf:type owl:NamedIndividual ;
-               :hasDirector :DIRECTOR_testing .
+:ANIME_testing rdf:type owl:NamedIndividual .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#DIRECTOR_testing
