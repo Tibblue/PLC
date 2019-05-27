@@ -14,6 +14,7 @@ regras_bot_lista = [
 
 regras_bot_wiki = [
     (['NORMAL','INFORMATIVO'],5,r'[Oo] que sabes sobre (.*)\b\??',lambda x,dataset : bot_wiki.gera_resposta_dsl(x.group(1),dataset[0])),
+    (['NORMAL','INFORMATIVO'],5,r'[Oo] que é (.*)\b\??',lambda x,dataset : bot_wiki.gera_resposta_dsl(x.group(1),dataset[0])),
     (['NORMAL','INFORMATIVO'],5,r'[Ff]ala me sobre (.*)\b\??',lambda x,dataset : bot_wiki.gera_resposta_dsl(x.group(1),dataset[0])),
 ]
 
