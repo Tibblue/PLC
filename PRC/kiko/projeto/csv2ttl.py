@@ -9,9 +9,9 @@ csv_file = open("./datasets/anime_cleaned.csv")
 # csv_file = open("./datasets/Anime_small.csv")
 csv_reader = csv.reader(csv_file, delimiter=',')
 ### VARS
+genres = set()
 producers = set()
 studios = set()
-genres = set()
 
 # printa erros para STDERR
 def printE(*args, **kwargs):
@@ -57,6 +57,11 @@ def doAnimeV2():
           producers.add(producer)
           producerFixed = fix_id(producer)
           print(f':{id} :hasProducer :PRODUCER_{producerFixed} .')
+      if row[27]:
+        for studio in row[27].split(', '):
+          studios.add(studio)
+          studioFixed = fix_id(studio)
+          print(f':{id} :hasStudio :STUDIO_{studioFixed} .')
       if row[28]:
         for genre in row[28].split(', '):
           genres.add(genre)
@@ -88,11 +93,24 @@ def doProducer():
         print(f':{id} :label "{producer}".')
         print()
 
+def doStudio():
+    global studios
+    studios = sorted(studios)
+    print("\n\n#####  STUDIOS  #####\n")
+    for studio in studios:
+        id = "STUDIO_"+fix_id(studio)
+        print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
+        print(f':{id} rdf:type owl:NamedIndividual, :Studio.')
+        print(f':{id} :id "{id}".')
+        print(f':{id} :label "{studio}".')
+        print()
+
 
 print(ontology_file.read())
 doAnimeV2()
 doGenre()
 doProducer()
+doStudio()
 
 #printE(sorted(genres))
 #printE(sorted(producers))

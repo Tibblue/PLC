@@ -12,6 +12,11 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#designedBy
+:designedBy rdf:type owl:ObjectProperty ;
+            owl:inverseOf :hasStudio .
+
+
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasGenre
 :hasGenre rdf:type owl:ObjectProperty ;
           owl:inverseOf :refersTo ;
@@ -26,11 +31,10 @@
              rdfs:range :Producer .
 
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasWriter
-:hasWriter rdf:type owl:ObjectProperty ;
-           owl:inverseOf :wrote ;
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#hasStudio
+:hasStudio rdf:type owl:ObjectProperty ;
            rdfs:domain :Anime ;
-           rdfs:range :Person .
+           rdfs:range :Studio .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#produced
@@ -39,10 +43,6 @@
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#refersTo
 :refersTo rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#wrote
-:wrote rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -99,12 +99,12 @@
 :Genre rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Person
-:Person rdf:type owl:Class .
-
-
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Producer
 :Producer rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#Studio
+:Studio rdf:type owl:Class .
 
 
 #################################################################
