@@ -1,0 +1,29 @@
+
+dsl : create* | states | join ;
+
+create : n_bot '=' 'CREATE' bot (WITH dataset)? 'FROM' dataset
+
+states: estado*;
+
+join : 'JOIN' (n_bot prioridade_bot '+')* | n_bot prioridade_bot
+
+########################################################################
+
+n_bot: 'b' NUMERO;
+
+prioridade_bot: '!' prioridade;
+
+dataset : STRING '.' file_type;
+
+estado : STRING;
+
+########################################################################
+prioridade: [1-5];
+
+NUMERO: [0-9]+
+
+STRING :[a-zA-Z0-9_\-];
+
+bot : 'bot_csv' | 'bot_lista' | 'bot_wiki' | 'bot_QA' | 'bot_exp' | 'bot_FAQ' | 'bot_exp' ;
+
+file_type: 'csv' | 'txt' | 'json';
