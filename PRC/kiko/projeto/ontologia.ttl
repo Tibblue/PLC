@@ -49,8 +49,8 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#dbpedia
-:dbpedia rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#id
+:id rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#img

@@ -11,6 +11,7 @@
       <v-flex xs12>
         <v-text-field
           single-line
+          @keyup="checkPage()"
           v-model="searchText"
           prepend-icon="search"
           :label="'Search '+name"
@@ -27,13 +28,9 @@
           <v-btn icon @click="previousPage()">
             <v-icon>{{'fas fa-caret-left'}}</v-icon>
           </v-btn>
-          <v-text-field
-            solo flat readonly
-            single-line
-            class="centered-input"
-            background-color="indigo darken-2"
-            v-model="currentPage"
-          ></v-text-field>
+          <v-flex pa-2 class="text-xs-center">
+            <h1>{{currentPage}}/{{maxPage}}</h1>
+          </v-flex>
           <v-btn icon @click="nextPage()">
             <v-icon>{{'fas fa-caret-right'}}</v-icon>
           </v-btn>
@@ -57,25 +54,30 @@
         <v-layout row wrap>
           <v-flex
             v-for="card in pagedList"
-            :key="card.title"
+            :key="card.id"
+            xs3
           >
             <v-card
               flat hover
-              dark color="grey darken-2"
-              @click="itemClicked(card.title)"
-              :img="card.img"
+              dark color="grey darken-3"
+              @click="itemClicked(card.id)"
             >
-              <v-container fill-height fluid pa-2>
-                <v-layout fill-height>
-                  <v-flex align-end flexbox>
-                    <span class="title">{{card.title}}</span>
-                    <v-spacer/>
-                    <span class="subtitle">{{card.title_japanese}}</span>
-                    <!-- <v-spacer v-if="card.title_english"/> -->
-                    <!-- <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span> -->
+              <v-layout fill-height px-2 pt-1>
+                <v-flex xs12 flexbox class="text-xs-center">
+                  <span class="title">{{card.title}}</span>
+                  <v-spacer/>
+                  <span class="subtitle">{{card.title_japanese}}</span>
+                  <v-spacer v-if="card.title_english"/>
+                  <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span>
                   </v-flex>
-                </v-layout>
-              </v-container>
+              </v-layout>
+              <v-img
+                class="white--text"
+                width="266"
+                ratio=1.6
+                :src="card.img"
+              >
+              </v-img>
             </v-card>
           </v-flex>
         </v-layout>
@@ -88,14 +90,14 @@
   export default {
     props: ["name","list","route"],
     data: () => ({
-      pageSize: 30,
+      pageSize: 20,
       items: [20,30,60],
       searchText: '',
       currentPage: 1,
     }),
     methods: {
-      itemClicked: function (item) {
-        this.$router.push('/'+this.route+'/'+item.id)
+      itemClicked: function (id) {
+        this.$router.push('/'+this.route+'/'+id)
       },
       fixName: function (name) {
         return name.replace(/_/g, " ")
@@ -107,9 +109,21 @@
       previousPage: function () {
         if(this.currentPage>1)
           this.currentPage--
+      },
+      checkPage: function() {
+        var maxPage = Math.ceil(this.filteredList.length/this.pageSize)
+        if(this.currentPage>maxPage)
+          this.currentPage = maxPage||1
       }
     },
     computed: {
+      maxPage() {
+        var filtered = this.list.filter(item => {
+          var name = item.title
+          return name.toLowerCase().includes(this.searchText.toLowerCase())
+        })
+        return Math.ceil(filtered.length/this.pageSize)
+      },
       filteredList() {
         return this.list.filter(item => {
           var name = item.title

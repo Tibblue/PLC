@@ -14,17 +14,15 @@ networks = []
 
 # printa erros para STDERR
 def printE(*args, **kwargs):
-    print(*args, file=sys.stderr, **kwargs)
+  print(*args, file=sys.stderr, **kwargs)
 
 # resolve problemas com ids
 def fix_id(id):
-    # id = re.sub(r"[,;:/.+*=~'!]","_",id)
-    # id = re.sub(r"[()\-]","_",id)
-    id = re.sub(r"(\W)",r"_",id) # replace nao palavras (aka simbolos mostly)
-    # id = re.sub(r"^(\d)",r"_\1",id) # coloca _ caso o id comece por um numero
-    id = re.sub(r"_+","_",id) # remove excesso de _
-    # printE(id)
-    return id
+  id = re.sub(r"(\W)",r"_",id) # replace nao palavras (aka simbolos mostly)
+  # id = re.sub(r"^(\d)",r"_\1",id) # coloca _ caso o id comece por um numero
+  id = re.sub(r"_+","_",id) # remove excesso de _
+  # printE(id)
+  return id
 
 
 def doAnime():
@@ -113,31 +111,30 @@ def doNetwork():
 
 
 def doAnimeV2():
-    line_count = 0
-    global persons
-    for row in csv_reader:
-        line_count += 1
-        if line_count == 1:
-            pass
-            for i in range(len(row)): printE(f'# {i} => {row[i]}')
-        else:
-            id = "ANIME_"+row[0]
-            print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
-            print(f':{id} rdf:type owl:NamedIndividual, :Anime.')
-            if row[1]!="NULL":
-                print(f':{id} :title \'{row[1]}\' .')
-            if row[2]!="NULL":
-                print(f':{id} :title_english \'{row[2]}\' .')
-            if row[3]!="NULL":
-                print(f':{id} :title_japanese \'{row[3]}\' .')
-            if row[5]!="NULL":
-                img = row[5].replace("myanimelist.cdn-dena.com","cdn.myanimelist.net")
-                print(f':{id} :img \'{img}\' .')
-            if row[6]!="NULL":
-                print(f':{id} :type \'{row[6]}\' .')
-            if row[15]!="NULL":
-                print(f':{id} :score \'{row[15]}\' .')
-            print()
+  line_count = 0
+  global persons
+  for row in csv_reader:
+    line_count += 1
+    if line_count == 1:
+      pass
+      for i in range(len(row)): printE(f'# {i} => {row[i]}')
+    else:
+      id = "ANIME_"+row[0]
+      print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
+      print(f':{id} rdf:type owl:NamedIndividual, :Anime.')
+      print(f':{id} :id {row[0]} .')
+      print(f':{id} :title \'{row[1]}\' .')
+      if row[2]!="NULL":
+        print(f':{id} :title_english \'{row[2]}\' .')
+      print(f':{id} :title_japanese \'{row[3]}\' .')
+      if row[5]!="NULL":
+        img = row[5].replace("myanimelist.cdn-dena.com","cdn.myanimelist.net")
+        print(f':{id} :img \'{img}\' .')
+      if row[6]!="NULL":
+        print(f':{id} :type \'{row[6]}\' .')
+      if row[15]!="NULL":
+        print(f':{id} :score \'{row[15]}\' .')
+      print()
 
 
 print(ontology_file.read())
