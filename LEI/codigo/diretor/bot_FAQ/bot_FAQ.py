@@ -42,10 +42,14 @@ def calcula_ratio(count_keys,mensagem_limpa):
     return ratio
 
 def responde(mensagem,nome_faq):
+
     lista_respostas = []
     ratio_cmp = 0
     faq = busca_faq(nome_faq)
     ratio = 1
+
+    if mensagem is "":
+      return None,ratio
     # print(faq)
     mensagem_limpa = limpa_texto(mensagem)
     mensagem_limpa_str = ' '.join(mensagem_limpa)

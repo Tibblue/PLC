@@ -49,7 +49,7 @@ despedidas = [
 
 clueless = [
     "Não estou a perceber nada...", "Fala-me português!", "O quê?", "Tens a certeza que sabes falar português?!",
-    "Andas-te a beber?!", "Estás a gozar comigo?!", "Repete lá isso de forma que eu entenda."
+    "Andaste a beber?!", "Estás a gozar comigo?!", "Repete lá isso de forma que eu entenda."
 ]
 
 comoEstas = [
