@@ -15,12 +15,13 @@ def read_dsl():
     stdout,stderr = MyOut.communicate()
     # print(stdout) # debug
     # print(stderr) # debug
-    if(stdout is not None):
-        print("DSL está mal feita, Por Favor corriga-a para continuar.")
+    if(stdout.decode('utf-8') is not ''):
+        print("DSL está mal feita, Por Favor corriga-a para continuar.\n") # debug
         print(stdout.decode('utf-8'))
         # print(stderr)
         return None
     else:
+        print("DSL está bem feita\n") # debug
         content = open(ficheiro).read()
         content = content.split('\n')
 
