@@ -30,7 +30,7 @@ export default new Router({
     {
       path: '/studios',
       name: 'studioList',
-      component: () => import('./views/TabelaNetwork.vue')
+      component: () => import('./views/TabelaStudio.vue')
     },
     {
       path: '/animes/:id',
@@ -50,7 +50,7 @@ export default new Router({
     {
       path: '/studios/:id',
       name: 'studioInfo',
-      component: () => import('./views/ConsultaNetwork.vue')
+      component: () => import('./views/ConsultaStudio.vue')
     }
   ]
 })

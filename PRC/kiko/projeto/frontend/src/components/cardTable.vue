@@ -56,27 +56,19 @@
           <v-flex
             v-for="card in pagedList"
             :key="card.id"
-            xs3
           >
             <v-card
               flat hover
               dark color="grey darken-3"
               @click="itemClicked(card.id)"
             >
-              <v-layout fill-height px-2 pt-1>
-                <v-flex xs12 flexbox class="text-xs-center">
-                  <span class="title">{{card.title}}</span>
-                  <v-spacer v-if="card.title_english"/>
-                  <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span>
-                  </v-flex>
-              </v-layout>
-              <v-img
-                class="white--text"
-                width="266"
-                ratio=1.6
-                :src="card.img"
-              >
-              </v-img>
+              <v-container fill-height fluid pa-2>
+                <v-layout fill-height>
+                  <v-flex xs12 flexbox class="text-xs-center">
+                    <span class="title">{{card.label}}</span>
+                    </v-flex>
+                </v-layout>
+              </v-container>
             </v-card>
           </v-flex>
         </v-layout>
@@ -89,8 +81,8 @@
   export default {
     props: ["name","list","route"],
     data: () => ({
-      pageSize: 20,
-      items: [20,30,60],
+      pageSize: 60,
+      items: [30,60,90],
       searchText: '',
       currentPage: 1,
     }),
@@ -121,9 +113,9 @@
       },
       filteredList() {
         return this.list.filter(item => {
-          var title = item.title.toLowerCase()
+          var label = item.label.toLowerCase()
           var search_text = this.searchText.toLowerCase()
-          return title.includes(search_text)
+          return label.includes(search_text)
         })
       },
       pagedList() {
