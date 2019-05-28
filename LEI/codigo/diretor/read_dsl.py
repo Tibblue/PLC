@@ -1,7 +1,7 @@
 import sys
 import re
 from operator import itemgetter
-
+from gramatica import gramatica
 
 # lê a dsl e retorna uma lista de tuplos que contém os bots e o dataset a ser usado
 def read_dsl():
@@ -9,6 +9,9 @@ def read_dsl():
     tuplos_joined = []
     estados = []
     ficheiro = sys.argv[1]
+
+    gramatica.gramatica_check(ficheiro)
+
     content = open(ficheiro).read()
     content = content.split('\n')
 
