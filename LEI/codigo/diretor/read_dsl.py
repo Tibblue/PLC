@@ -1,5 +1,4 @@
-import sys
-import os
+import sys, subprocess
 import re
 from operator import itemgetter
 
@@ -10,12 +9,16 @@ def read_dsl():
     estados = []
     ficheiro = sys.argv[1]
 
-    #TODO redirecionar output pra ficheiro e ver se o ficheiro esta vazio ou nao
-    cmd = os.popen('python3 gramatica/gramatica.py dsl.txt').read()
-    # cmd = os.popen('cd gramatica && python3 gramatica.py ../dsl.txt').read()
-    if(cmd is not None):
-        print("DSL está mal feita, Por Favor corriga-a.")
-        # print(cmd)
+    MyOut = subprocess.Popen(['python3','gramatica/gramatica.py','dsl.txt'],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT)
+    stdout,stderr = MyOut.communicate()
+    # print(stdout) # debug
+    # print(stderr) # debug
+    if(stdout is not None):
+        print("DSL está mal feita, Por Favor corriga-a para continuar.")
+        print(stdout.decode('utf-8'))
+        # print(stderr)
         return None
     else:
         content = open(ficheiro).read()
