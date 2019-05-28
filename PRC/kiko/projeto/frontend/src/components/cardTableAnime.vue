@@ -119,30 +119,21 @@
     },
     computed: {
       maxPage() {
-        var filtered = this.list.filter(item => {
-          var name = item.title
-          return name.toLowerCase().includes(this.searchText.toLowerCase())
-        })
-        return Math.ceil(filtered.length/this.pageSize)
+        return Math.ceil(this.filteredList.length/this.pageSize)
       },
-      // pagedListComp: this.pagedList(),
       filteredList() {
         return this.list.filter(item => {
-          var name = item.title
-          return name.toLowerCase().includes(this.searchText.toLowerCase())
+          var title = item.title.toLowerCase()
+          var title_english = item.title_english.toLowerCase()
+          var search_text = this.searchText.toLowerCase()
+          return title.includes(search_text) | title_english.includes(search_text)
         })
       },
       pagedList() {
-        var filtered = this.list.filter((item) => {
-          var name = item.title
-          // var title_english = item.title_english
-          return name.toLowerCase().includes(this.searchText.toLowerCase())
-        })
-        var paged = filtered.filter((item,index) => {
+        return this.filteredList.filter((item,index) => {
           return index>=(this.currentPage-1)*this.pageSize
                   && index<this.currentPage*this.pageSize
         })
-        return paged
       }
     }
   }
