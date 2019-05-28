@@ -1,6 +1,6 @@
 grammar gramatica;
 
-dsl: create+ NEWLINE states NEWLINE{2,} join ;
+dsl: create+ NEWLINE states NEWLINE+ join ;
 
 create: BOT_NAME '=' 'CREATE' BOT ('WITH' dataset)? 'FROM' dataset NEWLINE+;
 
