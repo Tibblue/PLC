@@ -2,11 +2,11 @@
   <v-container>
 
     <v-flex xs12>
-      <cardTable
+      <cardTableAnime
         name="Animes"
         :list="animesSimple"
         route="animes"
-      ></cardTable>
+      ></cardTableAnime>
     </v-flex>
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
@@ -17,13 +17,13 @@
 </template>
 
 <script>
-  import cardTable from '@/components/cardTable'
+  import cardTableAnime from '@/components/cardTableAnime'
   import axios from 'axios'
   const lhost = "http://localhost:4005"
 
   export default {
     components: {
-      cardTable
+      cardTableAnime
     },
     data: () => ({
       animes: [],

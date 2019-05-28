@@ -4,8 +4,8 @@
       <v-toolbar-items>
         <v-btn flat @click="goToHome()"><h2>Home</h2></v-btn>
         <v-btn flat @click="goToTable('animes')"><h3>Anime</h3></v-btn>
-        <v-btn flat @click="goToTable('persons')"><h3>Director/Writer</h3></v-btn>
-        <v-btn flat @click="goToTable('networks')"><h3>Network</h3></v-btn>
+        <v-btn flat @click="goToTable('producers')"><h3>Producers</h3></v-btn>
+        <v-btn flat @click="goToTable('studios')"><h3>Studio</h3></v-btn>
       </v-toolbar-items>
     </v-toolbar>
 
