@@ -1,78 +1,73 @@
-# Generated from gramatica.g4 by ANTLR 4.7.1
+# Generated from gramatica.g4 by ANTLR 4.7.2
 from antlr4 import *
+if __name__ is not None and "." in __name__:
+    from .gramaticaParser import gramaticaParser
+else:
+    from gramaticaParser import gramaticaParser
 
 # This class defines a complete listener for a parse tree produced by gramaticaParser.
 class gramaticaListener(ParseTreeListener):
 
     # Enter a parse tree produced by gramaticaParser#dsl.
-    def enterDsl(self, ctx):
+    def enterDsl(self, ctx:gramaticaParser.DslContext):
         pass
 
     # Exit a parse tree produced by gramaticaParser#dsl.
-    def exitDsl(self, ctx):
+    def exitDsl(self, ctx:gramaticaParser.DslContext):
         pass
 
 
     # Enter a parse tree produced by gramaticaParser#create.
-    def enterCreate(self, ctx):
+    def enterCreate(self, ctx:gramaticaParser.CreateContext):
         pass
 
     # Exit a parse tree produced by gramaticaParser#create.
-    def exitCreate(self, ctx):
+    def exitCreate(self, ctx:gramaticaParser.CreateContext):
         pass
 
 
     # Enter a parse tree produced by gramaticaParser#states.
-    def enterStates(self, ctx):
+    def enterStates(self, ctx:gramaticaParser.StatesContext):
         pass
 
     # Exit a parse tree produced by gramaticaParser#states.
-    def exitStates(self, ctx):
+    def exitStates(self, ctx:gramaticaParser.StatesContext):
         pass
 
 
     # Enter a parse tree produced by gramaticaParser#join.
-    def enterJoin(self, ctx):
+    def enterJoin(self, ctx:gramaticaParser.JoinContext):
         pass
 
     # Exit a parse tree produced by gramaticaParser#join.
-    def exitJoin(self, ctx):
+    def exitJoin(self, ctx:gramaticaParser.JoinContext):
         pass
 
 
-    # Enter a parse tree produced by gramaticaParser#bot_name.
-    def enterBot_name(self, ctx):
+    # Enter a parse tree produced by gramaticaParser#bot.
+    def enterBot(self, ctx:gramaticaParser.BotContext):
         pass
 
-    # Exit a parse tree produced by gramaticaParser#bot_name.
-    def exitBot_name(self, ctx):
+    # Exit a parse tree produced by gramaticaParser#bot.
+    def exitBot(self, ctx:gramaticaParser.BotContext):
         pass
 
 
     # Enter a parse tree produced by gramaticaParser#prioridade_bot.
-    def enterPrioridade_bot(self, ctx):
+    def enterPrioridade_bot(self, ctx:gramaticaParser.Prioridade_botContext):
         pass
 
     # Exit a parse tree produced by gramaticaParser#prioridade_bot.
-    def exitPrioridade_bot(self, ctx):
+    def exitPrioridade_bot(self, ctx:gramaticaParser.Prioridade_botContext):
         pass
 
 
     # Enter a parse tree produced by gramaticaParser#dataset.
-    def enterDataset(self, ctx):
+    def enterDataset(self, ctx:gramaticaParser.DatasetContext):
         pass
 
     # Exit a parse tree produced by gramaticaParser#dataset.
-    def exitDataset(self, ctx):
-        pass
-
-
-    # Enter a parse tree produced by gramaticaParser#estado.
-    def enterEstado(self, ctx):
-        pass
-
-    # Exit a parse tree produced by gramaticaParser#estado.
-    def exitEstado(self, ctx):
+    def exitDataset(self, ctx:gramaticaParser.DatasetContext):
         pass
 
 

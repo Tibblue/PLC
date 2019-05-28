@@ -8,7 +8,11 @@ def main(argv):
     lexer = gramaticaLexer(input)
     stream = CommonTokenStream(lexer)
     parser = gramaticaParser(stream)
-    tree = parser.chat()
+    tree = parser.dsl()
+    # print(lexer)
+    # print(stream)
+    # print(parser)
+    # print(tree)
 
 if __name__ == '__main__':
     main(sys.argv)
