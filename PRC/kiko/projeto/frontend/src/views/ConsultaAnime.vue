@@ -5,38 +5,37 @@
     <v-flex>
       <v-card>
         <v-card-text class="text-xs-center">
-          <h1 v-if="this.label"> {{this.label}} </h1>
-          <h1 v-else> {{fixName(this.idAnime)}} </h1>
+          <h1> {{this.title}} </h1>
         </v-card-text>
 
         <v-container grid-list-sm>
           <v-layout row wrap>
             <v-flex xs6 lg4>
               <cardList
-                name="Directors"
-                :list="directorsSimple"
-                route="persons"
+                name="Genres"
+                :list="genresSimple"
+                route="genres"
               ></cardList>
             </v-flex>
             <v-flex xs6 lg4>
               <cardList
-                name="Writers"
-                :list="writersSimple"
-                route="persons"
+                name="Producers"
+                :list="producersSimple"
+                route="producers"
               ></cardList>
             </v-flex>
             <v-flex xs12 lg4>
               <cardList
-                name="Networks"
-                :list="networksSimple"
-                route="networks"
+                name="Studio"
+                :list="studiosSimple"
+                route="studios"
               ></cardList>
             </v-flex>
           </v-layout>
 
-          <!-- <span>{{this.directorsSimple}}</span> -->
-          <!-- <span>{{this.writersSimple}}</span> -->
-          <!-- <span>{{this.networksSimple}}</span> -->
+          <!-- <span>{{this.genresSimple}}</span> -->
+          <!-- <span>{{this.producersSimple}}</span> -->
+          <!-- <span>{{this.studiosSimple}}</span> -->
 
         </v-container>
       </v-card>
@@ -69,14 +68,13 @@
     data: () => ({
       idAnime: '',
       animeResponse: {},
-      label: '',
-      directors: [],
-      writers: [],
-      networks: [],
-      directorsSimple: [],
-      writersSimple: [],
-      networksSimple: [],
-      dbpedia: ''
+      title: '',
+      genres: [],
+      producers: [],
+      studios: [],
+      genresSimple: [],
+      producersSimple: [],
+      studiosSimple: []
     }),
     mounted: async function (){
       this.idAnime = this.$route.params.id
@@ -91,29 +89,26 @@
       this.animeResponse.forEach(item => {
         // console.log(item)
         switch (item.p.value.split('#')[1]) {
-          case "label":
-            this.label = item.o.value
+          case "title":
+            this.title = item.o.value
             break;
-          case "hasDirector":
-            this.directors.push(item.o.value.split('#PERSON_')[1])
+          case "hasGenre":
+            this.genres.push(item.o.value.split('#GENRE_')[1])
             break;
-          case "hasWriter":
-            this.writers.push(item.o.value.split('#PERSON_')[1])
+          case "hasProducer":
+            this.producers.push(item.o.value.split('#PRODUCER_')[1])
             break;
-          case "hasNetwork":
-            this.networks.push(item.o.value.split('#NETWORK_')[1])
-            break;
-          case "dbpedia":
-            this.dbpedia = item.o.value
+          case "hasStudio":
+            this.studios.push(item.o.value.split('#STUDIO_')[1])
             break;
           default:
             console.log("FDS")
             break;
         }
       })
-      this.directorsSimple = this.directors.map(this.simplify)
-      this.writersSimple = this.writers.map(this.simplify)
-      this.networksSimple = this.networks.map(this.simplify)
+      this.genresSimple = this.genres.map(this.simplify)
+      this.producersSimple = this.producers.map(this.simplify)
+      this.studiosSimple = this.studios.map(this.simplify)
     },
     methods: {
       fixName: function (name) {

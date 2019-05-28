@@ -1,10 +1,10 @@
 // QUERYS
 module.exports = {
-  anime_info_id: function (anime) {
+  anime_info_id: function (individual) {
     return `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
-  :ANIME_` + anime + ` ?p ?o .
+  :` + individual + ` ?p ?o .
   FILTER ( ?p!=rdf:type )
 }`
   },
