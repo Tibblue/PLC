@@ -1,34 +1,32 @@
 grammar gramatica;
 
-dsl: create+ NEWLINE states NEWLINE+ join ;
+dsl: create_block NEWLINE+ states NEWLINE+ join NEWLINE* EOF;
 
-create: BOT_NAME '=' 'CREATE' BOT ('WITH' dataset)? 'FROM' dataset NEWLINE+;
+create_block: (create_bot NEWLINE)+ ;
+create_bot: BOT_NAME '=' 'CREATE' BOT_TYPE ('WITH' dataset)? 'FROM' dataset ;
 
-states: 'STATES' STATE+   ;
+states: 'STATES' STATE+ ;
 
-join: 'JOIN' bot+  ;
+join: 'JOIN' bots ;
 
-bot:  BOT_NAME prioridade_bot '+'
-	| BOT_NAME prioridade_bot;
-
-prioridade_bot: '!' PRIORIDADE ;
+bots: (bot ('+' | NEWLINE))* bot ;
+bot : BOT_NAME PRIORIDADE ;
 
 dataset: STRING '.' FILE_TYPE ;
 
-
 ///////////////////////////////////////////////////////////////////////////////
 
-BOT: 'bot_csv' | 'bot_lista' | 'bot_wiki' | 'bot_QA' | 'bot_exp' | 'bot_FAQ';
+BOT_TYPE: 'bot_csv' | 'bot_lista' | 'bot_wiki'
+        | 'bot_QA' | 'bot_exp' | 'bot_FAQ';
 FILE_TYPE: 'csv' | 'txt' | 'json' ;
 STATE: 'CHATEADO' | 'INFORMATIVO' ;
 
-BOT_NAME: 'b'[0-9] ;
-
-PRIORIDADE: [1-5] ;
+BOT_NAME: 'b'[0-9]+ ;
+PRIORIDADE: '!'[1-5] ;
 
 STRING: [a-zA-Z0-9_\-]+ ;
 
 fragment DIGITO: [0-9] ;
 
-NEWLINE: '\r'? '\n' ;     // return newlines to parser (is end-statement signal)
-WS  :   [ \t]+ -> skip ; // toss out whitespace
+NEWLINE:  '\r'? '\n' ;
+WS:       [ \t]+ -> skip ;

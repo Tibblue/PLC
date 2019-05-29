@@ -1,4 +1,4 @@
-# Generated from gramatica.g4 by ANTLR 4.7.2
+# Generated from gramatica.g4 by ANTLR 4.7.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .gramaticaParser import gramaticaParser
@@ -17,12 +17,21 @@ class gramaticaListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by gramaticaParser#create.
-    def enterCreate(self, ctx:gramaticaParser.CreateContext):
+    # Enter a parse tree produced by gramaticaParser#create_block.
+    def enterCreate_block(self, ctx:gramaticaParser.Create_blockContext):
         pass
 
-    # Exit a parse tree produced by gramaticaParser#create.
-    def exitCreate(self, ctx:gramaticaParser.CreateContext):
+    # Exit a parse tree produced by gramaticaParser#create_block.
+    def exitCreate_block(self, ctx:gramaticaParser.Create_blockContext):
+        pass
+
+
+    # Enter a parse tree produced by gramaticaParser#create_bot.
+    def enterCreate_bot(self, ctx:gramaticaParser.Create_botContext):
+        pass
+
+    # Exit a parse tree produced by gramaticaParser#create_bot.
+    def exitCreate_bot(self, ctx:gramaticaParser.Create_botContext):
         pass
 
 
@@ -44,21 +53,21 @@ class gramaticaListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by gramaticaParser#bots.
+    def enterBots(self, ctx:gramaticaParser.BotsContext):
+        pass
+
+    # Exit a parse tree produced by gramaticaParser#bots.
+    def exitBots(self, ctx:gramaticaParser.BotsContext):
+        pass
+
+
     # Enter a parse tree produced by gramaticaParser#bot.
     def enterBot(self, ctx:gramaticaParser.BotContext):
         pass
 
     # Exit a parse tree produced by gramaticaParser#bot.
     def exitBot(self, ctx:gramaticaParser.BotContext):
-        pass
-
-
-    # Enter a parse tree produced by gramaticaParser#prioridade_bot.
-    def enterPrioridade_bot(self, ctx:gramaticaParser.Prioridade_botContext):
-        pass
-
-    # Exit a parse tree produced by gramaticaParser#prioridade_bot.
-    def exitPrioridade_bot(self, ctx:gramaticaParser.Prioridade_botContext):
         pass
 
 
