@@ -100,17 +100,17 @@ def trata_opcoes(args):
         responde_test_opt(args[1])
 
 def main():
-
+    tuplos,estados = change_tuplos()
+    if tuplos is None or estados is None:
+        return None
     # opções
     if sys.argv[2:] != []:
         trata_opcoes(sys.argv[2:])
-
     else:
         while(True):
             try:
                 input_utilizador = input('Eu:')
                 save_log(input_utilizador,'user')
-                tuplos,estados = change_tuplos()
                 resposta = responde(input_utilizador,tuplos,estados)
                 save_log(resposta,'bot')
                 print(resposta)

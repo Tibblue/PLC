@@ -311,3 +311,77 @@ Bot: Foi um prazer!
 
 ---FIM DE CONVERSA---
 
+User: ola
+Bot: Olá! Tudo bem?
+User: olá
+Bot: Olá! Tudo bem?
+Bot: Foi um prazer!
+
+---FIM DE CONVERSA---
+
+Bot: Adeus parceiro.
+
+---FIM DE CONVERSA---
+
+User: ola
+Bot: Olá! Tudo bem?
+Bot: Foi um prazer!
+
+---FIM DE CONVERSA---
+
+Bot: Passa bem!
+
+---FIM DE CONVERSA---
+
+User: olá
+Bot: Olá! Tudo bem?
+User: quando é a sei?
+Bot: A SEI é gratuita, não tens que pagar.
+Bot: Passa bem!
+
+---FIM DE CONVERSA---
+
+User: 
+Bot: Fala-me português!
+User: 
+Bot: O quê?
+User: 
+Bot: Estás a gozar comigo?!
+User: 
+Bot: Tens a certeza que sabes falar português?!
+User: 
+Bot: Repete lá isso de forma que eu entenda.
+User: 
+Bot: O quê?
+User: quando é a sessão de abertura?
+Bot: 4 fevereiro segunda-feira,10:00,10:30
+Bot: Até logo!
+
+---FIM DE CONVERSA---
+
+Bot: Adeus parceiro.
+
+---FIM DE CONVERSA---
+
+Bot: Até logo!
+
+---FIM DE CONVERSA---
+
+Bot: Até amanhã!
+
+---FIM DE CONVERSA---
+
+Bot: Adeus!
+
+---FIM DE CONVERSA---
+
+User: olá
+Bot: Olá! Tudo bem?
+User: quando é a sei?
+Bot: A SEI realiza-se no início do segundo semestre.
+User: quem foi o primeiro rei de portugal?
+Bot: D. Afonso Henriques
+Bot: Até à próxima colega.
+
+---FIM DE CONVERSA---
+

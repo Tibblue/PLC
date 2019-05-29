@@ -16,12 +16,14 @@ def read_dsl():
     # print(stdout) # debug
     # print(stderr) # debug
     if(stdout.decode('utf-8') is not ''):
-        print("DSL está mal feita, Por Favor corriga-a para continuar.\n") # debug
+        print("DSL está mal feita, Por Favor corriga-a para continuar.\n")
+        print("Erro:")
+         # debug
         print(stdout.decode('utf-8'))
         # print(stderr)
-        return None
+        return None,None
     else:
-        print("DSL está bem feita\n") # debug
+        print("DSL compilada corretamente.\n") # debug
         content = open(ficheiro).read()
         content = content.split('\n')
 
@@ -63,5 +65,5 @@ def read_dsl():
         # print(triplos)
         return triplos,estados
 
-read_dsl()
+#read_dsl()
 
