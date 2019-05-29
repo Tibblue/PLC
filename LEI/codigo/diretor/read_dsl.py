@@ -3,11 +3,11 @@ import re
 from operator import itemgetter
 
 # lê a dsl e retorna uma lista de tuplos que contém os bots e o dataset a ser usado
-def read_dsl():
+def read_dsl(ficheiro):
     triplos = []
     tuplos_joined = []
     estados = []
-    ficheiro = sys.argv[1]
+    ficheiro = ficheiro
 
     MyOut = subprocess.Popen(['python3','gramatica/gramatica.py','dsl.txt'],
             stdout=subprocess.PIPE,

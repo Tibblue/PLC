@@ -161,69 +161,69 @@ User: Quando é a sei a
 Bot: A SEI realiza-se no início do segundo semestre.
 User: quando é as
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: Para te inscreveres basta aceder ao website da SEI.
-User: 
+User:
 Bot: A SEI realiza-se no início do segundo semestre.
-User: 
+User:
 Bot: A SEI realiza-se no início do segundo semestre.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: Para te inscreveres basta aceder ao website da SEI.
-User: 
+User:
 Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
-User: 
+User:
 Bot: A SEI realiza-se no início do segundo semestre.
-User: 
+User:
 Bot: A SEI realiza-se no início do segundo semestre.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
-User: 
+User:
 Bot: A SEI é gratuita, não tens que pagar.
-User: 
+User:
 Bot: Para te inscreveres basta aceder ao website da SEI.
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
 Bot: Até amanhã!
 
 ---FIM DE CONVERSA---
 
-User: 
+User:
 Bot: A SEI é um evento promovido pelo CesiUM cujo objetivo é promover o gosto pela informática juntos dos alunos.
-User: 
+User:
 Bot: A SEI realiza-se no início do segundo semestre.
 User: quando é a SEI?
 Bot: A SEI é gratuita, não tens que pagar.
@@ -341,17 +341,17 @@ Bot: Passa bem!
 
 ---FIM DE CONVERSA---
 
-User: 
+User:
 Bot: Fala-me português!
-User: 
+User:
 Bot: O quê?
-User: 
+User:
 Bot: Estás a gozar comigo?!
-User: 
+User:
 Bot: Tens a certeza que sabes falar português?!
-User: 
+User:
 Bot: Repete lá isso de forma que eu entenda.
-User: 
+User:
 Bot: O quê?
 User: quando é a sessão de abertura?
 Bot: 4 fevereiro segunda-feira,10:00,10:30

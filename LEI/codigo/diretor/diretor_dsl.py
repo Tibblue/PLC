@@ -94,30 +94,38 @@ def responde(input_utilizador,tuplos,estados):
 
 # trata do input caso haja opções
 def trata_opcoes(args,tuplos,estados):
-    options = ['--test','-t']
     if args[0] == '--test' or args[0] == '-t':
         responde_test_opt(args[1],tuplos,estados)
     print("Teste automático terminado.")
 
 
 def main():
-    tuplos,estados = change_tuplos()
+    # opções
+    opts, args = getopt.getopt(sys.argv[1:], 't:', ['test='])
+    print(opts) # debug
+    print(args) # debug
+
+    dsl_file = args[0]
+    tuplos,estados = change_tuplos(dsl_file)
     if tuplos is None or estados is None:
         return None
-    # opções
-    if sys.argv[2:] != []:
-        trata_opcoes(sys.argv[2:],tuplos,estados)
-    else:
-        while(True):
-            try:
-                input_utilizador = input('Eu:')
-                save_log(input_utilizador,'user')
-                resposta = responde(input_utilizador,tuplos,estados)
-                save_log(resposta,'bot')
-                print(resposta)
-            except KeyboardInterrupt:
-                print('\n')
-                get_despedida_e_escreve_log()
-                sys.exit()
+
+    for opt,arg in opts:
+        if opt=='-t' or opt=='--test':
+            print(arg)
+            responde_test_opt(arg,tuplos,estados)
+            sys.exit()
+
+    while(True):
+        try:
+            input_utilizador = input('Eu:')
+            save_log(input_utilizador,'user')
+            resposta = responde(input_utilizador,tuplos,estados)
+            save_log(resposta,'bot')
+            print(resposta)
+        except KeyboardInterrupt:
+            print('\n')
+            get_despedida_e_escreve_log()
+            sys.exit()
 
 main()

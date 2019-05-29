@@ -2,8 +2,8 @@ import read_dsl
 from get_regras import get_regras
 
 
-def change_tuplos():
-    triplos_dsl,estados = read_dsl.read_dsl()
+def change_tuplos(dsl):
+    triplos_dsl,estados = read_dsl.read_dsl(dsl)
     if triplos_dsl is None or estados is None:
         return None,None
     tuplos = []
