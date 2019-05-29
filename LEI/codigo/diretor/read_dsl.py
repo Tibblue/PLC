@@ -18,9 +18,7 @@ def read_dsl(ficheiro):
     if(stdout.decode('utf-8') is not ''):
         print("DSL está mal feita, Por Favor corriga-a para continuar.\n")
         print("Erro:")
-         # debug
         print(stdout.decode('utf-8'))
-        # print(stderr)
         return None,None
     else:
         print("DSL compilada corretamente.\n") # debug
@@ -51,13 +49,13 @@ def read_dsl(ficheiro):
             linha = linha.split(' ')
             # print(linha)
             for i in range(len(linha)-1):
-                    word = linha[i]
-                    if word == 'CREATE':
-                        bot = linha[i+1]
-                    if word == 'WITH':
-                        datasets.append(linha[i+1])
-                    if word == 'FROM':
-                        datasets.append(linha[i+1])
+                word = linha[i]
+                if word == 'CREATE':
+                    bot = linha[i+1]
+                if word == 'WITH':
+                    datasets.append(linha[i+1])
+                if word == 'FROM':
+                    datasets.append(linha[i+1])
             if datasets != [] or bot != []:
                 triplo = tuple((bot,datasets,prioridade_bot))
                 triplos.append(triplo)
@@ -65,5 +63,5 @@ def read_dsl(ficheiro):
         # print(triplos)
         return triplos,estados
 
-#read_dsl()
-
+if __name__ == "__main__":
+    read_dsl(sys.argv[1])

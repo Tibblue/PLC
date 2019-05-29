@@ -1,11 +1,12 @@
 import random,sys,re,getopt
-from change_tuplos import change_tuplos
-from bot_lista import bot_lista
-from get_regras import regras_estado_resposta
 from util import *
-from altera_estados import altera_estados
 from operator import itemgetter
 from math import trunc
+from change_tuplos import change_tuplos
+import read_dsl
+from bot_lista import bot_lista
+from get_regras import regras_estado_resposta
+from altera_estados import altera_estados
 
 global state_atual
 state_atual = 'NORMAL'
@@ -29,14 +30,13 @@ def save_log(msg,ident):
         file.write('\n---FIM DE CONVERSA---\n\n')
     file.close()
 
-def responde_test_opt(ficheiro,tuplos,estados):
+def responde_test(ficheiro,tuplos,estados):
     # path ficheiro teste
     path_teste = os.getcwd() + '/testing/' + ficheiro
     file = open(path_teste).read()
     inputs = file.split('\n')
     for input_utilizador in inputs:
         save_log(input_utilizador,'user')
-        # tuplos,estados = change_tuplos()
         resposta = responde(input_utilizador,tuplos,estados)
         save_log(resposta,'bot')
     save_log('','')
@@ -92,28 +92,21 @@ def responde(input_utilizador,tuplos,estados):
         return random.choice(clueless)
 
 
-# trata do input caso haja opções
-def trata_opcoes(args,tuplos,estados):
-    if args[0] == '--test' or args[0] == '-t':
-        responde_test_opt(args[1],tuplos,estados)
-    print("Teste automático terminado.")
-
-
 def main():
-    # opções
     opts, args = getopt.getopt(sys.argv[1:], 't:', ['test='])
-    print(opts) # debug
-    print(args) # debug
+    # print(opts, args) # debug
 
     dsl_file = args[0]
-    tuplos,estados = change_tuplos(dsl_file)
-    if tuplos is None or estados is None:
-        return None
+    triplos_dsl,estados = read_dsl.read_dsl(dsl_file)
+    if(triplos_dsl is None):
+        sys.exit()
+
+    tuplos = change_tuplos(triplos_dsl)
 
     for opt,arg in opts:
+        # print(opt,arg) # debug
         if opt=='-t' or opt=='--test':
-            print(arg)
-            responde_test_opt(arg,tuplos,estados)
+            responde_test(arg,tuplos,estados)
             sys.exit()
 
     while(True):
