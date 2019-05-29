@@ -29,15 +29,14 @@ def save_log(msg,ident):
         file.write('\n---FIM DE CONVERSA---\n\n')
     file.close()
 
-def responde_test_opt(ficheiro):
+def responde_test_opt(ficheiro,tuplos,estados):
     # path ficheiro teste
     path_teste = os.getcwd() + '/testing/' + ficheiro
     file = open(path_teste).read()
-
     inputs = file.split('\n')
     for input_utilizador in inputs:
         save_log(input_utilizador,'user')
-        tuplos,estados = change_tuplos()
+        # tuplos,estados = change_tuplos()
         resposta = responde(input_utilizador,tuplos,estados)
         save_log(resposta,'bot')
     save_log('','')
@@ -94,10 +93,12 @@ def responde(input_utilizador,tuplos,estados):
 
 
 # trata do input caso haja opções
-def trata_opcoes(args):
+def trata_opcoes(args,tuplos,estados):
     options = ['--test','-t']
     if args[0] == '--test' or args[0] == '-t':
-        responde_test_opt(args[1])
+        responde_test_opt(args[1],tuplos,estados)
+    print("Teste automático terminado.")
+
 
 def main():
     tuplos,estados = change_tuplos()
@@ -105,7 +106,7 @@ def main():
         return None
     # opções
     if sys.argv[2:] != []:
-        trata_opcoes(sys.argv[2:])
+        trata_opcoes(sys.argv[2:],tuplos,estados)
     else:
         while(True):
             try:
