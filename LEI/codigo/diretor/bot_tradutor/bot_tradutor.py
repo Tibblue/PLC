@@ -4,7 +4,7 @@ import random
 import json
 from py_translator import Translator
 
-from .listaLinguas import linguas
+from .listaLinguas import *
 
 
 ##### Variaveis #####
@@ -13,12 +13,13 @@ from .listaLinguas import linguas
 
 ##### Funçoes #####
 # traduz uma dada palavra para uma dada linguagem
-def traduz(palavra,linguagem):
-    abrevLinguagem = linguas.get(linguagem.capitalize())
+def traduz(palavra,linguagem,ficheiro):
+    abrevLinguagem = linguas.get(removeAccents(linguagem).lower())
     # print(abrevLinguagem) # debug
     if abrevLinguagem is not None:
         dict = verifica_dicionario(palavra,abrevLinguagem)
         cache = verifica_cache(palavra,abrevLinguagem)
+        print(dict,cache,"ola")
         if dict:
             traducao = dict
         elif cache:
@@ -46,7 +47,7 @@ def guardar_cache(palavra,linguagem,traducao):
     f.write(prettyJSON)
 
 # guarda no dicionario pessoal a traduçao de uma palavra para um linguagem
-def guardar_dicionario(palavra,linguagem,traducao):
+def guardar_dicionario(palavra,linguagem,traducao,ficheiro):
     dicio = 'dicionario.json'
     path_to_data = os.getcwd() + "/data/"
     abrevLinguagem = linguas.get(linguagem.capitalize())

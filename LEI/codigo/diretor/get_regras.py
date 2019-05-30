@@ -19,12 +19,12 @@ regras_bot_wiki = [
 ]
 
 regras_bot_tradutor = [
-    (['NORMAL','INFORMATIVO'],4,r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(1),x.group(2))),
-    (['NORMAL','INFORMATIVO'],5,r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(1),x.group(2))),
-    (['NORMAL','INFORMATIVO'],4,r'([\w ]+) como se diz em (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(1),x.group(2))),
-    (['NORMAL','INFORMATIVO'],4,r'[Ee]m (\w+) como se diz (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(2),x.group(1))),
-    (['NORMAL','INFORMATIVO'],4,r'([\w ]+) em (\w+) diz-se ([\w ]+)\b', lambda x,dataset: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
-    (['NORMAL','INFORMATIVO'],4,r'([\w ]+) diz-se ([\w ]+) em (\w+)\b', lambda x,dataset: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2)))
+    (['NORMAL','INFORMATIVO'],4,r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(1),x.group(2),dataset[0])),
+    (['NORMAL','INFORMATIVO'],5,r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(1),x.group(2),dataset[0])),
+    (['NORMAL','INFORMATIVO'],4,r'([\w ]+) como se diz em (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(1),x.group(2),dataset[0])),
+    (['NORMAL','INFORMATIVO'],4,r'[Ee]m (\w+) como se diz (\w+)\b\??', lambda x,dataset: bot_tradutor.traduz(x.group(2),x.group(1),dataset[0])),
+    (['NORMAL','INFORMATIVO'],4,r'([\w ]+) em (\w+) diz-se ([\w ]+)\b', lambda x,dataset: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3),dataset[0])),
+    (['NORMAL','INFORMATIVO'],4,r'([\w ]+) diz-se ([\w ]+) em (\w+)\b', lambda x,dataset: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2),dataset[0]))
 ]
 
 regras_bot_csv = [
