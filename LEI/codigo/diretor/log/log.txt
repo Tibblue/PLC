@@ -678,3 +678,19 @@ Bot: Tradução adicionada!
 
 ---FIM DE CONVERSA---
 
+User: ola
+Bot: Boas parceiro.
+User: como se diz Francisco em ingles
+Bot: A tradução de Francisco é Kiko.
+Bot: Adeus!
+
+---FIM DE CONVERSA---
+
+User: ola
+Bot: Saudações! Como vai isso?
+User: como se diz Francisco em ingles
+Bot: Fala-me português!
+Bot: Até logo!
+
+---FIM DE CONVERSA---
+

@@ -6,20 +6,14 @@ from py_translator import Translator
 
 from .listaLinguas import *
 
-
-##### Variaveis #####
-# respostas pré feitas, para casos especiais
-# linguaNotFound = ['Desconheço essa língua.','Não consegui perceber a que língua te referes','Não percebi. Podes repetir?']
-
 ##### Funçoes #####
 # traduz uma dada palavra para uma dada linguagem
 def traduz(palavra,linguagem,ficheiro):
     abrevLinguagem = linguas.get(removeAccents(linguagem).lower())
     # print(abrevLinguagem) # debug
     if abrevLinguagem is not None:
-        dict = verifica_dicionario(palavra,abrevLinguagem)
+        dict = verifica_dicionario(palavra,abrevLinguagem,ficheiro)
         cache = verifica_cache(palavra,abrevLinguagem)
-        print(dict,cache,"ola")
         if dict:
             traducao = dict
         elif cache:
@@ -48,15 +42,16 @@ def guardar_cache(palavra,linguagem,traducao):
 
 # guarda no dicionario pessoal a traduçao de uma palavra para um linguagem
 def guardar_dicionario(palavra,linguagem,traducao,ficheiro):
-    dicio = 'dicionario.json'
+    dicio = ficheiro
     path_to_data = os.getcwd() + "/data/"
+    path_to_dicio = path_to_data + dicio
     abrevLinguagem = linguas.get(linguagem.capitalize())
-    dict_json = json.loads(open(path_to_data+dicio).read())
+    dict_json = json.loads(open(path_to_dicio).read())
     if dict_json.get(palavra):
         dict_json[palavra].update({abrevLinguagem:traducao})
     else:
         dict_json.update({palavra:{abrevLinguagem:traducao}})
-    f = open(os.getcwd() + "/data/dicionario.json", "w")
+    f = open(path_to_dicio, "w")
     prettyJSON = json.dumps(dict_json,sort_keys=True, indent=2)
     f.write(prettyJSON)
     respostas = ["Tradução adicionada!","Adicionado ao dicionario."]
@@ -72,10 +67,11 @@ def verifica_cache(palavra,linguagem):
     return None
 
 # procura no dicionario se já existe a traduçao de uma palavra para uma linguagem
-def verifica_dicionario(palavra,linguagem):
-    dicio = 'dicionario.json'
+def verifica_dicionario(palavra,linguagem,ficheiro):
+    dicio = ficheiro
     path_to_data = os.getcwd() + "/data/"
-    dict_json = json.loads(open(path_to_data+dicio).read())
+    path_to_dicio = path_to_data + dicio
+    dict_json = json.loads(open(path_to_dicio).read())
     if dict_json.get(palavra):
         if dict_json[palavra].get(linguagem):
             return dict_json[palavra][linguagem]
