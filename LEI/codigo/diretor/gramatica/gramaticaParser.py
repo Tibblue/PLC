@@ -7,33 +7,25 @@ import sys
 
 def serializedATN():
     with StringIO() as buf:
-        buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\22")
-        buf.write("T\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7\4\b")
-        buf.write("\t\b\4\t\t\t\3\2\3\2\6\2\25\n\2\r\2\16\2\26\3\2\3\2\6")
-        buf.write("\2\33\n\2\r\2\16\2\34\3\2\3\2\7\2!\n\2\f\2\16\2$\13\2")
-        buf.write("\3\2\3\2\3\3\3\3\3\3\6\3+\n\3\r\3\16\3,\3\4\3\4\3\4\3")
-        buf.write("\4\3\4\3\4\5\4\65\n\4\3\4\3\4\3\4\3\5\3\5\6\5<\n\5\r\5")
-        buf.write("\16\5=\3\6\3\6\3\6\3\7\3\7\3\7\7\7F\n\7\f\7\16\7I\13\7")
-        buf.write("\3\7\3\7\3\b\3\b\3\b\3\t\3\t\3\t\3\t\3\t\2\2\n\2\4\6\b")
-        buf.write("\n\f\16\20\2\3\4\2\t\t\21\21\2R\2\22\3\2\2\2\4*\3\2\2")
-        buf.write("\2\6.\3\2\2\2\b9\3\2\2\2\n?\3\2\2\2\fG\3\2\2\2\16L\3\2")
-        buf.write("\2\2\20O\3\2\2\2\22\24\5\4\3\2\23\25\7\21\2\2\24\23\3")
-        buf.write("\2\2\2\25\26\3\2\2\2\26\24\3\2\2\2\26\27\3\2\2\2\27\30")
-        buf.write("\3\2\2\2\30\32\5\b\5\2\31\33\7\21\2\2\32\31\3\2\2\2\33")
-        buf.write("\34\3\2\2\2\34\32\3\2\2\2\34\35\3\2\2\2\35\36\3\2\2\2")
-        buf.write("\36\"\5\n\6\2\37!\7\21\2\2 \37\3\2\2\2!$\3\2\2\2\" \3")
-        buf.write("\2\2\2\"#\3\2\2\2#%\3\2\2\2$\"\3\2\2\2%&\7\2\2\3&\3\3")
-        buf.write("\2\2\2\'(\5\6\4\2()\7\21\2\2)+\3\2\2\2*\'\3\2\2\2+,\3")
-        buf.write("\2\2\2,*\3\2\2\2,-\3\2\2\2-\5\3\2\2\2./\7\16\2\2/\60\7")
-        buf.write("\3\2\2\60\61\7\4\2\2\61\64\7\13\2\2\62\63\7\5\2\2\63\65")
-        buf.write("\5\20\t\2\64\62\3\2\2\2\64\65\3\2\2\2\65\66\3\2\2\2\66")
-        buf.write("\67\7\6\2\2\678\5\20\t\28\7\3\2\2\29;\7\7\2\2:<\7\r\2")
-        buf.write("\2;:\3\2\2\2<=\3\2\2\2=;\3\2\2\2=>\3\2\2\2>\t\3\2\2\2")
-        buf.write("?@\7\b\2\2@A\5\f\7\2A\13\3\2\2\2BC\5\16\b\2CD\t\2\2\2")
-        buf.write("DF\3\2\2\2EB\3\2\2\2FI\3\2\2\2GE\3\2\2\2GH\3\2\2\2HJ\3")
-        buf.write("\2\2\2IG\3\2\2\2JK\5\16\b\2K\r\3\2\2\2LM\7\16\2\2MN\7")
-        buf.write("\17\2\2N\17\3\2\2\2OP\7\20\2\2PQ\7\n\2\2QR\7\f\2\2R\21")
-        buf.write("\3\2\2\2\t\26\34\",\64=G")
+        buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\16")
+        buf.write("\67\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\3\2\3\2\6")
+        buf.write("\2\17\n\2\r\2\16\2\20\3\2\3\2\7\2\25\n\2\f\2\16\2\30\13")
+        buf.write("\2\3\2\3\2\3\3\3\3\3\3\6\3\37\n\3\r\3\16\3 \3\4\3\4\3")
+        buf.write("\4\3\4\3\4\5\4(\n\4\3\4\3\4\3\4\3\5\3\5\6\5/\n\5\r\5\16")
+        buf.write("\5\60\3\6\3\6\3\6\3\6\3\6\2\2\7\2\4\6\b\n\2\2\2\66\2\f")
+        buf.write("\3\2\2\2\4\36\3\2\2\2\6\"\3\2\2\2\b,\3\2\2\2\n\62\3\2")
+        buf.write("\2\2\f\16\5\4\3\2\r\17\7\r\2\2\16\r\3\2\2\2\17\20\3\2")
+        buf.write("\2\2\20\16\3\2\2\2\20\21\3\2\2\2\21\22\3\2\2\2\22\26\5")
+        buf.write("\b\5\2\23\25\7\r\2\2\24\23\3\2\2\2\25\30\3\2\2\2\26\24")
+        buf.write("\3\2\2\2\26\27\3\2\2\2\27\31\3\2\2\2\30\26\3\2\2\2\31")
+        buf.write("\32\7\2\2\3\32\3\3\2\2\2\33\34\5\6\4\2\34\35\7\r\2\2\35")
+        buf.write("\37\3\2\2\2\36\33\3\2\2\2\37 \3\2\2\2 \36\3\2\2\2 !\3")
+        buf.write("\2\2\2!\5\3\2\2\2\"#\7\13\2\2#$\7\3\2\2$\'\7\b\2\2%&\7")
+        buf.write("\4\2\2&(\5\n\6\2\'%\3\2\2\2\'(\3\2\2\2()\3\2\2\2)*\7\5")
+        buf.write("\2\2*+\5\n\6\2+\7\3\2\2\2,.\7\6\2\2-/\7\n\2\2.-\3\2\2")
+        buf.write("\2/\60\3\2\2\2\60.\3\2\2\2\60\61\3\2\2\2\61\t\3\2\2\2")
+        buf.write("\62\63\7\f\2\2\63\64\7\7\2\2\64\65\7\t\2\2\65\13\3\2\2")
+        buf.write("\2\7\20\26 \'\60")
         return buf.getvalue()
 
 
@@ -47,25 +39,20 @@ class gramaticaParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "'='", "'CREATE'", "'WITH'", "'FROM'", 
-                     "'STATES'", "'JOIN'", "'+'", "'.'" ]
+    literalNames = [ "<INVALID>", "'CREATE'", "'WITH'", "'FROM'", "'STATES'", 
+                     "'.'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "BOT_TYPE", "FILE_TYPE", "STATE", "BOT_NAME", 
-                      "PRIORIDADE", "STRING", "NEWLINE", "WS" ]
+                      "<INVALID>", "<INVALID>", "BOT_TYPE", "FILE_TYPE", 
+                      "STATE", "PRIORIDADE", "STRING", "NEWLINE", "WS" ]
 
     RULE_dsl = 0
     RULE_create_block = 1
     RULE_create_bot = 2
     RULE_states = 3
-    RULE_join = 4
-    RULE_bots = 5
-    RULE_bot = 6
-    RULE_dataset = 7
+    RULE_dataset = 4
 
-    ruleNames =  [ "dsl", "create_block", "create_bot", "states", "join", 
-                   "bots", "bot", "dataset" ]
+    ruleNames =  [ "dsl", "create_block", "create_bot", "states", "dataset" ]
 
     EOF = Token.EOF
     T__0=1
@@ -73,17 +60,13 @@ class gramaticaParser ( Parser ):
     T__2=3
     T__3=4
     T__4=5
-    T__5=6
-    T__6=7
-    T__7=8
-    BOT_TYPE=9
-    FILE_TYPE=10
-    STATE=11
-    BOT_NAME=12
-    PRIORIDADE=13
-    STRING=14
-    NEWLINE=15
-    WS=16
+    BOT_TYPE=6
+    FILE_TYPE=7
+    STATE=8
+    PRIORIDADE=9
+    STRING=10
+    NEWLINE=11
+    WS=12
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -105,10 +88,6 @@ class gramaticaParser ( Parser ):
 
         def states(self):
             return self.getTypedRuleContext(gramaticaParser.StatesContext,0)
-
-
-        def join(self):
-            return self.getTypedRuleContext(gramaticaParser.JoinContext,0)
 
 
         def EOF(self):
@@ -141,47 +120,33 @@ class gramaticaParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 16
+            self.state = 10
             self.create_block()
-            self.state = 18 
+            self.state = 12 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 17
+                self.state = 11
                 self.match(gramaticaParser.NEWLINE)
-                self.state = 20 
+                self.state = 14 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==gramaticaParser.NEWLINE):
                     break
 
-            self.state = 22
+            self.state = 16
             self.states()
-            self.state = 24 
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while True:
-                self.state = 23
-                self.match(gramaticaParser.NEWLINE)
-                self.state = 26 
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-                if not (_la==gramaticaParser.NEWLINE):
-                    break
-
-            self.state = 28
-            self.join()
-            self.state = 32
+            self.state = 20
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==gramaticaParser.NEWLINE:
-                self.state = 29
+                self.state = 17
                 self.match(gramaticaParser.NEWLINE)
-                self.state = 34
+                self.state = 22
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 35
+            self.state = 23
             self.match(gramaticaParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -231,18 +196,18 @@ class gramaticaParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 40 
+            self.state = 28 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 37
+                self.state = 25
                 self.create_bot()
-                self.state = 38
+                self.state = 26
                 self.match(gramaticaParser.NEWLINE)
-                self.state = 42 
+                self.state = 30 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==gramaticaParser.BOT_NAME):
+                if not (_la==gramaticaParser.PRIORIDADE):
                     break
 
         except RecognitionException as re:
@@ -259,8 +224,8 @@ class gramaticaParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def BOT_NAME(self):
-            return self.getToken(gramaticaParser.BOT_NAME, 0)
+        def PRIORIDADE(self):
+            return self.getToken(gramaticaParser.PRIORIDADE, 0)
 
         def BOT_TYPE(self):
             return self.getToken(gramaticaParser.BOT_TYPE, 0)
@@ -293,27 +258,25 @@ class gramaticaParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 44
-            self.match(gramaticaParser.BOT_NAME)
-            self.state = 45
+            self.state = 32
+            self.match(gramaticaParser.PRIORIDADE)
+            self.state = 33
             self.match(gramaticaParser.T__0)
-            self.state = 46
-            self.match(gramaticaParser.T__1)
-            self.state = 47
+            self.state = 34
             self.match(gramaticaParser.BOT_TYPE)
-            self.state = 50
+            self.state = 37
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==gramaticaParser.T__2:
-                self.state = 48
-                self.match(gramaticaParser.T__2)
-                self.state = 49
+            if _la==gramaticaParser.T__1:
+                self.state = 35
+                self.match(gramaticaParser.T__1)
+                self.state = 36
                 self.dataset()
 
 
-            self.state = 52
-            self.match(gramaticaParser.T__3)
-            self.state = 53
+            self.state = 39
+            self.match(gramaticaParser.T__2)
+            self.state = 40
             self.dataset()
         except RecognitionException as re:
             localctx.exception = re
@@ -356,174 +319,20 @@ class gramaticaParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 55
-            self.match(gramaticaParser.T__4)
-            self.state = 57 
+            self.state = 42
+            self.match(gramaticaParser.T__3)
+            self.state = 44 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 56
+                self.state = 43
                 self.match(gramaticaParser.STATE)
-                self.state = 59 
+                self.state = 46 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==gramaticaParser.STATE):
                     break
 
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-    class JoinContext(ParserRuleContext):
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def bots(self):
-            return self.getTypedRuleContext(gramaticaParser.BotsContext,0)
-
-
-        def getRuleIndex(self):
-            return gramaticaParser.RULE_join
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterJoin" ):
-                listener.enterJoin(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitJoin" ):
-                listener.exitJoin(self)
-
-
-
-
-    def join(self):
-
-        localctx = gramaticaParser.JoinContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_join)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 61
-            self.match(gramaticaParser.T__5)
-            self.state = 62
-            self.bots()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-    class BotsContext(ParserRuleContext):
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def bot(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(gramaticaParser.BotContext)
-            else:
-                return self.getTypedRuleContext(gramaticaParser.BotContext,i)
-
-
-        def NEWLINE(self, i:int=None):
-            if i is None:
-                return self.getTokens(gramaticaParser.NEWLINE)
-            else:
-                return self.getToken(gramaticaParser.NEWLINE, i)
-
-        def getRuleIndex(self):
-            return gramaticaParser.RULE_bots
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterBots" ):
-                listener.enterBots(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitBots" ):
-                listener.exitBots(self)
-
-
-
-
-    def bots(self):
-
-        localctx = gramaticaParser.BotsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_bots)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 69
-            self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,6,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
-                    self.state = 64
-                    self.bot()
-                    self.state = 65
-                    _la = self._input.LA(1)
-                    if not(_la==gramaticaParser.T__6 or _la==gramaticaParser.NEWLINE):
-                        self._errHandler.recoverInline(self)
-                    else:
-                        self._errHandler.reportMatch(self)
-                        self.consume() 
-                self.state = 71
-                self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,6,self._ctx)
-
-            self.state = 72
-            self.bot()
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-    class BotContext(ParserRuleContext):
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def BOT_NAME(self):
-            return self.getToken(gramaticaParser.BOT_NAME, 0)
-
-        def PRIORIDADE(self):
-            return self.getToken(gramaticaParser.PRIORIDADE, 0)
-
-        def getRuleIndex(self):
-            return gramaticaParser.RULE_bot
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterBot" ):
-                listener.enterBot(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitBot" ):
-                listener.exitBot(self)
-
-
-
-
-    def bot(self):
-
-        localctx = gramaticaParser.BotContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_bot)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 74
-            self.match(gramaticaParser.BOT_NAME)
-            self.state = 75
-            self.match(gramaticaParser.PRIORIDADE)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -561,14 +370,14 @@ class gramaticaParser ( Parser ):
     def dataset(self):
 
         localctx = gramaticaParser.DatasetContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_dataset)
+        self.enterRule(localctx, 8, self.RULE_dataset)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 77
+            self.state = 48
             self.match(gramaticaParser.STRING)
-            self.state = 78
-            self.match(gramaticaParser.T__7)
-            self.state = 79
+            self.state = 49
+            self.match(gramaticaParser.T__4)
+            self.state = 50
             self.match(gramaticaParser.FILE_TYPE)
         except RecognitionException as re:
             localctx.exception = re

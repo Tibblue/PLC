@@ -44,33 +44,6 @@ class gramaticaListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by gramaticaParser#join.
-    def enterJoin(self, ctx:gramaticaParser.JoinContext):
-        pass
-
-    # Exit a parse tree produced by gramaticaParser#join.
-    def exitJoin(self, ctx:gramaticaParser.JoinContext):
-        pass
-
-
-    # Enter a parse tree produced by gramaticaParser#bots.
-    def enterBots(self, ctx:gramaticaParser.BotsContext):
-        pass
-
-    # Exit a parse tree produced by gramaticaParser#bots.
-    def exitBots(self, ctx:gramaticaParser.BotsContext):
-        pass
-
-
-    # Enter a parse tree produced by gramaticaParser#bot.
-    def enterBot(self, ctx:gramaticaParser.BotContext):
-        pass
-
-    # Exit a parse tree produced by gramaticaParser#bot.
-    def exitBot(self, ctx:gramaticaParser.BotContext):
-        pass
-
-
     # Enter a parse tree produced by gramaticaParser#dataset.
     def enterDataset(self, ctx:gramaticaParser.DatasetContext):
         pass

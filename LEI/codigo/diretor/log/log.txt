@@ -694,3 +694,43 @@ Bot: Até logo!
 
 ---FIM DE CONVERSA---
 
+User: ola
+Bot: Saudações! Como vai isso?
+User: muito bem
+Bot: Não há mal que sempre dure nem bem que não acabe
+User: adeus
+Bot: Adeus companheiro!
+User: galinha
+Bot: Uma galinha sustenta dez pintos mas dez pintos não sustentam uma galinha
+User: como se diz Francisco em ingles
+Bot: A tradução de Francisco é Kiko.
+User: obrigado
+Bot: Quem (faz o que pode|dá o que tem) a mais não é obrigado
+User: obrigado
+Bot: Quem leva no que é seu a mais não é obrigado
+User: quando sei
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+User: sei
+Bot: Para te inscreveres basta aceder ao website da SEI.
+User: quando e a sei
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+User: onde sei
+Bot: Para te inscreveres basta aceder ao website da SEI.
+Bot: Até amanhã!
+
+---FIM DE CONVERSA---
+
+User: ola
+Bot: Boas parceiro.
+User: galinha
+Bot: Cautela e caldos de galinha nunca fizeram mal a ninguém
+User: como se diz Francisco em ingles
+Bot: A tradução de Francisco é Kiko.
+User: sei
+Bot: A SEI é gratuita, não tens que pagar.
+User: onde sei
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+Bot: Até à próxima colega.
+
+---FIM DE CONVERSA---
+

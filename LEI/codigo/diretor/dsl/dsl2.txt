@@ -1,6 +1,4 @@
-b0 = CREATE bot_exp FROM saudacoes.json
-b1 = CREATE bot_exp FROM despedidas.json
+!3 CREATE bot_exp FROM saudacoes.json
+!3 CREATE bot_exp FROM despedidas.json
 
 STATES CHATEADO INFORMATIVO
-
-JOIN b0 !4 + b1 !1

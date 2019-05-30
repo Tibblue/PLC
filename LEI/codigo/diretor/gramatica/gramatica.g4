@@ -1,16 +1,11 @@
 grammar gramatica;
 
-dsl: create_block NEWLINE+ states NEWLINE+ join NEWLINE* EOF;
+dsl: create_block NEWLINE+ states NEWLINE* EOF;
 
 create_block: (create_bot NEWLINE)+ ;
-create_bot: BOT_NAME '=' 'CREATE' BOT_TYPE ('WITH' dataset)? 'FROM' dataset ;
+create_bot: PRIORIDADE 'CREATE' BOT_TYPE ('WITH' dataset)? 'FROM' dataset ;
 
 states: 'STATES' STATE+ ;
-
-join: 'JOIN' bots ;
-
-bots: (bot ('+' | NEWLINE))* bot ;
-bot : BOT_NAME PRIORIDADE ;
 
 dataset: STRING '.' FILE_TYPE ;
 
@@ -22,8 +17,7 @@ BOT_TYPE: 'bot_csv' | 'bot_lista' | 'bot_wiki'
 FILE_TYPE: 'csv' | 'txt' | 'json' ;
 STATE: 'CHATEADO' | 'INFORMATIVO' ;
 
-BOT_NAME: 'b'[0-9]+ ;
-PRIORIDADE: '!'[1-5] ;
+PRIORIDADE: '!'[0-5] ;
 
 STRING: [a-zA-Z0-9_\-]+ ;
 
