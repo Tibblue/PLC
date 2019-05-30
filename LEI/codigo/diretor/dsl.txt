@@ -7,7 +7,8 @@ b5 = CREATE bot_exp FROM saudacoes.json
 b6 = CREATE bot_exp FROM despedidas.json
 b7 = CREATE bot_FAQ FROM FAQ_SEI.json
 b8 = CREATE bot_exp FROM respostas.json
+b9 = CREATE bot_tradutor FROM dicionario.json
 
 STATES CHATEADO INFORMATIVO
 
-JOIN b0 !4 + b1 !1 + b2 !2 + b3 !5 + b4 !5 + b5 !5 + b6 !5 + b7 !4 + b8 !3
+JOIN b0 !4 + b1 !1 + b2 !2 + b3 !5 + b4 !5 + b5 !5 + b6 !5 + b7 !4 + b8 !3 + b9 !4

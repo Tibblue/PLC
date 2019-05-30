@@ -1,10 +1,7 @@
-#!/usr/bin/python3
-
-import sys, getopt
+import os, sys, getopt
 import regex as re
 import random
 import json
-# from art import *
 from py_translator import Translator
 
 from .listaLinguas import linguas
@@ -18,6 +15,7 @@ from .listaLinguas import linguas
 # traduz uma dada palavra para uma dada linguagem
 def traduz(palavra,linguagem):
     abrevLinguagem = linguas.get(linguagem.capitalize())
+    # print(abrevLinguagem) # debug
     if abrevLinguagem is not None:
         dict = verifica_dicionario(palavra,abrevLinguagem)
         cache = verifica_cache(palavra,abrevLinguagem)
@@ -29,42 +27,43 @@ def traduz(palavra,linguagem):
             traducao = Translator().translate(palavra,abrevLinguagem).text
             guardar_cache(palavra,abrevLinguagem,traducao) # guarda nova traduçao em cache
         resposta = "A tradução de " + palavra + " é " + traducao + "."
-        return resposta
+        return resposta,1
     else: # nao encontrou a lingua
-        return None
+        return None,0
 
 
 ### Funcoes auxiliares de CACHE e DICIONARIO ##
 # guarda em cache a traduçao de uma palavra para um linguagem
 def guardar_cache(palavra,linguagem,traducao):
-    cache_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
+    cache_path = os.getcwd() + "/bot_tradutor/cache.json"
+    cache_json = json.loads(open(cache_path).read())
     if cache_json.get(palavra):
         cache_json[palavra].update({linguagem:traducao})
     else:
         cache_json.update({palavra:{linguagem:traducao}})
-    f = open("./diretor/bot_tradutor/cache.json", "w")
+    f = open(cache_path, "w")
     prettyJSON = json.dumps(cache_json,sort_keys=True, indent=2)
     f.write(prettyJSON)
 
 # guarda no dicionario pessoal a traduçao de uma palavra para um linguagem
 def guardar_dicionario(palavra,linguagem,traducao):
     dicio = 'dicionario.json'
-    path_to_data = "./diretor/data/"
+    path_to_data = os.getcwd() + "/data/"
     abrevLinguagem = linguas.get(linguagem.capitalize())
     dict_json = json.loads(open(path_to_data+dicio).read())
     if dict_json.get(palavra):
         dict_json[palavra].update({abrevLinguagem:traducao})
     else:
         dict_json.update({palavra:{abrevLinguagem:traducao}})
-    f = open("./diretor/bot_tradutor/dicionario.json", "w")
+    f = open(os.getcwd() + "/data/dicionario.json", "w")
     prettyJSON = json.dumps(dict_json,sort_keys=True, indent=2)
     f.write(prettyJSON)
     respostas = ["Tradução adicionada!","Adicionado ao dicionario."]
-    return random.choice(respostas)
+    return random.choice(respostas),1
 
 # procura na cache se já existe a traduçao de uma palavra para uma linguagem
 def verifica_cache(palavra,linguagem):
-    cache_json = json.loads(open("./diretor/bot_tradutor/cache.json").read())
+    cache_json = json.loads(open(os.getcwd()+"/bot_tradutor/cache.json").read())
     if cache_json.get(palavra):
         if cache_json[palavra].get(linguagem):
             return cache_json[palavra][linguagem]
@@ -74,7 +73,7 @@ def verifica_cache(palavra,linguagem):
 # procura no dicionario se já existe a traduçao de uma palavra para uma linguagem
 def verifica_dicionario(palavra,linguagem):
     dicio = 'dicionario.json'
-    path_to_data = "./diretor/data/"
+    path_to_data = os.getcwd() + "/data/"
     dict_json = json.loads(open(path_to_data+dicio).read())
     if dict_json.get(palavra):
         if dict_json[palavra].get(linguagem):
@@ -83,32 +82,9 @@ def verifica_dicionario(palavra,linguagem):
     return None
 
 
-
-#####  WORK IN PROGRESS  #####
-# gera regras de uso do bot para o diretor
-def geraRegras(filename): # FIXME
-    regras = [
-        ( r'[Cc]omo se diz ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
-        ( r'[Qq]ual é a tradução de ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
-        ( r'([\w ]+) como se diz em (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(1),x.group(2))),
-        ( r'[Ee]m (\w+) como se diz (\w+)\b\??', lambda x: bot_tradutor.traduz(x.group(2),x.group(1))),
-        ( r'([\w ]+) em (\w+) diz-se ([\w ]+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(2),x.group(3))),
-        ( r'([\w ]+) diz-se ([\w ]+) em (\w+)\b\??', lambda x: bot_tradutor.guardar_dicionario(x.group(1),x.group(3),x.group(2)))
-    ]
-    for regra in regras: # debug
-        regra_new = tuple((regra[0],filename,('TRANS',5)))
-        print(regra_new)
-        nameless = lambda x,y: print(x,y)
-        nameless('ola',None)
-        # print(regra[0],filename)
-    return regras
-
-
-
 ##### Funcao para falar com o BOT #####
 # funcao para uso do bot individualmente
 def talk():
-    # print(text2art("Fabio")) # art
     while True:
         mensagem = input('Eu: ')
         mensagem = re.search(r'(?:.* )?(.+) em (\w+)\b\??', mensagem)
@@ -119,8 +95,7 @@ def talk():
         else: # nao deu match a frase
             return None
             # return random.choice(matchFailed) # resposta de falha
-    ##### Testing #####
-    # print(geraRegras())
+
 
 ##### MAIN #####
 def main(options):
@@ -129,12 +104,6 @@ def main(options):
         print_help()
     elif '-x' in options:
         talk()
-    elif '-r' in options:
-        geraRegras('batatas.txt') # FIXME
-
-# como reagir quando é importado
-def imported():
-    pass
 
 # print de help ao utilizador
 def print_help():
@@ -143,7 +112,6 @@ def print_help():
     print('\tOPTIONS:')
     print('\t    -h, --help\n\t    \tPrint this message and exit.')
     print('\t    -x, --exec\n\t    \tExecutes the bot.')
-    print('\t    -r, --rules\n\t    \tExport bot rules (FIXME).')
     print('')
 
 
@@ -165,5 +133,3 @@ if __name__ == "__main__": # corre quando é o ficheiro principal
     except getopt.GetoptError as err:
         print('ERROR:', err)
         sys.exit(1)
-else: # corre quando for importado
-    imported()

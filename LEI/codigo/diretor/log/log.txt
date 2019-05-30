@@ -385,3 +385,177 @@ Bot: Até à próxima colega.
 
 ---FIM DE CONVERSA---
 
+User: Olá
+Bot: Repete lá isso de forma que eu entenda.
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: Que bem prega frei tomás, façamos o que ele diz e não o que ele faz
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Não estou a perceber nada...
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: Em pouco muito se diz
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: Em pouco muito se diz
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: O quê?
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: O quê?
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: Estás a gozar comigo?!
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: O quê?
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Não estou a perceber nada...
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: A tradução de humano é human.
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Tens a certeza que sabes falar português?!
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: A tradução de humano é human.
+User: monads diz-se merda em ingleŝ
+Bot: Não estou a perceber nada...
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: O quê?
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: A tradução de humano é human.
+User: monads diz-se merda em inglês
+Bot: Não estou a perceber nada...
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Não estou a perceber nada...
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: A tradução de humano é human.
+User: monads diz-se merda em inglês
+Bot: Tradução adicionada!
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Andaste a beber?!
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: A tradução de humano é human.
+User: monads diz-se merda em inglês
+Bot: Adicionado ao dicionario.
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: O quê?
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: A tradução de humano é human.
+User: monads diz-se merda em inglês
+Bot: Tradução adicionada!
+
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Boas parceiro.
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em inglês?
+Bot: A tradução de humano é human.
+User: monads diz-se merda em inglês
+Bot: Tradução adicionada!
+
+---FIM DE CONVERSA---
+
