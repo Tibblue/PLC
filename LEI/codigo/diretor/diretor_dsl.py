@@ -2,8 +2,7 @@ import random,sys,re,getopt
 from util import *
 from operator import itemgetter
 from math import trunc
-from change_tuplos import change_tuplos
-from read_dsl import *
+from dsl import *
 from bot_lista import bot_lista
 from get_regras import regras_estado_resposta
 from altera_estados import altera_estados

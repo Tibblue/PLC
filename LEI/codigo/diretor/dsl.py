@@ -1,6 +1,7 @@
 import sys, subprocess
 import re
 from operator import itemgetter
+from get_regras import get_regras
 
 # lê a dsl e retorna uma lista de tuplos que contém os bots e o dataset a ser usado
 def read_dsl(ficheiro):
@@ -66,6 +67,14 @@ def validate_dsl(ficheiro):
     else:
         print("DSL compilada corretamente.\n")
         return True
+
+def change_tuplos(triplos_dsl):
+    tuplos = []
+    for bot,dataset,prioridade_bot in triplos_dsl:
+        regras = get_regras(bot)
+        tuplo = tuple((regras,dataset,bot,prioridade_bot))
+        tuplos.append(tuplo)
+    return tuplos
 
 
 if __name__ == "__main__":
