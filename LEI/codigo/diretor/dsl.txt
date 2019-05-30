@@ -10,6 +10,4 @@ b8 = CREATE bot_exp FROM respostas.json
 
 STATES CHATEADO INFORMATIVO
 
-JOIN b0 !4 + b1 !1 + b2 !2
-     b3 !5 + b4 !5 + b5 !5
-     b6 !5 + b7 !4 + b8 !3
+JOIN b0 !4 + b1 !1 + b2 !2 + b3 !5 + b4 !5 + b5 !5 + b6 !5 + b7 !4 + b8 !3

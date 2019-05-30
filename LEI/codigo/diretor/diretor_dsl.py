@@ -3,7 +3,7 @@ from util import *
 from operator import itemgetter
 from math import trunc
 from change_tuplos import change_tuplos
-import read_dsl
+from read_dsl import *
 from bot_lista import bot_lista
 from get_regras import regras_estado_resposta
 from altera_estados import altera_estados
@@ -91,24 +91,7 @@ def responde(input_utilizador,tuplos,estados):
         #
         return random.choice(clueless)
 
-
-def main():
-    opts, args = getopt.getopt(sys.argv[1:], 't:', ['test='])
-    # print(opts, args) # debug
-
-    dsl_file = args[0]
-    triplos_dsl,estados = read_dsl.read_dsl(dsl_file)
-    if(triplos_dsl is None):
-        sys.exit()
-
-    tuplos = change_tuplos(triplos_dsl)
-
-    for opt,arg in opts:
-        # print(opt,arg) # debug
-        if opt=='-t' or opt=='--test':
-            responde_test(arg,tuplos,estados)
-            sys.exit()
-
+def conversa(tuplos,estados):
     while(True):
         try:
             input_utilizador = input('Eu:')
@@ -120,5 +103,24 @@ def main():
             print('\n')
             get_despedida_e_escreve_log()
             sys.exit()
+
+def main():
+    opts, args = getopt.getopt(sys.argv[1:], 't:', ['test='])
+    # print(opts, args) # debug
+
+    dsl_file = args[0]
+    if not validate_dsl(dsl_file):
+        sys.exit() # dsl nao validada
+
+    triplos_dsl,estados = read_dsl(dsl_file)
+    tuplos = change_tuplos(triplos_dsl)
+
+    for opt,arg in opts:
+        # print(opt,arg) # debug
+        if opt=='-t' or opt=='--test':
+            responde_test(arg,tuplos,estados)
+            sys.exit()
+
+    conversa(tuplos,estados)
 
 main()
