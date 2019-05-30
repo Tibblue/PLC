@@ -93,7 +93,7 @@ def responde(input_utilizador,tuplos,estados):
 def conversa(tuplos,estados):
     while(True):
         try:
-            input_utilizador = input('Eu:')
+            input_utilizador = input('-')
             save_log(input_utilizador,'user')
             resposta = responde(input_utilizador,tuplos,estados)
             save_log(resposta,'bot')
