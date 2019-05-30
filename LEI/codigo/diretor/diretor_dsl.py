@@ -93,7 +93,7 @@ def responde(input_utilizador,tuplos,estados):
 def conversa(tuplos,estados):
     while(True):
         try:
-            input_utilizador = input('-')
+            input_utilizador = input('> ')
             save_log(input_utilizador,'user')
             resposta = responde(input_utilizador,tuplos,estados)
             save_log(resposta,'bot')
@@ -104,10 +104,15 @@ def conversa(tuplos,estados):
             sys.exit()
 
 def main():
-    opts, args = getopt.getopt(sys.argv[1:], 't:', ['test='])
-    # print(opts, args) # debug
+    opts, args = getopt.getopt(sys.argv[1:], 't:', ['test=','dsl='])
+    print(opts, args) # debug
 
-    dsl_file = args[0]
+    dsl_path = os.getcwd() + '/dsl/'
+    dsl_file = dsl_path + 'dsl.txt'
+    for opt,arg in opts:
+      if opt=='--dsl':
+        dsl_file = dsl_path + arg
+
     if not validate_dsl(dsl_file):
         sys.exit() # dsl nao validada
 
