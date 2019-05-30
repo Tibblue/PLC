@@ -1,0 +1,7 @@
+b0 = CREATE bot_exp FROM saudacoes.json
+b1 = CREATE bot_exp FROM despedidas.json
+b2 = CREATE bot_tradutor FROM dicionario.json
+
+STATES CHATEADO INFORMATIVO
+
+JOIN b0 !1 + b1 !1 + b2 !5

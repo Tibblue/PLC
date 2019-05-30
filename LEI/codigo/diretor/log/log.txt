@@ -558,4 +558,123 @@ User: monads diz-se merda em inglês
 Bot: Tradução adicionada!
 
 ---FIM DE CONVERSA---
+ - GIL -
+
+User: ola jovem
+Bot: Olá! Tudo bem?
+User: sim e contigo?
+Bot: Mais vale o sim tardio, que o não vazio
+User: tens razao
+Bot: Se não tens o que gostas, gosta do que tens
+User: que idade tens?
+Bot: Quando ao sol posto o norte é puro, tens bom tempo seguro
+User: que fazes?
+Bot: Antes que cases, (vê|olha) o que fazes
+User: quando e a sei?
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+User: es um nabo
+Bot: Estás a gozar comigo?!
+User: estou
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+User: estou
+Bot: A SEI realiza-se no início do segundo semestre.
+User: estou
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+User: estou
+Bot: A SEI realiza-se no início do segundo semestre.
+User: 
+Bot: Estás a gozar comigo?!
+User: 
+Bot: Repete lá isso de forma que eu entenda.
+User: 
+Bot: Andaste a beber?!
+User: es lindo
+Bot: Quem ama o feio, lindo não lhe aparece
+User: qual e o teu filme preferido?
+Bot: Fala-me português!
+User: como se diz diz em ingles
+Bot: Diz o roto ao nu, porque não te vestes tu
+User: como se diz ola em ingles
+Bot: Quem diz que dinheiro não dá felicidade não sabe onde fazer compras
+User: traduz ola em coreano
+Bot: Repete lá isso de forma que eu entenda.
+User: em coreano diz ola
+Bot: Quem diz que dinheiro não dá felicidade não sabe onde fazer compras
+User: es uma merda
+Bot: A merda é a mesma, as moscas é que mudam
+User: filho da puta
+Bot: O pai impertinente, faz o filho desobediente
+User: puta
+Bot: Depois da tempestade, vem a puta da gripe!
+User: 
+Bot: Andaste a beber?!
+User: foder
+Bot: Deitar cedo e cedo erguer, só se for para foder
+User: [A
+Bot: Tens a certeza que sabes falar português?!
+User: [B
+Bot: Não estou a perceber nada...
+User: fasfsafas
+Bot: Repete lá isso de forma que eu entenda.
+User: coco
+Bot: O quê?
+User: cocooo
+Bot: Não estou a perceber nada...
+User: cocoooooooooo
+Bot: Estás a gozar comigo?!
+User: sim
+Bot: Mais vale um sim tardio, que um não vazio
+User: sim
+Bot: Mais vale um sim tardio, que um não vazio
+User: sim
+Bot: Mais vale o sim tardio, que o não vazio
+User: sim
+Bot: Mais vale o sim tardio, que o não vazio
+User: sim sim
+Bot: Mais vale o sim tardio, que o não vazio
+User: nao
+Bot: Andaste a beber?!
+User: 
+Bot: Andaste a beber?!
+User: nao
+Bot: Fala-me português!
+User: nao
+Bot: Repete lá isso de forma que eu entenda.
+User: quando e a sei
+Bot: A SEI realiza-se no início do segundo semestre.
+User: fala-me sobre engenharia
+Bot: Carne que baste, vinho que farte, pão que sobre
+User: o que sabes sobre batatas
+Bot: O que tu sabes já eu me esqueci
+User: o que sabes sobre 1610
+Bot: 1610  foi um ano comum  do século XVII do actual Calendário Gregoriano, da Era de Cristo, e a sua letra dominical foi C, teve 52 semanas, início a uma sexta-feira e terminou também a uma sexta-feira.
+User: o que sabes sobre 2 girls 1 cup
+Bot: Pedra sobre pedra, às vezes chega
+User: o que sabes sobre 8chan
+Bot: 8chan, também chamado de Infinitechan ou Infinitychan  é um imageboard americano composto de sub-fóruns criados pelos usuários.
+User: o que sabes sobre acemetacina
+Bot: A acemetacina é um fármaco pertencente ao grupo dos antiinflamatórios não-estereodais (AINES).
+Bot: Foi um prazer!
+
+ - GIL -
+---FIM DE CONVERSA---
+
+User: Olá
+Bot: Boas parceiro.
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz carro em coreano?
+Bot: A tradução de carro é 차.
+User: Como se diz Francisco em Inglês?
+Bot: A tradução de Francisco é Kiko.
+User: Como se diz carro em japonês?
+Bot: A tradução de carro é 車.
+User: Como se diz pessoa em inglês
+Bot: A tradução de pessoa é person.
+User: Como se diz humano em ingles?
+Bot: A tradução de humano é human.
+User: monads diz-se merda em inglês
+Bot: Tradução adicionada!
+
+---FIM DE CONVERSA---
 
