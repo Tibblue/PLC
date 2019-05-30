@@ -1,0 +1,4 @@
+# regra para apanhar siglas, e guardar em lista
+# regra para apanhar palavras com maiuscula fora do inicio de frase, e guarda-las
+
+# usar a alinea anterior + as palavras guardadas e GG
