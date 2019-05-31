@@ -1,14 +1,13 @@
-
-pal_polaridade = [("bebe",0),("burro",-1),("lindo",1),("podres",-1),("casca",0)]
-
+import random
+from dic_polaridade import dic_polaridade
 
 textos = [
-    "batatas Um morto e três feridos ligeiros é o resultado de um acidente na variante à Estrada Nacional 342, no concelho de Miranda do Corvo",
-    "Segundo o comandante da corporação local, Fernando Jorge, a vítima  os três feridos são jovens da ilha da Madeira, que se deslocavam num carro alugado para a Serra da Lousã para assistirem ao Rali de Portugal, cujas etapas batatas se realizam esta sexta-feira na Lousã, Góis e Arganil.",
-    "O acidente envolveu um trator com um reboque carregado de madeira, que atingiu a viatura ligeira numa curva acentuada na zona da Cervajota, entre Miranda do Corvo e Lamas, onde se situa um nó de acesso à Autoestrada 13 batatas"
+    "a b c a a a a a a b d e e d a e d batatas",
+    "batatas a b c a a c c c c c c b d e e d a e d",
+    "a b a b e e e e d f b a c a c c batatas a c a c c a c b c b c b c b",
+        "a b a b e batatas a b b b e e a d f c a c c a c b c b c b c b",
+
     ]
-
-
 
 def n_gram(texto,n):
     texto = texto.split()
@@ -35,4 +34,17 @@ def find(palavra,pal_polaridade,textos,n):
         # print(ngrams_com_palavra)
         # print()
 
-find('batatas',pal_polaridade,textos,5)
+# find('batatas',pal_polaridade,textos,5)
+
+lista = ["-1","0","1"]
+
+def count_char_occur(lista):
+  occurs = {}
+  for l in lista:
+    occurs[l] = random.choice(lista)
+  return occurs
+
+# print(count_char_occur(textos[0]))
+# count_char_occur(string)
+
+print(dic_polaridade)
