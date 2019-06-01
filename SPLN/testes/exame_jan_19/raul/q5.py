@@ -6,7 +6,6 @@ textos = [
     "-1= derrotado desceu a divisão ontem" 
 ]
 
-
 def funcao(textos):
     dic_polaridade = {}
     for texto in textos:
