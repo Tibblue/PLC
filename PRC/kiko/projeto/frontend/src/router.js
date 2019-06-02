@@ -13,11 +13,6 @@ export default new Router({
       component: () => import('./views/Home.vue')
     },
     {
-      path: '/animesnew',
-      name: 'animeListNew',
-      component: () => import('./views/TabelaAnime_new.vue')
-    },
-    {
       path: '/animes',
       name: 'animeList',
       component: () => import('./views/TabelaAnime.vue')

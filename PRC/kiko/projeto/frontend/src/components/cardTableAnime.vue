@@ -1,10 +1,16 @@
 <template>
   <v-flex>
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
-    <!-- <span>{{this.name}}</span> -->
-    <!-- <span>{{this.list}}</span> -->
-    <!-- <span>{{this.route}}</span> -->
-    <!-- <span>{{filteredList}}</span> -->
+    <!-- <p>{{this.$route.query.genre}}</p> -->
+    <!-- <p>{{this.$route.query.producer}}</p> -->
+    <!-- <p>{{this.$route.query.studio}}</p> -->
+    <!-- <p>{{this.name}}</p> -->
+    <!-- <p>{{this.genre}}</p> -->
+    <!-- <p>{{this.genres}}</p> -->
+    <!-- <p>{{this.animes}}</p> -->
+    <!-- <p>{{this.animesSimple}}</p> -->
+    <!-- <p>{{this.route}}</p> -->
+    <!-- <p>{{filteredList}}</p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
     <v-toolbar dark color="indigo darken-2" flat>
@@ -21,7 +27,7 @@
     </v-toolbar>
     <v-toolbar dark color="indigo darken-2" flat>
       <v-flex xs1/>
-      <v-flex xs6>
+      <v-flex xs6 pb-2>
         <v-layout>
           <v-btn icon @click="currentPage=1">
             <v-icon>{{'fas fa-angle-double-left'}}</v-icon>
@@ -41,15 +47,40 @@
         </v-layout>
       </v-flex>
       <v-flex xs1/>
-      <v-flex xs3>
+      <v-flex xs4 px-2>
         <v-combobox
           v-model="pageSize"
-          :items="items"
+          :items="nItems"
           label="Elements per Page"
           @change="checkPage()"
         ></v-combobox>
       </v-flex>
-      <v-flex xs1/>
+    </v-toolbar>
+    <v-toolbar dark color="indigo darken-2" flat>
+      <v-flex xs4 px-2>
+        <v-combobox
+          v-model="genreSelected"
+          :items="genres"
+          label="Genre"
+          @change="refreshList()"
+        ></v-combobox>
+      </v-flex>
+      <v-flex xs4 px-2>
+        <v-combobox
+          v-model="producerSelected"
+          :items="producers"
+          label="Producer"
+          @change="refreshList()"
+        ></v-combobox>
+      </v-flex>
+      <v-flex xs4 px-2>
+        <v-combobox
+          v-model="studioSelected"
+          :items="studios"
+          label="Studio"
+          @change="refreshList()"
+        ></v-combobox>
+      </v-flex>
     </v-toolbar>
     <v-card>
       <v-container fluid grid-list-md>
@@ -67,8 +98,8 @@
               <v-layout fill-height px-2 pt-1>
                 <v-flex xs12 flexbox class="text-xs-center">
                   <span class="title">{{card.title}}</span>
-                  <!-- <v-spacer v-if="card.title_english"/> -->
-                  <!-- <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span> -->
+                  <v-spacer v-if="card.title_english"/>
+                  <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span>
                   </v-flex>
               </v-layout>
               <v-img
@@ -87,14 +118,61 @@
 </template>
 
 <script>
+  import axios from 'axios'
+  const lhost = "http://localhost:4005"
+
   export default {
-    props: ["name","list","route"],
+    props: ["name","route"],
     data: () => ({
       pageSize: 20,
-      items: [20,30,60],
+      genreSelected: 'Any',
+      producerSelected: 'Any',
+      studioSelected: 'Any',
+      nItems: [20,30,60],
+      genres: [],
+      producers: [],
+      studios: [],
       searchText: '',
       currentPage: 1,
+      animes: [],
+      animesSimple: [],
     }),
+    mounted: async function (){
+      try{
+        // verificar url query for values
+        if(this.$route.query.genre)
+          this.genreSelected = this.$route.query.genre
+        if(this.$route.query.producer)
+          this.producerSelected = this.$route.query.producer
+        if(this.$route.query.studio)
+          this.studioSelected = this.$route.query.studio
+        // get list
+        this.refreshList()
+
+        var response
+        // genre list
+        response = await axios.get(lhost+'/query/genre_list');
+        this.genre = response.data.results.bindings
+        this.genres = this.genre.map(item => {return item.genre.value.split("#GENRE_")[1]})
+        this.genres.sort()
+        this.genres.unshift('Any')
+        // // producer list
+        response = await axios.get(lhost+'/query/producer_list');
+        this.producer = response.data.results.bindings
+        this.producers = this.producer.map(item => {return item.producer.value.split("#PRODUCER_")[1]})
+        this.producers.sort()
+        this.producers.unshift('Any')
+        // // studio list
+        response = await axios.get(lhost+'/query/studio_list');
+        this.studio = response.data.results.bindings
+        this.studios = this.studio.map(item => {return item.studio.value.split("#STUDIO_")[1]})
+        this.studios.sort()
+        this.studios.unshift('Any')
+      }
+      catch(e){
+        return(e);
+      }
+    },
     methods: {
       itemClicked: function (id) {
         this.$router.push('/'+this.route+'/'+id)
@@ -114,6 +192,38 @@
         var maxPage = Math.ceil(this.filteredList.length/this.pageSize)
         if(this.currentPage>maxPage)
           this.currentPage = maxPage||1
+      },
+      refreshList: async function () {
+        var query = '?'
+        if(this.genreSelected!='Any')
+          query+= 'genre='+this.genreSelected+'&'
+        if(this.producerSelected!='Any')
+          query+= 'producer='+this.producerSelected+'&'
+        if(this.studioSelected!='Any')
+          query+= 'studio='+this.studioSelected+'&'
+        // console.log(query)
+        try{
+          var response = await axios.get(lhost+'/query/variable/anime_much_info'+query);
+          this.animes = response.data.results.bindings
+          this.animesSimple = this.animes.map(this.simplify)
+        }
+        catch(e){
+          return(e);
+        }
+        // this.$router.push('/'+this.route+query)
+      },
+      simplify: function (item) {
+        var title_aux
+        if(item.title_english)
+          title_aux = item.title_english.value
+        else
+          title_aux = undefined
+        return {
+          id: item.id.value,
+          title: item.title.value,
+          title_english: title_aux,
+          img: item.img.value,
+        }
       }
     },
     computed: {
@@ -121,7 +231,7 @@
         return Math.ceil(this.filteredList.length/this.pageSize)
       },
       filteredList() {
-        return this.list.filter(item => {
+        return this.animesSimple.filter(item => {
           var search_ok = undefined
           var search_text = this.searchText.toLowerCase()
           var title = item.title.toLowerCase()
