@@ -148,17 +148,17 @@
         this.genres.sort()
         this.genres.unshift('Any')
         // // producer list
-        // response = await axios.get(lhost+'/query/genre_list');
-        // this.genre = response.data.results.bindings
-        // this.genres = this.genre.map(item => {return item.genre.value.split("#GENRE_")[1]})
-        // this.genres.sort()
-        // this.genres.unshift('Any')
+        response = await axios.get(lhost+'/query/producer_list');
+        this.producer = response.data.results.bindings
+        this.producers = this.producer.map(item => {return item.producer.value.split("#PRODUCER_")[1]})
+        this.producers.sort()
+        this.producers.unshift('Any')
         // // studio list
-        // response = await axios.get(lhost+'/query/genre_list');
-        // this.genre = response.data.results.bindings
-        // this.genres = this.genre.map(item => {return item.genre.value.split("#GENRE_")[1]})
-        // this.genres.sort()
-        // this.genres.unshift('Any')
+        response = await axios.get(lhost+'/query/studio_list');
+        this.studio = response.data.results.bindings
+        this.studios = this.studio.map(item => {return item.studio.value.split("#STUDIO_")[1]})
+        this.studios.sort()
+        this.studios.unshift('Any')
       }
       catch(e){
         return(e);
@@ -189,6 +189,10 @@
         var query = '?'
         if(this.genreSelected!='Any')
           query+= 'genre='+this.genreSelected+'&'
+        if(this.producerSelected!='Any')
+          query+= 'producer='+this.producerSelected+'&'
+        if(this.studioSelected!='Any')
+          query+= 'studio='+this.studioSelected+'&'
         console.log(query)
         try{
           var response = await axios.get(lhost+'/query/variable/anime_much_info'+query);

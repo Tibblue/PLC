@@ -34,5 +34,15 @@ select ?id ?label where {
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct ?genre where {
     ?genre a :Genre .
-}`
+}`,
+  producer_list: `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct ?producer where {
+    ?producer a :Producer .
+}`,
+  studio_list: `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct ?studio where {
+    ?studio a :Studio .
+}`,
 }
