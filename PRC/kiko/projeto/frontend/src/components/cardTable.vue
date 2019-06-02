@@ -46,6 +46,7 @@
           v-model="pageSize"
           :items="items"
           label="Elements per Page"
+          @click="checkPage()"
         ></v-combobox>
       </v-flex>
       <v-flex xs1/>

@@ -33,7 +33,6 @@
     props: ["name","list","route"],
     data: () => ({
       searchText: '',
-      // currentPage: 1,
     }),
     methods: {
       itemClicked: function (item) {
