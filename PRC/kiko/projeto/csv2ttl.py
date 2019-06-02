@@ -37,8 +37,12 @@ def doAnime():
       pass
       for i in range(len(row)): printE(f'# {i} => {row[i]}')
     else:
-      if 'Hentai' in row[28].split(', '):
-        continue
+      # removal of some info (optional)
+      if 'Hentai' in row[28].split(', '): continue
+      if 'ONA' in row[6]: continue
+      if 'Music' in row[6]: continue
+      if 'Special' in row[6]: continue
+      # begin making individual
       id = "ANIME_"+row[0]+"_"+fix_id(row[1])
       print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
       print(f':{id} rdf:type owl:NamedIndividual, :Anime.')
@@ -52,8 +56,8 @@ def doAnime():
         print(f':{id} :img \'{img}\' .')
       if row[6]:
         print(f':{id} :type \'{row[6]}\' .')
-      if row[15]:
-        print(f':{id} :score \'{row[15]}\' .')
+      # if row[15]:
+      #   print(f':{id} :score \'{row[15]}\' .')
       if row[25]:
         for producer in row[25].split(', '):
           producers.add(producer)
