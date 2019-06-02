@@ -1,40 +1,16 @@
 <template>
   <v-container>
-    <v-layout>
-      <v-flex xs6 mr-2>
-        <cardTable
-          name="Writers"
-          :list="writersSimple"
-          route="persons"
-        ></cardTable>
-      </v-flex>
-
-      <v-flex xs6 ml-2>
-        <cardTable
-          name="Directors"
-          :list="directorsSimple"
-          route="persons"
-        ></cardTable>
-      </v-flex>
-    </v-layout>
-
     <v-flex xs12 mt-3>
       <cardTable
-        name="Persons"
-        :list="personsSimple"
-        route="persons"
+        name="Producers"
+        :list="producersSimple"
+        route="producers"
       ></cardTable>
     </v-flex>
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
-    <!-- <p>{{writers}}</p> -->
-    <!-- <p>{{writersSimple}}</p> -->
-    <!-- <h1> <mark> DEBUG </mark> </h1> -->
-    <!-- <p>{{directors}}</p> -->
-    <!-- <p>{{directorsSimple}}</p> -->
-    <!-- <h1> <mark> DEBUG </mark> </h1> -->
-    <!-- <p>{{persons}}</p> -->
-    <!-- <p>{{personsSimple}}</p> -->
+    <!-- <p>{{producers}}</p> -->
+    <!-- <p>{{producersSimple}}</p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
   </v-container>
@@ -50,25 +26,14 @@
       cardTable
     },
     data: () => ({
-      persons: [],
-      writers: [],
-      directors: [],
-      personsSimple: [],
-      writersSimple: [],
-      directorsSimple: [],
+      producers: [],
+      producersSimple: [],
     }),
     mounted: async function (){
       try{
-        var response
-        response = await axios.get(lhost+'/query/person_id');
-        this.persons = response.data.results.bindings
-        this.personsSimple = this.persons.map(this.simplify)
-        response = await axios.get(lhost+'/query/writer_id');
-        this.writers = response.data.results.bindings
-        this.writersSimple = this.writers.map(this.simplify)
-        response = await axios.get(lhost+'/query/director_id');
-        this.directors = response.data.results.bindings
-        this.directorsSimple = this.directors.map(this.simplify)
+        var response = await axios.get(lhost+'/query/producer_id_label');
+        this.producers = response.data.results.bindings
+        this.producersSimple = this.producers.map(this.simplify)
       }
       catch(e){
         return(e);
@@ -76,7 +41,7 @@
     },
     methods: {
       simplify: function (item) {
-        return {id:item.person.value.split('#PERSON_')[1]}
+        return {id:item.id.value, label:item.label.value}
       }
     }
   }
