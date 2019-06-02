@@ -2,7 +2,10 @@
   <v-flex>
     <h1> <mark> DEBUG </mark> </h1>
     <!-- <span>{{this.name}}</span> -->
-    <!-- <span>{{this.list}}</span> -->
+    <!-- <span>{{this.genre}}</span> -->
+    <!-- <span>{{this.genres}}</span> -->
+    <!-- <span>{{this.animes}}</span> -->
+    <!-- <span>{{this.animesSimple}}</span> -->
     <!-- <span>{{this.route}}</span> -->
     <!-- <span>{{filteredList}}</span> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
@@ -56,7 +59,7 @@
           v-model="genreSelected"
           :items="genres"
           label="Genre"
-          @change="checkPage()"
+          @change="refreshList()"
         ></v-combobox>
       </v-flex>
       <v-flex xs4 px-2>
@@ -64,7 +67,7 @@
           v-model="producerSelected"
           :items="producers"
           label="Producer"
-          @change="checkPage()"
+          @change="refreshList()"
         ></v-combobox>
       </v-flex>
       <v-flex xs4 px-2>
@@ -72,7 +75,7 @@
           v-model="studioSelected"
           :items="studios"
           label="Studio"
-          @change="checkPage()"
+          @change="refreshList()"
         ></v-combobox>
       </v-flex>
     </v-toolbar>
@@ -112,20 +115,55 @@
 </template>
 
 <script>
+  import axios from 'axios'
+  const lhost = "http://localhost:4005"
+
   export default {
-    props: ["name","list","route"],
+    props: ["name","route"],
     data: () => ({
-      pageSize: 20,
-      nItems: [20,30,60],
-      genres: [20,30,60],
-      producers: [20,30,60],
-      studios: [20,30,60],
+      pageSize: 8,
       genreSelected: 'Any',
       producerSelected: 'Any',
       studioSelected: 'Any',
+      nItems: [20,30,60],
+      genres: [],
+      producers: [],
+      studios: [],
       searchText: '',
       currentPage: 1,
+      animes: [],
+      animesSimple: [],
     }),
+    mounted: async function (){
+      try{
+        var response
+        response = await axios.get(lhost+'/query/variable/anime_much_info');
+        this.animes = response.data.results.bindings
+        this.animesSimple = this.animes.map(this.simplify)
+
+        // genre list
+        response = await axios.get(lhost+'/query/genre_list');
+        this.genre = response.data.results.bindings
+        this.genres = this.genre.map(item => {return item.genre.value.split("#GENRE_")[1]})
+        this.genres.sort()
+        this.genres.unshift('Any')
+        // // producer list
+        // response = await axios.get(lhost+'/query/genre_list');
+        // this.genre = response.data.results.bindings
+        // this.genres = this.genre.map(item => {return item.genre.value.split("#GENRE_")[1]})
+        // this.genres.sort()
+        // this.genres.unshift('Any')
+        // // studio list
+        // response = await axios.get(lhost+'/query/genre_list');
+        // this.genre = response.data.results.bindings
+        // this.genres = this.genre.map(item => {return item.genre.value.split("#GENRE_")[1]})
+        // this.genres.sort()
+        // this.genres.unshift('Any')
+      }
+      catch(e){
+        return(e);
+      }
+    },
     methods: {
       itemClicked: function (id) {
         this.$router.push('/'+this.route+'/'+id)
@@ -145,6 +183,35 @@
         var maxPage = Math.ceil(this.filteredList.length/this.pageSize)
         if(this.currentPage>maxPage)
           this.currentPage = maxPage||1
+      },
+      refreshList: async function () {
+        this.nameNew = this.name
+        var query = '?'
+        if(this.genreSelected!='Any')
+          query+= 'genre='+this.genreSelected+'&'
+        console.log(query)
+        try{
+          var response = await axios.get(lhost+'/query/variable/anime_much_info'+query);
+          this.animes = response.data.results.bindings
+          this.animesSimple = this.animes.map(this.simplify)
+        }
+        catch(e){
+          return(e);
+        }
+        // this.$router.push('/'+this.route+query)
+      },
+      simplify: function (item) {
+        var title_aux
+        if(item.title_english)
+          title_aux = item.title_english.value
+        else
+          title_aux = undefined
+        return {
+          id: item.id.value,
+          title: item.title.value,
+          title_english: title_aux,
+          img: item.img.value,
+        }
       }
     },
     computed: {
@@ -152,7 +219,7 @@
         return Math.ceil(this.filteredList.length/this.pageSize)
       },
       filteredList() {
-        return this.list.filter(item => {
+        return this.animesSimple.filter(item => {
           var search_ok = undefined
           var search_text = this.searchText.toLowerCase()
           var title = item.title.toLowerCase()

@@ -4,12 +4,12 @@
     <h1> <mark> DEBUG </mark> </h1>
     <!-- <p>{{animes}}</p> -->
     <!-- <p>{{animesSimple}}</p> -->
+    <p>{{this.$route.query.genre}}</p>
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
     <v-flex xs12>
       <cardTableAnime
         name="Animes"
-        :list="animesSimple"
         route="animes"
       ></cardTableAnime>
     </v-flex>
@@ -36,7 +36,6 @@
     }),
     mounted: async function (){
       try{
-        var response = await axios.get(lhost+'/query/anime_titles_img_score');
         this.animes = response.data.results.bindings
         this.animesSimple = this.animes.map(this.simplify)
       }
@@ -59,5 +58,6 @@
         }
       }
     },
+    //     var response = await axios.get(lhost+'/query/variable/anime_much_info');
   }
 </script>
