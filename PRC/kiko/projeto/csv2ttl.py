@@ -37,11 +37,12 @@ def doAnime():
       pass
       for i in range(len(row)): printE(f'# {i} => {row[i]}')
     else:
+      if 'Hentai' in row[28].split(', '):
+        continue
       id = "ANIME_"+row[0]+"_"+fix_id(row[1])
       print("###  http://www.semanticweb.org/kiko/ontologies/2019/projeto#"+id)
       print(f':{id} rdf:type owl:NamedIndividual, :Anime.')
       print(f':{id} :id \'{id}\' .')
-      #print(f':{id} :label \'{row[1]}\' .')
       print(f':{id} :title \'{row[1]}\' .')
       if row[2]:
         print(f':{id} :title_english \'{row[2]}\' .')
@@ -112,6 +113,5 @@ doAnime()
 doGenre()
 doProducer()
 doStudio()
-
 #printE(sorted(genres))
 #printE(sorted(producers))
