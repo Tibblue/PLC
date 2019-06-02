@@ -66,10 +66,8 @@
               <v-layout fill-height px-2 pt-1>
                 <v-flex xs12 flexbox class="text-xs-center">
                   <span class="title">{{card.title}}</span>
-                  <v-spacer/>
-                  <span class="subtitle">{{card.title_japanese}}</span>
-                  <v-spacer v-if="card.title_english"/>
-                  <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span>
+                  <!-- <v-spacer v-if="card.title_english"/> -->
+                  <!-- <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span> -->
                   </v-flex>
               </v-layout>
               <v-img
@@ -123,10 +121,15 @@
       },
       filteredList() {
         return this.list.filter(item => {
-          var title = item.title.toLowerCase()
-          var title_english = item.title_english.toLowerCase()
+          var search_ok = undefined
           var search_text = this.searchText.toLowerCase()
-          return title.includes(search_text) | title_english.includes(search_text)
+          var title = item.title.toLowerCase()
+          search_ok = title.includes(search_text)
+          if(item.title_english){
+            var title_english = item.title_english.toLowerCase()
+            search_ok = search_ok | title_english.includes(search_text)
+          }
+          return search_ok
         })
       },
       pagedList() {

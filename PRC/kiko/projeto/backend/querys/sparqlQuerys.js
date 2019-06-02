@@ -7,9 +7,7 @@ select distinct * where {
     ?anime :id ?id .
     ?anime :title ?title .
     OPTIONAL{?anime :title_english ?title_english .}
-    ?anime :title_japanese ?title_japanese .
     ?anime :img ?img .
-    ?anime :score ?score .
 }`,
   anime_id_title: `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>

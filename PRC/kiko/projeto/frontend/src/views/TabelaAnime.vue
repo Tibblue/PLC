@@ -41,13 +41,16 @@
     },
     methods: {
       simplify: function (item) {
+        var title_aux
+        if(item.title_english)
+          title_aux = item.title_english.value
+        else
+          title_aux = undefined
         return {
           id: item.id.value,
           title: item.title.value,
-          title_english: item.title_english.value,
-          title_japanese: item.title_japanese.value,
+          title_english: title_aux,
           img: item.img.value,
-          score: item.score.value,
         }
       }
     },
