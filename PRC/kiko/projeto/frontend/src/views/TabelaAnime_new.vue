@@ -1,9 +1,7 @@
 <template>
   <v-container>
-    <h1> <mark> DEBUG </mark> </h1>
-    <!-- <p>{{animes}}</p> -->
-    <!-- <p>{{animesSimple}}</p> -->
-    <p>{{this.$route.query.genre}}</p>
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+    <!-- <p>{{this.$route.query.genre}}</p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
     <v-flex xs12>

@@ -1,13 +1,16 @@
 <template>
   <v-flex>
-    <h1> <mark> DEBUG </mark> </h1>
-    <!-- <span>{{this.name}}</span> -->
-    <!-- <span>{{this.genre}}</span> -->
-    <!-- <span>{{this.genres}}</span> -->
-    <!-- <span>{{this.animes}}</span> -->
-    <!-- <span>{{this.animesSimple}}</span> -->
-    <!-- <span>{{this.route}}</span> -->
-    <!-- <span>{{filteredList}}</span> -->
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+    <!-- <p>{{this.$route.query.genre}}</p> -->
+    <!-- <p>{{this.$route.query.producer}}</p> -->
+    <!-- <p>{{this.$route.query.studio}}</p> -->
+    <!-- <p>{{this.name}}</p> -->
+    <!-- <p>{{this.genre}}</p> -->
+    <!-- <p>{{this.genres}}</p> -->
+    <!-- <p>{{this.animes}}</p> -->
+    <!-- <p>{{this.animesSimple}}</p> -->
+    <!-- <p>{{this.route}}</p> -->
+    <!-- <p>{{filteredList}}</p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
     <v-toolbar dark color="indigo darken-2" flat>
@@ -95,8 +98,8 @@
               <v-layout fill-height px-2 pt-1>
                 <v-flex xs12 flexbox class="text-xs-center">
                   <span class="title">{{card.title}}</span>
-                  <!-- <v-spacer v-if="card.title_english"/> -->
-                  <!-- <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span> -->
+                  <v-spacer v-if="card.title_english"/>
+                  <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span>
                   </v-flex>
               </v-layout>
               <v-img
@@ -121,7 +124,7 @@
   export default {
     props: ["name","route"],
     data: () => ({
-      pageSize: 8,
+      pageSize: 20,
       genreSelected: 'Any',
       producerSelected: 'Any',
       studioSelected: 'Any',
@@ -136,11 +139,17 @@
     }),
     mounted: async function (){
       try{
-        var response
-        response = await axios.get(lhost+'/query/variable/anime_much_info');
-        this.animes = response.data.results.bindings
-        this.animesSimple = this.animes.map(this.simplify)
+        // verificar url query for values
+        if(this.$route.query.genre)
+          this.genreSelected = this.$route.query.genre
+        if(this.$route.query.producer)
+          this.producerSelected = this.$route.query.producer
+        if(this.$route.query.studio)
+          this.studioSelected = this.$route.query.studio
+        // get list
+        this.refreshList()
 
+        var response
         // genre list
         response = await axios.get(lhost+'/query/genre_list');
         this.genre = response.data.results.bindings
@@ -185,7 +194,6 @@
           this.currentPage = maxPage||1
       },
       refreshList: async function () {
-        this.nameNew = this.name
         var query = '?'
         if(this.genreSelected!='Any')
           query+= 'genre='+this.genreSelected+'&'
@@ -193,7 +201,7 @@
           query+= 'producer='+this.producerSelected+'&'
         if(this.studioSelected!='Any')
           query+= 'studio='+this.studioSelected+'&'
-        console.log(query)
+        // console.log(query)
         try{
           var response = await axios.get(lhost+'/query/variable/anime_much_info'+query);
           this.animes = response.data.results.bindings
