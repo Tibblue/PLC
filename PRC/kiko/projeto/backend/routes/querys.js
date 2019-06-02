@@ -6,8 +6,10 @@ var router = express.Router();
 
 var querys = require('../querys/sparqlQuerys'); //ficheiro de querys
 var querys1attr = require('../querys/sparqlQuerys1attr'); //ficheiro de querys1attr
+var querysVariable = require('../querys/sparqlQuerysVariable'); //ficheiro de querysVariable
 var querysDebug = require('../querys/sparqlQuerys_debug'); //ficheiro de querysDebug
 // console.log(querys) // debug
+// console.log(querysVariable.anime_much_info('Comedy', undefined, undefined)) // debug
 
 /* GraphDB endpoint */
 var endpoint = 'http://localhost:7200/repositories/projetoBeta'
@@ -50,6 +52,29 @@ router.get('/:queryName', function(req, res, next) {
   .catch(err => console.log('ERRO: ' + err));
 });
 
+/* GET any Saved Query. */
+router.get('/variable/:queryName', function (req, res, next) {
+  var queryName = req.params.queryName
+  var genre = req.query.genre
+  var producer = req.query.producer
+  var studio = req.query.studio
+  console.log(genre, producer, studio) // debug
+  var query = querysVariable[queryName](genre, producer, studio)
+  var encoded = encodeURIComponent(query)
+
+
+  console.log('PEDIDO: ' + queryName + ' (Saved Query auto)')
+  console.log('        |>Genre= ' + genre)
+  console.log('        |>Producer= ' + producer)
+  console.log('        |>Studio= ' + studio)
+  // console.log('Query: \n' + query)
+
+  axios.get(endpoint + '?query=' + encoded, {
+    headers: { Accept: 'application/sparql-results+json' }
+  })
+    .then(response => res.jsonp(response.data))
+    .catch(err => console.log('ERRO: ' + err));
+});
 
 
 ////  Prepared querys  ////
@@ -70,45 +95,6 @@ router.get('/:queryName/:attr', function(req, res, next) {
   })
   .then(response => res.jsonp(response.data))
   .catch(err => console.log('ERRO: ' + err));
-});
-
-
-
-////  OTHERS  ////
-/* GET getClasses. */
-router.get('/others/getClasses', function(req, res, next) {
-  var endpoint = 'http://localhost:7200/repositories/projetoBeta'
-  var encoded = encodeURIComponent('select * where { ?s a owl:Class }')
-
-  console.log('PEDIDO: getClasses')
-  // console.log('Query: \n' + query);
-  // console.log('Encoded: \n' + encoded);
-
-  axios.get(endpoint + '?query=' + encoded, {
-    headers: { Accept: 'application/sparql-results+json' }
-  })
-  .then(response => res.jsonp(response.data))
-  .catch(err => console.log('ERRO: ' + err));
-});
-
-/* GET getNumClasses (Saved Query) */
-router.get('/others/getNumClasses', function (req, res, next) {
-  var url = 'http://localhost:7200/rest/sparql/saved-queries?name='
-  var encodedName = encodeURIComponent('conta_classes')
-  axios.get(url+encodedName)
-    .then(response => {
-      var query = response.data.body
-      var encoded = encodeURIComponent(query)
-      console.log('PEDIDO: getNumClasses (Saved Query)')
-      // console.log('Query: \n' + response.data.body)
-
-      axios.get(endpoint + '?query=' + encoded, {
-        headers: { Accept: 'application/sparql-results+json' }
-      })
-      .then(response => res.jsonp(response.data))
-      .catch(err => console.log('ERRO: ' + err));
-    })
-    .catch(err => console.log('ERRO: ' + err))
 });
 
 

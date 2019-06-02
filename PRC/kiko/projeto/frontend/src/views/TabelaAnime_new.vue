@@ -1,6 +1,11 @@
 <template>
   <v-container>
 
+    <h1> <mark> DEBUG </mark> </h1>
+    <!-- <p>{{animes}}</p> -->
+    <!-- <p>{{animesSimple}}</p> -->
+    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+
     <v-flex xs12>
       <cardTableAnime
         name="Animes"

@@ -1,6 +1,6 @@
 <template>
   <v-flex>
-    <!-- <h1> <mark> DEBUG </mark> </h1> -->
+    <h1> <mark> DEBUG </mark> </h1>
     <!-- <span>{{this.name}}</span> -->
     <!-- <span>{{this.list}}</span> -->
     <!-- <span>{{this.route}}</span> -->
@@ -46,7 +46,7 @@
           v-model="pageSize"
           :items="nItems"
           label="Elements per Page"
-          @click="checkPage()"
+          @change="checkPage()"
         ></v-combobox>
       </v-flex>
     </v-toolbar>
@@ -56,7 +56,7 @@
           v-model="genreSelected"
           :items="genres"
           label="Genre"
-          @click="checkPage()"
+          @change="checkPage()"
         ></v-combobox>
       </v-flex>
       <v-flex xs4 px-2>
@@ -64,7 +64,7 @@
           v-model="producerSelected"
           :items="producers"
           label="Producer"
-          @click="checkPage()"
+          @change="checkPage()"
         ></v-combobox>
       </v-flex>
       <v-flex xs4 px-2>
@@ -72,7 +72,7 @@
           v-model="studioSelected"
           :items="studios"
           label="Studio"
-          @click="checkPage()"
+          @change="checkPage()"
         ></v-combobox>
       </v-flex>
     </v-toolbar>

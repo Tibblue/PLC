@@ -16,13 +16,6 @@ select ?id ?title where {
     ?anime :id ?id .
     ?anime :title ?title .
 }`,
-  genre_id_label: `
-PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
-select ?id ?label where {
-    ?genre a :Genre .
-    ?genre :id ?id .
-    ?genre :label ?label .
-}`,
   producer_id_label: `
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select ?id ?label where {
@@ -37,4 +30,9 @@ select ?id ?label where {
     ?studio :id ?id .
     ?studio :label ?label .
 }`,
+  genre_list: `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct ?genre where {
+    ?genre a :Genre .
+}`
 }
