@@ -4,9 +4,29 @@
 
     <v-flex>
       <v-card>
-        <v-card-text class="text-xs-center">
-          <h1> {{this.title}} </h1>
-        </v-card-text>
+        <v-layout>
+          <v-flex xs4>
+            <v-img
+              class="white--text"
+              width="266"
+              ratio=1.6
+              :src="this.img"
+            />
+          </v-flex>
+          <v-flex xs4>
+            <v-card-text class="text-xs-center">
+              <h1> {{this.title}} </h1>
+              <h2> {{this.title_english}} </h2>
+              <h2> {{this.title_japanese}} </h2>
+            </v-card-text>
+          </v-flex>
+          <v-flex xs4>
+            <v-card-text class="text-xs-center">
+              <h1> {{this.type}} </h1>
+              <!-- <h2> {{this.score}} </h2> -->
+            </v-card-text>
+          </v-flex>
+        </v-layout>
 
         <v-container grid-list-sm>
           <v-layout row wrap>
@@ -47,9 +67,9 @@
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <h1> ANIME: {{this.idAnime}} </h1> -->
-    <!-- <li v-for="item in animeResponse" :key="item"> -->
-      <!-- <b>{{item.p.value.split('#')[1]}} :</b> {{item.o.value}} -->
-    <!-- </li> -->
+    <li v-for="item in animeResponse" :key="item">
+      <b>{{item.p.value.split('#')[1]}} :</b> {{item.o.value}}
+    </li>
     <!-- <p> {{animeResponse}} </p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
@@ -67,8 +87,12 @@
     },
     data: () => ({
       idAnime: '',
-      animeResponse: {},
       title: '',
+      title_english: '',
+      title_japanese: '',
+      img: '',
+      type: '',
+      animeResponse: {},
       genres: [],
       producers: [],
       studios: [],
@@ -91,6 +115,18 @@
         switch (item.p.value.split('#')[1]) {
           case "title":
             this.title = item.o.value
+            break;
+          case "title_english":
+            this.title_english = item.o.value
+            break;
+          case "title_japanese":
+            this.title_japanese = item.o.value
+            break;
+          case "img":
+            this.img = item.o.value
+            break;
+          case "type":
+            this.type = item.o.value
             break;
           case "hasGenre":
             this.genres.push(item.o.value.split('#GENRE_')[1])
