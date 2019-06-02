@@ -79,7 +79,7 @@
     mounted: async function (){
       this.idAnime = this.$route.params.id
       try{
-        var response = await axios.get(lhost+'/query/anime_info_id/'+this.idAnime);
+        var response = await axios.get(lhost+'/query/infoBy_id/'+this.idAnime);
         this.animeResponse = response.data.results.bindings
         // console.log(this.animeResponse) // debug
       }

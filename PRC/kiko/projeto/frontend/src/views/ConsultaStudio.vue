@@ -58,7 +58,7 @@
     mounted: async function (){
       this.idStudio = this.$route.params.id
       try{
-        var response = await axios.get(lhost+'/query/studio_info_id/'+this.idStudio);
+        var response = await axios.get(lhost+'/query/infoBy_id/'+this.idStudio);
         this.studioResponse = response.data.results.bindings
         // console.log(this.studioResponse) // debug
       }
