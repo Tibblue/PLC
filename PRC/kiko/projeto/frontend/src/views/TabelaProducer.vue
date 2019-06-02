@@ -41,7 +41,10 @@
     },
     methods: {
       simplify: function (item) {
-        return {id:item.id.value, label:item.label.value}
+        return {
+          id:item.id.value,
+          label:item.label.value
+        }
       }
     }
   }

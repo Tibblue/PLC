@@ -35,7 +35,7 @@ export default new Router({
     {
       path: '/producers/:id',
       name: 'producerInfo',
-      component: () => import('./views/ConsultaPerson.vue')
+      component: () => import('./views/ConsultaProducer.vue')
     },
     {
       path: '/studios/:id',
