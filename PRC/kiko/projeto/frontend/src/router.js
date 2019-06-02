@@ -18,14 +18,9 @@ export default new Router({
       component: () => import('./views/TabelaAnime.vue')
     },
     {
-      path: '/genres',
-      name: 'genreList',
-      component: () => import('./views/TabelaAnime.vue')
-    },
-    {
       path: '/producers',
       name: 'producerList',
-      component: () => import('./views/TabelaPerson.vue')
+      component: () => import('./views/TabelaProducer.vue')
     },
     {
       path: '/studios',
@@ -35,11 +30,6 @@ export default new Router({
     {
       path: '/animes/:id',
       name: 'animeInfo',
-      component: () => import('./views/ConsultaAnime.vue')
-    },
-    {
-      path: '/genres/:id',
-      name: 'genreInfo',
       component: () => import('./views/ConsultaAnime.vue')
     },
     {
