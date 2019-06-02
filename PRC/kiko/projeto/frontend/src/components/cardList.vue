@@ -16,7 +16,7 @@
           <template v-for="item in this.list">
             <v-list-tile @click="itemClicked(item.id)" :key="item.id">
               <v-list-tile-content>
-                <v-list-tile-title> {{fixName(item.id)}} </v-list-tile-title>
+                <v-list-tile-title> {{item.label}} </v-list-tile-title>
                 <!-- <v-list-tile-subtitle> {{item.id}} </v-list-tile-subtitle> -->
               </v-list-tile-content>
             </v-list-tile>
@@ -37,9 +37,6 @@
     methods: {
       itemClicked: function (item) {
         this.$router.push('/'+this.route+'/'+item)
-      },
-      fixName: function (name) {
-        return name.replace(/_/g, " ")
       },
     },
     computed: {

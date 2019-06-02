@@ -67,9 +67,9 @@
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <h1> ANIME: {{this.idAnime}} </h1> -->
-    <li v-for="item in animeResponse" :key="item">
-      <b>{{item.p.value.split('#')[1]}} :</b> {{item.o.value}}
-    </li>
+    <!-- <li v-for="item in animeResponse" :key="item"> -->
+      <!-- <b>{{item.p.value.split('#')[1]}} :</b> {{item.o.value}} -->
+    <!-- </li> -->
     <!-- <p> {{animeResponse}} </p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
@@ -129,13 +129,13 @@
             this.type = item.o.value
             break;
           case "hasGenre":
-            this.genres.push(item.o.value.split('#GENRE_')[1])
+            this.genres.push(item.o.value.split('#')[1])
             break;
           case "hasProducer":
-            this.producers.push(item.o.value.split('#PRODUCER_')[1])
+            this.producers.push(item.o.value.split('#')[1])
             break;
           case "hasStudio":
-            this.studios.push(item.o.value.split('#STUDIO_')[1])
+            this.studios.push(item.o.value.split('#')[1])
             break;
           default:
             console.log("FDS")
@@ -148,10 +148,17 @@
     },
     methods: {
       fixName: function (name) {
-        return name.replace(/_/g, " ")
+        name = name.replace(/GENRE_/g, "")
+        name = name.replace(/PRODUCER_/g, "")
+        name = name.replace(/STUDIO_/g, "")
+        name = name.replace(/_/g, " ")
+        return name
       },
       simplify: function (item) {
-        return {id:item}
+        return {
+          id:item,
+          label:this.fixName(item)
+        }
       },
       goBack: function() {
         this.$router.go(-1)
