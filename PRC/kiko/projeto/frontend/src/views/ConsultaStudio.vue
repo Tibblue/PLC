@@ -6,7 +6,7 @@
       <v-card>
         <v-card-text class="text-xs-center">
           <h1 v-if="this.label"> {{this.label}} </h1>
-          <h1 v-else> {{fixName(this.idNetwork)}} </h1>
+          <h1 v-else> {{fixName(this.idStudio)}} </h1>
         </v-card-text>
 
         <v-container>
@@ -28,11 +28,11 @@
     </v-flex>
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
-    <!-- <h1> NETWORK: {{this.idNetwork}} </h1> -->
-    <!-- <li v-for="item in networkResponse" :key="item"> -->
+    <!-- <h1> NETWORK: {{this.idStudio}} </h1> -->
+    <!-- <li v-for="item in studioResponse" :key="item"> -->
       <!-- <b>{{item.p.value.split('#')[1]}} :</b> {{item.o.value}} -->
     <!-- </li> -->
-    <!-- <p> {{networkResponse}} </p> -->
+    <!-- <p> {{studioResponse}} </p> -->
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
 
   </v-container>
@@ -48,45 +48,53 @@
       cardTable,
     },
     data: () => ({
-      idNetwork: '',
-      networkResponse: {},
+      idStudio: '',
+      id: '',
       label: '',
+      studioResponse: {},
       animes: [],
       animesSimple: [],
-      dbpedia: '',
     }),
     mounted: async function (){
-      this.idNetwork = this.$route.params.id
+      this.idStudio = this.$route.params.id
       try{
-        var response = await axios.get(lhost+'/query/network_info_id/'+this.idNetwork);
-        this.networkResponse = response.data.results.bindings
-        console.log(this.networkResponse) // debug
+        var response = await axios.get(lhost+'/query/studio_info_id/'+this.idStudio);
+        this.studioResponse = response.data.results.bindings
+        // console.log(this.studioResponse) // debug
       }
       catch(e){
         return(e);
       }
-      this.networkResponse.forEach(item => {
+      this.studioResponse.forEach(item => {
         // console.log(item)
         switch (item.p.value.split('#')[1]) {
+          case "id":
+            this.id = item.o.value
+            break;
           case "label":
             this.label = item.o.value
             break;
-          case "produced":
-            this.animes.push(item.o.value.split('#ANIME_')[1])
-            break;
-          case "dbpedia":
-            this.dbpedia = item.o.value
+          case "designedBy":
+            this.animes.push(item.o.value.split('#')[1])
             break;
           default:
             console.log("FDS")
             break;
         }
       })
-      this.animesSimple = this.animes.map(item => {return {id:item}})
+      this.animesSimple = this.animes.map(this.simplify)
     },
     methods: {
+      simplify: function (item) {
+        return {
+          id:item,
+          label:this.fixName(item)
+        }
+      },
       fixName: function (name) {
-        return name.replace(/_/g, " ")
+        name = name.replace(/ANIME_\d+/g, "") // removes id number at the start
+        name = name.replace(/_/g, " ")
+        return name
       },
       goBack: function() {
         this.$router.go(-1)
