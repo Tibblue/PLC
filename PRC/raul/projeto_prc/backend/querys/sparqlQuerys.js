@@ -42,7 +42,7 @@ select distinct (?director as ?person) ?label where {
 }`,
   teste:`
 PREFIX : <http://www.semanticweb.org/raul/ontologies/2019/projeto#>
-select ?id ?author ?nvol where { 
+select ?id ?author ?nvol where {
   ?id ?p :Manga .
   ?id :hasAuthor ?author.
   ?id :num_volumes ?nvol
@@ -51,9 +51,9 @@ order by desc(?nvol)
   `,
   lista_manga:`
   PREFIX : <http://www.semanticweb.org/raul/ontologies/2019/projeto#>
-  select ?manga where { 
-      ?s :label ?manga.
-      ?s ?p :Manga
+  select ?id where {
+      ?id :label ?manga.
+      ?id ?p :Manga
   }
   `
 }

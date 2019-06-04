@@ -16,6 +16,10 @@ def n_gram(texto,n):
     return ngrams
 
 
+x = n_gram("sou uma batata daquelas batatas bue batata",3)
+print("sou uma batata daquelas batatas bue batata")
+print(x)
+
 def find(palavra,pal_polaridade,textos,n):
     for texto in textos:
         ngrams_com_palavra = []
@@ -30,18 +34,18 @@ def find(palavra,pal_polaridade,textos,n):
         else:
             meio = round(n/2)
         for ngram in ngrams_com_palavra:
-            for i in range(meio,len(ngram)): 
+            for i in range(meio,len(ngram)):
                 if ngram[meio] == 'batatas':
                     print(ngram)
             # print(len(ngram))
             # for meio in range(len(ngram)):
             #     if ngram[meio] == 'batatas':
             #         print(ngram)
-                    
+
         # print(ngrams_com_palavra)
         # print()
 
-find('batatas',dic_polaridade,textos,10)
+# find('batatas',dic_polaridade,textos,10)
 
 # print(count_char_occur(textos[0]))
 # count_char_occur(string)
