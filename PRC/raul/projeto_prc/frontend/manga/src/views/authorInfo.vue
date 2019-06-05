@@ -1,8 +1,8 @@
 1<template>
   <v-container>
-    <h1>{{fixName(this.$route.params.id)}}</h1>
+    <!-- <h1>{{fixName(this.$route.params.id)}}</h1>
     <p>{{author_info}}</p>
-    <p>{{mangas}}</p>
+    <p>{{mangas}}</p> -->
     <!-- <p>{{magazines}}</p> -->
     <!-- <p>{{publishers}}</p> -->
 
@@ -17,7 +17,7 @@
           <v-layout row wrap>
             <v-flex xs6>
               <cardList
-                name="mangas"
+                name="Lista de Mangas"
                 :list="mangasSimple"
                 route="mangas"
               ></cardList>
@@ -32,7 +32,7 @@
     </v-flex>
 
     <v-flex>
-      <v-btn @click="goBack()" color="info">Voltar à página anterior</v-btn>
+      <v-btn @click="goBack()" color="black" dark>Voltar à página anterior</v-btn>
     </v-flex>
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->

@@ -51,9 +51,33 @@ order by desc(?nvol)
   `,
   lista_manga:`
   PREFIX : <http://www.semanticweb.org/raul/ontologies/2019/projeto#>
-  select ?id where {
+  select ?id ?data_i ?data_f ?nvol where {
       ?id :label ?manga.
-      ?id ?p :Manga
+      ?id ?p :Manga.
+      OPTIONAL {?id :first_publication ?data_i.}
+      OPTIONAL {?id :last_publication ?data_f.}
+      OPTIONAL {?id :num_volumes ?nvol}
   }
-  `
+order by (?id)`,
+  listar_author:`
+    PREFIX : <http://www.semanticweb.org/raul/ontologies/2019/projeto#>
+  select ?id where {
+      ?id :label ?author.
+      ?id ?p :Author
+  }
+  order by (?id)`,
+  listar_magazine:`
+    PREFIX : <http://www.semanticweb.org/raul/ontologies/2019/projeto#>
+  select ?id where {
+      ?id :label ?magazine.
+      ?id ?p :Magazine
+  }
+  order by (?id)`,
+  listar_publisher:`
+    PREFIX : <http://www.semanticweb.org/raul/ontologies/2019/projeto#>
+  select ?id where {
+      ?id :label ?publisher.
+      ?id ?p :Publisher
+  }
+  order by (?id)`
 }

@@ -51,7 +51,7 @@ def doManga():
                         print(f':{id} :hasAuthor :{"AUTHOR_"+fix_id(s1[i])} .')
                         authors.append((s1[i]))
                 if row[2]!='NULL':
-                    r2 = re.search(r"{(.*)}",row[2]) 
+                    r2 = re.search(r"{(\d+-\d+-\d+).*}",row[2])
                     if r2: # caso com mais que um elementos
                         s2 = r2.group(1).split('|')
                     else: # caso com um elemento
@@ -59,7 +59,7 @@ def doManga():
                     for i in range(len(s2)):
                         print(f':{id} :first_publication "{s2[i]}" .')
                 if row[3]!='NULL':
-                    r3 = re.search(r"{(.*)}",row[3]) 
+                    r3 = re.search(r"{(\d+-\d+-\d+).*}",row[3])
                     if r3: # caso com mais que um elementos
                         s3 = r3.group(1).split('|')
                     else: # caso com um elemento
@@ -76,7 +76,7 @@ def doManga():
                         print(f':{id} :hasMagazine :{"MAGAZINE_"+fix_id(s4[i])} .')
                         magazines.append((s4[i]))
                 if row[5]!='NULL':
-                    r5 = re.search(r"{(.*)}",row[5]) 
+                    r5 = re.search(r"{(\d+).*}",row[5])
                     if r5: # caso com mais que um elementos
                         s5 = r5.group(1).split('|')
                     else: # caso com um elemento
@@ -91,8 +91,9 @@ def doManga():
                         s6 = [row[6]]
                     for i in range(len(s6)):
                         print(f':{id} :hasPublisher :{"PUBLISHER_"+fix_id(s6[i])} .')
-                        publishers.append((s6[i]))                        
+                        publishers.append((s6[i]))
             print()
+            # MANGA_Aiyoku_no_Eustia
 
 def doAuthor():
     global authors

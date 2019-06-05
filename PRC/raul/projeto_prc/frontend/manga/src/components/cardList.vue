@@ -1,5 +1,4 @@
 <template>
-  <v-flex>
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <span>{{this.name}}</span> -->
     <!-- <span>{{this.list}}</span> -->
@@ -9,7 +8,7 @@
 
     <v-flex xs12>
       <v-card>
-        <v-toolbar color="indigo" dark>
+        <v-toolbar color="blue darken-3" dark>
           <v-toolbar-title> {{this.name}} </v-toolbar-title>
         </v-toolbar>
         <v-list subheader>
@@ -24,8 +23,6 @@
         </v-list>
       </v-card>
     </v-flex>
-
-  </v-flex>
 </template>
 
 <script>

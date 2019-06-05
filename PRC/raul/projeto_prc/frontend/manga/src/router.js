@@ -19,6 +19,21 @@ export default new Router({
       component: () => import('./views/TabelaManga.vue')
     },
     {
+      path: '/authors',
+      name: 'authorsList',
+      component: () => import('./views/TabelaAuthor.vue')
+    },
+    {
+      path: '/magazines_publishers',
+      name: 'magazinesList',
+      component: () => import('./views/TabelaMagazinePublisher.vue')
+    },
+    {
+      path: '/publishers',
+      name: 'publisherList',
+      component: () => import('./views/TabelaPublisher.vue')
+    },
+    {
       path: '/mangas/:id',
       name: 'mangaInfo',
       component: () => import('./views/mangaInfo.vue')

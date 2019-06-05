@@ -7,11 +7,25 @@
         single-line
       />
     </v-card-title> -->
-    <h1 @click="this.$router.push('/mangas')">Mangas</h1>
+    <h1 @click="goToTable('mangas')">Mangas</h1>
+    <h1 @click="goToTable('authors')">Autores</h1>
+    <h1 @click="goToTable('magazines_publishers')">Revistas/Editoras</h1>
+    <!-- <h1 @click="goToTable('publishers')">Editoras</h1> -->
+
   </v-flex>
 </template>
 
 <script>
+  export default {
+    data: () => ({
+      // animes: []
+    }),
+    methods: {
+      goToTable: function (table) {
+        this.$router.push('/'+table)
+      }
+    }
+  }
 </script>
 
 <style>

@@ -1,54 +1,50 @@
 1<template>
   <v-container>
-    <h1>{{fixName(this.$route.params.id)}}</h1>
+    <!-- <h1>{{fixName(this.$route.params.id)}}</h1>
     <p>{{manga_info}}</p>
     <p>{{authors}}</p>
     <p>{{magazines}}</p>
     <p>{{publishers}}</p>
     <p>{{first_publication}}</p>
     <p>{{last_publication}}</p>
-    <p>{{num_volumes}}</p>
-
-
+    <p>{{num_volumes}}</p> -->
 
     <v-flex>
       <v-card>
         <v-card-text class="text-xs-center">
           <h1 v-if="this.label"> Anime: {{this.label}} </h1>
-          <h1 v-else> {{fixName(this.idAnime)}} </h1>
+          <h1 v-else> {{fixName(this.idManga)}} </h1>
         </v-card-text>
 
         <v-container grid-list-sm>
+          <h1>Informação:</h1>
+          <v-flex>
+            <h2> Data da primeira publicação: {{first_publication[0]}} </h2>
+            <h2> Data da última publicação: {{last_publication[0]}} </h2>
+            <h2> Número de volumas: {{num_volumes[0]}} </h2>
+          <!-- <v-spacer></v-spacer> -->
+          </v-flex>
           <v-layout row wrap>
-            <v-flex xs6>
+            <v-flex xs3 mt-2 mr-2>
               <cardList
                 name="Authors"
                 :list="authorsSimple"
                 route="authors"
               ></cardList>
             </v-flex>
-            <v-flex xs6>
+            <v-flex xs3 mt-2 mr-2>
               <cardList
                 name="Magazines"
                 :list="magazinesSimple"
                 route="magazines"
               ></cardList>
             </v-flex>
-            <v-flex xs6>
+            <v-flex xs3 mt-2>
               <cardList
                 name="Publisher"
                 :list="publishersSimple"
                 route="publisher"
               ></cardList>
-            </v-flex>
-            <v-flex xs6>
-              <h2> {{first_publication[0]}} </h2>
-            </v-flex>
-            <v-flex xs6>
-              <h2> {{last_publication[0]}} </h2>
-            </v-flex>
-            <v-flex xs6>
-              <h2> {{num_volumes[0]}} </h2>
             </v-flex>
           </v-layout>
 
@@ -59,11 +55,11 @@
     </v-flex>
 
     <v-flex>
-      <v-btn @click="goBack()" color="info">Voltar à página anterior</v-btn>
+      <v-btn @click="goBack()" color="black" dark>Voltar à página anterior</v-btn>
     </v-flex>
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
-    <!-- <h1> ANIME: {{this.idAnime}} </h1> -->
+    <!-- <h1> ANIME: {{this.idManga}} </h1> -->
     <!-- <li v-for="item in animeResponse" :key="item"> -->
       <!-- <b>{{item.p.value.split('#')[1]}} :</b> {{item.o.value}} -->
     <!-- </li> -->
@@ -83,7 +79,7 @@
       cardList
     },
     data: () => ({
-      idAnime: '',
+      idManga: '',
       manga_info: {},
       label: '',
       authors: [],
@@ -100,9 +96,9 @@
 
     }),
     mounted: async function (){
-      this.idAnime = this.$route.params.id
+      this.idManga = this.$route.params.id
       try{
-        var response = await axios.get(lhost+'/query/manga_info_id/'+this.idAnime);
+        var response = await axios.get(lhost+'/query/manga_info_id/'+this.idManga);
         this.manga_info = response.data.results.bindings
         // console.log(this.animeResponse) // debug
       }
