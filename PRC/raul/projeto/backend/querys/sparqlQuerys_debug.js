@@ -1,4 +1,3 @@
 // QUERYS
 module.exports = {
-
 }

@@ -7,7 +7,7 @@
         single-line
       />
     </v-card-title> -->
-    <h1 @click="goToTable('mangas')">Mangas</h1>
+    <h1 @click="goToTable('cartas')">cartas</h1>
     <h1 @click="goToTable('authors')">Autores</h1>
     <h1 @click="goToTable('magazines_publishers')">Revistas/Editoras</h1>
     <!-- <h1 @click="goToTable('publishers')">Editoras</h1> -->

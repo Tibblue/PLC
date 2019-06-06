@@ -3,7 +3,7 @@
     <v-toolbar dark>
       <v-toolbar-items>
         <v-btn flat @click="goToHome()"><h2>Home</h2></v-btn>
-        <v-btn flat @click="goToTable('mangas')"><h3>Mangas</h3></v-btn>
+        <v-btn flat @click="goToTable('cartas')"><h3>Cartas</h3></v-btn>
         <v-btn flat @click="goToTable('authors')"><h3>Autores</h3></v-btn>
         <v-btn flat @click="goToTable('magazines_publishers')"><h3>Revistas/Editores</h3></v-btn>
       </v-toolbar-items>
