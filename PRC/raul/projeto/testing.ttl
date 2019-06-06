@@ -2476,123 +2476,123 @@
 
 #####  PLAYERCLASS  #####
 
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_ROGUE
+:PLAYERCLASS_ROGUE rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_ROGUE :label "ROGUE".
+
 ###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_PALADIN
 :PLAYERCLASS_PALADIN rdf:type owl:NamedIndividual, :PlayerClass.
 :PLAYERCLASS_PALADIN :label "PALADIN".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_DREAM
-:PLAYERCLASS_DREAM rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_DREAM :label "DREAM".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_NEUTRAL
-:PLAYERCLASS_NEUTRAL rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_NEUTRAL :label "NEUTRAL".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_SHAMAN
-:PLAYERCLASS_SHAMAN rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_SHAMAN :label "SHAMAN".
 
 ###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_DEATHKNIGHT
 :PLAYERCLASS_DEATHKNIGHT rdf:type owl:NamedIndividual, :PlayerClass.
 :PLAYERCLASS_DEATHKNIGHT :label "DEATHKNIGHT".
 
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_HUNTER
-:PLAYERCLASS_HUNTER rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_HUNTER :label "HUNTER".
-
 ###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_MAGE
 :PLAYERCLASS_MAGE rdf:type owl:NamedIndividual, :PlayerClass.
 :PLAYERCLASS_MAGE :label "MAGE".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_PRIEST
-:PLAYERCLASS_PRIEST rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_PRIEST :label "PRIEST".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_WARLOCK
-:PLAYERCLASS_WARLOCK rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_WARLOCK :label "WARLOCK".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_ROGUE
-:PLAYERCLASS_ROGUE rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_ROGUE :label "ROGUE".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_WARRIOR
-:PLAYERCLASS_WARRIOR rdf:type owl:NamedIndividual, :PlayerClass.
-:PLAYERCLASS_WARRIOR :label "WARRIOR".
 
 ###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_DRUID
 :PLAYERCLASS_DRUID rdf:type owl:NamedIndividual, :PlayerClass.
 :PLAYERCLASS_DRUID :label "DRUID".
 
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_DREAM
+:PLAYERCLASS_DREAM rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_DREAM :label "DREAM".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_WARRIOR
+:PLAYERCLASS_WARRIOR rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_WARRIOR :label "WARRIOR".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_HUNTER
+:PLAYERCLASS_HUNTER rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_HUNTER :label "HUNTER".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_PRIEST
+:PLAYERCLASS_PRIEST rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_PRIEST :label "PRIEST".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_SHAMAN
+:PLAYERCLASS_SHAMAN rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_SHAMAN :label "SHAMAN".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_WARLOCK
+:PLAYERCLASS_WARLOCK rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_WARLOCK :label "WARLOCK".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#PLAYERCLASS_NEUTRAL
+:PLAYERCLASS_NEUTRAL rdf:type owl:NamedIndividual, :PlayerClass.
+:PLAYERCLASS_NEUTRAL :label "NEUTRAL".
+
 
 
 #####  SET  #####
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_LOE
-:SET_LOE rdf:type owl:NamedIndividual, :Set.
-:SET_LOE :label "LOE".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_NAXX
-:SET_NAXX rdf:type owl:NamedIndividual, :Set.
-:SET_NAXX :label "NAXX".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_CORE
-:SET_CORE rdf:type owl:NamedIndividual, :Set.
-:SET_CORE :label "CORE".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_BRM
-:SET_BRM rdf:type owl:NamedIndividual, :Set.
-:SET_BRM :label "BRM".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_GVG
-:SET_GVG rdf:type owl:NamedIndividual, :Set.
-:SET_GVG :label "GVG".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_HERO_SKINS
-:SET_HERO_SKINS rdf:type owl:NamedIndividual, :Set.
-:SET_HERO_SKINS :label "HERO_SKINS".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_CHEAT
-:SET_CHEAT rdf:type owl:NamedIndividual, :Set.
-:SET_CHEAT :label "CHEAT".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_KARA
-:SET_KARA rdf:type owl:NamedIndividual, :Set.
-:SET_KARA :label "KARA".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_REWARD
-:SET_REWARD rdf:type owl:NamedIndividual, :Set.
-:SET_REWARD :label "REWARD".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_TGT
-:SET_TGT rdf:type owl:NamedIndividual, :Set.
-:SET_TGT :label "TGT".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_GANGS
-:SET_GANGS rdf:type owl:NamedIndividual, :Set.
-:SET_GANGS :label "GANGS".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_MISSIONS
-:SET_MISSIONS rdf:type owl:NamedIndividual, :Set.
-:SET_MISSIONS :label "MISSIONS".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_OG
-:SET_OG rdf:type owl:NamedIndividual, :Set.
-:SET_OG :label "OG".
-
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_TB
-:SET_TB rdf:type owl:NamedIndividual, :Set.
-:SET_TB :label "TB".
 
 ###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_CREDITS
 :SET_CREDITS rdf:type owl:NamedIndividual, :Set.
 :SET_CREDITS :label "CREDITS".
 
-###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_EXPERT1
-:SET_EXPERT1 rdf:type owl:NamedIndividual, :Set.
-:SET_EXPERT1 :label "EXPERT1".
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_KARA
+:SET_KARA rdf:type owl:NamedIndividual, :Set.
+:SET_KARA :label "KARA".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_CHEAT
+:SET_CHEAT rdf:type owl:NamedIndividual, :Set.
+:SET_CHEAT :label "CHEAT".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_TB
+:SET_TB rdf:type owl:NamedIndividual, :Set.
+:SET_TB :label "TB".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_TGT
+:SET_TGT rdf:type owl:NamedIndividual, :Set.
+:SET_TGT :label "TGT".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_CORE
+:SET_CORE rdf:type owl:NamedIndividual, :Set.
+:SET_CORE :label "CORE".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_OG
+:SET_OG rdf:type owl:NamedIndividual, :Set.
+:SET_OG :label "OG".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_GANGS
+:SET_GANGS rdf:type owl:NamedIndividual, :Set.
+:SET_GANGS :label "GANGS".
 
 ###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_PROMO
 :SET_PROMO rdf:type owl:NamedIndividual, :Set.
 :SET_PROMO :label "PROMO".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_BRM
+:SET_BRM rdf:type owl:NamedIndividual, :Set.
+:SET_BRM :label "BRM".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_HERO_SKINS
+:SET_HERO_SKINS rdf:type owl:NamedIndividual, :Set.
+:SET_HERO_SKINS :label "HERO_SKINS".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_REWARD
+:SET_REWARD rdf:type owl:NamedIndividual, :Set.
+:SET_REWARD :label "REWARD".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_GVG
+:SET_GVG rdf:type owl:NamedIndividual, :Set.
+:SET_GVG :label "GVG".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_EXPERT1
+:SET_EXPERT1 rdf:type owl:NamedIndividual, :Set.
+:SET_EXPERT1 :label "EXPERT1".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_MISSIONS
+:SET_MISSIONS rdf:type owl:NamedIndividual, :Set.
+:SET_MISSIONS :label "MISSIONS".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_NAXX
+:SET_NAXX rdf:type owl:NamedIndividual, :Set.
+:SET_NAXX :label "NAXX".
+
+###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#SET_LOE
+:SET_LOE rdf:type owl:NamedIndividual, :Set.
+:SET_LOE :label "LOE".
 

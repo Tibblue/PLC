@@ -37,9 +37,9 @@ def doCard():
             if row[0]!="":
                 id = row[0]
                 id = "CARD_"+ id
-                print("###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#"+id)
-                print(f':{id} rdf:type owl:NamedIndividual, :Card.')
-                print(f':{id} :label "{row[0]}" .')
+                # print("###  http://www.semanticweb.org/raul/ontologies/2019/5/projeto#"+id)
+                # print(f':{id} rdf:type owl:NamedIndividual, :Card.')
+                # print(f':{id} :label "{row[0]}" .')
                 # else: colocar o ID qd nao houver label?
                 if row[1]!="":
                     r1 = re.search(r"{(.*)}",row[1])
@@ -48,7 +48,7 @@ def doCard():
                     else: # caso com um elemento
                         s1 = [row[1]]
                     for i in range(len(s1)):
-                        print(f':{id} :hasPlayerClass :{"PLAYERCLASS_"+s1[i]} .')
+                        # print(f':{id} :hasPlayerClass :{"PLAYERCLASS_"+s1[i]} .')
                         playersCards.append((s1[i]))
                 if row[2]!='':
                     r2 = re.search(r"{(.*)}",row[2])
@@ -56,27 +56,27 @@ def doCard():
                         s2 = r2.group(1).split('|')
                     else: # caso com um elemento
                         s2 = [row[2]]
-                    for i in range(len(s2)):
-                        print(f':{id} :type "{s2[i]}" .')
+                    # for i in range(len(s2)):
+                        # print(f':{id} :type "{s2[i]}" .')
                 if row[3]!='':
                     r3 = re.search(r"\"(.*)\"",row[3])
                     if r3: # caso com mais que um elementos
                         s3 = r3.group(1).split('|')
                     else: # caso com um elemento
                         s3 = [row[3]]
-                    for i in range(len(s3)):
-                        print(f':{id} :name "{s3[i]}" .')
+                    # for i in range(len(s3)):
+                    #     print(f':{id} :name "{s3[i]}" .')
                 if row[4]!="":
                     r4 = re.search(r"{(.*)}",row[4])
                     if r4: # caso com mais que um elemento
                         s4 = r4.group(1).split('|')
                     else: # caso com um elemento
                         s4 = [row[4]]
-                    for i in range(len(s4)):
-                        print(f':{id} :hasSet :{"SET_"+s4[i]} .')
+                    # for i in range(len(s4)):
+                    #     print(f':{id} :hasSet :{"SET_"+s4[i]} .')
                         sets.append((s4[i]))
                 if row[5]!='':
-                    row[5] = re.sub(r"\n","",row[5])
+                    row[5] = re.sub(r"\n"," ",row[5])
                     row[5] = re.sub(r"\<b\>","",row[5])
                     row[5] = re.sub(r"\<\/b\>","",row[5])
                     row[5] = re.sub(r"\<i\>","",row[5])
@@ -94,33 +94,33 @@ def doCard():
                         s6 = r6.group(1).split('|')
                     else: # caso com um elemento
                         s6 = [row[6]]
-                    for i in range(len(s6)):
-                        print(f':{id} :cost "{s6[i]}" .')
+                    # for i in range(len(s6)):
+                        # print(f':{id} :cost "{s6[i]}" .')
                 if row[7]!='':
                     r7 = re.search(r"{(\d+).*}",row[7])
                     if r7: # caso com mais que um elementos
                         s7 = r7.group(1).split('|')
                     else: # caso com um elemento
                         s7 = [row[7]]
-                    for i in range(len(s7)):
-                        print(f':{id} :attack "{s7[i]}" .')
+                    # for i in range(len(s7)):
+                        # print(f':{id} :attack "{s7[i]}" .')
                 if row[8]!='':
                     r8 = re.search(r"{(\d+).*}",row[8])
                     if r8: # caso com mais que um elementos
                         s8 = r8.group(1).split('|')
                     else: # caso com um elemento
                         s8 = [row[8]]
-                    for i in range(len(s8)):
-                        print(f':{id} :health "{s8[i]}" .')
+                    # for i in range(len(s8)):
+                        # print(f':{id} :health "{s8[i]}" .')
                 if row[9]!='':
                     r9 = re.search(r"{(\d+).*}",row[9])
                     if r9: # caso com mais que um elementos
                         s9 = r9.group(1).split('|')
                     else: # caso com um elemento
                         s9 = [row[9]]
-                    for i in range(len(s9)):
-                        print(f':{id} :rarity "{s9[i]}" .')
-            print()
+                    # for i in range(len(s9)):
+                    #     print(f':{id} :rarity "{s9[i]}" .')
+            # print()
             # MANGA_Aiyoku_no_Eustia
 
 def doplayer_class():
