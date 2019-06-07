@@ -33,4 +33,14 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 select distinct ?o where {
  ?s :rarity ?o .
 }`,
+  listar_id_nome:`
+  PREFIX : <http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#>
+  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  select distinct ?id ?name where {
+  ?id ?p :Card.
+  ?id :label ?x.
+  ?id :name ?name
+  }
+  order by (?id)
+  limit 50`
   }

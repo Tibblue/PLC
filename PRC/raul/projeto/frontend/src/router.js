@@ -23,5 +23,10 @@ export default new Router({
       name: 'cartasInfo',
       component: () => import('./views/cartaInfo.vue')
     },
+    {
+      path: '/cartasview',
+      name: 'cartasViewInfo',
+      component: () => import('./views/cartasView.vue')
+    },
   ]
 })
