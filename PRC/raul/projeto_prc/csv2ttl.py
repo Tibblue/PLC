@@ -121,7 +121,6 @@ def doCard():
                     for i in range(len(s9)):
                         print(f':{id} :rarity "{s9[i]}" .')
             print()
-            # MANGA_Aiyoku_no_Eustia
 
 def doplayer_class():
     global playersCards

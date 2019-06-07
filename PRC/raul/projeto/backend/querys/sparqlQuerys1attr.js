@@ -7,6 +7,8 @@ module.exports = {
               :CARD_`+ id_carta+` ?p ?o .
               FILTER ( ?p!=rdf:type)
     }
-`
-  },
+`},
+  // tabela_filtros: function(set,class,type,rarity){
+
+  // },
 }

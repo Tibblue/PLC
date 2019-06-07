@@ -370,7 +370,6 @@ OG_202,DRUID,MINION,Mire Keeper,OG,"[x]<b>Choose One -</b> Summon a
 empty Mana Crystal.",4,3,3,RARE,True,"""Hey.... Is that Mire for sale?""
 ""No.  I'm keeping it.""",['CHOOSE_ONE'],"[100, 800, 20, 100]",,,,,,,,
 CS2_011,DRUID,SPELL,Savage Roar,CORE,Give your characters +2�Attack this turn.,3,,,COMMON,True,"What do they roar? Nobody can quite tell, but it sounds like ""Elephant Macho Breeze"".  It's probably not that, though.",,,,,Unlocked at Level 4.,Unlocked at Level 43.,,,,
-CS2_188o,NEUTRAL,ENCHANTMENT,'Inspired',EXPERT1,This minion has +2 Attack this turn.,,,,,,,['TAG_ONE_TURN_EFFECT'],,,,,,,,,
 CFM_609,NEUTRAL,MINION,Fel Orc Soulfiend,GANGS,"At the start of your turn, deal 2 damage to this�minion.",3,3,7,EPIC,True,"""Doc says the persistent burning sensation in my soul is probably just an ulcer.""",,"[400, 1600, 100, 400]",,,,,,,,
 BRMA12_5H,NEUTRAL,SPELL,Brood Affliction: Blue,BRM,"While this is in your hand, Chromaggus' spells cost (3) less.",3,,,,,,['EVIL_GLOW'],,,,,,,,,
 BRMA12_2,NEUTRAL,HERO_POWER,Brood Affliction,BRM,"<b>Hero Power</b>

@@ -8,5 +8,6 @@ module.exports = {
       OPTIONAL {?id :rarity ?rarity.}
       OPTIONAL {?id :hasSet ?set.}
       OPTIONAL {?id :hasPlayerClass ?playerclass}
-  }`,
+  }
+  `,
 }

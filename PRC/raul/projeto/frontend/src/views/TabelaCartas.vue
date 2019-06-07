@@ -15,37 +15,43 @@
         v-model="select_set"
         :items="simple_sets_list"
         label="Select a set to filter..."
-      >
-      </v-combobox>
-
-
+        @change="refreshList()"
+      ></v-combobox>
       <v-spacer></v-spacer>
-
       <v-combobox
         v-model="select_playerclass"
         :items="simple_playerclass_list"
         label="Select a class to filter..."
-      >
-      </v-combobox>
-
+        @change="refreshList()"
+      ></v-combobox>
       <v-spacer></v-spacer>
-
-
       <v-combobox
-      v-model="select_type"
-      :items="simple_types_list"
-      label="Select a type to filter..."
-      >
-      </v-combobox>
-
+        v-model="select_type"
+        :items="simple_types_list"
+        label="Select a type to filter..."
+        @change="refreshList()"
+      ></v-combobox>
       <v-spacer></v-spacer>
-      <v-text-field
-        v-model="search"
-        append-icon="search"
-        label="Search"
-        single-line
-        hide-details
-      ></v-text-field>
+      <v-combobox
+        v-model="select_rarity"
+        :items="simple_rarity_list"
+        label="Select a rarity to filter..."
+        @change="refreshList()"
+      ></v-combobox>
+      <v-spacer></v-spacer>
+      <v-flex mb-3>
+        <v-flex mb-1>
+          <v-flex mb-1>
+            <v-text-field
+              v-model="search"
+              append-icon="search"
+              label="Search"
+              single-line
+              hide-details
+            ></v-text-field>
+          </v-flex>
+        </v-flex>
+      </v-flex>
     </v-card-title>
     <v-data-table
       :headers="headers"
@@ -96,6 +102,9 @@
       simple_playerclass_list:[],
       types_list:[],
       simple_types_list:[],
+      rarity_list:[],
+      simple_rarity_list:[],
+
       rows: [10,20,30,50,100,{"text":"$vuetify.dataIterator.rowsPerPageAll","value":-1}],
       headers: [
         { text: 'Name', align:'left', sortable:true, value:'nome',class:'title'},
@@ -108,6 +117,7 @@
       select_set:'All',
       select_playerclass:'All',
       select_type:'All',
+      select_rarity:'All'
     }),
     mounted: async function () {
       try{
@@ -125,10 +135,15 @@
         this.simple_playerclass_list = this.playerclass_list.map(this.simplify_class)
         this.simple_playerclass_list.unshift("All")
 
-        var response_playerclass = await axios.get('http://localhost:4005/query/listar_types')
-        this.types_list = response_playerclass.data.results.bindings
-        this.simple_types_list = this.types_list.map(this.simplify_type)
+        var response_type = await axios.get('http://localhost:4005/query/listar_types')
+        this.types_list = response_type.data.results.bindings
+        this.simple_types_list = this.types_list.map(this.simplify_atri)
         this.simple_types_list.unshift("All")
+
+        var response_rarity = await axios.get('http://localhost:4005/query/listar_rarities')
+        this.rarity_list = response_rarity.data.results.bindings
+        this.simple_rarity_list = this.rarity_list.map(this.simplify_atri)
+        this.simple_rarity_list.unshift("All")
       }
       catch(e){
         return(e);
@@ -189,12 +204,33 @@
       simplify_class: function (item) {
         return item.o.value.split("#PLAYERCLASS_")[1]
       },
-      simplify_type: function (item) {
+      simplify_atri: function (item) {
         return item.o.value
       },
       goBack: function() {
         this.$router.go(-1)
-      }
+      },
+      refreshList: async function () {
+        var query = '?'
+        if(this.select_set!='All')
+          query+= 'set='+this.select_set+'&'
+        if(this.select_playerclass!='All')
+          query+= 'player_class='+this.select_playerclass+'&'
+        if(this.select_type!='All')
+          query+= 'type='+this.select_type+'&'
+        if(this.select_rarity!='All')
+          query+= 'rarity='+this.select_rarity+'&'
+        // console.log(query)
+        try{
+          var response = await axios.get('http://localhost:4005/query/filtros/tabela_filtros'+query);
+          this.cartas_list = response.data.results.bindings
+          this.simple_cartas_list = this.cartas_list.map(this.simplify)
+        }
+        catch(e){
+          return(e);
+        }
+        // this.$router.push('/'+this.route+query)
+      },
     },
 }
 </script>
