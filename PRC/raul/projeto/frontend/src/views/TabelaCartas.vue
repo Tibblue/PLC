@@ -167,18 +167,24 @@
         else
           set = ""
 
-        if(item.playerclass != undefined)
-          playerclass = item.playerclass.value.split("#PLAYERCLASS_")[1]
+        if(item.playerclass != undefined){
+          playerclass = item.playerclass.value.split("#PLAYERCLASS_")[1].toLowerCase()
+          playerclass= playerclass.charAt(0).toUpperCase() + playerclass.slice(1)
+        }
         else
           playerclass = ""
 
-        if(item.rarity != undefined)
-          rarity = item.rarity.value
+        if(item.rarity != undefined){
+          rarity = item.rarity.value.toLowerCase()
+          rarity= rarity.charAt(0).toUpperCase() + rarity.slice(1)
+        }
         else
           rarity = ""
 
-        if(item.type != undefined)
-          type = item.type.value
+        if(item.type != undefined){
+          type = item.type.value.toLowerCase()
+          type= type.charAt(0).toUpperCase() + type.slice(1)
+        }
         else
           type = ""
 
@@ -199,13 +205,18 @@
         this.$router.push('/cartas/'+item.id)
       },
       simplify_set: function (item) {
-        return item.o.value.split("#SET_")[1]
+        item =  item.o.value.split("#SET_")[1]
+        return item
       },
       simplify_class: function (item) {
-        return item.o.value.split("#PLAYERCLASS_")[1]
+        item =  item.o.value.split("#PLAYERCLASS_")[1].toLowerCase()
+        item= item.charAt(0).toUpperCase() + item.slice(1)
+        return item
       },
       simplify_atri: function (item) {
-        return item.o.value
+        item= item.o.value.toLowerCase()
+        item= item.charAt(0).toUpperCase() + item.slice(1)
+        return item
       },
       goBack: function() {
         this.$router.go(-1)

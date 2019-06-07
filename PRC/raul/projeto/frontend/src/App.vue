@@ -11,6 +11,18 @@
     <v-content>
         <router-view/>
     </v-content>
+    <v-footer dark height="auto">
+      <v-card-text class="text-xs-center">
+        <v-btn icon v-for="icon in icons" :key="icon[0]">
+          <v-icon size="24px" @click="goTo(icon[1])">{{icon[0]}}</v-icon>
+        </v-btn>
+        <v-divider></v-divider>
+        <v-card-text>
+          2019 — <strong>Francisco Oliveira</strong> —
+          Projeto de PRC, Universidade do Minho
+        </v-card-text>
+      </v-card-text>
+    </v-footer>
   </v-app>
 </template>
 
@@ -25,7 +37,7 @@
         ['fas fa-university','https://www.uminho.pt'],
       ]
     }),
-    methods: {
+      methods: {
       goTo: function (link) {
         // window.location = link; // opens in same tab
         window.open(link); // opens another tab

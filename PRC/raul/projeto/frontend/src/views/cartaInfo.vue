@@ -9,43 +9,45 @@
         </v-card-text>
         <v-layout>
           <v-flex xs6 ml-5 >
-            <h1>Informação:</h1>
-            <p v-if="this.label">
-              <font size="5"> <b>ID:</b></font>
-              <font size="4"> {{this.label}} </font>
-            </p>
-            <p v-if="this.set">
-              <font size="5"> <b>Set:</b></font>
-              <font size="4"> {{this.set}} </font>
-            </p>
-            <p v-if="this.playerclass">
-              <font size="5"> <b>Class:</b></font>
-              <font size="4"> {{this.playerclass}} </font>
-            </p>
-            <p v-if="this.type">
-              <font size="5"> <b>Type:</b></font>
-              <font size="4"> {{this.type}} </font>
-            </p>
-             <p v-if="this.attack">
-              <font size="5"> <b>Attack:</b></font>
-              <font size="4"> {{this.attack}} </font>
-            </p>
-            <p v-if="this.health">
-              <font size="5"> <b>Health:</b></font>
-              <font size="4"> {{this.health}} </font>
-            </p>
-            <p v-if="this.cost">
-              <font size="5"> <b>Cost:</b></font>
-              <font size="4"> {{this.cost}} </font>
-            </p>
-            <p v-if="this.rarity">
-              <font size="5"> <b>Rarity</b>:</font>
-              <font size="4"> {{this.rarity}} </font>
-            </p>
-            <p v-if="this.text">
-              <font size="5"> <b>Text:</b></font>
-              <font size="4"> {{this.text}} </font>
-            </p>
+            <v-flex ml-5 mt-3>
+              <h1>Informação:</h1>
+              <p v-if="this.label">
+                <font size="5"> <b>ID:</b></font>
+                <font size="4"> {{this.label}} </font>
+              </p>
+              <p v-if="this.set">
+                <font size="5"> <b>Set:</b></font>
+                <font size="4"> {{this.set}} </font>
+              </p>
+              <p v-if="this.playerclass">
+                <font size="5"> <b>Class:</b></font>
+                <font size="4"> {{this.playerclass}} </font>
+              </p>
+              <p v-if="this.type">
+                <font size="5"> <b>Type:</b></font>
+                <font size="4"> {{this.type}} </font>
+              </p>
+              <p v-if="this.attack">
+                <font size="5"> <b>Attack:</b></font>
+                <font size="4"> {{this.attack}} </font>
+              </p>
+              <p v-if="this.health">
+                <font size="5"> <b>Health:</b></font>
+                <font size="4"> {{this.health}} </font>
+              </p>
+              <p v-if="this.cost">
+                <font size="5"> <b>Cost:</b></font>
+                <font size="4"> {{this.cost}} </font>
+              </p>
+              <p v-if="this.rarity">
+                <font size="5"> <b>Rarity</b>:</font>
+                <font size="4"> {{this.rarity}} </font>
+              </p>
+              <p v-if="this.text">
+                <font size="5"> <b>Text:</b></font>
+                <font size="4"> {{this.text}} </font>
+              </p>
+            </v-flex>
           </v-flex>
           <v-flex xs3>
             <v-card elevation=0>
