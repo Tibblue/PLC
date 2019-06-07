@@ -98,6 +98,8 @@
               <v-layout fill-height px-2 pt-1>
                 <v-flex xs12 flexbox class="text-xs-center">
                   <span class="title">{{card.title}}</span>
+                  <v-spacer v-if="card.title_english"/>
+                  <span v-if="card.title_english" class="subtitle">{{card.title_english}}</span>
                 </v-flex>
               </v-layout>
               <v-img
