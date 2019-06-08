@@ -209,8 +209,10 @@
         return item
       },
       simplify_class: function (item) {
-        item =  item.o.value.split("#PLAYERCLASS_")[1].toLowerCase()
-        item= item.charAt(0).toUpperCase() + item.slice(1)
+        item =  item.o.value.split("#PLAYERCLASS_")[1]
+
+        // item =  item.o.value.split("#PLAYERCLASS_")[1].toLowerCase()
+        // item= item.charAt(0).toUpperCase() + item.slice(1)
         return item
       },
       simplify_atri: function (item) {

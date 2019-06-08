@@ -177,6 +177,7 @@
             // this.set= this.set.charAt(0).toUpperCase() + this.set.slice(1)
             break;
           case "hasPlayerClass":
+
             this.playerclass = item.o.value.split('#PLAYERCLASS_')[1].toLowerCase()
             this.playerclass= this.playerclass.charAt(0).toUpperCase() + this.playerclass.slice(1)
             break;
