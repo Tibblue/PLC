@@ -178,8 +178,7 @@
             break;
           case "hasPlayerClass":
 
-            this.playerclass = item.o.value.split('#PLAYERCLASS_')[1].toLowerCase()
-            this.playerclass= this.playerclass.charAt(0).toUpperCase() + this.playerclass.slice(1)
+            this.playerclass = item.o.value.split('#PLAYERCLASS_')[1]
             break;
           case "attack":
             this.attack = item.o.value
@@ -191,15 +190,13 @@
             this.cost = item.o.value
             break;
           case "rarity":
-            this.rarity = item.o.value.toLowerCase()
-            this.rarity= this.rarity.charAt(0).toUpperCase() + this.rarity.slice(1)
+            this.rarity = item.o.value
             break;
           case "text":
             this.text =item.o.value
             break;
           case "type":
-            this.type = item.o.value.toLowerCase()
-            this.type= this.type.charAt(0).toUpperCase() + this.type.slice(1)
+            this.type = item.o.value
             break;
           // case "first_publication":
           //   this.first_publication.push(item.o.value)

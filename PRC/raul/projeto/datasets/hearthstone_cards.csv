@@ -1729,8 +1729,6 @@ control of a random
 enemy minion.",6,5,5,LEGENDARY,True,"Sylvanas was turned into the Banshee Queen by Arthas, but he probably should have just killed her because it just pissed her off.",['DEATHRATTLE'],"[1600, 3200, 400, 1600]",,,,,,,,
 TB_CoOpv3_003,NEUTRAL,SPELL,Bamboozle,TB,Swap player's hands.,0,,,,,,,,,,,,,,,
 CFM_621t11,NEUTRAL,SPELL,Lesser Potion,GANGS,Create a 1-Cost spell.,1,,,,,,,,,,,,,,,
-TB_BRMA10_3H,DEATHKNIGHT,HERO_POWER,The Rookery,TB,"<b>Hero Power</b>
-Give all Corrupted Eggs +1 Health, then summon one.",1,,,,,,,,,,,,,,,
 CFM_626e,NEUTRAL,ENCHANTMENT,Fortitude,GANGS,+3 Health.,,,,,,,,,,,,,,,,
 AT_027e,WARLOCK,ENCHANTMENT,Master Summoner,TGT,Costs (0).,,,,,,,,,,,,,,,,
 NEW1_026t,NEUTRAL,MINION,Violet Apprentice,EXPERT1,,1,1,1,,,,,,,,,,,,,

@@ -17,8 +17,8 @@
         </v-btn> -->
         <!-- <v-divider></v-divider> -->
         <v-card-text>
-          2019 — <strong>Francisco Oliveira</strong> —
-          Projeto de PRC, Universidade do Minho
+          <strong>Raul Vilas Boas</strong> -
+          Projeto de PRC
         </v-card-text>
         <v-btn flat @click="goTo('https://playhearthstone.com/en-us/')">
           <v-img

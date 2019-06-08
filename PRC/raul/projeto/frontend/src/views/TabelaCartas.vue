@@ -39,19 +39,12 @@
         @change="refreshList()"
       ></v-combobox>
       <v-spacer></v-spacer>
-      <v-flex mb-3>
-        <v-flex mb-1>
-          <v-flex mb-1>
             <v-text-field
               v-model="search"
               append-icon="search"
               label="Search"
               single-line
-              hide-details
             ></v-text-field>
-          </v-flex>
-        </v-flex>
-      </v-flex>
     </v-card-title>
     <v-data-table
       :headers="headers"
@@ -129,21 +122,25 @@
         this.sets_list = response_sets.data.results.bindings
         this.simple_sets_list = this.sets_list.map(this.simplify_set)
         this.simple_sets_list.unshift("All")
+        this.simple_sets_list.sort()
 
         var response_playerclass = await axios.get('http://localhost:4005/query/listar_playerclass')
         this.playerclass_list = response_playerclass.data.results.bindings
         this.simple_playerclass_list = this.playerclass_list.map(this.simplify_class)
         this.simple_playerclass_list.unshift("All")
+        this.simple_playerclass_list.sort()
 
         var response_type = await axios.get('http://localhost:4005/query/listar_types')
         this.types_list = response_type.data.results.bindings
         this.simple_types_list = this.types_list.map(this.simplify_atri)
         this.simple_types_list.unshift("All")
+        this.simple_types_list.sort()
 
         var response_rarity = await axios.get('http://localhost:4005/query/listar_rarities')
         this.rarity_list = response_rarity.data.results.bindings
         this.simple_rarity_list = this.rarity_list.map(this.simplify_atri)
         this.simple_rarity_list.unshift("All")
+        this.simple_rarity_list.sort()
       }
       catch(e){
         return(e);
@@ -168,22 +165,19 @@
           set = ""
 
         if(item.playerclass != undefined){
-          playerclass = item.playerclass.value.split("#PLAYERCLASS_")[1].toLowerCase()
-          playerclass= playerclass.charAt(0).toUpperCase() + playerclass.slice(1)
+          playerclass = item.playerclass.value.split("#PLAYERCLASS_")[1]
         }
         else
           playerclass = ""
 
         if(item.rarity != undefined){
-          rarity = item.rarity.value.toLowerCase()
-          rarity= rarity.charAt(0).toUpperCase() + rarity.slice(1)
+          rarity = item.rarity.value
         }
         else
           rarity = ""
 
         if(item.type != undefined){
-          type = item.type.value.toLowerCase()
-          type= type.charAt(0).toUpperCase() + type.slice(1)
+          type = item.type.value
         }
         else
           type = ""

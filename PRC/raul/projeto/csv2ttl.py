@@ -48,6 +48,8 @@ def doCard():
                     else: # caso com um elemento
                         s1 = [row[1]]
                     for i in range(len(s1)):
+                        s1[i] = s1[i].lower()
+                        s1[i] = s1[i].capitalize()
                         print(f':{id} :hasPlayerClass :{"PLAYERCLASS_"+s1[i]} .')
                         playersCards.append((s1[i]))
                 if row[2]!='':
@@ -57,6 +59,8 @@ def doCard():
                     else: # caso com um elemento
                         s2 = [row[2]]
                     for i in range(len(s2)):
+                        s2[i] = s2[i].lower()
+                        s2[i] = s2[i].capitalize()
                         print(f':{id} :type "{s2[i]}" .')
                 if row[3]!='':
                     r3 = re.search(r"\"(.*)\"",row[3])
@@ -119,6 +123,8 @@ def doCard():
                     else: # caso com um elemento
                         s9 = [row[9]]
                     for i in range(len(s9)):
+                        s9[i] = s9[i].lower()
+                        s9[i] = s9[i].capitalize()
                         print(f':{id} :rarity "{s9[i]}" .')
             print()
 

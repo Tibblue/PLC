@@ -9,6 +9,16 @@ module.exports = {
       ?id :type ?type.
    	   OPTIONAL {?id :rarity ?rarity.}
  }`,
+  lista_cartas_info_limit: `PREFIX : <http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#>
+  select ?id ?name ?set ?playerclass ?rarity ?type where {
+      ?id ?p :Card.
+      ?id :name ?name.
+      ?id :hasSet ?set.
+      ?id :hasPlayerClass ?playerclass.
+      ?id :type ?type.
+   	   OPTIONAL {?id :rarity ?rarity.}
+ }
+ limit 50`,
   listar_sets: `
 PREFIX : <http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
