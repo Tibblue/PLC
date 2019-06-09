@@ -8,8 +8,8 @@
       />
     </v-card-title> -->
     <h1 @click="goToTable('animes')">Animes</h1>
-    <h1 @click="goToTable('persons')">Writers/Directors</h1>
-    <h1 @click="goToTable('networks')">Networks</h1>
+    <h1 @click="goToTable('producers')">Producers</h1>
+    <h1 @click="goToTable('studios')">Studios</h1>
   </v-flex>
 </template>
 

@@ -1,5 +1,6 @@
 .PHONY: backend
 .PHONY: frontend
+.PHONY: graphdb
 .PHONY: runAllBackground
 .PHONY: kill
 
@@ -12,6 +13,9 @@ backend :
 frontend :
 	cd frontend && \
 	npm run serve
+
+graphdb :
+	docker run -p 7200:7200 tibblue/graphdb_prc:v3.0
 
 runAllBackground :
 	cd backend && \
