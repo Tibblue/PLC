@@ -202,6 +202,7 @@
         if(this.studioSelected!='Any')
           query+= 'studio='+this.studioSelected+'&'
         // console.log(query)
+        this.$router.replace({ path: 'animes'+query})
         try{
           var response = await axios.get(lhost+'/query/variable/anime_much_info'+query);
           this.animes = response.data.results.bindings
