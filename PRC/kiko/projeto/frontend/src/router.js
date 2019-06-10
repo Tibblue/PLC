@@ -13,6 +13,11 @@ export default new Router({
       component: () => import('./views/Home.vue')
     },
     {
+      path: '/login',
+      name: 'login',
+      component: () => import('./views/Login.vue')
+    },
+    {
       path: '/animes',
       name: 'animeList',
       component: () => import('./views/TabelaAnime.vue')
