@@ -36,7 +36,7 @@
     }),
     methods: {
       itemClicked: function (item) {
-        this.$router.push('/'+this.route+'/'+item)
+        this.$router.push('/'+this.route+item)
       },
     },
     computed: {
