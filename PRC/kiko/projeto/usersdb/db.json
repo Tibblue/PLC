@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "kiko",
+      "bio": "um humano",
+      "favoriteAnimes": [
+        "ANIME_11013_Inu_x_Boku_SS",
+        "ANIME_5114_Fullmetal_Alchemist_Brotherhood"
+      ]
+    },
+    {
+      "id": "raul",
+      "bio": "um outro humano",
+      "favoriteAnimes": [
+        "ANIME_23273_Shigatsu_wa_Kimi_no_Uso",
+        "ANIME_5114_Fullmetal_Alchemist_Brotherhood"
+      ]
+    }
+  ]
+}
