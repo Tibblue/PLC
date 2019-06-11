@@ -9,6 +9,10 @@
       </v-toolbar-items>
       <v-spacer></v-spacer>
       <v-toolbar-items>
+        <v-btn color="indigo darken-2"
+          v-if="!this.$session.has('id')"
+          @click="login('kiko')"
+        ><h2>Login</h2></v-btn>
         <v-btn flat
           v-if="this.$session.has('id')"
           @click="logout()"
@@ -16,12 +20,18 @@
         <v-btn color="indigo darken-2"
           v-if="this.$session.has('id')"
           @click="goToProfile()"
-        ><h2>{{this.$session.get('id')}} Profile</h2></v-btn>
-        <v-btn color="indigo darken-2"
-          v-if="!this.$session.has('id')"
-          @click="login('kiko')"
-        ><h2>Login</h2></v-btn>
+        >
+          <h2>{{this.$session.get('id')}} Profile</h2>
+        </v-btn>
       </v-toolbar-items>
+        <!-- <v-flex v-if="this.$session.has('id')"> -->
+          <v-img
+            :src="this.$session.get('img')"
+            aspect-ratio=1
+            max-width=64
+            max-height=64
+          ></v-img>
+        <!-- </v-flex> -->
     </v-toolbar>
 
     <!-- <v-container> -->
