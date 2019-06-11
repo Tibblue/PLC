@@ -103,9 +103,9 @@
               </v-layout>
               <v-img
                 class="white--text"
-                width="266"
-                ratio=1.6
+                contain
                 :src="card.img"
+                lazy-src="https://rimage.gnst.jp/livejapan.com/public/img/common/noimage.jpg?20190126050038"
               >
               </v-img>
             </v-card>
