@@ -56,8 +56,8 @@ def doAnime():
         print(f':{id} :img \'{img}\' .')
       if row[6]:
         print(f':{id} :type \'{row[6]}\' .')
-      # if row[15]:
-      #   print(f':{id} :score \'{row[15]}\' .')
+      if row[15]:
+        print(f':{id} :score \'{row[15]}\' .')
       if row[25]:
         for producer in row[25].split(', '):
           producers.add(producer)
