@@ -2,18 +2,6 @@
   <v-flex>
     <v-card>
       <v-toolbar dark color="indigo darken-2" flat>
-        <v-flex text-xs-center><h2>Welcome {{this.$session.get('id')}}</h2></v-flex>
-      </v-toolbar>
-      <v-card-text>
-        <h3>Bio</h3>
-        <h4>{{this.$session.get('bio')}}</h4>
-        <h3>Favorite Animes</h3>
-        <h4>{{this.$session.get('fav')}}</h4>
-      </v-card-text>
-    </v-card>
-
-    <v-card>
-      <v-toolbar dark color="indigo darken-2" flat>
         <v-flex text-xs-center><h2>Update Profile</h2></v-flex>
       </v-toolbar>
       <v-card-text>

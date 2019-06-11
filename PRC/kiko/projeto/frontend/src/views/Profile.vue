@@ -1,6 +1,11 @@
 <template>
   <v-container>
     <v-layout>
+      <v-flex xs12>
+        <profile/>
+      </v-flex>
+    </v-layout>
+    <v-layout>
       <v-flex xs2/>
       <v-flex xs8>
         <profileEdit/>
@@ -11,6 +16,7 @@
 </template>
 
 <script>
+  import profile from '@/components/profile'
   import profileEdit from '@/components/profileEdit'
 
   export default {
@@ -20,6 +26,7 @@
         this.$router.push('/')
     },
     components: {
+      profile,
       profileEdit
     }
   }

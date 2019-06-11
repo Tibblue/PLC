@@ -30,6 +30,7 @@
     data: () => ({
       username: '',
       password: '',
+      img: '',
       alert: '' // replace with snackbar for style points
     }),
     methods: {
@@ -40,7 +41,8 @@
             this.$session.set('id',info.data.id)
             this.$session.set('bio',info.data.bio)
             this.$session.set('fav',info.data.favoriteAnimes)
-            this.$session.set('data',info.data)
+            if(info.data.img)
+              this.$session.set('img',info.data.img)
             this.$router.go(-1)
           })
           .catch(() => {

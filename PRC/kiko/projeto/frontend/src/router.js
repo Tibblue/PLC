@@ -18,9 +18,9 @@ export default new Router({
       component: () => import('./views/Login.vue')
     },
     {
-      path: '/profile/edit',
-      name: 'profileEdit',
-      component: () => import('./views/ProfileEdit.vue')
+      path: '/profile',
+      name: 'profile',
+      component: () => import('./views/Profile.vue')
     },
     {
       path: '/animes',
