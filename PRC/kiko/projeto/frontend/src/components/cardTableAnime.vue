@@ -17,7 +17,6 @@
       <v-flex xs12>
         <v-text-field
           single-line
-          clearable
           @keyup="checkPage()"
           v-model="searchText"
           prepend-icon="search"
