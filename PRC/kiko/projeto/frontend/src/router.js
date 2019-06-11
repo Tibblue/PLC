@@ -18,6 +18,11 @@ export default new Router({
       component: () => import('./views/Login.vue')
     },
     {
+      path: '/profile/edit',
+      name: 'profileEdit',
+      component: () => import('./views/ProfileEdit.vue')
+    },
+    {
       path: '/animes',
       name: 'animeList',
       component: () => import('./views/TabelaAnime.vue')

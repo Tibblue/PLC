@@ -11,11 +11,12 @@
           v-model="username"
           label="Username"
         ></v-text-field>
-        <v-text-field
+        <!-- <v-text-field
           clearable
           v-model="password"
           label="Password"
-        ></v-text-field>
+          type="password"
+        ></v-text-field> -->
         <v-btn @click="submit()"><h2>Login</h2></v-btn>
       </v-card-text>
     </v-card>
@@ -32,13 +33,13 @@
       alert: '' // replace with snackbar for style points
     }),
     methods: {
-      submit: async function () {
+      submit: function () {
         axios.get('http://localhost:5011/users/'+this.username)
           .then(info => {
             // this.alert = info.data // debug
             this.$session.set('id',info.data.id)
             this.$session.set('bio',info.data.bio)
-            this.$session.set('fav',info.data.fav)
+            this.$session.set('fav',info.data.favoriteAnimes)
             this.$session.set('data',info.data)
             this.$router.go(-1)
           })
