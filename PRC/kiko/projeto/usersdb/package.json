@@ -1,0 +1,15 @@
+{
+  "name": "usersdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch ./db.json --port 5011"
+  },
+  "keywords": [],
+  "author": "kiko",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}

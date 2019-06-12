@@ -31,25 +31,25 @@
         <v-container grid-list-sm>
           <v-layout row wrap>
             <v-flex xs6 lg4>
-              <cardList
+              <cardListAnime
                 name="Genres"
                 :list="genresSimple"
-                route="genres"
-              ></cardList>
+                route="animes?genre="
+              ></cardListAnime>
             </v-flex>
             <v-flex xs6 lg4>
-              <cardList
+              <cardListAnime
                 name="Producers"
                 :list="producersSimple"
-                route="producers"
-              ></cardList>
+                route="animes?producer="
+              ></cardListAnime>
             </v-flex>
             <v-flex xs12 lg4>
-              <cardList
+              <cardListAnime
                 name="Studio"
                 :list="studiosSimple"
-                route="studios"
-              ></cardList>
+                route="animes?studio="
+              ></cardListAnime>
             </v-flex>
           </v-layout>
 
@@ -77,13 +77,13 @@
 </template>
 
 <script>
-  import cardList from '@/components/cardList'
+  import cardListAnime from '@/components/cardListAnime'
   import axios from 'axios'
   const lhost = "http://localhost:4005"
 
   export default {
     components: {
-      cardList
+      cardListAnime
     },
     data: () => ({
       idAnime: '',
@@ -156,7 +156,7 @@
       },
       simplify: function (item) {
         return {
-          id:item,
+          id:item.replace(/(GENRE_|PRODUCER_|STUDIO_)/g, ""),
           label:this.fixName(item)
         }
       },

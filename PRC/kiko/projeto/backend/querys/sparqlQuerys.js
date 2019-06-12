@@ -45,4 +45,15 @@ PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct ?studio where {
     ?studio a :Studio .
 }`,
+  top5animeByScore: `
+PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
+select distinct * where {
+    ?anime a :Anime .
+    ?anime :id ?id .
+    ?anime :title ?title .
+    ?anime :score ?score .
+    ?anime :img ?img .
+}
+order by desc(?score)
+limit 5`
 }

@@ -17,7 +17,6 @@
       <v-flex xs12>
         <v-text-field
           single-line
-          clearable
           @keyup="checkPage()"
           v-model="searchText"
           prepend-icon="search"
@@ -104,9 +103,9 @@
               </v-layout>
               <v-img
                 class="white--text"
-                width="266"
-                ratio=1.6
+                contain
                 :src="card.img"
+                lazy-src="https://rimage.gnst.jp/livejapan.com/public/img/common/noimage.jpg?20190126050038"
               >
               </v-img>
             </v-card>
@@ -202,6 +201,7 @@
         if(this.studioSelected!='Any')
           query+= 'studio='+this.studioSelected+'&'
         // console.log(query)
+        this.$router.replace({ path: 'animes'+query})
         try{
           var response = await axios.get(lhost+'/query/variable/anime_much_info'+query);
           this.animes = response.data.results.bindings
@@ -210,6 +210,7 @@
         catch(e){
           return(e);
         }
+        this.checkPage()
         // this.$router.push('/'+this.route+query)
       },
       simplify: function (item) {

@@ -4,6 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var router = express.Router();
 
+// Query files
 var querys = require('../querys/sparqlQuerys'); //ficheiro de querys
 var querys1attr = require('../querys/sparqlQuerys1attr'); //ficheiro de querys1attr
 var querysVariable = require('../querys/sparqlQuerysVariable'); //ficheiro de querysVariable
@@ -11,7 +12,7 @@ var querysDebug = require('../querys/sparqlQuerys_debug'); //ficheiro de querysD
 // console.log(querys) // debug
 // console.log(querysVariable.anime_much_info('Comedy', undefined, undefined)) // debug
 
-/* GraphDB endpoint */
+// GraphDB endpoint
 var endpoint = 'http://localhost:7200/repositories/projetoBeta'
 
 
@@ -58,7 +59,7 @@ router.get('/variable/:queryName', function (req, res, next) {
   var genre = req.query.genre
   var producer = req.query.producer
   var studio = req.query.studio
-  console.log(genre, producer, studio) // debug
+  // console.log(genre, producer, studio) // debug
   var query = querysVariable[queryName](genre, producer, studio)
   var encoded = encodeURIComponent(query)
 
