@@ -42,10 +42,6 @@
 :attack rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#cardID
-:cardID rdf:type owl:DatatypeProperty .
-
-
 ###  http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#cost
 :cost rdf:type owl:DatatypeProperty .
 
@@ -62,8 +58,8 @@
 :rarity rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#texto
-:texto rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#text
+:text rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#type

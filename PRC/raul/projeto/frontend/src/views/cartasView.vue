@@ -60,9 +60,9 @@
                 <h1 v-else>Oh no 😢</h1> -->
                 <v-flex ml-2>
                   <v-img
+                    lazy-src = "https://scontent.flis7-1.fna.fbcdn.net/v/t1.15752-9/62472151_2463573693688825_2042220171443044352_n.png?_nc_cat=104&_nc_ht=scontent.flis7-1.fna&oh=e3f29c9a5a4db31f0440e780aaab8bc7&oe=5D9529DF"
                     class="white--text"
                     height="400"
-                    ratio=1
                     :src="card.img"
                     contain
                   >

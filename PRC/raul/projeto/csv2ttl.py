@@ -106,8 +106,8 @@ def doCard():
                         s7 = r7.group(1).split('|')
                     else: # caso com um elemento
                         s7 = [row[7]]
-                    # for i in range(len(s7)):
-                        # print(f':{id} :attack "{s7[i]}" .')
+                    for i in range(len(s7)):
+                        print(f':{id} :attack "{s7[i]}" .')
                 if row[8]!='':
                     r8 = re.search(r"{(\d+).*}",row[8])
                     if r8: # caso com mais que um elementos

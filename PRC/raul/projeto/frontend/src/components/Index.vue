@@ -1,5 +1,6 @@
 <template>
   <v-flex dark>
+
     <!-- <v-card-title>
       <v-text-field
         append-icon="search"
@@ -37,7 +38,3 @@
     }
   }
 </script>
-
-<style>
-
-</style>

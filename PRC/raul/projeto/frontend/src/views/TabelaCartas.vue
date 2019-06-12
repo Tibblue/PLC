@@ -8,7 +8,8 @@
     <p>{{simple_types_list}}</p> -->
 
     <v-card-title>
-      <h1> Lista de Cartas </h1>
+      <h1 style="color:White;">Lista de Cartas</h1>
+
       <v-spacer></v-spacer>
 
       <v-combobox
@@ -16,6 +17,7 @@
         :items="simple_sets_list"
         label="Select a set to filter..."
         @change="refreshList()"
+        dark
       ></v-combobox>
       <v-spacer></v-spacer>
       <v-combobox
@@ -23,6 +25,7 @@
         :items="simple_playerclass_list"
         label="Select a class to filter..."
         @change="refreshList()"
+        dark
       ></v-combobox>
       <v-spacer></v-spacer>
       <v-combobox
@@ -30,6 +33,7 @@
         :items="simple_types_list"
         label="Select a type to filter..."
         @change="refreshList()"
+        dark
       ></v-combobox>
       <v-spacer></v-spacer>
       <v-combobox
@@ -37,6 +41,7 @@
         :items="simple_rarity_list"
         label="Select a rarity to filter..."
         @change="refreshList()"
+        dark
       ></v-combobox>
       <v-spacer></v-spacer>
             <v-text-field
@@ -44,6 +49,7 @@
               append-icon="search"
               label="Search"
               single-line
+              dark
             ></v-text-field>
     </v-card-title>
     <v-data-table

@@ -1,13 +1,13 @@
 // QUERYS
 module.exports = {
   lista_cartas_info: `PREFIX : <http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#>
-  select ?id ?name ?set ?playerclass ?rarity ?type where {
+  select ?id ?name ?set ?playerclass ?rarity ?type ?attack where {
       ?id ?p :Card.
       ?id :name ?name.
       ?id :hasSet ?set.
       ?id :hasPlayerClass ?playerclass.
       ?id :type ?type.
-   	   OPTIONAL {?id :rarity ?rarity.}
+   	  OPTIONAL {?id :rarity ?rarity.}
  }`,
   lista_cartas_info_limit: `PREFIX : <http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#>
   select ?id ?name ?set ?playerclass ?rarity ?type where {
