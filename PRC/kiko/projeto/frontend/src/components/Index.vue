@@ -1,14 +1,13 @@
 <template>
   <v-container>
     <!-- <h2>{{this.top5}}</h2> -->
-    <h2>{{this.top5[0]}}</h2>
+    <!-- <h2>{{this.top5[0]}}</h2> -->
 
     <v-toolbar dark color="indigo darken-2" flat>
       <v-flex text-xs-center><h1>Top 5 Anime</h1></v-flex>
     </v-toolbar>
-    <v-layout row wrap>
-      <v-flex xs1/>
-      <v-flex xs4>
+    <v-layout ma-3>
+      <v-flex xs6 pa-1>
         <v-toolbar dark color="indigo" flat>
           <v-flex text-xs-center><h1>Nº 1</h1></v-flex>
         </v-toolbar>
@@ -20,10 +19,9 @@
           </v-card>
         </v-img>
       </v-flex>
-      <v-flex xs1/>
       <v-flex xs6>
         <v-layout>
-          <v-flex xs4>
+          <v-flex xs6 pa-1>
             <v-toolbar dark color="indigo" flat>
               <v-flex text-xs-center><h1>Nº 2</h1></v-flex>
             </v-toolbar>
@@ -35,8 +33,7 @@
               </v-card>
             </v-img>
           </v-flex>
-          <v-flex xs1/>
-          <v-flex xs4>
+          <v-flex xs6 pa-1>
             <v-toolbar dark color="indigo" flat>
               <v-flex text-xs-center><h1>Nº 3</h1></v-flex>
             </v-toolbar>
@@ -50,7 +47,7 @@
           </v-flex>
         </v-layout>
         <v-layout>
-          <v-flex xs4>
+          <v-flex xs6 pa-1>
             <v-toolbar dark color="indigo" flat>
               <v-flex text-xs-center><h1>Nº 4</h1></v-flex>
             </v-toolbar>
@@ -62,8 +59,7 @@
               </v-card>
             </v-img>
           </v-flex>
-          <v-flex xs1/>
-          <v-flex xs4>
+          <v-flex xs6 pa-1>
             <v-toolbar dark color="indigo" flat>
               <v-flex text-xs-center><h1>Nº 5</h1></v-flex>
             </v-toolbar>
@@ -94,7 +90,6 @@
         // // top5 list
         var response = await axios.get(lhost+'/query/top5animeByScore');
         this.top5 = response.data.results.bindings
-        // this.top5s = this.top5.map(item => {return item.top5.value.split("#STUDIO_")[1]})
       }
       catch(e){
         return(e);

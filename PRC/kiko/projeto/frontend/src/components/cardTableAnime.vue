@@ -210,6 +210,7 @@
         catch(e){
           return(e);
         }
+        this.checkPage()
         // this.$router.push('/'+this.route+query)
       },
       simplify: function (item) {
