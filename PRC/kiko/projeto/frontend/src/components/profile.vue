@@ -11,11 +11,11 @@
         <v-card-text>
           <h3>Bio</h3>
           <h4>{{this.$session.get('bio')}}</h4>
-          <h4>Favorite Animes: {{this.$session.get('fav')}}</h4>
 
-          <ol>
-            <li v-for="fav in this.favsInfo" :key="fav.id">{{fav}}</li>
-          </ol>
+          <!-- <h4>Favorite Animes: {{this.$session.get('fav')}}</h4> -->
+          <!-- <ol> -->
+            <!-- <li v-for="fav in this.favsInfo" :key="fav.id">{{fav}}</li> -->
+          <!-- </ol> -->
         </v-card-text>
       </v-layout>
     </v-card>

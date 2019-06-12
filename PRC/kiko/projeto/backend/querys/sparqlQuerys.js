@@ -49,6 +49,7 @@ select distinct ?studio where {
 PREFIX : <http://www.semanticweb.org/kiko/ontologies/2019/projeto#>
 select distinct * where {
     ?anime a :Anime .
+    ?anime :id ?id .
     ?anime :title ?title .
     ?anime :score ?score .
     ?anime :img ?img .
