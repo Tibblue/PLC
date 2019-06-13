@@ -3,6 +3,8 @@
     <!-- <h2>{{this.top5}}</h2> -->
     <!-- <h2>{{this.top5[0]}}</h2> -->
 
+    <v-img src="https://scontent.flis7-1.fna.fbcdn.net/v/t1.15752-9/64254159_1160771190768776_3881768412510158848_n.png?_nc_cat=111&_nc_ht=scontent.flis7-1.fna&oh=4a72fae691d351ca18f02e05904afbc3&oe=5D969ABD"></v-img>
+
     <v-toolbar dark color="indigo darken-2" flat>
       <v-flex text-xs-center><h1>Top 5 Anime</h1></v-flex>
     </v-toolbar>
@@ -14,7 +16,7 @@
         <v-img :src="this.top5[0].img.value" @click="cardClicked(top5[0].id.value)">
           <v-card color="rgb(0, 0, 0, 0.7)">
             <v-flex xs12 pa-1>
-              <h2>{{this.top5[0].title.value}}</h2>
+              <h1>{{this.top5[0].title.value}}</h1>
             </v-flex>
           </v-card>
         </v-img>
