@@ -5,25 +5,42 @@
     <v-flex>
       <v-card>
         <v-layout>
-          <v-flex xs4>
+          <v-flex xs4 ma-3>
             <v-img
               class="white--text"
-              width="266"
-              ratio=1.6
+              contains
               :src="this.img"
             />
           </v-flex>
           <v-flex xs4>
             <v-card-text class="text-xs-center">
-              <h1> {{this.title}} </h1>
-              <h2> {{this.title_english}} </h2>
-              <h2> {{this.title_japanese}} </h2>
+              <v-flex xs12 my-4>
+                <h1> {{this.title}} </h1>
+              </v-flex>
+              <v-flex my-2 v-if="this.title_english">
+                <h2> English Title </h2>
+                <h3> {{this.title_english}} </h3>
+              </v-flex>
+              <v-flex my-2>
+                <h2> Japonese Title </h2>
+                <h3> {{this.title_japanese}} </h3>
+              </v-flex>
             </v-card-text>
           </v-flex>
           <v-flex xs4>
             <v-card-text class="text-xs-center">
-              <h1> {{this.type}} </h1>
-              <!-- <h2> {{this.score}} </h2> -->
+              <!-- <v-flex xs12 my-4>
+                <v-btn @click="addFav()" color="info">
+                  Adicionar aos Favoritos
+                </v-btn>
+                <v-btn @click="remFav()" color="info">
+                  Remover dos Favoritos
+                </v-btn>
+              </v-flex> -->
+              <v-flex xs12 my-4>
+                <h1> Type: {{this.type}} </h1>
+                <h2> Score: {{this.score}} </h2>
+              </v-flex>
             </v-card-text>
           </v-flex>
         </v-layout>
@@ -52,10 +69,6 @@
               ></cardListAnime>
             </v-flex>
           </v-layout>
-
-          <!-- <span>{{this.genresSimple}}</span> -->
-          <!-- <span>{{this.producersSimple}}</span> -->
-          <!-- <span>{{this.studiosSimple}}</span> -->
 
         </v-container>
       </v-card>
@@ -92,6 +105,7 @@
       title_japanese: '',
       img: '',
       type: '',
+      score: '',
       animeResponse: {},
       genres: [],
       producers: [],
@@ -127,6 +141,9 @@
             break;
           case "type":
             this.type = item.o.value
+            break;
+          case "score":
+            this.score = item.o.value
             break;
           case "hasGenre":
             this.genres.push(item.o.value.split('#')[1])
