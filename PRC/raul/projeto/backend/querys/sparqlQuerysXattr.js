@@ -38,7 +38,7 @@ module.exports = {
       query += '\t?id :type "' + type + '" .\n'
     if (rarity)
       query += '\t?id :rarity "' + rarity + '" .\n'
-    query += '}\nlimit 50'
+    query += '}\n'
     // console.log(query)
     return query
   },

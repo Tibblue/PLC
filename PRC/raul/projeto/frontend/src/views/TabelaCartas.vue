@@ -1,12 +1,5 @@
 <template>
   <v-container>
-
-    <!-- <p>{{sets_list}}</p> -->
-
-    <!-- <p>{{simple_sets_list}}</p>
-    <p>{{simple_playerclass_list}}</p>
-    <p>{{simple_types_list}}</p> -->
-
     <v-card-title>
       <h1 style="color:White;">Lista de Cartas</h1>
 

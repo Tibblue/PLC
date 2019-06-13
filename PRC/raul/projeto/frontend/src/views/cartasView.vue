@@ -4,7 +4,7 @@
       <v-text-field
         single-line
         clearable
-        v-model="search"
+        v-model="searchText"
         prepend-icon="search"
         label="Search"
       ></v-text-field>
@@ -41,7 +41,7 @@
       <v-container fluid grid-list-md>
         <v-layout row wrap>
           <v-flex
-            v-for="card in simple_cartas_list"
+            v-for="card in filteredList"
             :key="card.id"
             xs2
           >
@@ -83,7 +83,7 @@
     components: {
       },
     data: () => ({
-      search:'',
+      searchText:'',
       cartas_list:[],
       simple_cartas_list:[],
       sets_list:[],
@@ -230,5 +230,17 @@
         // this.$router.push('/'+this.route+query)
       },
     },
+    computed:{
+      filteredList() {
+        return this.simple_cartas_list.filter(item => {
+          var search_ok = undefined
+          var search_text = this.searchText.toLowerCase()
+          var nome = item.nome.toLowerCase()
+          search_ok = nome.includes(search_text)
+          return search_ok
+        })
+      },
+    }
+
 }
 </script>

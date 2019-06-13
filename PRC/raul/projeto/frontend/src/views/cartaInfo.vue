@@ -1,6 +1,5 @@
 1<template>
   <v-container>
-    <!-- <p>{{carta_info}}</p> -->
     <v-flex>
       <v-card>
         <v-card-text class="text-xs-center">
@@ -94,22 +93,17 @@
       type:'',
       authors: [],
       authorsSimple: [],
-
-      // last_publicationSimple:[],
-
     }),
     mounted: async function (){
       this.idCarta = this.$route.params.id
       try{
         var response = await axios.get(lhost+'/query/carta_info/'+this.idCarta);
         this.carta_info = response.data.results.bindings
-        // console.log(this.animeResponse) // debug
       }
       catch(e){
         return(e);
       }
       this.carta_info.forEach(item => {
-        // console.log(item)
         switch (item.p.value.split('#')[1]) {
           case "label":
             this.label = item.o.value
@@ -171,13 +165,9 @@
               case "REWARD":
                 this.set = "Reward"
                 break
-
             }
-            // this.set = item.o.value.split('#SET_')[1].toLowerCase()
-            // this.set= this.set.charAt(0).toUpperCase() + this.set.slice(1)
             break;
           case "hasPlayerClass":
-
             this.playerclass = item.o.value.split('#PLAYERCLASS_')[1]
             break;
           case "attack":
@@ -198,22 +188,11 @@
           case "type":
             this.type = item.o.value
             break;
-          // case "first_publication":
-          //   this.first_publication.push(item.o.value)
-          //   break;
-          // case "num_volumes":
-          //   this.num_volumes.push(item.o.value)
-          //   break;
           default:
             console.log("FDS")
             break;
         }
       })
-      // this.authorsSimple = this.authors.map(this.simplify)
-      // this.magazinesSimple = this.magazines.map(this.simplify)
-      // this.publishersSimple = this.publishers.map(this.simplify)
-      // this.last_publicationSimple = this.last_publication.map(this.simplify)
-
     },
     methods: {
       fixName: function (name) {
