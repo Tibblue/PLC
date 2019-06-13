@@ -12,11 +12,10 @@
     </v-content>
     <v-footer white height="auto">
       <v-card-text class="text-xs-center">
-        <!-- <v-container grid-list-md text-xs-center  > -->
           <v-layout row wrap justify-center>
             <v-flex xs3>
               <v-toolbar white flat>
-                <strong>Raul Vilas Boas - </strong>
+                <strong>Raul Vilas Boas&nbsp - </strong> &nbsp
                 Projeto de PRC
                 <v-img
                   flat
@@ -34,13 +33,9 @@
                   contain
                   >
                 </v-img>
-                <!-- <v-img flat @click="goTo('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">
-                  <h3>MEMES</h3>
-                </v-img> -->
               </v-toolbar>
             </v-flex>
           </v-layout>
-        <!-- </v-container> -->
       </v-card-text>
     </v-footer>
   </v-app>
@@ -50,21 +45,15 @@
   export default {
     name: 'App',
     data: () => ({
-        icons: [
-        ['fab fa-github','http://www.github.com/Tibblue'],
-      ]
     }),
       methods: {
       goTo: function (link) {
-        // window.location = link; // opens in same tab
         window.open(link); // opens another tab
       },
       goToHome: function () {
-        // this.$emit('filmeSelected', item)
         this.$router.push('/')
       },
       goToTable: function (table) {
-        // this.$emit('filmeSelected', item)
         this.$router.push('/'+table)
       }
     }

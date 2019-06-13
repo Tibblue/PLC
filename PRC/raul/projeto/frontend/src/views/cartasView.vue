@@ -45,22 +45,19 @@
             :key="card.id"
             xs2
           >
-          <!-- <p>{{card.nome}}</p> -->
             <v-card
               flat hover
               dark color="grey darken-2"
               @click="itemClicked(card.id)"
             >
               <v-layout fill-height >
-                <v-flex xs12 flexbox class="text-xs-center" >
+                <v-flex xs12 flexbox class="text-xs-center" mt-2>
                   <span class="title">{{card.nome}}</span>
                 </v-flex>
               </v-layout >
-                <!-- <h1 v-if="card.img != undefined">Vue is awesome!</h1>
-                <h1 v-else>Oh no 😢</h1> -->
-                <v-flex ml-2>
+                <v-flex >
                   <v-img
-                    lazy-src = "https://scontent.flis7-1.fna.fbcdn.net/v/t1.15752-9/62472151_2463573693688825_2042220171443044352_n.png?_nc_cat=104&_nc_ht=scontent.flis7-1.fna&oh=e3f29c9a5a4db31f0440e780aaab8bc7&oe=5D9529DF"
+                    lazy-src = "https://scontent.flis7-1.fna.fbcdn.net/v/t1.15752-9/64226172_2524130620939642_2425744520294432768_n.png?_nc_cat=111&_nc_ht=scontent.flis7-1.fna&oh=2c72b9a7338179e06630a6fd07b97943&oe=5D825607"
                     class="white--text"
                     height="400"
                     :src="card.img"
@@ -186,9 +183,6 @@
       },
       simplify_class: function (item) {
         item =  item.o.value.split("#PLAYERCLASS_")[1]
-
-        // item =  item.o.value.split("#PLAYERCLASS_")[1].toLowerCase()
-        // item= item.charAt(0).toUpperCase() + item.slice(1)
         return item
       },
       simplify_atri: function (item) {
@@ -218,7 +212,6 @@
           query+= 'type='+this.select_type+'&'
         if(this.select_rarity!='Nothing')
           query+= 'rarity='+this.select_rarity+'&'
-        // console.log(query)
         try{
           var response = await axios.get('http://localhost:4005/query/filtros/tabela_filtros_limit'+query);
           this.cartas_list = response.data.results.bindings
@@ -227,7 +220,6 @@
         catch(e){
           return(e);
         }
-        // this.$router.push('/'+this.route+query)
       },
     },
     computed:{

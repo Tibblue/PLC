@@ -1,11 +1,4 @@
 <template>
-    <!-- <h1> <mark> DEBUG </mark> </h1> -->
-    <!-- <span>{{this.name}}</span> -->
-    <!-- <span>{{this.list}}</span> -->
-    <!-- <span>{{this.route}}</span> -->
-    <!-- <span>{{filteredList}}</span> -->
-    <!-- <h1> <mark> DEBUG </mark> </h1> -->
-
     <v-flex xs12>
       <v-card>
         <v-toolbar color="blue darken-3" dark>
@@ -16,7 +9,6 @@
             <v-list-tile @click="itemClicked(item.id)" :key="item.id">
               <v-list-tile-content>
                 <v-list-tile-title> {{fixName(item.id)}} </v-list-tile-title>
-                <!-- <v-list-tile-subtitle> {{item.id}} </v-list-tile-subtitle> -->
               </v-list-tile-content>
             </v-list-tile>
           </template>
@@ -30,7 +22,6 @@
     props: ["name","list","route"],
     data: () => ({
       searchText: '',
-      // currentPage: 1,
     }),
     methods: {
       itemClicked: function (item) {
