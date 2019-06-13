@@ -2,9 +2,7 @@
   <v-container>
     <v-card-title>
       <h1 style="color:White;">Lista de Cartas</h1>
-
       <v-spacer></v-spacer>
-
       <v-combobox
         v-model="select_set"
         :items="simple_sets_list"
@@ -105,7 +103,6 @@
         { text: 'Type', sortable:true, value:'type',class:'title'},
         { text: 'Rarity', sortable:true, value:'rarity',class:'title'},
       ],
-      // select: 'All',
       select_set:'All',
       select_playerclass:'All',
       select_type:'All',
@@ -203,9 +200,6 @@
       },
       simplify_class: function (item) {
         item =  item.o.value.split("#PLAYERCLASS_")[1]
-
-        // item =  item.o.value.split("#PLAYERCLASS_")[1].toLowerCase()
-        // item= item.charAt(0).toUpperCase() + item.slice(1)
         return item
       },
       simplify_atri: function (item) {
@@ -226,7 +220,6 @@
           query+= 'type='+this.select_type+'&'
         if(this.select_rarity!='All')
           query+= 'rarity='+this.select_rarity+'&'
-        // console.log(query)
         try{
           var response = await axios.get('http://localhost:4005/query/filtros/tabela_filtros'+query);
           this.cartas_list = response.data.results.bindings
@@ -235,7 +228,6 @@
         catch(e){
           return(e);
         }
-        // this.$router.push('/'+this.route+query)
       },
     },
 }

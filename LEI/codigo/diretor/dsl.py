@@ -43,7 +43,7 @@ def validate_dsl(ficheiro):
     # print(stdout_decode) # debug
     # print(stderr) # debug
     if(stdout_decode is not ''):
-        print("DSL está mal feita, Por Favor corriga-a para continuar.\n")
+        print("DSL está mal estruturada. Por Favor corriga-a para continuar.\n")
         print("Erro:")
         print(stdout_decode)
         return False

@@ -105,7 +105,7 @@ def conversa(tuplos,estados):
 
 def main():
     opts, args = getopt.getopt(sys.argv[1:], 't:', ['test=','dsl='])
-    print(opts, args) # debug
+    # print(opts, args) # debug
 
     dsl_path = os.getcwd() + '/dsl/'
     dsl_file = dsl_path + 'dsl.txt'

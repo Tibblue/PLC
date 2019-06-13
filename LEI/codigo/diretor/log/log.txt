@@ -734,3 +734,27 @@ Bot: Até à próxima colega.
 
 ---FIM DE CONVERSA---
 
+Bot: Adeus parceiro.
+
+---FIM DE CONVERSA---
+
+Bot: Até à próxima colega.
+
+---FIM DE CONVERSA---
+
+Bot: Adeus!
+
+---FIM DE CONVERSA---
+
+Bot: Passa bem!
+
+---FIM DE CONVERSA---
+
+Bot: Até amanhã!
+
+---FIM DE CONVERSA---
+
+Bot: Até à próxima colega.
+
+---FIM DE CONVERSA---
+
