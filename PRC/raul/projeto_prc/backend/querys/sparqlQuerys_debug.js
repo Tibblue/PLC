@@ -1,4 +1,0 @@
-// QUERYS
-module.exports = {
-
-}
