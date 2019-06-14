@@ -12,7 +12,7 @@
         <v-btn color="indigo darken-2"
           v-if="!this.$session.has('id')"
           @click="login('kiko')"
-        ><h2>Login</h2></v-btn>
+        ><h2>Login / Sign In</h2></v-btn>
         <v-btn flat
           v-if="this.$session.has('id')"
           @click="logout()"

@@ -5,7 +5,7 @@
     </v-toolbar>
     <v-card>
       <v-layout>
-        <v-flex xs3 v-if="this.$session.has('img')">
+        <v-flex xs6 v-if="this.$session.has('img')">
           <v-img :src="this.$session.get('img')"></v-img>
         </v-flex>
         <v-card-text>

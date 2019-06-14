@@ -1,16 +1,14 @@
 <template>
   <v-container>
-    <v-layout>
-      <v-flex xs12>
+    <v-layout my-3>
+      <v-flex xs8 offset-xs2>
         <profile/>
       </v-flex>
     </v-layout>
-    <v-layout>
-      <v-flex xs2/>
-      <v-flex xs8>
+    <v-layout my-3>
+      <v-flex xs8 offset-xs2>
         <profileEdit/>
       </v-flex>
-      <v-flex xs2/>
     </v-layout>
   </v-container>
 </template>
