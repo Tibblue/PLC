@@ -2,7 +2,7 @@
   <v-flex>
     <v-card>
       <v-toolbar dark color="indigo darken-2" flat>
-        <v-flex text-xs-center><h2>Update Profile</h2></v-flex>
+        <v-flex text-xs-center><h2>Edit Profile</h2></v-flex>
       </v-toolbar>
       <v-card-text>
         <p>{{alert}}</p>
@@ -14,21 +14,30 @@
           type="password"
         ></v-text-field> -->
 
-        <v-btn @click="submitBio()"><h2>Update Bio</h2></v-btn>
         <v-text-field
+          clearable
           v-model="bio"
-          box
           label="New Bio"
-          style="min-height: 96px"
         ></v-text-field>
+        <v-layout align-center justify-center fill-height>
+          <v-btn @click="submitBio()"><h2>Edit Bio</h2></v-btn>
+        </v-layout>
 
-        <v-btn @click="submitImage()"><h2>Update Profile Image</h2></v-btn>
         <v-text-field
+          clearable
           v-model="image"
-          box
           label="New Image URL"
-          style="min-height: 96px"
         ></v-text-field>
+        <v-layout align-center justify-center fill-height>
+          <v-btn @click="submitImage()"><h2>Change Profile Image</h2></v-btn>
+        </v-layout>
+
+        <v-layout align-center justify-center fill-height>
+          <v-btn @click="deleteProfile()" color="red">
+            <h2>Delete Profile !!!</h2>
+          </v-btn>
+        </v-layout>
+
       </v-card-text>
     </v-card>
   </v-flex>
@@ -44,6 +53,18 @@
       alert: '' // replace with snackbar for style points
     }),
     methods: {
+      deleteProfile: function () {
+        axios.delete('http://localhost:5011/users/'+this.$session.get('id'))
+          .then(() => {
+            // this.alert = info.data // debug
+            this.$session.clear()
+            this.$router.push('/')
+          })
+          .catch(() => {
+            // this.alert = error // debug
+            this.alert = "Profile delete failed!"
+          })
+      },
       submitBio: function () {
         var newInfo = {
           id: this.$session.get('id'),

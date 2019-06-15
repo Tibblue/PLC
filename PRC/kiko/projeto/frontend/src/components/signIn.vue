@@ -2,7 +2,7 @@
   <v-flex>
     <v-card>
       <v-toolbar dark color="indigo darken-2" flat>
-        <v-flex text-xs-center><h2>Login</h2></v-flex>
+        <v-flex text-xs-center><h2>Sign In</h2></v-flex>
       </v-toolbar>
       <v-card-text>
         <p>{{alert}}</p>
@@ -18,7 +18,7 @@
           type="password"
         ></v-text-field> -->
         <v-layout align-center justify-center fill-height>
-          <v-btn @click="submit()"><h2>Login</h2></v-btn>
+          <v-btn @click="submit()"><h2>Sign In</h2></v-btn>
         </v-layout>
       </v-card-text>
     </v-card>
@@ -31,25 +31,28 @@
   export default {
     data: () => ({
       username: '',
-      password: '',
+      // password: '',
       img: '',
       alert: '' // replace with snackbar for style points
     }),
     methods: {
       submit: function () {
-        axios.get('http://localhost:5011/users/'+this.username)
-          .then(info => {
+        var newUserInfo = {
+          id: this.username,
+          bio: "New User",
+          favoriteAnimes: []
+        }
+        var headers = { headers: { 'Content-Type': 'application/json' }}
+        axios.post('http://localhost:5011/users'
+                  ,newUserInfo,headers)
+          .then(() => {
             // this.alert = info.data // debug
-            this.$session.set('id',info.data.id)
-            this.$session.set('bio',info.data.bio)
-            this.$session.set('fav',info.data.favoriteAnimes)
-            if(info.data.img)
-              this.$session.set('img',info.data.img)
-            this.$router.go(-1)
+            this.alert = "Profile successfully created"
+            // this.$router.go(0)
           })
           .catch(() => {
             // this.alert = error // debug
-            this.alert = "User não existe"
+            this.alert = "New profile failed"
           })
       }
     }

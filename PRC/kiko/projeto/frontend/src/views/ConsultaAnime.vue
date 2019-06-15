@@ -29,14 +29,14 @@
           </v-flex>
           <v-flex xs4>
             <v-card-text class="text-xs-center">
-              <!-- <v-flex xs12 my-4>
-                <v-btn @click="addFav()" color="info">
+              <v-flex xs12 my-4 v-if="this.$session.has('id')">
+                <v-btn v-if="!isFav()" @click="addFav()" color="green">
                   Adicionar aos Favoritos
                 </v-btn>
-                <v-btn @click="remFav()" color="info">
+                <v-btn v-else @click="remFav()" color="red">
                   Remover dos Favoritos
                 </v-btn>
-              </v-flex> -->
+              </v-flex>
               <v-flex xs12 my-4>
                 <h1> Type: {{this.type}} </h1>
                 <h2> Score: {{this.score}} </h2>
@@ -74,9 +74,9 @@
       </v-card>
     </v-flex>
 
-    <v-flex>
+    <v-layout justify-center>
       <v-btn @click="goBack()" color="info">Voltar à página anterior</v-btn>
-    </v-flex>
+    </v-layout>
 
     <!-- <h1> <mark> DEBUG </mark> </h1> -->
     <!-- <h1> ANIME: {{this.idAnime}} </h1> -->
@@ -92,7 +92,6 @@
 <script>
   import cardListAnime from '@/components/cardListAnime'
   import axios from 'axios'
-  const lhost = "http://localhost:4005"
 
   export default {
     components: {
@@ -117,7 +116,7 @@
     mounted: async function (){
       this.idAnime = this.$route.params.id
       try{
-        var response = await axios.get(lhost+'/query/infoBy_id/'+this.idAnime);
+        var response = await axios.get('http://localhost:4005/query/infoBy_id/'+this.idAnime);
         this.animeResponse = response.data.results.bindings
         // console.log(this.animeResponse) // debug
       }
@@ -176,6 +175,58 @@
           id:item.replace(/(GENRE_|PRODUCER_|STUDIO_)/g, ""),
           label:this.fixName(item)
         }
+      },
+      addFav: function() {
+        var newFavs = this.$session.get('fav')
+        newFavs.push(this.idAnime)
+        var newInfo = {
+          id: this.$session.get('id'),
+          bio: this.$session.get('bio'),
+          img: this.$session.get('img'),
+          favoriteAnimes: newFavs
+        }
+        var headers = { headers: { 'Content-Type': 'application/json' }}
+        axios.put('http://localhost:5011/users/'+this.$session.get('id')
+                  ,newInfo,headers)
+          .then(() => {
+            // this.alert = info.data // debug
+            this.$session.set('fav',newFavs)
+            this.$router.go(0)
+          })
+          .catch(() => {
+            // this.alert = error // debug
+            this.alert = "Error adding Anime to Favorite list"
+          })
+      },
+      remFav: function() {
+        var newFavs = this.$session.get('fav')
+        var index = newFavs.indexOf(this.idAnime);
+        newFavs.splice(index, 1)
+        var newInfo = {
+          id: this.$session.get('id'),
+          bio: this.$session.get('bio'),
+          img: this.$session.get('img'),
+          favoriteAnimes: newFavs
+        }
+        var headers = { headers: { 'Content-Type': 'application/json' }}
+        axios.put('http://localhost:5011/users/'+this.$session.get('id')
+                  ,newInfo,headers)
+          .then(() => {
+            // this.alert = info.data // debug
+            this.$session.set('fav',newFavs)
+            this.$router.go(0)
+          })
+          .catch(() => {
+            // this.alert = error // debug
+            this.alert = "Error removing Anime from Favorite list"
+          })
+      },
+      isFav: function() {
+        var newFavs = this.$session.get('fav')
+        var index = newFavs.indexOf(this.idAnime);
+        if( index>-1)
+          return true
+        return false
       },
       goBack: function() {
         this.$router.go(-1)
