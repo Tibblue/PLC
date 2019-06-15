@@ -17,7 +17,7 @@ module.exports = {
       ?id :hasPlayerClass ?playerclass.
       ?id :type ?type.
         OPTIONAL {?id :rarity ?rarity.}
- }limit 500`,
+ }limit 1100`,
   listar_sets: `
 PREFIX : <http://www.semanticweb.org/raulv/ontologies/2019/5/projeto#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

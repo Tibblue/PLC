@@ -1,0 +1,13 @@
+[<div class="weekly-column active" id="2">
+<div class="date">2 Dom </div>
+<img class="weatherImg" title="Céu nublado por nuvens altas"/>
+<span class="tempMin">14</span>
+<span class="tempMax">20 </span>
+<img alt="I. Ultravioleta: 8" class="iuvImg" title="IUV: 8"/>
+</div>, <div class="weekly-column active" id="2">
+<div class="date">3 Seg </div>
+<img class="weatherImg" title="Céu pouco nublado"/>
+<span class="tempMin">12</span>
+<span class="tempMax">25 </span>
+<img alt="I. Ultravioleta: 9" class="iuvImg" title="IUV: 9"/>
+</div>]
