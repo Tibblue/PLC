@@ -3,12 +3,12 @@ import requests
 import subprocess
 
 
-# def getHTML(distrito,concelho):
-#   urlBase = "http://www.ipma.pt/pt/otempo/prev.localidade.hora/#"
-#   composedURL = urlBase + distrito + '&' + concelho
-#   response = requests.get(composedURL).content
-#   soup = BS(response)
-#   return soup
+def getHTML(distrito,concelho):
+  urlBase = "http://www.ipma.pt/pt/otempo/prev.localidade.hora/#"
+  composedURL = urlBase + distrito + '&' + concelho
+  response = requests.get(composedURL).content
+  soup = BS(response)
+  return soup
 
 # x = getHTML('Braga','Barcelos')
 # print(x)

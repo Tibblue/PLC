@@ -6,11 +6,11 @@ def n_gram(texto,n):
     # para palavras
     # texto = texto.split()
     # para caracteres
-    texto = list(texto)
+    # texto = list(texto)
     ngrams = []
     for i in range(len(texto)-(n-1)):
         ngrams.append(texto[i:i+n])
-    return ngrams
+    return len(ngrams)
 
 
 def cal_trigrams(texto):
@@ -18,8 +18,8 @@ def cal_trigrams(texto):
     return ngrams
 
 
-# x = cal_trigrams(texto)
-# print(x)
+x = cal_trigrams(texto)
+print(x)
 
 def fix_word(palavra,texto):
     palavra = list(palavra)
@@ -33,5 +33,5 @@ def fix_word(palavra,texto):
 
     return None
 
-x = fix_word("viv%aas",texto)
-print(x)
+# x = fix_word("viv%aas",texto)
+# print(x)
