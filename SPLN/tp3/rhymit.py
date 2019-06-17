@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup as BS
 import requests
-import subprocess
 import regex as re
 
 def getHTML(palavra):
@@ -17,9 +16,10 @@ def get_content(soup):
 def create_dic(lista_soup):
     dic_rimas = {}
     palavras = []
-    for elem in lista_soup:
-        num_silabas = elem.find('div',{'class':'row wordsBlock'})['n'].split()[0]
-        lista_palavras = elem.find('div',{'class':'row wordsBlock'})
+    # for elem in lista_soup:
+    for i in reversed(range(len(lista_soup))):
+        num_silabas = lista_soup[i].find('div',{'class':'row wordsBlock'})['n'].split()[0]
+        lista_palavras = lista_soup[i].find('div',{'class':'row wordsBlock'})
         # print(lista_palavras)
         for palavra in lista_palavras:
             # print(palavra)
@@ -31,13 +31,13 @@ def create_dic(lista_soup):
                 # palavra = palavra.find('div',{'class':'w'}).get_text()
                 palavras.append(pal)
         dic_rimas[num_silabas] = palavras
-    print(dic_rimas)
-
+    return dic_rimas
 
 def run():
     word = input('')
     soup = getHTML(word)
     lista_soup = get_content(soup)
-    create_dic(lista_soup)
+    dic_rimas = create_dic(lista_soup)
+    print(dic_rimas)
 
 run()

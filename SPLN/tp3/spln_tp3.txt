@@ -1,7 +1,7 @@
 Passo 1:
 - utilziador dá palavras
 Passo 2:
-- scrip para gerar mais palavras
+- scrip para gerar mais  relacionadas
 Passo 3:
 - utilizador escolhe algumas dessas palavras
 Passo 4:
