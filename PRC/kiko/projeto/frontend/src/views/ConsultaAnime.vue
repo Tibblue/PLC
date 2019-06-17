@@ -6,11 +6,13 @@
       <v-card>
         <v-layout>
           <v-flex xs4 ma-3>
-            <v-img
-              class="white--text"
-              contains
-              :src="this.img"
-            />
+            <v-flex xs8 offset-xs2>
+              <v-img
+                class="white--text"
+                contains
+                :src="this.img"
+              />
+            </v-flex>
           </v-flex>
           <v-flex xs4>
             <v-card-text class="text-xs-center">
