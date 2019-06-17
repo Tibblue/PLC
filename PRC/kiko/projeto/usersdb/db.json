@@ -20,8 +20,12 @@
     },
     {
       "id": "satu",
-      "bio": "New User",
-      "favoriteAnimes": []
+      "bio": "BlueChan",
+      "img": "https://media3.giphy.com/media/yy1rPT45jdX1K/giphy.gif",
+      "favoriteAnimes": [
+        "ANIME_22199_Akame_ga_Kill_",
+        "ANIME_16498_Shingeki_no_Kyojin"
+      ]
     }
   ]
 }
