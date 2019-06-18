@@ -22,7 +22,6 @@ def getHTML_error(word):
   soup = BS(response,'html.parser')
   return soup
 
-
 # limtia o conteudo conteúdo recebido
 def get_content(soup):
   lista_soup = []
@@ -36,9 +35,11 @@ def get_content(soup):
   else:
     palavra_erro = soup.find('div',{'class':'search'}).input['value']
     soup = getHTML_error(palavra_erro)
-    palavra_rec = soup.find('div',{'class':'quisdizer'}).a.string
-    soup = getHTML(palavra_rec)
-    lista_soup = get_content(soup)
+    palavra_rec = soup.find('div',{'class':'quisdizer'})
+    if palavra_rec is not None:
+      palavra_rec = palavra_rec.a.string
+      soup = getHTML(palavra_rec)
+      lista_soup = get_content(soup)
   return lista_soup
 
 # concatena as palavras relacionadas numa lsita
@@ -48,7 +49,6 @@ def palavras_relacionadas(lista_soup):
     palavra = elem.string
     palavras_rel.append(palavra)
   return palavras_rel
-
 
 # gera a dic com as palavras e a sua lista de palavras relacionadas
 def gera_palavras(words):
@@ -60,23 +60,6 @@ def gera_palavras(words):
       palavras_rel = palavras_relacionadas(lista_soup)
       dic_rel[word] = palavras_rel
   return dic_rel
-
-# def gera_palavras_testing():
-#   dic_rel = {}
-#   words = input('')
-#   words = words.split()
-#   for word in words:
-#     soup = getHTML(word)
-#     lista_soup = get_content(soup)
-#     print(lista_soup)
-#     if lista_soup is not None:
-#       palavras_rel = palavras_relacionadas(lista_soup)
-#       dic_rel[word] = palavras_rel
-#   return dic_rel
-
-
-# palavras a ajeitar
-# olá
 
 if __name__ == "__main__":
   x = gera_palavras()
