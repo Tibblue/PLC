@@ -8,17 +8,26 @@ def getHTML(word):
   soup = BS(response,'html.parser')
   return soup
 
+def getHTML_error(word):
+  urlBase = "https://www.lexico.pt/pesquisa.php?q="
+  composedURL = urlBase + word
+  response = requests.get(composedURL).content
+  soup = BS(response,'html.parser')
+  return soup
 
 def get_content(soup):
   lista_soup = []
   erro = soup.find('h1',{'class':'card-title'})
-  print(erro)
+  # print(erro)
   if erro is None:
     lista_soup = soup.find('div',{'class':'words'})
     lista_soup = lista_soup.find_all('a')
   else:
-    # tratar do plurais, fazer o redereciona,mento á pata
-    # https://www.lexico.pt/pesquisa.php?q=carros
+    palavra_erro = soup.find('div',{'class':'search'}).input['value']
+    soup = getHTML_error(palavra_erro)
+    palavra_rec = soup.find('div',{'class':'quisdizer'}).a.string
+    soup = getHTML(palavra_rec)
+    lista_soup = get_content(soup)
   return lista_soup
 
 
@@ -31,12 +40,17 @@ def palavras_relacionadas(lista_soup):
 
 
 def run():
-    # word = input('')
-    word = 'carros'
+  dic_rel = {}
+  words = input('')
+  words = words.split()
+  for word in words:
     soup = getHTML(word)
-    print(soup)
     lista_soup = get_content(soup)
-    # palavras_rel = palavras_relacionadas(lista_soup)
+    palavras_rel = palavras_relacionadas(lista_soup)
     # print(palavras_rel)
+    dic_rel[word] = palavras_rel
+  return dic_rel
 
-run()
+if __name__ == "__main__":
+  x = run()
+  print(x)

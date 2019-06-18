@@ -14,7 +14,7 @@ def get_content(soup):
     return lista_soup
 
 def create_dic(lista_soup):
-    dic_rimas = {}
+    dic = {}
     palavras = []
     # for elem in lista_soup:
     for i in reversed(range(len(lista_soup))):
@@ -30,14 +30,20 @@ def create_dic(lista_soup):
 
                 # palavra = palavra.find('div',{'class':'w'}).get_text()
                 palavras.append(pal)
-        dic_rimas[num_silabas] = palavras
-    return dic_rimas
+        dic[num_silabas] = palavras
+    return dic
 
 def run():
-    word = input('')
+  dic_rimas = {}
+  words = input('')
+  words = words.split()
+  for word in words:
     soup = getHTML(word)
     lista_soup = get_content(soup)
-    dic_rimas = create_dic(lista_soup)
-    print(dic_rimas)
+    dic = create_dic(lista_soup)
+    dic_rimas[word] = dic
+  return dic_rimas
 
-run()
+if __name__ == "__main__":
+  x = run()
+  print(x)
