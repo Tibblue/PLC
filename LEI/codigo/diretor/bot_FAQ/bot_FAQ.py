@@ -10,12 +10,7 @@ def save_json(path_faq):
 
 # retorna o conteudo do json
 def busca_faq(nome_faq):
-    # paths só para testing individual
-    # path_faq = os.path.dirname(os.getcwd()) + '/data/' + nome_faq
-
-    # path geral
     path_faq = os.getcwd() + '/data/' + nome_faq
-
     # guarda o conteudo do ficheiro json com o schema
     faq = save_json(path_faq)
     return faq
@@ -32,7 +27,6 @@ def conta_keywords(mensagem_limpa,pergunta_limpa):
     for palavra in pergunta_limpa:
         if palavra in mensagem_limpa.lower():
             count_keys += 1
-    # print(count_keys)
     return count_keys
 
 def calcula_ratio(count_keys,mensagem_limpa):
@@ -50,12 +44,8 @@ def responde(mensagem,nome_faq):
 
     if mensagem is "":
       return None,ratio
-    # print(faq)
     mensagem_limpa = limpa_texto(mensagem)
     mensagem_limpa_str = ' '.join(mensagem_limpa)
-    # print(mensagem_limpa)
-    # print(len(mensagem_limpa))
-
     lista_faq = (faq['FAQ'])
     for faq in lista_faq:
         perguntas = faq['perguntas']
@@ -63,16 +53,6 @@ def responde(mensagem,nome_faq):
         for pergunta in perguntas:
             pergunta_limpa = limpa_texto(pergunta)
             count_keys = conta_keywords(mensagem_limpa_str,pergunta_limpa)
-            # print(pergunta_limpa,count_keys)
-            # ratio = calcula_ratio(count_keys,mensagem_limpa)
-            # print(ratio)
             if count_keys == len(mensagem_limpa):
                 lista_respostas.append(resposta)
-    # print(lista_respostas)
-    # print(choice(lista_respostas))
-    # (resposta,ratio) = choice(lista_respostas)
     return choice(lista_respostas),ratio
-
-# resposta, ratio = responde('O que sabes sobre a SEI?','FAQ_SEI.json')
-# print(resposta,ratio)
-

@@ -10,7 +10,6 @@ from .listaLinguas import *
 # traduz uma dada palavra para uma dada linguagem
 def traduz(palavra,linguagem,ficheiro):
     abrevLinguagem = linguas.get(removeAccents(linguagem).lower())
-    # print(abrevLinguagem) # debug
     if abrevLinguagem is not None:
         dict = verifica_dicionario(palavra,abrevLinguagem,ficheiro)
         cache = verifica_cache(palavra,abrevLinguagem)
@@ -96,7 +95,6 @@ def talk():
 
 ##### MAIN #####
 def main(options):
-    # print(options) # debug
     if '-h' in options:
         print_help()
     elif '-x' in options:
@@ -120,8 +118,6 @@ if __name__ == "__main__": # corre quando é o ficheiro principal
         long_opts = ['help','exec','rules']
         options, remainder = getopt.getopt(sys.argv[1:],short_opts,long_opts)
         options = dict(options) # options = [(option, argument)]
-        # print(options)
-        # print(remainder) # argumentos introduzidos que nao faziam sentido
         if remainder:
             print('Too many args')
             sys.exit(1)

@@ -9,9 +9,5 @@ def main(argv):
     stream = CommonTokenStream(lexer)
     parser = gramaticaParser(stream)
     tree = parser.dsl()
-    # print(lexer)
-    # print(stream)
-    # print(parser)
-    # print(tree)
 
 main(sys.argv)

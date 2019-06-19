@@ -42,14 +42,9 @@ def responde_test(ficheiro,tuplos,estados):
 
 def responde(input_utilizador,tuplos,estados):
     lista_respostas = []
-    # print(estados)
-    # print(estados)
     global state_atual
-    # print('Estado antes: ',state_atual)
-
     state_anterior = state_atual
     state_atual = altera_estados(input_utilizador,estados,state_atual)
-    # print('Estado apos: ',state_atual)
 
     # para casos especiais em que há alteração de estado
     if state_anterior != state_atual:
@@ -71,13 +66,11 @@ def responde(input_utilizador,tuplos,estados):
                                 if resposta is not None:
                                     if ratio > 1: ratio = 1
                                     confianca = trunc((prioridade_bot + prioridade_regra) * ratio)
-                                    # print("confiança: ", confianca)
                                     tuplo = tuple((resposta,confianca,bot))
                                     lista_respostas.append(tuplo)
                             except:
                                 pass
         lista_respostas.sort(key=itemgetter(1),reverse=True)
-        # print("\nlista_respostas: ",lista_respostas)
         if lista_respostas:
             return lista_respostas[0][0]
         else:
@@ -85,9 +78,6 @@ def responde(input_utilizador,tuplos,estados):
                 if state_atual == estado_check:
                     resposta = funcao_estado()
                     return resposta
-
-        # sugerir uma adivinha
-        #
         return random.choice(clueless)
 
 def conversa(tuplos,estados):
@@ -105,7 +95,6 @@ def conversa(tuplos,estados):
 
 def main():
     opts, args = getopt.getopt(sys.argv[1:], 't:', ['test=','dsl='])
-    # print(opts, args) # debug
 
     dsl_path = os.getcwd() + '/dsl/'
     dsl_file = dsl_path + 'dsl.txt'

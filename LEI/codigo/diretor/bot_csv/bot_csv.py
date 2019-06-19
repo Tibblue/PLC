@@ -208,26 +208,20 @@ def responde(mensagem,schema,csv):
 
     # divide a questao do resto da frase e retorna os valores
     questao,resto_frase = procura_mensagem(mensagem)
-    # print("questao: "+ questao)
-    # print("resto_frase: " + resto_frase)
 
     # vai verificar se a coluna está especifica na mensagem
     coluna_obj = verifica_existe_coluna(resto_frase,colunas)
-    # print("coluna_obj: "+coluna_obj)
 
-    # tuplo com o nome da colunas e os respetivos sinonimos do chema
+    # tuplo com o nome da colunas e os respetivos sinonimos do schema
     tuplos_coluna_sinonimos = busca_sinonimos_schema(schema,colunas)
 
     if coluna_obj is "":
         # verificar se por acaso não existe algum sinonimo das colunas na frase
         coluna_obj = verifica_sinonimos_mensagem(tuplos_coluna_sinonimos,resto_frase)
-        # print("coluna_obj (a partir do sinonimo): " + str(coluna_obj))
 
     # vai descobrir qual é o tipo da questao e o tipo da coluna_obj
     if coluna_obj:
         tipo_questao,tipo_coluna_obj = verifica_tipo_nome_coluna(coluna_obj,questao,schema)
-        # print("tipo_questao: "    + tipo_questao)
-        # print("tipo_coluna_obj: " + tipo_coluna_obj)
 
     # caso a coluna esteja especificada na mensagem
     if coluna_obj is not "" and not(tipo_questao is not 'Objeto' and tipo_questao != tipo_coluna_obj):
@@ -236,9 +230,7 @@ def responde(mensagem,schema,csv):
     # caso a coluna não esteja espeficiada na mensagem
     else:
         tipo_questao = busca_tipo_questao(questao)
-        # print("tipo_questao: " + tipo_questao)
         lista_colunas_obj = busca_colunas_tipo_especifico(schema,tipo_questao,colunas)
-        # print("lista_colunas_obj: " + str(lista_colunas_obj))
         lista_respostas = respond_missing_arg(colunas,lista_colunas_obj,resto_frase,valores_csv)
         resposta = trata_resultado(lista_respostas)
 
@@ -246,25 +238,3 @@ def responde(mensagem,schema,csv):
         resposta = None
 
     return resposta,ratio
-
-# resposta,ratio = responde("Em que dia é a informática em portugal","agenda_SEI_schema.json","agenda_SEI.csv")
-# print(resposta)
-
-# while(True):
-#     x = input(":")
-#     # resposta = responde("Quando é a informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde(" dia é a em que informática em portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Quais são os oradores da Informática em Portugal?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Quais são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("A sessão de abertura é onde?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Onde são as atividades do tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Quem são os oradores da Mobile and web rapid application development with OutSystemsk?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Quando é o início da sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Qual é a descrição da sessão que tem como tipo social?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Em que complexo é a sessão de abertura?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     # resposta = responde("Quais são as sessões talk?","agenda_SEI_schema.json","agenda_SEI.csv")
-#     resposta = responde(x,"agenda_SEI_schema.json","agenda_SEI.csv")
-
-
-#     print('\nResposta:')
-#     print(resposta)

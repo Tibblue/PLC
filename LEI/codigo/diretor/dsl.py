@@ -7,10 +7,8 @@ from get_regras import get_regras
 def read_dsl(ficheiro):
     triplos = []
     estados = []
-
     content = open(ficheiro).read().split('\n')
     for linha in content:
-        # print(linha)
         linha = linha.split(' ')
         if 'STATES'==linha[0]:
             estados = linha[1:]
@@ -26,11 +24,7 @@ def read_dsl(ficheiro):
                     datasets.append(linha[i+1])
         if datasets != [] and bot != []:
             triplo = tuple((bot,datasets,prioridade_bot))
-            # print(triplo)
             triplos.append(triplo)
-
-    # print(estados)
-    # print(triplos)
     return triplos,estados
 
 def validate_dsl(ficheiro):
@@ -39,11 +33,8 @@ def validate_dsl(ficheiro):
             stderr=subprocess.STDOUT)
     stdout,stderr = MyOut.communicate()
     stdout_decode = stdout.decode('utf-8')
-    # print(stdout) # debug
-    # print(stdout_decode) # debug
-    # print(stderr) # debug
     if(stdout_decode is not ''):
-        print("DSL está mal estruturada. Por Favor corriga-a para continuar.\n")
+        print("DSL está mal estruturada. Por Favor corrige-a para continuar.\n")
         print("Erro:")
         print(stdout_decode)
         return False

@@ -10,6 +10,3 @@ def altera_estados(input_utilizador,estados,state_atual):
                 if match is not None:
                     state_atual = funcao()
     return state_atual
-
-# state = altera_estados('tu és burro')
-# print('Estado: ',state)
