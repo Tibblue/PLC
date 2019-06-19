@@ -1,5 +1,4 @@
 import os,json
-import nltk
 import regex as re
 from random import choice
 
