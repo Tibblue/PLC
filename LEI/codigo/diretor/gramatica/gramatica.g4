@@ -11,17 +11,14 @@ dataset: STRING '.' FILE_TYPE ;
 
 ///////////////////////////////////////////////////////////////////////////////
 
-BOT_TYPE: 'bot_csv' | 'bot_lista' | 'bot_wiki'
-        | 'bot_QA' | 'bot_exp' | 'bot_FAQ'
-        | 'bot_tradutor';
+BOT_TYPE: 'bot_csv' | 'bot_lista' | 'bot_wiki' | 'bot_QA'
+        | 'bot_exp' | 'bot_FAQ' | 'bot_tradutor';
 FILE_TYPE: 'csv' | 'txt' | 'json' ;
 STATE: 'CHATEADO' | 'INFORMATIVO' ;
 
 PRIORIDADE: '!'[0-5] ;
 
 STRING: [a-zA-Z0-9_\-]+ ;
-
-fragment DIGITO: [0-9] ;
 
 NEWLINE:  '\r'? '\n' ;
 WS:       [ \t]+ -> skip ;
