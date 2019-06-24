@@ -17,20 +17,19 @@ def get_content(soup):
     return lista_soup
 
 # cria a dic com uma palavra
-def create_dic(lista_soup):
-    dic = {}
+def create_dic(word,lista_soup):
+  dic = {}
+  for i in reversed(range(len(lista_soup))):
     palavras = []
-    for i in reversed(range(len(lista_soup))):
-        num_silabas = lista_soup[i].find('div',{'class':'row wordsBlock'})['n'].split()[0]
-        lista_palavras = lista_soup[i].find('div',{'class':'row wordsBlock'})
-        for palavra in lista_palavras:
-            palavra = str(palavra)
-            match = re.search(r'<div class="w">(.*)<\/div>',palavra)
-            if match is not None:
-                pal = match.group(1)
-                palavras.append(pal)
-        dic[num_silabas] = palavras
-    return dic
+    num_silabas = lista_soup[i].find('div',{'class':'row wordsBlock'})['n'].split()[0]
+    lista_palavras = lista_soup[i].find('div',{'class':'row wordsBlock'})
+    for html_palavra in lista_palavras:
+        palavra = html_palavra.string
+        if word != palavra:
+          palavras.append(palavra)
+    if palavras:
+      dic[num_silabas] = palavras
+  return dic
 
 # cria a dic com as dic das palavras
 def gera_palavras(words):
@@ -38,23 +37,24 @@ def gera_palavras(words):
   for word in words:
     soup = getHTML(word)
     lista_soup = get_content(soup)
-    dic = create_dic(lista_soup)
+    dic = create_dic(word,lista_soup)
     dic_rimas[word] = dic
   return dic_rimas
 
 # cria a dic com as dic das palavras
 def gera_palavras_testing():
   dic_rimas = {}
-  words = input('')
+  # words = input('')
+  words = 'sangue'
   words = words.split()
   for word in words:
     soup = getHTML(word)
     lista_soup = get_content(soup)
-    dic = create_dic(lista_soup)
+    dic = create_dic(word,lista_soup)
     dic_rimas[word] = dic
   return dic_rimas
 
 
 if __name__ == "__main__":
-  x = gera_palavras()
+  x = gera_palavras_testing()
   print(x)

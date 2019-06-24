@@ -7,7 +7,7 @@ def getHTML(word):
   urlBase = "https://www.lexico.pt/"
   word = unidecode.unidecode(word)
   composedURL = urlBase + word +"/"
-  print(composedURL)
+  # print(composedURL)
   response = requests.get(composedURL).content
   soup = BS(response,'html.parser')
   return soup
@@ -17,7 +17,7 @@ def getHTML_error(word):
   urlBase = "https://www.lexico.pt/pesquisa.php?q="
   composedURL = urlBase + word
   word = unidecode.unidecode(word)
-  print(composedURL)
+  # print(composedURL)
   response = requests.get(composedURL).content
   soup = BS(response,'html.parser')
   return soup

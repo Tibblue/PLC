@@ -758,3 +758,31 @@ Bot: Até à próxima colega.
 
 ---FIM DE CONVERSA---
 
+User: Como se diz carro em inglês?
+Bot: A tradução de carro é car.
+User: Como se diz peixe em inglês?
+Bot: A tradução de peixe é fish.
+Bot: Até logo!
+
+---FIM DE CONVERSA---
+
+Bot: Adeus parceiro.
+
+---FIM DE CONVERSA---
+
+User: batatas
+Bot: Tens a certeza que sabes falar português?!
+User: lobo
+Bot: Quem não quer ser lobo não lhe (veste|vista) a pele
+User: quando é a SEI?
+Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
+Bot: Passa bem!
+
+---FIM DE CONVERSA---
+
+User: ola
+Bot: Saudações! Como vai isso?
+Bot: Adeus parceiro.
+
+---FIM DE CONVERSA---
+
