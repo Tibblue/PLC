@@ -5,6 +5,7 @@ import lexico as lex
 import getopt,sys
 import sys
 import regex as re
+import argparse
 
 output = None
 
@@ -79,19 +80,26 @@ def run_file(words,nrel,nrima):
     palavras_rimas.append(word)
   dic_rimas = rhy.gera_palavras(palavras_rimas)
   lista_rimas = pick_rimas(dic_rimas,nrima)
-  output.write("\nRimas:\n"+lista_rimas)
+  output.write("\nRimas:\n"+lista_rimas+'\n')
 
 def main():
-  opts, remainder = getopt.getopt(sys.argv[1:], 'n:r:o:', [])
-  dict_opts = dict(opts)
-  print(opts)
-  print(remainder)
+  parser = argparse.ArgumentParser()
+  parser.add_argument('-r','--rel', type=int,help='Número de palavras relacionadas')
+  parser.add_argument('-n','--rima', type=int,help='Número de rimas')
 
-  nrel = dict_opts.get('-n',3)
-  nrima = dict_opts.get('-r',5)
+  # args = parser.parse_args()
+  # print(args)
+  args = vars(parser.parse_args())
+  print(args)
 
+  nrel = args.get('rel')
+  nrima = args.get('rima')
+  if nrel is None: nrel = 3
+  if nrima is None: nrima = 5
+  print(nrel)
+  print(nrima)
   global output
-  out = dict_opts.get('-o',None)
+  # out = dict_opts.get('-o',None)
 
   # stdout ou file
   if out:
