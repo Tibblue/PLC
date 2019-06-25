@@ -5,17 +5,24 @@ import lexico as lex
 
 # escolhe algumas palavras relacinadas do dicionario
 def pick_relacionadas(dic_rel):
-  novas_palavras  = []
+  result = []
   for word in dic_rel.keys():
+    novas_palavras  = []
+    novas_palavras.append(word+": ")
     palavras = " ".join(dic_rel[word][0:4])
-    novas_palavras.append(word)
+    # novas_palavras.append(dic_rel[word][0:4])
     novas_palavras.append(palavras)
-  novas_palavras = " ".join(novas_palavras)
-  return novas_palavras
+    novas_palavras = " ".join(novas_palavras)
+    result.append(novas_palavras)
+  result = "\n".join(result)
+  return result
 
 def pick_rimas(dic_rimas):
-  lista_rimas = []
+  result = []
   for palavra in dic_rimas.keys():
+    lista_rimas = []
+    pal_cap = palavra.capitalize()
+    lista_rimas.append(pal_cap+": ")
     dic_rimas_palavra = dic_rimas.get(palavra)
     for silaba in dic_rimas_palavra.keys():
       rima = choice(dic_rimas_palavra.get(silaba))
@@ -24,8 +31,10 @@ def pick_rimas(dic_rimas):
         rima2 = choice(dic_rimas_palavra.get(silaba))
         lista_rimas.append(rima2)
       lista_rimas.append(rima)
-  lista_rimas = " ".join(lista_rimas)
-  return lista_rimas
+    lista_rimas = " ".join(lista_rimas)
+    result.append(lista_rimas)
+  result = "\n".join(result)
+  return result
 
 def run():
   palavras_rimas = []
@@ -36,8 +45,8 @@ def run():
   dic_rel = lex.gera_palavras(words)
   # print(dic_rel)
   novas_palavras = pick_relacionadas(dic_rel)
-  print(novas_palavras)
-  print('Escolha algumas das palavras apresentadas.')
+  print("\nPalavras relacionadas\n"+novas_palavras)
+  print('\nEscolha algumas das palavras apresentadas.')
   words = input('')
   # words = 'cinema cantina astro noite'
   # words = 'noite naziz grosso cinema'
@@ -50,10 +59,7 @@ def run():
   dic_rimas = rhy.gera_palavras(palavras_rimas)
   # print(dic_rimas)
   lista_rimas = pick_rimas(dic_rimas)
-  print(lista_rimas)
-
-  # x = rhy.gera_palavras(words)
-
+  print("\nRimas\n"+lista_rimas)
 
 
 if __name__ == "__main__":
