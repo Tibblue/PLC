@@ -4,6 +4,11 @@ path_insultos = os.getcwd() + '/data/insultos.txt'
 insultos = open(path_insultos).read().split('\n')
 insultos_exp_reg = '|'.join(insultos)
 
+despedidas = [
+    "Adeus parceiro.", "Até logo!", "Até à próxima colega.", "Foi um prazer!",
+    "Adeus!", "Até amanhã!", "Passa bem!",
+]
+
 clueless = [
     "Não estou a perceber nada...", "Fala-me português!", "O quê?", "Tens a certeza que sabes falar português?!",
     "Andaste a beber?!", "Estás a gozar comigo?!", "Repete lá isso de forma que eu entenda."
