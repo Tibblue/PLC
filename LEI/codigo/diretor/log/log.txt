@@ -582,11 +582,11 @@ User: estou
 Bot: A SEI realiza-se no campus de Gualtar da Universidade do Minho.
 User: estou
 Bot: A SEI realiza-se no início do segundo semestre.
-User: 
+User:
 Bot: Estás a gozar comigo?!
-User: 
+User:
 Bot: Repete lá isso de forma que eu entenda.
-User: 
+User:
 Bot: Andaste a beber?!
 User: es lindo
 Bot: Quem ama o feio, lindo não lhe aparece
@@ -606,7 +606,7 @@ User: filho da puta
 Bot: O pai impertinente, faz o filho desobediente
 User: puta
 Bot: Depois da tempestade, vem a puta da gripe!
-User: 
+User:
 Bot: Andaste a beber?!
 User: foder
 Bot: Deitar cedo e cedo erguer, só se for para foder
@@ -634,7 +634,7 @@ User: sim sim
 Bot: Mais vale o sim tardio, que o não vazio
 User: nao
 Bot: Andaste a beber?!
-User: 
+User:
 Bot: Andaste a beber?!
 User: nao
 Bot: Fala-me português!
