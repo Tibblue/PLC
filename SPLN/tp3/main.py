@@ -83,22 +83,30 @@ def run_file(words,nrel,nrima):
   output.write("\nRimas:\n"+lista_rimas+'\n')
 
 def main():
+  global output
   parser = argparse.ArgumentParser()
   parser.add_argument('-r','--rel', type=int,help='Número de palavras relacionadas')
   parser.add_argument('-n','--rima', type=int,help='Número de rimas')
+  parser.add_argument('-o','--output', type=str,help='Ficheiro de output')
+  parser.add_argument('input',help='Ficheiro de input')
 
-  # args = parser.parse_args()
-  # print(args)
   args = vars(parser.parse_args())
   print(args)
 
-  nrel = args.get('rel')
-  nrima = args.get('rima')
-  if nrel is None: nrel = 3
-  if nrima is None: nrima = 5
-  print(nrel)
-  print(nrima)
-  global output
+  if args['rel'] is None: nrel = 3
+  else: nrel = args['rel']
+
+  if args['rima'] is None: nrima = 5
+  else: nrima = args['rima']
+
+  if args['output'] is None: out = None
+  else: out = args['output']
+
+  print("rel: "+str(nrel))
+  print("rima: " + str(nrima))
+  print("out: " + str(out))
+  # print("inp:" +str(inp))
+
   # out = dict_opts.get('-o',None)
 
   # stdout ou file
@@ -108,8 +116,8 @@ def main():
     output = sys.stdout
 
   # stdind ou file
-  if remainder:
-    words = open(remainder[0]).read()
+  if out:
+    # words = open(out).read()
     run_file(words,nrel,nrima)
   else:
     run_stdin(nrel,nrima,out)

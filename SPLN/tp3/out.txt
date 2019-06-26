@@ -1,9 +1,0 @@
-
-Relacionadas
-casa:  lar mansão morada
-carro:  automóvel carruagem coche
-
-Rimas
-morada:  amigada baleada cerrada amornada abada
-carro:  desamarro esbarro desgarro miniautocarro agarro
-casa:  embasa jaza brasa compraza contra-asa
