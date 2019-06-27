@@ -16,3 +16,9 @@ Use WordNet or similar knowledge bases and rhyming dictionaries.
 * [lexico.py](lexico.py) - Ficheiro com funções auxiliares ao `main.py`, que serve para ir buscar sinónimos de palavras.
 * [rhymit.py](rhymit.py) - Ficheiro com funções auxiliares ao `main.py`, que serve para ir buscar rimas de palavras.
 * [input.txt](input.txt) & [out.txt](out.txt) - Ficheiros de teste.
+
+## Executar
+
+Correr `python3 main.py`
+
+Se necessario adicionar flags.
