@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup as BS
 import requests
-import regex as re
 
 
 # retorna o conteúdo html da página
@@ -53,5 +52,6 @@ def gera_palavras_testing():
 
 
 if __name__ == "__main__":
+  # x = gera_palavras(["panado"])
   x = gera_palavras_testing()
   print(x)

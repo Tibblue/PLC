@@ -62,5 +62,5 @@ def gera_palavras(words):
   return dic_rel
 
 if __name__ == "__main__":
-  x = gera_palavras()
+  x = gera_palavras(["teste"])
   print(x)
