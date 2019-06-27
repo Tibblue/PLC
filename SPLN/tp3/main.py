@@ -70,6 +70,7 @@ def run_stdin(nrel,nrima,out):
 
 # correr quando se usar um ficheiro
 def run_file(words,nrel,nrima):
+  output.write(words+'\n')
   palavras_rimas = []
   words = words.split()
   dic_rel = lex.gera_palavras(words)
@@ -87,11 +88,10 @@ def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('-r','--rel', type=int,help='Número de palavras relacionadas')
   parser.add_argument('-n','--rima', type=int,help='Número de rimas')
+  parser.add_argument('-i','--input',type=str,help='Ficheiro de input')
   parser.add_argument('-o','--output', type=str,help='Ficheiro de output')
-  parser.add_argument('input',help='Ficheiro de input')
 
   args = vars(parser.parse_args())
-  print(args)
 
   if args['rel'] is None: nrel = 3
   else: nrel = args['rel']
@@ -99,15 +99,11 @@ def main():
   if args['rima'] is None: nrima = 5
   else: nrima = args['rima']
 
+  if args['input'] is None: inp = None
+  else: inp = args['input']
+
   if args['output'] is None: out = None
   else: out = args['output']
-
-  print("rel: "+str(nrel))
-  print("rima: " + str(nrima))
-  print("out: " + str(out))
-  # print("inp:" +str(inp))
-
-  # out = dict_opts.get('-o',None)
 
   # stdout ou file
   if out:
@@ -116,8 +112,8 @@ def main():
     output = sys.stdout
 
   # stdind ou file
-  if out:
-    # words = open(out).read()
+  if inp:
+    words = open(inp).read()
     run_file(words,nrel,nrima)
   else:
     run_stdin(nrel,nrima,out)
