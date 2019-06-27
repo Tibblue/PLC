@@ -52,6 +52,7 @@ def ajeita_palavras(novas_palavras):
 # correr quando se usar o stdin
 def run_stdin(nrel,nrima,out):
   palavras_rimas = []
+  output.write("Escreva algumas palavras.\n")
   words = input('')
   words = words.split()
   dic_rel = lex.gera_palavras(words)
@@ -64,7 +65,6 @@ def run_stdin(nrel,nrima,out):
   dic_rimas = rhy.gera_palavras(words2)
   lista_rimas = pick_rimas(dic_rimas,nrima)
   output.write("\nRimas\n"+lista_rimas+'\n')
-
 
 # correr quando se usar um ficheiro
 def run_file(words,nrel,nrima):

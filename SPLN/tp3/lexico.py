@@ -7,7 +7,6 @@ def getHTML(word):
   urlBase = "https://www.lexico.pt/"
   word = unidecode.unidecode(word)
   composedURL = urlBase + word +"/"
-  # print(composedURL)
   response = requests.get(composedURL).content
   soup = BS(response,'html.parser')
   return soup
@@ -22,7 +21,7 @@ def getHTML_error(word):
   soup = BS(response,'html.parser')
   return soup
 
-# limtia o conteudo conteúdo recebido
+# limita o conteudo conteúdo recebido
 def get_content(soup):
   lista_soup = []
   erro = soup.find('h1',{'class':'card-title'})
@@ -62,5 +61,7 @@ def gera_palavras(words):
   return dic_rel
 
 if __name__ == "__main__":
-  x = gera_palavras(["teste"])
+  palavras = input()
+  palavras = palavras.split()
+  x = gera_palavras(palavras)
   print(x)
