@@ -12,7 +12,7 @@ Use WordNet or similar knowledge bases and rhyming dictionaries.
 
 ## Código
 
-* [main.py](main.py) -
+* [main.py](main.py) - Ficheiro principal.
 * [lexico.py](lexico.py) - Ficheiro com funções auxiliares ao `main.py`, que serve para ir buscar sinónimos de palavras.
 * [rhymit.py](rhymit.py) - Ficheiro com funções auxiliares ao `main.py`, que serve para ir buscar rimas de palavras.
-* [main.py](main.py) -
+* [input.txt](input.txt) & [out.txt](out.txt) - Ficheiros de teste.

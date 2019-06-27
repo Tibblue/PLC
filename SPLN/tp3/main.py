@@ -2,10 +2,8 @@
 from random import choice
 import rhymit as rhy
 import lexico as lex
-import getopt,sys
-import sys
+import argparse, sys
 import regex as re
-import argparse
 
 output = None
 
