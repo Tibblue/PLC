@@ -37,21 +37,6 @@ def gera_palavras(words):
     dic_rimas[word] = dic
   return dic_rimas
 
-# cria a dic com as dic das palavras
-def gera_palavras_testing():
-  dic_rimas = {}
-  # words = input('')
-  words = 'casa água'
-  words = words.split()
-  for word in words:
-    soup = getHTML(word)
-    lista_soup = get_content(soup)
-    palavras = create_dic(word,lista_soup)
-    dic_rimas[word] = palavras
-  return dic_rimas
-
-
 if __name__ == "__main__":
-  # x = gera_palavras(["panado"])
-  x = gera_palavras_testing()
+  x = gera_palavras(["astro","noite"])
   print(x)
