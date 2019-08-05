@@ -1,4 +1,0 @@
-!3 CREATE bot_exp FROM saudacoes.json
-!3 CREATE bot_exp FROM despedidas.json
-
-STATES CHATEADO INFORMATIVO
