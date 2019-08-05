@@ -1,7 +1,0 @@
-setup.py
-spln_elastic/__init__.py
-spln_elastic/utils.py
-spln_elastic.egg-info/PKG-INFO
-spln_elastic.egg-info/SOURCES.txt
-spln_elastic.egg-info/dependency_links.txt
-spln_elastic.egg-info/top_level.txt

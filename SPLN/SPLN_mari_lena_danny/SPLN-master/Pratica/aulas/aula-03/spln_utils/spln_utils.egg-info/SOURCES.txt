@@ -1,7 +1,0 @@
-setup.py
-spln_utils/__init__.py
-spln_utils/paragraphs.py
-spln_utils.egg-info/PKG-INFO
-spln_utils.egg-info/SOURCES.txt
-spln_utils.egg-info/dependency_links.txt
-spln_utils.egg-info/top_level.txt
